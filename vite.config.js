@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: "/",
+  base: "/element-data-sharing",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
