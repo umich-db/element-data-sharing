@@ -31,3 +31,4 @@ coverage
 
 env/
 database/example.db
+public/example.db
