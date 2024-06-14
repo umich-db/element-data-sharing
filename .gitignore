@@ -29,5 +29,5 @@ coverage
 
 *.tsbuildinfo
 
-env
+env/
 database/example.db
