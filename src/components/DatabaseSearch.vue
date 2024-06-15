@@ -61,13 +61,6 @@ onMounted(() => {
 </script>
 
 <template>
-<<<<<<< HEAD
-    <h> 
-    SQL.js FTS5 in VUE!!
-    </h>
-=======
-  <div>
-  <h1>SQL.js FTS5 in VUE!!!!</h1>
   <div>
     <h2>Variable Name Search Results: for '{{  keywordName }}'</h2>
     <ul>
@@ -88,6 +81,4 @@ onMounted(() => {
       </li>
     </ul>
   </div>
-  </div>
->>>>>>> d3149723cf755b7780c848fa63f3218b6ff75bae
 </template>

@@ -1,4 +1,6 @@
 <script setup>
+import DatabaseSearch from './DatabaseSearch.vue'
+
 defineProps({
   title: {
     type: String,
@@ -8,7 +10,16 @@ defineProps({
 </script>
 
 <template>
-  <h2>{{ title }}</h2>
+  <div class="container">
+    <h2>{{ title }}</h2>
+    <DatabaseSearch />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+</style>
