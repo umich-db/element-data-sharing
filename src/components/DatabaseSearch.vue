@@ -62,6 +62,7 @@ onMounted(() => {
 
 <template>
   <div>
+  <div>
     <h2>Variable Name Search Results: for '{{  keywordName }}'</h2>
     <ul>
       <li v-for="(result, index) in variableNameResults" :key="index">
@@ -80,5 +81,6 @@ onMounted(() => {
         Dataset: {{ result[2] }}
       </li>
     </ul>
+  </div>
   </div>
 </template>

@@ -34,3 +34,27 @@ npm run build
 npm run lint
 ```
 
+# database setup
+
+Create python env
+```sh
+python -m venv env
+```
+
+install
+```sh
+pip install -r requirements.txt
+```
+go to database folder
+```sh
+cd database
+```
+create db file
+```sh
+python create.py
+```
+
+move example.db to public file
+
+
+database prepared successfully.
