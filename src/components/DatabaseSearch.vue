@@ -5,8 +5,8 @@ import initSqlJs from 'sql.js-fts5'
 const variableNameResults = ref([]);
 const variableDescResults = ref([]);
 // Execute an FTS5 query
-const keywordName = "ID"; // replace with search keyword
-const keywordDesc = "percentage";
+const keywordName = "nonwear"; // replace with search keyword
+const keywordDesc = "Foliocc";
 
 async function initDatabase() {
   try {
