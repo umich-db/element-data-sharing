@@ -54,7 +54,20 @@ create db file
 python create.py
 ```
 
-move example.db to public file
+move example.db to public file, then database prepared successfully.
 
+# To run the website
 
-database prepared successfully.
+We need to run it on HTML file instead of 
+```sh
+npm run dev
+```
+To do that, we will do:
+
+```sh
+npm run build
+```
+go to extension in visual studio code, download Live Server by Ritwick Dey
+(I will try to look at more general ways to do it)
+Then browse dist/, right click the index.html and open in live server.
+
