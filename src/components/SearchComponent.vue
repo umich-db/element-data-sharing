@@ -1,5 +1,6 @@
 <script setup>
 import DatabaseSearch from './DatabaseSearch.vue'
+import SearchBar from './elements/SearchBar.vue'
 
 defineProps({
   title: {
@@ -12,6 +13,7 @@ defineProps({
 <template>
   <div class="container">
     <h2>{{ title }}</h2>
+    <SearchBar />
     <DatabaseSearch />
   </div>
 </template>
