@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue"
 import SelectLanguage from "./elements/SelectLanguage.vue"
+
 defineProps({
   title: {
     type: String,

@@ -1,27 +1,27 @@
-<script>
-export default {
-  data() {
-    return {
-      query: ''
-    };
-  },
-  methods: {
-    search() {
-      console.log('Searching for:', this.query);
-      // You can add your search logic here
-    }
-  }
+<script setup>
+import { ref } from 'vue'
+import CategoryDropdown from './CategoryDropdown.vue'
+
+defineProps({
+  category: String
+})
+
+const emit = defineEmits(['update-state'])
+
+// Define the reactive state for the query
+const query = ref('');
+
+// Define the search method
+const search = () => {
+  console.log('Searching for:', query.value);
+  // You can add your search logic here
 };
 </script>
 
 <template>
   <div class="search-bar">
-    <input 
-      type="text" 
-      v-model="query" 
-      @keyup.enter="search" 
-      placeholder="Search..." 
-    />
+    <CategoryDropdown />
+    <input type="text" v-model="query" @keyup.enter="search" placeholder="Search..." />
     <button @click="search">Search</button>
   </div>
 </template>
