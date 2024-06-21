@@ -10,11 +10,17 @@ defineProps({
   }
 })
 
+const category = ref("variables")
+const query = ref("")
+
 const updateCategoryState = (newState) => {
   category.value = newState.name.toLowerCase()
 }
 
-const category = ref("variables")
+const updateQueryState = (newState) => {
+  query.value = newState
+}
+
 provide('searchCategory', {category, updateCategoryState})
 </script>
 
@@ -22,8 +28,9 @@ provide('searchCategory', {category, updateCategoryState})
   <div class="container">
     <h2>{{ title }}</h2>
     <p>"Category: " {{ category }}</p>
-    <SearchBar />
-    <DatabaseSearch />
+    <p>"Query: " {{ query }}</p>
+    <SearchBar :query="query" @update-state="updateQueryState"/>
+    <DatabaseSearch :categoryInput="category" :queryInput="query"/>
   </div>
 </template>
 
