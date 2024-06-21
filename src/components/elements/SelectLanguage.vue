@@ -7,11 +7,11 @@ defineProps({
 
 const emit = defineEmits(['update-state'])
 
-function selectEnglish() {
+const selectEnglish = () => {
   emit('update-state', true)
 }
 
-function selectSpanish() {
+const selectSpanish = () => {
   emit('update-state', false)
 }
 </script>
