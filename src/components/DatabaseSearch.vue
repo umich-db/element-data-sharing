@@ -9,6 +9,7 @@ const props = defineProps({
 
 // TODO: Change search query to be for variables and variable description, not variable name
 // TODO: Change search query to be for title and description, not variable description
+// TODO: since using watchEffect on categoryInput as well, update it only on Search button click
 
 const variableNameResults = ref([]);
 const variableDescResults = ref([]);
