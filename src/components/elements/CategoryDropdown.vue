@@ -1,6 +1,6 @@
 <script setup>
 
-import Dropdown from 'primevue/dropdown';
+import Select from 'primevue/select';
 import { inject, ref, watch } from "vue";
 
 const { category, updateCategoryState } = inject('searchCategory')
@@ -18,7 +18,7 @@ watch(localCategory, (newValue) => {
 </script>
 
 <template>
-  <Dropdown v-model="localCategory" variant="filled" :options="categories" optionLabel="name" placeholder="Variables"/>
+  <Select v-model="localCategory" variant="filled" :options="categories" optionLabel="name" placeholder="Variables"/>
 </template>
 
 <style scoped></style>
