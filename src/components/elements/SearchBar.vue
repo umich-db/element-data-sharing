@@ -20,6 +20,11 @@ watch(() => props.query, (newQuery) => {
   currentQuery.value = newQuery
 })
 
+watch(currentQuery, (newValue) => {
+  search(newValue);
+});
+
+// TODO: Add a toggle so when user presses search, will display general view below
 const search = () => {
   emit('update-state', currentQuery.value)
 };
@@ -27,8 +32,6 @@ const search = () => {
 const toggleDropdown = () => {
   isToggled.value = !isToggled.value;
 }
-
-console.log(props.category)
 </script>
 
 <template>
