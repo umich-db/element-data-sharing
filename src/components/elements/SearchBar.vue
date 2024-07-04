@@ -1,6 +1,9 @@
 <script setup>
 import { ref, watch } from 'vue'
 import CategoryDropdown from './CategoryDropdown.vue'
+import InputGroup from 'primevue/inputgroup'
+import InputGroupAddon from 'primevue/inputgroupaddon'
+import InputText from 'primevue/inputtext'
 
 const props = defineProps({
   query: String
@@ -21,27 +24,31 @@ const search = () => {
 
 <template>
   <div class="search-bar">
-    <CategoryDropdown />
-    <input type="text" v-model="currentQuery" @keyup.enter="search" placeholder="Search..." />
-    <button @click="search">Search</button>
+    <InputGroup class="container">
+      <InputGroupAddon>
+        <CategoryDropdown/>
+      </InputGroupAddon>
+      <InputText class="input" type="text" v-model="currentQuery" @keyup.enter="search" placeholder="Search..." />
+      <InputGroupAddon>
+        <Button type="button" @click="search" label="Search"/>
+      </InputGroupAddon>
+    </InputGroup>
   </div>
 </template>
 
 <style scoped>
 .search-bar {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-input {
-  margin-right: 10px;
-  padding: 5px;
-  font-size: 16px;
+.p-inputgroup-addon {
+  padding: 0;
+  border: 0;
 }
 
-button {
-  padding: 5px 10px;
-  font-size: 16px;
-  cursor: pointer;
+.input {
+  padding: 0 1rem;
 }
 </style>
