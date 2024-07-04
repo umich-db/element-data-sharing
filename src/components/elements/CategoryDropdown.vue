@@ -21,4 +21,9 @@ watch(localCategory, (newValue) => {
   <Select v-model="localCategory" variant="filled" :options="categories" optionLabel="name" placeholder="Variables"/>
 </template>
 
-<style scoped></style>
+<style scoped>
+.p-select {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+</style>
