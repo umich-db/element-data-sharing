@@ -3,13 +3,6 @@ import { ref, provide } from 'vue'
 import DatabaseSearch from './DatabaseSearch.vue'
 import SearchBar from './elements/SearchBar.vue'
 
-defineProps({
-  title: {
-    type: String,
-    required: true
-  }
-})
-
 const category = ref("variables")
 const query = ref("")
 
@@ -26,10 +19,9 @@ provide('searchCategory', {category, updateCategoryState})
 
 <template>
   <div class="container">
-    <h2>{{ title }}</h2>
+    <SearchBar :query="query" @update-state="updateQueryState"/>
     <p>"Category: " {{ category }}</p>
     <p>"Query: " {{ query }}</p>
-    <SearchBar :query="query" @update-state="updateQueryState"/>
     <DatabaseSearch :categoryInput="category" :queryInput="query"/>
   </div>
 </template>
@@ -38,6 +30,5 @@ provide('searchCategory', {category, updateCategoryState})
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 </style>

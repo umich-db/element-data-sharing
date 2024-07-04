@@ -18,10 +18,7 @@ watch(localCategory, (newValue) => {
 </script>
 
 <template>
-  <div class="card flex justify-center">
-    <Dropdown v-model="localCategory" :options="categories" optionLabel="name" placeholder="Variables"
-      class="w-full md:w-[14rem]" />
-  </div>
+  <Dropdown v-model="localCategory" variant="filled" :options="categories" optionLabel="name" placeholder="Variables"/>
 </template>
 
 <style scoped></style>
