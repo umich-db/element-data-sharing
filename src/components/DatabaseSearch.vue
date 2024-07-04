@@ -54,7 +54,7 @@ const queryDatabase = async () => {
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
     
-    if (props.categoryInput == "variables") {
+    if (props.categoryInput == "variables" && props.queryInput != '') {
       // console.log(`Searching for variable name: ${props.queryInput}`);
       const fts5StmtName = db.prepare(variableNameAndVariableQuery)
       fts5StmtName.bind([props.queryInput]);
@@ -65,7 +65,7 @@ const queryDatabase = async () => {
         console.log("No results found for the FTS5 variable name query");
       }
     }
-    else if (props.categoryInput == "datasets") {
+    else if (props.categoryInput == "datasets" && props.queryInput != '') {
       // console.log(`Searching for datasets name: ${props.queryInput}`);
       const fts5StmtDesc = db.prepare(DatasetNameAndVariableQuery)
       fts5StmtDesc.bind([props.queryInput]);
