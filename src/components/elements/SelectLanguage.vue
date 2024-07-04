@@ -1,5 +1,9 @@
 <script setup>
-import Button from 'primevue/button'
+import { ref, watch } from 'vue';
+import SelectButton from 'primevue/selectbutton';
+
+const selectedLanguage = ref('English');
+const languages = ref(['English', 'Spanish']);
 
 defineProps({
   isEnglish: Boolean
@@ -7,40 +11,22 @@ defineProps({
 
 const emit = defineEmits(['update-state'])
 
-const selectEnglish = () => {
-  emit('update-state', true)
-}
+watch(selectedLanguage, (newValue) => {
+  emit('update-state', newValue === 'English');
+});
 
-const selectSpanish = () => {
-  emit('update-state', false)
-}
 </script>
 
 <template>
   <div class="button-group">
-    <Button label="English" @click="selectEnglish" :disabled="isEnglish" :class="{ selected: isEnglish }" />
-    <Button label="Spanish" @click="selectSpanish" :disabled="!isEnglish" :class="{ selected: !isEnglish }" />
+    <h4>Displayed Language</h4>
+    <SelectButton v-model="selectedLanguage" :options="languages" />
   </div>
 </template>
 
 <style scoped>
 .button-group {
   display: flex;
-  gap: 10px;
-}
-
-button {
-  background-color: lightgray;
-  border: none;
-}
-
-button.selected {
-  background-color: blue;
-  color: white;
-  cursor: not-allowed;
-}
-
-button:not(.selected):hover {
-  background-color: gray;
+  flex-direction: column;
 }
 </style>
