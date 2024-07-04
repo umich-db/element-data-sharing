@@ -33,3 +33,41 @@ npm run build
 ```sh
 npm run lint
 ```
+
+# database setup
+
+Create python env
+```sh
+python -m venv env
+```
+
+install
+```sh
+pip install -r requirements.txt
+```
+go to database folder
+```sh
+cd database
+```
+create db file
+```sh
+python create.py
+```
+
+move example.db to public file, then database prepared successfully.
+
+# To run the website
+
+We need to run it on HTML file instead of 
+```sh
+npm run dev
+```
+To do that, we will do:
+
+```sh
+npm run build
+```
+go to extension in visual studio code, download Live Server by Ritwick Dey
+(I will try to look at more general ways to do it)
+Then browse dist/, right click the index.html and open in live server.
+
