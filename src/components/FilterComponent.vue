@@ -33,6 +33,7 @@ const updateState = (newState) => {
   align-content: flex-start;
   padding: 0.5rem 1rem 1rem 1rem;
   gap: 1rem;
+  height: fit-content;
 }
 
 h2 {

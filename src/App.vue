@@ -19,7 +19,8 @@ import SearchComponent from './components/SearchComponent.vue'
 <style scoped>
 .layout {
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr 6fr;
+  height: 100vh;
 }
 
 main {
