@@ -86,7 +86,7 @@ watchEffect(async () => {
   console.log("Query: ", props.queryInput)
   variableResults.value = [];
   datasetResults.value = [];
-  const isFetched = await queryDatabase();
+  await queryDatabase();
 })
 </script>
 
