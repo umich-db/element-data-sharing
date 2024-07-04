@@ -42,7 +42,7 @@ console.log(props.category)
       <Button @click="toggleDropdown" :icon="isToggled ? 'pi pi-angle-up' : 'pi pi-angle-down'" severity="secondary"
         outlined />
     </InputGroup>
-    <SearchDropdown :queryType="category" class="dropdown-container" v-if="isToggled"/>
+    <SearchDropdown :queryType="category" :query="currentQuery" class="dropdown-container" v-if="isToggled"/>
   </div>
 </template>
 
