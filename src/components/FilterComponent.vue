@@ -16,15 +16,30 @@ const updateState = (newState) => {
 </script>
 
 <template>
-  <div>
+  <div class="container">
     <h2>{{ title }}</h2>
-    <h4>Displayed Language</h4>
-    <p>"Language: " {{ language }}</p>
     <SelectLanguage :isEnglish="language" @update-state="updateState"/>
   </div>
 </template>
 
 <style scoped>
+.container {
+  background-color: #FAFAFA;
+  border: solid 2px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  padding: 0.5rem 1rem 1rem 1rem;
+  gap: 1rem;
+  height: fit-content;
+}
+
+h2 {
+  align-self: flex-start;
+}
+
 .button-group {
   display: flex;
   gap: 10px;

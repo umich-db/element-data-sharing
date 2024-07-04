@@ -1,6 +1,6 @@
 <script setup>
 
-import Dropdown from 'primevue/dropdown';
+import Select from 'primevue/select';
 import { inject, ref, watch } from "vue";
 
 const { category, updateCategoryState } = inject('searchCategory')
@@ -18,10 +18,7 @@ watch(localCategory, (newValue) => {
 </script>
 
 <template>
-  <div class="card flex justify-center">
-    <Dropdown v-model="localCategory" :options="categories" optionLabel="name" placeholder="Variables"
-      class="w-full md:w-[14rem]" />
-  </div>
+  <Select v-model="localCategory" variant="filled" :options="categories" optionLabel="name" placeholder="Variables"/>
 </template>
 
 <style scoped></style>
