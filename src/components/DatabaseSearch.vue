@@ -1,47 +1,38 @@
-<!-- eslint-disable no-unused-vars -->
 <script setup>
-import { ref, watchEffect } from 'vue'
-import initSqlJs from 'sql.js-fts5'
+import { ref, watch, inject } from 'vue';
+import initSqlJs from 'sql.js-fts5';
+
+const { variableResults, handleVariableResultsUpdate } = inject('variableResults')
+const { datasetResults, handleDatasetResultsUpdate } = inject('datasetResults')
 
 const props = defineProps({
   categoryInput: String,
-  queryInput: String
-})
+  queryInput: String,
+});
+const varRes = ref(variableResults.value);
+const datasetRes = ref(datasetResults.value);
 
-// TODO: Change search query to be for variables and variable description, not variable name
-// TODO: Change search query to be for title and description, not variable description
-// TODO: since using watchEffect on categoryInput as well, update it only on Search button click
+const emit = defineEmits(['update-variable-results', 'update-dataset-results']);
 
-const variableResults = ref([]);
-const datasetResults = ref([]);
-// Execute an FTS5 query
-// const keywordName = "nonwear"; // replace with search keyword
-// const keywordDesc = "Foliocc";
-
-
-// This query is searching for all the variable name and columns, it will return the match for any keyword
-// in either variable name or description, or both.
-const variableNameAndVariableQuery = 
-  `
+const variableNameAndVariableQuery = `
   SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name
   FROM Variables_fts
   JOIN Variables ON Variables.variable_id = Variables_fts.rowid
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
   WHERE Variables_fts.var_desc MATCH ?
-  `
-// Same with above, this query also deals with both.
-const DatasetNameAndVariableQuery =
-  `
+`;
+
+const datasetNameAndVariableQuery = `
   SELECT Datasets.dataset_title, Datasets.dataset_desc
   FROM Datasets_fts
   JOIN Datasets ON Datasets.dataset_id = Datasets_fts.rowid
   WHERE Datasets_fts.dataset_desc MATCH ?
-  `
+`;
 
 const queryDatabase = async () => {
   try {
     const sqlPromise = initSqlJs({
-      locateFile: file => `sql.js-fts5/dist/sql-wasm.wasm`
+      locateFile: () => `sql.js-fts5/dist/sql-wasm.wasm`
     });
 
     const dataPromise = fetch("./example.db").then(res => {
@@ -53,59 +44,68 @@ const queryDatabase = async () => {
 
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
-    
-    if (props.categoryInput == "variables" && props.queryInput != '') {
-      // console.log(`Searching for variable name: ${props.queryInput}`);
-      const fts5StmtName = db.prepare(variableNameAndVariableQuery)
+
+    const newVariableResults = [];
+    const newDatasetResults = [];
+
+    if (props.categoryInput === "variables" && props.queryInput !== '') {
+      const fts5StmtName = db.prepare(variableNameAndVariableQuery);
       fts5StmtName.bind([props.queryInput]);
       while (fts5StmtName.step()) {
-        variableResults.value.push(fts5StmtName.get());
+        newVariableResults.push(fts5StmtName.get());
       }
-      if (variableResults.value.length === 0) {
-        console.log("No results found for the FTS5 variable name query");
+      if (newVariableResults.length === 0) {
+        console.log("No results found for the FTS5 variable query");
       }
-    }
-    else if (props.categoryInput == "datasets" && props.queryInput != '') {
-      // console.log(`Searching for datasets name: ${props.queryInput}`);
-      const fts5StmtDesc = db.prepare(DatasetNameAndVariableQuery)
+      varRes.value = newVariableResults;
+    } else if (props.categoryInput === "datasets" && props.queryInput !== '') {
+      const fts5StmtDesc = db.prepare(datasetNameAndVariableQuery);
       fts5StmtDesc.bind([props.queryInput]);
       while (fts5StmtDesc.step()) {
-        datasetResults.value.push(fts5StmtDesc.get());
+        newDatasetResults.push(fts5StmtDesc.get());
       }
-      if (datasetResults.value.length === 0) {
-        console.log("No results found for the FTS5 variable desc query");
+      if (newDatasetResults.length === 0) {
+        console.log("No results found for the FTS5 dataset query");
       }
+      datasetRes.value = newDatasetResults;
     }
   } catch (error) {
     console.error("Database Error: ", error);
   }
-}
+};
 
-watchEffect(async () => {
-  console.log("Category: ", props.categoryInput)
-  console.log("Query: ", props.queryInput)
-  variableResults.value = [];
-  datasetResults.value = [];
-  await queryDatabase();
-})
+watch(
+  () => [props.categoryInput, props.queryInput],
+  async () => {
+    await queryDatabase();
+  }
+);
+
+watch(varRes, (newValue) => {
+  handleVariableResultsUpdate(newValue)
+});
+
+watch(datasetRes, (newValue) => {
+  handleDatasetResultsUpdate(newValue)
+});
 </script>
 
 <template>
   <div>
-    <div v-if="props.categoryInput == 'variables'">
-      <h2>Variable Name & Desc Search Results: for ' {{ props.queryInput }} '</h2>
+    <div v-if="props.categoryInput === 'variables'">
+      <h2>Variable Name & Desc Search Results: for '{{ props.queryInput }}'</h2>
       <ul>
-        <li v-for="(result, index) in variableResults" :key="index">
+        <li v-for="(result, index) in varRes" :key="index">
           Variable Name: {{ result[0] }} <br>
           Description: {{ result[1] }} <br>
           Dataset: {{ result[2] }}
         </li>
       </ul>
     </div>
-    <div v-if="props.categoryInput == 'datasets'">
-      <h2>Dataset Title & Desc Search Results: for ' {{ props.queryInput }} '</h2>
+    <div v-if="props.categoryInput === 'datasets'">
+      <h2>Dataset Title & Desc Search Results: for '{{ props.queryInput }}'</h2>
       <ul>
-        <li v-for="(result, index) in datasetResults" :key="index">
+        <li v-for="(result, index) in datasetRes" :key="index">
           Title: {{ result[0] }} <br>
           Description: {{ result[1] }} <br>
         </li>
@@ -113,3 +113,4 @@ watchEffect(async () => {
     </div>
   </div>
 </template>
+
