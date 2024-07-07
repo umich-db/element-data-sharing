@@ -1,12 +1,12 @@
 -- Table for storing datasets
 CREATE TABLE Datasets (
     dataset_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    dataset_create_time TEXT NOT NULL,
-    dataset_name TEXT NOT NULL,
-    dataset_title TEXT NOT NULL,
-    dataset_desc TEXT NOT NULL,
-    document_name TEXT NOT NULL,
-    embedding TEXT NOT NULL
+    dataset_create_time TEXT,
+    dataset_name TEXT,
+    dataset_title TEXT,
+    dataset_desc TEXT,
+    document_name TEXT,
+    embedding TEXT,
 );
 
 -- FTS5 virtual table
@@ -31,10 +31,10 @@ END;
 CREATE TABLE Variables (
     variable_id INTEGER PRIMARY KEY AUTOINCREMENT,
     dataset_id INTEGER,
-    var_name TEXT NOT NULL,
-    var_desc TEXT NOT NULL,
+    var_name TEXT,
+    var_desc TEXT,
     unit TEXT,
-    embedding TEXT NOT NULL,
+    embedding TEXTL,
     FOREIGN KEY (dataset_id) REFERENCES Datasets(dataset_id)
 );
 
