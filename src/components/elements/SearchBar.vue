@@ -11,7 +11,7 @@ const props = defineProps({
   category: String,
 })
 
-const emit = defineEmits(['update-state'])
+const emit = defineEmits(['update-state','update-search'])
 
 const currentQuery = ref(props.query)
 const isToggled = ref(false);
@@ -26,9 +26,12 @@ watch(currentQuery, (newValue) => {
 
 // TODO: Add a toggle so when user presses search, will display general view below
 const search = () => {
-  emit('update-state', currentQuery.value)
+  emit('update-state', currentQuery.value);
 };
-
+const search_clicked = () => {
+  console.log("searcb_clocked");
+  emit('update-search', currentQuery.value);
+};
 const toggleDropdown = () => {
   isToggled.value = !isToggled.value;
 }
@@ -40,8 +43,8 @@ const toggleDropdown = () => {
       <InputGroupAddon>
         <CategoryDropdown />
       </InputGroupAddon>
-      <InputText type="text" v-model="currentQuery" @keyup.enter="search" placeholder="Search..." />
-      <Button type="button" @click="search" label="Search" />
+      <InputText type="text" v-model="currentQuery" @keyup.enter="search_clicked" placeholder="Search..." />
+      <Button type="button" @click="search_clicked" label="Search" />
       <Button @click="toggleDropdown" :icon="isToggled ? 'pi pi-angle-up' : 'pi pi-angle-down'" severity="secondary"
         outlined />
     </InputGroup>

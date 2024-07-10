@@ -5,6 +5,7 @@ import initSqlJs from 'sql.js-fts5';
 
 const { variableResults, handleVariableResultsUpdate } = inject('variableResults')
 const { datasetResults, handleDatasetResultsUpdate } = inject('datasetResults')
+const { searchClicked } = inject('searchClicked')
 
 const props = defineProps({
   categoryInput: String,
@@ -96,8 +97,9 @@ const queryDatabase = async () => {
 };
 
 watch(
-  () => [props.categoryInput, props.queryInput],
+  () => [props.categoryInput, searchClicked.value],
   async () => {
+    console.log("change detacted");
     await queryDatabase();
   }
 );
@@ -111,6 +113,8 @@ watch(datasetRes, (newValue) => {
 });
 
 onMounted(()=>{
+  console.log("is it running?");
+  console.log(searchClicked);
   queryDatabase();
 })
 
