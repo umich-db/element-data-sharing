@@ -7,6 +7,7 @@ const category = ref("variables");
 const query = ref("");
 const variableResults = ref([]);
 const datasetResults = ref([]);
+const searchClicked = ref(false);
 
 const updateCategoryState = (newState) => {
   category.value = newState.name.toLowerCase();
@@ -24,14 +25,20 @@ const handleDatasetResultsUpdate = (results) => {
   datasetResults.value = results;
 };
 
+const handleClickUpdate = (results) => {
+  console.log("handleClickUpdate");
+  updateQueryState(results);
+  searchClicked.value = !searchClicked.value;
+};
 provide('searchCategory', { category, updateCategoryState });
 provide('variableResults', { variableResults, handleVariableResultsUpdate })
 provide('datasetResults', { datasetResults, handleDatasetResultsUpdate })
+provide('searchClicked', { searchClicked })
 </script>
 
 <template>
   <div class="container">
-    <SearchBar :query="query" :category="category" @update-state="updateQueryState" />
+    <SearchBar :query="query" :category="category" @update-state="updateQueryState" @update-search="handleClickUpdate" />
     <DatabaseSearch :categoryInput="category" :queryInput="query" />
   </div>
 </template>
