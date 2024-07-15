@@ -33,7 +33,7 @@ const matchBold = (words, query) => {
           <p v-html="matchBold(result[1], props.query)"></p>
         </div>
       </div>
-      <div v-else>
+      <div v-else class="none-matched">
         No matching studies.
       </div>
     </ScrollPanel>
@@ -47,6 +47,10 @@ const matchBold = (words, query) => {
 
 .size {
   height: 10rem;
+}
+
+.none-matched {
+  padding: 1rem;
 }
 
 .even {

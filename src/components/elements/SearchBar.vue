@@ -4,6 +4,7 @@ import CategoryDropdown from './CategoryDropdown.vue'
 import SearchDropdown from './SearchDropdown.vue'
 import InputGroup from 'primevue/inputgroup'
 import InputGroupAddon from 'primevue/inputgroupaddon'
+import Popover from 'primevue/popover';
 import InputText from 'primevue/inputtext'
 
 const props = defineProps({
@@ -14,7 +15,7 @@ const props = defineProps({
 const emit = defineEmits(['update-state'])
 
 const currentQuery = ref(props.query)
-const isToggled = ref(false);
+const isToggled = ref();
 
 watch(() => props.query, (newQuery) => {
   currentQuery.value = newQuery
@@ -29,8 +30,8 @@ const search = () => {
   emit('update-state', currentQuery.value)
 };
 
-const toggleDropdown = () => {
-  isToggled.value = !isToggled.value;
+const toggleDropdown = (event) => {
+  isToggled.value.toggle(event);
 }
 </script>
 
@@ -40,13 +41,14 @@ const toggleDropdown = () => {
       <InputGroupAddon>
         <CategoryDropdown />
       </InputGroupAddon>
-      <InputText type="text" v-model="currentQuery" @keyup.enter="search" placeholder="Search..." />
+      <InputText type="text" v-model="currentQuery" @keyup.enter="search" @click="toggleDropdown" placeholder="Search..." />
       <Button type="button" @click="search" label="Search" />
-      <Button @click="toggleDropdown" :icon="isToggled ? 'pi pi-angle-up' : 'pi pi-angle-down'" severity="secondary"
-        outlined />
+      <Button @click="toggleDropdown" icon='pi pi-angle-down' severity="secondary" outlined />
     </InputGroup>
-    <SearchDropdown :queryType="category" :query="currentQuery" class="dropdown-container" v-if="isToggled"/>
   </div>
+  <Popover ref="isToggled" appendTo="self">
+    <SearchDropdown :queryType="category" :query="currentQuery" class="dropdown-container"/>
+  </Popover>
 </template>
 
 <style scoped>
