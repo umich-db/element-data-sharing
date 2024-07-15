@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, inject, onMounted } from 'vue';
+import { ref, watch, inject } from 'vue';
 import initSqlJs from 'sql.js-fts5';
 
 
@@ -55,27 +55,14 @@ const queryDatabase = async () => {
     if (props.categoryInput === "variables" && props.queryInput !== '') {
       const fts5StmtName = db.prepare(variableNameAndVariableQuery);
       fts5StmtName.bind([props.queryInput + '*']);
-      const dictionary = {};
       while (fts5StmtName.step()) {
         newVariableResults.push(fts5StmtName.get());
       }
       if (newVariableResults.length === 0) {
         console.log("No results found for the FTS5 variable query");
-      }else{
-        console.log(newVariableResults)
-        for(let index in newVariableResults){
-          const key = newVariableResults[index][2];
-          console.log(newVariableResults[index]);
-          if(!Object.prototype.hasOwnProperty.call(dictionary, key)){
-            dictionary[key] = [];
-          }
-          dictionary[key].push([newVariableResults[index][0], newVariableResults[index][1]]);
-        }
-        console.log(dictionary);
       }
-      const dictionaryArray = Object.entries(dictionary).map(([key, value]) => ({ key, value }));
-      console.log(dictionaryArray);
-      varRes.value = dictionaryArray;
+      varRes.value = newVariableResults;
+      handleVariableResultsUpdate(newVariableResults);
     } else if (props.categoryInput === "datasets" && props.queryInput !== '') {
       const fts5StmtDesc = db.prepare(datasetNameAndVariableQuery);
       fts5StmtDesc.bind([props.queryInput + '*']);
@@ -96,6 +83,12 @@ const queryDatabase = async () => {
   }
 };
 
+const matchBold = (words, query) => {
+  if (!words) return '';
+  const pattern = new RegExp(`(${query})`, 'gi');
+  return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
+};
+
 watch(
   () => [props.categoryInput, searchClicked.value],
   async () => {
@@ -106,26 +99,36 @@ watch(
 
 watch(varRes, (newValue) => {
   handleVariableResultsUpdate(newValue)
-});
-
+}) 
 watch(datasetRes, (newValue) => {
   handleDatasetResultsUpdate(newValue)
 });
 
-onMounted(()=>{
-  console.log("is it running?");
-  console.log(searchClicked);
-  queryDatabase();
-})
+// onMounted(()=>{
+//   console.log("is it running?");
+//   console.log(searchClicked);
+//   queryDatabase();
+// })
 
 const formatData = (result) => {
   return result.value.map(item => ({
-    variable: item[0],
-    description: item[1]
+    variable: matchBold(item[0], props.queryInput),
+    description: matchBold(item[1], props.queryInput)
   }));
 };
 
-
+const reshapeData = (result) => {
+  const dictionary = {};
+  for(let index in result){
+          const key = result[index][2];
+          if(!Object.prototype.hasOwnProperty.call(dictionary, key)){
+            dictionary[key] = [];
+          }
+          dictionary[key].push([result[index][0], result[index][1]]);
+}
+  const dictionaryArray = Object.entries(dictionary).map(([key, value]) => ({ key, value }));
+  return dictionaryArray;
+}
 const tempstructure = ref([
   {
     field: 'variable',
@@ -141,7 +144,7 @@ const tempstructure = ref([
 </script>
 
 <template>
-  <DataView :value="varRes" paginator :rows="3">
+  <DataView :value="reshapeData(varRes)" paginator :rows="3">
     <template #list="slotProps">
       <div class="list">
         <div v-if="varRes.length > 0">
@@ -154,7 +157,12 @@ const tempstructure = ref([
                 :field="data.field"
                 :header="data.header"
                 :style="data.style"
-              ></Column>
+              >
+              <template #body="slotProps">
+                  <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
+                  <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
+                </template>
+            </Column>
             </DataTable>
           </div>
       </div>
