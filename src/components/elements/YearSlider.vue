@@ -36,7 +36,7 @@ watch(selectedRange, (newValue) => {
       :min="minYear"
       :max="maxYear"
       class="slider"
-      pt:root:style="height: 1rem; border-radius: 1rem; width: 10rem" />
+      pt:root:style="height: 1rem; border-radius: 1rem; width: 9rem" />
     </div>
   </div>
 </template>
@@ -48,12 +48,12 @@ watch(selectedRange, (newValue) => {
 }
 
 .slider {
-  width: 100%;
+  margin: 0 1.25rem;
 }
 
 .labels {
   display: flex;
   justify-content: space-between;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0.25rem;
 }
 </style>

@@ -1,7 +1,10 @@
 <script setup>
 import { ref } from "vue"
+import Divider from 'primevue/divider';
 import SelectLanguage from "./elements/SelectLanguage.vue"
 import YearSlider from "./elements/YearSlider.vue"
+import CohortSelect from "./elements/CohortSelect.vue"
+
 
 defineProps({
   title: {
@@ -11,12 +14,16 @@ defineProps({
 })
 const language = ref(true)
 const year = ref([1994, 2024])
+const cohorts = ref([1, 2, 3])
 
 const updateLanguageState = (newState) => {
   language.value = newState
 }
 const updateYearState = (newState) => {
   year.value = newState
+}
+const updateCohortState = (newState) => {
+  cohorts.value = newState
 }
 </script>
 
@@ -25,11 +32,17 @@ const updateYearState = (newState) => {
     <h2>{{ title }}</h2>
     <SelectLanguage @update-state="updateLanguageState"/>
     <YearSlider :year="year" @update-state="updateYearState" />
+    <CohortSelect :cohort="cohorts" @update-state="updateCohortState"/>
+    <Divider pt:root:style="margin: 0"/>
+    <h3>Demographics</h3>
     <p>
       Language: {{ language }}
     </p>
     <p>
-      Year: {{ year }}
+      Year Range: {{ year }}
+    </p>
+    <p>
+      Cohorts: {{ cohorts }}
     </p>
   </div>
 </template>
@@ -46,6 +59,7 @@ const updateYearState = (newState) => {
   padding: 0.5rem 1rem 1rem 1rem;
   gap: 1rem;
   height: fit-content;
+  width: fit-content;
 }
 
 h2 {
