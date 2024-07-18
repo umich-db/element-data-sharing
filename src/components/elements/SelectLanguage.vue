@@ -5,10 +5,6 @@ import SelectButton from 'primevue/selectbutton';
 const selectedLanguage = ref('English');
 const languages = ref(['English', 'Spanish']);
 
-defineProps({
-  isEnglish: Boolean
-})
-
 const emit = defineEmits(['update-state'])
 
 watch(selectedLanguage, (newValue) => {
