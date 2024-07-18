@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue"
 import SelectLanguage from "./elements/SelectLanguage.vue"
+import YearSlider from "./elements/YearSlider.vue"
 
 defineProps({
   title: {
@@ -9,16 +10,27 @@ defineProps({
   }
 })
 const language = ref(true)
+const year = ref([1994, 2024])
 
-const updateState = (newState) => {
+const updateLanguageState = (newState) => {
   language.value = newState
+}
+const updateYearState = (newState) => {
+  year.value = newState
 }
 </script>
 
 <template>
   <div class="container">
     <h2>{{ title }}</h2>
-    <SelectLanguage :isEnglish="language" @update-state="updateState"/>
+    <SelectLanguage @update-state="updateLanguageState"/>
+    <YearSlider :year="year" @update-state="updateYearState" />
+    <p>
+      Language: {{ language }}
+    </p>
+    <p>
+      Year: {{ year }}
+    </p>
   </div>
 </template>
 
