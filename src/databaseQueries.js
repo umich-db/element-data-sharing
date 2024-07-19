@@ -10,7 +10,7 @@ const variableNameAndVariableQuery = `
 `;
 
 const datasetNameAndVariableQuery = `
-  SELECT Datasets.dataset_title, Datasets.dataset_desc
+  SELECT Datasets.dataset_title, Datasets.dataset_desc,Datasets.dataset_id
   FROM Datasets_fts
   JOIN Datasets ON Datasets.dataset_id = Datasets_fts.rowid
   WHERE Datasets_fts.dataset_desc MATCH ?
@@ -47,7 +47,7 @@ const queryDatabase = async (categoryInput, queryInput) => {
       return await executeQuery(db, variableNameAndVariableQuery, queryInput);
     } else if (categoryInput === "datasets" && queryInput !== '') {
       return await executeQuery(db, datasetNameAndVariableQuery, queryInput);
-    }
+    } 
   } catch (error) {
     console.error("Database Error: ", error);
     return [];

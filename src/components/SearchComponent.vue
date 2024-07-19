@@ -35,8 +35,18 @@ watch(query, async (newQuery) => {
     handleVariableResultsUpdate(results);
   } else if (category.value === "datasets") {
     handleDatasetResultsUpdate(results);
+    console.log("searchComponent execiting");
   }
 });
+watch(category, async (newCategory) => {
+  const results = await queryDatabase(newCategory, query.value);
+  if (category.value === "variables") {
+    handleVariableResultsUpdate(results);
+  } else if (category.value === "datasets") {
+    handleDatasetResultsUpdate(results);
+    console.log("searchComponent execiting");
+  }
+})
 provide('searchCategory', { category, updateCategoryState });
 provide('variableResults', { variableResults, handleVariableResultsUpdate })
 provide('datasetResults', { datasetResults, handleDatasetResultsUpdate })
