@@ -1,6 +1,11 @@
 <script setup>
-import { ref } from "vue"
-import SelectLanguage from "./elements/SelectLanguage.vue"
+import { ref, watch } from 'vue'
+import Divider from 'primevue/divider'
+import SelectLanguage from './elements/SelectLanguage.vue'
+import SliderYear from './elements/SliderYear.vue'
+import SelectCohort from './elements/SelectCohort.vue'
+import SelectGender from './elements/SelectGender.vue'
+import SliderAge from './elements/SliderAge.vue'
 
 defineProps({
   title: {
@@ -8,17 +13,43 @@ defineProps({
     required: true
   }
 })
-const language = ref(true)
 
-const updateState = (newState) => {
-  language.value = newState
+const state = ref({
+  language: true,
+  year: [1994, 2024],
+  cohorts: [1, 2, 3],
+  genders: ['female', 'male'],
+  age: [0, 100]
+})
+
+const updateState = (key, newState) => {
+  state.value[key] = newState
 }
+
+watch(state, (newValue) => {
+    console.log(`
+      ------- New state -------
+      Language: ${newValue.language}
+      Year Range: [${newValue.year}]
+      Cohorts: ${newValue.cohorts}
+      Genders: ${newValue.genders}
+      Age Range: [${newValue.age}]
+    `)
+  },
+  { deep: true }
+)
 </script>
 
 <template>
   <div class="container">
     <h2>{{ title }}</h2>
-    <SelectLanguage :isEnglish="language" @update-state="updateState"/>
+    <SelectLanguage @update-state="newState => updateState('language', newState)" />
+    <SliderYear :year="state.year" @update-state="newState => updateState('year', newState)" />
+    <SelectCohort :cohort="state.cohorts" @update-state="newState => updateState('cohorts', newState)" />
+    <Divider pt:root:style="margin: 0" />
+    <h3>Demographics</h3>
+    <SelectGender :gender="state.genders" @update-state="newState => updateState('genders', newState)" />
+    <SliderAge :age="state.age" @update-state="newState => updateState('age', newState)" />
   </div>
 </template>
 
@@ -34,10 +65,12 @@ const updateState = (newState) => {
   padding: 0.5rem 1rem 1rem 1rem;
   gap: 1rem;
   height: fit-content;
+  width: fit-content;
 }
 
-h2 {
+h2, h3 {
   align-self: flex-start;
+  font-weight: 500;
 }
 
 .button-group {
