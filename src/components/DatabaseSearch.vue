@@ -1,9 +1,8 @@
 <script setup>
 import { ref, watch, inject } from 'vue';
 import { queryDatabase } from '../databaseQueries';
+import initSqlJs from 'sql.js-fts5';
 
-const { variableResults, handleVariableResultsUpdate } = inject('variableResults')
-const { datasetResults, handleDatasetResultsUpdate } = inject('datasetResults')
 const {clicked} = inject('clicked');
 
 const props = defineProps({
@@ -12,18 +11,59 @@ const props = defineProps({
 });
 const varRes = ref('');
 const datasetRes = ref('');
-
+const datasetVar = ref([]);
 const localQueryInput = ref('');
-watch(clicked, () => {
-  localQueryInput.value = props.queryInput;
-  queryDatabase(props.categoryInput, localQueryInput.value).then(results => {
-    if (props.categoryInput === "variables") {
-      varRes.value = results;
-    } else if (props.categoryInput === "datasets") {
-      datasetRes.value = results;
+
+const datasetVariableQuery = `
+  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, Variables.dataset_id
+  FROM Variables
+  JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
+  WHERE Variables.dataset_id = ?
+`;
+const queryVariables = async (id) => {
+  try {
+    const sqlPromise = initSqlJs({
+      locateFile: () => `sql.js-fts5/dist/sql-wasm.wasm`
+    });
+
+    const dataPromise = fetch("./example.db").then(res => {
+      if (!res.ok) {
+        throw new Error('Network Error: Cannot connect to database.');
+      }
+      return res.arrayBuffer();
+    });
+
+    const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
+    const db = new SQL.Database(new Uint8Array(buf));
+    const results = [];
+    const stmt = db.prepare(datasetVariableQuery);
+    stmt.bind([id]);
+    while (stmt.step()) {
+      results.push(stmt.get());
     }
-  });
+  stmt.free();
+  return results;
+  } catch (error) {
+    console.error("Database Error: ", error);
+  }
+};
+
+
+
+watch(clicked, async () => {
+  localQueryInput.value = props.queryInput;
+  const results = await queryDatabase(props.categoryInput, localQueryInput.value);
+  if (props.categoryInput === "variables") {
+    varRes.value = results;
+  } else if (props.categoryInput === "datasets") {
+    datasetRes.value = results;
+    let temp = await reshapeData_ds(datasetRes.value);
+    datasetVar.value = temp;
+    console.log("datasetvalue Updated");
+    console.log(datasetVar.value);
+  }
 });
+
 
 const matchBold = (words, query) => {
   if (!words) return '';
@@ -51,6 +91,26 @@ const reshapeData = (result) => {
   return dictionaryArray;
 };
 
+const reshapeData_ds = async (result) => {
+ console.log("reshapeData_ds executing");
+ const dictionary = {};
+ for(let index in result){
+  const id = result[index][2];
+  const processed_result = await queryVariables(id);
+  for(let index1 in processed_result){
+    const key = processed_result[index1][2];
+    if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
+      dictionary[key] = [];
+    }
+    dictionary[key].push([processed_result[index1][0]]);
+  }
+}
+const dictionaryArray = Object.entries(dictionary).map(([key, value]) => ({ key, value }));
+console.log("this should not be a promise");
+console.log(dictionaryArray);
+return dictionaryArray;
+}
+
 const tempstructure = ref([
   {
     field: 'variable',
@@ -63,34 +123,61 @@ const tempstructure = ref([
     style: { flexGrow: 1, whiteSpace: 'normal', overflow: 'visible' }
   }
 ]);
+
+const titleBold = (input)=>{
+  return matchBold(input, localQueryInput.value);
+}
 </script>
 
 <template>
-  <DataView :value="reshapeData(varRes)" paginator :rows="3">
-    <template #list="slotProps">
-      <div class="list">
-        <div v-if="varRes.length > 0">
-          <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
-            <h2 class="dataset-title">{{ result.key }}</h2>
-            <DataTable :value="formatData(result)">
-              <Column
-                v-for="(data, index) in tempstructure"
-                :key="index"
-                :field="data.field"
-                :header="data.header"
-                :style="data.style"
-              >
-              <template #body="slotProps">
-                  <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
-                  <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
-                </template>
-            </Column>
-            </DataTable>
+  <div>
+    <div v-if="props.categoryInput === 'variables' && varRes.length > 0">
+      <DataView :value="reshapeData(varRes)" paginator :rows="3">
+        <template #list="slotProps">
+          <div class="list">
+            <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
+              <h2 class="dataset-title">{{ result.key }}</h2>
+              <DataTable :value="formatData(result)">
+                <Column
+                  v-for="(data, index) in tempstructure"
+                  :key="index"
+                  :field="data.field"
+                  :header="data.header"
+                  :style="data.style"
+                >
+                  <template #body="slotProps">
+                    <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
+                    <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
+                  </template>
+                </Column>
+              </DataTable>
+            </div>
           </div>
-        </div>
-      </div>
-    </template>
-  </DataView>
+        </template>
+      </DataView>
+    </div>
+    
+    <div v-else-if="props.categoryInput === 'datasets' && datasetVar.length > 0">
+      <DataView :value="datasetVar" paginator :rows="8">
+        <template #list="slotProps">
+          <div class="list">
+            <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
+              <h2 class="dataset-title" v-html="titleBold(result.key)"/>
+              <div>
+                <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
+                  {{ item[0] }},
+                </span>
+              </div>
+            </div>
+          </div>
+        </template>
+      </DataView>
+    </div>
+    
+    <div v-else class="none-matched">
+      No matching studies.
+    </div>
+  </div>
 </template>
 
 <style scoped>
