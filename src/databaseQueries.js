@@ -43,10 +43,11 @@ const queryDatabase = async (categoryInput, queryInput) => {
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
 
+    const searchQueryInput = queryInput + '*';
     if (categoryInput === "variables" && queryInput !== '') {
-      return await executeQuery(db, variableNameAndVariableQuery, queryInput);
+      return await executeQuery(db, variableNameAndVariableQuery, searchQueryInput);
     } else if (categoryInput === "datasets" && queryInput !== '') {
-      return await executeQuery(db, datasetNameAndVariableQuery, queryInput);
+      return await executeQuery(db, datasetNameAndVariableQuery, searchQueryInput);
     } 
   } catch (error) {
     console.error("Database Error: ", error);
