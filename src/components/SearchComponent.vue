@@ -29,8 +29,34 @@ const handleClickUpdate = () => {
   clicked.value = !clicked.value;
   console.log(clicked.value);
 };
+const batch_search_processing = async (newQuery) => {
+  const words = newQuery.split(' ');
+  const resultCountMap = new Map();
+
+  for (const word of words) {
+    const results = await queryDatabase(category.value, word);
+    if (Array.isArray(results) || (results && typeof results[Symbol.iterator] === 'function')) {
+      for (const result of results) {
+        const key = JSON.stringify(result);
+        if (resultCountMap.has(key)) {
+          resultCountMap.set(key, resultCountMap.get(key) + 1);
+        } else {
+          resultCountMap.set(key, 1);
+        }
+      }
+    } else {
+      console.warn(`Expected iterable results for word: ${word}, but got:`, results);
+    }
+  }
+
+  const sortedResults = Array.from(resultCountMap.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(entry => JSON.parse(entry[0])); 
+
+  return sortedResults;
+};
 watch(query, async (newQuery) => {
-  const results = await queryDatabase(category.value, newQuery);
+  const results = await batch_search_processing(newQuery);
   console.log("result for ");
   console.log(newQuery);
   console.log("is ");

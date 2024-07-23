@@ -49,10 +49,35 @@ const queryVariables = async (id) => {
     console.error("Database Error: ", error);
   }
 };
+const batch_search_processing = async (queryInput, categoryInput) => {
+  const words = queryInput.split(' ');
+  const resultCountMap = new Map();
 
+  for (const word of words) {
+    const results = await queryDatabase(categoryInput, word);
+    if (Array.isArray(results) || (results && typeof results[Symbol.iterator] === 'function')) {
+      for (const result of results) {
+        const key = JSON.stringify(result);
+        if (resultCountMap.has(key)) {
+          resultCountMap.set(key, resultCountMap.get(key) + 1);
+        } else {
+          resultCountMap.set(key, 1);
+        }
+      }
+    } else {
+      console.warn(`Expected iterable results for word: ${word}, but got:`, results);
+    }
+  }
+
+  const sortedResults = Array.from(resultCountMap.entries())
+    .sort((a, b) => b[1] - a[1])
+    .map(entry => JSON.parse(entry[0]));
+
+  return sortedResults;
+};
 watch(clicked, async () => {
   localQueryInput.value = props.queryInput;
-  const results = await queryDatabase(props.categoryInput, localQueryInput.value);
+  const results = await batch_search_processing(localQueryInput.value, props.categoryInput);
   if (props.categoryInput === "variables") {
     varRes.value = results;
   } else if (props.categoryInput === "datasets") {
@@ -67,9 +92,17 @@ watch(clicked, async () => {
 
 const matchBold = (words, query) => {
   if (!words) return '';
-  const pattern = new RegExp(`(${query})`, 'gi');
+  const wordsArray = query.split(' ').filter(Boolean);
+  const pattern = new RegExp(`(${wordsArray.join('|')})`, 'gi');
   return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
 };
+
+// 示例使用
+const text = "This is a test text for matching multiple keywords.";
+const query = "test keywords";
+const highlightedText = matchBold(text, query);
+console.log(highlightedText);
+
 
 const formatData = (result) => {
   return result.value.map(item => ({
