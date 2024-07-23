@@ -31,8 +31,13 @@ const handleClickUpdate = () => {
 };
 watch(query, async (newQuery) => {
   const results = await queryDatabase(category.value, newQuery);
+  console.log("result for ");
+  console.log(newQuery);
+  console.log("is ");
+  console.log(results);
   if (category.value === "variables") {
     handleVariableResultsUpdate(results);
+    console.log("searchComponent executing");
   } else if (category.value === "datasets") {
     handleDatasetResultsUpdate(results);
     console.log("searchComponent execiting");
@@ -41,6 +46,8 @@ watch(query, async (newQuery) => {
 watch(category, async (newCategory) => {
   const results = await queryDatabase(newCategory, query.value);
   if (category.value === "variables") {
+    console.log("triggered");
+    console.log(results);
     handleVariableResultsUpdate(results);
   } else if (category.value === "datasets") {
     handleDatasetResultsUpdate(results);
