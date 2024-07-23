@@ -2,7 +2,7 @@
 import initSqlJs from 'sql.js-fts5';
 
 const variableNameAndVariableQuery = `
-  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name
+  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, Datasets.dataset_id
   FROM Variables_fts
   JOIN Variables ON Variables.variable_id = Variables_fts.rowid
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id

@@ -13,6 +13,7 @@ const varRes = ref('');
 const datasetRes = ref('');
 const datasetVar = ref([]);
 const localQueryInput = ref('');
+const id_map = ref({});
 
 const datasetVariableQuery = `
   SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, Variables.dataset_id
@@ -20,6 +21,7 @@ const datasetVariableQuery = `
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
   WHERE Variables.dataset_id = ?
 `;
+
 const queryVariables = async (id) => {
   try {
     const sqlPromise = initSqlJs({
@@ -47,8 +49,6 @@ const queryVariables = async (id) => {
     console.error("Database Error: ", error);
   }
 };
-
-
 
 watch(clicked, async () => {
   localQueryInput.value = props.queryInput;
@@ -78,10 +78,14 @@ const formatData = (result) => {
   }));
 };
 
+
 const reshapeData = (result) => {
+  console.log("reshapeData");
+  console.log(result);
   const dictionary = {};
   for (let index in result) {
     const key = result[index][2];
+    id_map.value[key] = result[index][3];
     if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
       dictionary[key] = [];
     }
@@ -99,6 +103,7 @@ const reshapeData_ds = async (result) => {
   const processed_result = await queryVariables(id);
   for(let index1 in processed_result){
     const key = processed_result[index1][2];
+    id_map.value[key] = id;
     if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
       dictionary[key] = [];
     }
@@ -127,6 +132,7 @@ const tempstructure = ref([
 const titleBold = (input)=>{
   return matchBold(input, localQueryInput.value);
 }
+
 </script>
 
 <template>
@@ -136,6 +142,7 @@ const titleBold = (input)=>{
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
+              <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
               <h2 class="dataset-title">{{ result.key }}</h2>
               <DataTable :value="formatData(result)">
                 <Column
@@ -151,6 +158,7 @@ const titleBold = (input)=>{
                   </template>
                 </Column>
               </DataTable>
+              </router-link>
             </div>
           </div>
         </template>
@@ -162,12 +170,14 @@ const titleBold = (input)=>{
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
+              <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
               <h2 class="dataset-title" v-html="titleBold(result.key)"/>
               <div>
                 <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
                   {{ item[0] }},
                 </span>
               </div>
+            </router-link>
             </div>
           </div>
         </template>
