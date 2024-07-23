@@ -1,7 +1,6 @@
 <script setup>
 import PageHeader from './components/PageHeader.vue'
 import FilterComponent from './components/FilterComponent.vue'
-import SearchComponent from './components/SearchComponent.vue'
 </script>
 
 <template>
@@ -11,12 +10,12 @@ import SearchComponent from './components/SearchComponent.vue'
     </header>
     <main>
       <FilterComponent title="Search Filters" />
-      <SearchComponent />
+      <RouterView />
     </main>
   </div>
 </template>
 
-<style scoped>
+<style>
 .layout {
   display: grid;
   grid-template-rows: 1fr 6fr;
@@ -33,5 +32,9 @@ header {
   padding-bottom: 2rem;
   text-align: center;
   justify-content: center;
+}
+
+a {
+  text-decoration: none;
 }
 </style>

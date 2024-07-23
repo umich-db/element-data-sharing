@@ -6,7 +6,6 @@ import InputGroup from 'primevue/inputgroup'
 import InputGroupAddon from 'primevue/inputgroupaddon'
 import Popover from 'primevue/popover';
 import InputText from 'primevue/inputtext'
-import { queryDatabase } from '../../databaseQueries';
 
 const props = defineProps({
   query: String,
