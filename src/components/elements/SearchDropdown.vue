@@ -12,10 +12,11 @@ const props = defineProps({
 });
 
 const matchBold = (words, query) => {
-  const pattern = new RegExp(`\\b(${query})\\b`, 'gi');
-  // Replace matched words with bold tags
+  if (!words) return '';
+  const wordsArray = query.split(' ').filter(Boolean);
+  const pattern = new RegExp(`\\b(${wordsArray.join('|')})\\b`, 'gi');
   return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
-}
+};
 
 </script>
 
