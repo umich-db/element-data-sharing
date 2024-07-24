@@ -3,15 +3,17 @@ import { ref, watch, inject } from 'vue';
 import { queryDatabase } from '../databaseQueries';
 import initSqlJs from 'sql.js-fts5';
 
-const {clicked} = inject('clicked');
+const { clicked } = inject('clicked');
 
 const props = defineProps({
   categoryInput: String,
   queryInput: String,
 });
-const varRes = ref('');
-const datasetRes = ref('');
-const datasetVar = ref([]);
+
+const varRes = ref([]);
+const datasetRes = ref([]);
+const reshapedDatasetRes = ref([]);
+const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
 
@@ -43,52 +45,50 @@ const queryVariables = async (id) => {
     while (stmt.step()) {
       results.push(stmt.get());
     }
-  stmt.free();
-  return results;
+    stmt.free();
+    return results;
   } catch (error) {
     console.error("Database Error: ", error);
   }
 };
-const batch_search_processing = async (queryInput, categoryInput) => {
+
+const batchSearchProcessing = async (queryInput) => {
   const words = queryInput.split(' ');
-  const resultCountMap = new Map();
+  const resultCountMap = {};
 
-  for (const word of words) {
-    const results = await queryDatabase(categoryInput, word);
-    if (Array.isArray(results) || (results && typeof results[Symbol.iterator] === 'function')) {
-      for (const result of results) {
+  await Promise.all(words.map(async (word) => {
+    const results = await queryDatabase(props.categoryInput, word);
+    if (results && typeof results[Symbol.iterator] === 'function') {
+      results.map(result => {
         const key = JSON.stringify(result);
-        if (resultCountMap.has(key)) {
-          resultCountMap.set(key, resultCountMap.get(key) + 1);
-        } else {
-          resultCountMap.set(key, 1);
-        }
-      }
+        resultCountMap[key] = (resultCountMap[key] || 0) + 1;
+      });
     } else {
-      console.warn(`Expected iterable results for word: ${word}, but got:`, results);
+      console.log("situation: only word");
+      return results;
     }
-  }
+  }));
 
-  const sortedResults = Array.from(resultCountMap.entries())
+  const sortedResults = Object.entries(resultCountMap)
     .sort((a, b) => b[1] - a[1])
     .map(entry => JSON.parse(entry[0]));
 
   return sortedResults;
 };
+
 watch(clicked, async () => {
   localQueryInput.value = props.queryInput;
-  const results = await batch_search_processing(localQueryInput.value, props.categoryInput);
+  const results = await batchSearchProcessing(localQueryInput.value);
   if (props.categoryInput === "variables") {
     varRes.value = results;
+    reshapedVarRes.value = await reshapeData(varRes.value, false);
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
-    let temp = await reshapeData_ds(datasetRes.value);
-    datasetVar.value = temp;
+    reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
     console.log("datasetvalue Updated");
-    console.log(datasetVar.value);
+    console.log(reshapedDatasetRes.value);
   }
 });
-
 
 const matchBold = (words, query) => {
   if (!words) return '';
@@ -97,13 +97,6 @@ const matchBold = (words, query) => {
   return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
 };
 
-// 示例使用
-const text = "This is a test text for matching multiple keywords.";
-const query = "test keywords";
-const highlightedText = matchBold(text, query);
-console.log(highlightedText);
-
-
 const formatData = (result) => {
   return result.value.map(item => ({
     variable: matchBold(item[0], localQueryInput.value),
@@ -111,43 +104,37 @@ const formatData = (result) => {
   }));
 };
 
-
-const reshapeData = (result) => {
-  console.log("reshapeData");
-  console.log(result);
+const reshapeData = async (result, isDataset) => {
+  console.log("reshapeData executing");
   const dictionary = {};
-  for (let index in result) {
-    const key = result[index][2];
-    id_map.value[key] = result[index][3];
-    if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
-      dictionary[key] = [];
+
+  await Promise.all(result.map(async (item) => {
+    const key = isDataset ? item[2] : item[2];
+    const id = isDataset ? item[2] : item[3];
+
+    if (isDataset) {
+      const processedResult = await queryVariables(id);
+      processedResult.map(processedItem => {
+        const subKey = processedItem[2];
+        id_map.value[subKey] = id;
+        if (!Object.prototype.hasOwnProperty.call(dictionary, subKey)) {
+          dictionary[subKey] = [];
+        }
+        dictionary[subKey].push([processedItem[0]]);
+      });
+    } else {
+      id_map.value[key] = id;
+      if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
+        dictionary[key] = [];
+      }
+      dictionary[key].push([item[0], item[1]]);
     }
-    dictionary[key].push([result[index][0], result[index][1]]);
-  }
+  }));
+
   const dictionaryArray = Object.entries(dictionary).map(([key, value]) => ({ key, value }));
   return dictionaryArray;
 };
 
-const reshapeData_ds = async (result) => {
- console.log("reshapeData_ds executing");
- const dictionary = {};
- for(let index in result){
-  const id = result[index][2];
-  const processed_result = await queryVariables(id);
-  for(let index1 in processed_result){
-    const key = processed_result[index1][2];
-    id_map.value[key] = id;
-    if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
-      dictionary[key] = [];
-    }
-    dictionary[key].push([processed_result[index1][0]]);
-  }
-}
-const dictionaryArray = Object.entries(dictionary).map(([key, value]) => ({ key, value }));
-console.log("this should not be a promise");
-console.log(dictionaryArray);
-return dictionaryArray;
-}
 
 const tempstructure = ref([
   {
@@ -162,61 +149,60 @@ const tempstructure = ref([
   }
 ]);
 
-const titleBold = (input)=>{
+const titleBold = (input) => {
   return matchBold(input, localQueryInput.value);
-}
-
+};
 </script>
 
 <template>
   <div>
-    <div v-if="props.categoryInput === 'variables' && varRes.length > 0">
-      <DataView :value="reshapeData(varRes)" paginator :rows="3">
+    <div v-if="props.categoryInput === 'variables' && reshapedVarRes.length > 0">
+      <DataView :value="reshapedVarRes" paginator :rows="3">
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
               <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
-              <h2 class="dataset-title">{{ result.key }}</h2>
-              <DataTable :value="formatData(result)">
-                <Column
-                  v-for="(data, index) in tempstructure"
-                  :key="index"
-                  :field="data.field"
-                  :header="data.header"
-                  :style="data.style"
-                >
-                  <template #body="slotProps">
-                    <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
-                    <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
-                  </template>
-                </Column>
-              </DataTable>
+                <h2 class="dataset-title">{{ result.key }}</h2>
+                <DataTable :value="formatData(result)">
+                  <Column
+                    v-for="(data, index) in tempstructure"
+                    :key="index"
+                    :field="data.field"
+                    :header="data.header"
+                    :style="data.style"
+                  >
+                    <template #body="slotProps">
+                      <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
+                      <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
+                    </template>
+                  </Column>
+                </DataTable>
               </router-link>
             </div>
           </div>
         </template>
       </DataView>
     </div>
-    
-    <div v-else-if="props.categoryInput === 'datasets' && datasetVar.length > 0">
-      <DataView :value="datasetVar" paginator :rows="8">
+
+    <div v-else-if="props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0">
+      <DataView :value="reshapedDatasetRes" paginator :rows="8">
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
               <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
-              <h2 class="dataset-title" v-html="titleBold(result.key)"/>
-              <div>
-                <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
-                  {{ item[0] }},
-                </span>
-              </div>
-            </router-link>
+                <h2 class="dataset-title" v-html="titleBold(result.key)"/>
+                <div>
+                  <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
+                    {{ item[0] }},
+                  </span>
+                </div>
+              </router-link>
             </div>
           </div>
         </template>
       </DataView>
     </div>
-    
+
     <div v-else class="none-matched">
       No matching studies.
     </div>
