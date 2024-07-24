@@ -2,7 +2,7 @@
 import { ref, provide, watch } from 'vue';
 import DatabaseSearch from './DatabaseSearch.vue';
 import SearchBar from './elements/SearchBar.vue';
-import { queryDatabase } from '../databaseQueries';
+import { queryDatabase,batchSearchProcessing } from '../utils/searchUtils';
 
 const category = ref("variables");
 const query = ref("");
@@ -31,33 +31,8 @@ const handleClickUpdate = () => {
   console.log(clicked.value);
 };
 
-const batchSearchProcessing = async (newQuery) => {
-  const words = newQuery.split(' ');
-  const resultCountMap = {};
-
-  await Promise.all(words.map(async (word) => {
-    const results = await queryDatabase(category.value, word);
-    if (results && typeof results[Symbol.iterator] === 'function') {
-      results.map(result => {
-        const key = JSON.stringify(result);
-        resultCountMap[key] = (resultCountMap[key] || 0) + 1;
-        return result;
-      });
-    } else {
-      console.log("situation: only word");
-      return results;
-    }
-  }));
-
-  const sortedResults = Object.entries(resultCountMap)
-    .sort((a, b) => b[1] - a[1])
-    .map(entry => JSON.parse(entry[0]));
-
-  return sortedResults;
-};
-
 watch(query, async (newQuery) => {
-  const results = await batchSearchProcessing(newQuery);
+  const results = await batchSearchProcessing(newQuery, category.value);
   if (category.value === "variables") {
     handleVariableResultsUpdate(results);
   } else if (category.value === "datasets") {
