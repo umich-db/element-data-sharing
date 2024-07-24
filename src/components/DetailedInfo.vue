@@ -1,10 +1,3 @@
-<template>
-    <div>
-      <h1>Detailed Information</h1>
-      <p>ID: {{ id }}</p>
-    </div>
-  </template>
-  
   <script>
   import { ref, onMounted } from 'vue';
   import { useRoute } from 'vue-router';
@@ -24,4 +17,11 @@
     }
   };
   </script>
+  
+  <template>
+    <div>
+      <h1>Detailed Information</h1>
+      <p>ID: {{ id }}</p>
+    </div>
+  </template>
   

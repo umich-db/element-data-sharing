@@ -1,7 +1,6 @@
 <script setup>
 import { ref, watch, inject } from 'vue';
-import { queryDatabase } from '../databaseQueries';
-import initSqlJs from 'sql.js-fts5';
+import { queryVariables, batchSearchProcessing,matchBold } from '../utils/searchUtils';
 
 const { clicked } = inject('clicked');
 
@@ -17,68 +16,10 @@ const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
 
-const datasetVariableQuery = `
-  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, Variables.dataset_id
-  FROM Variables
-  JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
-  WHERE Variables.dataset_id = ?
-`;
-
-const queryVariables = async (id) => {
-  try {
-    const sqlPromise = initSqlJs({
-      locateFile: () => `sql.js-fts5/dist/sql-wasm.wasm`
-    });
-
-    const dataPromise = fetch("./example.db").then(res => {
-      if (!res.ok) {
-        throw new Error('Network Error: Cannot connect to database.');
-      }
-      return res.arrayBuffer();
-    });
-
-    const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
-    const db = new SQL.Database(new Uint8Array(buf));
-    const results = [];
-    const stmt = db.prepare(datasetVariableQuery);
-    stmt.bind([id]);
-    while (stmt.step()) {
-      results.push(stmt.get());
-    }
-    stmt.free();
-    return results;
-  } catch (error) {
-    console.error("Database Error: ", error);
-  }
-};
-
-const batchSearchProcessing = async (queryInput) => {
-  const words = queryInput.split(' ');
-  const resultCountMap = {};
-
-  await Promise.all(words.map(async (word) => {
-    const results = await queryDatabase(props.categoryInput, word);
-    if (results && typeof results[Symbol.iterator] === 'function') {
-      results.map(result => {
-        const key = JSON.stringify(result);
-        resultCountMap[key] = (resultCountMap[key] || 0) + 1;
-      });
-    } else {
-      console.log("situation: only word");
-      return results;
-    }
-  }));
-
-  const sortedResults = Object.entries(resultCountMap)
-    .sort((a, b) => b[1] - a[1])
-    .map(entry => JSON.parse(entry[0]));
-
-  return sortedResults;
-};
 
 watch(clicked, async () => {
   localQueryInput.value = props.queryInput;
-  const results = await batchSearchProcessing(localQueryInput.value);
+  const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput);
   if (props.categoryInput === "variables") {
     varRes.value = results;
     reshapedVarRes.value = await reshapeData(varRes.value, false);
@@ -89,13 +30,6 @@ watch(clicked, async () => {
     console.log(reshapedDatasetRes.value);
   }
 });
-
-const matchBold = (words, query) => {
-  if (!words) return '';
-  const wordsArray = query.split(' ').filter(Boolean);
-  const pattern = new RegExp(`(${wordsArray.join('|')})`, 'gi');
-  return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
-};
 
 const formatData = (result) => {
   return result.value.map(item => ({
@@ -156,45 +90,35 @@ const titleBold = (input) => {
 
 <template>
   <div>
-    <div v-if="props.categoryInput === 'variables' && reshapedVarRes.length > 0">
-      <DataView :value="reshapedVarRes" paginator :rows="3">
+    <div v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)">
+      <DataView :value="props.categoryInput === 'variables' ? reshapedVarRes : reshapedDatasetRes" paginator :rows="props.categoryInput === 'variables' ? 3 : 8">
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
               <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
-                <h2 class="dataset-title">{{ result.key }}</h2>
-                <DataTable :value="formatData(result)">
-                  <Column
-                    v-for="(data, index) in tempstructure"
-                    :key="index"
-                    :field="data.field"
-                    :header="data.header"
-                    :style="data.style"
-                  >
-                    <template #body="slotProps">
-                      <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
-                      <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
-                    </template>
-                  </Column>
-                </DataTable>
-              </router-link>
-            </div>
-          </div>
-        </template>
-      </DataView>
-    </div>
-
-    <div v-else-if="props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0">
-      <DataView :value="reshapedDatasetRes" paginator :rows="8">
-        <template #list="slotProps">
-          <div class="list">
-            <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
-              <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
-                <h2 class="dataset-title" v-html="titleBold(result.key)"/>
-                <div>
-                  <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
-                    {{ item[0] }},
-                  </span>
+                <h2 class="dataset-title" v-html="titleBold(result.key)"></h2>
+                <div v-if="props.categoryInput === 'variables'">
+                  <DataTable :value="formatData(result)">
+                    <Column
+                      v-for="(data, dataIndex) in tempstructure"
+                      :key="dataIndex"
+                      :field="data.field"
+                      :header="data.header"
+                      :style="data.style"
+                    >
+                      <template #body="slotProps">
+                        <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
+                        <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
+                      </template>
+                    </Column>
+                  </DataTable>
+                </div>
+                <div v-else>
+                  <div>
+                    <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
+                      {{ item[0] }},
+                    </span>
+                  </div>
                 </div>
               </router-link>
             </div>
@@ -202,13 +126,8 @@ const titleBold = (input) => {
         </template>
       </DataView>
     </div>
-
-    <div v-else class="none-matched">
-      No matching studies.
-    </div>
   </div>
 </template>
-
 <style scoped>
 .list {
   padding: 0;
@@ -227,7 +146,7 @@ const titleBold = (input) => {
 }
 
 :deep(.p-datatable) {
-  border-radius: 0.1rem;
+  border-radius: 0.5rem;
   width: 100%;
   border: 0.1rem solid #0d0909; 
 }

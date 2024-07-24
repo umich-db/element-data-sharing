@@ -2,7 +2,7 @@
 <script setup>
 import { ref, inject } from 'vue';
 import ScrollPanel from 'primevue/scrollpanel';
-
+import { matchBold } from '../../utils/searchUtils';
 const { variableResults, handleVariableResultsUpdate } = inject('variableResults')
 const { datasetResults, handleDatasetResultsUpdate } = inject('datasetResults')
 
@@ -11,12 +11,6 @@ const props = defineProps({
   queryType: String,
 });
 
-const matchBold = (words, query) => {
-  if (!words) return '';
-  const wordsArray = query.split(' ').filter(Boolean);
-  const pattern = new RegExp(`\\b(${wordsArray.join('|')})\\b`, 'gi');
-  return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
-};
 
 </script>
 
@@ -38,9 +32,6 @@ const matchBold = (words, query) => {
           <p v-html="matchBold(result[1], props.query)"></p>
         </router-link>
         </div>
-      </div>
-      <div v-else class="none-matched">
-        No matching studies.
       </div>
     </ScrollPanel>
   </div>
