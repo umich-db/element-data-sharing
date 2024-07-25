@@ -12,7 +12,7 @@ const props = defineProps({
   category: String,
 })
 
-const emit = defineEmits(['update-state'])
+const emit = defineEmits(['update-state', "display-search"])
 
 const currentQuery = ref(props.query)
 const isToggled = ref();
@@ -29,26 +29,30 @@ watch(currentQuery, (newValue) => {
 const search = () => {
   emit('update-state', currentQuery.value)
 };
-
+const clicked = () => {
+  search();
+  emit('display-search', currentQuery.value)
+}
 const toggleDropdown = (event) => {
   isToggled.value.toggle(event);
 }
 </script>
 
 <template>
+  <div>
   <div class="search-bar">
     <InputGroup class="container">
       <InputGroupAddon>
         <CategoryDropdown />
       </InputGroupAddon>
-      <InputText type="text" v-model="currentQuery" @keyup.enter="search" @click="toggleDropdown" placeholder="Search..." />
-      <Button type="button" @click="search" label="Search" />
-      <Button @click="toggleDropdown" icon='pi pi-angle-down' severity="secondary" outlined />
+      <InputText type="text" v-model="currentQuery" @keyup.enter="clicked" @click="toggleDropdown" placeholder="Search..." />
+      <Button type="button" @click="clicked" label="Search" />
     </InputGroup>
   </div>
   <Popover ref="isToggled" appendTo="self">
     <SearchDropdown :queryType="category" :query="currentQuery" class="dropdown-container"/>
   </Popover>
+</div>
 </template>
 
 <style scoped>
