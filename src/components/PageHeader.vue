@@ -8,8 +8,13 @@ defineProps({
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <router-link :to="{ name: 'SearchComponent' }">
+    <h1 className="title">{{ title }}</h1>
+  </router-link>
 </template>
 
 <style scoped>
+.title:hover {
+  text-decoration: underline;
+}
 </style>

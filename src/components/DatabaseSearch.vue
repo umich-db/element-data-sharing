@@ -73,13 +73,11 @@ const reshapeData = async (result, isDataset) => {
 const tempstructure = ref([
   {
     field: 'variable',
-    header: 'Variable',
-    style: { width: '10rem', borderRight: '0.1rem solid #000', whiteSpace: 'normal', overflow: 'visible' }
+    header: 'Variable'
   },
   {
     field: 'description',
-    header: 'Description',
-    style: { flexGrow: 1, whiteSpace: 'normal', overflow: 'visible' }
+    header: 'Description'
   }
 ]);
 
