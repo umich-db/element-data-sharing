@@ -24,7 +24,9 @@ const variables = ref([
 
 onMounted( async() => {
   // OUTPUT: [[varName, varDesc, datasetName], ...]
-  const result = await queryVariables(id, true);
+  console.log("what is this id?");
+  console.log({id});
+  const result = await queryVariables(parseInt(id.value, 10));
   console.log(result);
   if (result !== undefined && result !== null && result.length > 0) {
     title.value = result[0][2];
