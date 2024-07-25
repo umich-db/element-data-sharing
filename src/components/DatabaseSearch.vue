@@ -47,7 +47,8 @@ const reshapeData = async (result, isDataset) => {
     const id = isDataset ? item[2] : item[3];
 
     if (isDataset) {
-      const processedResult = await queryVariables(id);
+      const processedResult = await queryVariables(id, false);
+      console.log(processedResult)
       processedResult.map(processedItem => {
         const subKey = processedItem[2];
         id_map.value[subKey] = id;

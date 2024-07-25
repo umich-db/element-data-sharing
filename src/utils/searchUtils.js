@@ -1,5 +1,13 @@
 import initSqlJs from 'sql.js-fts5';
 
+const selectDetailedInfoQuery = `
+  SELECT Datasets.dataset_title, Datasets.dataset_name, Variables.var_name, Variables.var_desc
+  FROM Datasets
+  JOIN Variables
+  ON Datasets.dataset_id = Variables.dataset_id
+  WHERE Datasets.dataset_id = ?;
+`
+
 const variableNameAndVariableQuery = `
   SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, Datasets.dataset_id
   FROM Variables_fts
@@ -60,7 +68,7 @@ const queryDatabase = async (categoryInput, queryInput) => {
   }
 };
 
-const queryVariables = async (id) => {
+const queryVariables = async (id, isDetailedInfo) => {
   try {
     const sqlPromise = initSqlJs({
       locateFile: () => `sql.js-fts5/dist/sql-wasm.wasm`
@@ -76,7 +84,7 @@ const queryVariables = async (id) => {
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
     const results = [];
-    const stmt = db.prepare(datasetVariableQuery);
+    const stmt = db.prepare(isDetailedInfo ? selectDetailedInfoQuery : datasetVariableQuery);
     stmt.bind([id]);
     while (stmt.step()) {
       results.push(stmt.get());
