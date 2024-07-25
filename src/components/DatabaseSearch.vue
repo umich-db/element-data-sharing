@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch, inject } from 'vue';
-import { queryVariables, batchSearchProcessing,matchBold } from '../utils/searchUtils';
+import { queryVariables, batchSearchProcessing, matchBold } from '../utils/searchUtils';
 
 const { clicked } = inject('clicked');
 
@@ -90,37 +90,34 @@ const titleBold = (input) => {
 
 <template>
   <div>
-    <div v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)">
-      <DataView :value="props.categoryInput === 'variables' ? reshapedVarRes : reshapedDatasetRes" paginator :rows="props.categoryInput === 'variables' ? 3 : 8">
+    <div
+      v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)">
+      <DataView :value="props.categoryInput === 'variables' ? reshapedVarRes : reshapedDatasetRes" paginator
+        :rows="props.categoryInput === 'variables' ? 2 : 5">
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
               <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
                 <h2 class="dataset-title" v-html="titleBold(result.key)"></h2>
-                <div v-if="props.categoryInput === 'variables'">
-                  <DataTable :value="formatData(result)">
-                    <Column
-                      v-for="(data, dataIndex) in tempstructure"
-                      :key="dataIndex"
-                      :field="data.field"
-                      :header="data.header"
-                      :style="data.style"
-                    >
-                      <template #body="slotProps">
-                        <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
-                        <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
-                      </template>
-                    </Column>
-                  </DataTable>
-                </div>
-                <div v-else>
-                  <div>
-                    <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
-                      {{ item[0] }},
-                    </span>
-                  </div>
-                </div>
               </router-link>
+              <div v-if="props.categoryInput === 'variables'">
+                <DataTable :value="formatData(result)">
+                  <Column v-for="(data, dataIndex) in tempstructure" :key="dataIndex" :field="data.field"
+                    :header="data.header" :style="data.style">
+                    <template #body="slotProps">
+                      <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
+                      <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
+                    </template>
+                  </Column>
+                </DataTable>
+              </div>
+              <div v-else>
+                <div>
+                  <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
+                    {{ item[0] }},
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </template>
@@ -135,19 +132,23 @@ const titleBold = (input) => {
 }
 
 .result-item {
-  margin-bottom: 1.5rem;
+  margin: 1rem 0;
   padding: 1rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 5px rgba(9, 0, 0, 0.1);
+  border-radius: 4px;
+  border: 1px solid black;
+  background-color: #FAFAFA;
 }
 
 .dataset-title {
   margin-bottom: 1rem;
 }
 
+.dataset-title:hover {
+  text-decoration: underline;
+}
+
 :deep(.p-datatable) {
-  border-radius: 0.5rem;
   width: 100%;
-  border: 0.1rem solid #0d0909; 
+  border: 1px solid black;
 }
 </style>
