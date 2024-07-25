@@ -29,7 +29,6 @@ const handleDatasetResultsUpdate = (results) => {
 
 const handleClickUpdate = () => {
   clicked.value = !clicked.value;
-  console.log(clicked.value);
 };
 
 watch(query, async (newQuery) => {
