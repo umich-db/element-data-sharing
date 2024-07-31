@@ -50,8 +50,10 @@ const props = defineProps({
   padding: 1rem;
 }
 
-.even {
+.even, .odd {
   padding: 0.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .even:hover {
@@ -62,7 +64,6 @@ const props = defineProps({
 
 .odd {
   background-color: #EBEBF0;
-  padding: 0.5rem;
 }
 
 .odd:hover {

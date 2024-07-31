@@ -31,28 +31,30 @@ const search = () => {
 };
 const clicked = () => {
   search();
-  emit('display-search', currentQuery.value)
+  emit('display-search', currentQuery.value);
 }
 const toggleDropdown = (event) => {
   isToggled.value.toggle(event);
+  clicked();
 }
 </script>
 
 <template>
   <div>
-  <div class="search-bar">
-    <InputGroup class="container">
-      <InputGroupAddon>
-        <CategoryDropdown />
-      </InputGroupAddon>
-      <InputText type="text" v-model="currentQuery" @keyup.enter="clicked" @click="toggleDropdown" placeholder="Search..." />
-      <Button type="button" @click="clicked" label="Search" />
-    </InputGroup>
+    <div class="search-bar">
+      <InputGroup class="container">
+        <InputGroupAddon>
+          <CategoryDropdown />
+        </InputGroupAddon>
+        <InputText type="text" v-model="currentQuery" @keyup.enter="toggleDropdown" @click="toggleDropdown"
+          placeholder="Search..." />
+        <Button type="button" @click="clicked" label="Search" />
+      </InputGroup>
+    </div>
+    <Popover ref="isToggled" append-to="self">
+      <SearchDropdown :queryType="category" :query="currentQuery" class="dropdown-container" />
+    </Popover>
   </div>
-  <Popover ref="isToggled" appendTo="self">
-    <SearchDropdown :queryType="category" :query="currentQuery" class="dropdown-container"/>
-  </Popover>
-</div>
 </template>
 
 <style scoped>
