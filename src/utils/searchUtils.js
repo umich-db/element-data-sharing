@@ -63,7 +63,7 @@ const queryDatabase = async (categoryInput, queryInput) => {
 const queryVariables = async (id) => {
   try {
     const sqlPromise = initSqlJs({
-      locateFile: () => `sql.js-fts5/dist/sql-wasm.wasm`
+      locateFile: () => `./sql.js-fts5/dist/sql-wasm.wasm`
     });
 
     const dataPromise = fetch("./example.db").then(res => {
@@ -71,22 +71,38 @@ const queryVariables = async (id) => {
         throw new Error('Network Error: Cannot connect to database.');
       }
       return res.arrayBuffer();
+    }).then(buffer => {
+      const uint8Array = new Uint8Array(buffer);
+      console.log("File header:", uint8Array.slice(0, 16));
+      return buffer;
     });
 
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
     const results = [];
+
+    const intId = parseInt(id, 10);
+    console.log("Binding ID (after conversion):", intId);
+    console.log("Preparing statement with query:", datasetVariableQuery);
+
     const stmt = db.prepare(datasetVariableQuery);
-    stmt.bind([id]);
+    stmt.bind([intId]);
+
     while (stmt.step()) {
       results.push(stmt.get());
     }
     stmt.free();
+
+    console.log("Query results:", results);
     return results;
   } catch (error) {
     console.error("Database Error: ", error);
+    console.error("Error stack:", error.stack);
+    console.error("Error message:", error.message);
+    return [];
   }
 };
+
 
 const batchSearchProcessing = async (queryInput, category) => {
     const words = queryInput.split(' ');

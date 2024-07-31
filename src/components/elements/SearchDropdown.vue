@@ -43,7 +43,7 @@ const props = defineProps({
 }
 
 .size {
-  height: 10rem;
+  height: 14rem;
 }
 
 .none-matched {
