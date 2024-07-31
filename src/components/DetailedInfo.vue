@@ -1,40 +1,31 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { queryVariables } from '../utils/searchUtils';
 
 const route = useRoute();
 const id = ref(route.params.id);
 
-const title = ref("Lorem ipsum dolor study");
-const variables = ref([
-  { name: "Night", description: "Order of day in the 7 day wear sequence" },
-  { name: "Total Wake", description: "Total time awake calculated not using sleep diary" },
-  { name: "Total Sleep", description: "Total time asleep calculated not using sleep diary" },
-  { name: "Night", description: "Order of day in the 7 day wear sequence" },
-  { name: "Total Wake", description: "Total time awake calculated not using sleep diary" },
-  { name: "Total Sleep", description: "Total time asleep calculated not using sleep diary" },
-  { name: "Night", description: "Order of day in the 7 day wear sequence" },
-  { name: "Total Wake", description: "Total time awake calculated not using sleep diary" },
-  { name: "Total Sleep", description: "Total time asleep calculated not using sleep diary" },
-  { name: "Night", description: "Order of day in the 7 day wear sequence" },
-  { name: "Total Wake", description: "Total time awake calculated not using sleep diary" },
-  { name: "Total Sleep", description: "Total time asleep calculated not using sleep diary" },
-]);
+const title = ref("");
+const variables = ref([]);
 
-onMounted( async() => {
-  // OUTPUT: [[varName, varDesc, datasetName], ...]
-  console.log("what is this id?");
-  console.log({id});
+const fetchData = async () => {
+  console.log(`ID being queried: ${id._value}`);
   const result = await queryVariables(parseInt(id.value, 10));
-  console.log(result);
   if (result !== undefined && result !== null && result.length > 0) {
     title.value = result[0][2];
     variables.value = result.map((variable) => {
       return {name: variable[0], description: variable[1]}
     })
   }
-});
+}
+
+onMounted(fetchData);
+
+watch(() => route.params.id, (newId) => {
+  id.value = newId;
+  fetchData();
+})
 
 const viewData = () => {
   // maybe download as an excel or spreadsheet file

@@ -73,7 +73,7 @@ const queryVariables = async (id) => {
       return res.arrayBuffer();
     }).then(buffer => {
       const uint8Array = new Uint8Array(buffer);
-      console.log("File header:", uint8Array.slice(0, 16));
+      // console.log("File header:", uint8Array.slice(0, 16));
       return buffer;
     });
 
@@ -82,8 +82,8 @@ const queryVariables = async (id) => {
     const results = [];
 
     const intId = parseInt(id, 10);
-    console.log("Binding ID (after conversion):", intId);
-    console.log("Preparing statement with query:", datasetVariableQuery);
+    // console.log("Binding ID (after conversion):", intId);
+    // console.log("Preparing statement with query:", datasetVariableQuery);
 
     const stmt = db.prepare(datasetVariableQuery);
     stmt.bind([intId]);
@@ -93,7 +93,7 @@ const queryVariables = async (id) => {
     }
     stmt.free();
 
-    console.log("Query results:", results);
+    // console.log("Query results:", results);
     return results;
   } catch (error) {
     console.error("Database Error: ", error);
