@@ -1,10 +1,10 @@
 <!-- eslint-disable no-unused-vars -->
 <script setup>
-import { ref, inject } from 'vue';
+import { inject } from 'vue';
 import ScrollPanel from 'primevue/scrollpanel';
 import { matchBold } from '../../utils/searchUtils';
-const { variableResults, handleVariableResultsUpdate } = inject('variableResults')
-const { datasetResults, handleDatasetResultsUpdate } = inject('datasetResults')
+const { variableResults } = inject('variableResults')
+const { datasetResults } = inject('datasetResults')
 
 const props = defineProps({
   query: String,
