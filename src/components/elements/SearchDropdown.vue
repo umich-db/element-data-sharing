@@ -19,7 +19,7 @@ const props = defineProps({
     <ScrollPanel class="size">
       <div v-if="props.queryType === 'variables'">
         <div v-for="(result, index) in variableResults" :key="index" :class="index % 2 == 0 ? 'even' : 'odd'">
-          <router-link :to="{ name: 'DetailedInfo', params: { id: result[3] } }">
+          <router-link :to="{ name: 'DetailedInfo', params: { id: result[5] } }">
           <h3>{{ result[2] }}</h3>
           <p v-html="matchBold(result[0], props.query) + ': ' + matchBold(result[1], props.query)"></p>
         </router-link>
@@ -27,7 +27,7 @@ const props = defineProps({
       </div>
       <div v-else-if="props.queryType === 'datasets'">
         <div v-for="(result, index) in datasetResults" :key="index" :class="index % 2 == 0 ? 'even' : 'odd'">
-          <router-link :to="{ name: 'DetailedInfo', params: { id: result[2] } }">
+          <router-link :to="{ name: 'DetailedInfo', params: { id: result[4] } }">
           <h3>{{ result[0] }}</h3>
           <p v-html="matchBold(result[1], props.query)"></p>
         </router-link>

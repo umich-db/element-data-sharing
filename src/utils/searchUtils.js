@@ -1,7 +1,8 @@
 import initSqlJs from 'sql.js-fts5';
 
 const variableNameAndVariableQuery = `
-  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, Datasets.dataset_id
+  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, 
+  Datasets.dataset_create_time, Datasets.classify, Datasets.dataset_id
   FROM Variables_fts
   JOIN Variables ON Variables.variable_id = Variables_fts.rowid
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
@@ -9,14 +10,16 @@ const variableNameAndVariableQuery = `
 `;
 
 const datasetNameAndVariableQuery = `
-  SELECT Datasets.dataset_title, Datasets.dataset_desc,Datasets.dataset_id
+  SELECT Datasets.dataset_title, Datasets.dataset_desc,
+  Datasets.dataset_create_time, Datasets.classify, Datasets.dataset_id
   FROM Datasets_fts
   JOIN Datasets ON Datasets.dataset_id = Datasets_fts.rowid
   WHERE Datasets_fts.dataset_desc MATCH ?
 `;
 
 const datasetVariableQuery = `
-  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, Variables.dataset_id
+  SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, 
+  Datasets.dataset_create_time, Datasets.classify, Variables.dataset_id
   FROM Variables
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
   WHERE Variables.dataset_id = ?
@@ -28,6 +31,7 @@ const executeQuery = async (db, query, param) => {
   while (stmt.step()) {
     results.push(stmt.get());
   }
+  console.log("Query results:", results);
   stmt.free();
   return results;
 };
@@ -92,7 +96,6 @@ const queryVariables = async (id) => {
       results.push(stmt.get());
     }
     stmt.free();
-
     // console.log("Query results:", results);
     return results;
   } catch (error) {

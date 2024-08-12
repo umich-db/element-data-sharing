@@ -1,16 +1,14 @@
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, inject } from 'vue';
 import SelectButton from 'primevue/selectbutton';
 
-const selectedLanguage = ref('English');
+const { filters, updateState } = inject('updateFilter');
+const selectedLanguage = ref(filters.value.language ?? 'English');
 const languages = ref(['English', 'Spanish']);
 
-const emit = defineEmits(['update-state'])
-
 watch(selectedLanguage, (newValue) => {
-  emit('update-state', newValue === 'English');
-});
-
+  updateState('language', newValue)
+}, {deep: true});
 </script>
 
 <template>

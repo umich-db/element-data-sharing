@@ -1,24 +1,19 @@
 <script setup>
-import { ref, watch } from "vue"
+import { ref, watch, inject } from "vue"
 import Checkbox from 'primevue/checkbox';
 
-const props = defineProps({
-  cohort: Array
-})
+const { filters, updateState } = inject('updateFilter');
+const selectedCohorts = ref([...filters.value.cohorts]);
 
-const selectedCohorts = ref(props.cohort);
 const cohorts = ref([
   {name: "Cohort 1 (1994 - 1997)", key: "1", value: 1},
   {name: "Cohort 2 (1997 - 2000)", key: "2", value: 2},
   {name: "Cohort 3 (2001 - 2005)", key: "3", value: 3},
 ]);
 
-const emit = defineEmits(['update-state'])
-
 watch(selectedCohorts, (newValue) => {
-  emit('update-state', newValue);
-});
-
+  updateState('cohorts', newValue)
+}, {deep: true});
 </script>
 
 <template>

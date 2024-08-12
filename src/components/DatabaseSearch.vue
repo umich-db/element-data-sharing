@@ -38,13 +38,17 @@ const formatData = (result) => {
   }));
 };
 
+// include year and demographic options
 const reshapeData = async (result, isDataset) => {
   console.log("reshapeData executing");
   const dictionary = {};
 
   await Promise.all(result.map(async (item) => {
-    const key = isDataset ? item[2] : item[2];
-    const id = isDataset ? item[2] : item[3];
+    const key = isDataset ? item[0] : item[2];
+    const id = isDataset ? item[4] : item[5];
+    const year = isDataset ? item[2] : item[3];
+    const demographic = isDataset ? item[3] : item[4];
+    console.info(year, demographic)
 
     if (isDataset) {
       const processedResult = await queryVariables(id);
@@ -99,6 +103,10 @@ const titleBold = (input) => {
               <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
                 <h2 class="dataset-title" v-html="titleBold(result.key)"></h2>
               </router-link>
+              <div class="dataset-metadata-container">
+                <h3><u>Year of Visit</u>: 1998</h3>
+                <h3><u>Demographic</u>: Mother</h3>
+              </div>
               <div v-if="props.categoryInput === 'variables'">
                 <DataTable :value="formatData(result)">
                   <Column v-for="(data, dataIndex) in tempstructure" :key="dataIndex" :field="data.field"
@@ -138,7 +146,10 @@ const titleBold = (input) => {
   background-color: #FAFAFA;
 }
 
-.dataset-title {
+.dataset-metadata-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
   margin-bottom: 1rem;
 }
 
