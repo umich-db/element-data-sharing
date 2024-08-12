@@ -128,12 +128,13 @@ const batchSearchProcessing = async (queryInput, category) => {
     return sortedResults;
   };
   
-const matchBold = (words, query) => {
+  const matchBold = (words, query) => {
     if (!words) return '';
     const wordsArray = query.split(' ').filter(Boolean);
-    const pattern = new RegExp(`\\b(${wordsArray.join('|')})\\b`, 'gi');
+    const pattern = new RegExp(`(${wordsArray.join('|')})`, 'gi');
     return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
-  };
+};
+
   
   export { matchBold };
 export { queryDatabase };

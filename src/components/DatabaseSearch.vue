@@ -112,8 +112,9 @@ const titleBold = (input) => {
               </div>
               <div v-else>
                 <div>
+                  <span>Variables: </span>
                   <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
-                    {{ item[0] }},
+                    {{ item[0] }}<span v-if="itemIndex < result.value.length - 1">, </span><span v-else>.</span>
                   </span>
                 </div>
               </div>
