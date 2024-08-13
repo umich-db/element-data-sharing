@@ -14,6 +14,7 @@ const variables = ref([]);
 const fetchData = async () => {
   console.log(`ID being queried: ${id._value}`);
   const result = await queryVariables(parseInt(id.value, 10));
+  console.log(result)
   if (result !== undefined && result !== null && result.length > 0) {
     title.value = result[0][2];
     year.value = result[0][3];
@@ -45,7 +46,7 @@ const viewData = () => {
     </div>
     <div className="desc-container">
       <h3>Year of Visit: {{ year }}</h3>
-      <h3>Demographic: {{ demographic == "MOM" ? "Mother" : "Child" }}</h3>
+      <h3>Demographic: {{ demographic == "MOM" ? "Mothers" : "Children" }}</h3>
     </div>
     <div className="variables-container">
       <div className="variables-subtitle-container">

@@ -1,7 +1,6 @@
 <script setup>
 import { defineProps } from 'vue'
 import Divider from 'primevue/divider'
-import SelectLanguage from './elements/SelectLanguage.vue'
 import SliderYear from './elements/SliderYear.vue'
 import SelectCohort from './elements/SelectCohort.vue'
 import SelectDemographic from './elements/SelectDemographic.vue'
@@ -18,7 +17,6 @@ defineProps({
 <template>
   <div class="container">
     <h2>{{ title }}</h2>
-    <SelectLanguage />
     <SliderYear />
     <SelectCohort />
     <Divider pt:root:style="margin: 0" />

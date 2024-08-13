@@ -3,7 +3,7 @@ import { ref, watch, inject } from 'vue';
 import SelectButton from 'primevue/selectbutton';
 
 const { filters, updateState } = inject('updateFilter');
-const selectedLanguage = ref(filters.value.language ?? 'English');
+const selectedLanguage = ref(filters.value.language);
 const languages = ref(['English', 'Spanish']);
 
 watch(selectedLanguage, (newValue) => {

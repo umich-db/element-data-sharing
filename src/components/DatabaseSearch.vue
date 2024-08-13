@@ -2,7 +2,10 @@
 import { ref, watch, inject } from 'vue';
 import { queryVariables, batchSearchProcessing, matchBold } from '../utils/searchUtils';
 
-const { clicked } = inject('clicked');
+const { clickedGeneral } = inject('clickedGeneral');
+const { filters, updateState } = inject('updateFilter');
+
+console.info("this: ", filters.value)
 
 const props = defineProps({
   categoryInput: String,
@@ -17,17 +20,15 @@ const localQueryInput = ref('');
 const id_map = ref({});
 
 
-watch(clicked, async () => {
+watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
-  const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput);
+  const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput, filters);
   if (props.categoryInput === "variables") {
     varRes.value = results;
     reshapedVarRes.value = await reshapeData(varRes.value, false);
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
-    console.log("datasetvalue Updated");
-    console.log(reshapedDatasetRes.value);
   }
 });
 
@@ -48,21 +49,25 @@ const reshapeData = async (result, isDataset) => {
     const id = isDataset ? item[4] : item[5];
     const year = isDataset ? item[2] : item[3];
     const demographic = isDataset ? item[3] : item[4];
-    console.info(year, demographic)
+    const metadata = {
+      id: id,
+      year: year,
+      demographic: demographic
+    }
 
     if (isDataset) {
-      const processedResult = await queryVariables(id);
+      const processedResult = await queryVariables(id, filters);
       console.log(processedResult)
       processedResult.map(processedItem => {
         const subKey = processedItem[2];
-        id_map.value[subKey] = id;
+        id_map.value[subKey] = metadata;
         if (!Object.prototype.hasOwnProperty.call(dictionary, subKey)) {
           dictionary[subKey] = [];
         }
         dictionary[subKey].push([processedItem[0]]);
       });
     } else {
-      id_map.value[key] = id;
+      id_map.value[key] = metadata;
       if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
         dictionary[key] = [];
       }
@@ -100,12 +105,12 @@ const titleBold = (input) => {
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
-              <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
+              <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key].id } }">
                 <h2 class="dataset-title" v-html="titleBold(result.key)"></h2>
               </router-link>
               <div class="dataset-metadata-container">
-                <h3><u>Year of Visit</u>: 1998</h3>
-                <h3><u>Demographic</u>: Mother</h3>
+                <h3><u>Year of Visit</u>: {{ id_map[result.key].year }}</h3>
+                <h3><u>Demographic</u>: {{ id_map[result.key].demographic == "MOM" ? "Mothers" : "Children" }}</h3>
               </div>
               <div v-if="props.categoryInput === 'variables'">
                 <DataTable :value="formatData(result)">

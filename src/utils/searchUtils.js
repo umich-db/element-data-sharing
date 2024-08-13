@@ -7,6 +7,7 @@ const variableNameAndVariableQuery = `
   JOIN Variables ON Variables.variable_id = Variables_fts.rowid
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
   WHERE Variables_fts.var_desc MATCH ?
+    AND Datasets.dataset_create_time BETWEEN ? AND ?
 `;
 
 const datasetNameAndVariableQuery = `
@@ -15,19 +16,23 @@ const datasetNameAndVariableQuery = `
   FROM Datasets_fts
   JOIN Datasets ON Datasets.dataset_id = Datasets_fts.rowid
   WHERE Datasets_fts.dataset_desc MATCH ?
+    AND Datasets.dataset_create_time BETWEEN ? AND ?
 `;
 
 const datasetVariableQuery = `
   SELECT Variables.var_name, Variables.var_desc, Datasets.dataset_name, 
-  Datasets.dataset_create_time, Datasets.classify, Variables.dataset_id
-  FROM Variables
+    Datasets.dataset_create_time, Datasets.classify, Variables.dataset_id
+  FROM Variables 
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
-  WHERE Variables.dataset_id = ?
+  WHERE Variables.dataset_id = ? 
+    AND Datasets.dataset_create_time BETWEEN ? AND ?
 `;
-const executeQuery = async (db, query, param) => {
+const executeQuery = async (db, query, param, filters) => {
+
   const results = [];
   const stmt = db.prepare(query);
-  stmt.bind([param]);
+  const yearRange = filters.value.year.sort((a,b) => a - b);
+  stmt.bind([param, ...yearRange]);
   while (stmt.step()) {
     results.push(stmt.get());
   }
@@ -36,7 +41,7 @@ const executeQuery = async (db, query, param) => {
   return results;
 };
 
-const queryDatabase = async (categoryInput, queryInput) => {
+const queryDatabase = async (categoryInput, queryInput, filters) => {
   try {
     const sqlPromise = initSqlJs({
       locateFile: () => `sql.js-fts5/dist/sql-wasm.wasm`
@@ -54,9 +59,9 @@ const queryDatabase = async (categoryInput, queryInput) => {
 
     const searchQueryInput = queryInput + '*';
     if (categoryInput === "variables" && queryInput !== '') {
-      return await executeQuery(db, variableNameAndVariableQuery, searchQueryInput);
+      return await executeQuery(db, variableNameAndVariableQuery, searchQueryInput, filters);
     } else if (categoryInput === "datasets" && queryInput !== '') {
-      return await executeQuery(db, datasetNameAndVariableQuery, searchQueryInput);
+      return await executeQuery(db, datasetNameAndVariableQuery, searchQueryInput, filters);
     } 
   } catch (error) {
     console.error("Database Error: ", error);
@@ -64,7 +69,7 @@ const queryDatabase = async (categoryInput, queryInput) => {
   }
 };
 
-const queryVariables = async (id) => {
+const queryVariables = async (id, filters) => {
   try {
     const sqlPromise = initSqlJs({
       locateFile: () => `./sql.js-fts5/dist/sql-wasm.wasm`
@@ -90,7 +95,9 @@ const queryVariables = async (id) => {
     // console.log("Preparing statement with query:", datasetVariableQuery);
 
     const stmt = db.prepare(datasetVariableQuery);
-    stmt.bind([intId]);
+
+    const yearRange = filters ? filters.value.year.sort((a,b) => a - b) : ['1994', '2024']
+    stmt.bind([intId, ...yearRange]); // [id, year, demographic]
 
     while (stmt.step()) {
       results.push(stmt.get());
@@ -107,12 +114,14 @@ const queryVariables = async (id) => {
 };
 
 
-const batchSearchProcessing = async (queryInput, category) => {
+const batchSearchProcessing = async (queryInput, category, filters) => {
+    console.log("queryInput: ", queryInput)
     const words = queryInput.split(' ');
     const resultCountMap = {};
   
     await Promise.all(words.map(async (word) => {
-      const results = await queryDatabase(category, word);
+      const results = await queryDatabase(category, word, filters);
+      console.log(results)
       if (results && typeof results[Symbol.iterator] === 'function') {
         results.forEach(result => {
           const key = JSON.stringify(result);
