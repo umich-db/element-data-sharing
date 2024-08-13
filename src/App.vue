@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, provide } from 'vue'
+import { ref, provide } from 'vue'
 import PageHeader from './components/PageHeader.vue'
 import FilterComponent from './components/FilterComponent.vue'
 
@@ -13,19 +13,6 @@ const filters = ref({
 const updateState = (key, newState) => {
   filters.value[key] = newState
 }
-
-// watch(filters, (newValue) => {
-//     console.log(`
-//       ------- New state -------
-//       Language: ${newValue.language}
-//       Year Range: [${newValue.year}]
-//       Cohorts: ${newValue.cohorts}
-//       Demographics: ${newValue.demographics}
-//       Age Range: [${newValue.age}]
-//     `)
-//   },
-//   { deep: true }
-// )
 
 provide('updateFilter', { filters, updateState })
 

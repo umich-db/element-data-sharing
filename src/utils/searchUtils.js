@@ -27,12 +27,33 @@ const datasetVariableQuery = `
   WHERE Variables.dataset_id = ? 
     AND Datasets.dataset_create_time BETWEEN ? AND ?
 `;
+// let tempDatasetVariableQuery = datasetVariableQuery;
+// const yearRange = filters ? filters.value.year.sort((a,b) => a - b) : ['1994', '2024']
+// const variableBind = [intId, ...yearRange];
+// if (filters && filters.value.demographics.length > 0) {
+//   // use demographics as filter
+//   const placeholders = filters.value.demographics.map(() => '?').join(', ');
+//   tempDatasetVariableQuery += ` AND Datasets.classify IN (${placeholders})`
+//   variableBind.push(...filters.value.demographics)
+// }
+
+// const stmt = db.prepare(tempDatasetVariableQuery);
+// stmt.bind(variableBind); // [id, year, demographic]
+
+
 const executeQuery = async (db, query, param, filters) => {
 
   const results = [];
-  const stmt = db.prepare(query);
   const yearRange = filters.value.year.sort((a,b) => a - b);
-  stmt.bind([param, ...yearRange]);
+  const variableBind = [param, ...yearRange];
+  let tempDatasetVariableQuery = query;
+  if (filters.value.demographics.length > 0) {
+    const placeholders = filters.value.demographics.map(() => '?').join(', ');
+    tempDatasetVariableQuery += ` AND Datasets.classify IN (${placeholders})`
+    variableBind.push(...filters.value.demographics)
+  }
+  const stmt = db.prepare(tempDatasetVariableQuery);
+  stmt.bind(variableBind);
   while (stmt.step()) {
     results.push(stmt.get());
   }
@@ -69,6 +90,7 @@ const queryDatabase = async (categoryInput, queryInput, filters) => {
   }
 };
 
+// may not have filters, if used in detailedInfo
 const queryVariables = async (id, filters) => {
   try {
     const sqlPromise = initSqlJs({
@@ -94,10 +116,18 @@ const queryVariables = async (id, filters) => {
     // console.log("Binding ID (after conversion):", intId);
     // console.log("Preparing statement with query:", datasetVariableQuery);
 
-    const stmt = db.prepare(datasetVariableQuery);
-
+    let tempDatasetVariableQuery = datasetVariableQuery;
     const yearRange = filters ? filters.value.year.sort((a,b) => a - b) : ['1994', '2024']
-    stmt.bind([intId, ...yearRange]); // [id, year, demographic]
+    const variableBind = [intId, ...yearRange];
+    if (filters && filters.value.demographics.length > 0) {
+      // use demographics as filter
+      const placeholders = filters.value.demographics.map(() => '?').join(', ');
+      tempDatasetVariableQuery += ` AND Datasets.classify IN (${placeholders})`
+      variableBind.push(...filters.value.demographics)
+    }
+
+    const stmt = db.prepare(tempDatasetVariableQuery);
+    stmt.bind(variableBind); // [id, year, demographic]
 
     while (stmt.step()) {
       results.push(stmt.get());
