@@ -27,19 +27,6 @@ const datasetVariableQuery = `
   WHERE Variables.dataset_id = ? 
     AND Datasets.dataset_create_time BETWEEN ? AND ?
 `;
-// let tempDatasetVariableQuery = datasetVariableQuery;
-// const yearRange = filters ? filters.value.year.sort((a,b) => a - b) : ['1994', '2024']
-// const variableBind = [intId, ...yearRange];
-// if (filters && filters.value.demographics.length > 0) {
-//   // use demographics as filter
-//   const placeholders = filters.value.demographics.map(() => '?').join(', ');
-//   tempDatasetVariableQuery += ` AND Datasets.classify IN (${placeholders})`
-//   variableBind.push(...filters.value.demographics)
-// }
-
-// const stmt = db.prepare(tempDatasetVariableQuery);
-// stmt.bind(variableBind); // [id, year, demographic]
-
 
 const executeQuery = async (db, query, param, filters) => {
 
@@ -51,6 +38,8 @@ const executeQuery = async (db, query, param, filters) => {
     const placeholders = filters.value.demographics.map(() => '?').join(', ');
     tempDatasetVariableQuery += ` AND Datasets.classify IN (${placeholders})`
     variableBind.push(...filters.value.demographics)
+  } else {
+    tempDatasetVariableQuery += ` AND Datasets.classify IN ('NA')`
   }
   const stmt = db.prepare(tempDatasetVariableQuery);
   stmt.bind(variableBind);
@@ -124,6 +113,8 @@ const queryVariables = async (id, filters) => {
       const placeholders = filters.value.demographics.map(() => '?').join(', ');
       tempDatasetVariableQuery += ` AND Datasets.classify IN (${placeholders})`
       variableBind.push(...filters.value.demographics)
+    } else if (filters) {
+      tempDatasetVariableQuery += ` AND Datasets.classify IN ('NA')`
     }
 
     const stmt = db.prepare(tempDatasetVariableQuery);
@@ -177,7 +168,7 @@ const matchBold = (words, query) => {
     return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
   };
   
-  export { matchBold };
+export { matchBold };
 export { queryDatabase };
 export { batchSearchProcessing };
 export { queryVariables };
