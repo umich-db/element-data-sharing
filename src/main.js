@@ -29,3 +29,5 @@ app.component('Column', Column);
 app.component('DataView', DataView);
 app.component('Button', Button);
 app.mount('#app');
+
+document.getElementById('app').style.padding = '0';

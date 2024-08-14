@@ -19,7 +19,6 @@ const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
 
-
 watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
   const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput, filters);
@@ -46,13 +45,17 @@ const reshapeData = async (result, isDataset) => {
 
   await Promise.all(result.map(async (item) => {
     const key = isDataset ? item[0] : item[2];
-    const id = isDataset ? item[4] : item[5];
+    const id = isDataset ? item[6] : item[7];
     const year = isDataset ? item[2] : item[3];
     const demographic = isDataset ? item[3] : item[4];
+    const min_age = isDataset ? item[4] : item[5];
+    const max_age = isDataset ? item[5] : item[6];
     const metadata = {
       id: id,
       year: year,
-      demographic: demographic
+      demographic: demographic,
+      min_age: min_age,
+      max_age: max_age,
     }
 
     if (isDataset) {
@@ -111,6 +114,7 @@ const titleBold = (input) => {
               <div class="dataset-metadata-container">
                 <h3><u>Year of Visit</u>: {{ id_map[result.key].year }}</h3>
                 <h3><u>Demographic</u>: {{ id_map[result.key].demographic == "MOM" ? "Mothers" : "Children" }}</h3>
+                <h3><u>Ages</u>: {{ id_map[result.key].min_age }} to {{ id_map[result.key].max_age }}</h3>
               </div>
               <div v-if="props.categoryInput === 'variables'">
                 <DataTable :value="formatData(result)">
@@ -153,7 +157,7 @@ const titleBold = (input) => {
 
 .dataset-metadata-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 1rem;
   margin-bottom: 1rem;
 }

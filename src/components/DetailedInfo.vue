@@ -9,6 +9,8 @@ const id = ref(route.params.id);
 const title = ref("");
 const year = ref("");
 const demographic = ref("");
+const min_age = ref(0);
+const max_age = ref(100);
 const variables = ref([]);
 
 const fetchData = async () => {
@@ -19,6 +21,8 @@ const fetchData = async () => {
     title.value = result[0][2];
     year.value = result[0][3];
     demographic.value = result[0][4];
+    min_age.value = result[0][5];
+    max_age.value = result[0][6];
     variables.value = result.map((variable) => {
       return {name: variable[0], description: variable[1]}
     })
@@ -45,8 +49,9 @@ const viewData = () => {
       <Button label="Request Data" icon="pi pi-envelope" size="small" iconPos="right" rounded />
     </div>
     <div className="desc-container">
-      <h3>Year of Visit: {{ year }}</h3>
-      <h3>Demographic: {{ demographic == "MOM" ? "Mothers" : "Children" }}</h3>
+      <h3><u>Year of Visit</u>: {{ year }}</h3>
+      <h3><u>Demographic</u>: {{ demographic == "MOM" ? "Mothers" : "Children" }}</h3>
+      <h3><u>Ages</u>: {{ min_age }} to {{ max_age }}</h3>
     </div>
     <div className="variables-container">
       <div className="variables-subtitle-container">
@@ -87,7 +92,7 @@ const viewData = () => {
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .variables-container {
