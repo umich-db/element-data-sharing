@@ -1,20 +1,17 @@
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, inject } from 'vue';
 import Slider from 'primevue/slider';
 
-const props = defineProps({
-  year: Array
-})
+const { filters, updateState } = inject('updateFilter');
+const selectedRange = ref([...filters.value.year]);
 
-const selectedRange = ref(props.year)
 const minYear = 1994;
 const maxYear = 2024;
 
-const emit = defineEmits(['update-state'])
-
 watch(selectedRange, (newValue) => {
-  emit('update-state', newValue);
-});
+  updateState('year', newValue)
+}, {deep: true});
+
 
 </script>
 

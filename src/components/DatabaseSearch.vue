@@ -1,8 +1,11 @@
 <script setup>
 import { ref, watch, inject } from 'vue';
-import { queryVariables, batchSearchProcessing,matchBold } from '../utils/searchUtils';
+import { queryVariables, batchSearchProcessing, matchBold } from '../utils/searchUtils';
 
-const { clicked } = inject('clicked');
+const { clickedGeneral } = inject('clickedGeneral');
+const { filters, updateState } = inject('updateFilter');
+
+console.info("this: ", filters.value)
 
 const props = defineProps({
   categoryInput: String,
@@ -15,19 +18,15 @@ const reshapedDatasetRes = ref([]);
 const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
-
-
-watch(clicked, async () => {
+watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
-  const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput);
+  const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput, filters);
   if (props.categoryInput === "variables") {
     varRes.value = results;
     reshapedVarRes.value = await reshapeData(varRes.value, false);
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
-    console.log("datasetvalue Updated");
-    console.log(reshapedDatasetRes.value);
   }
 });
 
@@ -38,26 +37,42 @@ const formatData = (result) => {
   }));
 };
 
+// include year and demographic options
+
 const reshapeData = async (result, isDataset) => {
   console.log("reshapeData executing");
   const dictionary = {};
 
   await Promise.all(result.map(async (item) => {
-    const key = isDataset ? item[2] : item[2];
-    const id = isDataset ? item[2] : item[3];
+    const key = isDataset ? item[0] : item[2];
+    const id = isDataset ? item[6] : item[7];
+    const year = isDataset ? item[2] : item[3];
+    const demographic = isDataset ? item[3] : item[4];
+    const min_age = isDataset ? item[4] : item[5];
+    const max_age = isDataset ? item[5] : item[6];
+    const metadata = {
+      id: id,
+      year: year,
+      demographic: demographic,
+      min_age: min_age,
+      max_age: max_age,
+    }
 
     if (isDataset) {
-      const processedResult = await queryVariables(id);
+      const processedResult = await queryVariables(id, filters);
+      console.log(processedResult)
       processedResult.map(processedItem => {
         const subKey = processedItem[2];
-        id_map.value[subKey] = id;
+        id_map.value[subKey] = metadata;
+
         if (!Object.prototype.hasOwnProperty.call(dictionary, subKey)) {
           dictionary[subKey] = [];
         }
         dictionary[subKey].push([processedItem[0]]);
       });
     } else {
-      id_map.value[key] = id;
+      id_map.value[key] = metadata;
+
       if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
         dictionary[key] = [];
       }
@@ -73,13 +88,12 @@ const reshapeData = async (result, isDataset) => {
 const tempstructure = ref([
   {
     field: 'variable',
-    header: 'Variable',
-    style: { width: '10rem', borderRight: '0.1rem solid #000', whiteSpace: 'normal', overflow: 'visible' }
+    header: 'Variable'
   },
   {
     field: 'description',
-    header: 'Description',
-    style: { flexGrow: 1, whiteSpace: 'normal', overflow: 'visible' }
+    header: 'Description'
+
   }
 ]);
 
@@ -90,37 +104,39 @@ const titleBold = (input) => {
 
 <template>
   <div>
-    <div v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)">
-      <DataView :value="props.categoryInput === 'variables' ? reshapedVarRes : reshapedDatasetRes" paginator :rows="props.categoryInput === 'variables' ? 3 : 8">
+    <div
+      v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)">
+      <DataView :value="props.categoryInput === 'variables' ? reshapedVarRes : reshapedDatasetRes" paginator
+        :rows="props.categoryInput === 'variables' ? 2 : 5">
         <template #list="slotProps">
           <div class="list">
             <div v-for="(result, index) in slotProps.items" :key="index" class="result-item">
-              <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key] } }">
+              <router-link :to="{ name: 'DetailedInfo', params: { id: id_map[result.key].id } }">
                 <h2 class="dataset-title" v-html="titleBold(result.key)"></h2>
-                <div v-if="props.categoryInput === 'variables'">
-                  <DataTable :value="formatData(result)">
-                    <Column
-                      v-for="(data, dataIndex) in tempstructure"
-                      :key="dataIndex"
-                      :field="data.field"
-                      :header="data.header"
-                      :style="data.style"
-                    >
-                      <template #body="slotProps">
-                        <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
-                        <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
-                      </template>
-                    </Column>
-                  </DataTable>
-                </div>
-                <div v-else>
-                  <div>
-                    <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
-                      {{ item[0] }},
-                    </span>
-                  </div>
-                </div>
               </router-link>
+              <div class="dataset-metadata-container">
+                <h3><u>Year of Visit</u>: {{ id_map[result.key].year }}</h3>
+                <h3><u>Demographic</u>: {{ id_map[result.key].demographic == "MOM" ? "Mothers" : "Children" }}</h3>
+                <h3><u>Ages</u>: {{ id_map[result.key].min_age }} to {{ id_map[result.key].max_age }}</h3>
+              </div>
+              <div v-if="props.categoryInput === 'variables'">
+                <DataTable :value="formatData(result)">
+                  <Column v-for="(data, dataIndex) in tempstructure" :key="dataIndex" :field="data.field"
+                    :header="data.header" :style="data.style">
+                    <template #body="slotProps">
+                      <span v-if="data.field === 'variable'" v-html="slotProps.data.variable"></span>
+                      <span v-if="data.field === 'description'" v-html="slotProps.data.description"></span>
+                    </template>
+                  </Column>
+                </DataTable>
+              </div>
+              <div v-else>
+                <div>
+                  <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
+                    {{ item[0] }},
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
         </template>
@@ -135,19 +151,27 @@ const titleBold = (input) => {
 }
 
 .result-item {
-  margin-bottom: 1.5rem;
+  margin: 1rem 0;
   padding: 1rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 5px rgba(9, 0, 0, 0.1);
+  border-radius: 4px;
+  border: 1px solid black;
+  background-color: #FAFAFA;
 }
 
-.dataset-title {
+.dataset-metadata-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1rem;
   margin-bottom: 1rem;
 }
 
+.dataset-title:hover {
+  text-decoration: underline;
+}
+
 :deep(.p-datatable) {
-  border-radius: 0.5rem;
   width: 100%;
-  border: 0.1rem solid #0d0909; 
+  border: 1px solid black;
+
 }
 </style>

@@ -11,7 +11,6 @@ import DataView from 'primevue/dataview';
 import router from './router'
 // Component assets
 import Button from 'primevue/button';
-
 const app = createApp(App);
 app.use(router).use(PrimeVue, {
   theme: {
@@ -29,3 +28,6 @@ app.component('Column', Column);
 app.component('DataView', DataView);
 app.component('Button', Button);
 app.mount('#app');
+
+document.getElementById('app').style.padding = '0';
+

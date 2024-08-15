@@ -1,10 +1,11 @@
 <!-- eslint-disable no-unused-vars -->
 <script setup>
-import { ref, inject } from 'vue';
+import { inject } from 'vue';
 import ScrollPanel from 'primevue/scrollpanel';
 import { matchBold } from '../../utils/searchUtils';
-const { variableResults, handleVariableResultsUpdate } = inject('variableResults')
-const { datasetResults, handleDatasetResultsUpdate } = inject('datasetResults')
+const { variableResults } = inject('variableResults')
+const { datasetResults } = inject('datasetResults')
+
 
 const props = defineProps({
   query: String,
@@ -19,7 +20,8 @@ const props = defineProps({
     <ScrollPanel class="size">
       <div v-if="props.queryType === 'variables'">
         <div v-for="(result, index) in variableResults" :key="index" :class="index % 2 == 0 ? 'even' : 'odd'">
-          <router-link :to="{ name: 'DetailedInfo', params: { id: result[3] } }">
+          <router-link :to="{ name: 'DetailedInfo', params: { id: result[5] } }">
+
           <h3>{{ result[2] }}</h3>
           <p v-html="matchBold(result[0], props.query) + ': ' + matchBold(result[1], props.query)"></p>
         </router-link>
@@ -27,7 +29,8 @@ const props = defineProps({
       </div>
       <div v-else-if="props.queryType === 'datasets'">
         <div v-for="(result, index) in datasetResults" :key="index" :class="index % 2 == 0 ? 'even' : 'odd'">
-          <router-link :to="{ name: 'DetailedInfo', params: { id: result[2] } }">
+          <router-link :to="{ name: 'DetailedInfo', params: { id: result[4] } }">
+
           <h3>{{ result[0] }}</h3>
           <p v-html="matchBold(result[1], props.query)"></p>
         </router-link>
@@ -43,15 +46,19 @@ const props = defineProps({
 }
 
 .size {
-  height: 10rem;
+  height: 14rem;
+
 }
 
 .none-matched {
   padding: 1rem;
 }
 
-.even {
+.even, .odd {
   padding: 0.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
 }
 
 .even:hover {
@@ -62,7 +69,6 @@ const props = defineProps({
 
 .odd {
   background-color: #EBEBF0;
-  padding: 0.5rem;
 }
 
 .odd:hover {

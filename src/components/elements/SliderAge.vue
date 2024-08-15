@@ -1,20 +1,17 @@
 <script setup>
-import { ref, watch } from 'vue';
+import { ref, watch, inject } from 'vue';
 import Slider from 'primevue/slider';
 
-const props = defineProps({
-  age: Array
-})
+const { filters, updateState } = inject('updateFilter');
+const selectedAge = ref([...filters.value.age]);
 
-const selectedAge = ref(props.age)
 const minAge = 0;
 const maxAge = 100;
 
-const emit = defineEmits(['update-state'])
-
 watch(selectedAge, (newValue) => {
-  emit('update-state', newValue);
-});
+  updateState('age', newValue)
+}, {deep: true});
+
 
 </script>
 
@@ -23,20 +20,17 @@ watch(selectedAge, (newValue) => {
     <h4>Age</h4>
     <div>
       <div class="labels">
-        <p>
-          {{ selectedAge[0] }}
-        </p>
-        <p>
-          {{ selectedAge[1] }}
-        </p>
+        <p>{{ selectedAge[0] }}</p>
+        <p>{{ selectedAge[1] }}</p>
       </div>
       <Slider 
-      v-model="selectedAge"
-      range
-      :min="minAge"
-      :max="maxAge"
-      class="slider"
-      pt:root:style="height: 1rem; border-radius: 1rem; width: 9rem" />
+        v-model="selectedAge"
+        range
+        :min="minAge"
+        :max="maxAge"
+        class="slider"
+        pt:root:style="height: 1rem; border-radius: 1rem; width: 9rem" />
+
     </div>
   </div>
 </template>
