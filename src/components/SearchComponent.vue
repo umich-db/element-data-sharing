@@ -61,6 +61,7 @@ provide('clicked', { clicked });
     <div class="search-container">
       <DetailedInfo v-if="$route.name === 'DetailedInfo'" />
       <DatabaseSearch v-else :categoryInput="category" :queryInput="query" />
+      
     </div>
   </div>
 </template>

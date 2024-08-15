@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch, inject } from 'vue';
-import { queryVariables, batchSearchProcessing, matchBold } from '../utils/searchUtils';
+import { queryVariables, batchSearchProcessing, matchBold, queryWords, queryEmbedding, findTopKRecommendations } from '../utils/searchUtils';
 
 const { clicked } = inject('clicked');
 
@@ -15,6 +15,8 @@ const reshapedDatasetRes = ref([]);
 const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
+const matchList = ref([]);
+const embeddingList = ref({});
 
 
 watch(clicked, async () => {
@@ -23,6 +25,11 @@ watch(clicked, async () => {
   if (props.categoryInput === "variables") {
     varRes.value = results;
     reshapedVarRes.value = await reshapeData(varRes.value, false);
+  await deadEmbedding();
+  console.log(matchList.value);
+  console.log(embeddingList.value);
+  let value = findTopKRecommendations(matchList.value, embeddingList.value, 3);
+  console.log(value);
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
@@ -30,6 +37,11 @@ watch(clicked, async () => {
     console.log(reshapedDatasetRes.value);
   }
 });
+const deadEmbedding = async () => {
+  //temp add here just for test
+  matchList.value = await queryWords(localQueryInput.value);
+  embeddingList.value = await queryEmbedding();
+};
 
 const formatData = (result) => {
   return result.value.map(item => ({
