@@ -18,7 +18,6 @@ const reshapedDatasetRes = ref([]);
 const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
-
 watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
   const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput, filters);
@@ -39,6 +38,7 @@ const formatData = (result) => {
 };
 
 // include year and demographic options
+
 const reshapeData = async (result, isDataset) => {
   console.log("reshapeData executing");
   const dictionary = {};
@@ -64,6 +64,7 @@ const reshapeData = async (result, isDataset) => {
       processedResult.map(processedItem => {
         const subKey = processedItem[2];
         id_map.value[subKey] = metadata;
+
         if (!Object.prototype.hasOwnProperty.call(dictionary, subKey)) {
           dictionary[subKey] = [];
         }
@@ -71,6 +72,7 @@ const reshapeData = async (result, isDataset) => {
       });
     } else {
       id_map.value[key] = metadata;
+
       if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
         dictionary[key] = [];
       }
@@ -91,6 +93,7 @@ const tempstructure = ref([
   {
     field: 'description',
     header: 'Description'
+
   }
 ]);
 
@@ -169,5 +172,6 @@ const titleBold = (input) => {
 :deep(.p-datatable) {
   width: 100%;
   border: 1px solid black;
+
 }
 </style>

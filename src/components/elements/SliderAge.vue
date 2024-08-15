@@ -12,6 +12,7 @@ watch(selectedAge, (newValue) => {
   updateState('age', newValue)
 }, {deep: true});
 
+
 </script>
 
 <template>
@@ -29,6 +30,7 @@ watch(selectedAge, (newValue) => {
         :max="maxAge"
         class="slider"
         pt:root:style="height: 1rem; border-radius: 1rem; width: 9rem" />
+
     </div>
   </div>
 </template>

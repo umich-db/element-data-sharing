@@ -16,6 +16,7 @@ const clicked = ref(false);
 const clickedGeneral = ref(false);
 const loading = ref(false);
 
+
 const updateCategoryState = (newState) => {
   category.value = newState.name.toLowerCase();
 };
@@ -43,6 +44,7 @@ const handleClickGeneralUpdate = () => {
 watch(filters, async () => {
   loading.value = true;
   const results = await batchSearchProcessing(query.value, category.value, filters);
+
   if (category.value === "variables") {
     handleVariableResultsUpdate(results);
   } else if (category.value === "datasets") {
@@ -63,12 +65,15 @@ watch(query, async (newQuery) => {
 watch(category, async (newCategory) => {
   loading.value = true;
   const results = await queryDatabase(newCategory, query.value, filters);
+
   if (category.value === "variables") {
     handleVariableResultsUpdate(results);
   } else if (category.value === "datasets") {
     handleDatasetResultsUpdate(results);
   }
+
   loading.value = false;
+
 });
 
 provide('searchCategory', { category, updateCategoryState });
@@ -76,6 +81,7 @@ provide('variableResults', { variableResults, handleVariableResultsUpdate });
 provide('datasetResults', { datasetResults, handleDatasetResultsUpdate });
 provide('clicked', { clicked });
 provide('clickedGeneral', { clickedGeneral })
+
 </script>
 
 <template>
@@ -86,17 +92,16 @@ provide('clickedGeneral', { clickedGeneral })
       <DetailedInfo v-if="$route.name === 'DetailedInfo'" />
       <DatabaseSearch v-else :categoryInput="category" :queryInput="query" />
       <Spinner v-if="loading" class="spinner-overlay" /> <!-- Overlay Spinner -->
+
     </div>
   </div>
 </template>
-
 
 <style scoped>
 .container {
   display: flex;
   flex-direction: column;
 }
-
 .search-container {
   position: relative;
 }
@@ -108,4 +113,5 @@ provide('clickedGeneral', { clickedGeneral })
   transform: translate(-50%, -50%);
   z-index: 10;
 }
+
 </style>

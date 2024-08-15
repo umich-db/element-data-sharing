@@ -7,6 +7,7 @@ import InputGroupAddon from 'primevue/inputgroupaddon'
 import Popover from 'primevue/popover';
 import InputText from 'primevue/inputtext';
 
+
 const props = defineProps({
   query: String,
   category: String,
@@ -17,6 +18,7 @@ const emit = defineEmits(['update-state', 'display-dropdown', 'display-all'])
 const currentQuery = ref(props.query)
 const isToggled = ref();
 const loading = ref(false);
+
 
 watch(() => props.query, (newQuery) => {
   currentQuery.value = newQuery
@@ -51,6 +53,7 @@ const toggleDropdown = (event) => {
   isToggled.value.toggle(event);
   search();
   emit('display-dropdown', currentQuery.value);
+
 }
 </script>
 
@@ -70,6 +73,7 @@ const toggleDropdown = (event) => {
       <SearchDropdown :queryType="category" :query="currentQuery" class="dropdown-container" />
     </Popover>
   </div>
+
 </template>
 
 <style scoped>

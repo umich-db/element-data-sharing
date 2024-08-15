@@ -8,6 +8,7 @@ const variableNameAndVariableQuery = `
   JOIN Variables ON Variables.variable_id = Variables_fts.rowid
   JOIN Datasets ON Variables.dataset_id = Datasets.dataset_id
   WHERE Variables_fts.var_desc MATCH ?
+
     AND Datasets.dataset_create_time BETWEEN ? AND ?
     AND Datasets.min_age >= ? AND Datasets.max_age <= ?
 `;
@@ -50,13 +51,13 @@ const executeQuery = async (db, query, param, filters) => {
   }
   const stmt = db.prepare(tempDatasetVariableQuery);
   stmt.bind(variableBind);
+
   while (stmt.step()) {
     results.push(stmt.get());
   }
   stmt.free();
   return results;
 };
-
 const queryDatabase = async (categoryInput, queryInput, filters) => {
   try {
     const sqlPromise = initSqlJs({
@@ -116,7 +117,6 @@ const queryVariables = async (id, filters) => {
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
     const results = [];
-
     const intId = parseInt(id, 10);
     // console.log("Binding ID (after conversion):", intId);
     // console.log("Preparing statement with query:", datasetVariableQuery);
@@ -158,6 +158,7 @@ const batchSearchProcessing = async (queryInput, category, filters) => {
   
     await Promise.all(words.map(async (word) => {
       const results = await queryDatabase(category, word, filters);
+
       if (results && typeof results[Symbol.iterator] === 'function') {
         results.forEach(result => {
           const key = JSON.stringify(result);

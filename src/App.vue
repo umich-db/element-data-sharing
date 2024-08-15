@@ -20,7 +20,6 @@ const updateState = (key, newState) => {
 };
 
 provide('updateFilter', { filters, updateState })
-
 </script>
 
 <template>
