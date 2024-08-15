@@ -28,4 +28,4 @@ coverage
 *.tsbuildinfo
 
 env/
-public/example.de
+public/example.db
