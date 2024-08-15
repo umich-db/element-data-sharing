@@ -3,6 +3,7 @@ import { ref, provide, watch } from 'vue';
 import DatabaseSearch from './DatabaseSearch.vue';
 import SearchBar from './elements/SearchBar.vue';
 import { queryDatabase,batchSearchProcessing } from '../utils/searchUtils';
+import DetailedInfo from './DetailedInfo.vue';
 
 const category = ref("variables");
 const query = ref("");
@@ -28,7 +29,6 @@ const handleDatasetResultsUpdate = (results) => {
 
 const handleClickUpdate = () => {
   clicked.value = !clicked.value;
-  console.log(clicked.value);
 };
 
 watch(query, async (newQuery) => {
@@ -59,10 +59,13 @@ provide('clicked', { clicked });
   <div class="container">
     <SearchBar :query="query" :category="category" @update-state="updateQueryState" @display-search="handleClickUpdate" />
     <div class="search-container">
-      <DatabaseSearch :categoryInput="category" :queryInput="query" />
+      <DetailedInfo v-if="$route.name === 'DetailedInfo'" />
+      <DatabaseSearch v-else :categoryInput="category" :queryInput="query" />
+      
     </div>
   </div>
 </template>
+
 
 <style scoped>
 .container {

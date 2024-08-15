@@ -28,8 +28,7 @@ const props = defineProps({
       <div v-else-if="props.queryType === 'datasets'">
         <div v-for="(result, index) in datasetResults" :key="index" :class="index % 2 == 0 ? 'even' : 'odd'">
           <router-link :to="{ name: 'DetailedInfo', params: { id: result[2] } }">
-          <h3>{{ result[0] }}</h3>
-          <p v-html="matchBold(result[1], props.query)"></p>
+          <h3 v-html="matchBold(result[0], props.query)"></h3>
         </router-link>
         </div>
       </div>
@@ -43,7 +42,7 @@ const props = defineProps({
 }
 
 .size {
-  height: 10rem;
+  height: 14rem;
 }
 
 .none-matched {
