@@ -1,7 +1,6 @@
 <script setup>
 import { ref, watch, inject } from 'vue';
-import { queryVariables, batchSearchProcessing, matchBold } from '../utils/searchUtils';
-
+import { queryVariables, batchSearchProcessing, matchBold, queryWords, queryEmbedding, findTopKRecommendations } from '../utils/searchUtils';
 const { clickedGeneral } = inject('clickedGeneral');
 const { filters, updateState } = inject('updateFilter');
 
@@ -18,17 +17,32 @@ const reshapedDatasetRes = ref([]);
 const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
+const matchList = ref([]);
+const embeddingList = ref({});
+
 watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
   const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput, filters);
   if (props.categoryInput === "variables") {
     varRes.value = results;
     reshapedVarRes.value = await reshapeData(varRes.value, false);
+    await deadEmbedding();
+    console.log("deadEmbedding");
+    console.log(matchList.value);
+    console.log(embeddingList.value);
+  let value = findTopKRecommendations(matchList.value, embeddingList.value, 3);
+  console.log(value);
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
   }
 });
+
+const deadEmbedding = async () => {
+  //temp add here just for test
+  matchList.value = await queryWords(localQueryInput.value);
+  embeddingList.value = await queryEmbedding();
+};
 
 const formatData = (result) => {
   return result.value.map(item => ({
@@ -132,8 +146,9 @@ const titleBold = (input) => {
               </div>
               <div v-else>
                 <div>
+                  <span>Variables: </span>
                   <span v-for="(item, itemIndex) in result.value" :key="itemIndex">
-                    {{ item[0] }},
+                    {{ item[0] }}<span v-if="itemIndex < result.value.length - 1">, </span><span v-else>.</span>
                   </span>
                 </div>
               </div>
