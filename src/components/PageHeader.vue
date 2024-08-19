@@ -9,11 +9,11 @@ defineProps({
 </script>
 
 <template>
-  <div className="container">
-    <img className="image-size" src="../assets/sph-header-logo.png">
+  <div class="container">
+    <img class="image-size" src="../assets/sph-header-logo.png">
   </div>
   <router-link :to="{ name: 'SearchComponent' }">
-    <h1 className="title">{{ title }}</h1>
+    <h1 class="title">{{ title }}</h1>
   </router-link>
 </template>
 

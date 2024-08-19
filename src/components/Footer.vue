@@ -3,7 +3,7 @@
 
 <template>
   <div class="container">
-    <img src="../assets/michigan_logo.png" />
+    <img class="image-size" src="../assets/michigan_logo.png"/>
     <div class="content">
       <div class="content-item" style="font-weight: bold;">
         School of Public Health <span style="color: yellow;">&nbsp;|&nbsp;</span> 734-764-5425
@@ -43,5 +43,9 @@
   align-items: center;
   background-color: #00274c;
   padding: 1rem 2rem;
+}
+
+.image-size {
+  width: 25%;
 }
 </style>
