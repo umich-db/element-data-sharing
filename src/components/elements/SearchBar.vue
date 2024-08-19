@@ -7,6 +7,7 @@ import InputGroupAddon from 'primevue/inputgroupaddon'
 import Popover from 'primevue/popover';
 import InputText from 'primevue/inputtext';
 
+const REFRESH_TIME_SECONDS = 0.5;
 
 const props = defineProps({
   query: String,
@@ -17,8 +18,6 @@ const emit = defineEmits(['update-state', 'display-dropdown', 'display-all'])
 
 const currentQuery = ref(props.query)
 const isToggled = ref();
-const loading = ref(false);
-
 
 watch(() => props.query, (newQuery) => {
   currentQuery.value = newQuery
@@ -32,7 +31,7 @@ watch(currentQuery, (newValue) => {
 
   timeout = setTimeout(() => {
     search(newValue);
-  }, 500);
+  }, REFRESH_TIME_SECONDS * 1000);
 });
 
 // TODO: Add a toggle so when user presses search, will display general view below

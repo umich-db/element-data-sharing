@@ -7,7 +7,7 @@ import DetailedInfo from './DetailedInfo.vue';
 import Spinner from './elements/Spinner.vue';
 
 const category = ref("variables");
-const { filters, updateState } = inject('updateFilter');
+const { filters } = inject('updateFilter');
 const query = ref("");
 const variableResults = ref([]);
 const datasetResults = ref([]);
@@ -15,7 +15,6 @@ const clicked = ref(false);
 //to prevent changing filter then clicking search bar and having general display change
 const clickedGeneral = ref(false);
 const loading = ref(false);
-
 
 const updateCategoryState = (newState) => {
   category.value = newState.name.toLowerCase();
@@ -80,7 +79,7 @@ provide('searchCategory', { category, updateCategoryState });
 provide('variableResults', { variableResults, handleVariableResultsUpdate });
 provide('datasetResults', { datasetResults, handleDatasetResultsUpdate });
 provide('clicked', { clicked });
-provide('clickedGeneral', { clickedGeneral })
+provide('clickedGeneral', { clickedGeneral, handleClickGeneralUpdate })
 
 </script>
 

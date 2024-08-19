@@ -28,7 +28,7 @@ provide('updateFilter', { filters, updateState })
       <PageHeader title="ELEMENT Data Search" />
     </header>
     <main>
-      <FilterComponent title="Search Filters"/>
+      <FilterComponent title="Search Filters" />
       <RouterView />
     </main>
     <footer>
@@ -42,7 +42,7 @@ provide('updateFilter', { filters, updateState })
   display: grid;
   grid-template-rows: 1fr 6fr 1fr;
   gap: 2rem;
-  height: 100vh;
+  height: 120vh;
 }
 
 main {

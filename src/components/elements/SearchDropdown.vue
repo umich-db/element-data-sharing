@@ -1,17 +1,15 @@
-<!-- eslint-disable no-unused-vars -->
 <script setup>
 import { inject } from 'vue';
 import ScrollPanel from 'primevue/scrollpanel';
 import { matchBold } from '../../utils/searchUtils';
-const { variableResults } = inject('variableResults')
-const { datasetResults } = inject('datasetResults')
 
+const { variableResults } = inject('variableResults');
+const { datasetResults } = inject('datasetResults');
 
 const props = defineProps({
   query: String,
   queryType: String,
 });
-
 
 </script>
 
@@ -20,7 +18,7 @@ const props = defineProps({
     <ScrollPanel class="size">
       <div v-if="props.queryType === 'variables'">
         <div v-for="(result, index) in variableResults" :key="index" :class="index % 2 == 0 ? 'even' : 'odd'">
-          <router-link :to="{ name: 'DetailedInfo', params: { id: result[5] } }">
+          <router-link :to="{ name: 'DetailedInfo', params: { id: result[7] } }">
 
           <h3>{{ result[2] }}</h3>
           <p v-html="matchBold(result[0], props.query) + ': ' + matchBold(result[1], props.query)"></p>
@@ -29,7 +27,7 @@ const props = defineProps({
       </div>
       <div v-else-if="props.queryType === 'datasets'">
         <div v-for="(result, index) in datasetResults" :key="index" :class="index % 2 == 0 ? 'even' : 'odd'">
-          <router-link :to="{ name: 'DetailedInfo', params: { id: result[4] } }">
+          <router-link :to="{ name: 'DetailedInfo', params: { id: result[6] } }">
 
             <h3 v-html="matchBold(result[0], props.query)"></h3>
         </router-link>

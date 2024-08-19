@@ -1,8 +1,18 @@
 <script setup>
-defineProps({
+import { inject } from 'vue';
+
+const emit = defineEmits(['update-state', 'display-all'])
+const { clickedGeneral, handleClickGeneralUpdate } = inject('clickedGeneral');
+
+const props = defineProps({
   related: Array,
   updateQuery: Function
 });
+
+const search = (queryValue) => {
+  props.updateQuery(queryValue);
+  handleClickGeneralUpdate();
+};
 </script>
 
 <template>
@@ -12,11 +22,13 @@ defineProps({
     </div>
     <div class="grid">
       <div class="item" 
-        v-for="(similar, idx) in related" 
+        v-for="(similar, idx) in props.related" 
         :key="`${similar.word}-${similar.similarity}-${idx}`"
-        @click="updateQuery(similar.word)"
+        @click="search(similar.word)"
       >
-        <i class="pi pi-search" style="font-size: 1rem; color: black;"></i>
+        <div class="no-hover">
+          <i class="pi pi-search" style="font-size: 1rem; color: black;"></i>
+        </div>
         <div class="content">
           {{ similar.word }}
         </div>
@@ -57,5 +69,9 @@ defineProps({
   cursor: pointer;
   color: rgb(17, 176, 118);
   text-decoration: underline;
+}
+
+.no-hover:hover {
+  text-decoration: none;
 }
 </style>
