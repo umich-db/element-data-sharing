@@ -90,7 +90,7 @@ provide('clickedGeneral', { clickedGeneral })
       @display-dropdown="handleClickUpdate" @display-all="handleClickGeneralUpdate" />
     <div class="search-container">
       <DetailedInfo v-if="$route.name === 'DetailedInfo'" />
-      <DatabaseSearch v-else :categoryInput="category" :queryInput="query" />
+      <DatabaseSearch v-else :categoryInput="category" :queryInput="query" :updateQuery="updateQueryState"/>
       <Spinner v-if="loading" class="spinner-overlay" /> <!-- Overlay Spinner -->
 
     </div>

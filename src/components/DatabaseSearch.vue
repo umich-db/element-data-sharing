@@ -1,14 +1,22 @@
 <script setup>
 import { ref, watch, inject } from 'vue';
-import { queryVariables, batchSearchProcessing, matchBold, queryWords, queryEmbedding, findTopKRecommendations } from '../utils/searchUtils';
+import {
+  queryVariables,
+  batchSearchProcessing,
+  matchBold,
+  queryWords,
+  queryEmbedding,
+  findTopKRecommendations
+} from '../utils/searchUtils';
+import RelatedSearch from './RelatedSearch.vue';
+const NUMBER_OF_RELATED_SEARCHES = 7;
 const { clickedGeneral } = inject('clickedGeneral');
-const { filters, updateState } = inject('updateFilter');
-
-console.info("this: ", filters.value)
+const { filters } = inject('updateFilter');
 
 const props = defineProps({
   categoryInput: String,
   queryInput: String,
+  updateQuery: Function
 });
 
 const varRes = ref([]);
@@ -19,6 +27,7 @@ const localQueryInput = ref('');
 const id_map = ref({});
 const matchList = ref([]);
 const embeddingList = ref({});
+const related = ref([]);
 
 watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
@@ -30,8 +39,13 @@ watch(clickedGeneral, async () => {
     console.log("deadEmbedding");
     console.log(matchList.value);
     console.log(embeddingList.value);
-  let value = findTopKRecommendations(matchList.value, embeddingList.value, 3);
-  console.log(value);
+    const similarities = findTopKRecommendations(matchList.value, embeddingList.value, NUMBER_OF_RELATED_SEARCHES);
+    console.log("query: ", props.queryInput)
+    const filtered_similarities = similarities.filter(word => 
+      word.word !== props.queryInput.trim()
+    ) 
+    console.log(filtered_similarities); // input similarity embeddings
+    related.value = filtered_similarities;
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
@@ -157,6 +171,7 @@ const titleBold = (input) => {
         </template>
       </DataView>
     </div>
+    <RelatedSearch v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)" :related="related" :updateQuery="updateQuery"/>
   </div>
 </template>
 <style scoped>
