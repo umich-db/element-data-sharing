@@ -53,10 +53,13 @@ watch(clickedGeneral, async () => {
 });
 
 const deadEmbedding = async () => {
-  //temp add here just for test
-  matchList.value = await queryWords(localQueryInput.value);
+  const words = localQueryInput.value.split(' ');
+  const matchPromises = words.map(word => queryWords(word));
+  const allMatches = (await Promise.all(matchPromises)).flat();
+  matchList.value = allMatches;
   embeddingList.value = await queryEmbedding();
 };
+
 
 const formatData = (result) => {
   return result.value.map(item => ({
