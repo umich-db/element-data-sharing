@@ -1,0 +1,1844 @@
+{
+    "proyecto": {
+      "description": "Project",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "Participant's folio",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Participant's folio",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "Stage",
+      "unit": "None"
+    },
+    "participante": {
+      "description": "Participant",
+      "unit": "M=Mother"
+    },
+    "stage": {
+      "description": "Stage",
+      "unit": "None"
+    },
+    "id": {
+      "description": "Participant ID",
+      "unit": "None"
+    },
+    "fecha": {
+      "description": "Date of interview",
+      "unit": "None"
+    },
+    "lugar": {
+      "description": "Place",
+      "unit": "None"
+    },
+    "hora_ini": {
+      "description": "Start time",
+      "unit": "None"
+    },
+    "min_ini": {
+      "description": "Start minute",
+      "unit": "None"
+    },
+    "f_dia": {
+      "description": "Day of the interview",
+      "unit": "None"
+    },
+    "f_mes": {
+      "description": "Month of the interview",
+      "unit": "None"
+    },
+    "f_anio": {
+      "description": "Year of interview",
+      "unit": "None"
+    },
+    "cod_ent": {
+      "description": "Interviewer Code",
+      "unit": "None"
+    },
+    "edad": {
+      "description": "How old are you currently?",
+      "unit": "None"
+    },
+    "gf01_1a": {
+      "description": "What is your date of birth? (day)",
+      "unit": "None"
+    },
+    "gf01_1b": {
+      "description": "What is your date of birth? (month)",
+      "unit": "None"
+    },
+    "gf01_1c": {
+      "description": "What is your date of birth? (year)",
+      "unit": "None"
+    },
+    "pcv3_1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pcv3_2": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pcv3_3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pcv4_5a": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pcv4_5b": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pcv4_6": {
+      "description": "None",
+      "unit": "None"
+    },
+    "s5_n": {
+      "description": "Last year of studies completed (Level)",
+      "unit": "0= Did not go to school, 1= Primary, 2= Post-primary technician, 3= Secondary, 4= Post-secondary technician, 5= Business career, 6= Technical career, 7= High school or vocational, 8= Post-vocational technician, 9= Professional, 10= Postgraduate, 11= Doctorate, 12= Don't know"
+    },
+    "s5_g": {
+      "description": "Last year of studies completed (Grade)",
+      "unit": "9= Don't know"
+    },
+    "vn9_n": {
+      "description": "Last year of schooling completed by the head of your household/spouse/partner",
+      "unit": "9= Don't know"
+    },
+    "vn9_g": {
+      "description": "Last year of schooling completed by the head of your household/spouse/partner",
+      "unit": "0= Did not go to school, 8= Not applicable, 1= Primary, 2= post-primary technician, 3= Secondary, 4= post-secondary technician, 5= Business career, 6= Technical career, 7= High school or vocational, 8= post-vocational technician, 9= Professional, 10= Postgraduate, 11= Doctorate, 12= Don't know"
+    },
+    "gf04": {
+      "description": "Did you work for at least an hour last week?",
+      "unit": "1= Yes, 2= No I had a job but I didn't work, 3= No looking for a job, 4=No you are pensioned or retired, 5=No he is a student, 6=No he does his household chores, 7=No you have some permanent physical or mental limitation that prevents you from working, 8=No I was in a different situation than the previous ones, 77=NO ANSWER, 99= DON'T KNOW"
+    },
+    "pcv6_1esp": {
+      "description": "None",
+      "unit": "None"
+    },
+    "gf04_2": {
+      "description": "How would you describe your work?",
+      "unit": "1= Independent personal or family, 2= In a public or private sector company or company, 3= None of the above"
+    },
+    "gf04_3": {
+      "description": "What is the name of the office, position or position?",
+      "unit": "None"
+    },
+    "gf04_4": {
+      "description": "What are the main tasks or functions that you perform in your job?",
+      "unit": "None"
+    },
+    "gf04_5": {
+      "description": "What days and hours do you usually dedicate to your work?",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf04_5a1": {
+      "description": "What days and hours do you usually dedicate to your work? Monday Hrs.",
+      "unit": "None"
+    },
+    "gf04_5a2": {
+      "description": "What days and hours do you usually dedicate to your work? Monday min",
+      "unit": "None"
+    },
+    "gf04_5b1": {
+      "description": "What days and hours do you usually dedicate to your work? Tuesday Hrs.",
+      "unit": "None"
+    },
+    "gf04_5b2": {
+      "description": "What days and hours do you usually dedicate to your work? Tuesday Min.",
+      "unit": "None"
+    },
+    "gf04_5c1": {
+      "description": "What days and hours do you usually dedicate to your work? Wednesday Hrs.",
+      "unit": "None"
+    },
+    "gf04_5c2": {
+      "description": "What days and hours do you usually dedicate to your work? Wednesday Min.",
+      "unit": "None"
+    },
+    "gf04_5d1": {
+      "description": "What days and hours do you usually dedicate to your work? Thursday Hrs.",
+      "unit": "None"
+    },
+    "gf04_5d2": {
+      "description": "What days and hours do you usually dedicate to your work? Thursday Min.",
+      "unit": "None"
+    },
+    "gf04_5e1": {
+      "description": "What days and hours do you usually dedicate to your work? Friday Hrs.",
+      "unit": "None"
+    },
+    "gf04_5e2": {
+      "description": "What days and hours do you usually dedicate to your work? Friday Min.",
+      "unit": "None"
+    },
+    "gf04_5f1": {
+      "description": "What days and hours do you usually dedicate to your work? Saturday Hrs.",
+      "unit": "None"
+    },
+    "gf04_5f2": {
+      "description": "What days and hours do you usually dedicate to your work? Saturday Min.",
+      "unit": "None"
+    },
+    "gf04_5g1": {
+      "description": "What days and hours do you usually dedicate to your work? Sunday Hrs.",
+      "unit": "None"
+    },
+    "gf04_5g2": {
+      "description": "What days and hours do you usually dedicate to your work? Sunday Min.",
+      "unit": "None"
+    },
+    "gf04_6": {
+      "description": "In addition to the main work that ee already talked about do you have a second job?",
+      "unit": "1= Yes, 2= No, 99= Does not know or does not respond"
+    },
+    "gf04_7": {
+      "description": "How would you describe your work?",
+      "unit": "1= Independent personal or family, 2= In a public or private sector company or company, 3= None of the above"
+    },
+    "gf04_8": {
+      "description": "What is the name or title the office or position?",
+      "unit": "None"
+    },
+    "gf04_9": {
+      "description": "What are the main tasks or functions that you perform in this job?",
+      "unit": "None"
+    },
+    "gf04_10a": {
+      "description": "In addition to what you already told me (REPLY OF 4) last week: Did you help in a business (family or non-family)?",
+      "unit": "1= Did you help in a business (family or non-family), 2= Did you sell any products, 3= Did you make any products to sell, 4= Did you help in the fields or in raising animals, 5= Did you perform other types of activities in exchange for payment? For example: launder someone else's iron babysitting etc., 6= Were you an apprentice or doing your social service, 7= Did you care for a sick person without any payment in return?, 8= Did you care for a person with a disability without any payment in return?, 9= Other, 10= None of the above, 77= Not responded, 99= Don't know"
+    },
+    "gf04_10b": {
+      "description": "In addition to what you already told me (REPLY OF 4) last week: Did you help in a business (family or non-family)?",
+      "unit": "1= Did you help in a business (family or non-family), 2= Did you sell any products, 3= Did you make any products to sell, 4= Did you help in the fields or in raising animals, 5= Did you perform other types of activities in exchange for payment? For example: launder someone else's iron babysitting etc., 6= Were you an apprentice or doing your social service, 7= Did you care for a sick person without any payment in return?, 8= Did you care for a person with a disability without any payment in return?, 9= Other, 10= None of the above, 77= Not responded, 99= Don't know"
+    },
+    "gf04_10c": {
+      "description": "In addition to what you already told me (REPLY OF 4) last week: Did you help in a business (family or non-family)?",
+      "unit": "1= Did you help in a business (family or non-family), 2= Did you sell any products, 3= Did you make any products to sell, 4= Did you help in the fields or in raising animals, 5= Did you perform other types of activities in exchange for payment? For example: launder someone else's iron babysitting etc., 6= Were you an apprentice or doing your social service, 7= Did you care for a sick person without any payment in return?, 8= Did you care for a person with a disability without any payment in return?, 9= Other, 10= None of the above, 77= Not responded, 99= Don't know"
+    },
+    "gf04_10d": {
+      "description": "In addition to what you already told me (REPLY OF 4) last week: Did you help in a business (family or non-family)?",
+      "unit": "1= Did you help in a business (family or non-family), 2= Did you sell any products, 3= Did you make any products to sell, 4= Did you help in the fields or in raising animals, 5= Did you perform other types of activities in exchange for payment? For example: launder someone else's iron babysitting etc., 6= Were you an apprentice or doing your social service, 7= Did you care for a sick person without any payment in return?, 8= Did you care for a person with a disability without any payment in return?, 9= Other, 10= None of the above, 77= Not responded, 99= Don't know"
+    },
+    "gf04_10e": {
+      "description": "In addition to what you already told me (REPLY OF 4) last week: Did you help in a business (family or non-family)?",
+      "unit": "1= Did you help in a business (family or non-family), 2= Did you sell any products, 3= Did you make any products to sell, 4= Did you help in the fields or in raising animals, 5= Did you perform other types of activities in exchange for payment? For example: launder someone else's iron babysitting etc., 6= Were you an apprentice or doing your social service, 7= Did you care for a sick person without any payment in return?, 8= Did you care for a person with a disability without any payment in return?, 9= Other, 10= None of the above, 77= Not responded, 99= Don't know"
+    },
+    "gf04_10esp": {
+      "description": "In addition to what you already told me (REPLY OF 4) last week: Did you help in a business (family or non-family)?",
+      "unit": "None"
+    },
+    "gf04_11a": {
+      "description": "Where did you carry out these activities?",
+      "unit": "1= In the countryside in the open, 2= Street vendor from house to house or on the street, 3= Improvised stall, 4= In non-motorized vehicle (bicycle tricycle cart), 5= In motor vehicle (car motorcycle or van), 6= In your own home without special installation, 7= In your own home with special installation, 8= At the domicile or property of the employer or in the place where the clients require it, 9= Semi-fixed position, 10= Fixed position, 11= Another place, 99= Does not know or does not respond"
+    },
+    "gf04_11b": {
+      "description": "Where did you carry out these activities?",
+      "unit": "1= In the countryside in the open, 2= Street vendor from house to house or on the street, 3= Improvised stall, 4= In non-motorized vehicle (bicycle tricycle cart), 5= In motor vehicle (car motorcycle or van), 6= In your own home without special installation, 7= In your own home with special installation, 8= At the domicile or property of the employer or in the place where the clients require it, 9= Semi-fixed position, 10= Fixed position, 11= Another place, 99= Does not know or does not respond"
+    },
+    "gf04_11c": {
+      "description": "Where did you carry out these activities?",
+      "unit": "1= In the countryside in the open, 2= Street vendor from house to house or on the street, 3= Improvised stall, 4= In non-motorized vehicle (bicycle tricycle cart), 5= In motor vehicle (car motorcycle or van), 6= In your own home without special installation, 7= In your own home with special installation, 8= At the domicile or property of the employer or in the place where the clients require it, 9= Semi-fixed position, 10= Fixed position, 11= Another place, 99= Does not know or does not respond"
+    },
+    "gf04_11d": {
+      "description": "Where did you carry out these activities?",
+      "unit": "1= In the countryside in the open, 2= Street vendor from house to house or on the street, 3= Improvised stall, 4= In non-motorized vehicle (bicycle tricycle cart), 5= In motor vehicle (car motorcycle or van), 6= In your own home without special installation, 7= In your own home with special installation, 8= At the domicile or property of the employer or in the place where the clients require it, 9= Semi-fixed position, 10= Fixed position, 11= Another place, 99= Does not know or does not respond"
+    },
+    "gf04_11e": {
+      "description": "Where did you carry out these activities?",
+      "unit": "1= In the countryside in the open, 2= Street vendor from house to house or on the street, 3= Improvised stall, 4= In non-motorized vehicle (bicycle tricycle cart), 5= In motor vehicle (car motorcycle or van), 6= In your own home without special installation, 7= In your own home with special installation, 8= At the domicile or property of the employer or in the place where the clients require it, 9= Semi-fixed position, 10= Fixed position, 11= Another place, 99= Does not know or does not respond"
+    },
+    "gf04_12a": {
+      "description": "How much time a day was spent on household chores on a common day? Monday to Friday",
+      "unit": "1= 0 min, 2= 1-10 min, 3= 11-20 min, 4= 21-45 min, 5= 46-60 min, 6= 1-2 hrs., 7= 2-3 hrs., 8= 3-6 hrs., 9= 6 hrs. or more, 99= Does not know or does not respond"
+    },
+    "gf04_12b": {
+      "description": "How much time a day was spent on household chores on a common day? Saturday and Sunday",
+      "unit": "1= 0 min, 2= 1-10 min, 3= 11-20 min, 4= 21-45 min, 5= 46-60 min, 6= 1-2 hrs., 7= 2-3 hrs., 8= 3-6 hrs., 9= 6 hrs. or more, 99= Does not know or does not respond"
+    },
+    "vn11": {
+      "description": "How many full bathrooms with shower and W.C. (excused) there is for the exclusive use of the members of your home?",
+      "unit": "0= None, 1= One, 2= Two or more"
+    },
+    "vn15": {
+      "description": "How many cars or vans do you have in your home including enclosed vans or with cabin or box?",
+      "unit": "0= None, 1= One, 2= Two or more"
+    },
+    "gf07": {
+      "description": "Without taking into account the mobile connection you may have from a cell phone does this home have Internet?",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf08": {
+      "description": "Of all the people 14 and older living in the household how many worked in the last month?",
+      "unit": "0= None, 1= One, 2= Two, 3= Three, 4= Four or more, 5= Pensioner, 6= Other (please specify)"
+    },
+    "gf08_es": {
+      "description": "Of all the people 14 years and older living in the household how many worked in the last month? (Please specify)",
+      "unit": "None"
+    },
+    "gf09": {
+      "description": "In this house how many rooms are used to sleep not counting corridors or bathrooms?",
+      "unit": "0= None, 1= One, 2= Two, 3= Three, 4= Four or more"
+    },
+    "gf010_a": {
+      "description": "Are you affiliated or registered with Social Security Medical Services (IMSS)",
+      "unit": "1= Mentioned"
+    },
+    "gf010_b": {
+      "description": "Are you affiliated or enrolled in the medical services of the ISSSTE?",
+      "unit": "2= Mentioned"
+    },
+    "gf010_c": {
+      "description": "Are you affiliated or enrolled in the medical services of the State ISSSTE?",
+      "unit": "3= Mentioned"
+    },
+    "gf010_d": {
+      "description": "Are you affiliated or Registered with Pemex medical services?",
+      "unit": "4= Mentioned"
+    },
+    "gf010_e": {
+      "description": "Are you affiliated or Registered with the medical services of the Defense or Navy?",
+      "unit": "5= Mentioned"
+    },
+    "gf010_f": {
+      "description": "Are you affiliated or enrolled in the medical services of Seguro Popular or for a new Generation?",
+      "unit": "5= Mentioned"
+    },
+    "gf010_g": {
+      "description": "Are you affiliated or Enrolled in private insurance medical services?",
+      "unit": "6= Mentioned"
+    },
+    "gf010_h": {
+      "description": "Are you affiliated or enrolled in the medical services of other institution?",
+      "unit": "7= Mentioned"
+    },
+    "gf010_i": {
+      "description": "Are you affiliated or enrolled in medical services... So it's not affiliated? (o) or subscribe to the Services Medical?",
+      "unit": "8= Mentioned"
+    },
+    "gf010_j": {
+      "description": "Are you affiliated or enrolled in medical services... Does not know or does not respond",
+      "unit": "99= Mentioned"
+    },
+    "s26n": {
+      "description": "Does the family pay rent?",
+      "unit": "1=Yes, 2=No"
+    },
+    "s26_1n": {
+      "description": "Why don't you pay rent?",
+      "unit": "1= Owned by the head of household, 2= Is from a family member, 3= Temporarily borrowed, 4= Other. Specify"
+    },
+    "s26_1ne": {
+      "description": "Why don't you pay rent? Specify",
+      "unit": "None"
+    },
+    "s27n": {
+      "description": "On which step of the ladder do you think you would stand according to your current situation?",
+      "unit": "1= Step 1, 2= Step 2, 3= Step 3, 4= Step 4, 5= Step 5, 6= Step 6, 7= Step 7, 8= Step 8, 9= Step 9, 10= Step 10"
+    },
+    "s34_h": {
+      "description": "Has a doctor told you that you have diabetes or high blood sugar?",
+      "unit": "1= Yes, 2= No"
+    },
+    "gf014_1a": {
+      "description": "How long ago did your doctor first tell you that you had diabetes or high blood sugar in your blood? Months",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf014_1b": {
+      "description": "How long ago did your doctor first tell you that you had diabetes or high blood sugar in your blood? Years",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf014_1c": {
+      "description": "How long ago did your doctor first tell you that you had diabetes or high blood sugar in your blood? Days",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf015": {
+      "description": "Has any doctor told you that you have pre-diabetes or higher blood sugar levels than normal?",
+      "unit": "1= Yes, 2= No"
+    },
+    "gf015_1a": {
+      "description": "How long ago did your doctor first tell you that you had pre-diabetes or higher than normal blood sugar levels? Months",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf015_1b": {
+      "description": "How long ago did your doctor first tell you that you had pre-diabetes or higher than normal blood sugar levels? Years",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf015_1c": {
+      "description": "How long ago did your doctor first tell you that you had pre-diabetes or higher than normal blood sugar levels? Days",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf016": {
+      "description": "Are you currently taking pills getting insulin or taking any other treatments to control your sugar?",
+      "unit": "1= None, 2= Insulin, 3= Pills, 4= Eating plan (diet), 5= Make a physical exercise plan, 6= Homeopathy, 7= Herbalist, 8= Alternative medicine, 9= Other"
+    },
+    "gf016_e": {
+      "description": "Are you currently taking pills getting insulin or taking any other treatment to control your sugar? other",
+      "unit": "None"
+    },
+    "s34_e": {
+      "description": "Has a doctor told you that you have high blood pressure or hypertension?",
+      "unit": "1= Yes, 2= No"
+    },
+    "gf017_1a": {
+      "description": "How long ago did your doctor first tell you that you have high blood pressure or hypertension?",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf017_1b": {
+      "description": "How long ago did your doctor first tell you that you have high blood pressure or hypertension? Years",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf017_1c": {
+      "description": "How long ago did your doctor first tell you that you have high blood pressure or hypertension? Days",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf017_2a": {
+      "description": "Are you currently taking any medicines (pills) or taking other treatment to control your high blood pressure?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Decrease in salt consumption, 8= Alternative medicine, 9= Other"
+    },
+    "gf017_2b": {
+      "description": "Are you currently taking any medicines (pills) or taking other treatment to control your high blood pressure?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Decrease in salt consumption, 8= Alternative medicine, 9= Other"
+    },
+    "gf017_2c": {
+      "description": "Are you currently taking any medicines (pills) or taking other treatment to control your high blood pressure?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Decrease in salt consumption, 8= Alternative medicine, 9= Other"
+    },
+    "gf017_2d": {
+      "description": "Are you currently taking any medicines (pills) or taking other treatment to control your high blood pressure?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Decrease in salt consumption, 8= Alternative medicine, 9= Other"
+    },
+    "gf017_2e": {
+      "description": "Are you currently taking any medicines (pills) or taking other treatment to control your high blood pressure?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Decrease in salt consumption, 8= Alternative medicine, 9= Other"
+    },
+    "gf017_2esp": {
+      "description": "Are you currently taking any medicines (pills) or taking other treatment to control your high blood pressure? Other",
+      "unit": "None"
+    },
+    "s34_a": {
+      "description": "Has a doctor told you that you have or had heart disease?",
+      "unit": "1= No, 2= A heart attack, 3= Angina pectoris, 4= Heart failure, 5= Other heart disease (please specify), 9= Does not know or does not remember"
+    },
+    "gf018_e": {
+      "description": "Has a doctor told you that you have or had heart disease? Other heart disease (please specify)",
+      "unit": "None"
+    },
+    "gf019": {
+      "description": "Have you ever had your cholesterol and/or triglyceride levels measured?",
+      "unit": "1= Yes, 2=No, 77= NOT ANSWERED, 99= DON'T KNOW"
+    },
+    "gf019_1": {
+      "description": "Has any doctor told you that you have high cholesterol?",
+      "unit": "1= Yes, 2=No, 77= NOT ANSWERED, 99= DON'T KNOW"
+    },
+    "gf019_2a": {
+      "description": "How long ago did your doctor tell you that you have high cholesterol? Months",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf019_2b": {
+      "description": "How long ago did your doctor tell you that you have high cholesterol? Years",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf019_2c": {
+      "description": "How long ago did your doctor tell you that you have high cholesterol? Days",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf019_3a": {
+      "description": "Have you been treated for high cholesterol?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Alternative Medicine, 8= Other"
+    },
+    "gf019_3b": {
+      "description": "Have you been treated for high cholesterol?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Alternative Medicine, 8= Other"
+    },
+    "gf019_3c": {
+      "description": "Have you been treated for high cholesterol?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Alternative Medicine, 8= Other"
+    },
+    "gf019_3d": {
+      "description": "Have you been treated for high cholesterol?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Alternative Medicine, 8= Other"
+    },
+    "gf019_3e": {
+      "description": "Have you been treated for high cholesterol?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Alternative Medicine, 8= Other"
+    },
+    "gf019_3esp": {
+      "description": "Have you had treatment for high cholesterol? specify",
+      "unit": "None"
+    },
+    "gf019_4": {
+      "description": "Has any doctor told you that you have high triglycerides?",
+      "unit": "1= Yes, 2=No, 77= NOT ANSWERED, 99= DON'T KNOW"
+    },
+    "gf019_5a": {
+      "description": "How long ago did your doctor tell you that you have high triglycerides? Months",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf019_5b": {
+      "description": "How long ago did your doctor tell you that you have high triglycerides? Years",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf019_5c": {
+      "description": "How long ago did your doctor tell you that you have high triglycerides? Days",
+      "unit": "99= Does not know or does not remember"
+    },
+    "gf019_6": {
+      "description": "Have you been treated for high triglycerides?",
+      "unit": "1= None, 2= Pills, 3= Eating plan (diet), 4= Make a physical exercise plan, 5= Homeopathy, 6= Herbalist, 7= Alternative Medicine, 8= Other"
+    },
+    "gf019_6e": {
+      "description": "Have you been treated for high triglycerides? specify",
+      "unit": "None"
+    },
+    "gf020_a": {
+      "description": "Has a doctor ever told you that you have kidney disease such as... urinary tract infection on more than one occasion?",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf020_b": {
+      "description": "Has a doctor ever told you that you have kidney disease? how... kidney stones?",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf020_c": {
+      "description": "Has a doctor ever told you that you have a kidney disease how... kidney failure?",
+      "unit": "1=Yes, 2=No"
+    },
+    "s34_r": {
+      "description": "Have you ever been told by a doctor that you have cancer?",
+      "unit": "1=Yes, 2=No, 77= NOT ANSWERED"
+    },
+    "gf021_1a": {
+      "description": "Type of cancer",
+      "unit": "None"
+    },
+    "gf021_1a1": {
+      "description": "Year of diagnosis",
+      "unit": "None"
+    },
+    "gf021_1b": {
+      "description": "Type of cancer",
+      "unit": "None"
+    },
+    "gf021_1b1": {
+      "description": "Year of diagnosis",
+      "unit": "None"
+    },
+    "gf021_1c": {
+      "description": "Type of cancer",
+      "unit": "None"
+    },
+    "gf021_1c1": {
+      "description": "Year of diagnosis",
+      "unit": "None"
+    },
+    "s34_t": {
+      "description": "Have you ever been diagnosed by your doctor or treated for a mental/psychiatric condition?",
+      "unit": "1= Yes, 2= No, 77= NOT ANSWERED"
+    },
+    "gf022_1a": {
+      "description": "Type of condition mental/psychiatry",
+      "unit": "None"
+    },
+    "gf022_1a1": {
+      "description": "Year of diagnosis",
+      "unit": "None"
+    },
+    "gf022_1b": {
+      "description": "Type of condition mental/psychiatry",
+      "unit": "None"
+    },
+    "gf022_1b1": {
+      "description": "Year of diagnosis",
+      "unit": "None"
+    },
+    "gf022_1c": {
+      "description": "Type of condition mental/psychiatry",
+      "unit": "None"
+    },
+    "gf022_1c1": {
+      "description": "Year of diagnosis",
+      "unit": "None"
+    },
+    "gf023a": {
+      "description": "Has a doctor ever diagnosed you with... Chronic bronchitis or emphysema",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023a1": {
+      "description": "Has a doctor ever diagnosed you with... Chronic bronchitis or emphysema year of diagnosis",
+      "unit": "None"
+    },
+    "s35_a": {
+      "description": "Has a doctor ever diagnosed you with ... Asthma",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023b1": {
+      "description": "Has a doctor ever diagnosed you with ... Asthma year of diagnosis",
+      "unit": "None"
+    },
+    "s34_i": {
+      "description": "Has a doctor ever diagnosed you with ... Low blood pressure",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023c1": {
+      "description": "Has a doctor ever diagnosed you with ... Low blood pressure year of diagnosis",
+      "unit": "None"
+    },
+    "s34_k": {
+      "description": "Has a doctor ever diagnosed you with ... Arthritis",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023d1": {
+      "description": "Has a doctor ever diagnosed you with ... Arthritis year of diagnosis",
+      "unit": "None"
+    },
+    "gf023e": {
+      "description": "Has a doctor ever diagnosed you with ... Osteoporosis",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023e1": {
+      "description": "Has a doctor ever diagnosed you with ... Osteoporosis year of diagnosis",
+      "unit": "None"
+    },
+    "s33_q": {
+      "description": "Has a doctor ever diagnosed you with ... Heart disease",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023f1": {
+      "description": "Has a doctor ever diagnosed you with ... Heart disease Year of diagnosis",
+      "unit": "None"
+    },
+    "s34_m": {
+      "description": "Has a doctor ever diagnosed you with ... Heart surgery",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023g1": {
+      "description": "Has a doctor ever diagnosed you with ... Heart surgery year of diagnosis",
+      "unit": "None"
+    },
+    "s34_o": {
+      "description": "Has a doctor ever diagnosed you with ... Liver disease",
+      "unit": "1=Yes, 2=No"
+    },
+    "gf023h1": {
+      "description": "Has a doctor ever diagnosed you with ... Liver disease year of diagnosis",
+      "unit": "None"
+    },
+    "toma_med2": {
+      "description": "You are currently taking any medications/vitamins/supplements?",
+      "unit": "1=Yes, 2=No"
+    },
+    "med1h": {
+      "description": "Name of medicine 1",
+      "unit": "None"
+    },
+    "med1h_rz": {
+      "description": "Reason for taking medicine 1",
+      "unit": "None"
+    },
+    "med1h_pr": {
+      "description": "Prescription for medicine 1",
+      "unit": "None"
+    },
+    "med1h_c1": {
+      "description": "Drug 1 amount (mg)",
+      "unit": "None"
+    },
+    "med1h_c2": {
+      "description": "Drug 1 amount (g)",
+      "unit": "None"
+    },
+    "med1h_c3": {
+      "description": "Drug 1 quantity (ml)",
+      "unit": "None"
+    },
+    "med1h_c4": {
+      "description": "Drug 1 amount (IU)",
+      "unit": "None"
+    },
+    "med1h_f1": {
+      "description": "Drug 1 frequency (times per day)",
+      "unit": "None"
+    },
+    "med1h_f2": {
+      "description": "Drug 1 frequency (week)",
+      "unit": "None"
+    },
+    "med1h_f3": {
+      "description": "Drug 1 frequency (month)",
+      "unit": "None"
+    },
+    "med1h_d1": {
+      "description": "Drug 1 duration (dd)",
+      "unit": "None"
+    },
+    "med1h_d2": {
+      "description": "Drug 1 duration (sem)",
+      "unit": "None"
+    },
+    "med1h_d3": {
+      "description": "Drug 1 duration (mm)",
+      "unit": "None"
+    },
+    "med1h_d4": {
+      "description": "Drug 1 duration (aa)",
+      "unit": "None"
+    },
+    "med1h_d5": {
+      "description": "Drug 1 always",
+      "unit": "None"
+    },
+    "med1h_m": {
+      "description": "Drug 1 drug type",
+      "unit": "1= Mentioned"
+    },
+    "med1h_v": {
+      "description": "Drug 1 vitamin / type supplement",
+      "unit": "1= Mentioned"
+    },
+    "med1h_h": {
+      "description": "Drug 1 herbalist type / Homeo",
+      "unit": "1= Mentioned"
+    },
+    "med2h": {
+      "description": "Name of medicine 2",
+      "unit": "None"
+    },
+    "med2h_rz": {
+      "description": "Reason for taking medicine 2",
+      "unit": "None"
+    },
+    "med2h_pr": {
+    "description": "Not found",
+    "unit": "Not found"
+  },
+  "med2h_c1": {
+    "description": "Drug 2 amount",
+    "unit": "mg"
+  },
+  "med2h_c2": {
+    "description": "Drug 2 amount",
+    "unit": "g"
+  },
+  "med2h_c3": {
+    "description": "Drug 2 amount",
+    "unit": "ml"
+  },
+  "med2h_c4": {
+    "description": "Drug 2 quantity",
+    "unit": "IU"
+  },
+  "med2h_f1": {
+    "description": "Drug 2 frequency",
+    "unit": "times per day"
+  },
+  "med2h_f2": {
+    "description": "Drug 2 frequency",
+    "unit": "week"
+  },
+  "med2h_f3": {
+    "description": "Drug 2 frequency",
+    "unit": "month"
+  },
+  "med2h_d1": {
+    "description": "Drug 2 duration",
+    "unit": "dd"
+  },
+  "med2h_d2": {
+    "description": "Drug 2 duration",
+    "unit": "sem"
+  },
+  "med2h_d3": {
+    "description": "Drug 2 duration",
+    "unit": "mm"
+  },
+  "med2h_d4": {
+    "description": "Drug 2 duration",
+    "unit": "aa"
+  },
+  "med2h_d5": {
+    "description": "Drug 2 always",
+    "unit": "Whole"
+  },
+  "med2h_m": {
+    "description": "Drug 2 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med2h_v": {
+    "description": "Drug 2 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med2h_h": {
+    "description": "Drug 2 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med3h": {
+    "description": "Drug Name 3",
+    "unit": "Short text"
+  },
+  "med3h_rz": {
+    "description": "Reason for taking medication 3",
+    "unit": "Short text"
+  },
+  "med3h_pr": {
+    "description": "Not found",
+    "unit": "Not found"
+  },
+  "med3h_c1": {
+    "description": "Drug 3 amount",
+    "unit": "mg"
+  },
+  "med3h_c2": {
+    "description": "Drug 3 amount",
+    "unit": "g"
+  },
+  "med3h_c3": {
+    "description": "Drug 3 amount",
+    "unit": "ml"
+  },
+  "med3h_c4": {
+    "description": "Drug 3 amount",
+    "unit": "IU"
+  },
+  "med3h_f1": {
+    "description": "Drug 3 frequency",
+    "unit": "times per day"
+  },
+  "med3h_f2": {
+    "description": "Drug 3 frequency",
+    "unit": "week"
+  },
+  "med3h_f3": {
+    "description": "Drug 3 frequency",
+    "unit": "month"
+  },
+  "med3h_d1": {
+    "description": "Drug 3 duration",
+    "unit": "dd"
+  },
+  "med3h_d2": {
+    "description": "Drug 3 duration",
+    "unit": "sem"
+  },
+  "med3h_d3": {
+    "description": "Drug 3 duration",
+    "unit": "mm"
+  },
+  "med3h_d4": {
+    "description": "Drug 3 duration",
+    "unit": "aa"
+  },
+  "med3h_d5": {
+    "description": "Drug 3 always",
+    "unit": "Whole"
+  },
+  "med3h_m": {
+    "description": "Drug 3 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med3h_v": {
+    "description": "Drug 3 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med3h_h": {
+    "description": "Drug 3 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med4h": {
+    "description": "Drug Name 4",
+    "unit": "Short text"
+  },
+  "med4h_rz": {
+    "description": "Reason for taking medication 4",
+    "unit": "Short text"
+  },
+  "med4h_c1": {
+    "description": "Drug 4 amount",
+    "unit": "mg"
+  },
+  "med4h_c2": {
+    "description": "Drug 4 amount",
+    "unit": "g"
+  },
+  "med4h_c3": {
+    "description": "Drug 4 quantity",
+    "unit": "ml"
+  },
+  "med4h_c4": {
+    "description": "Drug 4 quantity",
+    "unit": "IU"
+  },
+  "med4h_f1": {
+    "description": "Drug 4 frequency",
+    "unit": "times per day"
+  },
+  "med4h_f2": {
+    "description": "Drug 4 frequency",
+    "unit": "week"
+  },
+  "med4h_f3": {
+    "description": "Drug 4 frequency",
+    "unit": "month"
+  },
+  "med4h_d1": {
+    "description": "Drug 4 duration",
+    "unit": "dd"
+  },
+  "med4h_d2": {
+    "description": "Drug 4 duration",
+    "unit": "sem"
+  },
+  "med4h_d3": {
+    "description": "Drug 4 duration",
+    "unit": "mm"
+  },
+  "med4h_d4": {
+    "description": "Drug 4 duration",
+    "unit": "aa"
+  },
+  "med4h_d5": {
+    "description": "Drug 4 always",
+    "unit": "Whole"
+  },
+  "med4h_m": {
+    "description": "Drug 4 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med4h_v": {
+    "description": "Drug 4 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med4h_h": {
+    "description": "Drug 4 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med5h": {
+    "description": "Drug Name 5",
+    "unit": "Short text"
+  },
+  "med5h_rz": {
+    "description": "Reason to take medication 5",
+    "unit": "Short text"
+  },
+  "med5h_c1": {
+    "description": "Drug 5 amount",
+    "unit": "mg"
+  },
+  "med5h_c2": {
+    "description": "Drug 5 amount",
+    "unit": "g"
+  },
+  "med5h_c3": {
+    "description": "Drug 5 amount",
+    "unit": "ml"
+  },
+  "med5h_c4": {
+    "description": "Drug 5 amount",
+    "unit": "IU"
+  },
+  "med5h_f1": {
+    "description": "Drug 5 frequency",
+    "unit": "times per day"
+  },
+  "med5h_f2": {
+    "description": "Drug 5 frequency",
+    "unit": "week"
+  },
+  "med5h_f3": {
+    "description": "Drug 5 frequency",
+    "unit": "month"
+  },
+  "med5h_d1": {
+    "description": "Drug 5 duration",
+    "unit": "dd"
+  },
+  "med5h_d2": {
+    "description": "Drug 5 duration",
+    "unit": "sem"
+  },
+  "med5h_d3": {
+    "description": "Drug 5 duration",
+    "unit": "mm"
+  },
+  "med5h_d4": {
+    "description": "Drug 5 duration",
+    "unit": "aa"
+  },
+  "med5h_d5": {
+    "description": "Drug 5 always",
+    "unit": "Whole"
+  },
+  "med5h_m": {
+    "description": "Drug 5 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med5h_v": {
+    "description": "Drug 5 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med5h_h": {
+    "description": "Drug 5 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med6h": {
+    "description": "Drug Name 6",
+    "unit": "Short text"
+  },
+  "med6h_rz": {
+    "description": "Reason for taking medication 6",
+    "unit": "Short text"
+  },
+  "med6h_c1": {
+    "description": "Drug 6 amount",
+    "unit": "mg"
+  },
+  "med6h_c2": {
+    "description": "Drug 6 amount",
+    "unit": "g"
+  },
+  "med6h_c3": {
+    "description": "Drug 6 amount",
+    "unit": "ml"
+  },
+  "med6h_c4": {
+    "description": "Drug 6 amount",
+    "unit": "IU"
+  },
+  "med6h_f1": {
+    "description": "Drug 6 frequency",
+    "unit": "times per day"
+  },
+  "med6h_f2": {
+    "description": "Drug 6 frequency",
+    "unit": "week"
+  },
+  "med6h_f3": {
+    "description": "Drug 6 frequency",
+    "unit": "month"
+  },
+  "med6h_d1": {
+    "description": "Drug 6 duration",
+    "unit": "dd"
+  },
+  "med6h_d2": {
+    "description": "Drug 6 duration",
+    "unit": "weeks"
+  },
+  "med6h_d3": {
+    "description": "Drug 6 duration",
+    "unit": "mm"
+  },
+  "med6h_d4": {
+    "description": "Drug 6 duration",
+    "unit": "aa"
+  },
+  "med6h_d5": {
+    "description": "Drug 6 always",
+    "unit": "Whole"
+  },
+  "med6h_m": {
+    "description": "Drug 6 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med6h_v": {
+    "description": "Drug 6 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med6h_h": {
+    "description": "Drug 6 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med7h": {
+    "description": "Drug Name 7",
+    "unit": "Short text"
+  },
+  "med7h_rz": {
+    "description": "Reason for Taking Medicine 7",
+    "unit": "Short text"
+  },
+  "med7h_c1": {
+    "description": "Drug 7 amount",
+    "unit": "mg"
+  },
+  "med7h_c2": {
+    "description": "Drug 7 amount",
+    "unit": "g"
+  },
+  "med7h_c3": {
+    "description": "Drug 7 amount",
+    "unit": "ml"
+  },
+  "med7h_c4": {
+    "description": "Drug 7 amount",
+    "unit": "IU"
+  },
+  "med7h_f1": {
+    "description": "Drug 7 frequency",
+    "unit": "times per day"
+  },
+  "med7h_f2": {
+    "description": "Medication7 frequency",
+    "unit": "weekly"
+  },
+  "med7h_f3": {
+    "description": "Drug 7 frequency",
+    "unit": "month"
+  },
+  "med7h_d1": {
+    "description": "Drug 7 duration",
+    "unit": "dd"
+  },
+  "med7h_d2": {
+    "description": "Drug 7 duration",
+    "unit": "weeks"
+  },
+  "med7h_d3": {
+    "description": "Drug 7 duration",
+    "unit": "mm"
+  },
+  "med7h_d4": {
+    "description": "Drug 7 duration",
+    "unit": "aa"
+  },
+  "med7h_d5": {
+    "description": "Drug 7 always",
+    "unit": "Whole"
+  },
+  "med7h_m": {
+    "description": "Drug 7 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med7h_v": {
+    "description": "Drug 7 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med7h_h": {
+    "description": "Drug 7 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med8h": {
+    "description": "Drug Name 8",
+    "unit": "Short text"
+  },
+  "med8h_rz": {
+    "description": "Reason for taking medication 8",
+    "unit": "Short text"
+  },
+  "med8h_c1": {
+    "description": "Drug 8 amount",
+    "unit": "mg"
+  },
+  "med8h_c2": {
+    "description": "Drug 8 amount",
+    "unit": "g"
+  },
+  "med8h_c3": {
+    "description": "Drug 8 amount",
+    "unit": "ml"
+  },
+  "med8h_c4": {
+    "description": "Drug 8 amount",
+    "unit": "IU"
+  },
+  "med8h_f1": {
+    "description": "Drug 8 frequency",
+    "unit": "times per day"
+  },
+  "med8h_f2": {
+    "description": "Medication 8 frequency",
+    "unit": "week"
+  },
+  "med8h_f3": {
+    "description": "Drug 8 frequency",
+    "unit": "month"
+  },
+  "med8h_d1": {
+    "description": "Drug 8 duration",
+    "unit": "dd"
+  },
+  "med8h_d2": {
+    "description": "Drug 8 duration",
+    "unit": "sem"
+  },
+  "med8h_d3": {
+    "description": "Drug 8 duration",
+    "unit": "mm"
+  },
+  "med8h_d4": {
+    "description": "Drug 8 duration",
+    "unit": "aa"
+  },
+  "med8h_d5": {
+    "description": "Drug 8 always",
+    "unit": "Whole"
+  },
+  "med8h_m": {
+    "description": "Drug 8 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med8h_v": {
+    "description": "Drug 8 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med8h_h": {
+    "description": "Drug 8 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med9h": {
+    "description": "Drug Name 9",
+    "unit": "Short text"
+  },
+  "med9h_rz": {
+    "description": "Reason to take medication 9",
+    "unit": "Short text"
+  },
+  "med9h_c1": {
+    "description": "Drug 9 amount",
+    "unit": "mg"
+  },
+  "med9h_c2": {
+    "description": "Drug 9 amount",
+    "unit": "g"
+  },
+  "med9h_c3": {
+    "description": "Drug 9 amount",
+    "unit": "ml"
+  },
+  "med9h_c4": {
+    "description": "Drug 9 quantity",
+    "unit": "IU"
+  },
+  "med9h_f1": {
+    "description": "Drug 9 frequency",
+    "unit": "times per day"
+  },
+  "med9h_f2": {
+    "description": "Drug 9 frequency",
+    "unit": "week"
+  },
+  "med9h_f3": {
+    "description": "Drug 9 frequency",
+    "unit": "month"
+  },
+  "med9h_d1": {
+    "description": "Drug 9 duration",
+    "unit": "dd"
+  },
+  "med9h_d2": {
+    "description": "Drug 9 duration",
+    "unit": "sem"
+  },
+  "med9h_d3": {
+    "description": "Drug 9 duration",
+    "unit": "mm"
+  },
+  "med9h_d4": {
+    "description": "Drug 9 duration",
+    "unit": "aa"
+  },
+  "med9h_d5": {
+    "description": "Drug 9 always",
+    "unit": "Whole"
+  },
+  "med9h_m": {
+    "description": "Drug 9 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med9h_v": {
+    "description": "Drug 9 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med9h_h": {
+    "description": "Drug 9 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "med10h": {
+    "description": "Name of medicine 10",
+    "unit": "Short text"
+  },
+  "med10h_rz": {
+    "description": "Reason to take medicine 10",
+    "unit": "Short text"
+  },
+  "med10h_c1": {
+    "description": "Drug 10 amount",
+    "unit": "mg"
+  },
+  "med10h_c2": {
+    "description": "Drug 10 amount",
+    "unit": "g"
+  },
+  "med10h_c3": {
+    "description": "Drug 10 amount",
+    "unit": "ml"
+  },
+  "med10h_c4": {
+    "description": "Drug 10 amount",
+    "unit": "IU"
+  },
+  "med10h_f1": {
+    "description": "Drug 10 frequency",
+    "unit": "times per day"
+  },
+  "med10h_f2": {
+    "description": "Drug 10 frequency",
+    "unit": "week"
+  },
+  "med10h_f3": {
+    "description": "Drug 10 frequency",
+    "unit": "month"
+  },
+  "med10h_d1": {
+    "description": "Drug 10 duration",
+    "unit": "dd"
+  },
+  "med10h_d2": {
+    "description": "Drug 10 duration",
+    "unit": "sem"
+  },
+  "med10h_d3": {
+    "description": "Drug 10 duration",
+    "unit": "mm"
+  },
+  "med10h_d4": {
+    "description": "Drug 10 duration",
+    "unit": "aa"
+  },
+  "med10h_d5": {
+    "description": "Drug 10 always",
+    "unit": "Whole"
+  },
+  "med10h_m": {
+    "description": "Drug 10 drug type",
+    "unit": "1= Mentioned"
+  },
+  "med10h_v": {
+    "description": "Medication 10 vitamin / type supplement",
+    "unit": "1= Mentioned"
+  },
+  "med10h_h": {
+    "description": "Drug 10 herbalist type / Homeo",
+    "unit": "1= Mentioned"
+  },
+  "gf025": {
+    "description": "When was your first period or menstruation?",
+    "unit": "None"
+  },
+  "gf026_a": {
+    "description": "How long ago was your last period or menstruation? Months",
+    "unit": "None"
+  },
+  "gf026_b": {
+    "description": "How long ago was your last period or menstruation? Years",
+    "unit": "None"
+  },
+  "gf026_c": {
+    "description": "How long ago was your last period or menstruation? Days",
+    "unit": "None"
+  },
+  "gf026_1": {
+    "description": "If the last period was three months or more ago what was the reason you stopped regulating?",
+    "unit": "None"
+  },
+  "gf026_1e": {
+    "description": "If the last period was three months or more ago what was the reason you stopped regulating? Other reasons",
+    "unit": "None"
+  },
+  "gf026_2": {
+    "description": "During the last 12 months your period or menstruation:",
+    "unit": "None"
+  },
+  "gf027_1": {
+    "description": "Hot flashes sweating hot flashes",
+    "unit": "None"
+  },
+  "gf027_2": {
+    "description": "Discomfort of the heart",
+    "unit": "None"
+  },
+  "gf027_3": {
+    "description": "Sleep problems",
+    "unit": "None"
+  },
+  "gf027_4": {
+    "description": "Depressed mood",
+    "unit": "None"
+  },
+  "gf027_5": {
+    "description": "Irritability",
+    "unit": "None"
+  },
+  "gf027_6": {
+    "description": "Anxiety",
+    "unit": "None"
+  },
+  "gf027_7": {
+    "description": "Physical and mental exhaustion",
+    "unit": "None"
+  },
+  "gf027_8": {
+    "description": "Sexual problems",
+    "unit": "None"
+  },
+  "gf027_9": {
+    "description": "Bladder problems",
+    "unit": "None"
+  },
+  "gf027_10": {
+    "description": "Vaginal dryness",
+    "unit": "None"
+  },
+  "gf027_11": {
+    "description": "Muscle and joint problems",
+    "unit": "None"
+  },
+  "gf028": {
+    "description": "How many pregnancies in total have you had?",
+    "unit": "None"
+  },
+  "gf029": {
+    "description": "Of these pregnancies, how many have born alive not deceased?",
+    "unit": "None"
+  },
+  "gf029_a": {
+    "description": "Date of birth of the first child",
+    "unit": "Date with time"
+  },
+  "gf029_b": {
+    "description": "Date of birth of the second child",
+    "unit": "Date with time"
+  },
+  "gf029_c": {
+    "description": "Date of birth of the third child",
+    "unit": "Date with time"
+  },
+  "gf029_d": {
+    "description": "Date of birth of the fourth child",
+    "unit": "Date with time"
+  },
+  "gf029_e": {
+    "description": "Date of birth of the fifth child",
+    "unit": "Date with time"
+  },
+  "gf029_f": {
+    "description": "Date of birth of the sixth child",
+    "unit": "Date with time"
+  },
+  "gf029_g": {
+    "description": "Date of birth of the seventh child",
+    "unit": "Date with time"
+  },
+  "gf029_h": {
+    "description": "Date of birth of the eighth child",
+    "unit": "Date with time"
+  },
+  "gf029_i": {
+    "description": "Date of birth of the ninth child",
+    "unit": "Date with time"
+  },
+  "gf029_j": {
+    "description": "Date of birth of the tenth child",
+    "unit": "Date with time"
+  },
+  "gf029_2": {
+    "description": "Stillborn?",
+    "unit": "Whole"
+  },
+  "gf029_3": {
+    "description": "Live births who died before the age of one year",
+    "unit": "Whole"
+  },
+  "gf029_3a": {
+    "description": "Live births who have died after one year of age",
+    "unit": "Whole"
+  },
+  "gf029_4": {
+    "description": "Abortions or miscarriage?",
+    "unit": "Whole"
+  },
+  "gf029_1a": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 1",
+    "unit": "Whole"
+  },
+  "gf029_1b": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 2",
+    "unit": "Whole"
+  },
+  "gf029_1c": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 3",
+    "unit": "Whole"
+  },
+  "gf029_1d": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 4",
+    "unit": "Whole"
+  },
+  "gf029_1e": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 5",
+    "unit": "Whole"
+  },
+  "gf029_1f": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 6",
+    "unit": "Whole"
+  },
+  "gf029_1g": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 7",
+    "unit": "Whole"
+  },
+  "gf029_1h": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 8",
+    "unit": "Whole"
+  },
+  "gf029_1i": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 9",
+    "unit": "Whole"
+  },
+  "gf029_1j": {
+    "description": "In any of these pregnancies did you suffer from gestational diabetes? 10",
+    "unit": "Whole"
+  },
+  "gf030": {
+    "description": "Project",
+    "unit": "Whole"
+  },
+  "gf030_1": {
+    "description": "Participant's folio",
+    "unit": "Whole"
+  },
+  "gf030_2": {
+    "description": "Participant's folio",
+    "unit": "Whole"
+  },
+  "gf030_3a": {
+    "description": "Stage",
+    "unit": "Whole"
+  },
+  "gf030_3b": {
+    "description": "Participant",
+    "unit": "Whole"
+  },
+  "gf030_3c": {
+    "description": "Stage",
+    "unit": "Whole"
+  },
+  "gf030_3d": {
+    "description": "Participant ID",
+    "unit": "Whole"
+  },
+  "gf030_4a": {
+    "description": "Date of interview",
+    "unit": "Whole"
+  },
+  "gf030_4b": {
+    "description": "Place",
+    "unit": "Whole"
+  },
+  "gf030_4c": {
+    "description": "How many cigarettes did you smoke and how often? Frequency",
+    "unit": "Whole"
+  },
+  "gf031_a": {
+    "description": "How many cigarettes do you currently smoke? Number of cigarettes",
+    "unit": "Whole"
+  },
+  "gf031_b": {
+    "description": "How many cigarettes do you currently smoke? Frequency",
+    "unit": "Whole"
+  },
+  "gf032": {
+    "description": "Have you had any drinks alcoholic in your life?",
+    "unit": "Whole"
+  },
+  "gf032_1": {
+    "description": "How old were you when you took alcohol for the first time?",
+    "unit": "Whole"
+  },
+  "gf032_2aa": {
+    "description": "Type of drink: Beer",
+    "unit": "Whole"
+  },
+  "gf032_2ab": {
+    "description": "Type of drink: Wine or pulque",
+    "unit": "Whole"
+  },
+  "gf032_2ac": {
+    "description": "Type of drink: Rum whiskey cognac or vodka",
+    "unit": "Whole"
+  },
+  "gf032_2ad": {
+    "description": "Type of drink: Tequila mezcal or brandy",
+    "unit": "Whole"
+  },
+  "gf032_2ae": {
+    "description": "Type of drink: Other",
+    "unit": "Whole"
+  },
+  "gf032_2aesp": {
+    "description": "Type of drink please specify",
+    "unit": "Short text"
+  },
+  "gf032_2b1": {
+    "description": "Quantity",
+    "unit": "Whole"
+  },
+  "gf032_2b2": {
+    "description": "Frequency at",
+    "unit": "Whole"
+  },
+  "gf032_2c1": {
+    "description": "Frequency at: Days",
+    "unit": "Whole"
+  },
+  "gf032_2c2": {
+    "description": "Frequency at: Month",
+    "unit": "Whole"
+  },
+  "gf032_3": {
+    "description": "How often do you drink any type of drink that contains alcohol?",
+    "unit": "Whole"
+  },
+  "gf032_4": {
+    "description": "Total alcohol consumption frequency",
+    "unit": "Whole"
+  },
+  "gf032_5a": {
+    "description": "Total alcohol consumption quantity",
+    "unit": "Whole"
+  },
+  "gf032_5b": {
+    "description": "Alcohol consumption per event",
+    "unit": "Whole"
+  },
+  "gf032_5c": {
+    "description": "Alcohol consumption events",
+    "unit": "Whole"
+  },
+  "gf032_5d": {
+    "description": "How long has it been since your last consumption of any alcoholic beverage?",
+    "unit": "Years"
+  },
+  "gf033": {
+    "description": "When you were little did you use mud dishes in your house?",
+    "unit": "Whole"
+  },
+  "gf033_1": {
+    "description": "When you were little, how often did they use them?",
+    "unit": "Whole"
+  },
+  "gf034": {
+    "description": "Do you currently use clay dishes to prepare serve or store foods?",
+    "unit": "Whole"
+  },
+  "gf034_1": {
+    "description": "How often do you use them to prepare serve or store food?",
+    "unit": "Whole"
+  },
+  "gf034_2": {
+    "description": "In the past week, how many days did you prepare serve or store food in glazed clay dishes at home?",
+    "unit": "Whole"
+  },
+  "gf034_3": {
+    "description": "For how many years have you prepared served or stored food in clay dishes at home?",
+    "unit": "Whole"
+  },
+  "gf035": {
+    "description": "During the past month did you consume food prepared stored or served in glazed clay (consider restaurants markets or celebrations)?",
+    "unit": "Whole"
+  },
+  "gf035_1": {
+    "description": "Did you consume food prepared stored or served in glazed mud in the past week (consider restaurants markets or celebrations)?",
+    "unit": "Whole"
+  },
+  "gf036_1a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Market",
+    "unit": "Whole"
+  },
+  "gf036_1b": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Supermarket",
+    "unit": "Whole"
+  },
+  "gf036_1c": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Convenience store",
+    "unit": "Whole"
+  },
+  "gf036_2a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Market",
+    "unit": "Whole"
+  },
+  "gf036_2b": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Supermarket",
+    "unit": "Whole"
+  },
+  "gf036_2c": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Convenience store",
+    "unit": "Whole"
+  },
+  "gf036_3a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Market",
+    "unit": "Whole"
+  },
+  "gf036_3b": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Supermarket",
+    "unit": "Whole"
+  },
+  "gf036_3c": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Convenience store",
+    "unit": "Whole"
+  },
+  "gf036_4a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Market",
+    "unit": "Whole"
+  },
+  "gf036_4b": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Supermarket",
+    "unit": "Whole"
+  },
+  "gf036_4c": {
+    "description": "How long does it take you to get to that store? Street vendors Minutes",
+    "unit": "Whole"
+  },
+  "gf036_5a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Supermarket",
+    "unit": "Whole"
+  },
+  "gf036_5b": {
+    "description": "How long does it take you to get to that store? Supermarket Hours",
+    "unit": "Whole"
+  },
+  "gf036_5c": {
+    "description": "How long does it take you to get to that store? Supermarket Minutes",
+    "unit": "Whole"
+  },
+  "gf036_6a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Convenience stores",
+    "unit": "Whole"
+  },
+  "gf036_6b": {
+    "description": "How long does it take you to get to that store? Convenience stores Hours",
+    "unit": "Whole"
+  },
+  "gf036_6c": {
+    "description": "How long does it take you to get to that store? Convenience stores Minutes",
+    "unit": "Whole"
+  },
+  "gf036_7a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Stores with membership",
+    "unit": "Whole"
+  },
+  "gf036_7b": {
+    "description": "How long does it take you to get to that store? Membership stores Hours",
+    "unit": "Whole"
+  },
+  "gf036_7c": {
+    "description": "How long does it take you to get to that store? Stores with membership Minutes",
+    "unit": "Whole"
+  },
+  "gf036_8a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Diconsa",
+    "unit": "Whole"
+  },
+  "gf036_8b": {
+    "description": "How long does it take you to get to that store? Diconsa Hours",
+    "unit": "Whole"
+  },
+  "gf036_8c": {
+    "description": "How long does it take you to get to that store? Diconsa Minutes",
+    "unit": "Whole"
+  },
+  "gf036_9a": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Lechería Liconsa",
+    "unit": "Whole"
+  },
+  "gf036_9b": {
+    "description": "How long does it take you to get to that store? Liconsa Dairy Hours",
+    "unit": "Whole"
+  },
+  "gf036_9c": {
+    "description": "How long does it take you to get to that store? Lechería Liconsa Minutes",
+    "unit": "Whole"
+  },
+  "gf036_10": {
+    "description": "How often does your family buy food to prepare and consume at home and in the following types of stores? Other",
+    "unit": "Short text"
+  },
+  "gf036_10a": {
+    "description": "Please specify",
+    "unit": "Short text"
+  },
+  "gf037": {
+    "description": "How often do you eat foods prepared outside the home (e.g . restaurants locherías taquerías budget kitchens takeaway cafeteria bar)?",
+    "unit": "Whole"
+  },
+  "gf038": {
+    "description": "During the last 7 days how many days did you do vigorous physical activities such as heavy lifting digging aerobics or pedaling fast in bicycle?",
+    "unit": "Whole"
+  },
+  "gf039_a": {
+    "description": "How long in total did it usually take you to do vigorous physical activities on one of those days you did them? Per day",
+    "unit": "Whole"
+  },
+  "gf039_b": {
+    "description": "How long in total did it usually take you to do vigorous physical activities on one of those days you did them? Minutes per day",
+    "unit": "Whole"
+  },
+  "gf040": {
+    "description": "During the last 7 days how many days did you do moderate physical activities such as carrying light objects or riding a bike at a regular pace? Do not include hiking.",
+    "unit": "Whole"
+  },
+  "gf041_a": {
+    "description": "Usually how much time do you spend on one of those days doing physical activities? Moderate? Hours per day",
+    "unit": "Whole"
+  },
+  "gf041_b": {
+    "description": "Usually how much time do you spend on one of those days doing physical activities? Moderate? Minutes per day",
+    "unit": "Whole"
+  },
+  "gf042": {
+    "description": "During the last 7 days how many days did you walk for at least 10 continuous minutes?",
+    "unit": "Whole"
+  },
+  "gf043_a": {
+    "description": "Usually how much time did you spend on one of those days? Walking? Hours per day",
+    "unit": "Whole"
+  },
+  "gf043_b": {
+    "description": "Usually how long did you spend one of those days walking? Minutes per day",
+    "unit": "Whole"
+  },
+  "gf044_a": {
+    "description": "During the last 7 days how long did you sit on a day of the week? Hours per day",
+    "unit": "Whole"
+  },
+  "gf044_b": {
+    "description": "During the last 7 days how long did you sit on a day of the week? Minutes per day",
+    "unit": "Whole"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

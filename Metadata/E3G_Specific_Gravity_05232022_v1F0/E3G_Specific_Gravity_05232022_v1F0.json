@@ -1,0 +1,27 @@
+{
+    "Foliocc": {
+      "description": "Foliocc",
+      "unit": ""
+    },
+    "Etapa": {
+      "description": "Etapa",
+      "unit": ""
+    },
+    "Stage": {
+      "description": "stage",
+      "unit": ""
+    },
+    "Participant": {
+      "description": "Participant",
+      "unit": ""
+    },
+    "Generacion": {
+      "description": "Generacion",
+      "unit": ""
+    },
+    "spec_grav": {
+      "description": "specific gravity",
+      "unit": ""
+    }
+  }
+  

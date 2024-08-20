@@ -40,13 +40,17 @@ const viewData = () => {
   // maybe download as an excel or spreadsheet file
   console.log("data is viewed.")
 }
+
+const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp5gyCF5byiOri6_zCcU5gSk5Wj0PucAB52Dw/viewform'; // Replace with your actual link
 </script>
 
 <template>
   <div className="container">
     <div className="title-container">
       <h1>{{ title }}</h1>
-      <Button label="Request Data" icon="pi pi-envelope" size="small" iconPos="right" rounded />
+      <a :href="requestDataLink" target="_blank" rel="noopener noreferrer">
+        <Button label="Request Data" icon="pi pi-envelope" size="small" iconPos="right" rounded />
+      </a>
     </div>
     <div className="desc-container">
       <h3><u>Year of Visit</u>: {{ year }}</h3>

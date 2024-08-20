@@ -1,0 +1,42 @@
+{
+    "Foliocc": {
+        "description": "Foliocc (Unique identifier)",
+        "unit": ""
+    },
+    "Total_Wake": {
+        "description": "Total average time awake calculated not using sleep diary",
+        "unit": "minutes"
+    },
+    "Total_Sleep": {
+        "description": "Total average time asleep calculated not using sleep diary",
+        "unit": "minutes"
+    },
+    "Wake_Inactive": {
+        "description": "average Inactive wake time calculated not using sleep diary",
+        "unit": "minutes"
+    },
+    "Wake_Light": {
+        "description": "average awake time light activity calculated not using sleep diary",
+        "unit": "minutes"
+    },
+    "Wake_Moderate": {
+        "description": "average awake time moderate activity calculated not using sleep diary",
+        "unit": "minutes"
+    },
+    "Wake_Vigorous": {
+        "description": "average awake time vigorous activity calculated not using sleep diary",
+        "unit": "minutes"
+    },
+    "non_wear_percentage": {
+        "description": "percentage of time not wearing accelerometer",
+        "unit": "percent"
+    },
+    "days": {
+        "description": "number of days included in weekday or weekend calculation",
+        "unit": ""
+    },
+    "Weekday": {
+        "description": "either weekday or weekend calculation",
+        "unit": ""
+    }
+}

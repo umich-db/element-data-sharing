@@ -1,0 +1,11 @@
+{
+    "foliocc": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "menopause_valid": {
+      "description": "menopause stage",
+      "unit": ""
+    }
+  }
+  

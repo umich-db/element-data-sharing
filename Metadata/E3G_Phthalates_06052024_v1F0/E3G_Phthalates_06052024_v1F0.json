@@ -1,0 +1,155 @@
+{
+    "CXMINCH": {
+      "description": "Cyclohexane-1,2-dicarboxylic acid mono carboxyisooctyl ester",
+      "unit": "None"
+    },
+    "MBP": {
+      "description": "mono-n-butylphthalate",
+      "unit": "None"
+    },
+    "MBzP": {
+      "description": "mono-benzyl phthalate",
+      "unit": "None"
+    },
+    "MCNP": {
+      "description": "mono-carboxy isononyl phthalate",
+      "unit": "None"
+    },
+    "MCOP": {
+      "description": "mono-carboxy octyl phthalate",
+      "unit": "None"
+    },
+    "MCPP": {
+      "description": "mono (3-carboxypropyl) phthalate",
+      "unit": "None"
+    },
+    "MECPP": {
+      "description": "mono-(2-ethyl-5-carboxypentyl) phthalate",
+      "unit": "None"
+    },
+    "MECPTP": {
+      "description": "mono-2-ethyl-5- carboxypentyl terephthalate",
+      "unit": "None"
+    },
+    "MEHHP": {
+      "description": "mono (2-ethyl-5-hydroxyhexyl) phthalate",
+      "unit": "None"
+    },
+    "MEHHTP": {
+      "description": "mono-2-ethyl-5-hydroxyhexyl terephthalate",
+      "unit": "None"
+    },
+    "MEHP": {
+      "description": "mono ethyl hexyl phthalate",
+      "unit": "None"
+    },
+    "MEOHP": {
+      "description": "mono (2-ethyl-5-oxohexyl) phthalate",
+      "unit": "None"
+    },
+    "MEP": {
+      "description": "monoethyl phthalate",
+      "unit": "None"
+    },
+    "MIBP": {
+      "description": "mono-isobutyl phthalate",
+      "unit": "None"
+    },
+    "MNP": {
+      "description": "mono-isononyl phthalate",
+      "unit": "None"
+    },
+    "OHMINCH": {
+      "description": "Cyclohexane-1,2-dicarboxylic acid mono hydroxyisononyl ester",
+      "unit": "None"
+    },
+    "Proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Participant": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_CXMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MBzP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MCNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MCOP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MCPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MECPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MECPTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MEHHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MEHHTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MEHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MEOHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MEP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MIBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_MNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_Code_OHMINCH": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  
