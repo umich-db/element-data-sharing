@@ -11,6 +11,8 @@ import DataView from 'primevue/dataview';
 import router from './router'
 // Component assets
 import Button from 'primevue/button';
+import Tooltip from 'primevue/tooltip';
+
 const app = createApp(App);
 app.use(router).use(PrimeVue, {
   theme: {
@@ -27,6 +29,7 @@ app.component('DataTable', DataTable);
 app.component('Column', Column);
 app.component('DataView', DataView);
 app.component('Button', Button);
+app.directive('tooltip', Tooltip);
 app.mount('#app');
 
 document.getElementById('app').style.padding = '0';

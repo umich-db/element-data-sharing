@@ -9,7 +9,7 @@ import {
   findTopKRecommendations
 } from '../utils/searchUtils';
 import RelatedSearch from './RelatedSearch.vue';
-const NUMBER_OF_RELATED_SEARCHES = 7;
+const NUMBER_OF_RELATED_SEARCHES = 6;
 const { clickedGeneral } = inject('clickedGeneral');
 const { filters } = inject('updateFilter');
 
@@ -28,6 +28,7 @@ const id_map = ref({});
 const matchList = ref([]);
 const embeddingList = ref({});
 const related = ref([]);
+const first_time = ref(true);
 
 watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
@@ -35,21 +36,12 @@ watch(clickedGeneral, async () => {
   if (props.categoryInput === "variables") {
     varRes.value = results;
     reshapedVarRes.value = await reshapeData(varRes.value, false);
-    await deadEmbedding();
-    console.log("deadEmbedding");
-    console.log(matchList.value);
-    console.log(embeddingList.value);
-    const similarities = findTopKRecommendations(matchList.value, embeddingList.value, NUMBER_OF_RELATED_SEARCHES);
-    console.log("query: ", props.queryInput)
-    const filtered_similarities = similarities.filter(word => 
-      word.word !== props.queryInput.trim()
-    ) 
-    console.log(filtered_similarities); // input similarity embeddings
-    related.value = filtered_similarities;
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
   }
+  findRelatedSearches();
+  first_time.value = false;
 });
 
 const deadEmbedding = async () => {
@@ -60,6 +52,19 @@ const deadEmbedding = async () => {
   embeddingList.value = await queryEmbedding();
 };
 
+const findRelatedSearches = async () => {
+  await deadEmbedding();
+  const queryWords = props.queryInput.trim().split(' ');
+  const similarities =
+    findTopKRecommendations(
+      matchList.value,
+      embeddingList.value,
+      NUMBER_OF_RELATED_SEARCHES + queryWords.length);
+  const filtered_similarities = similarities.filter(similar =>
+    !queryWords.includes(similar.word)
+  )
+  related.value = filtered_similarities;
+};
 
 const formatData = (result) => {
   return result.value.map(item => ({
@@ -174,13 +179,27 @@ const titleBold = (input) => {
         </template>
       </DataView>
     </div>
-    <RelatedSearch v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)" :related="related" :updateQuery="updateQuery"/>
+    <div class="no-found" v-if="(
+      (props.categoryInput === 'variables' && reshapedVarRes.length === 0 ) || 
+      (props.categoryInput === 'datasets' && reshapedDatasetRes.length === 0)) &&
+      !first_time">
+      No entries found.
+    </div>
+    <RelatedSearch
+      v-if="related.length > 0"
+      :related="related" :updateQuery="updateQuery" />
   </div>
 </template>
 <style scoped>
 .list {
   padding: 0;
   margin: 0;
+}
+
+.no-found {
+  font-size: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
 }
 
 .result-item {

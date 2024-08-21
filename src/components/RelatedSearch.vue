@@ -2,7 +2,7 @@
 import { inject } from 'vue';
 
 const emit = defineEmits(['update-state', 'display-all'])
-const { clickedGeneral, handleClickGeneralUpdate } = inject('clickedGeneral');
+const { handleClickGeneralUpdate } = inject('clickedGeneral');
 
 const props = defineProps({
   related: Array,
