@@ -9,7 +9,7 @@ import {
   findTopKRecommendations
 } from '../utils/searchUtils';
 import RelatedSearch from './RelatedSearch.vue';
-const NUMBER_OF_RELATED_SEARCHES = 7;
+const NUMBER_OF_RELATED_SEARCHES = 6;
 const { clickedGeneral } = inject('clickedGeneral');
 const { filters } = inject('updateFilter');
 
@@ -39,10 +39,15 @@ watch(clickedGeneral, async () => {
     console.log("deadEmbedding");
     console.log(matchList.value);
     console.log(embeddingList.value);
-    const similarities = findTopKRecommendations(matchList.value, embeddingList.value, NUMBER_OF_RELATED_SEARCHES);
+    const queryWords = props.queryInput.trim().split(' ');
+    const similarities = 
+    findTopKRecommendations(
+      matchList.value, 
+      embeddingList.value, 
+    NUMBER_OF_RELATED_SEARCHES + queryWords.length);
     console.log("query: ", props.queryInput)
-    const filtered_similarities = similarities.filter(word => 
-      word.word !== props.queryInput.trim()
+    const filtered_similarities = similarities.filter(similar => 
+      !queryWords.includes(similar.word)
     ) 
     console.log(filtered_similarities); // input similarity embeddings
     related.value = filtered_similarities;

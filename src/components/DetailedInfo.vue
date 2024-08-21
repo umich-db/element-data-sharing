@@ -82,7 +82,6 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
 .container {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
 }
 
 .title-container {
