@@ -14,6 +14,10 @@ const max_age = ref(100);
 const description = ref("");
 const variables = ref([]);
 
+const parseDescription = (text) => {
+  return text[0] === '"' ? text.slice(1, -1) : text;
+}
+
 const fetchData = async () => {
   console.log(`ID being queried: ${id._value}`);
   const result = await queryVariables(parseInt(id.value, 10));
@@ -24,7 +28,7 @@ const fetchData = async () => {
     demographic.value = result[0][4];
     min_age.value = result[0][5];
     max_age.value = result[0][6];
-    description.value = result[0][7].slice(1, -1);
+    description.value = parseDescription(result[0][7]);
     variables.value = result.map((variable) => {
       return {name: variable[0], description: variable[1]}
     })
