@@ -61,7 +61,7 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
     </div>
     <div className="desc-container">
       <div className="inner-desc-container">
-        <h2><u>Description</u></h2>
+        <h2>Description</h2>
         <div className="generated-info" v-tooltip.top="'Description auto-generated with chatGPT. Use with caution.'">
           <i class="pi pi-bolt" style="font-size: 14px"></i>
           <div>Auto-Generated</div>
