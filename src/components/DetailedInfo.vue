@@ -11,6 +11,7 @@ const year = ref("");
 const demographic = ref("");
 const min_age = ref(0);
 const max_age = ref(100);
+const description = ref("");
 const variables = ref([]);
 
 const fetchData = async () => {
@@ -23,6 +24,7 @@ const fetchData = async () => {
     demographic.value = result[0][4];
     min_age.value = result[0][5];
     max_age.value = result[0][6];
+    description.value = result[0][7].slice(1, -1);
     variables.value = result.map((variable) => {
       return {name: variable[0], description: variable[1]}
     })
@@ -52,10 +54,20 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
         <Button label="Request Data" icon="pi pi-envelope" size="small" iconPos="right" rounded />
       </a>
     </div>
-    <div className="desc-container">
+    <div className="metadata-container">
       <h3><u>Year of Visit</u>: {{ year }}</h3>
       <h3><u>Demographic</u>: {{ demographic == "MOM" ? "Mothers" : "Children" }}</h3>
       <h3><u>Ages</u>: {{ min_age }} to {{ max_age }}</h3>
+    </div>
+    <div className="desc-container">
+      <div className="inner-desc-container">
+        <h2><u>Description</u></h2>
+        <div className="generated-info" v-tooltip.top="'Description auto-generated with chatGPT. Use with caution.'">
+          <i class="pi pi-bolt" style="font-size: 14px"></i>
+          <div>Auto-Generated</div>
+        </div>
+      </div>
+      {{ description }}
     </div>
     <div className="variables-container">
       <div className="variables-subtitle-container">
@@ -82,6 +94,7 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
 .container {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
 .title-container {
@@ -91,15 +104,38 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
   gap: 1rem;
 }
 
-.desc-container {
+.metadata-container {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 2rem;
 }
 
+.desc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inner-desc-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.generated-info {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  background-color: #FAFAFA;
+  border-radius: 0.5rem;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
 .variables-container {
-  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   gap: 1rem;

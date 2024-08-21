@@ -28,6 +28,7 @@ const id_map = ref({});
 const matchList = ref([]);
 const embeddingList = ref({});
 const related = ref([]);
+const first_time = ref(true);
 
 watch(clickedGeneral, async () => {
   localQueryInput.value = props.queryInput;
@@ -40,6 +41,7 @@ watch(clickedGeneral, async () => {
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
   }
   findRelatedSearches();
+  first_time.value = false;
 });
 
 const deadEmbedding = async () => {
@@ -177,7 +179,10 @@ const titleBold = (input) => {
         </template>
       </DataView>
     </div>
-    <div class="no-found" v-if="(props.categoryInput === 'variables' && reshapedVarRes.length === 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length === 0)">
+    <div class="no-found" v-if="(
+      (props.categoryInput === 'variables' && reshapedVarRes.length === 0 ) || 
+      (props.categoryInput === 'datasets' && reshapedDatasetRes.length === 0)) &&
+      !first_time">
       No entries found.
     </div>
     <RelatedSearch

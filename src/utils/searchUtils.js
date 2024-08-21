@@ -268,6 +268,15 @@ const queryVariables = async (id, filters) => {
     } else if (filters) {
       tempDatasetVariableQuery += ` AND Datasets.classify IN ('NA')`
     }
+    else {
+      // is for detailed view. Show description column as well
+      // insert Datasets.dataset_desc after Datasets.max_age into query string
+      const insertAfter = "Datasets.max_age,";
+      const fieldToInsert = "Datasets.dataset_desc";
+      const queryParts = datasetVariableQuery.split(insertAfter);
+      const modifiedQuery = `${queryParts[0]}${insertAfter} ${fieldToInsert}, ${queryParts[1]}`;
+      tempDatasetVariableQuery = modifiedQuery;
+    }
 
     const stmt = db.prepare(tempDatasetVariableQuery);
     stmt.bind(variableBind);
