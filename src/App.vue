@@ -38,11 +38,22 @@ provide('updateFilter', { filters, updateState })
 </template>
 
 <style>
+@font-face {
+  font-family: 'CustomFont';
+  src: url('@/assets/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .layout {
   display: grid;
   grid-template-rows: 1fr 6fr 1fr;
   gap: 2rem;
   height: 120vh;
+  --michigan-maize: #FFCB05;
+  --michigan-blue: #00274C;
+  --text-color: var(--michigan-maize);
+  font-family: 'CustomFont', sans-serif;
 }
 
 main {

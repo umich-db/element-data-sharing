@@ -67,7 +67,7 @@ const search = (queryValue) => {
 
 .item:hover {
   cursor: pointer;
-  color: rgb(17, 176, 118);
+  color: var(--michigan-maize);
   text-decoration: underline;
 }
 

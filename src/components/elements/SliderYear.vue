@@ -28,12 +28,13 @@ watch(selectedRange, (newValue) => {
         </p>
       </div>
       <Slider 
-      v-model="selectedRange"
-      range
-      :min="minYear"
-      :max="maxYear"
-      class="slider"
-      pt:root:style="height: 1rem; border-radius: 1rem; width: 9rem" />
+        v-model="selectedRange"
+        range
+        :min="minYear"
+        :max="maxYear"
+        class="slider"
+        pt:root:style="height: 1rem; border-radius: 1rem; width: 9rem;"
+      />
     </div>
   </div>
 </template>
