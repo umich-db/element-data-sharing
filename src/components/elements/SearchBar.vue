@@ -65,7 +65,7 @@ const toggleDropdown = (event) => {
         </InputGroupAddon>
         <InputText type="text" v-model="currentQuery" @keyup.enter="clickedGeneralToggleDropdown" @click="toggleDropdown"
           placeholder="Please type one or more keywords (activity, daily sleep, ...) to start your search" />
-        <Button type="button" @click="clickedGeneral" label="Search" />
+        <Button type="button" @click="clickedGeneral" label="Search" style="color: var(--text-color);"/>
       </InputGroup>
     </div>
     <Popover ref="isToggled" append-to="self">

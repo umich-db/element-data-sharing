@@ -55,7 +55,7 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
     <div className="title-container">
       <h1>{{ title }}</h1>
       <a :href="requestDataLink" target="_blank" rel="noopener noreferrer">
-        <Button label="Request Data" icon="pi pi-envelope" size="small" iconPos="right" rounded />
+        <Button label="Request Data" icon="pi pi-envelope" size="small" iconPos="right" rounded style="color: var(--text-color);"/>
       </a>
     </div>
     <div className="metadata-container">
@@ -76,7 +76,7 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
     <div className="variables-container">
       <div className="variables-subtitle-container">
         <h2>Variables</h2>
-        <Button label="View Metadata" @clicked="viewData" rounded />
+        <Button label="View Metadata" @clicked="viewData" rounded style="color: var(--text-color);"/>
       </div>
       <DataTable 
         :value="variables" 
@@ -137,6 +137,7 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
   border-radius: 0.5rem;
   padding: 0 8px;
   font-size: 12px;
+  background-color: var(--michigan-maize);
 }
 
 .variables-container {
