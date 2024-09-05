@@ -8,8 +8,18 @@ const wordQuery = `
   WHERE Words_fts.word MATCH ?
 `;
 
+const wordQueryDataSet = `
+  SELECT Words_dataset.word
+  FROM Words_dataset
+  JOIN Words_fts_dataset ON Words_dataset.word_id = Words_fts_dataset.rowid
+  WHERE Words_fts_dataset.word MATCH ?
+`;
+
 const queryEmbeddings = `
   SELECT * FROM Words
+`;
+const queryEmbeddingsDataSet = `
+  SELECT * FROM Words_dataset
 `;
 
 function findTopKRecommendations(targetWords, allEmbeddings, k) {
@@ -57,7 +67,7 @@ function findTopKRecommendations(targetWords, allEmbeddings, k) {
 
   return topKResults;
 }
-const queryWords = async (word) => {
+const queryWords = async (word, category) => {
   try {
     const sqlPromise = initSqlJs({
       locateFile: () => `./sql.js-fts5/dist/sql-wasm.wasm`
@@ -77,8 +87,14 @@ const queryWords = async (word) => {
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
     const results = [];
-
-    const stmt = db.prepare(wordQuery);
+    let stmt;
+    if(category === "datasets"){
+      console.log("dataset query executing");
+      console.log(word);
+      stmt = db.prepare(wordQueryDataSet)
+    }else{
+      stmt = db.prepare(wordQuery);
+    }
     stmt.bind([word]);
 
     while (stmt.step()) {
@@ -96,7 +112,7 @@ const queryWords = async (word) => {
   }
 };
 
-const queryEmbedding = async () => {
+const queryEmbedding = async (category) => {
   try {
     const sqlPromise = initSqlJs({
       locateFile: () => `./sql.js-fts5/dist/sql-wasm.wasm`
@@ -116,8 +132,12 @@ const queryEmbedding = async () => {
     const [SQL, buf] = await Promise.all([sqlPromise, dataPromise]);
     const db = new SQL.Database(new Uint8Array(buf));
     const results = [];
-
-    const stmt = db.prepare(queryEmbeddings);
+    let stmt;
+    if(category === "datasets"){
+      stmt = db.prepare(queryEmbeddingsDataSet);
+    }else{
+      stmt = db.prepare(queryEmbeddings);
+    }
 
     while (stmt.step()) {
       results.push({"word": stmt.get()[1], vector: JSON.parse(stmt.get()[2])});

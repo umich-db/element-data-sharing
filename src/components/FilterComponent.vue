@@ -12,6 +12,7 @@ defineProps({
     required: true
   }
 }) 
+const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp5gyCF5byiOri6_zCcU5gSk5Wj0PucAB52Dw/viewform';
 </script>
 
 <template>
@@ -23,6 +24,9 @@ defineProps({
     <h3>Demographics</h3>
     <SelectDemographic />
     <SliderAge />
+    <a :href="requestDataLink" target="_blank" rel="noopener noreferrer">
+        <Button label="Request Data" icon="pi pi-envelope" size="small" iconPos="right" rounded style="color: var(--text-color);"/>
+      </a>
   </div>
 </template>
 

@@ -40,26 +40,37 @@ watch(clickedGeneral, async () => {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
   }
+  console.log("clicked");
   findRelatedSearches();
   first_time.value = false;
 });
 
 const deadEmbedding = async () => {
+  console.log("embedding search exercuting");
   const words = localQueryInput.value.split(' ');
-  const matchPromises = words.map(word => queryWords(word));
+  console.log("local");
+  console.log(localQueryInput.value);
+  console.log("result");
+  console.log(words);
+  const matchPromises = words.map(word => queryWords(word, props.categoryInput));
   const allMatches = (await Promise.all(matchPromises)).flat();
   matchList.value = allMatches;
-  embeddingList.value = await queryEmbedding();
+  embeddingList.value = await queryEmbedding(props.categoryInput);
 };
 
 const findRelatedSearches = async () => {
   await deadEmbedding();
   const queryWords = props.queryInput.trim().split(' ');
+  console.log("put into");
+  console.log(matchList.value);
+  console.log(embeddingList.value);
   const similarities =
     findTopKRecommendations(
       matchList.value,
       embeddingList.value,
       NUMBER_OF_RELATED_SEARCHES + queryWords.length);
+    console.log("result from similarities");
+    console.log(similarities);
   const filtered_similarities = similarities.filter(similar =>
     !queryWords.includes(similar.word)
   )

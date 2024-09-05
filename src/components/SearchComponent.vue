@@ -74,7 +74,6 @@ watch(category, async (newCategory) => {
   loading.value = false;
 
 });
-
 provide('searchCategory', { category, updateCategoryState });
 provide('variableResults', { variableResults, handleVariableResultsUpdate });
 provide('datasetResults', { datasetResults, handleDatasetResultsUpdate });
@@ -91,7 +90,6 @@ provide('clickedGeneral', { clickedGeneral, handleClickGeneralUpdate })
       <DetailedInfo v-if="$route.name === 'DetailedInfo'" />
       <DatabaseSearch v-else :categoryInput="category" :queryInput="query" :updateQuery="updateQueryState"/>
       <Spinner v-if="loading" class="spinner-overlay" /> <!-- Overlay Spinner -->
-
     </div>
   </div>
 </template>
