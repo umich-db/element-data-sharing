@@ -1,5 +1,5 @@
 import initSqlJs from 'sql.js-fts5';
-import { add, dot, norm, divide } from 'mathjs';
+import { add, dot, norm, divide, multiply } from 'mathjs';
 
 const wordQuery = `
   SELECT Words.word
@@ -24,49 +24,65 @@ const queryEmbeddingsDataSet = `
 
 function findTopKRecommendations(targetWords, allEmbeddings, k) {
   function cosineSimilarity(vecA, vecB) {
-      const dotProduct = dot(vecA, vecB);
-      const magnitudeA = norm(vecA);
-      const magnitudeB = norm(vecB);
-      return dotProduct / (magnitudeA * magnitudeB);
+    const dotProduct = dot(vecA, vecB);
+    const magnitudeA = norm(vecA);
+    const magnitudeB = norm(vecB);
+    return dotProduct / (magnitudeA * magnitudeB);
   }
 
-  function calculateAverageEmbedding(embeddings) {
-      const sumVector = embeddings.reduce((acc, curr) => add(acc, curr), Array(embeddings[0].length).fill(0));
-      return divide(sumVector, embeddings.length);
+  function calculateWeightedAverageEmbedding(embeddings) {
+    const weightedSum = embeddings.reduce((acc, [vector, weight]) => {
+      const weightedVector = multiply(vector, weight);
+      return add(acc, weightedVector);
+    }, Array(embeddings[0][0].length).fill(0));
+
+    const totalWeight = embeddings.reduce((acc, [, weight]) => acc + weight, 0);
+
+    return divide(weightedSum, totalWeight);
   }
 
   console.log("step 1");
+  console.log("targetWords");
+  console.log(targetWords);
+  
+  const targetEmbeddings = [];
 
-  const targetEmbeddings = allEmbeddings
-      .filter(embedding => targetWords.includes(embedding.word))
-      .map(embedding => embedding.vector);
+  allEmbeddings.forEach(embedding => {
+    if (targetWords[embedding.word] !== undefined) {
+      targetEmbeddings.push([embedding.vector, targetWords[embedding.word]]);
+    }
+  });
 
   console.log("step 2");
-
+  console.log(targetEmbeddings);
+  
   if (targetEmbeddings.length === 0) {
-      return [];
+    return [];
   }
 
-  const averageEmbedding = calculateAverageEmbedding(targetEmbeddings);
+  const averageEmbedding = calculateWeightedAverageEmbedding(targetEmbeddings);
 
   console.log("step 3");
 
   const similarities = allEmbeddings.map(embedding => ({
-      word: embedding.word,
-      similarity: cosineSimilarity(averageEmbedding, embedding.vector)
+    word: embedding.word,
+    similarity: cosineSimilarity(averageEmbedding, embedding.vector)
   }));
 
   console.log("Similarities calculated:", similarities);
   console.log("step 4");
 
   const topKResults = similarities
-      .sort((a, b) => b.similarity - a.similarity)
-      .slice(0, k);
+    .sort((a, b) => b.similarity - a.similarity)
+    .slice(0, k);
 
   console.log("Top K results:", topKResults);
 
   return topKResults;
 }
+
+
+
 const queryWords = async (word, category) => {
   try {
     const sqlPromise = initSqlJs({
@@ -346,7 +362,51 @@ const batchSearchProcessing = async (queryInput, category, filters) => {
     const pattern = new RegExp(`(${wordsArray.join('|')})`, 'gi');
     return words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
 };
-  
+const matchWord = (words, queryResult) => {
+  if (!words) return {};  // If words is empty, return an empty object
+  const wordCountMap = {};  // To store words and their corresponding occurrences
+
+  for (let [key, value] of Object.entries(queryResult)) {
+
+    // Check if value["value"] is an array
+    if (Array.isArray(value["value"])) {
+      value["value"].forEach(innerValue => {
+
+        const wordsArray = [...innerValue[0].split(' ').filter(Boolean), ...innerValue[1].split(' ').filter(Boolean)].filter(word => word.trim() !== '');
+
+        const pattern = new RegExp(`\\b(${wordsArray.join('|')})\\b`, 'gi');
+        const matches = words.map(word => word.match(pattern)).filter(match => match !== null);
+
+        if (matches.length > 0) {
+          matches.forEach(match => {
+            match.forEach(matchedWord => {
+              const lowerMatch = matchedWord.toLowerCase();
+              if(lowerMatch === ""){
+                return;
+              }
+              if (wordCountMap[lowerMatch]) {
+                wordCountMap[lowerMatch] += 1;
+              } else {
+                wordCountMap[lowerMatch] = 1;
+              }
+            });
+          });
+        }
+      });
+    } else {
+      console.log("value['value'] is not an array.");
+    }
+  }
+
+  console.log("wordCountMap!");
+  console.log(wordCountMap);
+  return wordCountMap;
+};
+
+
+
+
+export { matchWord};
 export { matchBold };
 export { queryDatabase };
 export { batchSearchProcessing };

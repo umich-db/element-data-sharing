@@ -4,7 +4,7 @@ import {
   queryVariables,
   batchSearchProcessing,
   matchBold,
-  queryWords,
+  matchWord,
   queryEmbedding,
   findTopKRecommendations
 } from '../utils/searchUtils';
@@ -25,7 +25,7 @@ const reshapedDatasetRes = ref([]);
 const reshapedVarRes = ref([]);
 const localQueryInput = ref('');
 const id_map = ref({});
-const matchList = ref([]);
+const matchList = ref({});
 const embeddingList = ref({});
 const related = ref([]);
 const first_time = ref(true);
@@ -47,20 +47,18 @@ watch(clickedGeneral, async () => {
 
 const deadEmbedding = async () => {
   console.log("embedding search exercuting");
-  const words = localQueryInput.value.split(' ');
-  console.log("local");
-  console.log(localQueryInput.value);
-  console.log("result");
-  console.log(words);
-  const matchPromises = words.map(word => queryWords(word, props.categoryInput));
-  const allMatches = (await Promise.all(matchPromises)).flat();
-  matchList.value = allMatches;
+  const words = localQueryInput.value.trim().split(/[\s,.;:!?]+/);
+  const matchMap = matchWord(words, reshapedVarRes.value);
+  matchList.value = matchMap;
+  console.log(matchList);
   embeddingList.value = await queryEmbedding(props.categoryInput);
 };
 
 const findRelatedSearches = async () => {
+  console.log("inside findRelatedSearcheds")
+  console.log(reshapedVarRes);
   await deadEmbedding();
-  const queryWords = props.queryInput.trim().split(' ');
+  const queryWords = props.queryInput.trim().split(/[\s,.;:!?]+/);
   console.log("put into");
   console.log(matchList.value);
   console.log(embeddingList.value);

@@ -34,26 +34,37 @@ watch(currentQuery, (newValue) => {
   }, REFRESH_TIME_SECONDS * 1000);
 });
 
-// TODO: Add a toggle so when user presses search, will display general view below
 const search = () => {
   emit('update-state', currentQuery.value)
 };
+
 const clickedGeneral = () => {
   search();
   emit('display-all', currentQuery.value);
 }
+
 const clickedGeneralToggleDropdown = (event) => {
-  isToggled.value.toggle(event);
+  if (event.key === 'Enter') {
+    if (isToggled.value) {
+      isToggled.value.hide();
+    }
+  } else {
+    if (isToggled.value) {
+      isToggled.value.toggle(event);
+    }
+  }
+
   search();
   emit('display-all', currentQuery.value);
-}
+};
 
 const toggleDropdown = (event) => {
-  isToggled.value.toggle(event);
+  if (isToggled.value) {
+    isToggled.value.toggle(event);
+  }
   search();
   emit('display-dropdown', currentQuery.value);
-
-}
+};
 </script>
 
 <template>
