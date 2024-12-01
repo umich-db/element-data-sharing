@@ -5,10 +5,16 @@ import Checkbox from 'primevue/checkbox';
 const { filters, updateState } = inject('updateFilter');
 const selectedCohorts = ref([...filters.value.cohorts]);
 const cohorts = ref([
-  {name: "Cohort 1 (1994 - 1997)", key: "1", value: 1},
-  {name: "Cohort 2 (1997 - 2000)", key: "2", value: 2},
-  {name: "Cohort 3 (2001 - 2005)", key: "3", value: 3},
+  {name: "Cholesterol", key: "1", value: 1},
+  {name: "E3G-F0-Gen", key: "2", value: 2},
+  {name: "E3G-F0Gen-CovidCall", key: "3", value: 3},
+  {name: "E3G-F1-Gen", key: "4", value: 4},
+  {name: "FattyLiverData", key: "5", value: 5},
+  {name: "Historical", key: "6", value: 6},
+  {name: "P01", key: "7", value: 7},
+  {name: "P20", key: "8", value: 8},
 ]);
+
 
 watch(selectedCohorts, (newValue) => {
   updateState('cohorts', newValue)

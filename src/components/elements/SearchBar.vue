@@ -4,8 +4,8 @@ import CategoryDropdown from './CategoryDropdown.vue'
 import SearchDropdown from './SearchDropdown.vue'
 import InputGroup from 'primevue/inputgroup'
 import InputGroupAddon from 'primevue/inputgroupaddon'
-import Popover from 'primevue/popover';
-import InputText from 'primevue/inputtext';
+import Popover from 'primevue/popover'
+import InputText from 'primevue/inputtext'
 
 const REFRESH_TIME_SECONDS = 0.5;
 
@@ -29,9 +29,12 @@ watch(currentQuery, (newValue) => {
     clearTimeout(timeout);
   }
 
-  timeout = setTimeout(() => {
-    search(newValue);
-  }, REFRESH_TIME_SECONDS * 1000);
+  // 添加输入长度判断，限制最小触发条件
+  if (newValue.length >= 3) {
+    timeout = setTimeout(() => {
+      search(newValue);
+    }, REFRESH_TIME_SECONDS * 1000);
+  }
 });
 
 const search = () => {
@@ -39,8 +42,10 @@ const search = () => {
 };
 
 const clickedGeneral = () => {
-  search();
-  emit('display-all', currentQuery.value);
+  if (currentQuery.value.length >= 3) {
+    search();
+    emit('display-all', currentQuery.value);
+  }
 }
 
 const clickedGeneralToggleDropdown = (event) => {
@@ -54,16 +59,21 @@ const clickedGeneralToggleDropdown = (event) => {
     }
   }
 
-  search();
-  emit('display-all', currentQuery.value);
+  if (currentQuery.value.length >= 3) {
+    search();
+    emit('display-all', currentQuery.value);
+  }
 };
 
 const toggleDropdown = (event) => {
   if (isToggled.value) {
     isToggled.value.toggle(event);
   }
-  search();
-  emit('display-dropdown', currentQuery.value);
+
+  if (currentQuery.value.length >= 3) {
+    search();
+    emit('display-dropdown', currentQuery.value);
+  }
 };
 </script>
 

@@ -5,8 +5,7 @@ import FooterComponent from './components/Footer.vue'
 import FilterComponent from './components/FilterComponent.vue'
 
 const filters = ref({
-  year: [1994, 2024],
-  cohorts: [1, 2, 3],
+  cohorts: [1, 2, 3, 4, 5, 6, 7, 8],
   demographics: ['MOM', 'CHILD'],
   age: [0, 100]
 })

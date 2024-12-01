@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, inject } from 'vue';
+import { ref, watch, inject, onMounted } from 'vue';
 import {
   queryVariables,
   batchSearchProcessing,
@@ -9,6 +9,7 @@ import {
   findTopKRecommendations
 } from '../utils/searchUtils';
 import RelatedSearch from './RelatedSearch.vue';
+
 const NUMBER_OF_RELATED_SEARCHES = 6;
 const { clickedGeneral } = inject('clickedGeneral');
 const { filters } = inject('updateFilter');
@@ -29,105 +30,146 @@ const matchList = ref({});
 const embeddingList = ref({});
 const related = ref([]);
 const first_time = ref(true);
+const loading = ref(true); 
 
-watch(clickedGeneral, async () => {
+const runQuery = async () => {
+  loading.value = true;
   localQueryInput.value = props.queryInput;
   const results = await batchSearchProcessing(localQueryInput.value, props.categoryInput, filters);
+  console.log("dataset, result: ")
+  console.log(results)
   if (props.categoryInput === "variables") {
     varRes.value = results;
     reshapedVarRes.value = await reshapeData(varRes.value, false);
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
+    console.log("reshapeddatasetred")
+    console.log(reshapedDatasetRes.value)
   }
-  console.log("clicked");
-  findRelatedSearches();
+  if(localQueryInput.value){
+    findRelatedSearches();
+  }
   first_time.value = false;
+  loading.value = false;
+};
+
+onMounted(() => {
+  runQuery();
+});
+
+watch([clickedGeneral, () => props.categoryInput], async () => {
+  await runQuery();
 });
 
 const deadEmbedding = async () => {
-  console.log("embedding search exercuting");
+  console.log("embedding search executing");
   const words = localQueryInput.value.trim().split(/[\s,.;:!?]+/);
-  const matchMap = matchWord(words, reshapedVarRes.value);
+  let matchMap;
+  if (props.categoryInput === "variables") {
+    matchMap = matchWord(words, reshapedVarRes.value);
+  } else {
+    console.log("dataset deadembedding executing");
+    matchMap = matchWord(words, reshapedDatasetRes.value, "datasets");
+  }
   matchList.value = matchMap;
-  console.log(matchList);
   embeddingList.value = await queryEmbedding(props.categoryInput);
 };
 
 const findRelatedSearches = async () => {
-  console.log("inside findRelatedSearcheds")
-  console.log(reshapedVarRes);
+  console.log("inside findRelatedSearches");
   await deadEmbedding();
   const queryWords = props.queryInput.trim().split(/[\s,.;:!?]+/);
   console.log("put into");
-  console.log(matchList.value);
-  console.log(embeddingList.value);
   const similarities =
     findTopKRecommendations(
       matchList.value,
       embeddingList.value,
-      NUMBER_OF_RELATED_SEARCHES + queryWords.length);
-    console.log("result from similarities");
-    console.log(similarities);
+      NUMBER_OF_RELATED_SEARCHES + queryWords.length
+    );
+  console.log("result from similarities");
   const filtered_similarities = similarities.filter(similar =>
     !queryWords.includes(similar.word)
-  )
+  );
   related.value = filtered_similarities;
 };
 
 const formatData = (result) => {
+  console.log("formatdata")
+  console.log(result)
   return result.value.map(item => ({
     variable: matchBold(item[0], localQueryInput.value),
     description: matchBold(item[1], localQueryInput.value)
   }));
 };
 
-// include year and demographic options
-
 const reshapeData = async (result, isDataset) => {
   console.log("reshapeData executing");
   const dictionary = {};
+  const datasetIds = [];
 
-  await Promise.all(result.map(async (item) => {
+  result.forEach((item) => {
     const key = isDataset ? item[0] : item[2];
     const id = isDataset ? item[6] : item[7];
     const year = isDataset ? item[2] : item[3];
     const demographic = isDataset ? item[3] : item[4];
     const min_age = isDataset ? item[4] : item[5];
     const max_age = isDataset ? item[5] : item[6];
+
     const metadata = {
       id: id,
       year: year,
       demographic: demographic,
       min_age: min_age,
       max_age: max_age,
-    }
+    };
+
+    id_map.value[key] = metadata;
 
     if (isDataset) {
-      const processedResult = await queryVariables(id, filters);
-      console.log(processedResult)
-      processedResult.map(processedItem => {
-        const subKey = processedItem[2];
-        id_map.value[subKey] = metadata;
-
-        if (!Object.prototype.hasOwnProperty.call(dictionary, subKey)) {
-          dictionary[subKey] = [];
-        }
-        dictionary[subKey].push([processedItem[0]]);
-      });
+      if (!datasetIds.includes(id)) {
+        datasetIds.push(id);
+      }
     } else {
-      id_map.value[key] = metadata;
-
       if (!Object.prototype.hasOwnProperty.call(dictionary, key)) {
         dictionary[key] = [];
       }
       dictionary[key].push([item[0], item[1]]);
     }
-  }));
+  });
 
-  const dictionaryArray = Object.entries(dictionary).map(([key, value]) => ({ key, value }));
-  return dictionaryArray;
+  if (isDataset) {
+    const processedResults = await queryVariables(datasetIds);
+
+    const variablesByDataset = {};
+    processedResults.forEach((item) => {
+      const datasetName = item[2]; 
+      const varName = item[0];
+
+      if (!variablesByDataset[datasetName]) {
+        variablesByDataset[datasetName] = [];
+      }
+      variablesByDataset[datasetName].push([varName]);
+    });
+
+    const dictionaryArray = result.map((item) => {
+      const key = item[0];
+      const value = variablesByDataset[key] || [];
+      return { key, value };
+    });
+
+    return dictionaryArray;
+  } else {
+    const dictionaryArray = result.map((item) => {
+      const key = item[2];
+      const value = dictionary[key] || [];
+      return { key, value };
+    });
+
+    return dictionaryArray;
+  }
 };
+
 
 
 const tempstructure = ref([
@@ -138,7 +180,6 @@ const tempstructure = ref([
   {
     field: 'description',
     header: 'Description'
-
   }
 ]);
 
@@ -148,7 +189,11 @@ const titleBold = (input) => {
 </script>
 
 <template>
-  <div>
+  <div v-if="loading" class="loading-indicator">
+    <div class="spinner"></div>
+  </div>
+
+  <div v-else>
     <div
       v-if="(props.categoryInput === 'variables' && reshapedVarRes.length > 0) || (props.categoryInput === 'datasets' && reshapedDatasetRes.length > 0)">
       <DataView :value="props.categoryInput === 'variables' ? reshapedVarRes : reshapedDatasetRes" paginator
@@ -195,10 +240,12 @@ const titleBold = (input) => {
       No entries found.
     </div>
     <RelatedSearch
-      v-if="related.length > 0"
+      v-if="related.length > 0 && localQueryInput"
       :related="related" :updateQuery="updateQuery" />
   </div>
 </template>
+
+
 <style scoped>
 .list {
   padding: 0;
@@ -230,9 +277,29 @@ const titleBold = (input) => {
   text-decoration: underline;
 }
 
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #ccc;
+  border-top: 6px solid #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 :deep(.p-datatable) {
   width: 100%;
   border: 1px solid black;
-
 }
 </style>

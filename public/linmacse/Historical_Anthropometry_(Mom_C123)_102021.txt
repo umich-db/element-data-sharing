@@ -1,0 +1,20 @@
+**Date: 10.21.2021**
+
+Data file: Historical_Anthropometry_(Mom_C123)_202109.csv
+
+This dataset was created by unifying data from all three Original Cohorts (See: Anthropometry_Mom_09.08.2021.sas) and it contains maternal Anthropometry Data.
+
+This dataset was assembled using information from “MANUAL_COMBO_MOTHERS_C123_rename.pdf”
+
+The following variables were created using these data: 
+
+PROYECTO	
+FOLIO	
+STAGE	
+Date_stage	
+Antrom_weight		--> Mother’s weight (Kg)
+Antrom_height		--> Mother’s height (cm) 
+Antrom_arm		--> Mother’s arm circumference (cm)
+Antrom_calf		--> Mother’s calf circumference (cm)
+Antrom_cefalica 	--> Mother’s head circumference (cm)	
+Antrom_weightbefore 	--> Weight before pregnancy (Kg; self-recall) 
