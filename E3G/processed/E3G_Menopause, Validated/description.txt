@@ -1,0 +1,1 @@
+"This dataset consists of two columns: 'foliocc' and 'menopause_valid'. The 'foliocc' column serves as a unique identifier for each entry in the dataset. The 'menopause_valid' column indicates the menopause stage of the individual associated with each record. The first row provides a description of the variables, with subsequent rows containing the actual data."

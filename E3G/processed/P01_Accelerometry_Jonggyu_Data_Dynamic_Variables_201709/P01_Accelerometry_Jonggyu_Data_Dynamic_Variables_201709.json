@@ -1,0 +1,27 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PROYECTO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FOLIO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "TimingPeak_unadj": {
+      "description": "Time (year) to the BMI peak extracted from Newton's Growth Model without adjusting covariates",
+      "unit": "year"
+    },
+    "TimingPeak_adj": {
+      "description": "Time (year) to the BMI peak extracted from Newton's Growth Model with adjusting covariates (cohort, sex, gestational age, mother's BMI at 1 month of postpartum, total duration of breast feeding)",
+      "unit": "year"
+    },
+    "t_stblz_WFL": {
+      "description": "Time (year) to stabilization of velocity in the ratio weight/length extracted from Newton's Growth Model without adjusting covariates.",
+      "unit": "year"
+    }
+  }
+  

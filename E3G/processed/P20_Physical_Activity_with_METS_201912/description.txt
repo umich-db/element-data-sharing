@@ -1,0 +1,7 @@
+The dataset contains information from a physical activity questionnaire designed to study children's and adolescents' activity patterns, including frequency, duration, and associated habits. The data is structured across three files: a CSV file with participant and project details, a DOCX file outlining the survey questions and possible answers, and a JSON file describing field attributes and units. Key identifiers include participant and maternal IDs, along with cohort details.
+
+
+
+
+
+

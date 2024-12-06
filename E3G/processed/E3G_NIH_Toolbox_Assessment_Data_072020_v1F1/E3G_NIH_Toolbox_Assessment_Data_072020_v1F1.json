@@ -1,0 +1,46 @@
+{
+    "proyecto": {"description": "None", "unit": "None"},
+    "folio": {"description": "None", "unit": "None"},
+    "foliocc": {"description": "None", "unit": "None"},
+    "etapa": {"description": "None", "unit": "None"},
+    "stage": {"description": "None", "unit": "None"},
+    "id": {"description": "None", "unit": "None"},
+    "fecha_f1": {"description": "None", "unit": "None"},
+    "participante": {"description": "None", "unit": "None"},
+    "PIN": {"description": "unique ID assigned to participant", "unit": "None"},
+    "DeviceID": {
+      "description": "device identifier located on the 'Help&Support' in the app",
+      "unit": "None"
+    },
+    "AssessmentName": {
+      "description": "Data collection time point (e.g. assessment 1, assessment 2)",
+      "unit": "None"
+    },
+    "InstOrdr": {"description": "None", "unit": "None"},
+    "InstSctn": {"description": "None", "unit": "None"},
+    "ItmOrdr": {"description": "None", "unit": "None"},
+    "Inst": {"description": "instrument name", "unit": "None"},
+    "Locale": {
+      "description": "Localization value (Tag for the Identification of Languages) for an instrument. Codes for currently available languages are as follows: en-US = US English; es = Spanish",
+      "unit": "None"
+    },
+    "ItemID": {"description": "None", "unit": "None"},
+    "Response": {"description": "None", "unit": "None"},
+    "Score": {"description": "None", "unit": "None"},
+    "Theta": {
+      "description": "calculated for each participant; it represents the relative overall ability or performance of the participant",
+      "unit": "None"
+    },
+    "TScore": {
+      "description": "Transformed score based on a (10*Theta +50) formula for most PROs or other (NIH Toolbox Emotion domains have a different transformation)",
+      "unit": "None"
+    },
+    "SE": {"description": "Standard Error for administered instrument", "unit": "None"},
+    "DataType": {"description": "None", "unit": "None"},
+    "Position": {"description": "None", "unit": "None"},
+    "ResponseTime": {"description": "None", "unit": "None"},
+    "DateCreated": {"description": "None", "unit": "None"},
+    "InstStarted": {"description": "None", "unit": "None"},
+    "InstEnded": {"description": "None", "unit": "None"}
+  }
+  

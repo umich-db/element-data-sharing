@@ -1,0 +1,435 @@
+{
+    "PROYECTO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FOLIO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "STAGE": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ETAPA": {
+      "description": "None",
+      "unit": "None"
+    },
+    "EDAD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "SEXO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "REVIS": {
+      "description": "None",
+      "unit": "None"
+    },
+    "CODIF": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FECHA": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MA_ENER_KCAL": {
+      "description": "Energía en Kcal/100g",
+      "unit": "kcal/100g"
+    },
+    "MA_ENER_KJ": {
+      "description": "Energía KJ/100g",
+      "unit": "kJ/100g"
+    },
+    "MA_H_DE_C_adj": {
+      "description": "Hidratos de carbono ajustados",
+      "unit": "g/100g"
+    },
+    "MA_PROTEINA_adj": {
+      "description": "Proteína ajustada",
+      "unit": "g/100g"
+    },
+    "MA_GRASA_adj": {
+      "description": "Grasa ajustada",
+      "unit": "g/100g"
+    },
+    "MA_CENIZA_adj": {
+      "description": "Ceniza ajustada",
+      "unit": "g/100g"
+    },
+    "MA_ALCH_adj": {
+      "description": "Alcohol ajustado",
+      "unit": "g/100g"
+    },
+    "MA_AGUA_adj": {
+      "description": "Agua ajustada",
+      "unit": "g/100g"
+    },
+    "MA_CAFEINA_adj": {
+      "description": "Cafeína ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_THEBRN_adj": {
+      "description": "Teobromina ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_AZUCAR_adj": {
+      "description": "Azúcar total ajustado",
+      "unit": "g/100g"
+    },
+    "MA_FIBTOT_adj": {
+      "description": "Fibra dietética total ajustada",
+      "unit": "g/100g"
+    },
+    "MA_CA_adj": {
+      "description": "Calcio ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_FE_adj": {
+      "description": "Hierro ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_MG_adj": {
+      "description": "Magnesio ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_P_adj": {
+      "description": "Fósforo ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_K_adj": {
+      "description": "Potasio ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_NA_adj": {
+      "description": "Sodio ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_ZN_adj": {
+      "description": "Zinc ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_AFITICO_adj": {
+      "description": "Ácido Fítico ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_CU_adj": {
+      "description": "Cobre ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_MN_adj": {
+      "description": "Manganeso ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_SE_adj": {
+      "description": "Selenio ajustado",
+      "unit": "mcg/100g"
+    },
+    "MA_VITA_adj": {
+      "description": "Vitamina A ajustada",
+      "unit": "IU/100g"
+    },
+    "MA_EQRET_adj": {
+      "description": "Equivalentes de Retinol ajustados",
+      "unit": "/100g"
+    },
+    "MA_VITD_adj": {
+      "description": "Vitamina D ajustada",
+      "unit": "IU/100g"
+    },
+    "MA_RETINOL_adj": {
+      "description": "Vitamina A, RE ajustada",
+      "unit": "mcg_RE/100g"
+    },
+    "MA_VITE_adj": {
+      "description": "Vitamina E ajustada",
+      "unit": "mg_ATE/100g"
+    },
+    "MA_VITC_adj": {
+      "description": "Vitamina C ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_THIA_adj": {
+      "description": "Tiamina ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_RIBF_adj": {
+      "description": "Riboflavina ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_NIA_adj": {
+      "description": "Niacina ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_PANTAC_adj": {
+      "description": "Ácido Pantoténico ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_VITB6_adj": {
+      "description": "Vitamina B-6 ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_FOLATO_adj": {
+      "description": "Folato ajustado",
+      "unit": "mcg/100g"
+    },
+    "MA_VITB12_adj": {
+      "description": "Vitamina B-12 ajustada",
+      "unit": "mg/100g"
+    },
+    "MA_TRP_adj": {
+      "description": "Triptofano ajustado",
+      "unit": "g/100g"
+    },
+    "MA_THR_adj": {
+      "description": "Treonina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_ILE_adj": {
+      "description": "Isoleucina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_LEU_adj": {
+      "description": "Leucina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_LYS_adj": {
+      "description": "Lisina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_MET_adj": {
+      "description": "Metionina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_CYS_adj": {
+      "description": "Cisteína ajustada",
+      "unit": "g/100g"
+    },
+    "MA_PHE_adj": {
+      "description": "Fenilalanina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_TYR_adj": {
+      "description": "Tirosina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_VAL_adj": {
+      "description": "Valina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_ARG_adj": {
+      "description": "Arginina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_HIS_adj": {
+      "description": "Histidina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_ALA_adj": {
+      "description": "Alanina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_ASP_adj": {
+      "description": "Ácido Aspártico ajustado",
+      "unit": "g/100g"
+    },
+    "MA_GLU_adj": {
+      "description": "Ácido Glutámico ajustado",
+      "unit": "g/100g"
+    },
+    "MA_GLY_adj": {
+      "description": "Glicina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_PRO_adj": {
+      "description": "Prolina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_SER_adj": {
+      "description": "Serina ajustada",
+      "unit": "g/100g"
+    },
+    "MA_COLE_adj": {
+      "description": "Colesterol ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_GRASAT_adj": {
+      "description": "Ácidos grasos saturados ajustados",
+      "unit": "mg/100g"
+    },
+    "MA_F4D0_adj": {
+      "description": "4:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F6D0_adj": {
+      "description": "6:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F8D0_adj": {
+      "description": "8:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F10D0_adj": {
+      "description": "10:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F12D0_adj": {
+      "description": "12:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F14D0_adj": {
+      "description": "14:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F16D0_adj": {
+      "description": "16:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F18D0_adj": {
+      "description": "18:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F20D0_adj": {
+      "description": "20:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F18D1_adj": {
+      "description": "18:1 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F18D2_adj": {
+      "description": "18:2 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F18D3_adj": {
+      "description": "18:3 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F20D4_adj": {
+      "description": "20:4 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F22D6_adj": {
+      "description": "22:6 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F22D0_adj": {
+      "description": "22:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F14D1_adj": {
+      "description": "14:1 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F16D1_adj": {
+      "description": "16:1 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F18D4_adj": {
+      "description": "18:4 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F20D1_adj": {
+      "description": "20:1 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F20D5_adj": {
+      "description": "20:5 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F22D1_adj": {
+      "description": "22:1 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F22D5_adj": {
+      "description": "22:5 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_FITOSTER_adj": {
+      "description": "Fitosteroles ajustados",
+      "unit": "mg/100g"
+    },
+    "MA_GRAMON_adj": {
+      "description": "Ácidos grasos monoinsaturados ajustados",
+      "unit": "g/100g"
+    },
+    "MA_GRAPOLY_adj": {
+      "description": "Ácidos grasos poliinsaturados ajustados",
+      "unit": "g/100g"
+    },
+    "MA_F15D0_adj": {
+      "description": "15:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F17D0_adj": {
+      "description": "17:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_F24D0_adj": {
+      "description": "24:0 ajustado",
+      "unit": "g/100g"
+    },
+    "MA_TANINOS_adj": {
+      "description": "Taninos ajustados",
+      "unit": "mg/100g"
+    },
+    "MA_FORTICA_adj": {
+      "description": "Alimentos Fortificados con Calcio ajustados",
+      "unit": "None"
+    },
+    "MA_FORTIFE_adj": {
+      "description": "Alimentos Fortificados con Hierro ajustados",
+      "unit": "None"
+    },
+    "MA_FORTIZN_adj": {
+      "description": "Alimentos Fortificados con Zinc ajustados",
+      "unit": "None"
+    },
+    "MA_FORTIVITA_adj": {
+      "description": "Alimentos Fortificados con Vitamina A ajustados",
+      "unit": "None"
+    },
+    "MA_FORTIVITC_adj": {
+      "description": "Alimentos Fortificados con Vitamina C ajustados",
+      "unit": "None"
+    },
+    "MA_ENRICHED_adj": {
+      "description": "Alimentos Enriquecidos ajustados",
+      "unit": "None"
+    },
+    "MA_P_F_CA_adj": {
+      "description": "Porcentaje de alimentos fortificados con Calcio en preparaciones ajustado",
+      "unit": "None"
+    },
+    "MA_P_F_FE_adj": {
+      "description": "Porcentaje de alimentos fortificados Hierro en preparaciones ajustado",
+      "unit": "None"
+    },
+    "MA_P_F_ZN_adj": {
+      "description": "Porcentaje de alimentos fortificados con Zinc en preparaciones ajustado",
+      "unit": "None"
+    },
+    "MA_P_F_VITA_adj": {
+      "description": "Porcentaje de alimentos fortificados con Vit. A en preparaciones ajustado",
+      "unit": "None"
+    },
+    "MA_P_F_VITC_adj": {
+      "description": "Porcentaje de alimentos fortificados con Vit. C en preparaciones ajustado",
+      "unit": "None"
+    },
+    "MA_IRONHEME_adj": {
+      "description": "Hierro heme ajustado",
+      "unit": "mg/100g"
+    },
+    "MA_IRONNONHEM_adj": {
+      "description": "Hierro no heme ajustado",
+      "unit": "mg/100g"
+    },
+    "MA": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

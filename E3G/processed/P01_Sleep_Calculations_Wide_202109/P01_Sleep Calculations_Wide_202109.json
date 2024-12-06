@@ -1,0 +1,91 @@
+{
+    "sleep_dur_tot": {
+      "description": "average sleep duration over whole week",
+      "unit": "time 1"
+    },
+    "sleep_dur_wk": {
+      "description": "average sleep duration over week days",
+      "unit": "time 1"
+    },
+    "sleep_dur_wkend": {
+      "description": "average sleep duration over weekend",
+      "unit": "time 1"
+    },
+    "sleep_dur_tot_sd": {
+      "description": "SD of sleep duration over whole week",
+      "unit": "time 1"
+    },
+    "sleep_dur_wk_sd": {
+      "description": "SD of sleep duration over week days",
+      "unit": "time 1"
+    },
+    "sleep_dur_wkend_sd": {
+      "description": "SD of sleep duration over weekend",
+      "unit": "time 1"
+    },
+    "bedtime_tot": {
+      "description": "average bedtime over whole week",
+      "unit": "time 1"
+    },
+    "bedtime_wk": {
+      "description": "average bedtime over week days",
+      "unit": "time 1"
+    },
+    "bedtime_wkend": {
+      "description": "average bedtime over weekend",
+      "unit": "time 1"
+    },
+    "wake_tot": {
+      "description": "average wake time over whole week",
+      "unit": "time 1"
+    },
+    "wake_wk": {
+      "description": "average wake time over week days",
+      "unit": "time 1"
+    },
+    "wake_wkend": {
+      "description": "average wake time over weekend",
+      "unit": "time 1"
+    },
+    "midpoint_tot": {
+      "description": "average midpoint over whole week",
+      "unit": "time 1"
+    },
+    "midpoint_wk": {
+      "description": "average midpoint over week days",
+      "unit": "time 1"
+    },
+    "midpoint_wkend": {
+      "description": "average midpoint over weekend",
+      "unit": "time 1"
+    },
+    "total_valid": {
+      "description": "total number of days with valid information",
+      "unit": "time 1"
+    },
+    "mi_tot": {
+      "description": "average movement index over whole week",
+      "unit": "time 1"
+    },
+    "mi_wk": {
+      "description": "average movement index over week days",
+      "unit": "time 1"
+    },
+    "mi_wkend": {
+      "description": "average movement index over weekend",
+      "unit": "time 1"
+    },
+    "fi_tot": {
+      "description": "average fragmentation index over whole week",
+      "unit": "time 1"
+    },
+    "fi_wk": {
+      "description": "average fragmentation index over week days",
+      "unit": "time 1"
+    },
+    "fi_wkend": {
+      "description": "average fragmentation index over weekend",
+      "unit": "time 1"
+    }
+  }
+  

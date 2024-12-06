@@ -1,0 +1,215 @@
+{
+    "Proyecto": {
+      "description": "Proyecto",
+      "unit": ""
+    },
+    "Folio": {
+      "description": "Folio",
+      "unit": ""
+    },
+    "Foliocc": {
+      "description": "Foliocc",
+      "unit": ""
+    },
+    "Etapa": {
+      "description": "Etapa",
+      "unit": ""
+    },
+    "Spec_Grav": {
+      "description": "Specific Gravity",
+      "unit": ""
+    },
+    "As": {
+      "description": "As",
+      "unit": ""
+    },
+    "Ba": {
+      "description": "Ba",
+      "unit": ""
+    },
+    "Be": {
+      "description": "Be",
+      "unit": ""
+    },
+    "Cd": {
+      "description": "Cd",
+      "unit": ""
+    },
+    "Cs": {
+      "description": "Cs",
+      "unit": ""
+    },
+    "Cr": {
+      "description": "Cr",
+      "unit": ""
+    },
+    "Co": {
+      "description": "Co",
+      "unit": ""
+    },
+    "Cu": {
+      "description": "Cu",
+      "unit": ""
+    },
+    "Pb": {
+      "description": "Pb",
+      "unit": ""
+    },
+    "Mn": {
+      "description": "Mn",
+      "unit": ""
+    },
+    "Hg": {
+      "description": "Hg",
+      "unit": ""
+    },
+    "Ni": {
+      "description": "Ni",
+      "unit": ""
+    },
+    "Tl": {
+      "description": "Tl",
+      "unit": ""
+    },
+    "U": {
+      "description": "U",
+      "unit": ""
+    },
+    "V": {
+      "description": "V",
+      "unit": ""
+    },
+    "Zn": {
+      "description": "Zn",
+      "unit": ""
+    },
+    "As_LOD": {
+      "description": "As_LOD",
+      "unit": ""
+    },
+    "As_CommentCode": {
+      "description": "As_CommentCode",
+      "unit": ""
+    },
+    "Ba_LOD": {
+      "description": "Ba_LOD",
+      "unit": ""
+    },
+    "Ba_CommentCode": {
+      "description": "Ba_CommentCode",
+      "unit": ""
+    },
+    "Be_LOD": {
+      "description": "Be_LOD",
+      "unit": ""
+    },
+    "Be_CommentCode": {
+      "description": "Be_CommentCode",
+      "unit": ""
+    },
+    "Cd_LOD": {
+      "description": "Cd_LOD",
+      "unit": ""
+    },
+    "Cd_CommentCode": {
+      "description": "Cd_CommentCode",
+      "unit": ""
+    },
+    "Cs_LOD": {
+      "description": "Cs_LOD",
+      "unit": ""
+    },
+    "Cs_CommentCode": {
+      "description": "Cs_CommentCode",
+      "unit": ""
+    },
+    "Cr_LOD": {
+      "description": "Cr_LOD",
+      "unit": ""
+    },
+    "Cr_CommentCode": {
+      "description": "Cr_CommentCode",
+      "unit": ""
+    },
+    "Co_LOD": {
+      "description": "Co_LOD",
+      "unit": ""
+    },
+    "Co_CommentCode": {
+      "description": "Co_CommentCode",
+      "unit": ""
+    },
+    "Cu_LOD": {
+      "description": "Cu_LOD",
+      "unit": ""
+    },
+    "Cu_CommentCode": {
+      "description": "Cu_CommentCode",
+      "unit": ""
+    },
+    "Pb_LOD": {
+      "description": "Pb_LOD",
+      "unit": ""
+    },
+    "Pb_CommentCode": {
+      "description": "Pb_CommentCode",
+      "unit": ""
+    },
+    "Mn_LOD": {
+      "description": "Mn_LOD",
+      "unit": ""
+    },
+    "Mn_CommentCode": {
+      "description": "Mn_CommentCode",
+      "unit": ""
+    },
+    "Hg_LOD": {
+      "description": "Hg_LOD",
+      "unit": ""
+    },
+    "Hg_CommentCode": {
+      "description": "Hg_CommentCode",
+      "unit": ""
+    },
+    "Ni_LOD": {
+      "description": "Ni_LOD",
+      "unit": ""
+    },
+    "Ni_CommentCode": {
+      "description": "Ni_CommentCode",
+      "unit": ""
+    },
+    "Tl_LOD": {
+      "description": "Tl_LOD",
+      "unit": ""
+    },
+    "Tl_CommentCode": {
+      "description": "Tl_CommentCode",
+      "unit": ""
+    },
+    "U_LOD": {
+      "description": "U_LOD",
+      "unit": ""
+    },
+    "U_CommentCode": {
+      "description": "U_CommentCode",
+      "unit": ""
+    },
+    "V_LOD": {
+      "description": "V_LOD",
+      "unit": ""
+    },
+    "V_CommentCode": {
+      "description": "V_CommentCode",
+      "unit": ""
+    },
+    "Zn_LOD": {
+      "description": "Zn_LOD",
+      "unit": ""
+    },
+    "Zn_CommentCode": {
+      "description": "Zn_CommentCode",
+      "unit": ""
+    }
+  }
+  

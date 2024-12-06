@@ -1,0 +1,59 @@
+{
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_gps": {
+      "description": "None",
+      "unit": "None"
+    },
+    "latitud_": {
+      "description": "latitude",
+      "unit": ""
+    },
+    "longitud_": {
+      "description": "longitude",
+      "unit": ""
+    },
+    "calle_": {
+      "description": "street",
+      "unit": ""
+    },
+    "no_": {
+      "description": "number",
+      "unit": ""
+    },
+    "colonia_": {
+      "description": "colonia",
+      "unit": ""
+    },
+    "deleg_": {
+      "description": "Delegation",
+      "unit": ""
+    },
+    "municipio": {
+      "description": "municipality",
+      "unit": ""
+    },
+    "cp_": {
+      "description": "postal code",
+      "unit": ""
+    },
+    "refer_": {
+      "description": "reference",
+      "unit": ""
+    }
+  }
+  

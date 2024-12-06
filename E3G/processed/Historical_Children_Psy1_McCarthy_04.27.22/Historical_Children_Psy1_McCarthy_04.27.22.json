@@ -1,0 +1,17 @@
+{
+    "proyecto": {"description": "Project identifier", "unit": "None"},
+    "folio": {"description": "Participant ID", "unit": "None"},
+    "foliocc": {"description": "Folio code", "unit": "None"},
+    "stage": {"description": "Stage of the study", "unit": "None"},
+    "date_stage": {"description": "Date corresponding to the stage", "unit": "Date (MM/DD/YYYY)"},
+    "AC_sexH": {"description": "Sex of the child", "unit": "1=Male, 2=Female"},
+    "age_mon": {"description": "Child's age in months", "unit": "Months"},
+    "age_days": {"description": "Child's age in days", "unit": "Days"},
+    "McCarthy_V": {"description": "McCarthy Verbal index (48 months)", "unit": "Score"},
+    "McCarthy_P": {"description": "McCarthy Perceptual Performance index (48 months)", "unit": "Score"},
+    "McCarthy_C": {"description": "McCarthy Quantitative index (48 months)", "unit": "Score"},
+    "McCarthy_VPC": {"description": "McCarthy General Cognitive index (48 months)", "unit": "Score"},
+    "McCarthy_MEM": {"description": "McCarthy Memory index (48 months)", "unit": "Score"},
+    "McCarthy_MOT": {"description": "McCarthy Motor index (48 months)", "unit": "Score"}
+  }
+  

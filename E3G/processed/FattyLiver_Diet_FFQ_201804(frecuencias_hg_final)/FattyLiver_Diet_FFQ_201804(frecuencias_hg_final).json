@@ -1,0 +1,475 @@
+{
+    "agregado_a_la_leche_az_car": {
+      "description": "Added to milk - Sugar",
+      "unit": "None"
+    },
+    "agregado_a_la_leche_chocolate": {
+      "description": "Added to milk - Chocolate or other flavoring",
+      "unit": "None"
+    },
+    "agua_sola": {
+      "description": "Plain water",
+      "unit": "None"
+    },
+    "aguacate": {
+      "description": "Avocado",
+      "unit": "None"
+    },
+    "alg_n_marisco__camar_n__ostiones": {
+      "description": "Some seafood (shrimp, scallops, etc.)",
+      "unit": "None"
+    },
+    "arroz": {
+      "description": "Rice",
+      "unit": "None"
+    },
+    "atole_de_ma_z": {
+      "description": "Corn gruel",
+      "unit": "None"
+    },
+    "at_n_y_sardina": {
+      "description": "Tuna and sardines",
+      "unit": "None"
+    },
+    "az_car__a_parte_de_la_agregada_a": {
+      "description": "Sugar (added to drinks, milk, tea, coffee, fruit water) e.g. strawberries or bananas with cream",
+      "unit": "None"
+    },
+    "barras_de_cereal": {
+      "description": "Granola bars",
+      "unit": "None"
+    },
+    "bebidas_o_aguas_de_sabor_con_az_": {
+      "description": "Drinks or flavored water with sugar",
+      "unit": "None"
+    },
+    "bebidas_o_aguas_de_sabor_sin_az_": {
+      "description": "Drinks or flavored waters without sugar (including diet, Crystal Light, Be-light, etc)",
+      "unit": "None"
+    },
+    "br_coli_o_coliflor": {
+      "description": "Broccoli or cauliflower",
+      "unit": "None"
+    },
+    "cacahuates__habas_o_pepitas": {
+      "description": "Peanuts, beans or seeds",
+      "unit": "None"
+    },
+    "caf__con_az_car": {
+      "description": "Coffee with sugar",
+      "unit": "None"
+    },
+    "caf__sin_az_car": {
+      "description": "Coffee without sugar",
+      "unit": "None"
+    },
+    "calabacita": {
+      "description": "Zucchini",
+      "unit": "None"
+    },
+    "caldo_de_pollo__res_o_verduras__": {
+      "description": "Chicken, beef, or vegetable broth (broth only)",
+      "unit": "None"
+    },
+    "carne_de_puerco": {
+      "description": "Pork",
+      "unit": "None"
+    },
+    "carne_de_res": {
+      "description": "Beef",
+      "unit": "None"
+    },
+    "carne_de_res_seca__machaca_": {
+      "description": "Dried beef (crushed)",
+      "unit": "None"
+    },
+    "cebolla_por_ejemplo_en_salsas__t": {
+      "description": "Onion, e.g. in sauce, tacos, casseroles (ground or whole)",
+      "unit": "None"
+    },
+    "cereal_de_caja_a__b_sicos__corn_": {
+      "description": "Breakfast Cereal-Basics (Corn Flakes, unflavored puffed rice)",
+      "unit": "None"
+    },
+    "cereal_de_caja_b__adicionados_co": {
+      "description": "Breakfast Cereal-Containing added sugar",
+      "unit": "None"
+    },
+    "cereal_de_caja_c__chocolate_otro": {
+      "description": "Breakfast Cereal-Added Chocolate (corn flakes, puffed rice)",
+      "unit": "None"
+    },
+    "cereal_de_caja_d__altos_en_fibra": {
+      "description": "Breakfast Cereal-High in fiber (bran /oats)",
+      "unit": "None"
+    },
+    "cereal_de_caja_e__light__special": {
+      "description": "Breakfast Cereal-Healthy (Special K / Fitness)",
+      "unit": "None"
+    },
+    "cereal_de_caja_f__multi": {
+      "description": "Breakfast Cereal-Multiple ingredients (grains, fruits, nuts)",
+      "unit": "None"
+    },
+    "cereal_de_caja_g__saborizados__f": {
+      "description": "Breakfast Cereal-Flavored (Fruit Loops, Lucky Charms)",
+      "unit": "None"
+    },
+    "chayote": {
+      "description": "Squash",
+      "unit": "None"
+    },
+    "chocolate": {
+      "description": "Chocolate",
+      "unit": "None"
+    },
+    "chiles_por_ejemplo_en_salsas__ta": {
+      "description": "Peppers / Chilis, e.g. in sauces, tacos, casseroles (ground or whole)",
+      "unit": "None"
+    },
+    "col": {
+      "description": "Cabbage",
+      "unit": "None"
+    },
+    "crema": {
+      "description": "Cream",
+      "unit": "None"
+    },
+    "crema_de_verduras": {
+      "description": "Vegetable soup (cream)",
+      "unit": "None"
+    },
+    "danonino_o_similar": {
+      "description": "Danonino or a similar brand",
+      "unit": "None"
+    },
+    "donas_y_churros_de_panaderia": {
+      "description": "Donuts and baked churros",
+      "unit": "None"
+    },
+    "dulce": {
+      "description": "Candy",
+      "unit": "None"
+    },
+    "ejotes": {
+      "description": "Green beans",
+      "unit": "None"
+    },
+    "elote": {
+      "description": "Corn",
+      "unit": "None"
+    },
+    "fresa": {
+      "description": "Strawberry",
+      "unit": "None"
+    },
+    "frijoles_de_olla": {
+      "description": "Beans--cooked",
+      "unit": "None"
+    },
+    "frijoles_refritos": {
+      "description": "Beans--Refried",
+      "unit": "None"
+    },
+    "fritos_sopes__quesadillas__tlaco": {
+      "description": "Sopes, quesadillas, corn cakes, enchiladas, tacos, flautas or gorditas (fried)",
+      "unit": "None"
+    },
+    "frituras": {
+      "description": "Fried foods",
+      "unit": "None"
+    },
+    "galletas__saladas": {
+      "description": "Pretzels/Crackers",
+      "unit": "None"
+    },
+    "galletas_dulces": {
+      "description": "Cookies",
+      "unit": "None"
+    },
+    "gelatina__flan": {
+      "description": "Gelatin, flan, pudding",
+      "unit": "None"
+    },
+    "guayaba": {
+      "description": "Guava",
+      "unit": "None"
+    },
+    "hamburguesa": {
+      "description": "Hamburger",
+      "unit": "None"
+    },
+    "hojas_verdes__acelgas__espinacas": {
+      "description": "Greens (chard, spinach, other greens)",
+      "unit": "None"
+    },
+    "hot_dog": {
+      "description": "Hot Dogs",
+      "unit": "None"
+    },
+    "huevo_frito_estrellado_o_revuelt": {
+      "description": "Eggs-whole fried or scrambled",
+      "unit": "None"
+    },
+    "huevo_tibio_o_cocido": {
+      "description": "Eggs-whole cooked or boiled",
+      "unit": "None"
+    },
+    "j_cama": {
+      "description": "Jicama",
+      "unit": "None"
+    },
+    "jitomate__solo_en_ensaladas_": {
+      "description": "Tomato- on salads",
+      "unit": "None"
+    },
+    "jugos_naturales_sin_az_car": {
+      "description": "Natural juices without sugar added",
+      "unit": "None"
+    },
+    "jugos_o_aguas_de_frutas_con_az_c": {
+      "description": "Fruit juice or Flavored waters with added sugar",
+      "unit": "None"
+    },
+    "leche_liconsa": {
+      "description": "Milk (Liconsa Brand)",
+      "unit": "None"
+    },
+    "leche_preparada_de_sabor__chocol": {
+      "description": "Flavored milk (chocolate or other flavor)",
+      "unit": "None"
+    },
+    "lechuga": {
+      "description": "Lettuce",
+      "unit": "None"
+    },
+    "lenteja__garbanzo__haba_amarilla": {
+      "description": "Lentils, chickpeas, beans or yellow beans",
+      "unit": "None"
+    },
+    "limon_por_ejemplo_en_ensaladas__": {
+      "description": "Lemon, e.g. in salads, soups, or meat",
+      "unit": "None"
+    },
+    "longaniza_o_chorizo": {
+      "description": "Sausage or chorizo",
+      "unit": "None"
+    },
+    "mango": {
+      "description": "Mango",
+      "unit": "None"
+    },
+    "mantequilla": {
+      "description": "Butter",
+      "unit": "None"
+    },
+    "manzana_o_pera": {
+      "description": "Apple or pear",
+      "unit": "None"
+    },
+    "margarina": {
+      "description": "Margarine",
+      "unit": "None"
+    },
+    "mayonesa": {
+      "description": "Mayonnaise",
+      "unit": "None"
+    },
+    "mel_n_o_sand_a": {
+      "description": "Watermelon or cantaloupe",
+      "unit": "None"
+    },
+    "naranja_o_mandarina": {
+      "description": "Orange or mandarin",
+      "unit": "None"
+    },
+    "nopales": {
+      "description": "Cactus leaf",
+      "unit": "None"
+    },
+    "otra_fruta": {
+      "description": "Other Fruit",
+      "unit": "None"
+    },
+    "otra_leche_a": {
+      "description": "Another Milk (specify brand)",
+      "unit": "None"
+    },
+    "otra_leche_b": {
+      "description": "Another Milk (specify brand)",
+      "unit": "None"
+    },
+    "otra_leche_c": {
+      "description": "Another Milk (specify brand)",
+      "unit": "None"
+    },
+    "otra_verdura": {
+      "description": "Other vegetable",
+      "unit": "None"
+    },
+    "pan_blanco": {
+      "description": "White bread",
+      "unit": "None"
+    },
+    "pan_dulce__excepto_donas_y_churr": {
+      "description": "Sweet bread (not including donuts and churros)",
+      "unit": "None"
+    },
+    "pan_integral": {
+      "description": "Wheat bread",
+      "unit": "None"
+    },
+    "papa_frita_o_tortita_de_papa": {
+      "description": "Potatoes- Fried or in potato cakes",
+      "unit": "None"
+    },
+    "papas_cocidas": {
+      "description": "Potatoes- cooked/baked",
+      "unit": "None"
+    },
+    "papaya": {
+      "description": "Papaya",
+      "unit": "None"
+    },
+    "pastel_o_pay": {
+      "description": "Cake or pie",
+      "unit": "None"
+    },
+    "pastelillos_y_donas_indust_": {
+      "description": "Commercial pastries and donuts",
+      "unit": "None"
+    },
+    "pepino": {
+      "description": "Cucumber",
+      "unit": "None"
+    },
+    "pescado_fresco": {
+      "description": "Fresh Fish",
+      "unit": "None"
+    },
+    "pescado_seco": {
+      "description": "Dried Fish",
+      "unit": "None"
+    },
+    "pi_a": {
+      "description": "Pineapple",
+      "unit": "None"
+    },
+    "pizza": {
+      "description": "Pizza",
+      "unit": "None"
+    },
+    "pl_tano": {
+      "description": "Banana",
+      "unit": "None"
+    },
+    "platano_frito": {
+      "description": "Fried banana/Plantain",
+      "unit": "None"
+    },
+    "pollo__ala_o_patas_": {
+      "description": "Chicken- Wing or Feet",
+      "unit": "None"
+    },
+    "pollo__higadito_o_molleja_": {
+      "description": "Chicken- Liver or Gizzards",
+      "unit": "None"
+    },
+    "pollo__pierna_o_muslo_": {
+      "description": "Chicken-Thigh or Breast",
+      "unit": "None"
+    },
+    "pozole": {
+      "description": "Hominy",
+      "unit": "None"
+    },
+    "queso": {
+      "description": "Cheese",
+      "unit": "None"
+    },
+    "refresco_dieta": {
+      "description": "Diet Soda",
+      "unit": "None"
+    },
+    "refresco_normal": {
+      "description": "Regular Soda",
+      "unit": "None"
+    },
+    "salchicha_de_puerco__pavo_o_comb": {
+      "description": "Pork sausage, turkey or combo, ham, pork or turkey or bologna (other than in a torta, sandwich, or hot dog)",
+      "unit": "None"
+    },
+    "sin_fre_r_sopes__quesadillas__tl": {
+      "description": "Sopes, quesadillas, corn cakes, enchiladas, tacos or gorditas (not fried)",
+      "unit": "None"
+    },
+    "sopa_de_pasta_caldosa": {
+      "description": "Pasta soup- liquid soup",
+      "unit": "None"
+    },
+    "sopa_de_pasta_seca": {
+      "description": "Pasta soup- dry soup",
+      "unit": "None"
+    },
+    "sopa_o_caldo_con_verduras": {
+      "description": "Soup or broth with vegetables",
+      "unit": "None"
+    },
+    "tamal___todos_tipos_": {
+      "description": "Tamales  (all types)",
+      "unit": "None"
+    },
+    "t__con_az_car": {
+      "description": "Tea with sugar",
+      "unit": "None"
+    },
+    "t__sin_az_car": {
+      "description": "Tea without sugar",
+      "unit": "None"
+    },
+    "tomate_verde_y_jitomate_por_ejem": {
+      "description": "Tomate verde y jitomate por ejemplo en salsas, tacos, o guisados (molido o entero)",
+      "unit": "None"
+    },
+    "toronja": {
+      "description": "Grapefruit",
+      "unit": "None"
+    },
+    "torta_o_s_ndwich": {
+      "description": "Torta or sandwich",
+      "unit": "None"
+    },
+    "tortilla_de_harina_de_trigo": {
+      "description": "Tortilla- wheat flour tortillas",
+      "unit": "None"
+    },
+    "tortilla_de_masa__comprada__o_de": {
+      "description": "Tortilla- commercial or purchased tortillas",
+      "unit": "None"
+    },
+    "tortilla_de_nixtamal__hecho_en_c": {
+      "description": "Tortilla- Prepared with Nixtamal (Home made)",
+      "unit": "None"
+    },
+    "tortilla_maseca_o_minsa__hecha_e": {
+      "description": "Tortilla- Prepared with Maseca or MINSA (Home made)",
+      "unit": "None"
+    },
+    "tortitas_de_verduras_capeadas": {
+      "description": "Vegetable pancakes",
+      "unit": "None"
+    },
+    "yakult_o_similares": {
+      "description": "Yakult or a similar brand",
+      "unit": "None"
+    },
+    "yogurt": {
+      "description": "Yogurt",
+      "unit": "None"
+    },
+    "zanahoria": {
+      "description": "Carrot",
+      "unit": "None"
+    }
+  }
+  

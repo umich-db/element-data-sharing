@@ -1,0 +1,127 @@
+{
+    "foliocc": {
+      "description": "foliocc",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "etapa",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "stage",
+      "unit": "None"
+    },
+    "subject": {
+      "description": "subject",
+      "unit": "None"
+    },
+    "filename": {
+      "description": "filename",
+      "unit": "None"
+    },
+    "epoch": {
+      "description": "epoch",
+      "unit": "None"
+    },
+    "weight__kg_": {
+      "description": "weight__kg_",
+      "unit": "kg"
+    },
+    "age": {
+      "description": "age",
+      "unit": "years"
+    },
+    "gender": {
+      "description": "gender",
+      "unit": "None"
+    },
+    "kcals": {
+      "description": "kcals",
+      "unit": "kcal"
+    },
+    "average_kcals_per_day": {
+      "description": "average_kcals_per_day",
+      "unit": "kcal/day"
+    },
+    "average_kcals_per_hour": {
+      "description": "average_kcals_per_hour",
+      "unit": "kcal/hour"
+    },
+    "mets": {
+      "description": "mets",
+      "unit": "METs"
+    },
+    "freedson__1998__bouts": {
+      "description": "freedson__1998__bouts",
+      "unit": "None"
+    },
+    "total_time_in_freedson__1998__bo": {
+      "description": "total_time_in_freedson__1998__bo",
+      "unit": "minutes"
+    },
+    "total_sedentary_bouts": {
+      "description": "total_sedentary_bouts",
+      "unit": "None"
+    },
+    "total_time_in_sedentary_bouts": {
+      "description": "total_time_in_sedentary_bouts",
+      "unit": "minutes"
+    },
+    "daily_average_of_sedentary_bouts": {
+      "description": "daily_average_of_sedentary_bouts",
+      "unit": "bouts/day"
+    },
+    "sedentary": {
+      "description": "sedentary",
+      "unit": "minutes"
+    },
+    "light": {
+      "description": "light",
+      "unit": "minutes"
+    },
+    "moderate": {
+      "description": "moderate",
+      "unit": "minutes"
+    },
+    "vigorous": {
+      "description": "vigorous",
+      "unit": "minutes"
+    },
+    "very_vigorous": {
+      "description": "very_vigorous",
+      "unit": "minutes"
+    },
+    "total_mvpa": {
+      "description": "total_mvpa",
+      "unit": "minutes"
+    },
+    "___in_mvpa": {
+      "description": "___in_mvpa",
+      "unit": "percentage"
+    },
+    "average_mvpa_per_day": {
+      "description": "average_mvpa_per_day",
+      "unit": "minutes/day"
+    },
+    "axis_1_counts": {
+      "description": "axis_1_counts",
+      "unit": "counts"
+    },
+    "steps_counts": {
+      "description": "steps_counts",
+      "unit": "steps"
+    },
+    "lux_average_counts": {
+      "description": "lux_average_counts",
+      "unit": "lux"
+    },
+    "time": {
+      "description": "time",
+      "unit": "hours:minutes:seconds"
+    },
+    "calendar_days": {
+      "description": "calendar_days",
+      "unit": "days"
+    }
+  }
+  

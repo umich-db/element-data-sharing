@@ -1,0 +1,55 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "bone_date": {
+      "description": "None",
+      "unit": "None"
+    },
+    "rotula1_u": {
+      "description": "Union of observed and reanalyzed measurements for right patella lead levels",
+      "unit": "μg/g"
+    },
+    "rotula2_u": {
+      "description": "Union of observed and reanalyzed measurements for left patella lead levels",
+      "unit": "μg/g"
+    },
+    "improt1_u": {
+      "description": "Union of observed and reanalyzed imprecision measurements for right patella",
+      "unit": "μg/g"
+    },
+    "improt2_u": {
+      "description": "Union of observed and reanalyzed imprecision measurements for left patella",
+      "unit": "μg/g"
+    },
+    "tibia1_u": {
+      "description": "Union of observed and reanalyzed measurements for right tibia lead levels",
+      "unit": "μg/g"
+    },
+    "tibia2_u": {
+      "description": "Union of observed and reanalyzed measurements for left tibia lead levels",
+      "unit": "μg/g"
+    },
+    "imptib1_u": {
+      "description": "Union of observed and reanalyzed imprecision measurements for right tibia",
+      "unit": "μg/g"
+    },
+    "imptib2_u": {
+      "description": "Union of observed and reanalyzed imprecision measurements for left tibia",
+      "unit": "μg/g"
+    }
+  }
+  

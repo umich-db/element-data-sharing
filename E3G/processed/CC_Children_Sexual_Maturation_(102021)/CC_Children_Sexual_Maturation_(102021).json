@@ -1,0 +1,107 @@
+{
+    "proyecto": {
+      "description": "Proyecto",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Folio",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Foliocc",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "Etapa",
+      "unit": ""
+    },
+    "sex_ch": {
+      "description": "Sexo",
+      "unit": ""
+    },
+    "sexo_mad": {
+      "description": "Sexo",
+      "unit": ""
+    },
+    "edad_ch": {
+      "description": "Edad",
+      "unit": ""
+    },
+    "Age_mad": {
+      "description": "Edad",
+      "unit": ""
+    },
+    "fechanac_ch": {
+      "description": "Fecha de nacimiento",
+      "unit": ""
+    },
+    "fecha_visita": {
+      "description": "Fecha de la visita",
+      "unit": ""
+    },
+    "fecha_madurez": {
+      "description": "Fecha",
+      "unit": ""
+    },
+    "asistencia": {
+      "description": "Asistencia",
+      "unit": ""
+    },
+    "edad_mad": {
+      "description": "Edad",
+      "unit": ""
+    },
+    "entrevistadora": {
+      "description": "Entrevistadora",
+      "unit": ""
+    },
+    "f5": {
+      "description": "Has tenido tu primer periodo menstrual?",
+      "unit": ""
+    },
+    "f6": {
+      "description": "Edad del primer perido?",
+      "unit": ""
+    },
+    "f7": {
+      "description": "Afeitas o remueves de otra manera tu vello púbico?",
+      "unit": ""
+    },
+    "f8_a": {
+      "description": "En que areas ? (areas que se afeite)",
+      "unit": ""
+    },
+    "f8_b": {
+      "description": "En que areas ? (areas que se afeite)",
+      "unit": ""
+    },
+    "f9": {
+      "description": "Pechos senos: Elije el dibujo mas cercano a tu etapa de desarrollo",
+      "unit": ""
+    },
+    "f10": {
+      "description": "Vello pubico: Elije el dibujo mas cercano a tu etapa de desarrollo",
+      "unit": ""
+    },
+    "m5": {
+      "description": "Afeitas o remueves de otra manera tu vello púbico?",
+      "unit": ""
+    },
+    "m6": {
+      "description": "En que areas ?",
+      "unit": ""
+    },
+    "m7": {
+      "description": "Escroto y el pene: Elije el dibujo mas cercano a tu etapa de desarrollo",
+      "unit": ""
+    },
+    "m8": {
+      "description": "Vello pubico: Elije el dibujo mas cercano a tu etapa de desarrollo",
+      "unit": ""
+    },
+    "NC_MADUREZ_FM": {
+      "description": "Test Sexual Maturation",
+      "unit": ""
+    }
+  }
+  

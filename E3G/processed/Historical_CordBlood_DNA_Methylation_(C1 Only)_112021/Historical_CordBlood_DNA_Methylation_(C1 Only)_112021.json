@@ -1,0 +1,103 @@
+{
+    "PROYECTO": {
+      "description": "ELEMENT cohort participant is part of (C1= cohort I)",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "ELEMENT cohort ID (historic)",
+      "unit": ""
+    },
+    "FOLIOCC": {
+      "description": "None",
+      "unit": ""
+    },
+    "Participant": {
+      "description": "specimen from mother or child",
+      "unit": ""
+    },
+    "U_LEGACYBARCODE": {
+      "description": "ID the DNA sample is labeled with",
+      "unit": ""
+    },
+    "LINE_Plate_cord": {
+      "description": "LINE1 Pyrosequencing plate (Date, letter) sample was run on",
+      "unit": ""
+    },
+    "LINE_1_cord_adj_0": {
+      "description": "% methylation at CpG site # 1 of LINE, Cord Blood DNA, adjusted for batch by subtracting 0% control for same site on same analysis plate",
+      "unit": ""
+    },
+    "LINE_2_cord_adj_0": {
+      "description": "% methylation at CpG site # 2 of LINE, Cord Blood DNA, adjusted for batch by subtracting 0% control for same site on same analysis plate",
+      "unit": ""
+    },
+    "LINE_3_cord_adj_0": {
+      "description": "% methylation at CpG site # 3 of LINE, Cord Blood DNA, adjusted for batch by subtracting 0% control for same site on same analysis plate",
+      "unit": ""
+    },
+    "LINE_4_cord_adj_0": {
+      "description": "% methylation at CpG site # 4 of LINE, Cord Blood DNA, adjusted for batch by subtracting 0% control for same site on same analysis plate",
+      "unit": ""
+    },
+    "H19_Plate_cord": {
+      "description": "H19 Pyrosequencing plate (Date, letter) sample was run on",
+      "unit": ""
+    },
+    "H19_1_cord_adj": {
+      "description": "% methylation at CpG site # 1 of H19, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "H19_2_cord_adj": {
+      "description": "% methylation at CpG site # 2 of H19, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "H19_3_cord_adj": {
+      "description": "% methylation at CpG site # 3 of H19, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "H19_4_cord_adj": {
+      "description": "% methylation at CpG site # 4 of H19, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "HSD11B2_Plate_cord": {
+      "description": "HSD11B2 Pyrosequencing plate (Date, letter) sample was run on",
+      "unit": ""
+    },
+    "HSD11B2_1_cord_adj": {
+      "description": "% methylation at CpG site # 1 of HSD11B2, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "HSD11B2_2_cord_adj": {
+      "description": "% methylation at CpG site # 2 of HSD11B2, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "HSD11B2_3_cord_adj": {
+      "description": "% methylation at CpG site # 3 of HSD11B2, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "HSD11B2_4_cord_adj": {
+      "description": "% methylation at CpG site # 4 of HSD11B2, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "IGF2_Plate_cord": {
+      "description": "IGF2 Pyrosequencing plate (Date, letter) sample was run on",
+      "unit": ""
+    },
+    "IGF2_1_cord_adj": {
+      "description": "% methylation at CpG site # 1 of IGF2, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "IGF2_2_cord_adj": {
+      "description": "% methylation at CpG site # 2 of IGF2, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "IGF2_3_cord_adj": {
+      "description": "% methylation at CpG site # 3 of IGF2, Cord Blood DNA, adjusted for batch by fitting to curve of standards run for same site on same analysis plate",
+      "unit": ""
+    },
+    "Notes": {
+      "description": "Notes on data quality if data quality was poor",
+      "unit": ""
+    }
+  }
+  

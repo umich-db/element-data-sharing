@@ -1,0 +1,23 @@
+{
+    "Proyecto": {"description": "None", "unit": "None"},
+    "Folio": {"description": "None", "unit": "None"},
+    "Foliocc": {"description": "None", "unit": "None"},
+    "Etapacc": {"description": "None", "unit": "None"},
+    "CXMINCH": {"description": "None", "unit": "None"},
+    "MBP": {"description": "Butyl Paraben", "unit": "None"},
+    "MBzP": {"description": "Benzophenone-3", "unit": "None"},
+    "MCNP": {"description": "None", "unit": "None"},
+    "MCOP": {"description": "None", "unit": "None"},
+    "MCPP": {"description": "None", "unit": "None"},
+    "MECPP": {"description": "None", "unit": "None"},
+    "MECPTP": {"description": "None", "unit": "None"},
+    "MEHHP": {"description": "None", "unit": "None"},
+    "MEHHTP": {"description": "None", "unit": "None"},
+    "MEHP": {"description": "None", "unit": "None"},
+    "MEOHP": {"description": "None", "unit": "None"},
+    "MEP": {"description": "Methyl Paraben", "unit": "None"},
+    "MIBP": {"description": "None", "unit": "None"},
+    "MNP": {"description": "None", "unit": "None"},
+    "OHMINCH": {"description": "None", "unit": "None"}
+  }
+  

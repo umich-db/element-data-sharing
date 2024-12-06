@@ -1,0 +1,107 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Id project cholesterol",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "Stage project cholesterol",
+      "unit": "None"
+    },
+    "sex_ch": {
+      "description": "Sex",
+      "unit": "None"
+    },
+    "edad_ch": {
+      "description": "Age",
+      "unit": "Years"
+    },
+    "fechanac_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_visita": {
+      "description": "Visit date project cholesterol",
+      "unit": "None"
+    },
+    "asistencia": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sexo_cpt": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad_cpt": {
+      "description": "None",
+      "unit": "None"
+    },
+    "omissions": {
+      "description": "None",
+      "unit": "None"
+    },
+    "commisions": {
+      "description": "None",
+      "unit": "None"
+    },
+    "hitrt": {
+      "description": "None",
+      "unit": "None"
+    },
+    "hitrtse": {
+      "description": "None",
+      "unit": "None"
+    },
+    "variability": {
+      "description": "None",
+      "unit": "None"
+    },
+    "detectability": {
+      "description": "None",
+      "unit": "None"
+    },
+    "responsestyle": {
+      "description": "None",
+      "unit": "None"
+    },
+    "perseverations": {
+      "description": "None",
+      "unit": "None"
+    },
+    "rtblockchange": {
+      "description": "None",
+      "unit": "None"
+    },
+    "seblockchange": {
+      "description": "None",
+      "unit": "None"
+    },
+    "rtisichange": {
+      "description": "None",
+      "unit": "None"
+    },
+    "seisichange": {
+      "description": "None",
+      "unit": "None"
+    },
+    "clinical": {
+      "description": "None",
+      "unit": "None"
+    },
+    "non_clinical": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

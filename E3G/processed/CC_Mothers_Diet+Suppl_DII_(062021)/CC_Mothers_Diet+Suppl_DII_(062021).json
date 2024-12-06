@@ -1,0 +1,19 @@
+{
+    "proyecto": {
+      "description": "project",
+      "unit": ""
+    },
+    "folio": {
+      "description": "file",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "Momscholsupp_dii": {
+      "description": "Mother's Dietary Inflammatory Index, supplements",
+      "unit": ""
+    }
+  }
+  

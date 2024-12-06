@@ -1,0 +1,127 @@
+{
+    "foliocc": {
+      "description": "identification of the participant",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha": {
+      "description": "Date of the study",
+      "unit": "None"
+    },
+    "leu": {
+      "description": "Leukocytes",
+      "unit": "None"
+    },
+    "eri": {
+      "description": "Erythrocytes",
+      "unit": "None"
+    },
+    "hgb": {
+      "description": "Hemoglobin",
+      "unit": "None"
+    },
+    "hct": {
+      "description": "Hematocrit",
+      "unit": "None"
+    },
+    "vcm": {
+      "description": "Mean corpuscular volume",
+      "unit": "None"
+    },
+    "hcm": {
+      "description": "Mean corpuscular hemoglobin",
+      "unit": "None"
+    },
+    "chcm": {
+      "description": "Mean corpuscular hemoglobin concentration",
+      "unit": "None"
+    },
+    "ade": {
+      "description": "Erythrocyte distribution width (RDW)",
+      "unit": "None"
+    },
+    "plq": {
+      "description": "Platelets",
+      "unit": "None"
+    },
+    "vpm": {
+      "description": "Mean platelet volume",
+      "unit": "None"
+    },
+    "pct": {
+      "description": "Plateletcrit",
+      "unit": "None"
+    },
+    "adp": {
+      "description": "Range of platelet distribution",
+      "unit": "None"
+    },
+    "neu": {
+      "description": "Percentage of neutrophils",
+      "unit": "None"
+    },
+    "li": {
+      "description": "Percentage of lymphocytes",
+      "unit": "None"
+    },
+    "mo": {
+      "description": "Percentage of monocytes",
+      "unit": "None"
+    },
+    "eo": {
+      "description": "Percentage of eosinophils",
+      "unit": "None"
+    },
+    "ba": {
+      "description": "Percentage of basophils",
+      "unit": "None"
+    },
+    "lat": {
+      "description": "Atypical percentage of lymphocytes",
+      "unit": "None"
+    },
+    "cim": {
+      "description": "Percentage of immature cells",
+      "unit": "None"
+    },
+    "ne_n": {
+      "description": "Absolute neutrophils",
+      "unit": "None"
+    },
+    "ly_n": {
+      "description": "Absolute lymphocytes",
+      "unit": "None"
+    },
+    "mo_n": {
+      "description": "Absolute monocytes",
+      "unit": "None"
+    },
+    "eo_n": {
+      "description": "Absolute eosinophils",
+      "unit": "None"
+    },
+    "ba_n": {
+      "description": "Absolute basophils",
+      "unit": "None"
+    },
+    "lat_n": {
+      "description": "Atypical lymphocytes",
+      "unit": "None"
+    },
+    "cim_n": {
+      "description": "Immature cells",
+      "unit": "None"
+    },
+    "obs1": {
+      "description": "Comment 1",
+      "unit": "None"
+    }
+  }
+  

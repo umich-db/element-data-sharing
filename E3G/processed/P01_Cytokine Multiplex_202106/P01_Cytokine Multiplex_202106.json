@@ -1,0 +1,103 @@
+{
+    "Sample_ID": {
+      "description": "Serum sample ID",
+      "unit": ""
+    },
+    "Sample_type": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Foliocc": {
+      "description": "Unique subject ID across cohorts",
+      "unit": ""
+    },
+    "Etapa": {
+      "description": "Stage",
+      "unit": ""
+    },
+    "IL10": {
+      "description": "IL-10--> Interleukin 10",
+      "unit": "pg/mL"
+    },
+    "IL1b": {
+      "description": "IL-1β--> Interleukin 1 beta",
+      "unit": "pg/mL"
+    },
+    "IL4": {
+      "description": "IL-4---> Interleukin 4",
+      "unit": "pg/mL"
+    },
+    "IL6": {
+      "description": "IL-6--> Interleukin 6",
+      "unit": "pg/mL"
+    },
+    "IL8": {
+      "description": "IL-8--> Interleukin 8",
+      "unit": "pg/mL"
+    },
+    "TNFa": {
+      "description": "Tumor Necrosis Factor Alpha",
+      "unit": ""
+    },
+    "IL10_CV": {
+      "description": "Interleukin 10 values where duplicate samples with CV >20 % (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL1b_CV": {
+      "description": "Interleukin 1 beta values where duplicate samples with CV >20 % (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL4_CV": {
+      "description": "Interleukin 4 values where duplicate samples with CV >20 % (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL6_CV": {
+      "description": "Interleukin 6 values where duplicate samples with CV >20 % (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL8_CV": {
+      "description": "Interleukin 8 values where duplicate samples with CV >20 % (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "TNFa_CV": {
+      "description": "Tumor Necrosis Factor Alpha values where duplicate samples with CV >20 % (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL10_LOD": {
+      "description": "Interleukin 10 values < LOD (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL1b_LOD": {
+      "description": "Interleukin 1 beta values < LOD (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL4_LOD": {
+      "description": "Interleukin 4 values < LOD (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL6_LOD": {
+      "description": "Interleukin 6 values < LOD (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "IL8_LOD": {
+      "description": "Interleukin 8 values < LOD (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "TNFa_LOD": {
+      "description": "Tumor Necrosis Factor Alpha values < LOD (1 = Yes ; 0 = No)",
+      "unit": ""
+    },
+    "Batch": {
+      "description": "Sample batch. There were total of 11 batches. Each Cytokine Multiplex Panel can hold up to 38 samples.",
+      "unit": ""
+    }
+  }
+  

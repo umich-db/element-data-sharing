@@ -1,0 +1,139 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad": {
+      "description": "None",
+      "unit": "None"
+    },
+    "alch": {
+      "description": "Alcohol",
+      "unit": "g/100g"
+    },
+    "vitb12": {
+      "description": "Vitamina B-12",
+      "unit": "mg/100g"
+    },
+    "vitb6": {
+      "description": "Vitamina B-6",
+      "unit": "mg/100g"
+    },
+    "betacaroteno_mcg": {
+      "description": "beta carotene",
+      "unit": "mcg"
+    },
+    "cafeina_gr": {
+      "description": "Cafeína",
+      "unit": "gr/100g"
+    },
+    "h_de_c": {
+      "description": "Hidratos de carbono",
+      "unit": "g/100g"
+    },
+    "cole": {
+      "description": "Colesterol",
+      "unit": "mg/100g"
+    },
+    "ener_kcal": {
+      "description": "Energía en Kcal",
+      "unit": "Kcal/100g"
+    },
+    "grasa": {
+      "description": "Grasa",
+      "unit": "g/100g"
+    },
+    "fibtot": {
+      "description": "Fibra dietética total",
+      "unit": "g/100g"
+    },
+    "folato": {
+      "description": "Folato",
+      "unit": "mcg/100g"
+    },
+    "fe": {
+      "description": "Hierro",
+      "unit": "mg/100g"
+    },
+    "mg": {
+      "description": "Magnesio",
+      "unit": "mg/100g"
+    },
+    "gramon": {
+      "description": "Ácidos grasos monoinsaturados",
+      "unit": "g/100g"
+    },
+    "nia": {
+      "description": "Niacina",
+      "unit": "mg/100g"
+    },
+    "omega3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "omega6": {
+      "description": "None",
+      "unit": "None"
+    },
+    "proteina": {
+      "description": "Proteína",
+      "unit": "g/100g"
+    },
+    "grapoly": {
+      "description": "Ácidos grasos poliinsaturados",
+      "unit": "g/100g"
+    },
+    "ribf": {
+      "description": "Riboflavina",
+      "unit": "mg/100g"
+    },
+    "grasat": {
+      "description": "Ácidos grasos saturados",
+      "unit": "mg/100g"
+    },
+    "se": {
+      "description": "Selenio",
+      "unit": "mcg/100g"
+    },
+    "thia": {
+      "description": "Tiamina",
+      "unit": "mg/100g"
+    },
+    "eqret": {
+      "description": "Equivalentes de Retinol",
+      "unit": "/100g"
+    },
+    "vitc": {
+      "description": "Vitamina C",
+      "unit": "mg/100g"
+    },
+    "vite": {
+      "description": "Vitamina E",
+      "unit": "mg_ATE/100g"
+    },
+    "zn": {
+      "description": "Zinc",
+      "unit": "mg/100g"
+    },
+    "VAR31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "VAR32": {
+      "description": "None",
+      "unit": "None"
+    },
+    "VAR33": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Cdiidensity": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

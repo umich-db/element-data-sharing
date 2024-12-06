@@ -1,0 +1,23 @@
+{
+    "FOLIOCC": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "X8_isoprostane": {
+      "description": "8-isoprostane",
+      "unit": ""
+    },
+    "StdDev": {
+      "description": "standard deviation",
+      "unit": ""
+    },
+    "PercentCV": {
+      "description": "Percent CV",
+      "unit": ""
+    },
+    "StdErr": {
+      "description": "standard error",
+      "unit": ""
+    }
+  }
+  

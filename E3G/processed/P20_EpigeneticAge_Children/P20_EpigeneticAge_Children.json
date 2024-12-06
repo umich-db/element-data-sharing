@@ -1,0 +1,163 @@
+{
+    "Sample_Name": {
+      "description": "Sample name used for lab analysis - unique to each sample",
+      "unit": "None"
+    },
+    "Sample_Plate": {
+      "description": "identifier for Sample Plate (96-samples per plate) the sample was prepared on prior to EPIC analysis (i.e. bisulfite conversion)",
+      "unit": "None"
+    },
+    "Pool_ID": {
+      "description": "EPIC array pool identification number",
+      "unit": "None"
+    },
+    "barcode": {
+      "description": "barcode that labels the data on the EPIC array; can be used to link to full EPIC array",
+      "unit": "None"
+    },
+    "EPIC_Round": {
+      "description": "EPIC analyses were completed at different times for different sets of samples.",
+      "unit": "batch variable (EPIC)"
+    },
+    "foliocc": {
+      "description": "Original ELEMENT study ID, unique to an individual child",
+      "unit": "None"
+    },
+    "Array": {
+      "description": "identifier for position on EPIC chip the sample was placed on",
+      "unit": "None"
+    },
+    "Slide": {
+      "description": "identifier for EPIC chip the sample was run on",
+      "unit": "None"
+    },
+    "ArrayTypes": {
+      "description": "What type of Infinium Array was used that the data came from?",
+      "unit": "None"
+    },
+    "PC1": {
+      "description": "PC1 of the batch PCs - made using SVA from control probes on each array (Teschendorff et al. 2011). These are the PCs that explain >90% of the variability of the data from the control probes on each array. They should be adjusted for to control for batch",
+      "unit": "None"
+    },
+    "PC2": {
+      "description": "PC2 of the batch PCs - made using SVA from control probes on each array (Teschendorff et al. 2011). These are the PCs that explain >90% of the variability of the data from the control probes on each array. They should be adjusted for to control for batch",
+      "unit": "None"
+    },
+    "PC3": {
+      "description": "PC3 of the batch PCs - made using SVA from control probes on each array (Teschendorff et al. 2011). These are the PCs that explain >90% of the variability of the data from the control probes on each array. They should be adjusted for to control for batch",
+      "unit": "None"
+    },
+    "PC4": {
+      "description": "PC4 of the batch PCs - made using SVA from control probes on each array (Teschendorff et al. 2011). These are the PCs that explain >90% of the variability of the data from the control probes on each array. They should be adjusted for to control for batch",
+      "unit": "None"
+    },
+    "PC5": {
+      "description": "PC5 of the batch PCs - made using SVA from control probes on each array (Teschendorff et al. 2011). These are the PCs that explain >90% of the variability of the data from the control probes on each array. They should be adjusted for to control for batch",
+      "unit": "None"
+    },
+    "DNAmAge": {
+      "description": "Horvath epigenetic clock",
+      "unit": "None"
+    },
+    "AgeAccelerationDiff": {
+      "description": "Difference between Horvath clock and chronological age",
+      "unit": "None"
+    },
+    "AgeAccelerationResidual": {
+      "description": "Horvath epigenetic clock, residuals after regressing on chronological age",
+      "unit": "None"
+    },
+    "CD8T": {
+      "description": "estimated proportion of CD8+ T-cells in the blood sample sample that DNA was isolated from, estimated via the Houseman et al. 2012 method",
+      "unit": "None"
+    },
+    "CD4T": {
+      "description": "estimated proportion of CD4+ T-cells in the blood sample sample that DNA was isolated from, estimated via the Houseman et al. 2012 method",
+      "unit": "None"
+    },
+    "NK": {
+      "description": "estimated proportion of natural killer cells in the blood sample sample that DNA was isolated from, estimated via the Houseman et al. 2012 method",
+      "unit": "None"
+    },
+    "Bcell": {
+      "description": "estimated proportion of B cells in the blood sample sample that DNA was isolated from, estimated via the Houseman et al. 2012 method",
+      "unit": "None"
+    },
+    "Mono": {
+      "description": "estimated proportion of monocytes in the blood sample sample that DNA was isolated from, estimated via the Houseman et al. 2012 method",
+      "unit": "None"
+    },
+    "Gran": {
+      "description": "None",
+      "unit": "None"
+    },
+    "DNAmAgeHannum": {
+      "description": "Hannum epigenetic clock",
+      "unit": "None"
+    },
+    "PlasmaBlast": {
+      "description": "estimated relative abundance of Plasmablasts (from Horvath clock algorithm database)",
+      "unit": "None"
+    },
+    "CD8pCD28nCD45RAn": {
+      "description": "estimated relative abundance of CD8pCD28nCD45RAn cells (from Horvath clock algorithm database)",
+      "unit": "None"
+    },
+    "CD8.naive": {
+      "description": "estimated relative abundance of naïve CD8+ T cells (from Horvath clock algorithm database)",
+      "unit": "None"
+    },
+    "CD4.naive": {
+      "description": "estimated relative abundance of naïve CD4+ T cells (from Horvath clock algorithm database)",
+      "unit": "None"
+    },
+    "DNAmPhenoAge": {
+      "description": "PhenoAge (Levine's) epigenetic clock",
+      "unit": "None"
+    },
+    "DNAmAgeSkinBloodClock": {
+      "description": "Skin and Blood epigenetic clock",
+      "unit": "None"
+    },
+    "DNAmGrimAge": {
+      "description": "GrimAge epigenetic clock",
+      "unit": "None"
+    },
+    "DNAmTL": {
+      "description": "Estimated telomere length from DNA methylation data",
+      "unit": "None"
+    },
+    "DNAmAgeSkinBloodClockAdjAge": {
+      "description": "Skin and Blood epigenetic clock, residuals after regressing on chronological age",
+      "unit": "None"
+    },
+    "DNAmTLAdjAge": {
+      "description": "estimated telomere length, residuals after regressing on chronological age",
+      "unit": "None"
+    },
+    "IEAA": {
+      "description": "intrinsic epigenetic age acceleration",
+      "unit": "None"
+    },
+    "EEAA": {
+      "description": "extrinsic epigenetic age acceleration",
+      "unit": "None"
+    },
+    "AgeAccelerationResidualHannum": {
+      "description": "Hannum epigenetic clock, residuals after regressing on chronological age",
+      "unit": "None"
+    },
+    "AgeAccelGrim": {
+      "description": "GrimAge epigenetic clock, residuals after regressing on chronological age",
+      "unit": "None"
+    },
+    "AgeAccelPheno": {
+      "description": "PhenoAge (Levine's) epigenetic clock, residuals after regressing on chronological age",
+      "unit": "None"
+    },
+    "Etapa": {
+      "description": "Timing of sample collection (study visit)",
+      "unit": "None"
+    }
+  }
+  

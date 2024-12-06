@@ -1,0 +1,63 @@
+{
+    "foliocc": {
+      "description": "Unique subject ID across cohorts",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "T2",
+      "unit": ""
+    },
+    "stage": {
+      "description": "520",
+      "unit": ""
+    },
+    "DateFinished": {
+      "description": "time stamp when the instrument was finished",
+      "unit": ""
+    },
+    "Inst_num": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Test_name": {
+      "description": "1- Flanker Inhibitory Control and Attention\n2- List Sorting Working Memory\n3- Pattern Comparison Processing Speed",
+      "unit": ""
+    },
+    "RawScore": {
+      "description": "Cumulative score of responses provided by participants per instrument",
+      "unit": ""
+    },
+    "ItmCnt": {
+      "description": "Count of items to which participants responded. This is a quick way to review how much data is missing for each participant.",
+      "unit": ""
+    },
+    "Computed_Score": {
+      "description": "A computed score is used on certain tests where an 'interim' calculation is required to go from the raw score to the normative score. For example, Flanker and DCCS use the computed score to sum the accuracy and reaction time scores into one score. Computed score has a different specific meaning for different tests.",
+      "unit": ""
+    },
+    "Uncorrected_Standard_Score": {
+      "description": "This is an additional available score, which also uses a standard score metric (normative mean = 100, SD = 15). It compares the performance of the test-taker to those in the entire NIH Toolbox nationally representative normative sample, regardless of age or any other variable. The Uncorrected Standard Score provides a glimpse of the given participant’s overall performance or ability when compared with the general U.S. population.",
+      "unit": ""
+    },
+    "Age_Corrected_Standard_Score": {
+      "description": "This score compares the score of the test-taker to those in the NIH Toolbox nationally representative normative sample at the same age, where a score of 100 indicates performance that was at the national average for the test-taking participant’s age.",
+      "unit": ""
+    },
+    "Fully_Corrected_T_score": {
+      "description": "This score (which has a mean of 50 and an SD of 10, unlike age-corrected performance normative scores) compares the score of the test-taker to those in the NIH Toolbox nationally representative normative sample, while adjusting for key demographic variables collected during the NIH Toolbox national norming study.",
+      "unit": ""
+    },
+    "InstrumentBreakoff": {
+      "description": "Was the instrument’s administration interrupted? 1 – Yes; 2 – No",
+      "unit": ""
+    },
+    "InstrumentRCReason": {
+      "description": "1 - Safety Exclusion\n2 - Participant/Respondent Refused\n3 - No Time\n4 - Physical Limitations\n5 - Communication Problems\n6 - Language Barrier\n7 - Equipment Failure\n8 - Ineligible\n9 - Participant Ill/Emergency\n10 - Target Respondent Unavailable\n-5 - Other (*)",
+      "unit": ""
+    },
+    "InstrumentRCReasonOther": {
+      "description": "'Other' is used as a free-form text field for a user to specify the reasons to Skip or Stop an instrument. The value in the RCReasonOther column may have system messages displayed. Example, if an assessment was accidentally interrupted by pressing Home button on the device when an instrument was in progress and assessment was resumed afterward the InstrumentRCReason column would have '-05' displayed and RCReasonOther column would have text 'App interruption'.",
+      "unit": ""
+    }
+  }
+  

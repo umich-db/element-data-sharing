@@ -1,0 +1,95 @@
+{
+    "folio": {
+      "description": "Folio number",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Folio number",
+      "unit": ""
+    },
+    "fecha_visita": {
+      "description": "Date of visit",
+      "unit": ""
+    },
+    "a_psicologa": {
+      "description": "Evaluator",
+      "unit": ""
+    },
+    "a_edad": {
+      "description": "Child's Age",
+      "unit": "years"
+    },
+    "a_sexo": {
+      "description": "Child's Sex",
+      "unit": ""
+    },
+    "a_contesto": {
+      "description": "Interviewee",
+      "unit": ""
+    },
+    "a_papá": {
+      "description": "Father's presence at home",
+      "unit": ""
+    },
+    "a_mamá": {
+      "description": "Mother's presence at home",
+      "unit": ""
+    },
+    "a_hermanos": {
+      "description": "Total siblings",
+      "unit": ""
+    },
+    "a_hab_hog": {
+      "description": "Total people living in household",
+      "unit": ""
+    },
+    "a_edu_m": {
+      "description": "Maternal Education",
+      "unit": ""
+    },
+    "a_edu_p": {
+      "description": "Paternal Education",
+      "unit": ""
+    },
+    "a_proveedor": {
+      "description": "Primary Provider",
+      "unit": ""
+    },
+    "a_sptot": {
+      "description": "Parental sensitivity - Current Score",
+      "unit": ""
+    },
+    "a_amtot": {
+      "description": "Encouraging maturity - Current Score",
+      "unit": ""
+    },
+    "a_cetot": {
+      "description": "Emotional climate - Current Score",
+      "unit": ""
+    },
+    "a_moatot": {
+      "description": "Materials and opportunities to learn - Current Score",
+      "unit": ""
+    },
+    "a_etot": {
+      "description": "Enrichment - Current Score",
+      "unit": ""
+    },
+    "a_acftot": {
+      "description": "Family accompaniment - Current Score",
+      "unit": ""
+    },
+    "a_fitot": {
+      "description": "Integrated family - Current Score",
+      "unit": ""
+    },
+    "a_amftot": {
+      "description": "Physical environment - Current Score",
+      "unit": ""
+    },
+    "a_puntuación_total": {
+      "description": "Total score",
+      "unit": ""
+    }
+  }
+  

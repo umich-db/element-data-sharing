@@ -1,0 +1,59 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fechanac_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_visita": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sex_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad": {
+      "description": "None",
+      "unit": "None"
+    },
+    "asistencia": {
+      "description": "None",
+      "unit": "None"
+    },
+    "f_usda": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fluoruros": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fluoruros_beb": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

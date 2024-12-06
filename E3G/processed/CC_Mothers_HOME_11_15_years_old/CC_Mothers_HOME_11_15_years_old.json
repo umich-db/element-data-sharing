@@ -1,0 +1,103 @@
+{
+    "fecha_visita": {
+      "description": "Date of the evaluation",
+      "unit": "None"
+    },
+    "a_psicologa": {
+      "description": "Evaluator",
+      "unit": "None"
+    },
+    "b_edad": {
+      "description": "Age of the child",
+      "unit": "years"
+    },
+    "b_sexo": {
+      "description": "Sex of the child",
+      "unit": "None"
+    },
+    "b_contesto": {
+      "description": "Interviewee",
+      "unit": "None"
+    },
+    "b_papá": {
+      "description": "Father's presence in the home",
+      "unit": "None"
+    },
+    "b_mamá": {
+      "description": "Mother's presence in the home",
+      "unit": "None"
+    },
+    "b_hermanos": {
+      "description": "Total number of siblings",
+      "unit": "None"
+    },
+    "b_hab_hog": {
+      "description": "Total people living in household",
+      "unit": "None"
+    },
+    "b_edu_m": {
+      "description": "Maternal Education",
+      "unit": "None"
+    },
+    "b_edu_p": {
+      "description": "Paternal Education",
+      "unit": "None"
+    },
+    "b_proveedor": {
+      "description": "Primary Provider",
+      "unit": "None"
+    },
+    "b_trabajo_ado": {
+      "description": "Does the teenager work?",
+      "unit": "None"
+    },
+    "b_t_trabajo": {
+      "description": "Type of work the teenager does",
+      "unit": "None"
+    },
+    "b_hrs": {
+      "description": "Hours per week the teenager works",
+      "unit": "hours"
+    },
+    "b_asist_esc": {
+      "description": "Does the teenager attend school?",
+      "unit": "None"
+    },
+    "b_ano_escolar": {
+      "description": "School year of the teenager",
+      "unit": "None"
+    },
+    "b_aftot": {
+      "description": "Subtotal score for Physical Environment",
+      "unit": "None"
+    },
+    "b_matot": {
+      "description": "Subtotal score for Learning Materials",
+      "unit": "None"
+    },
+    "b_mtot": {
+      "description": "Subtotal score for Modeling",
+      "unit": "None"
+    },
+    "b_fastot": {
+      "description": "Subtotal score for Encouraging self-sufficiency",
+      "unit": "None"
+    },
+    "b_artot": {
+      "description": "Subtotal score for Regulatory activities",
+      "unit": "None"
+    },
+    "b_aftot0": {
+      "description": "Subtotal score for Family accompaniment",
+      "unit": "None"
+    },
+    "b_atot": {
+      "description": "Subtotal score for Acceptance",
+      "unit": "None"
+    },
+    "b_puntuación_total": {
+      "description": "Total score",
+      "unit": "None"
+    }
+  }
+  

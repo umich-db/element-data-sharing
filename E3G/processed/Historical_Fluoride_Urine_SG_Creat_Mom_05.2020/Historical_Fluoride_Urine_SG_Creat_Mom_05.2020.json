@@ -1,0 +1,87 @@
+{
+    "PROYECTO": {
+      "description": "unique subject identifier part 1",
+      "unit": "None"
+    },
+    "FOLIO": {
+      "description": "unique subject identifier part 2",
+      "unit": "None"
+    },
+    "F_qualitycheck_T1": {
+      "description": "quality controlled urinary fluoride samples measured on at trimester 1",
+      "unit": "None"
+    },
+    "RSD_T1": {
+      "description": "Relative Standard Deviation for quality controlled urinary fluoride samples at trimester 1",
+      "unit": "percentage"
+    },
+    "source_T1": {
+      "description": "lab source for urinary fluoride samples at trimester 1 (M for Michigan Lab, and I for Indiana lab)",
+      "unit": "None"
+    },
+    "F_qualitycheck_T2": {
+      "description": "quality controlled urinary fluoride samples measured on at trimester 2",
+      "unit": "None"
+    },
+    "RSD_T2": {
+      "description": "Relative Standard Deviation for quality controlled urinary fluoride samples at trimester 2",
+      "unit": "percentage"
+    },
+    "source_T2": {
+      "description": "lab source for urinary fluoride samples at trimester 2 (M for Michigan Lab, and I for Indiana lab)",
+      "unit": "None"
+    },
+    "F_qualitycheck_T3": {
+      "description": "quality controlled urinary fluoride samples measured on at trimester 3",
+      "unit": "None"
+    },
+    "RSD_T3": {
+      "description": "Relative Standard Deviation for quality controlled urinary fluoride samples at trimester 3",
+      "unit": "percentage"
+    },
+    "source_T3": {
+      "description": "lab source for urinary fluoride samples at trimester 3 (M for Michigan Lab, and I for Indiana lab)",
+      "unit": "None"
+    },
+    "spec_grav_T1": {
+      "description": "specific gravity at trimester 1, from another urine analysis",
+      "unit": "dimensionless"
+    },
+    "spec_grav_T2": {
+      "description": "specific gravity at trimester 2, from another urine analysis",
+      "unit": "dimensionless"
+    },
+    "spec_grav_T3": {
+      "description": "specific gravity at trimester 3, from another urine analysis",
+      "unit": "dimensionless"
+    },
+    "creat_11": {
+      "description": "creatinine levels at trimester 1 collected from the same (big) urine sample (although different aliquot)",
+      "unit": "mg/dL"
+    },
+    "creat_12": {
+      "description": "creatinine levels at trimester 2 collected from the same (big) urine sample (although different aliquot)",
+      "unit": "mg/dL"
+    },
+    "creat_13": {
+      "description": "creatinine levels at trimester 3 collected from the same (big) urine sample (although different aliquot)",
+      "unit": "mg/dL"
+    },
+    "creat_21": {
+      "description": "None",
+      "unit": "None"
+    },
+    "creat_24": {
+      "description": "None",
+      "unit": "None"
+    },
+    "creat_27": {
+      "description": "None",
+      "unit": "None"
+    },
+    "creat_212": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

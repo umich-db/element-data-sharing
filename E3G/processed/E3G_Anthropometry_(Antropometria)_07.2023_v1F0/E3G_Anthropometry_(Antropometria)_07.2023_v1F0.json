@@ -1,0 +1,147 @@
+{
+    "proyecto": {
+      "description": "Proyecto",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Participant's folio",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "Etapa",
+      "unit": "None"
+    },
+    "participante": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "Stage",
+      "unit": "None"
+    },
+    "id": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha": {
+      "description": "None",
+      "unit": "None"
+    },
+    "lugar": {
+      "description": "None",
+      "unit": "None"
+    },
+    "cod_cap": {
+      "description": "Code of person who capture",
+      "unit": "None"
+    },
+    "cod_med": {
+      "description": "code of person who measured",
+      "unit": "None"
+    },
+    "dia_m": {
+      "description": "day of measurement",
+      "unit": "None"
+    },
+    "mes_m": {
+      "description": "month of measurement",
+      "unit": "None"
+    },
+    "anio_m": {
+      "description": "year of measurement",
+      "unit": "None"
+    },
+    "peso_m": {
+      "description": "Weight measurement",
+      "unit": "Kg"
+    },
+    "peso1_m": {
+      "description": "1st weight measurement",
+      "unit": "Kg"
+    },
+    "talla172_m": {
+      "description": "1st Heigth measurement",
+      "unit": "cm"
+    },
+    "talla272_m": {
+      "description": "2nd Heigth measurement",
+      "unit": "cm"
+    },
+    "talla372_m": {
+      "description": "3rd Heigth measurement",
+      "unit": "cm"
+    },
+    "talla_m": {
+      "description": "Average Height measurement",
+      "unit": "cm"
+    },
+    "bmi_m": {
+      "description": "Body Max Index",
+      "unit": "None"
+    },
+    "circint1_m": {
+      "description": "1st Abdominal Circumference Measurement",
+      "unit": "cm"
+    },
+    "circint2_m": {
+      "description": "2nd Abdominal Circumference Measurement",
+      "unit": "cm"
+    },
+    "circint3_m": {
+      "description": "3rd Abdominal Circumference Measurement",
+      "unit": "cm"
+    },
+    "circint_m": {
+      "description": "Average Measurement of Abdominal Circumference",
+      "unit": "cm"
+    },
+    "longbra_m": {
+      "description": "Upper arm length measurement",
+      "unit": "None"
+    },
+    "cirbra_m": {
+      "description": "Arm Circumference Measurement",
+      "unit": "None"
+    },
+    "etri1_m": {
+      "description": "1st Triceps Skin Fold Thickness Measurement",
+      "unit": "mm"
+    },
+    "etri2_m": {
+      "description": "2nd Triceps Skin Fold Thickness Measurement",
+      "unit": "mm"
+    },
+    "etri3_m": {
+      "description": "3rd Triceps Skin Fold Thickness Measurement",
+      "unit": "mm"
+    },
+    "esup1_m": {
+      "description": "1st Suprailiac Skin Fold Thickness Measurement",
+      "unit": "mm"
+    },
+    "esup2_m": {
+      "description": "2nd Suprailiac Skin Fold Thickness Measurement",
+      "unit": "mm"
+    },
+    "esup3_m": {
+      "description": "3rd Suprailiac Skin Fold Thickness Measurementb",
+      "unit": "mm"
+    },
+    "esub1_m": {
+      "description": "1st Subscapular Skin Fold Thickness Measurement",
+      "unit": "mm"
+    },
+    "esub2_m": {
+      "description": "2nd Subscapular Skin Fold Thickness Measurement",
+      "unit": "mm"
+    },
+    "esub3_m": {
+      "description": "3rd Subscapular Skin Fold Thickness Measurement",
+      "unit": "mm"
+    }
+  }
+  

@@ -1,0 +1,13 @@
+{
+  "PROYECTO": {"description": "Project identifier", "unit": "None"},
+  "FOLIO": {"description": "Participant ID", "unit": "None"},
+  "FOLIOCC": {"description": "Folio Code", "unit": "None"},
+  "STAGE": {"description": "Stage of the study", "unit": "None"},
+  "Date_stage": {"description": "Date corresponding to the stage", "unit": "Date (YYYY-MM-DD)"},
+  "Antrom_weight": {"description": "Mother's weight", "unit": "Kg"},
+  "Antrom_height": {"description": "Mother's height", "unit": "cm"},
+  "Antrom_arm": {"description": "Mother's arm circumference", "unit": "cm"},
+  "Antrom_calf": {"description": "Mother's calf circumference", "unit": "cm"},
+  "Antrom_cefalica": {"description": "Mother's head circumference", "unit": "cm"},
+  "Antrom_weightbefore": {"description": "Weight before pregnancy (self-recall)", "unit": "Kg"}
+}

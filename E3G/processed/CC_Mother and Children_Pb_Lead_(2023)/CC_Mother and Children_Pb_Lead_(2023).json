@@ -1,0 +1,23 @@
+{
+    "PROYECTO": {
+      "description": "project",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "file",
+      "unit": ""
+    },
+    "FOLIOCC": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "PB_ADOL_V0": {
+      "description": "Blood lead measurement time V0",
+      "unit": ""
+    },
+    "PB_ADOL_V18": {
+      "description": "Blood lead measurement time V18",
+      "unit": ""
+    }
+  }
+  

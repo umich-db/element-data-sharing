@@ -1,0 +1,911 @@
+{
+    "Metab ID": {
+      "description": "Metab ID",
+      "unit": "None"
+    },
+    "Feature": {
+      "description": "Feature",
+      "unit": "None"
+    },
+    "Clusting Group": {
+      "description": "Clusting Group",
+      "unit": "None"
+    },
+    "Clustering Group Number": {
+      "description": "Clustering Group Number",
+      "unit": "None"
+    },
+    "Feature.Name": {
+      "description": "Feature.Name",
+      "unit": "None"
+    },
+    "Mass": {
+      "description": "Mass",
+      "unit": "None"
+    },
+    "RT": {
+      "description": "RT",
+      "unit": "None"
+    },
+    "Mode": {
+      "description": "Mode",
+      "unit": "None"
+    },
+    "Group": {
+      "description": "Group",
+      "unit": "None"
+    },
+    "Exact.Mass": {
+      "description": "Exact.Mass",
+      "unit": "None"
+    },
+    "Super.Pathway": {
+      "description": "Super.Pathway",
+      "unit": "None"
+    },
+    "Sub.Pathway": {
+      "description": "Sub.Pathway",
+      "unit": "None"
+    },
+    "Lipid.Maps.ID": {
+      "description": "Lipid.Maps.ID",
+      "unit": "None"
+    },
+    "Chain": {
+      "description": "Chain",
+      "unit": "None"
+    },
+    "Unsaturation": {
+      "description": "Unsaturation",
+      "unit": "None"
+    },
+    "Database": {
+      "description": "Database",
+      "unit": "None"
+    },
+    "Median.Intensity": {
+      "description": "Median.Intensity",
+      "unit": "None"
+    },
+    "Mass.Diff": {
+      "description": "Mass.Diff",
+      "unit": "None"
+    },
+    "KMD": {
+      "description": "KMD",
+      "unit": "None"
+    },
+    "X40": {
+      "description": "X40",
+      "unit": "None"
+    },
+    "X66": {
+      "description": "X66",
+      "unit": "None"
+    },
+    "X76": {
+      "description": "X76",
+      "unit": "None"
+    },
+    "X79": {
+      "description": "X79",
+      "unit": "None"
+    },
+    "X80": {
+      "description": "X80",
+      "unit": "None"
+    },
+    "X82": {
+      "description": "X82",
+      "unit": "None"
+    },
+    "X94": {
+      "description": "X94",
+      "unit": "None"
+    },
+    "X95": {
+      "description": "X95",
+      "unit": "None"
+    },
+    "X97": {
+      "description": "X97",
+      "unit": "None"
+    },
+    "X105": {
+      "description": "X105",
+      "unit": "None"
+    },
+    "X107": {
+      "description": "X107",
+      "unit": "None"
+    },
+    "X117": {
+      "description": "X117",
+      "unit": "None"
+    },
+    "X118": {
+      "description": "X118",
+      "unit": "None"
+    },
+    "X121": {
+      "description": "X121",
+      "unit": "None"
+    },
+    "X141": {
+      "description": "X141",
+      "unit": "None"
+    },
+    "X151": {
+      "description": "X151",
+      "unit": "None"
+    },
+    "X171": {
+      "description": "X171",
+      "unit": "None"
+    },
+    "X192": {
+      "description": "X192",
+      "unit": "None"
+    },
+    "X194": {
+      "description": "X194",
+      "unit": "None"
+    },
+    "X199": {
+      "description": "X199",
+      "unit": "None"
+    },
+    "X206": {
+      "description": "X206",
+      "unit": "None"
+    },
+    "X207": {
+      "description": "X207",
+      "unit": "None"
+    },
+    "X209": {
+      "description": "X209",
+      "unit": "None"
+    },
+    "X211": {
+      "description": "X211",
+      "unit": "None"
+    },
+    "X213": {
+      "description": "X213",
+      "unit": "None"
+    },
+    "X215": {
+      "description": "X215",
+      "unit": "None"
+    },
+    "X216": {
+      "description": "X216",
+      "unit": "None"
+    },
+    "X217": {
+      "description": "X217",
+      "unit": "None"
+    },
+    "X220": {
+      "description": "X220",
+      "unit": "None"
+    },
+    "X234": {
+      "description": "X234",
+      "unit": "None"
+    },
+    "X236": {
+      "description": "X236",
+      "unit": "None"
+    },
+    "X246": {
+      "description": "X246",
+      "unit": "None"
+    },
+    "X262": {
+      "description": "X262",
+      "unit": "None"
+    },
+    "X266": {
+      "description": "X266",
+      "unit": "None"
+    },
+    "X267": {
+      "description": "X267",
+      "unit": "None"
+    },
+    "X270": {
+      "description": "X270",
+      "unit": "None"
+    },
+    "X272": {
+      "description": "X272",
+      "unit": "None"
+    },
+    "X285": {
+      "description": "X285",
+      "unit": "None"
+    },
+    "X306": {
+      "description": "X306",
+      "unit": "None"
+    },
+    "X316": {
+      "description": "X316",
+      "unit": "None"
+    },
+    "X333": {
+      "description": "X333",
+      "unit": "None"
+    },
+    "X334": {
+      "description": "X334",
+      "unit": "None"
+    },
+    "X336": {
+      "description": "X336",
+      "unit": "None"
+    },
+    "X342": {
+      "description": "X342",
+      "unit": "None"
+    },
+    "X346": {
+      "description": "X346",
+      "unit": "None"
+    },
+    "X350": {
+      "description": "X350",
+      "unit": "None"
+    },
+    "X356": {
+      "description": "X356",
+      "unit": "None"
+    },
+    "X368": {
+      "description": "X368",
+      "unit": "None"
+    },
+    "X381": {
+      "description": "X381",
+      "unit": "None"
+    },
+    "X382": {
+      "description": "X382",
+      "unit": "None"
+    },
+    "X384": {
+      "description": "X384",
+      "unit": "None"
+    },
+    "X385": {
+      "description": "X385",
+      "unit": "None"
+    },
+    "X386": {
+      "description": "X386",
+      "unit": "None"
+    },
+    "X394": {
+      "description": "X394",
+      "unit": "None"
+    },
+    "X396": {
+      "description": "X396",
+      "unit": "None"
+    },
+    "X397": {
+      "description": "X397",
+      "unit": "None"
+    },
+    "X402": {
+      "description": "X402",
+      "unit": "None"
+    },
+    "X410": {
+      "description": "X410",
+      "unit": "None"
+    },
+    "X418": {
+      "description": "X418",
+      "unit": "None"
+    },
+    "X420": {
+      "description": "X420",
+      "unit": "None"
+    },
+    "X421": {
+      "description": "X421",
+      "unit": "None"
+    },
+    "X422": {
+      "description": "X422",
+      "unit": "None"
+    },
+    "X428": {
+      "description": "X428",
+      "unit": "None"
+    },
+    "X429": {
+      "description": "X429",
+      "unit": "None"
+    },
+    "X431": {
+      "description": "X431",
+      "unit": "None"
+    },
+    "X432": {
+      "description": "X432",
+      "unit": "None"
+    },
+    "X433": {
+      "description": "X433",
+      "unit": "None"
+    },
+    "X437": {
+      "description": "X437",
+      "unit": "None"
+    },
+    "X440": {
+      "description": "X440",
+      "unit": "None"
+    },
+    "X443": {
+      "description": "X443",
+      "unit": "None"
+    },
+    "X450": {
+      "description": "X450",
+      "unit": "None"
+    },
+    "X452": {
+      "description": "X452",
+      "unit": "None"
+    },
+    "X460": {
+      "description": "X460",
+      "unit": "None"
+    },
+    "X462": {
+      "description": "X462",
+      "unit": "None"
+    },
+    "X467": {
+      "description": "X467",
+      "unit": "None"
+    },
+    "X468": {
+      "description": "X468",
+      "unit": "None"
+    },
+    "X469": {
+      "description": "X469",
+      "unit": "None"
+    },
+    "X470": {
+      "description": "X470",
+      "unit": "None"
+    },
+    "X471": {
+      "description": "X471",
+      "unit": "None"
+    },
+    "X472": {
+      "description": "X472",
+      "unit": "None"
+    },
+    "X473": {
+      "description": "X473",
+      "unit": "None"
+    },
+    "X475": {
+      "description": "X475",
+      "unit": "None"
+    },
+    "X477": {
+      "description": "X477",
+      "unit": "None"
+    },
+    "X480": {
+      "description": "X480",
+      "unit": "None"
+    },
+    "X482": {
+      "description": "X482",
+      "unit": "None"
+    },
+    "X483": {
+      "description": "X483",
+      "unit": "None"
+    },
+    "X484": {
+      "description": "X484",
+      "unit": "None"
+    },
+    "X486": {
+      "description": "X486",
+      "unit": "None"
+    },
+    "X487": {
+      "description": "X487",
+      "unit": "None"
+    },
+    "X489": {
+      "description": "X489",
+      "unit": "None"
+    },
+    "X491": {
+      "description": "X491",
+      "unit": "None"
+    },
+    "X492": {
+      "description": "X492",
+      "unit": "None"
+    },
+    "X494": {
+      "description": "X494",
+      "unit": "None"
+    },
+    "X496": {
+      "description": "X496",
+      "unit": "None"
+    },
+    "X497": {
+      "description": "X497",
+      "unit": "None"
+    },
+    "X500": {
+      "description": "X500",
+      "unit": "None"
+    },
+    "X501": {
+      "description": "X501",
+      "unit": "None"
+    },
+    "X502": {
+      "description": "X502",
+      "unit": "None"
+    },
+    "X507": {
+      "description": "X507",
+      "unit": "None"
+    },
+    "X512": {
+      "description": "X512",
+      "unit": "None"
+    },
+    "X514": {
+      "description": "X514",
+      "unit": "None"
+    },
+    "X529": {
+      "description": "X529",
+      "unit": "None"
+    },
+    "X530": {
+      "description": "X530",
+      "unit": "None"
+    },
+    "X532": {
+      "description": "X532",
+      "unit": "None"
+    },
+    "X533": {
+      "description": "X533",
+      "unit": "None"
+    },
+    "X534": {
+      "description": "X534",
+      "unit": "None"
+    },
+    "X536": {
+      "description": "X536",
+      "unit": "None"
+    },
+    "X537": {
+      "description": "X537",
+      "unit": "None"
+    },
+    "X543": {
+      "description": "X543",
+      "unit": "None"
+    },
+    "X545": {
+      "description": "X545",
+      "unit": "None"
+    },
+    "X549": {
+      "description": "X549",
+      "unit": "None"
+    },
+    "X550": {
+      "description": "X550",
+      "unit": "None"
+    },
+    "X552": {
+      "description": "X552",
+      "unit": "None"
+    },
+    "X555": {
+      "description": "X555",
+      "unit": "None"
+    },
+    "X558": {
+      "description": "X558",
+      "unit": "None"
+    },
+    "X560": {
+      "description": "X560",
+      "unit": "None"
+    },
+    "X569": {
+      "description": "X569",
+      "unit": "None"
+    },
+    "X572": {
+      "description": "X572",
+      "unit": "None"
+    },
+    "X576": {
+      "description": "X576",
+      "unit": "None"
+    },
+    "X577": {
+      "description": "X577",
+      "unit": "None"
+    },
+    "X578": {
+      "description": "X578",
+      "unit": "None"
+    },
+    "X579": {
+      "description": "X579",
+      "unit": "None"
+    },
+    "X580": {
+      "description": "X580",
+      "unit": "None"
+    },
+    "X581": {
+      "description": "X581",
+      "unit": "None"
+    },
+    "X582": {
+      "description": "X582",
+      "unit": "None"
+    },
+    "X583": {
+      "description": "X583",
+      "unit": "None"
+    },
+    "X588": {
+      "description": "X588",
+      "unit": "None"
+    },
+    "X589": {
+      "description": "X589",
+      "unit": "None"
+    },
+    "X594": {
+      "description": "X594",
+      "unit": "None"
+    },
+    "X596": {
+      "description": "X596",
+      "unit": "None"
+    },
+    "X598": {
+      "description": "X598",
+      "unit": "None"
+    },
+    "X600": {
+      "description": "X600",
+      "unit": "None"
+    },
+    "X604": {
+      "description": "X604",
+      "unit": "None"
+    },
+    "X608": {
+      "description": "X608",
+      "unit": "None"
+    },
+    "X614": {
+      "description": "X614",
+      "unit": "None"
+    },
+    "X615": {
+      "description": "X615",
+      "unit": "None"
+    },
+    "X620": {
+      "description": "X620",
+      "unit": "None"
+    },
+    "X621": {
+      "description": "X621",
+      "unit": "None"
+    },
+    "X622": {
+      "description": "X622",
+      "unit": "None"
+    },
+    "X625": {
+      "description": "X625",
+      "unit": "None"
+    },
+    "X630": {
+      "description": "X630",
+      "unit": "None"
+    },
+    "X639": {
+      "description": "X639",
+      "unit": "None"
+    },
+    "X644": {
+      "description": "X644",
+      "unit": "None"
+    },
+    "X646": {
+      "description": "X646",
+      "unit": "None"
+    },
+    "X648": {
+      "description": "X648",
+      "unit": "None"
+    },
+    "X649": {
+      "description": "X649",
+      "unit": "None"
+    },
+    "X650": {
+      "description": "X650",
+      "unit": "None"
+    },
+    "X651": {
+      "description": "X651",
+      "unit": "None"
+    },
+    "X652": {
+      "description": "X652",
+      "unit": "None"
+    },
+    "X653": {
+      "description": "X653",
+      "unit": "None"
+    },
+    "X654": {
+      "description": "X654",
+      "unit": "None"
+    },
+    "X655": {
+      "description": "X655",
+      "unit": "None"
+    },
+    "X657": {
+      "description": "X657",
+      "unit": "None"
+    },
+    "X659": {
+      "description": "X659",
+      "unit": "None"
+    },
+    "X661": {
+      "description": "X661",
+      "unit": "None"
+    },
+    "X662": {
+      "description": "X662",
+      "unit": "None"
+    },
+    "X664": {
+      "description": "X664",
+      "unit": "None"
+    },
+    "X666": {
+      "description": "X666",
+      "unit": "None"
+    },
+    "X667": {
+      "description": "X667",
+      "unit": "None"
+    },
+    "X668": {
+      "description": "X668",
+      "unit": "None"
+    },
+    "X669": {
+      "description": "X669",
+      "unit": "None"
+    },
+    "X670": {
+      "description": "X670",
+      "unit": "None"
+    },
+    "X671": {
+      "description": "X671",
+      "unit": "None"
+    },
+    "X672": {
+      "description": "X672",
+      "unit": "None"
+    },
+    "X673": {
+      "description": "X673",
+      "unit": "None"
+    },
+    "X677": {
+      "description": "X677",
+      "unit": "None"
+    },
+    "X678": {
+      "description": "X678",
+      "unit": "None"
+    },
+    "X679": {
+      "description": "X679",
+      "unit": "None"
+    },
+    "X682": {
+      "description": "X682",
+      "unit": "None"
+    },
+    "X686": {
+      "description": "X686",
+      "unit": "None"
+    },
+    "X688": {
+      "description": "X688",
+      "unit": "None"
+    },
+    "X689": {
+      "description": "X689",
+      "unit": "None"
+    },
+    "X690": {
+      "description": "X690",
+      "unit": "None"
+    },
+    "X691": {
+      "description": "X691",
+      "unit": "None"
+    },
+    "X695": {
+      "description": "X695",
+      "unit": "None"
+    },
+    "X698": {
+      "description": "X698",
+      "unit": "None"
+    },
+    "X700": {
+      "description": "X700",
+      "unit": "None"
+    },
+    "X702": {
+      "description": "X702",
+      "unit": "None"
+    },
+    "X703": {
+      "description": "X703",
+      "unit": "None"
+    },
+    "X706": {
+      "description": "X706",
+      "unit": "None"
+    },
+    "X708": {
+      "description": "X708",
+      "unit": "None"
+    },
+    "X711": {
+      "description": "X711",
+      "unit": "None"
+    },
+    "X715": {
+      "description": "X715",
+      "unit": "None"
+    },
+    "X720": {
+      "description": "X720",
+      "unit": "None"
+    },
+    "X721": {
+      "description": "X721",
+      "unit": "None"
+    },
+    "X723": {
+      "description": "X723",
+      "unit": "None"
+    },
+    "X724": {
+      "description": "X724",
+      "unit": "None"
+    },
+    "X727": {
+      "description": "X727",
+      "unit": "None"
+    },
+    "X728": {
+      "description": "X728",
+      "unit": "None"
+    },
+    "X729": {
+      "description": "X729",
+      "unit": "None"
+    },
+    "X730": {
+      "description": "X730",
+      "unit": "None"
+    },
+    "X733": {
+      "description": "X733",
+      "unit": "None"
+    },
+    "X734": {
+      "description": "X734",
+      "unit": "None"
+    },
+    "X735": {
+      "description": "X735",
+      "unit": "None"
+    },
+    "X737": {
+      "description": "X737",
+      "unit": "None"
+    },
+    "X738": {
+      "description": "X738",
+      "unit": "None"
+    },
+    "X740": {
+      "description": "X740",
+      "unit": "None"
+    },
+    "X741": {
+      "description": "X741",
+      "unit": "None"
+    },
+    "X742": {
+      "description": "X742",
+      "unit": "None"
+    },
+    "X745": {
+      "description": "X745",
+      "unit": "None"
+    },
+    "X746": {
+      "description": "X746",
+      "unit": "None"
+    },
+    "X747": {
+      "description": "X747",
+      "unit": "None"
+    },
+    "X749": {
+      "description": "X749",
+      "unit": "None"
+    },
+    "X750": {
+      "description": "X750",
+      "unit": "None"
+    },
+    "X751": {
+      "description": "X751",
+      "unit": "None"
+    },
+    "X752": {
+      "description": "X752",
+      "unit": "None"
+    },
+    "X753": {
+      "description": "X753",
+      "unit": "None"
+    },
+    "X754": {
+      "description": "X754",
+      "unit": "None"
+    }
+  }
+  

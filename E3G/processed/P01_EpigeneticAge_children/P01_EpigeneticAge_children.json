@@ -1,0 +1,163 @@
+{
+    "Sample_Name": {
+      "description": "Sample name used for lab analysis - unique to each sample",
+      "unit": "None"
+    },
+    "Sample_Plate": {
+      "description": "Identifier for Sample Plate (96-samples per plate) the sample was prepared on prior to EPIC analysis (i.e. bisulfite conversion)",
+      "unit": "batch variable (EPIC)"
+    },
+    "Pool_ID": {
+      "description": "EPIC array pool identification number",
+      "unit": "None"
+    },
+    "barcode": {
+      "description": "Barcode that labels the data on the EPIC array; can be used to link to full EPIC array",
+      "unit": "None"
+    },
+    "EPIC_Round": {
+      "description": "EPIC analyses were completed at different times for different sets of samples",
+      "unit": "batch variable (EPIC)"
+    },
+    "foliocc": {
+      "description": "Original ELEMENT study ID, unique to an individual child",
+      "unit": "None"
+    },
+    "Array": {
+      "description": "Identifier for position on EPIC chip the sample was placed on",
+      "unit": "batch variable (EPIC)"
+    },
+    "Slide": {
+      "description": "Identifier for EPIC chip the sample was run on",
+      "unit": "batch variable (EPIC)"
+    },
+    "ArrayTypes": {
+      "description": "Type of Infinium Array used (e.g., 450K or EPIC)",
+      "unit": "None"
+    },
+    "PC1": {
+      "description": "Principal Component 1 for batch correction",
+      "unit": "batch variable -calculated"
+    },
+    "PC2": {
+      "description": "Principal Component 2 for batch correction",
+      "unit": "batch variable -calculated"
+    },
+    "PC3": {
+      "description": "Principal Component 3 for batch correction",
+      "unit": "batch variable -calculated"
+    },
+    "PC4": {
+      "description": "Principal Component 4 for batch correction",
+      "unit": "None"
+    },
+    "PC5": {
+      "description": "Principal Component 5 for batch correction",
+      "unit": "None"
+    },
+    "DNAmAge": {
+      "description": "Horvath epigenetic clock age estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "AgeAccelerationDiff": {
+      "description": "Difference between Horvath clock age and chronological age",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "AgeAccelerationResidual": {
+      "description": "Residuals after regressing DNAmAge on chronological age",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "CD8T": {
+      "description": "Estimated proportion of CD8+ T-cells",
+      "unit": "estimated from algorithm (Houseman method)"
+    },
+    "CD4T": {
+      "description": "Estimated proportion of CD4+ T-cells",
+      "unit": "estimated from algorithm (Houseman method)"
+    },
+    "NK": {
+      "description": "Estimated proportion of natural killer cells",
+      "unit": "estimated from algorithm (Houseman method)"
+    },
+    "Bcell": {
+      "description": "Estimated proportion of B cells",
+      "unit": "estimated from algorithm (Houseman method)"
+    },
+    "Mono": {
+      "description": "Estimated proportion of monocytes",
+      "unit": "estimated from algorithm (Houseman method)"
+    },
+    "Gran": {
+      "description": "Proportion of granulocytes",
+      "unit": "None"
+    },
+    "DNAmAgeHannum": {
+      "description": "Hannum epigenetic clock age estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "PlasmaBlast": {
+      "description": "Estimated relative abundance of Plasmablasts",
+      "unit": "estimated from algorithm (Horvath)"
+    },
+    "CD8pCD28nCD45RAn": {
+      "description": "Estimated relative abundance of exhausted T Cells",
+      "unit": "estimated from algorithm (Horvath)"
+    },
+    "CD8.naive": {
+      "description": "Estimated relative abundance of naive CD8+ T cells",
+      "unit": "estimated from algorithm (Horvath)"
+    },
+    "CD4.naive": {
+      "description": "Estimated relative abundance of naive CD4+ T cells",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "DNAmPhenoAge": {
+      "description": "Phenotypic age estimate (Levine's clock)",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "DNAmAgeSkinBloodClock": {
+      "description": "Skin and Blood clock age estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "DNAmGrimAge": {
+      "description": "GrimAge mortality risk estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "DNAmTL": {
+      "description": "Estimated telomere length from DNA methylation",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "DNAmAgeSkinBloodClockAdjAge": {
+      "description": "Age adjusted Skin and Blood clock estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "DNAmTLAdjAge": {
+      "description": "Adjusted telomere length estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "IEAA": {
+      "description": "Intrinsic epigenetic age acceleration",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "EEAA": {
+      "description": "Extrinsic epigenetic age acceleration",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "AgeAccelerationResidualHannum": {
+      "description": "Adjusted Hannum clock age estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "AgeAccelGrim": {
+      "description": "Adjusted GrimAge estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "AgeAccelPheno": {
+      "description": "Adjusted PhenoAge estimate",
+      "unit": "estimated from algorithm (Horvath website)"
+    },
+    "Etapa": {
+      "description": "Timing of sample collection (study visit)",
+      "unit": "None"
+    }
+  }
+  

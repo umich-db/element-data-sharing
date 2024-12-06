@@ -1,0 +1,131 @@
+{
+    "foliocc": {
+      "description": "foliocc",
+      "unit": "None"
+    },
+    "ID": {
+      "description": "ID",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "etapa",
+      "unit": "None"
+    },
+    "participante": {
+      "description": "participant",
+      "unit": "None"
+    },
+    "alch": {
+      "description": "alcohol",
+      "unit": "None"
+    },
+    "vitb12": {
+      "description": "vitamin B12",
+      "unit": "None"
+    },
+    "vitb6": {
+      "description": "vitamin B6",
+      "unit": "None"
+    },
+    "betacaroteno_mcg": {
+      "description": "beta carotene",
+      "unit": "None"
+    },
+    "cafeina_gr": {
+      "description": "caffeine",
+      "unit": "None"
+    },
+    "h_de_c": {
+      "description": "carbohydrate",
+      "unit": "None"
+    },
+    "cole": {
+      "description": "cholesterol",
+      "unit": "None"
+    },
+    "ener_kcal": {
+      "description": "energy Kcal",
+      "unit": "None"
+    },
+    "grasa": {
+      "description": "fat",
+      "unit": "None"
+    },
+    "fibtot": {
+      "description": "total dietary fiber",
+      "unit": "None"
+    },
+    "folic_acid": {
+      "description": "folic acid",
+      "unit": "None"
+    },
+    "fe": {
+      "description": "Iron",
+      "unit": "None"
+    },
+    "mg": {
+      "description": "magnesium",
+      "unit": "None"
+    },
+    "gramon": {
+      "description": "monounsaturated fatty acids",
+      "unit": "None"
+    },
+    "nia": {
+      "description": "niacin",
+      "unit": "None"
+    },
+    "omega3": {
+      "description": "omega 3",
+      "unit": "None"
+    },
+    "omega6": {
+      "description": "omega 6",
+      "unit": "None"
+    },
+    "proteina": {
+      "description": "protein",
+      "unit": "None"
+    },
+    "grapoly": {
+      "description": "polyunsaturated fatty acids",
+      "unit": "None"
+    },
+    "ribf": {
+      "description": "riboflavin",
+      "unit": "None"
+    },
+    "grasat": {
+      "description": "saturated fatty acids",
+      "unit": "None"
+    },
+    "se": {
+      "description": "selenium",
+      "unit": "None"
+    },
+    "thia": {
+      "description": "thiamine",
+      "unit": "None"
+    },
+    "eqret": {
+      "description": "retinol equivalents",
+      "unit": "None"
+    },
+    "vitc": {
+      "description": "vitamin c",
+      "unit": "None"
+    },
+    "vite": {
+      "description": "vitamin e",
+      "unit": "None"
+    },
+    "zn": {
+      "description": "zinc",
+      "unit": "None"
+    },
+    "E3GENdiet_dii": {
+      "description": "Dietary inflammatory index",
+      "unit": "None"
+    }
+  }
+  

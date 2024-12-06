@@ -1,0 +1,199 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Id project choleterol",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sex_ch": {
+      "description": "Sex",
+      "unit": "None"
+    },
+    "Age_yrs": {
+      "description": "AgeChildren",
+      "unit": "years"
+    },
+    "fecha_visita": {
+      "description": "Visit date project choleterol",
+      "unit": "None"
+    },
+    "c_inhibit_n": {
+      "description": "BRIEF Child: Questions-anwers Inhibit",
+      "unit": "None"
+    },
+    "c_shift_a_n": {
+      "description": "BRIEF Child: Questions-anwers Shift a",
+      "unit": "None"
+    },
+    "c_shift_b_n": {
+      "description": "BRIEF Child: Questions-anwers Shift b",
+      "unit": "None"
+    },
+    "c_econtrol_n": {
+      "description": "BRIEF Child: Questions-anwers Econtrol",
+      "unit": "None"
+    },
+    "c_monitor_n": {
+      "description": "BRIEF Child: Questions-anwers monitor",
+      "unit": "None"
+    },
+    "c_wmemory_n": {
+      "description": "BRIEF Child: Questions-anwers wmemory",
+      "unit": "None"
+    },
+    "c_porganize_n": {
+      "description": "BRIEF Child: Questions-anwers porganize",
+      "unit": "None"
+    },
+    "c_omaterials_n": {
+      "description": "BRIEF Child: Questions-anwers materials",
+      "unit": "None"
+    },
+    "c_tcompletion_n": {
+      "description": "BRIEF Child: Questions-anwers task completation",
+      "unit": "None"
+    },
+    "Rc_inhibit": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_shift_a": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_shift_b": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_shift": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_econtrol": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_monitor": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_wmemory": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_porganize": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_omaterials": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_tcompletion": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_BRI": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_MI": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_GEC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_bshift": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Rc_cshift": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_inhibit": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_shift": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_econtrol": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_monitor": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_BRI": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_wmemory": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_porganize": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_omaterials": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_tcompletion": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_MI": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_GEC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_bshift": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Tc_cshift": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_summ_negative": {
+      "description": "BRIEF Child: Negativity score",
+      "unit": "None"
+    },
+    "c_negative_score": {
+      "description": "BRIEF Child: Negativity Protocol Classification",
+      "unit": "None"
+    },
+    "c_summ_incon": {
+      "description": "BRIEF Child: Inconsistency score",
+      "unit": "None"
+    },
+    "c_incon_score": {
+      "description": "BRIEF Child: Inconsistency Protocol Classification",
+      "unit": "None"
+    }
+  }
+  

@@ -1,0 +1,31 @@
+{
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Sedantary": {
+      "description": "Sedantary time",
+      "unit": ""
+    },
+    "Light": {
+      "description": "Light Activity time",
+      "unit": ""
+    },
+    "Moderate": {
+      "description": "Moderate Activity time",
+      "unit": ""
+    },
+    "Vigorous": {
+      "description": "Vigorous activity time",
+      "unit": ""
+    },
+    "TotalTime": {
+      "description": "Total Time",
+      "unit": ""
+    }
+  }
+  

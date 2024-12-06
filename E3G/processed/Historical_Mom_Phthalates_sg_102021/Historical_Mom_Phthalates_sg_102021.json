@@ -1,0 +1,219 @@
+{
+    "proyecto": {
+      "description": "Full Panel Name",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Analysis Panel",
+      "unit": ""
+    },
+    "Foliocc": {
+      "description": "Variable",
+      "unit": ""
+    },
+    "Trimester": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Batch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "spec_grav": {
+      "description": "None",
+      "unit": "None"
+    },
+    "CXMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_CXMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_CXMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MECPTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MECPTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MECPTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHHTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MEHHTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MEHHTP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "OHMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_OHMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_OHMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBP": {
+      "description": "Benzophenone-3",
+      "unit": ""
+    },
+    "Lod_MBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBzP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MBzP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MBzP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MCNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MCNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCOP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MCOP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MCOP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MCPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MCPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MECPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MECPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MECPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MEHHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MEHHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MEHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MEHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEOHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MEOHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MEOHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MEP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MEP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MIBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Lod_MIBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Comment_MIBP": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

@@ -1,0 +1,399 @@
+{
+    "FOLIOCC": {
+      "description": "Name for food group in database (raw)",
+      "unit": ""
+    },
+    "ener_kcal": {
+      "description": "Energy",
+      "unit": "kcal"
+    },
+    "ener_kj": {
+      "description": "Energy",
+      "unit": "kJ"
+    },
+    "h_de_c_adj": {
+      "description": "Hydrates of carbon adjusted",
+      "unit": ""
+    },
+    "proteina_adj": {
+      "description": "Protein adjusted",
+      "unit": ""
+    },
+    "grasa_adj": {
+      "description": "Fat adjusted",
+      "unit": ""
+    },
+    "ceniza_adj": {
+      "description": "Ash adjusted",
+      "unit": ""
+    },
+    "alch_adj": {
+      "description": "Alcohol adjusted",
+      "unit": ""
+    },
+    "agua_adj": {
+      "description": "Water adjusted",
+      "unit": ""
+    },
+    "cafeina_adj": {
+      "description": "Caffeine adjusted",
+      "unit": ""
+    },
+    "thebrn_adj": {
+      "description": "Theobromine adjusted",
+      "unit": ""
+    },
+    "azucar_adj": {
+      "description": "Sugar adjusted",
+      "unit": ""
+    },
+    "fibtot_adj": {
+      "description": "Total dietary fiber adjusted",
+      "unit": ""
+    },
+    "ca_adj": {
+      "description": "Calcium adjusted",
+      "unit": "mg"
+    },
+    "fe_adj": {
+      "description": "Iron adjusted",
+      "unit": "mg"
+    },
+    "mg_adj": {
+      "description": "Magnesium adjusted",
+      "unit": "mg"
+    },
+    "p_adj": {
+      "description": "Phosphorus adjusted",
+      "unit": "mg"
+    },
+    "k_adj": {
+      "description": "Potassium adjusted",
+      "unit": "mg"
+    },
+    "na_adj": {
+      "description": "Sodium adjusted",
+      "unit": "mg"
+    },
+    "zn_adj": {
+      "description": "Zinc adjusted",
+      "unit": "mg"
+    },
+    "afitico_adj": {
+      "description": "Phytic acid adjusted",
+      "unit": ""
+    },
+    "cu_adj": {
+      "description": "Copper adjusted",
+      "unit": "mg"
+    },
+    "mn_adj": {
+      "description": "Manganese adjusted",
+      "unit": "mg"
+    },
+    "se_adj": {
+      "description": "Selenium adjusted",
+      "unit": "µg"
+    },
+    "vita_adj": {
+      "description": "Vitamin A adjusted",
+      "unit": "µg"
+    },
+    "eqret_adj": {
+      "description": "Retinol equivalents adjusted",
+      "unit": "µg"
+    },
+    "vitd_adj": {
+      "description": "Vitamin D adjusted",
+      "unit": "µg"
+    },
+    "retinol_adj": {
+      "description": "Retinol adjusted",
+      "unit": "µg"
+    },
+    "vite_adj": {
+      "description": "Vitamin E adjusted",
+      "unit": "mg"
+    },
+    "vitc_adj": {
+      "description": "Vitamin C adjusted",
+      "unit": "mg"
+    },
+    "thia_adj": {
+      "description": "Thiamine (Vitamin B1) adjusted",
+      "unit": "mg"
+    },
+    "ribf_adj": {
+      "description": "Riboflavin (Vitamin B2) adjusted",
+      "unit": "mg"
+    },
+    "nia_adj": {
+      "description": "Niacin adjusted",
+      "unit": "mg"
+    },
+    "pantac_adj": {
+      "description": "Pantothenic acid adjusted",
+      "unit": "mg"
+    },
+    "vitb6_adj": {
+      "description": "Vitamin B6 adjusted",
+      "unit": "mg"
+    },
+    "folato_adj": {
+      "description": "Folate adjusted",
+      "unit": "µg"
+    },
+    "vitb12_adj": {
+      "description": "Vitamin B12 adjusted",
+      "unit": "µg"
+    },
+    "trp_adj": {
+      "description": "Tryptophan adjusted",
+      "unit": "mg"
+    },
+    "thr_adj": {
+      "description": "Threonine adjusted",
+      "unit": "mg"
+    },
+    "ile_adj": {
+      "description": "Isoleucine adjusted",
+      "unit": "mg"
+    },
+    "leu_adj": {
+      "description": "Leucine adjusted",
+      "unit": "mg"
+    },
+    "lys_adj": {
+      "description": "Lysine adjusted",
+      "unit": "mg"
+    },
+    "met_adj": {
+      "description": "Methionine adjusted",
+      "unit": "mg"
+    },
+    "cys_adj": {
+      "description": "Cysteine adjusted",
+      "unit": "mg"
+    },
+    "phe_adj": {
+      "description": "Phenylalanine adjusted",
+      "unit": "mg"
+    },
+    "tyr_adj": {
+      "description": "Tyrosine adjusted",
+      "unit": "mg"
+    },
+    "val_adj": {
+      "description": "Valine adjusted",
+      "unit": "mg"
+    },
+    "arg_adj": {
+      "description": "Arginine adjusted",
+      "unit": "mg"
+    },
+    "his_adj": {
+      "description": "Histidine adjusted",
+      "unit": "mg"
+    },
+    "ala_adj": {
+      "description": "Alanine adjusted",
+      "unit": "mg"
+    },
+    "asp_adj": {
+      "description": "Aspartic acid adjusted",
+      "unit": "mg"
+    },
+    "glu_adj": {
+      "description": "Glutamic acid adjusted",
+      "unit": "mg"
+    },
+    "gly_adj": {
+      "description": "Glycine adjusted",
+      "unit": "mg"
+    },
+    "pro_adj": {
+      "description": "Proline adjusted",
+      "unit": "mg"
+    },
+    "ser_adj": {
+      "description": "Serine adjusted",
+      "unit": "mg"
+    },
+    "cole_adj": {
+      "description": "Cholesterol adjusted",
+      "unit": "mg"
+    },
+    "grasat_adj": {
+      "description": "Saturated fatty acids adjusted",
+      "unit": "g"
+    },
+    "f4d0_adj": {
+      "description": "Butyric acid (4:0) adjusted",
+      "unit": "g"
+    },
+    "f6d0_adj": {
+      "description": "Caproic acid (6:0) adjusted",
+      "unit": "g"
+    },
+    "f8d0_adj": {
+      "description": "Caprylic acid (8:0) adjusted",
+      "unit": "g"
+    },
+    "f10d0_adj": {
+      "description": "Capric acid (10:0) adjusted",
+      "unit": "g"
+    },
+    "f12d0_adj": {
+      "description": "Lauric acid (12:0) adjusted",
+      "unit": "g"
+    },
+    "f14d0_adj": {
+      "description": "Myristic acid (14:0) adjusted",
+      "unit": "g"
+    },
+    "f16d0_adj": {
+      "description": "Palmitic acid (16:0) adjusted",
+      "unit": "g"
+    },
+    "f18d0_adj": {
+      "description": "Stearic acid (18:0) adjusted",
+      "unit": "g"
+    },
+    "f20d0_adj": {
+      "description": "Arachidic acid (20:0) adjusted",
+      "unit": "g"
+    },
+    "f18d1_adj": {
+      "description": "Oleic acid (18:1) adjusted",
+      "unit": "g"
+    },
+    "f18d2_adj": {
+      "description": "Linoleic acid (18:2) adjusted",
+      "unit": "g"
+    },
+    "f18d3_adj": {
+      "description": "Linolenic acid (18:3) adjusted",
+      "unit": "g"
+    },
+    "f20d4_adj": {
+      "description": "Arachidonic acid (20:4) adjusted",
+      "unit": "g"
+    },
+    "f22d6_adj": {
+      "description": "Docosahexaenoic acid (DHA) (22:6) adjusted",
+      "unit": "g"
+    },
+    "f22d0_adj": {
+      "description": "Behenic acid (22:0) adjusted",
+      "unit": "g"
+    },
+    "f14d1_adj": {
+      "description": "Myristoleic acid (14:1) adjusted",
+      "unit": "g"
+    },
+    "f16d1_adj": {
+      "description": "Palmitoleic acid (16:1) adjusted",
+      "unit": "g"
+    },
+    "f18d4_adj": {
+      "description": "Parinaric acid (18:4) adjusted",
+      "unit": "g"
+    },
+    "f20d1_adj": {
+      "description": "Gadoleic acid (20:1) adjusted",
+      "unit": "g"
+    },
+    "f20d5_adj": {
+      "description": "Eicosapentaenoic acid (EPA) (20:5) adjusted",
+      "unit": "g"
+    },
+    "f22d1_adj": {
+      "description": "Erucic acid (22:1) adjusted",
+      "unit": "g"
+    },
+    "f22d5_adj": {
+      "description": "Docosapentaenoic acid (DPA) (22:5) adjusted",
+      "unit": "g"
+    },
+    "fitoster_adj": {
+      "description": "Phytosterols adjusted",
+      "unit": "mg"
+    },
+    "gramon_adj": {
+      "description": "Monounsaturated fatty acids adjusted",
+      "unit": "g"
+    },
+    "grapoly_adj": {
+      "description": "Polyunsaturated fatty acids adjusted",
+      "unit": "g"
+    },
+    "f15d0_adj": {
+      "description": "Pentadecanoic acid (15:0) adjusted",
+      "unit": "g"
+    },
+    "f17d0_adj": {
+      "description": "Heptadecanoic acid (17:0) adjusted",
+      "unit": "g"
+    },
+    "f24d0_adj": {
+      "description": "Lignoceric acid (24:0) adjusted",
+      "unit": "g"
+    },
+    "taninos_adj": {
+      "description": "Tannins adjusted",
+      "unit": ""
+    },
+    "fortica_adj": {
+      "description": "Calcium fortification adjusted",
+      "unit": "mg"
+    },
+    "fortife_adj": {
+      "description": "Iron fortification adjusted",
+      "unit": "mg"
+    },
+    "fortizn_adj": {
+      "description": "Zinc fortification adjusted",
+      "unit": "mg"
+    },
+    "fortivita_adj": {
+      "description": "Vitamin A fortification adjusted",
+      "unit": "µg"
+    },
+    "fortivitc_adj": {
+      "description": "Vitamin C fortification adjusted",
+      "unit": "mg"
+    },
+    "enriched_adj": {
+      "description": "Enriched with vitamins and minerals adjusted",
+      "unit": ""
+    },
+    "p_f_ca_adj": {
+      "description": "Proportion of calcium from fortification adjusted",
+      "unit": "%"
+    },
+    "p_f_fe_adj": {
+      "description": "Proportion of iron from fortification adjusted",
+      "unit": "%"
+    },
+    "p_f_zn_adj": {
+      "description": "Proportion of zinc from fortification adjusted",
+      "unit": "%"
+    },
+    "p_f_vita_adj": {
+      "description": "Proportion of vitamin A from fortification adjusted",
+      "unit": "%"
+    },
+    "p_f_vitc_adj": {
+      "description": "Proportion of vitamin C from fortification adjusted",
+      "unit": "%"
+    },
+    "ironheme_adj": {
+      "description": "Heme iron adjusted",
+      "unit": "mg"
+    },
+    "ironnonhem_adj": {
+      "description": "Non-heme iron adjusted",
+      "unit": "mg"
+    }
+  }
+  

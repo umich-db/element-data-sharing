@@ -1,0 +1,39 @@
+{
+    "folio": {
+      "description": "file",
+      "unit": ""
+    },
+    "proyecto": {
+      "description": "project",
+      "unit": ""
+    },
+    "food_code": {
+      "description": "food code",
+      "unit": ""
+    },
+    "food_name": {
+      "description": "food name",
+      "unit": ""
+    },
+    "ffq_applied": {
+      "description": "ffq applied",
+      "unit": ""
+    },
+    "times_per_week": {
+      "description": "times per week",
+      "unit": ""
+    },
+    "times_per_day": {
+      "description": "times per day",
+      "unit": ""
+    },
+    "portion_size": {
+      "description": "portion size",
+      "unit": ""
+    },
+    "num_portions": {
+      "description": "number of portions",
+      "unit": ""
+    }
+  }
+  

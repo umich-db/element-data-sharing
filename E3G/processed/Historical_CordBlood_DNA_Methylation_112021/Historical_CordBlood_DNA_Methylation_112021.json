@@ -1,0 +1,79 @@
+{
+    "PROYECTO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FOLIO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FOLIOCC": {
+      "description": "Cholesterol study ID number",
+      "unit": "None"
+    },
+    "LINE_Date_cord": {
+      "description": "LINE1 Pyrosequencing plate (Date) sample was run on (batch)",
+      "unit": "None"
+    },
+    "line_1_cord_adj": {
+      "description": "% methylation at CpG site # 1 of LINE, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "line_2_cord_adj": {
+      "description": "% methylation at CpG site # 2 of LINE, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "line_3_cord_adj": {
+      "description": "% methylation at CpG site # 3 of LINE, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "line_4_cord_adj": {
+      "description": "% methylation at CpG site # 4 of LINE, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "H19_Date_cord": {
+      "description": "H19 Pyrosequencing plate (Date) sample was run on (batch)",
+      "unit": "None"
+    },
+    "h19_1_cord_adj": {
+      "description": "% methylation at CpG site # 1 of H19, cord blood DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": "percentage"
+    },
+    "h19_2_cord_adj": {
+      "description": "% methylation at CpG site # 2 of H19, cord blood DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": "percentage"
+    },
+    "h19_3_cord_adj": {
+      "description": "% methylation at CpG site # 3 of H19, cord blood DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": "percentage"
+    },
+    "h19_4_cord_adj": {
+      "description": "% methylation at CpG site # 4 of H19, cord blood DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": "percentage"
+    },
+    "HSD11B2_Date_cord": {
+      "description": "HSD11B2 Pyrosequencing plate (Date) sample was run on (batch)",
+      "unit": "None"
+    },
+    "hsd11b2_1_cord_adj": {
+      "description": "% methylation at CpG site # 1 of HSD11B2, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "hsd11b2_2_cord_adj": {
+      "description": "% methylation at CpG site # 2 of HSD11B2, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "hsd11b2_3_cord_adj": {
+      "description": "% methylation at CpG site # 3 of HSD11B2, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "hsd11b2_4_cord_adj": {
+      "description": "% methylation at CpG site # 4 of HSD11B2, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    },
+    "hsd11b2_5_cord_adj": {
+      "description": "% methylation at CpG site # 5 of HSD11B2, cord blood DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": "percentage"
+    }
+  }
+  

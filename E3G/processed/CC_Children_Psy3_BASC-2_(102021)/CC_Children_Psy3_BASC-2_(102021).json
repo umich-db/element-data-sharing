@@ -1,0 +1,167 @@
+{
+    "proyecto": {
+      "description": "Old (id) Project",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "Old id",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Id project choleterol",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_basc": {
+      "description": "Visit date project choleterol",
+      "unit": "None"
+    },
+    "sex_ch": {
+      "description": "Sex",
+      "unit": "None"
+    },
+    "Age_yrs": {
+      "description": "AgeChildren",
+      "unit": "years"
+    },
+    "edad_basccon": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sp": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "ip": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "ih": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "esi": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "pa": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "as": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "at": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "sse": {
+      "description": "BASC- Autoreporte: Adolecente 12 a 21 años",
+      "unit": "None"
+    },
+    "aty": {
+      "description": "BASC- Autoreporte: Adolecente 12 a 21 años",
+      "unit": "None"
+    },
+    "lc": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "sst": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "anx": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "dep": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "si": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "som": {
+      "description": "BASC- Autoreporte: Adolecente 12 a 21 años",
+      "unit": "None"
+    },
+    "ap": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "hyp": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "rp": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "ir": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "se": {
+      "description": "BASC-Autoreporte: Niño 8 a 11 años",
+      "unit": "None"
+    },
+    "sr": {
+      "description": "BASC- Autoreporte: Adolecente 12 a 21 años",
+      "unit": "None"
+    },
+    "ta": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ac": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ma": {
+      "description": "None",
+      "unit": "None"
+    },
+    "es": {
+      "description": "None",
+      "unit": "None"
+    },
+    "prfa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "prem": {
+      "description": "None",
+      "unit": "None"
+    },
+    "prco": {
+      "description": "None",
+      "unit": "None"
+    },
+    "cog_dis": {
+      "description": "None",
+      "unit": "None"
+    },
+    "conej": {
+      "description": "None",
+      "unit": "None"
+    },
+    "hiper": {
+      "description": "None",
+      "unit": "None"
+    },
+    "adhd": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

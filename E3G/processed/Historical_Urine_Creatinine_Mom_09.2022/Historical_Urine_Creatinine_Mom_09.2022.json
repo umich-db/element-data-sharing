@@ -1,0 +1,39 @@
+{
+    "PROYECTO": {
+      "description": "project",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "file",
+      "unit": ""
+    },
+    "creat_11": {
+      "description": "Mother Urine Creatinine Trimester 1",
+      "unit": ""
+    },
+    "creat_12": {
+      "description": "Mother Urine Creatinine Trimester 2",
+      "unit": ""
+    },
+    "creat_13": {
+      "description": "Mother Urine Creatinine Trimester 3",
+      "unit": ""
+    },
+    "creat_21": {
+      "description": "Mother Urine Creatinine 1 month postpartum",
+      "unit": ""
+    },
+    "creat_24": {
+      "description": "Mother Urine Creatinine 4 months postpartum",
+      "unit": ""
+    },
+    "creat_27": {
+      "description": "Mother Urine Creatinine 7 months postpartum",
+      "unit": ""
+    },
+    "creat_212": {
+      "description": "Mother Urine Creatinine 12 months postpartum",
+      "unit": ""
+    }
+  }
+  

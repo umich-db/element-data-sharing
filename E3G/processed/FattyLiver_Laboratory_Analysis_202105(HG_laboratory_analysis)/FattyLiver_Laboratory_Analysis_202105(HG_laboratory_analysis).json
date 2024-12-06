@@ -1,0 +1,35 @@
+{
+    "hemog": {
+      "description": "Hemoglobin",
+      "unit": "None"
+    },
+    "alt": {
+      "description": "Alanine aminotransferase",
+      "unit": "None"
+    },
+    "ast": {
+      "description": "Aspartate aminotransferase",
+      "unit": "None"
+    },
+    "ggt": {
+      "description": "Gamma-glutamyl transferase",
+      "unit": "None"
+    },
+    "gluc": {
+      "description": "Glucose",
+      "unit": "None"
+    },
+    "trig": {
+      "description": "Triglycerides",
+      "unit": "None"
+    },
+    "chol": {
+      "description": "Cholesterol",
+      "unit": "None"
+    },
+    "hdlc": {
+      "description": "High-density lipoprotein",
+      "unit": "None"
+    }
+  }
+  

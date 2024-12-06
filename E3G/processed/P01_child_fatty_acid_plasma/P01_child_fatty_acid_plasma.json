@@ -1,0 +1,151 @@
+{
+    "foliocc": {
+      "description": "Unique Subject ID",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Sc": {
+      "description": "Tridecanoic Acid",
+      "unit": "percentage of total fatty acids"
+    },
+    "S2": {
+      "description": "Tetradecanoic Acid (Mystristic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "M1": {
+      "description": "9c-Tetradecenoic Acid (Mysristoleic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "S3": {
+      "description": "Pentadecanoic Acid",
+      "unit": "percentage of total fatty acids"
+    },
+    "S4": {
+      "description": "Hexadecanoic Acid (Palmitic Acid, Aethalic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "S5": {
+      "description": "Heptadecanoic Acid (Margaric Acid, Daturinic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "S6": {
+      "description": "Octadecanoic Acid (Stearic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "S8": {
+      "description": "Eicosanoic Acid (Arachidic Acid, Icosanoic Acid, Arachic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "M10": {
+      "description": "11c-Eicosenoic Acid (Gondoic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P10": {
+      "description": "5c,8c,11c,14c17c-Eicosapentaenoic Acid (EPA, Timnodonic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "S10": {
+      "description": "Docosanoic Acid (Behenic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "M13": {
+      "description": "Docosenoic acid (Erucic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P12": {
+      "description": "7c,10c,13c,16c-Docosatetraynoic Acid (Aolrenic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P13": {
+      "description": "7c,10c,13c,16c,19c-Docosapentaenoic Acid (DPA)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P14": {
+      "description": "4c,7c,10c,13c,16c,19c-Docosahexaenoic Acid (DHA, Cervanic Aicd)",
+      "unit": "percentage of total fatty acids"
+    },
+    "S12": {
+      "description": "Tetracosanoic Acid (Lignoceric Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "M12": {
+      "description": "15c-Tetrasenoic Acid (Nervonic Acid, Selacholeic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "M3": {
+      "description": "9c-Hexadecenoic Acid (Palmitoleic Acid, Zoomaric Acid, Physetoleic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "T2": {
+      "description": "9t-Hexadecenoic Acid (Palmitelaidic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "T3": {
+      "description": "6t-Octadecenoic Acid (Petroselaidic Acid, Tarelaidinic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "M7": {
+      "description": "11c-Octadecenoic Acid",
+      "unit": "percentage of total fatty acids"
+    },
+    "T5": {
+      "description": "11t-Octadecenoic Acid (Vaccenic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "M6": {
+      "description": "9c-Octadecenoic Acid (Oleic Acid, Rapinic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "T4": {
+      "description": "9t-Octadecenoic Acid (Elaidic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P1": {
+      "description": "9c,12c-Octadecadienoic Acid (Linoleic Acid, Leinlic Acid, Telfairic Acid, Linolic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "T12": {
+      "description": "Octadecadienoic Acid (Linoelaidic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "T7": {
+      "description": "9c,12t-Octadecadienoic Acid",
+      "unit": "percentage of total fatty acids"
+    },
+    "T8": {
+      "description": "9t,12c-Octadecadienoic Acid",
+      "unit": "percentage of total fatty acids"
+    },
+    "P4": {
+      "description": "9c,11c-Octadecadienoic Acid (CLA (C14), Ricinenic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P3": {
+      "description": "9c,12c,15c-Octadecatrienoic Acid (Alpha-linolenic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P2": {
+      "description": "6c,9c,12c-Octadecatrienoic Acid (Gamma-linolenic Acid, Gamolenic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P5": {
+      "description": "11c,14c-Eicosadienoic Acid",
+      "unit": "percentage of total fatty acids"
+    },
+    "P7": {
+      "description": "11c,14c,17c-Eicosatrienoic Acid (from 18:3(n-3))",
+      "unit": "percentage of total fatty acids"
+    },
+    "P6": {
+      "description": "8c,11c,14c-Eicosatrienoic Acid (Dihomogammalinolenic Acid)",
+      "unit": "percentage of total fatty acids"
+    },
+    "P8": {
+      "description": "5c,8c,111c,14c-Eicosatetraenoic Acid (Arachidonic Acid)",
+      "unit": "percentage of total fatty acids"
+    }
+  }
+  

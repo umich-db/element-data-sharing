@@ -1,0 +1,47 @@
+{
+    "proyecto": {
+      "description": "project",
+      "unit": ""
+    },
+    "folio": {
+      "description": "file",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "stage": {
+      "description": "stage",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "stage",
+      "unit": ""
+    },
+    "edad_ch": {
+      "description": "child's age",
+      "unit": ""
+    },
+    "h_glu": {
+      "description": "glucose",
+      "unit": ""
+    },
+    "h_chol": {
+      "description": "cholesterol",
+      "unit": ""
+    },
+    "h_tg": {
+      "description": "Triglycerides",
+      "unit": ""
+    },
+    "h_hdl_c": {
+      "description": "High-density lipoprotein",
+      "unit": ""
+    },
+    "h_ldl": {
+      "description": "Intermediate-Density Lipoproteins",
+      "unit": ""
+    }
+  }
+  

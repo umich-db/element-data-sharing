@@ -1,0 +1,167 @@
+{
+    "FOLIOCC": {
+      "description": "unique identifier",
+      "unit": "None"
+    },
+    "ETAPA": {
+      "description": "stage",
+      "unit": "None"
+    },
+    "Sample__": {
+      "description": "sample",
+      "unit": "None"
+    },
+    "SHBG_nmol_L": {
+      "description": "Sex hormone binding globulin (SHBG)",
+      "unit": "nmol/L"
+    },
+    "AMH_ng_mL": {
+      "description": "Anti-Mullerian hormone (AMH)",
+      "unit": "ng/mL"
+    },
+    "INHb_pg_mL": {
+      "description": "inhibin B",
+      "unit": "pg/mL"
+    },
+    "DHEA_pg_mL": {
+      "description": "Dehydroepiandrosterone (DHEA)",
+      "unit": "pg/mL"
+    },
+    "Adiponectin": {
+      "description": "Adiponectin",
+      "unit": "None"
+    },
+    "CPeptide": {
+      "description": "Cpeptide",
+      "unit": "None"
+    },
+    "DHEAS": {
+      "description": "DHEAS",
+      "unit": "None"
+    },
+    "Glucose": {
+      "description": "Glucose",
+      "unit": "None"
+    },
+    "IGF1": {
+      "description": "Insulin-like Growth Factor (IGF-1)",
+      "unit": "None"
+    },
+    "Insulin": {
+      "description": "Insulin",
+      "unit": "None"
+    },
+    "Leptin": {
+      "description": "Leptin",
+      "unit": "None"
+    },
+    "Tot_Chol": {
+      "description": "Total Cholesterol",
+      "unit": "None"
+    },
+    "HDL": {
+      "description": "high-density lipoprotein",
+      "unit": "None"
+    },
+    "Trigly": {
+      "description": "Triglycerides",
+      "unit": "None"
+    },
+    "LDL": {
+      "description": "Low-density lipoprotein (LDL)",
+      "unit": "None"
+    },
+    "_18_Hydroxycorticosterone": {
+      "description": "_18_Hydroxycorticosterone",
+      "unit": "None"
+    },
+    "_18_Hydroxycortisol": {
+      "description": "_18_Hydroxycortisol",
+      "unit": "None"
+    },
+    "_18_Oxocortisol": {
+      "description": "_18_Oxocortisol",
+      "unit": "None"
+    },
+    "Cortisol": {
+      "description": "Cortisol",
+      "unit": "None"
+    },
+    "Cortisone": {
+      "description": "Cortisone",
+      "unit": "None"
+    },
+    "_21_Deoxycortisol": {
+      "description": "_21_Deoxycortisol",
+      "unit": "None"
+    },
+    "Estradiol": {
+      "description": "Estradiol",
+      "unit": "None"
+    },
+    "Aldosterone": {
+      "description": "Aldosterone",
+      "unit": "None"
+    },
+    "_11_Hydroxytestosterone": {
+      "description": "_11_Hydroxytestosterone",
+      "unit": "None"
+    },
+    "_11_Ketotestosterone": {
+      "description": "_11_Ketotestosterone",
+      "unit": "None"
+    },
+    "_11_Deoxycortisol": {
+      "description": "_11_Deoxycortisol",
+      "unit": "None"
+    },
+    "_11_Hydroxyandrostenedione": {
+      "description": "_11_Hydroxyandrostenedione",
+      "unit": "None"
+    },
+    "_11_ketoandrostenedione": {
+      "description": "_11_ketoandrostenedione",
+      "unit": "None"
+    },
+    "Corticosterone": {
+      "description": "Corticosterone",
+      "unit": "None"
+    },
+    "Estrone": {
+      "description": "Estrone",
+      "unit": "None"
+    },
+    "_11_Ketoprogesterone": {
+      "description": "_11_Ketoprogesterone",
+      "unit": "None"
+    },
+    "_11_OH_Progesterone": {
+      "description": "_11_OH_Progesterone",
+      "unit": "None"
+    },
+    "_16_OH_Progesterone": {
+      "description": "_16_OH_Progesterone",
+      "unit": "None"
+    },
+    "_17_OH_Progesterone": {
+      "description": "_17_OH_Progesterone",
+      "unit": "None"
+    },
+    "Testosterone": {
+      "description": "Testosterone",
+      "unit": "None"
+    },
+    "Androstenedione_AD": {
+      "description": "Androstenedione_AD",
+      "unit": "None"
+    },
+    "_11_DOC": {
+      "description": "_11_DOC",
+      "unit": "None"
+    },
+    "Progesterone": {
+      "description": "Progesterone",
+      "unit": "None"
+    }
+  }
+  

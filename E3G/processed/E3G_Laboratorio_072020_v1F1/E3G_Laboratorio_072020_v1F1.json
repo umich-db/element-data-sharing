@@ -1,0 +1,159 @@
+{
+    "proyecto": {
+      "description": "PROYECTO AL QUE PERTENECE, TRIADA",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "FOLIO",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "ETAPA DEL PROYECTO",
+      "unit": "None"
+    },
+    "participante": {
+      "description": "PARTICIPANTE",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "STAGE",
+      "unit": "None"
+    },
+    "id": {
+      "description": "ID",
+      "unit": "None"
+    },
+    "fecha": {
+      "description": "FECHA DEL ESTUDIO",
+      "unit": "None"
+    },
+    "leu": {
+      "description": "LEUCOCITOS",
+      "unit": "None"
+    },
+    "eri": {
+      "description": "ERITROCITOS",
+      "unit": "None"
+    },
+    "hgb": {
+      "description": "HEMOGLOBINA",
+      "unit": "None"
+    },
+    "hct": {
+      "description": "HEMATOCRITO",
+      "unit": "None"
+    },
+    "vcm": {
+      "description": "VOLUMEN CORPUSCULAR MEDIO",
+      "unit": "None"
+    },
+    "hcm": {
+      "description": "HEMOGLOBINA CORPUSCULAR MEDIA",
+      "unit": "None"
+    },
+    "chcm": {
+      "description": "CONCENTRACIÓN HEMOGLOBINA CORPUSCULAR MEDIA",
+      "unit": "None"
+    },
+    "ade": {
+      "description": "AMPLITUD DE DISTRIBUCIÓN ERITROCITARIA (RDW)",
+      "unit": "None"
+    },
+    "plq": {
+      "description": "PLAQUETAS",
+      "unit": "None"
+    },
+    "vpm": {
+      "description": "VOLUMEN PLAQUETARIO MEDIO",
+      "unit": "None"
+    },
+    "pct": {
+      "description": "PLAQUETOCRITO",
+      "unit": "None"
+    },
+    "adp": {
+      "description": "AMPLITUD DE DISTRIBUCIÓN PLAQUETARIA",
+      "unit": "None"
+    },
+    "neu": {
+      "description": "PORCENTAJE DE NEUTRÓFILOS",
+      "unit": "None"
+    },
+    "li": {
+      "description": "PORCENTAJE DE LINFOCITOS",
+      "unit": "None"
+    },
+    "mo": {
+      "description": "PORCENTAJE DE MONOCITOS",
+      "unit": "None"
+    },
+    "eo": {
+      "description": "PORCENTAJE DE EOSINÓFILOS",
+      "unit": "None"
+    },
+    "ba": {
+      "description": "PORCENTAJE DE BASÓFILOS",
+      "unit": "None"
+    },
+    "lat": {
+      "description": "PORCENTAJE DE LINFOCITOS ATÍPICOS",
+      "unit": "None"
+    },
+    "cim": {
+      "description": "PORCENTAJE DE CÉLULAS INMADURAS",
+      "unit": "None"
+    },
+    "ne_n": {
+      "description": "NEUTRÓFILOS ABSOLUTOS",
+      "unit": "None"
+    },
+    "ly_n": {
+      "description": "LINFOCITOS ABSOLUTOS",
+      "unit": "None"
+    },
+    "mo_n": {
+      "description": "MONOCITOS ABSOLUTOS",
+      "unit": "None"
+    },
+    "eo_n": {
+      "description": "EOSINÓFILOS ABSOLUTOS",
+      "unit": "None"
+    },
+    "ba_n": {
+      "description": "BASÓFILOS ABSOLUTOS",
+      "unit": "None"
+    },
+    "lat_n": {
+      "description": "LINFOCITOS ATÍPICOS",
+      "unit": "None"
+    },
+    "cim_n": {
+      "description": "CÉLULAS INMADURAS",
+      "unit": "None"
+    },
+    "chol": {
+      "description": "COLESTEROL",
+      "unit": "None"
+    },
+    "gluc_god": {
+      "description": "GLUCOSA",
+      "unit": "None"
+    },
+    "hdl_c": {
+      "description": "COLESTEROL HDL",
+      "unit": "None"
+    },
+    "trig": {
+      "description": "TRIGLICERIDOS",
+      "unit": "None"
+    },
+    "obs1": {
+      "description": "OBSERVACIONES",
+      "unit": "None"
+    }
+  }
+  

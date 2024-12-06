@@ -1,0 +1,67 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Ni": {
+      "description": "nickel",
+      "unit": "None"
+    },
+    "Cu": {
+      "description": "Copper",
+      "unit": "None"
+    },
+    "Mo": {
+      "description": "molybdenum",
+      "unit": "None"
+    },
+    "Sb": {
+      "description": "antimony",
+      "unit": "None"
+    },
+    "Ba": {
+      "description": "Barium",
+      "unit": "None"
+    },
+    "Pb": {
+      "description": "lead",
+      "unit": "None"
+    },
+    "Fe": {
+      "description": "iron",
+      "unit": "None"
+    },
+    "As": {
+      "description": "Arsenic",
+      "unit": "None"
+    },
+    "Se": {
+      "description": "Selenium",
+      "unit": "None"
+    },
+    "Al": {
+      "description": "Aluminum",
+      "unit": "None"
+    },
+    "Mn": {
+      "description": "Manganese",
+      "unit": "None"
+    },
+    "Co": {
+      "description": "Cobalt",
+      "unit": "None"
+    },
+    "Zn": {
+      "description": "Zinc",
+      "unit": "None"
+    },
+    "Cd": {
+      "description": "Cadmium",
+      "unit": "None"
+    },
+    "spec_grav": {
+      "description": "specific gravity",
+      "unit": "None"
+    }
+  }
+  

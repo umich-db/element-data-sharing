@@ -1,0 +1,163 @@
+{
+    "folio": {
+      "description": "Fatty liver project ID",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "Stage",
+      "unit": ""
+    },
+    "id": {
+      "description": "Identifier number from Fatty liver project",
+      "unit": ""
+    },
+    "folc1": {
+      "description": "Cohort 1 ID",
+      "unit": ""
+    },
+    "f_dia": {
+      "description": "Measurement day",
+      "unit": ""
+    },
+    "f_mes": {
+      "description": "Measurement month",
+      "unit": ""
+    },
+    "f_anio": {
+      "description": "Measurement year",
+      "unit": ""
+    },
+    "fecha": {
+      "description": "Date of the sample collection",
+      "unit": "dd/mm/yy"
+    },
+    "rdhdpagua": {
+      "description": "Water Proton Density, Liver Region",
+      "unit": ""
+    },
+    "rhdpp1": {
+      "description": "Water Proton Density, Liver Region, Peak 1",
+      "unit": ""
+    },
+    "rhdpp2": {
+      "description": "Water Proton Density, Liver Region, Peak 2",
+      "unit": ""
+    },
+    "rhdpp3": {
+      "description": "Water Proton Density, Liver Region, Peak 3",
+      "unit": ""
+    },
+    "rhdppg": {
+      "description": "Proton Density, Fat percentage, Liver Region",
+      "unit": ""
+    },
+    "rhpa": {
+      "description": "Liver Region, Philips",
+      "unit": ""
+    },
+    "rhpp1": {
+      "description": "Liver Region, Philips, Peak 1",
+      "unit": ""
+    },
+    "rhpp2": {
+      "description": "Liver Region, Philips, Peak 2",
+      "unit": ""
+    },
+    "rhpp3": {
+      "description": "Liver Region, Philips, Peak 3",
+      "unit": ""
+    },
+    "rhppg": {
+      "description": "Fat percentage, Liver Region, Philips",
+      "unit": ""
+    },
+    "rpdpa": {
+      "description": "Water Proton Density, Pancreas Region",
+      "unit": ""
+    },
+    "rpdpp1": {
+      "description": "Proton Density, Pancreas Region, Peak 1",
+      "unit": ""
+    },
+    "rpdpp2": {
+      "description": "Proton Density, Pancreas Region, Peak 2",
+      "unit": ""
+    },
+    "rpdpp3": {
+      "description": "Proton Density, Pancreas Region, Peak 3",
+      "unit": ""
+    },
+    "rpdppg": {
+      "description": "Proton Density, Fat percentage, Pancreas Region",
+      "unit": ""
+    },
+    "rppa": {
+      "description": "Water, Pancreas Region, Philips",
+      "unit": ""
+    },
+    "rppp1": {
+      "description": "Water, Pancreas Region, Philips, Peak 1",
+      "unit": ""
+    },
+    "rppp2": {
+      "description": "Water, Pancreas Region, Philips, Peak 2",
+      "unit": ""
+    },
+    "rppp3": {
+      "description": "Water, Pancreas Region, Philips, Peak 3",
+      "unit": ""
+    },
+    "rpppg": {
+      "description": "Fat percentage, Pancreas Region, Philips",
+      "unit": ""
+    },
+    "agrasasub": {
+      "description": "Subcutaneous Fat Area",
+      "unit": "cm2"
+    },
+    "agrasaintra": {
+      "description": "Intravisceral Fat Area",
+      "unit": "cm2"
+    },
+    "agrasubintra": {
+      "description": "Subcutaneous/intravisceral Fat Area",
+      "unit": ""
+    },
+    "pihp31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pcrhp31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "atpahp31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "atpbhp31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "atpgp31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "atppihp31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pihp_31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "phhp31": {
+      "description": "None",
+      "unit": "None"
+    },
+    "obsgrasa": {
+      "description": "Observations (fat)",
+      "unit": ""
+    }
+  }
+  

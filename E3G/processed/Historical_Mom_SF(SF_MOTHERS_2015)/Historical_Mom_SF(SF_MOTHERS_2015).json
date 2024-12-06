@@ -1,0 +1,171 @@
+{
+    "proyecto": {
+      "description": "Project identifier",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Unique identifier for each participant or record",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Mother's identifier",
+      "unit": ""
+    },
+    "P20": {
+      "description": "Variable related to the project, specific description not provided",
+      "unit": ""
+    },
+    "AC_sexH": {
+      "description": "Sex of the child (H for male in Spanish)",
+      "unit": ""
+    },
+    "AC_fechanac": {
+      "description": "Date of birth of the child",
+      "unit": ""
+    },
+    "fechanac_M": {
+      "description": "Date of birth of the mother",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "Stage or phase of the project or study",
+      "unit": ""
+    },
+    "fecha_eta": {
+      "description": "Date related to the stage or phase of the project",
+      "unit": ""
+    },
+    "hospital": {
+      "description": "Hospital identifier or name",
+      "unit": ""
+    },
+    "entrevis_cues": {
+      "description": "Identifier for the interview or questionnaire",
+      "unit": ""
+    },
+    "fecha_cuest": {
+      "description": "Date of the interview or questionnaire",
+      "unit": ""
+    },
+    "edad1": {
+      "description": "Age of the individual (likely the mother or child)",
+      "unit": "years"
+    },
+    "fechanac": {
+      "description": "Date of birth",
+      "unit": ""
+    },
+    "c9": {
+      "description": "Variable related to living in Mexico City",
+      "unit": ""
+    },
+    "c10": {
+      "description": "Variable related to the time living in Mexico City",
+      "unit": "years"
+    },
+    "c111": {
+      "description": "Variable related to literacy (ability to read and write)",
+      "unit": ""
+    },
+    "c112": {
+      "description": "Variable related to the total years of education approved",
+      "unit": "years"
+    },
+    "c12": {
+      "description": "Variable related to marital status",
+      "unit": ""
+    },
+    "c13": {
+      "description": "Variable related to marital status with specific options like married, single, etc.",
+      "unit": ""
+    },
+    "c141": {
+      "description": "Variable related to the partner's education level",
+      "unit": ""
+    },
+    "c142": {
+      "description": "Variable related to the partner's years of education approved",
+      "unit": "years"
+    },
+    "c15": {
+      "description": "Variable related to the partner's total years of education approved",
+      "unit": "years"
+    },
+    "c161": {
+      "description": "Variable related to the partner's workplace exposure to prints",
+      "unit": ""
+    },
+    "c162": {
+      "description": "Variable related to the partner's workplace exposure to lead foundry",
+      "unit": ""
+    },
+    "c163": {
+      "description": "Variable related to the partner's workplace exposure to plumbing workshop",
+      "unit": ""
+    },
+    "c164": {
+      "description": "Variable related to the partner's workplace exposure to battery workshop",
+      "unit": ""
+    },
+    "c165": {
+      "description": "Variable related to the partner's workplace exposure to paint or varnish factory",
+      "unit": ""
+    },
+    "c166": {
+      "description": "Variable related to the partner's workplace exposure to ceramic factory",
+      "unit": ""
+    },
+    "c167": {
+      "description": "Variable related to the partner's workplace exposure to gasoline refinery",
+      "unit": ""
+    },
+    "c168": {
+      "description": "Variable related to the partner's workplace exposure to gas station",
+      "unit": ""
+    },
+    "c17": {
+      "description": "Variable related to the type of street the individual lives on (traffic volume)",
+      "unit": ""
+    },
+    "c18": {
+      "description": "Variable related to the use of glazed clay pots in childhood",
+      "unit": ""
+    },
+    "c19": {
+      "description": "Variable related to the current use of glazed clay pots",
+      "unit": ""
+    },
+    "c20": {
+      "description": "Variable related to the frequency of using glazed clay pots",
+      "unit": ""
+    },
+    "c21": {
+      "description": "Variable related to the number of days storing food in glazed clay pots",
+      "unit": "days"
+    },
+    "c22": {
+      "description": "Variable related to the number of years storing food in glazed clay pots",
+      "unit": "years"
+    },
+    "c23": {
+      "description": "Variable related to the number of days preparing food in glazed clay pots",
+      "unit": "days"
+    },
+    "c24": {
+      "description": "Variable related to the number of years preparing food in glazed clay pots",
+      "unit": "years"
+    },
+    "c25": {
+      "description": "Variable related to the consumption of food prepared in glazed clay pots the previous day",
+      "unit": ""
+    },
+    "c26": {
+      "description": "Variable related to the source of drinking water",
+      "unit": ""
+    },
+    "c27": {
+      "description": "Variable related to boiling drinking water before consumption",
+      "unit": ""
+    }
+  }
+  

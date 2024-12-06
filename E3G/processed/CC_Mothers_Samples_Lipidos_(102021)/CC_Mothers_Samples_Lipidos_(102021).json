@@ -1,0 +1,14 @@
+{
+    "proyecto": {"description": "proyecto", "unit": "None"},
+    "folio": {"description": "folio", "unit": "None"},
+    "foliocc": {"description": "foliocc", "unit": "None"},
+    "stage": {"description": "stage", "unit": "None"},
+    "etapa": {"description": "etapa", "unit": "None"},
+    "Age_m": {"description": "Age_m", "unit": "None"},
+    "m_glu": {"description": "m_glu", "unit": "None"},
+    "m_chol": {"description": "m_chol", "unit": "None"},
+    "m_tg": {"description": "m_tg", "unit": "None"},
+    "m_hdl_c": {"description": "m_hdl_c", "unit": "None"},
+    "m_ldl": {"description": "m_ldl", "unit": "None"}
+  }
+  

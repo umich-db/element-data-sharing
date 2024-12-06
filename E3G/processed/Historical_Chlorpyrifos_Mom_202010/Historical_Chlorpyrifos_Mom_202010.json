@@ -1,0 +1,15 @@
+{
+    "PROYECTO": {"description": "Project", "unit": ""},
+    "FOLIO": {"description": "File", "unit": ""},
+    "ETAPA": {"description": "Stage", "unit": ""},
+    "MDA": {"description": "MDA", "unit": ""},
+    "TCPY": {"description": "TCPy", "unit": ""},
+    "DCCA": {"description": "DCCA", "unit": ""},
+    "_3_PBA": {"description": "_3_PBA", "unit": ""},
+    "trimester": {"description": "trimester", "unit": ""},
+    "mda_1": {"description": "MDA 1", "unit": ""},
+    "tcpy_1": {"description": "TCPy 1", "unit": ""},
+    "dcca_1": {"description": "DCCA 1", "unit": ""},
+    "_3_PBA_1": {"description": "_3_PBA_1", "unit": ""}
+  }
+  

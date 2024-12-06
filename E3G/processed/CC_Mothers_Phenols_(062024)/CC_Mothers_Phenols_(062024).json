@@ -1,0 +1,19 @@
+{
+    "Proyecto": {"description": "None", "unit": "None"},
+    "Folio": {"description": "None", "unit": "None"},
+    "Foliocc": {"description": "None", "unit": "None"},
+    "Etapacc": {"description": "None", "unit": "None"},
+    "_24_DCP": {"description": "2,4-Dichlorophenol", "unit": "None"},
+    "_25_DCP": {"description": "2,5-Dichlorophenol", "unit": "None"},
+    "BP_3": {"description": "Benzophenone-3", "unit": "None"},
+    "BPA": {"description": "Bisphenol A", "unit": "None"},
+    "BPF": {"description": "Bisphenol F", "unit": "None"},
+    "BPS": {"description": "Bisphenol S", "unit": "None"},
+    "BPB": {"description": "Butyl Paraben", "unit": "None"},
+    "EPB": {"description": "Ethyl Paraben", "unit": "None"},
+    "MPB": {"description": "Methyl Paraben", "unit": "None"},
+    "PPB": {"description": "Propyl Paraben", "unit": "None"},
+    "TCC": {"description": "Triclosan", "unit": "None"},
+    "TCS": {"description": "Triclocarban", "unit": "None"}
+  }
+  

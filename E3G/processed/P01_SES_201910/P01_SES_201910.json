@@ -1,0 +1,163 @@
+{
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "vn8": {
+      "description": "None",
+      "unit": "None"
+    },
+    "vn9_n": {
+      "description": "Education (level)",
+      "unit": "0=No education\n1= Elementary school\n2=Post-elementary school technician.\n3=Middle school\n4= Post-middle school technician\n5= Commercial career\n6= Technical career\n7=High school\n8=Post-high school technician\n9=Undergraduate degree\n10=Graduate degree"
+    },
+    "vn9_g": {
+      "description": "Education (years)",
+      "unit": "0=0\n1=1\n2=2\n3=3\n4=4\n5=5\n6=6"
+    },
+    "vn10": {
+      "description": "Rooms",
+      "unit": "0=0\n1=1\n2=2\n3=3\n4=4\n5=5\n6=6\n7=7 or more"
+    },
+    "vn11": {
+      "description": "Bathrooms",
+      "unit": "1=1\n2=2\n3=3\n4=4 or more"
+    },
+    "vn10_1": {
+      "description": "Shower",
+      "unit": "1=yes\n2=no"
+    },
+    "vn12": {
+      "description": "Boiler",
+      "unit": "1=yes\n2=no"
+    },
+    "vn13": {
+      "description": "Light_bulbs",
+      "unit": "1= 5 or less\n2=6-10\n3=11-15\n4=16-20\n5=21 or more"
+    },
+    "vn14": {
+      "description": "Flooring",
+      "unit": "1=Soil (no floor)\n2= Cement (no floor)\n3= Tile (with floor)\n4= Vynil/linoleum (with floor)\n5=Carpet (with floor)\n6=Other (with floor)"
+    },
+    "vn14_e": {
+      "description": "None",
+      "unit": "None"
+    },
+    "vn15": {
+      "description": "Cars",
+      "unit": "0=0\n1=1\n2=2\n3= 3 or more"
+    },
+    "vn16": {
+      "description": "Vacuum_cleaner",
+      "unit": "1=yes\n2=no"
+    },
+    "vn17": {
+      "description": "Washing_machine",
+      "unit": "1=yes\n2=no"
+    },
+    "vn18": {
+      "description": "Microwave",
+      "unit": "1=yes\n2=no"
+    },
+    "vn19": {
+      "description": "Toaster",
+      "unit": "1=yes\n2=no"
+    },
+    "vn20": {
+      "description": "DVD_VCR",
+      "unit": "1=yes\n2=no"
+    },
+    "vn21n": {
+      "description": "Computer",
+      "unit": "0=0\n1=1\n2=2 or more"
+    },
+    "vn_tv": {
+      "description": "None",
+      "unit": "None"
+    },
+    "vn_estufa": {
+      "description": "Stove",
+      "unit": "1=yes\n2=no"
+    },
+    "s25n": {
+      "description": "None",
+      "unit": "None"
+    },
+    "s26n": {
+      "description": "None",
+      "unit": "None"
+    },
+    "s26_1n": {
+      "description": "None",
+      "unit": "None"
+    },
+    "s26_2n": {
+      "description": "None",
+      "unit": "None"
+    },
+    "s27n": {
+      "description": "None",
+      "unit": "None"
+    },
+    "esc_amai": {
+      "description": "Education level according to AMAI",
+      "unit": "1=No education\n2= Incomplete elementary school\n3= Complete elementary school\n4= Incomplete middle school\n5= Complete middle school\n6= Commercial career\n7=Technical career\n8= Incomplete high school\n9= Complete high school\n10= Incomplete undergraduate degree\n11= Complete undergraduate degree\n12= Diploma or Master’s degree\n13=Doctorate degree"
+    },
+    "amai_13x6": {
+      "description": "SES_AMAI_13X6",
+      "unit": "6=A/B\n5=C+\n4=C\n3=D+\n2=D\n1=E"
+    },
+    "cuartos_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: rooms_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "piso_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: flooring_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "banos_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: bathrooms_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "regadera_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: shower_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "estufa_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: stove_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "focos_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: lightbulbs_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "autos_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: cars_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "escol_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: education_score_amai8x7",
+      "unit": "Numeric"
+    },
+    "puntaje_amai8x7": {
+      "description": "Scores to calculate SES by AMAI 8x7: amai_8x7_score",
+      "unit": "Numeric"
+    },
+    "amai_8x7": {
+      "description": "SES_AMAI_8X7",
+      "unit": "7=A/B\n6=C+\n5=C\n4=C-\n3=D+\n2=D\n1=E"
+    },
+    "_merge": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

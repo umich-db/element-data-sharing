@@ -1,0 +1,35 @@
+{
+    "FOLIOCC": {
+      "description": "ID",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "Which visit",
+      "unit": ""
+    },
+    "peso": {
+      "description": "Weight in kg",
+      "unit": "kg"
+    },
+    "f_usda": {
+      "description": "Fluoride consumption calculated with the USDA tables",
+      "unit": "mcg / 100gr"
+    },
+    "fluoruros": {
+      "description": "Fluoride consumption calculated using market basket values",
+      "unit": "mcg / 100gr"
+    },
+    "fluoruros_beb": {
+      "description": "Consumption of fluorides only in drinks (tea, coffee, water, soda, flavored waters, juices)",
+      "unit": "mcg / 100ml"
+    },
+    "porc_fluor_bebidas": {
+      "description": "Percentage of fluorides in the diet from beverages",
+      "unit": "%"
+    },
+    "fluor_peso": {
+      "description": "Consumption of fluorides by body weight",
+      "unit": "mg / kg / d"
+    }
+  }
+  

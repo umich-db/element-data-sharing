@@ -1,0 +1,51 @@
+{
+    "PROYECTO": {
+      "description": "Cohort",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "Cohort Specific ID",
+      "unit": ""
+    },
+    "FOLIOCC": {
+      "description": "New Folio",
+      "unit": ""
+    },
+    "ID": {
+      "description": "Sample ID",
+      "unit": ""
+    },
+    "Etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "_F_u_ml_A": {
+      "description": "Fluoride content in milligrams of fluoride per milliliter of plasma/urine in aliquot A",
+      "unit": "mg F/ml"
+    },
+    "_F_u_ml_B": {
+      "description": "Fluoride content in milligrams of fluoride per milliliter of plasma/urine in aliquot B",
+      "unit": "mg F/ml"
+    },
+    "Mean": {
+      "description": "Average",
+      "unit": ""
+    },
+    "Error": {
+      "description": "Error",
+      "unit": ""
+    },
+    "SD": {
+      "description": "Standard deviation",
+      "unit": ""
+    },
+    "Perc_RSD": {
+      "description": "Percent relative standard deviation",
+      "unit": "%"
+    }
+  }
+  

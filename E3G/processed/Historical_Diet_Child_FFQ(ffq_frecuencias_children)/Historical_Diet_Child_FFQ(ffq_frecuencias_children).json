@@ -1,0 +1,623 @@
+{
+    "PROYECTO": {
+      "description": "These FFQ were also administered to children less than 5 yrs of age",
+      "unit": "None"
+    },
+    "FOLIO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FOLIO1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "EDAD_SNUT": {
+      "description": "None",
+      "unit": "None"
+    },
+    "SEXO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "EDAD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "REVIS": {
+      "description": "None",
+      "unit": "None"
+    },
+    "CODIF": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FECHA": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC1": {
+      "description": "un vaso de leche entera",
+      "unit": "1 glass of whole milk"
+    },
+    "FREC2": {
+      "description": "una rebanada de queso fresco o 1/2 taza de queso cottage",
+      "unit": "1 slice of fresh cheese or 1/2 cup of fresh cottage cheese"
+    },
+    "FREC3": {
+      "description": "una rebanada de queso oaxaca",
+      "unit": "1 slice of oaxaca cheese"
+    },
+    "FREC4": {
+      "description": "una rebanada de queso manchego o chihuahua",
+      "unit": "1 slice of manchego or chihuahua cheese"
+    },
+    "FREC5": {
+      "description": "una cucharada de queso crema",
+      "unit": "1 spoon of cream cheese"
+    },
+    "FREC6": {
+      "description": "una taza de yogurt o bulgaros",
+      "unit": "1 cup of yogurt or bulgaros"
+    },
+    "FREC7": {
+      "description": "un barquillo con helado de leche",
+      "unit": "ice cream cone"
+    },
+    "FREC8": {
+      "description": "un platano",
+      "unit": "banana"
+    },
+    "FREC9": {
+      "description": "una naranja",
+      "unit": "orange"
+    },
+    "FREC10": {
+      "description": "un vaso con jugo de naranja o toronja",
+      "unit": "1 glass fruit juice of orange or grapefruit"
+    },
+    "FREC11": {
+      "description": "una rebanada de melon",
+      "unit": "1 slice of melon"
+    },
+    "FREC12": {
+      "description": "una manzana",
+      "unit": "1 apple"
+    },
+    "FREC13": {
+      "description": "una rebanada de sandia",
+      "unit": "1 slice of watermelon"
+    },
+    "FREC14": {
+      "description": "una rebanada de piña",
+      "unit": "1 slice of pineapple"
+    },
+    "FREC15": {
+      "description": "una rebanada de papaya",
+      "unit": "1 slice of papaya"
+    },
+    "FREC16": {
+      "description": "una pera",
+      "unit": "1 pear"
+    },
+    "FREC17": {
+      "description": "un mango",
+      "unit": "1 mango"
+    },
+    "FREC18": {
+      "description": "una mandarina",
+      "unit": "1 mandarine"
+    },
+    "FREC19": {
+      "description": "una porcion de fresas(10)",
+      "unit": "1 portion of strawberry (10)"
+    },
+    "FREC20": {
+      "description": "un durazno, chabacano o nectarina",
+      "unit": "1 peach, apricot or nectarine"
+    },
+    "FREC21": {
+      "description": "una porcion de uvas(10-15)",
+      "unit": "1 portion of grapes(10-15)"
+    },
+    "FREC22": {
+      "description": "una tuna",
+      "unit": "1 prickly pear"
+    },
+    "FREC23": {
+      "description": "una porcion de ciruelas(6)",
+      "unit": "1 portion of plum(6)"
+    },
+    "FREC24": {
+      "description": "una rebanada de mamey",
+      "unit": "1 slice of mamey"
+    },
+    "FREC25": {
+      "description": "un zapote",
+      "unit": "a sapota"
+    },
+    "FREC26": {
+      "description": "un huevo de gallina",
+      "unit": "hen egg"
+    },
+    "FREC27": {
+      "description": "una pieza de pollo",
+      "unit": "1 piece of chicken"
+    },
+    "FREC28": {
+      "description": "una rebanada de jamon",
+      "unit": "1 slice of ham"
+    },
+    "FREC29": {
+      "description": "un plato de carne de res",
+      "unit": "1 plate of beef"
+    },
+    "FREC30": {
+      "description": "un plato de carne de puerco",
+      "unit": "1 plate of pork"
+    },
+    "FREC31": {
+      "description": "una porcion de atun",
+      "unit": "1 portion of tuna"
+    },
+    "FREC32": {
+      "description": "un pedazo de chicharron",
+      "unit": "1 piece of cold processed pork meat"
+    },
+    "FREC33": {
+      "description": "una salchicha",
+      "unit": "1 sausage"
+    },
+    "FREC34": {
+      "description": "una rebanada de tocino",
+      "unit": "1 slice of bacon"
+    },
+    "FREC35": {
+      "description": "un bistek de higado o higaditos de pollo",
+      "unit": "1 liver or chicken liver"
+    },
+    "FREC36": {
+      "description": "un trozo de chorizo o longaniza",
+      "unit": "1 piece of sausage or spicy cold pork sausage"
+    },
+    "FREC37": {
+      "description": "un plato de pescado fresco",
+      "unit": "1 plate of fresh fish"
+    },
+    "FREC38": {
+      "description": "un plato de sardinas",
+      "unit": "1 plate of sardine"
+    },
+    "FREC39": {
+      "description": "media taza de mariscos",
+      "unit": "half cup of seafood (shellfish)"
+    },
+    "FREC40": {
+      "description": "un plato de carnitas",
+      "unit": "1 plate of barbecue PORK"
+    },
+    "FREC41": {
+      "description": "un plato de barbacoa",
+      "unit": "1 plate of barbecue BEEF"
+    },
+    "FREC42": {
+      "description": "un jitomate en salsa o guisado",
+      "unit": "tomato (sauce or stew)"
+    },
+    "FREC43": {
+      "description": "un jitomate crudo o en ensalada",
+      "unit": "tomato raw or in salad"
+    },
+    "FREC44": {
+      "description": "una papa o camote",
+      "unit": "a potato or sweet potato"
+    },
+    "FREC45": {
+      "description": "media taza de zanahoria",
+      "unit": "half cup of carrot"
+    },
+    "FREC46": {
+      "description": "una hoja de lechuga",
+      "unit": "lettuce leaves"
+    },
+    "FREC47": {
+      "description": "media taza de espinaca o verdura de hoja verde",
+      "unit": "half cup of spinach or green leaves"
+    },
+    "FREC48": {
+      "description": "media taza de calabacitas o chayotes",
+      "unit": "half cup of courgette or chayote"
+    },
+    "FREC49": {
+      "description": "media taza de nopalitos",
+      "unit": "half cup of nopal"
+    },
+    "FREC50": {
+      "description": "un plato de sopa crema de verdura",
+      "unit": "a plate of cream soup with vegetables"
+    },
+    "FREC51": {
+      "description": "medio aguacate",
+      "unit": "half avocado"
+    },
+    "FREC52": {
+      "description": "media taza de flor de calabaza",
+      "unit": "half cup of pumpkin flowers"
+    },
+    "FREC53": {
+      "description": "media taza de coliflor",
+      "unit": "half coup of cauliflower"
+    },
+    "FREC54": {
+      "description": "media taza de ejotes",
+      "unit": "half cup of string beans"
+    },
+    "FREC55": {
+      "description": "una cucharada de salsa picantes o chiles",
+      "unit": "a spoon of spicy or chili sauce"
+    },
+    "FREC56": {
+      "description": "chiles de lata",
+      "unit": "can of chili"
+    },
+    "FREC57": {
+      "description": "un platillo con chiles secos",
+      "unit": "a small plate with dry chili"
+    },
+    "FREC58": {
+      "description": "un elote",
+      "unit": "corncob"
+    },
+    "FREC59": {
+      "description": "un plato de frijoles",
+      "unit": "a plate of beans"
+    },
+    "FREC60": {
+      "description": "media taza de chicharos",
+      "unit": "half cup of peas"
+    },
+    "FREC61": {
+      "description": "un plato de habas verdes",
+      "unit": "1 plate of green(broad) beans"
+    },
+    "FREC62": {
+      "description": "un plato de habas secas",
+      "unit": "a plate of dry beans"
+    },
+    "FREC63": {
+      "description": "un plato de lentejas o garbanzos",
+      "unit": "1 plate of lentil or chickpea"
+    },
+    "FREC64": {
+      "description": "una tortilla de maiz",
+      "unit": "tortilla made of maize"
+    },
+    "FREC65": {
+      "description": "una tortilla de harina",
+      "unit": "flour made tortilla"
+    },
+    "FREC66": {
+      "description": "una rebanda de pan de caja",
+      "unit": "1 slice of white bread"
+    },
+    "FREC67": {
+      "description": "una rebanada de pan de caja integral",
+      "unit": "1 slice of whole wheat bread"
+    },
+    "FREC68": {
+      "description": "un bolillo o telera",
+      "unit": "1 bread roll telera"
+    },
+    "FREC69": {
+      "description": "una pieza de pan dulce",
+      "unit": "1 piece of sweet bread"
+    },
+    "FREC70": {
+      "description": "un plato de arroz",
+      "unit": "1 bowl of rice"
+    },
+    "FREC71": {
+      "description": "un plato de sopa de pasta",
+      "unit": "1 plate of soup with pasta"
+    },
+    "FREC72": {
+      "description": "un plato de avena",
+      "unit": "1 plate of oats"
+    },
+    "FREC73": {
+      "description": "un tazon de ceral de caja",
+      "unit": "1 bowl of box cereal"
+    },
+    "FREC73A": {
+      "description": "¿Cuál?",
+      "unit": "which?"
+    },
+    "FREC74": {
+      "description": "una tazon de cereal alto en fibra",
+      "unit": "1 bowl of cereal high in fiber"
+    },
+    "FREC74A": {
+      "description": "¿Cuál?",
+      "unit": "which?"
+    },
+    "FREC75": {
+      "description": "una rebanada de pastel",
+      "unit": "1 slice of cake"
+    },
+    "FREC76": {
+      "description": "una cucharadita de ate, miel, mermelada,cajeta o lechera",
+      "unit": "1 teaspoon of jelly,honey,jam,box of jelly or milk churn"
+    },
+    "FREC77": {
+      "description": "una cucharadita de chocolate en polvo",
+      "unit": "1 teaspoon of chocolate powder"
+    },
+    "FREC78": {
+      "description": "una tablilla de chocolate",
+      "unit": "1 bar of chocolate"
+    },
+    "FREC79": {
+      "description": "una bolsa de frituras",
+      "unit": "1 bag of frituras (chips)"
+    },
+    "FREC80": {
+      "description": "un refresco de cola",
+      "unit": "1 refreshed coca-cola"
+    },
+    "FREC81": {
+      "description": "un refresco gaseoso de sabro",
+      "unit": "1 fresh gaseous water"
+    },
+    "FREC82": {
+      "description": "un refresco dietético",
+      "unit": "1 diet soda"
+    },
+    "FREC83": {
+      "description": "un vaso con agua de sabor azucarada",
+      "unit": "1 glass of water with sugar added"
+    },
+    "FREC84": {
+      "description": "una taza de cafe sin azucar",
+      "unit": "1 cup of coffee without sugar"
+    },
+    "FREC85": {
+      "description": "una taza de atole sin leche",
+      "unit": "1 cup of drink made of corn flour without milk"
+    },
+    "FREC86": {
+      "description": "una taza de atole con leche",
+      "unit": "1 cup of drink made of corn flour with milk"
+    },
+    "FREC87": {
+      "description": "una cerveza",
+      "unit": "1 beer"
+    },
+    "FREC88": {
+      "description": "una copa de vino de mesa",
+      "unit": "1 glass of table wine"
+    },
+    "FREC89": {
+      "description": "una bebida con ron, brandy o tequila",
+      "unit": "1 drink of cane-juice or plant liquor"
+    },
+    "FREC90": {
+      "description": "aceite de maiz",
+      "unit": "maize oil"
+    },
+    "FREC91": {
+      "description": "aceite de soya",
+      "unit": "soybean oil"
+    },
+    "FREC92": {
+      "description": "aceite de girasol",
+      "unit": "oil from sunflower"
+    },
+    "FREC93": {
+      "description": "aceite de cartamo",
+      "unit": "oil of a generical name of plants"
+    },
+    "FREC94": {
+      "description": "aceite de oliva",
+      "unit": "olive oil"
+    },
+    "FREC95": {
+      "description": "una cucharadita de margarina",
+      "unit": "1 teaspoon of margarine"
+    },
+    "FREC96": {
+      "description": "una cucharadita de mantequilla",
+      "unit": "1 teaspoon of butter"
+    },
+    "FREC97": {
+      "description": "una cucharadita de crema",
+      "unit": "1 teaspoon of cream"
+    },
+    "FREC98": {
+      "description": "una cucharadita de mayonesa",
+      "unit": "1 teaspoon of mayonnaise dressing"
+    },
+    "FREC99": {
+      "description": "una cucharadita de manteca vegetal",
+      "unit": "1 teaspoon of vegetable fat"
+    },
+    "FREC100": {
+      "description": "una cucharadita de manteca animal",
+      "unit": "1 teaspoon of animal fat"
+    },
+    "FREC101": {
+      "description": "un taco al pastor",
+      "unit": "1 taco"
+    },
+    "FREC102": {
+      "description": "un sope o quesadilla",
+      "unit": "filled fried tortilla"
+    },
+    "FREC103": {
+      "description": "un plato de pozole",
+      "unit": "boiled barley and beans"
+    },
+    "FREC104": {
+      "description": "un tamal",
+      "unit": "tamale"
+    },
+    "FREC105A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC105C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC105D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC106A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC106C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC106D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC107A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC107C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC107D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC108A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC108C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC108D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC109A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC109C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC109D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC110C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC110D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC111C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC111D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC112C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC112D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC113C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC113D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC114C": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC114D": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC115": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC116": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC117": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC118": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC119": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC119A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC119B": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC120": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC120A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC121": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC121A": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC1220": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC120B": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FECHA_C1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FREC107B": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

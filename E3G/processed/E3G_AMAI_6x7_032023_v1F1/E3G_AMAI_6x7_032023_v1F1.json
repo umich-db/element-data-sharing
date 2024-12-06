@@ -1,0 +1,31 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "participante": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "amai_6x7": {
+      "description": "SES_AMAI_6X7",
+      "unit": "7=A/B\n6=C+\n5=C\n4=C- \n3=D+ \n2=D\n1=E"
+    }
+  }
+  

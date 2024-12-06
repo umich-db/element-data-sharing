@@ -1,0 +1,23 @@
+{
+    "PROYECTO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ID": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fluoruro": {
+      "description": "fluorides",
+      "unit": "None"
+    },
+    "fluorurobeb": {
+      "description": "fluorides_beverages",
+      "unit": "None"
+    }
+  }
+  

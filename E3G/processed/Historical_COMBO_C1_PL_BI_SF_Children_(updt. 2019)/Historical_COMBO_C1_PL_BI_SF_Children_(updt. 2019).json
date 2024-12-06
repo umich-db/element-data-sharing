@@ -1,0 +1,618 @@
+{
+    "proyecto": {
+      "description": "Identificador de cohortes",
+      "unit": ""
+    },
+    "folio": {
+      "description": "No. de control",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "proj_folio1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "proj_folio_et1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "proj_folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "proj_folio_et": {
+      "description": "None",
+      "unit": "None"
+    },
+    "date_stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha": {
+      "description": "Fecha de aplicación del cuestionario de exposición",
+      "unit": ""
+    },
+    "AC_sexH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "AC_fechanac": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad": {
+      "description": "Edad en meses",
+      "unit": "meses"
+    },
+    "unico": {
+      "description": "None",
+      "unit": "None"
+    },
+    "entrevis": {
+      "description": "Clave de la entrevistadora",
+      "unit": ""
+    },
+    "v901": {
+      "description": "Desde el último contacto que tuvimos con usted ¿Pintaron por dentro su casa?",
+      "unit": ""
+    },
+    "v902": {
+      "description": "¿Cuáles cuartos pintaron?",
+      "unit": ""
+    },
+    "v903": {
+      "description": "¿Hace cuánto tiempo?",
+      "unit": ""
+    },
+    "v904": {
+      "description": "Tipo de pintura utilizada",
+      "unit": ""
+    },
+    "v905": {
+      "description": "¿Han pintado la cuna del niño?",
+      "unit": ""
+    },
+    "v906": {
+      "description": "¿Hace cuánto tiempo?",
+      "unit": ""
+    },
+    "v907": {
+      "description": "¿Qué tipo de pintura utilizaron?",
+      "unit": ""
+    },
+    "v908": {
+        "description": "¿Cuántos coches tiene la casa donde vive el niño?",
+        "unit": ""
+      },
+      "v909": {
+        "description": "¿Tiene garaje?",
+        "unit": ""
+      },
+      "v910": {
+        "description": "¿El garaje es cerrado? (Con techo)",
+        "unit": ""
+      },
+      "v911": {
+        "description": "¿Calienta el coche dentro del garaje?",
+        "unit": ""
+      },
+      "v912": {
+        "description": "¿El piso del garaje está manchado de aceite de carro?",
+        "unit": ""
+      },
+      "v913": {
+        "description": "Su niño juega en algún momento del día en:",
+        "unit": ""
+      },
+      "v914": {
+        "description": "La casa donde vive se encuentra en:",
+        "unit": ""
+      },
+      "v915": {
+        "description": "El tráfico donde vive es:",
+        "unit": ""
+      },
+      "v916": {
+        "description": "¿El niño juega con periódico, revistas o cuentos de color?",
+        "unit": ""
+      },
+      "v917a": {
+        "description": "Come o chupa: La pintura de la pared",
+        "unit": ""
+      },
+      "v917b": {
+        "description": "Come o chupa: Plastilina",
+        "unit": ""
+      },
+      "v917c": {
+        "description": "Come o chupa: Crayolas",
+        "unit": ""
+      },
+      "v917d": {
+        "description": "Come o chupa: Lápices",
+        "unit": ""
+      },
+      "v917e": {
+        "description": "Come o chupa: Colores",
+        "unit": ""
+      },
+      "v917f": {
+        "description": "Come o chupa: Juguetes pintados",
+        "unit": ""
+      },
+      "v918": {
+        "description": "¿Alguien fuma dentro de la casa?",
+        "unit": ""
+      },
+      "v919": {
+        "description": "¿Está presente el niño cuando fuman?",
+        "unit": ""
+      },
+      "v920a": {
+        "description": "Cerca o en su casa hay : Imprenta",
+        "unit": ""
+      },
+      "v920b": {
+        "description": "Cerca o en su casa hay : Gasolinería",
+        "unit": ""
+      },
+      "v920c": {
+        "description": "Cerca o en su casa hay : Taller de plomería",
+        "unit": ""
+      },
+      "v920d": {
+        "description": "Cerca o en su casa hay : Taller de ebanistería",
+        "unit": ""
+      },
+      "v920e": {
+        "description": "Cerca o en su casa hay : Fábrica o taller de acumuladores",
+        "unit": ""
+      },
+      "v920f": {
+        "description": "Cerca o en su casa hay : Fábrica de pinturas o barnices",
+        "unit": ""
+      },
+      "v920g": {
+        "description": "Cerca o en su casa hay : Fábrica de cerámica",
+        "unit": ""
+      },
+      "v920h": {
+        "description": "Cerca o en su casa hay : Refinería de gasolina",
+        "unit": ""
+      },
+      "v920i": {
+        "description": "Cerca o en su casa hay: Fundidora de plomo",
+        "unit": ""
+      },
+      "v921": {
+        "description": "¿Acostumbra usted proporcionar a su niño alimentos comprados en la vía pública?",
+        "unit": ""
+      },
+      "v922": {
+        "description": "¿Acostumbra preparar algún alimento o bebida del niño en trastes de barro?",
+        "unit": ""
+      },
+      "v923": {
+        "description": "¿Acostumbra guardar algún alimento o bebida del niño en trastes de barro?",
+        "unit": ""
+      },
+      "v924": {
+        "description": "¿Tiene agua entubada en su casa?",
+        "unit": ""
+      },
+      "v925": {
+        "description": "¿La tubería de agua es de plomo?",
+        "unit": ""
+      },
+      "v926": {
+        "description": "Cuando abre la llave del agua de la cocina o de donde la tome por la mañana, el primer chorro lo utiliza para:",
+        "unit": ""
+      },
+      "v927": {
+    "description": "El agua que usted utiliza más frecuente para preparar los alimentos de:",
+    "unit": ""
+  },
+  "v928": {
+    "description": "¿Hierve el agua antes de beberla?",
+    "unit": ""
+  },
+  "v929": {
+    "description": "El agua que utiliza para darle de beber a su niño es de:",
+    "unit": ""
+  },
+  "v930": {
+    "description": "¿Le sigue dando pecho a su niño ahora?",
+    "unit": ""
+  },
+  "v931": {
+    "description": "¿Cuánto tiempo le dio pecho a su niño?",
+    "unit": ""
+  },
+  "v932": {
+    "description": "¿A qué edad empezó a darle alimentos diferentes a la leche y tés?",
+    "unit": ""
+  },
+  "v933": {
+    "description": "¿Trabaja usted actualmente?",
+    "unit": ""
+  },
+  "v934a": {
+    "description": "El esposo de la participante trabaja en:",
+    "unit": ""
+  },
+  "v934b": {
+    "description": "La participante trabaja en:",
+    "unit": ""
+  },
+  "v935a": {
+    "description": "¿Cuánto tiempo tiene trabajando en ese lugar? (Padre)",
+    "unit": ""
+  },
+  "v935b": {
+    "description": "¿Cuánto tiempo tiene trabajando en ese lugar? (Madre)",
+    "unit": ""
+  },
+  "v936peso": {
+    "description": "Peso",
+    "unit": "kg"
+  },
+  "v936tall": {
+    "description": "Talla",
+    "unit": "cm"
+  },
+  "v936_pc": {
+    "description": "Perímetro cefálico",
+    "unit": "cm"
+  },
+  "v936_pb": {
+    "description": "Perímetro del brazo",
+    "unit": "cm"
+  },
+  "v936_pp": {
+    "description": "Perímetro de pierna",
+    "unit": "cm"
+  },
+  "psicolog": {
+    "description": "Otro psicólogo",
+    "unit": ""
+  },
+  "wais": {
+    "description": "Aplicación del WAIS",
+    "unit": ""
+  },
+  "fechaw": {
+    "description": "Fecha de aplicación",
+    "unit": ""
+  },
+  "waisverb": {
+    "description": "Puntuación verbal",
+    "unit": ""
+  },
+  "waisver_": {
+    "description": "Puntuación verbal C.I.",
+    "unit": ""
+  },
+  "waisejec": {
+    "description": "Puntuación de ejecución",
+    "unit": ""
+  },
+  "waiseje_": {
+    "description": "Puntuación de ejecución C.I.",
+    "unit": ""
+  },
+  "waistota": {
+    "description": "Puntuación total",
+    "unit": ""
+  },
+  "waistot_": {
+    "description": "Puntuación total C.I.",
+    "unit": ""
+  },
+  "wais_cal": {
+    "description": "Clave de la persona que calificó el WAIS",
+    "unit": ""
+  },
+  "fechabay": {
+    "description": "Fecha de aplicación del Bayley",
+    "unit": ""
+  },
+  "bayley_c": {
+    "description": "Clave de la persona que calificó el Bayley",
+    "unit": ""
+  },
+  "atenc_rw": {
+    "description": "Raw score",
+    "unit": ""
+  },
+  "atenc_pe": {
+    "description": "Percentile",
+    "unit": ""
+  },
+  "atenc_cl": {
+    "description": "Clasificación Aplicable al niño a la edad de 1 a 5 meses",
+    "unit": ""
+  },
+  "total_rw": {
+    "description": "Raw score",
+    "unit": ""
+  },
+  "total_pe": {
+    "description": "Percentile",
+    "unit": ""
+  },
+  "total_cl": {
+    "description": "Clasificación Aplicable al niño a la edad de 1 a 5 meses",
+    "unit": ""
+  },
+  "items_rw": {
+    "description": "Temas adicionales",
+    "unit": ""
+  },
+  "orien_rw": {
+    "description": "Raw score",
+    "unit": ""
+  },
+  "orien_pe": {
+    "description": "Percentile",
+    "unit": ""
+  },
+  "orien_cl": {
+    "description": "Clasificación",
+    "unit": ""
+  },
+  "emoci_rw": {
+    "description": "Raw score",
+    "unit": ""
+  },
+  "emoci_pe": {
+    "description": "Percentile",
+    "unit": ""
+  },
+  "emoci_cl": {
+    "description": "Clasificación",
+    "unit": ""
+  },
+  "motor_rw": {
+    "description": "Raw score",
+    "unit": ""
+  },
+  "motor_pe": {
+    "description": "Percentile",
+    "unit": ""
+  },
+  "motor_cl": {
+    "description": "Clasificación",
+    "unit": ""
+  },
+  "mem": {
+    "description": "Índice Memoria",
+    "unit": ""
+  },
+  "mot": {
+    "description": "Índice Motora",
+    "unit": ""
+  },
+  "mdi": {
+    "description": "Mental ESCALA (3 a 36 meses de edad)",
+    "unit": ""
+  },
+  "rmdi": {
+    "description": "None",
+    "unit": "None"
+  },
+  "pdi": {
+    "description": "Motora ESCALA (3 a 36 meses de edad)",
+    "unit": ""
+  },
+  "rpdi": {
+    "description": "None",
+    "unit": "None"
+  },
+  "pb": {
+    "description": "Plomo en sangre",
+    "unit": ""
+  },
+  "hgb": {
+    "description": "Hemoglobina",
+    "unit": ""
+  },
+  "fer": {
+    "description": "Ferritina",
+    "unit": ""
+  },
+  "caso_esp": {
+    "description": "Casos especiales",
+    "unit": ""
+  },
+  "observa": {
+    "description": "Observaciones para control interno (datos faltantes, gemelas, etc.)",
+    "unit": ""
+  },
+  "observac": {
+    "description": "Observaciones para control interno 2 (datos faltantes, gemelas, etc.)",
+    "unit": ""
+  },
+  "cohorte": {
+    "description": "Identificador de cohortes",
+    "unit": ""
+  },
+  "leu_n": {
+    "description": "None",
+    "unit": "None"
+  },
+  "linf_n": {
+    "description": "None",
+    "unit": "None"
+  },
+  "mcv_n": {
+    "description": "None",
+    "unit": "None"
+  },
+  "hcm_n": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cimam": {
+    "description": "None",
+    "unit": "None"
+  },
+  "hemolisi": {
+    "description": "None",
+    "unit": "None"
+  },
+  "lost": {
+    "description": "None",
+    "unit": "None"
+  },
+  "obs_lost": {
+    "description": "None",
+    "unit": "None"
+  },
+  "psicologa": {
+    "description": "None",
+    "unit": "None"
+  },
+  "entrev": {
+    "description": "None",
+    "unit": "None"
+  },
+  "date_age": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cfecha": {
+    "description": "None",
+    "unit": "None"
+  },
+  "edadch": {
+    "description": "None",
+    "unit": "None"
+  },
+  "v726a": {
+    "description": "None",
+    "unit": "None"
+  },
+  "v726b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "v726c": {
+    "description": "None",
+    "unit": "None"
+  },
+  "v935": {
+    "description": "None",
+    "unit": "None"
+  },
+  "psic_bayley": {
+    "description": "None",
+    "unit": "None"
+  },
+  "fechaa": {
+    "description": "None",
+    "unit": "None"
+  },
+  "observ": {
+    "description": "None",
+    "unit": "None"
+  },
+  "valid": {
+    "description": "None",
+    "unit": "None"
+  },
+  "mesc": {
+    "description": "None",
+    "unit": "None"
+  },
+  "mcarth": {
+    "description": "None",
+    "unit": "None"
+  },
+  "itemsr": {
+    "description": "None",
+    "unit": "None"
+  },
+  "totalr": {
+    "description": "None",
+    "unit": "None"
+  },
+  "totalp": {
+    "description": "None",
+    "unit": "None"
+  },
+  "totalc": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient5": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient9": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient11": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient12": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient13": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient16": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient17": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient19": {
+    "description": "None",
+    "unit": "None"
+  },
+  "orient20": {
+    "description": "None",
+    "unit": "None"
+  },
+  "emot6": {
+    "description": "None",
+    "unit": "None"
+  },
+  "emot8": {
+    "description": "None",
+    "unit": "None"
+  },
+  "emot10": {
+    "description": "None",
+    "unit": "None"
+  },
+  "emot14": {
+    "description": "None",
+    "unit": "None"
+  },
+  "emot15": {
+    "description": "None",
+    "unit": "None"
+  },
+  "emot18": {
+    "description": "None",
+    "unit": "None"
+  },
+  "emot19": {
+    "description": "None",
+    "unit": "None"
+  }
+}

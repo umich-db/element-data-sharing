@@ -1,0 +1,19 @@
+{
+    "ID": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Etapa": {
+      "description": "stage",
+      "unit": ""
+    },
+    "Specific_gravity": {
+      "description": "specific gravity",
+      "unit": ""
+    }
+  }
+  

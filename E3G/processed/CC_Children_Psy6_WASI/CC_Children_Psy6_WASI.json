@@ -1,0 +1,87 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Id project choleterol",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sex_ch": {
+      "description": "Sex",
+      "unit": "None"
+    },
+    "edad_ch": {
+      "description": "AgeChildren",
+      "unit": "None"
+    },
+    "fechanac_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_visita": {
+      "description": "Visit date project choleterol",
+      "unit": "None"
+    },
+    "asistencia": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sexo_wasi": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad_wasi": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_wasi": {
+      "description": "None",
+      "unit": "None"
+    },
+    "tvoc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "tcub": {
+      "description": "None",
+      "unit": "None"
+    },
+    "tsem": {
+      "description": "None",
+      "unit": "None"
+    },
+    "tmat": {
+      "description": "None",
+      "unit": "None"
+    },
+    "civer": {
+      "description": "None",
+      "unit": "None"
+    },
+    "cides": {
+      "description": "None",
+      "unit": "None"
+    },
+    "citot": {
+      "description": "None",
+      "unit": "None"
+    },
+    "NC_WASI": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

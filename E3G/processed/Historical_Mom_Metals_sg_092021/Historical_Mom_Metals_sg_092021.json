@@ -1,0 +1,123 @@
+{
+    "proyecto": {
+      "description": "project",
+      "unit": ""
+    },
+    "folio": {
+      "description": "file",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "trimester": {
+      "description": "trimester",
+      "unit": ""
+    },
+    "batch": {
+      "description": "batch",
+      "unit": ""
+    },
+    "Sb": {
+      "description": "Antimony",
+      "unit": ""
+    },
+    "As": {
+      "description": "Arsenic",
+      "unit": ""
+    },
+    "Ba": {
+      "description": "Barium",
+      "unit": ""
+    },
+    "Be": {
+      "description": "Beryllium",
+      "unit": ""
+    },
+    "Cd": {
+      "description": "Cadium",
+      "unit": ""
+    },
+    "Cs": {
+      "description": "Cesium",
+      "unit": ""
+    },
+    "Cr": {
+      "description": "Chromium",
+      "unit": ""
+    },
+    "Co": {
+      "description": "Cobalt",
+      "unit": ""
+    },
+    "Cu": {
+      "description": "Copper",
+      "unit": ""
+    },
+    "Pb": {
+      "description": "Lead",
+      "unit": ""
+    },
+    "Mn": {
+      "description": "Manganese",
+      "unit": ""
+    },
+    "Hg": {
+      "description": "Mercury",
+      "unit": ""
+    },
+    "Mo": {
+      "description": "Molybdenum",
+      "unit": ""
+    },
+    "Ni": {
+      "description": "Nickel",
+      "unit": ""
+    },
+    "Pt": {
+      "description": "Platinum",
+      "unit": ""
+    },
+    "Tl": {
+      "description": "Thallium",
+      "unit": ""
+    },
+    "Sn": {
+      "description": "Tin",
+      "unit": ""
+    },
+    "W": {
+      "description": "Tungsten",
+      "unit": ""
+    },
+    "U": {
+      "description": "Uranium",
+      "unit": ""
+    },
+    "V": {
+      "description": "Vanadium",
+      "unit": ""
+    },
+    "Zn": {
+      "description": "Zinc",
+      "unit": ""
+    },
+    "Fe": {
+      "description": "Iron",
+      "unit": ""
+    },
+    "Se": {
+      "description": "Selenium",
+      "unit": ""
+    },
+    "Al": {
+      "description": "Aluminium",
+      "unit": ""
+    },
+    "spec_grav": {
+      "description": "specific gravity",
+      "unit": ""
+    }
+  }
+  

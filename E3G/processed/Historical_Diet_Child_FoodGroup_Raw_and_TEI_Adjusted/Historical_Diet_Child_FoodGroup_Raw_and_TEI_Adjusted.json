@@ -1,0 +1,339 @@
+{
+    "proyecto": {
+      "description": "proyecto",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "folio",
+      "unit": "None"
+    },
+    "edad": {
+      "description": "edad",
+      "unit": "None"
+    },
+    "ener_kcal": {
+      "description": "ener_kcal",
+      "unit": "None"
+    },
+    "milk_hxchild": {
+      "description": "milk",
+      "unit": "None"
+    },
+    "hf_dairy_hxchild": {
+      "description": "hf_dairy",
+      "unit": "None"
+    },
+    "yogurt_hxchild": {
+      "description": "yogurt",
+      "unit": "None"
+    },
+    "icecream_hxchild": {
+      "description": "icecream",
+      "unit": "None"
+    },
+    "fruit_hxchild": {
+      "description": "fruit",
+      "unit": "None"
+    },
+    "egg_hxchild": {
+      "description": "egg",
+      "unit": "None"
+    },
+    "chicken_hxchild": {
+      "description": "chicken",
+      "unit": "None"
+    },
+    "beef_hxchild": {
+      "description": "beef",
+      "unit": "None"
+    },
+    "pork_hxchild": {
+      "description": "pork",
+      "unit": "None"
+    },
+    "procmeat_hxchild": {
+      "description": "procmeat",
+      "unit": "None"
+    },
+    "organmeat_hxchild": {
+      "description": "organmeat",
+      "unit": "None"
+    },
+    "fish_hxchild": {
+      "description": "fish",
+      "unit": "None"
+    },
+    "tomato_hxchild": {
+      "description": "tomato",
+      "unit": "None"
+    },
+    "potato_hxchild": {
+      "description": "potato",
+      "unit": "None"
+    },
+    "avocado_hxchild": {
+      "description": "avocado",
+      "unit": "None"
+    },
+    "cruveg_hxchild": {
+      "description": "cruveg",
+      "unit": "None"
+    },
+    "yeveg_hxchild": {
+      "description": "yeveg",
+      "unit": "None"
+    },
+    "leafveg_hxchild": {
+      "description": "leafveg",
+      "unit": "None"
+    },
+    "legumes_hxchild": {
+      "description": "legumes",
+      "unit": "None"
+    },
+    "corncob_hxchild": {
+      "description": "corncob",
+      "unit": "None"
+    },
+    "otherveg_hxchild": {
+      "description": "otherveg",
+      "unit": "None"
+    },
+    "soup_hxchild": {
+      "description": "soup",
+      "unit": "None"
+    },
+    "chili_hxchild": {
+      "description": "chili",
+      "unit": "None"
+    },
+    "atole_hxchild": {
+      "description": "atole",
+      "unit": "None"
+    },
+    "corn_tortilla_hxchild": {
+      "description": "corn_tortilla",
+      "unit": "None"
+    },
+    "refgrain_hxchild": {
+      "description": "refgrain",
+      "unit": "None"
+    },
+    "wholegrain_hxchild": {
+      "description": "wholegrain",
+      "unit": "None"
+    },
+    "chips_hxchild": {
+      "description": "chips",
+      "unit": "None"
+    },
+    "dessert_hxchild": {
+      "description": "dessert",
+      "unit": "None"
+    },
+    "jam_hxchild": {
+      "description": "jam",
+      "unit": "None"
+    },
+    "sugar_beverages_hxchild": {
+      "description": "sugar_beverages",
+      "unit": "None"
+    },
+    "lodrink_hxchild": {
+      "description": "lodrink",
+      "unit": "None"
+    },
+    "coffee_hxchild": {
+      "description": "coffee",
+      "unit": "None"
+    },
+    "wine_hxchild": {
+      "description": "wine",
+      "unit": "None"
+    },
+    "unsat_oil_hxchild": {
+      "description": "unsat_oil",
+      "unit": "None"
+    },
+    "butter_hxchild": {
+      "description": "butter",
+      "unit": "None"
+    },
+    "spread_hxchild": {
+      "description": "spread",
+      "unit": "None"
+    },
+    "crisco_hxchild": {
+      "description": "crisco",
+      "unit": "None"
+    },
+    "mexfoods_hxchild": {
+      "description": "mexfoods",
+      "unit": "None"
+    },
+    "natural_juice_hxchild": {
+      "description": "natural_juice",
+      "unit": "None"
+    },
+    "milk_hxchild_adj": {
+      "description": "milk_adj",
+      "unit": "None"
+    },
+    "hf_dairy_hxchild_adj": {
+      "description": "hf_dairy_adj",
+      "unit": "None"
+    },
+    "yogurt_hxchild_adj": {
+      "description": "yogurt_adj",
+      "unit": "None"
+    },
+    "icecream_hxchild_adj": {
+      "description": "icecream_adj",
+      "unit": "None"
+    },
+    "fruit_hxchild_adj": {
+      "description": "fruit_adj",
+      "unit": "None"
+    },
+    "egg_hxchild_adj": {
+      "description": "egg_adj",
+      "unit": "None"
+    },
+    "chicken_hxchild_adj": {
+      "description": "chicken_adj",
+      "unit": "None"
+    },
+    "beef_hxchild_adj": {
+      "description": "beef_adj",
+      "unit": "None"
+    },
+    "pork_hxchild_adj": {
+      "description": "pork_adj",
+      "unit": "None"
+    },
+    "procmeat_hxchild_adj": {
+      "description": "procmeat_adj",
+      "unit": "None"
+    },
+    "organmeat_hxchild_adj": {
+      "description": "organmeat_adj",
+      "unit": "None"
+    },
+    "fish_hxchild_adj": {
+      "description": "fish_adj",
+      "unit": "None"
+    },
+    "tomato_hxchild_adj": {
+      "description": "tomato_adj",
+      "unit": "None"
+    },
+    "potato_hxchild_adj": {
+      "description": "potato_adj",
+      "unit": "None"
+    },
+    "avocado_hxchild_adj": {
+      "description": "avocado_adj",
+      "unit": "None"
+    },
+    "cruveg_hxchild_adj": {
+      "description": "cruveg_adj",
+      "unit": "None"
+    },
+    "yeveg_hxchild_adj": {
+      "description": "yeveg_adj",
+      "unit": "None"
+    },
+    "leafveg_hxchild_adj": {
+      "description": "leafveg_adj",
+      "unit": "None"
+    },
+    "legumes_hxchild_adj": {
+      "description": "legumes_adj",
+      "unit": "None"
+    },
+    "corncob_hxchild_adj": {
+      "description": "corncob_adj",
+      "unit": "None"
+    },
+    "otherveg_hxchild_adj": {
+      "description": "otherveg_adj",
+      "unit": "None"
+    },
+    "soup_hxchild_adj": {
+      "description": "soup_adj",
+      "unit": "None"
+    },
+    "chili_hxchild_adj": {
+      "description": "chili_adj",
+      "unit": "None"
+    },
+    "atole_hxchild_adj": {
+      "description": "atole_adj",
+      "unit": "None"
+    },
+    "corn_tortilla_hxchild_adj": {
+      "description": "corn_tortilla_adj",
+      "unit": "None"
+    },
+    "refgrain_hxchild_adj": {
+      "description": "refgrain_adj",
+      "unit": "None"
+    },
+    "wholegrain_hxchild_adj": {
+      "description": "wholegrain_adj",
+      "unit": "None"
+    },
+    "chips_hxchild_adj": {
+      "description": "chips_adj",
+      "unit": "None"
+    },
+    "dessert_hxchild_adj": {
+      "description": "dessert_adj",
+      "unit": "None"
+    },
+    "jam_hxchild_adj": {
+      "description": "jam_adj",
+      "unit": "None"
+    },
+    "sugar_beverages_hxchild_adj": {
+      "description": "sugar_beverages_adj",
+      "unit": "None"
+    },
+    "lodrink_hxchild_adj": {
+      "description": "lodrink_adj",
+      "unit": "None"
+    },
+    "coffee_hxchild_adj": {
+      "description": "coffee_adj",
+      "unit": "None"
+    },
+    "wine_hxchild_adj": {
+      "description": "wine_adj",
+      "unit": "None"
+    },
+    "unsat_oil_hxchild_adj": {
+      "description": "unsat_oil_adj",
+      "unit": "None"
+    },
+    "butter_hxchild_adj": {
+      "description": "butter_adj",
+      "unit": "None"
+    },
+    "spread_hxchild_adj": {
+      "description": "spread_adj",
+      "unit": "None"
+    },
+    "crisco_hxchild_adj": {
+      "description": "crisco_adj",
+      "unit": "None"
+    },
+    "mexfoods_hxchild_adj": {
+      "description": "mexfoods_adj",
+      "unit": "None"
+    },
+    "natural_juice_hxchild_adj": {
+      "description": "natural_juice_adj",
+      "unit": "None"
+    }
+  }
+  

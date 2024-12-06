@@ -1,0 +1,24 @@
+{
+    "proyecto": {"description": "None", "unit": "None"},
+    "folio": {"description": "None", "unit": "None"},
+    "foliocc": {"description": "Id", "unit": "None"},
+    "etapa": {"description": "V1", "unit": "None"},
+    "stage": {"description": "None", "unit": "None"},
+    "id": {"description": "None", "unit": "None"},
+    "fecha_f1": {"description": "None", "unit": "None"},
+    "generacion": {"description": "E3G-V1-M", "unit": "None"},
+    "cod_cap": {"description": "Código de la persona que captura", "unit": "None"},
+    "cod_med": {"description": "Código de la persona que mide", "unit": "None"},
+    "dia_h": {"description": "Día de la medición", "unit": "None"},
+    "mes_h": {"description": "Mes de la medición", "unit": "None"},
+    "anio_h": {"description": "Año de la medición", "unit": "None"},
+    "bps": {"description": "Presión BPtru Promedio Sistólica", "unit": "None"},
+    "bpd": {"description": "Presión BPtru Promedio Diastólica", "unit": "None"},
+    "bpp": {"description": "Presión BPtru Promedio Pulso", "unit": "None"},
+    "sist1_h": {"description": "1ra Medición Sistolica Equipo Baumanometro", "unit": "None"},
+    "diast1_h": {"description": "1ra Medición Distolica Equipo Baumanometro", "unit": "None"},
+    "sist2_h": {"description": "2da Medición Sistolica Equipo Baumanometro", "unit": "None"},
+    "diast2_h": {"description": "2da Medición Distolica Equipo Baumanometro", "unit": "None"},
+    "sexo_h": {"description": "None", "unit": "None"}
+  }
+  

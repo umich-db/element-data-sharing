@@ -1,0 +1,463 @@
+{
+    "FOLIOCC": {
+      "description": "foliocc",
+      "unit": ""
+    },
+    "CA10": {
+      "description": "CA10: Riding a bicycle",
+      "unit": ""
+    },
+    "CA11": {
+      "description": "CA11: Skating or skateboarding",
+      "unit": ""
+    },
+    "CA12": {
+      "description": "CA12: Playing basketball",
+      "unit": ""
+    },
+    "CA13": {
+      "description": "CA13: Dancing (including dance classes like ballet, jazz, and Hawaiian)",
+      "unit": ""
+    },
+    "CA14": {
+      "description": "CA14: Cleaning or fixing the house",
+      "unit": ""
+    },
+    "CA15": {
+      "description": "CA15: Walking",
+      "unit": ""
+    },
+    "CA16": {
+      "description": "CA16: Running",
+      "unit": ""
+    },
+    "CA17": {
+      "description": "CA17: Doing gymnastics, aerobics, etc.",
+      "unit": ""
+    },
+    "CA18": {
+      "description": "CA18: Swimming (not just playing in the pool)",
+      "unit": ""
+    },
+    "CA19": {
+      "description": "CA19: Playing baseball",
+      "unit": ""
+    },
+    "CA20": {
+      "description": "CA20: Playing tennis, racquetball or handball",
+      "unit": ""
+    },
+    "CA21": {
+      "description": "CA21: Other activities or sports (specify which)",
+      "unit": ""
+    },
+    "CA22": {
+      "description": "CA22: Do you participate in any team sports in or out of school (Which?)",
+      "unit": ""
+    },
+    "CA23_1": {
+      "description": "CA23_1: Tell us how many hours you spend watching TV on Monday",
+      "unit": "hours"
+    },
+    "CA23_2": {
+      "description": "CA23_2: Tell us how many hours you spend watching TV on Tuesday",
+      "unit": "hours"
+    },
+    "CA23_3": {
+      "description": "CA23_3: Tell us how many hours you spend watching TV on Wednesday",
+      "unit": "hours"
+    },
+    "CA23_4": {
+      "description": "CA23_4: Tell us how many hours you spend watching TV on Thursday",
+      "unit": "hours"
+    },
+    "CA23_5": {
+      "description": "CA23_5: Tell us how many hours you spend watching TV on Friday",
+      "unit": "hours"
+    },
+    "CA23_6": {
+      "description": "CA23_6: Tell us how many hours you spend watching TV on Saturday",
+      "unit": "hours"
+    },
+    "CA23_7": {
+      "description": "CA23_7: Tell us how many hours you spend watching TV on Sunday",
+      "unit": "hours"
+    },
+    "CA24": {
+      "description": "CA24: On a weekday, how many hours do you watch movies or videos on your VCR, DVD?",
+      "unit": "hours"
+    },
+    "CA25": {
+      "description": "CA25: On a weekday, how many hours do you spend playing electronic games and using the internet for fun?",
+      "unit": "hours"
+    },
+    "CA26": {
+      "description": "CA26: How many hours do you spend on your homework and/or read on a weekday?",
+      "unit": "hours"
+    },
+    "CA27": {
+      "description": "CA27: On a weekend day, how many hours do you watch movies or videos on your VCR, DVD?",
+      "unit": "hours"
+    },
+    "CA28": {
+      "description": "CA28: On a weekend day, how many hours do you spend playing electronic games and using the internet for fun?",
+      "unit": "hours"
+    },
+    "CA29": {
+      "description": "CA29: How many hours do you spend on your homework and/or read on a weekend day?",
+      "unit": "hours"
+    },
+    "CA30": {
+      "description": "CA30: On a weekday, how much time do you spend sitting in a car, truck, or bus?",
+      "unit": ""
+    },
+    "CA31": {
+      "description": "CA31: On a weekend day, how much time do you spend sitting in a car, truck, or bus?",
+      "unit": ""
+    },
+    "CA32": {
+      "description": "CA32: What time do you usually go to sleep on weekdays?",
+      "unit": ""
+    },
+    "CA33": {
+      "description": "CA33: What time do you usually go to sleep on weekend days?",
+      "unit": ""
+    },
+    "CA34": {
+      "description": "CA34: What time do you regularly get up to go to school on weekdays?",
+      "unit": ""
+    },
+    "CA35": {
+      "description": "CA35: What time do you usually wake up on Saturdays and Sundays?",
+      "unit": ""
+    },
+    "CA4": {
+      "description": "CA4: How old are you?",
+      "unit": "years"
+    },
+    "CA5": {
+      "description": "CA5: You are",
+      "unit": ""
+    },
+    "CA6_1": {
+      "description": "CA6_1: Are you studying?",
+      "unit": ""
+    },
+    "CA6_2": {
+      "description": "CA6_2: What grade are you in?",
+      "unit": ""
+    },
+    "CA6_3": {
+      "description": "CA6_3: What was the last grade you completed?",
+      "unit": ""
+    },
+    "CA7": {
+      "description": "CA7: How many people under the age of 18 live in your home?",
+      "unit": "people"
+    },
+    "CA8": {
+      "description": "CA8: Playing soccer",
+      "unit": ""
+    },
+    "CA9": {
+      "description": "CA9: Playing volleyball",
+      "unit": ""
+    },
+    "F10": {
+      "description": "F10: Another change is the growth of pubic hair. Please choose the drawing closest to your stage of hair development by marking your answer with a cross",
+      "unit": ""
+    },
+    "F5": {
+      "description": "F5: Have you started having periods?",
+      "unit": ""
+    },
+    "F6": {
+      "description": "F6: If yes, at what age?",
+      "unit": "years"
+    },
+    "F6B_AA": {
+      "description": "F6B_AA: First period (Year)",
+      "unit": "year"
+    },
+    "F6B_MM": {
+      "description": "F6B_MM: First period (month)",
+      "unit": "month"
+    },
+    "F6C_AA": {
+      "description": "F6C_AA: Last period (year)",
+      "unit": "year"
+    },
+    "F6C_DD": {
+      "description": "F6C_DD: Last period (day)",
+      "unit": "day"
+    },
+    "F6C_MM": {
+      "description": "F6C_MM: Last period (month)",
+      "unit": "month"
+    },
+    "F7": {
+      "description": "F7: Do you shave or wax your pubic hair?",
+      "unit": ""
+    },
+    "F8": {
+      "description": "F8: If yes, in which area? (mark all areas where you shave or wax)",
+      "unit": ""
+    },
+    "F9": {
+      "description": "F9: Please choose the drawing closest to your stage of breast development by marking your answer with a cross",
+      "unit": ""
+    },
+    "M5": {
+      "description": "M5: Do you shave or wax your pubic hair?",
+      "unit": ""
+    },
+    "M6": {
+      "description": "M6: If yes, in which area? (mark all areas where you shave or wax)",
+      "unit": ""
+    },
+    "M7": {
+      "description": "M7: Your stage of penis and scrotum development",
+      "unit": ""
+    },
+    "M8": {
+      "description": "M8: Your stage of pubic hair development",
+      "unit": ""
+    },
+    "NI_A": {
+      "description": "NI_A: Girl",
+      "unit": ""
+    },
+    "P10": {
+      "description": "P10: How often do you consume foods microwaved on or in plastic containers or wrappers?",
+      "unit": ""
+    },
+    "P11": {
+      "description": "P11: How often do you consume canned foods (for example, canned fruits, vegetables, tuna, etc.)?",
+      "unit": ""
+    },
+    "P12": {
+      "description": "P12: How often do you consume canned beverages (for example, soda)?",
+      "unit": ""
+    },
+    "P13_FREQ_A": {
+      "description": "P13_FREQ_A: How often do you normally use fingernail polish?",
+      "unit": ""
+    },
+    "P13_FREQ_B": {
+      "description": "P13_FREQ_B: How often do you normally use deodorant?",
+      "unit": ""
+    },
+    "P13_FREQ_C": {
+      "description": "P13_FREQ_C: How often do you normally use hair spray/hair gel?",
+      "unit": ""
+    },
+    "P13_FREQ_D": {
+      "description": "P13_FREQ_D: How often do you normally use cologne/perfume?",
+      "unit": ""
+    },
+    "P13_FREQ_E": {
+      "description": "P13_FREQ_E: How often do you normally use bar soap (solid)?",
+      "unit": ""
+    },
+    "P13_FREQ_F": {
+      "description": "P13_FREQ_F: How often do you normally use liquid soap (also dishwashing detergent)?",
+      "unit": ""
+    },
+    "P13_FREQ_G": {
+      "description": "P13_FREQ_G: How often do you normally use mouthwash?",
+      "unit": ""
+    },
+    "P13_FREQ_H": {
+      "description": "P13_FREQ_H: How often do you normally use lotion?",
+      "unit": ""
+    },
+    "P13_FREQ_I": {
+      "description": "P13_FREQ_I: How often do you normally use shaving cream?",
+      "unit": ""
+    },
+    "P13_FREQ_J": {
+      "description": "P13_FREQ_J: How often do you normally use aftershave?",
+      "unit": ""
+    },
+    "P13_FREQ_K": {
+      "description": "P13_FREQ_K: How often do you normally use cosmetics (e.g. hair dye, foundation, blush, eye shadow, eye liner, mascara)?",
+      "unit": ""
+    },
+    "P13_FREQ_L": {
+      "description": "P13_FREQ_L: How often do you normally use shampoo?",
+      "unit": ""
+    },
+    "P13_FREQ_M": {
+      "description": "P13_FREQ_M: How often do you normally use conditioner?",
+      "unit": ""
+    },
+    "P13_FREQ_N": {
+      "description": "P13_FREQ_N: How often do you normally use hair crème (e.g. Vitalis, Sedal, Fructis)?",
+      "unit": ""
+    },
+    "P13_FREQ_O": {
+      "description": "P13_FREQ_O: How often do you normally use other hair products (e.g. mousse, hair bleach/dyes, relaxer, perm)?",
+      "unit": ""
+    },
+    "P13_FREQ_P": {
+      "description": "P13_FREQ_P: How often do you normally use other toiletries (waxy or oily based)?",
+      "unit": ""
+    },
+    "P13_FREQ_Q": {
+      "description": "P13_FREQ_Q: How often do you normally use laundry products (laundry soap, softener, starch, etc.)?",
+      "unit": ""
+    },
+    "P13_USE_A": {
+      "description": "P13_USE_A: Have you used in the past 24 hours. Finger nail polish?",
+      "unit": ""
+    },
+    "P13_USE_B": {
+      "description": "P13_USE_B: Have you used deodorant in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_C": {
+      "description": "P13_USE_C: Have you used hair spray/hair gel in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_D": {
+      "description": "P13_USE_D: Have you used cologne/perfume in the last 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_E": {
+      "description": "P13_USE_E: Have you used bar soap (solid) in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_F": {
+      "description": "P13_USE_F: Have you used liquid soap (also dishwashing detergent) in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_G": {
+      "description": "P13_USE_G: Have you used mouthwash in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_H": {
+      "description": "P13_USE_H: Have you used lotion in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_I": {
+      "description": "P13_USE_I: Have you used shaving cream in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_J": {
+      "description": "P13_USE_J: Have you used aftershave in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_K": {
+      "description": "P13_USE_K: Have you used cosmetics (e.g. hair dye, foundation, blush, eye shadow, eye liner, mascara) in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_L": {
+      "description": "P13_USE_L: Have you used shampoo in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_M": {
+      "description": "P13_USE_M: Have you used conditioner in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_N": {
+      "description": "P13_USE_N: Have you used hair crème (e.g. Vitalis, Sedal, Fructis) in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_O": {
+      "description": "P13_USE_O: Have you used other hair products (e.g. mousse, hair bleach/dyes, relaxer, perm) in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_P": {
+      "description": "P13_USE_P: Have you used other toiletries (waxy or oily based) in the past 24 hours?",
+      "unit": ""
+    },
+    "P13_USE_Q": {
+      "description": "P13_USE_Q: Have you used laundry products (laundry soap, softener, starch, etc.) in the past 24 hours?",
+      "unit": ""
+    },
+    "P5": {
+      "description": "P5: Does your home have any plastic/vinyl flooring?",
+      "unit": ""
+    },
+    "P6": {
+      "description": "P6: Does your school have any plastic/vinyl flooring?",
+      "unit": ""
+    },
+    "P7": {
+      "description": "P7: The water that you drink more often is",
+      "unit": ""
+    },
+    "P8": {
+      "description": "P8: What is the primary source of water in your home for drinking?",
+      "unit": ""
+    },
+    "P9": {
+      "description": "P9: Do you ever microwave foods on or in plastic containers or wrappers, or does someone prepare food for you in this manner?",
+      "unit": ""
+    },
+    "PA12_1": {
+      "description": "PA12_1: Weight",
+      "unit": "kg"
+    },
+    "PA12_10": {
+      "description": "PA12_10: Weight",
+      "unit": "kg"
+    },
+    "PA12_11": {
+      "description": "PA12_11: Height",
+      "unit": "cm"
+    },
+    "PA12_12": {
+      "description": "PA12_12: Circumference - waist",
+      "unit": "cm"
+    },
+    "PA12_13": {
+      "description": "PA12_13: Circumference - waist",
+      "unit": "cm"
+    },
+    "PA12_14": {
+      "description": "PA12_14: Length - Upper arm",
+      "unit": "cm"
+    },
+    "PA12_15": {
+      "description": "PA12_15: Midpoint- upper arm",
+      "unit": "cm"
+    },
+    "PA12_16": {
+      "description": "PA12_16: Circumference - upper arm",
+      "unit": "cm"
+    },
+    "PA12_17": {
+      "description": "PA12_17: Skinfold thickness - triceps",
+      "unit": "mm"
+    },
+    "PA12_18": {
+      "description": "PA12_18: Skinfold thickness - Suprailiac",
+      "unit": "mm"
+    },
+    "PA12_19": {
+      "description": "PA12_19: Skinfold thickness - Subscapular",
+      "unit": "mm"
+    },
+    "PA12_2": {
+      "description": "PA12_2: Height",
+      "unit": "cm"
+    },
+    "PA12_3": {
+      "description": "PA12_3: Circumference - waist",
+      "unit": "cm"
+    },
+    "PA12_4": {
+      "description": "PA12_4: Length - Upper arm",
+      "unit": "cm"
+    },
+    "PA12_5": {
+      "description": "PA12_5: Midpoint- upper arm",
+      "unit": "cm"
+    },
+    "PA12_6": {
+      "description": "PA12_6: Circumference - upper arm",
+      "unit": "cm"
+    }
+  }
+  

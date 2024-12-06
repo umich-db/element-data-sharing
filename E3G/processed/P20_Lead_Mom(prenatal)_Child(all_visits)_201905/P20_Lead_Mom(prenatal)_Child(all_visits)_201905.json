@@ -1,0 +1,83 @@
+{
+    "FOLIOCC": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "BLOOD_PB_11": {
+      "description": "None",
+      "unit": "None"
+    },
+    "BLOOD_PB_12": {
+      "description": "None",
+      "unit": "None"
+    },
+    "BLOOD_PB_13": {
+      "description": "None",
+      "unit": "None"
+    },
+    "DELIVERY_PBCORD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "DELIVERY_GESTAGE": {
+      "description": "None",
+      "unit": "None"
+    },
+    "rotula_qualitycheck": {
+      "description": "None",
+      "unit": "None"
+    },
+    "tibia_qualitycheck": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_6": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_12": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_18": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_24": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_30": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_36": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_48": {
+      "description": "None",
+      "unit": "None"
+    },
+    "PB_60": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pb_V0": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pb_V18": {
+      "description": "None",
+      "unit": "None"
+    },
+    "pb_p20": {
+      "description": "Child blood lead P20",
+      "unit": ""
+    }
+  }
+  

@@ -1,0 +1,471 @@
+
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "Número de Folio",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "id": {
+      "description": "Código de la entrevistadora",
+      "unit": "None"
+    },
+    "f_dia": {
+      "description": "Fecha de hoy: Día",
+      "unit": "None"
+    },
+    "f_mes": {
+      "description": "Fecha de hoy: Mes",
+      "unit": "None"
+    },
+    "f_anio": {
+      "description": "Fecha de hoy: Año",
+      "unit": "None"
+    },
+    "fechac19": {
+      "description": "None",
+      "unit": "None"
+    },
+    "hora_ini": {
+      "description": "Hora de inicio de la entrevista: Hrs.",
+      "unit": "None"
+    },
+    "min_ini": {
+      "description": "Hora de inicio de la entrevista: Min.",
+      "unit": "None"
+    },
+    "cod_ent": {
+      "description": "None",
+      "unit": "None"
+    },
+    "cc1": {
+      "description": "Debido a la contingencia sanitaria, ¿ha cambiado de domicilio?",
+      "unit": "None"
+    },
+    "cc2": {
+      "description": "¿Su cambio de domicilio fue voluntario o por necesidad por la contingencia sanitaria?",
+      "unit": "None"
+    },
+    "cc3": {
+      "description": "¿Este cambio de domicilio es temporal o permanente?",
+      "unit": "None"
+    },
+    "cc4": {
+      "description": "¿Cuántos baños completos con regadera y W.C. (excusado) hay para uso exclusivo de los integrantes de su hogar?",
+      "unit": "None"
+    },
+    "cc5": {
+      "description": "¿Cuántos automóviles o camionetas tienen en su hogar, incluyendo camionetas cerradas, o con cabina o caja?",
+      "unit": "None"
+    },
+    "cc6": {
+      "description": "Sin tomar en cuenta la conexión móvil que pudiera tener desde algún celular, ¿este hogar cuenta con internet?",
+      "unit": "None"
+    },
+    "cc7": {
+      "description": "De todas las personas de 14 años o más que viven en el hogar, ¿cuántas trabajaron en el último mes?",
+      "unit": "None"
+    },
+    "cc8": {
+      "description": "En esta vivienda, ¿cuántos cuartos se usan para dormir, sin contar pasillos ni baños?",
+      "unit": "None"
+    },
+    "cc9_1": {
+      "description": "¿Quién es el jefe del hogar? Esposo o pareja",
+      "unit": "None"
+    },
+    "cc9_2": {
+        "description": "¿Quién es el jefe del hogar? Usted misma",
+        "unit": "None"
+      },
+      "cc9_3": {
+        "description": "¿Quién es el jefe del hogar? Hijo (a)",
+        "unit": "None"
+      },
+      "cc9_4": {
+        "description": "¿Quién es el jefe del hogar? Padre",
+        "unit": "None"
+      },
+      "cc9_5": {
+        "description": "¿Quién es el jefe del hogar? Madre",
+        "unit": "None"
+      },
+      "cc9_6": {
+        "description": "¿Quién es el jefe del hogar? Hermano (a)",
+        "unit": "None"
+      },
+      "cc9_7": {
+        "description": "¿Quién es el jefe del hogar? Cuñado(a)",
+        "unit": "None"
+      },
+      "cc9_8": {
+        "description": "¿Quién es el jefe del hogar? Otro (a)",
+        "unit": "None"
+      },
+      "cc9_9": {
+        "description": "¿Quién es el jefe del hogar? No Pariente",
+        "unit": "None"
+      },
+      "cc9_10": {
+        "description": "¿Quién es el jefe del hogar? Ambos",
+        "unit": "None"
+      },
+      "cc9_11": {
+        "description": "¿Quién es el jefe del hogar? Nadie",
+        "unit": "None"
+      },
+      "cc9_99": {
+        "description": "¿Quién es el jefe del hogar? No sabe",
+        "unit": "None"
+      },
+      "cc10_1a": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? No fue a la escuela",
+        "unit": "None"
+      },
+      "cc10_1b": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Primaria",
+        "unit": "None"
+      },
+      "cc10_1c": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Técnico post- primaria",
+        "unit": "None"
+      },
+      "cc10_2a": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Secundaria",
+        "unit": "None"
+      },
+      "cc10_2b": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Técnico post- secundaria",
+        "unit": "None"
+      },
+      "cc10_2c": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Carrera comercial",
+        "unit": "None"
+      },
+      "cc10_3a": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Carrera técnica",
+        "unit": "None"
+      },
+      "cc10_3b": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Preparatoria o vocacional",
+        "unit": "None"
+      },
+      "cc10_3c": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Técnico post- vocacional",
+        "unit": "None"
+      },
+      "cc10_4a": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Profesional",
+        "unit": "None"
+      },
+      "cc10_4b": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Posgrado",
+        "unit": "None"
+      },
+      "cc10_4c": {
+        "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? Doctorado",
+        "unit": "None"
+      },
+"cc10_5a": {
+    "description": "¿Cuál fue el último año de estudios que completó el/la jefe(a) de su hogar? No sabe",
+    "unit": "None"
+  },
+  "cc10_5b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc10_5c": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11": {
+    "description": "La semana pasada, ¿trabajó por los menos una hora?",
+    "unit": "None"
+  },
+  "cc11_esp": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_1": {
+    "description": "¿Cómo describiría su trabajo? De tipo independiente, personal o familiar",
+    "unit": "None"
+  },
+  "cc11_2": {
+    "description": "¿Cómo describiría su trabajo? En una compañía o empresa del sector público o privado",
+    "unit": "None"
+  },
+  "cc11_3": {
+    "description": "¿Cómo describiría su trabajo? Ninguno de los anteriores",
+    "unit": "None"
+  },
+  "cc11_4": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4a1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4a2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4b1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4b2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4c1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4c2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4d1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4d2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4e1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4e2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4f1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4f2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4g1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_4g2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_5": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_6": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_7": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_8": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_8esp": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_9": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_10a": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc11_10b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc12": {
+    "description": "De todas las personas de 14 años o más que viven en el hogar, ¿cuántas trabajaron en el último mes?",
+    "unit": "None"
+  },
+  "cc12esp": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc13_a": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos del Seguro Social (IMSS)?",
+    "unit": "None"
+  },
+  "cc13_b": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos del ISSSTE?",
+    "unit": "None"
+  },
+  "cc13_c": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de Pemex?",
+    "unit": "None"
+  },
+  "cc13_d": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de la Defensa o Marina?",
+    "unit": "None"
+  },
+  "cc13_e": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos del Seguro Popular o para una nueva Generación?",
+    "unit": "None"
+  },
+  "cc13_f": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de un seguro privado?",
+    "unit": "None"
+  },
+  "cc13_g": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de otra institución?",
+    "unit": "None"
+  },
+  "cc13_h": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos?",
+    "unit": "None"
+  },
+  "cc13_i": {
+    "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos? No sabe o no responde",
+    "unit": "None"
+  },
+  "cc14": {
+    "description": "Imagínese una escalera con 10 escalones numerados del 1 (abajo) al 10 (arriba). Supongamos que el escalón de arriba (10) representa la mejor vida posible para usted y el escalón de abajo (1) es la peor vida posible para usted. ¿En cuál escalón de la escalera piensa usted que estaría parada de acuerdo con su situación actual?",
+    "unit": "None"
+  },
+  "cc15": {
+    "description": "¿Alguna vez le ha diagnosticado su médico o le han tratado por una condición mental / psiquiátrica?",
+    "unit": "None"
+  },
+  "cc15_1a": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc15_1a1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc15_1b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc15_1b1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc15_1c": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc15_1c1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc16_1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc16_2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc16_3": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc16_4": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc16_5": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc17": {
+    "description": "¿Ha fumado usted por lo menos cien cigarros (5 cajetillas) de tabaco durante toda su vida?",
+    "unit": "None"
+  },
+  "cc17_1": {
+    "description": "¿Cuántos años tenía cuando fumó tabaco por primera vez, aunque fuera una sola fumada de un cigarro, de un puro o de una pipa?",
+    "unit": "años"
+  },
+  "cc17_2": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc17_3a": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc17_3b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc17_3c": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc17_3d": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc17_4a": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc17_4b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc18a": {
+    "description": "¿Cuántos cigarros fuma actualmente?",
+    "unit": "None"
+  },
+  "cc18b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc19": {
+    "description": "¿Qué edad tenía cuando tomó alcohol por primera vez?",
+    "unit": "años"
+  },
+  "cc19_1": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc19_2a": {
+    "description": "Pensando en la mayoría de las veces que ha tomado bebidas alcohólicas, ¿cómo ha sido el tipo de bebida?",
+    "unit": "None"
+  },
+  "cc19_2aesp": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc19_2b": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc19_2c": {
+    "description": "None",
+    "unit": "None"
+  },
+  "cc19_3": {
+    "description": "Considerando todo tipo de bebidas alcohólicas, ¿cuántas veces ha tomado en el último mes?",
+    "unit": "None"
+  }
+}

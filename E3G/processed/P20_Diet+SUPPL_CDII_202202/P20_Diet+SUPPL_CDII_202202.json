@@ -1,0 +1,18 @@
+{
+  "foliocc": {
+    "description": "unique identifier",
+    "unit": ""
+  },
+  "cd_age": {
+    "description": "child age",
+    "unit": ""
+  },
+  "P20supp_cdii": {
+    "description": "P20 supplement child dietary inflammatory index score",
+    "unit": ""
+  },
+  "Etapa": {
+    "description": "stage",
+    "unit": ""
+  }
+}

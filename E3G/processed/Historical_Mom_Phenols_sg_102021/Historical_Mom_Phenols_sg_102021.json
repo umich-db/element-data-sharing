@@ -1,0 +1,171 @@
+{
+    "Proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Batch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Trimester": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Spec_Grav": {
+      "description": "None",
+      "unit": "None"
+    },
+    "BPA": {
+      "description": "Bisphenol A",
+      "unit": "None"
+    },
+    "Lod_BPA": {
+      "description": "Limit of Detection for Bisphenol A",
+      "unit": "None"
+    },
+    "Comment_BPA": {
+      "description": "Comment for Bisphenol A",
+      "unit": "None"
+    },
+    "_24_DCP": {
+      "description": "2,4-Dichlorophenol",
+      "unit": "None"
+    },
+    "Lod_24_DCP": {
+      "description": "Limit of Detection for 2,4-Dichlorophenol",
+      "unit": "None"
+    },
+    "Comment_24_DCP": {
+      "description": "Comment for 2,4-Dichlorophenol",
+      "unit": "None"
+    },
+    "_25_DCP": {
+      "description": "2,5-Dichlorophenol",
+      "unit": "None"
+    },
+    "Lod_25_DCP": {
+      "description": "Limit of Detection for 2,5-Dichlorophenol",
+      "unit": "None"
+    },
+    "Comment_25_DCP": {
+      "description": "Comment for 2,5-Dichlorophenol",
+      "unit": "None"
+    },
+    "BP_3": {
+      "description": "Benzophenone-3",
+      "unit": "None"
+    },
+    "Lod_BP_3": {
+      "description": "Limit of Detection for Benzophenone-3",
+      "unit": "None"
+    },
+    "Comment_BP_3": {
+      "description": "Comment for Benzophenone-3",
+      "unit": "None"
+    },
+    "BPF": {
+      "description": "Bisphenol F",
+      "unit": "None"
+    },
+    "Lod_BPF": {
+      "description": "Limit of Detection for Bisphenol F",
+      "unit": "None"
+    },
+    "Comment_BPF": {
+      "description": "Comment for Bisphenol F",
+      "unit": "None"
+    },
+    "BPS": {
+      "description": "Bisphenol S",
+      "unit": "None"
+    },
+    "Lod_BPS": {
+      "description": "Limit of Detection for Bisphenol S",
+      "unit": "None"
+    },
+    "Comment_BPS": {
+      "description": "Comment for Bisphenol S",
+      "unit": "None"
+    },
+    "BPB": {
+      "description": "Butyl Paraben",
+      "unit": "None"
+    },
+    "Lod_BPB": {
+      "description": "Limit of Detection for Butyl Paraben",
+      "unit": "None"
+    },
+    "Comment_BPB": {
+      "description": "Comment for Butyl Paraben",
+      "unit": "None"
+    },
+    "EPB": {
+      "description": "Ethyl Paraben",
+      "unit": "None"
+    },
+    "Lod_EPB": {
+      "description": "Limit of Detection for Ethyl Paraben",
+      "unit": "None"
+    },
+    "Comment_EPB": {
+      "description": "Comment for Ethyl Paraben",
+      "unit": "None"
+    },
+    "MPB": {
+      "description": "Methyl Paraben",
+      "unit": "None"
+    },
+    "Lod_MPB": {
+      "description": "Limit of Detection for Methyl Paraben",
+      "unit": "None"
+    },
+    "Comment_MPB": {
+      "description": "Comment for Methyl Paraben",
+      "unit": "None"
+    },
+    "PPB": {
+      "description": "Propyl Paraben",
+      "unit": "None"
+    },
+    "Lod_PPB": {
+      "description": "Limit of Detection for Propyl Paraben",
+      "unit": "None"
+    },
+    "Comment_PPB": {
+      "description": "Comment for Propyl Paraben",
+      "unit": "None"
+    },
+    "TCC": {
+      "description": "Triclosan",
+      "unit": "None"
+    },
+    "Lod_TCC": {
+      "description": "Limit of Detection for Triclosan",
+      "unit": "None"
+    },
+    "Comment_TCC": {
+      "description": "Comment for Triclosan",
+      "unit": "None"
+    },
+    "TCS": {
+      "description": "Triclocarban",
+      "unit": "None"
+    },
+    "Lod_TCS": {
+      "description": "Limit of Detection for Triclocarban",
+      "unit": "None"
+    },
+    "Comment_TCS": {
+      "description": "Comment for Triclocarban",
+      "unit": "None"
+    }
+  }
+  

@@ -1,0 +1,135 @@
+{
+    "proyecto": {
+      "description": "Cohort",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "stage": {
+      "description": "None",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "None",
+      "unit": ""
+    },
+    "fechanac_ch": {
+      "description": "Child's Date of Birth",
+      "unit": ""
+    },
+    "fecha_visita": {
+      "description": "Date of Visit",
+      "unit": ""
+    },
+    "sex_ch": {
+      "description": "Child's Sex",
+      "unit": ""
+    },
+    "edad_ch": {
+      "description": "Child's age at time of visit",
+      "unit": ""
+    },
+    "edad": {
+      "description": "None",
+      "unit": ""
+    },
+    "asistencia": {
+      "description": "None",
+      "unit": ""
+    },
+    "sc5": {
+      "description": "Age of mother",
+      "unit": ""
+    },
+    "sc6": {
+      "description": "Mother's Date of Birth",
+      "unit": ""
+    },
+    "NC_ANTROP_M": {
+      "description": "None",
+      "unit": ""
+    },
+    "date_antro": {
+      "description": "Date of Anthropometry measures",
+      "unit": ""
+    },
+    "height_m": {
+      "description": "Mother: height",
+      "unit": "meters"
+    },
+    "weight_m": {
+      "description": "Mother: weight",
+      "unit": "kg"
+    },
+    "bmi_m": {
+      "description": "Mother: BMI",
+      "unit": ""
+    },
+    "waist_m": {
+      "description": "Mother: Waist Circumference",
+      "unit": "cm"
+    },
+    "dias_left_m": {
+      "description": "Mother: Diastolic left arm",
+      "unit": ""
+    },
+    "syst_left_m": {
+      "description": "Mother: Systolic left arm",
+      "unit": ""
+    },
+    "spdias_left_m": {
+      "description": "Mother: Diastolic left arm space lab",
+      "unit": ""
+    },
+    "spdias_r_m": {
+      "description": "Mother: Diastolic Right arm space lab",
+      "unit": ""
+    },
+    "spsyst_left_m": {
+      "description": "Mother: Systolic left arm space lab",
+      "unit": ""
+    },
+    "spsyst_r_m": {
+      "description": "Mother: Systolic Right arm space lab",
+      "unit": ""
+    },
+    "pse_m": {
+      "description": "Mother: subscapularis fold",
+      "unit": ""
+    },
+    "psi_m": {
+      "description": "Mother: suprailiac fold",
+      "unit": ""
+    },
+    "plb_m": {
+      "description": "Mother: biceps crease",
+      "unit": ""
+    },
+    "fat_m": {
+      "description": "Mother: Fat mass",
+      "unit": ""
+    },
+    "fatp_m": {
+      "description": "Mother: Percent of fat mass",
+      "unit": ""
+    },
+    "ffm_m": {
+      "description": "Mother: Fat free mass",
+      "unit": ""
+    },
+    "ffmp_m": {
+      "description": "Mother: Percent fat free mass",
+      "unit": ""
+    },
+    "men_mat_": {
+      "description": "None",
+      "unit": ""
+    }
+  }
+  

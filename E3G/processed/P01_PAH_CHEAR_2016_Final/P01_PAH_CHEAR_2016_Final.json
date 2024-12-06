@@ -1,0 +1,47 @@
+{
+    "Foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Sample_collection_timepoint_desc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Sample_Matrix": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FLUO2": {
+      "description": "2-hydroxyfluorene",
+      "unit": "ng/L"
+    },
+    "NAP1": {
+      "description": "1-hydroxynaphthalene",
+      "unit": "ng/L"
+    },
+    "NAP2": {
+      "description": "2-hydroxynaphthalene",
+      "unit": "ng/L"
+    },
+    "PHEN1": {
+      "description": "1-hydroxyphenanthrene",
+      "unit": "ng/L"
+    },
+    "PHEN2PHEN3": {
+      "description": "2-hydroxyphenanthrene + 3-hydroxyphenanthrene",
+      "unit": "ng/L"
+    },
+    "PHEN4": {
+      "description": "4-hydroxyphenanthrene",
+      "unit": "ng/L"
+    },
+    "PHEN9": {
+      "description": "9-hydroxyphenanthrene",
+      "unit": "ng/L"
+    },
+    "PYR1": {
+      "description": "1-hydroxypyrene",
+      "unit": "ng/L"
+    }
+  }
+  

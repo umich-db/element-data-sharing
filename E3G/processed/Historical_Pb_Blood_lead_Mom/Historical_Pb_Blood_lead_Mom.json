@@ -1,0 +1,51 @@
+{
+    "PROYECTO": {
+      "description": "project",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "file",
+      "unit": ""
+    },
+    "PB_M_11": {
+      "description": "Mother Blood Lead Trimester 1",
+      "unit": ""
+    },
+    "PB_M_12": {
+      "description": "Mother Blood Lead Trimester 2",
+      "unit": ""
+    },
+    "PB_M_13": {
+      "description": "Mother Blood Lead Trimester 3",
+      "unit": ""
+    },
+    "PB_CORD": {
+      "description": "Cord Blood Lead",
+      "unit": ""
+    },
+    "PB_M_20": {
+      "description": "Mother delivery Blood Lead",
+      "unit": ""
+    },
+    "PB_M_21": {
+      "description": "Mother Blood Lead one month postpartum",
+      "unit": ""
+    },
+    "PB_M_23": {
+      "description": "Mother Blood Lead three months postpartum",
+      "unit": ""
+    },
+    "PB_M_24": {
+      "description": "Mother Blood Lead four months postpartum",
+      "unit": ""
+    },
+    "PB_M_27": {
+      "description": "Mother Blood Lead seven months postpartum",
+      "unit": ""
+    },
+    "PB_M_212": {
+      "description": "Mother Blood Lead twelve months postpartum",
+      "unit": ""
+    }
+  }
+  

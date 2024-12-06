@@ -1,0 +1,19 @@
+{
+    "Proyecto": {
+      "description": "Project",
+      "unit": ""
+    },
+    "Folio": {
+      "description": "folio",
+      "unit": ""
+    },
+    "Foliocc": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "Cdii_ccdiet": {
+      "description": "Child's dietary Inflammatory Index",
+      "unit": ""
+    }
+  }
+  

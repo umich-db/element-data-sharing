@@ -1,0 +1,167 @@
+{
+    "PROYECTO": {
+      "description": "Cohort",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "Cohort specific ID",
+      "unit": ""
+    },
+    "FOLIOCC": {
+      "description": "New Folio",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "Visit name",
+      "unit": ""
+    },
+    "stage": {
+      "description": "Cohort Stage",
+      "unit": ""
+    },
+    "cod_cap": {
+      "description": "Code of the capturer",
+      "unit": ""
+    },
+    "cod_med": {
+      "description": "Code of the measurer",
+      "unit": ""
+    },
+    "dia_h": {
+      "description": "Measurement day",
+      "unit": ""
+    },
+    "mes_h": {
+      "description": "Measurement month",
+      "unit": ""
+    },
+    "anio_h": {
+      "description": "Measurement year",
+      "unit": ""
+    },
+    "AC_SexH": {
+      "description": "Gender",
+      "unit": ""
+    },
+    "Age_days": {
+      "description": "Age in Days",
+      "unit": ""
+    },
+    "Age_mon": {
+      "description": "Age in Months",
+      "unit": ""
+    },
+    "Age_yrs": {
+      "description": "Age in Years",
+      "unit": ""
+    },
+    "Weight_kg": {
+      "description": "Same as peso1_h",
+      "unit": "Kg"
+    },
+    "Height_cm": {
+      "description": "The average of talla172_h, talla272_h and talla372_h",
+      "unit": "cm"
+    },
+    "BMI": {
+      "description": "calculated BMI=weight / squared (height)",
+      "unit": ""
+    },
+    "Waist_cm": {
+      "description": "Abdomen circumference",
+      "unit": "cm"
+    },
+    "WAZ": {
+      "description": "Weight-for-age z-score",
+      "unit": ""
+    },
+    "HAZ": {
+      "description": "Height-for-age z-score",
+      "unit": ""
+    },
+    "BAZ": {
+      "description": "BMI-for-age z-score",
+      "unit": ""
+    },
+    "Flag": {
+      "description": "None",
+      "unit": "None"
+    },
+    "longbra_h": {
+      "description": "Upper arm length",
+      "unit": ""
+    },
+    "cirbra_h": {
+      "description": "Arm circumference",
+      "unit": ""
+    },
+    "tri_skin": {
+      "description": "Triceps skin fold",
+      "unit": ""
+    },
+    "sup_skin": {
+      "description": "Suprailiac skin fold",
+      "unit": ""
+    },
+    "sub_skin": {
+      "description": "Subscapularis skin fold",
+      "unit": ""
+    },
+    "bps": {
+      "description": "Average systolic pressure BPtru",
+      "unit": ""
+    },
+    "bpd": {
+      "description": "Average Diastolic pressure BPtru",
+      "unit": ""
+    },
+    "bpp": {
+      "description": "Average Pulse Pressure BPtru",
+      "unit": ""
+    },
+    "bp_syst": {
+      "description": "Systolic blood pressure",
+      "unit": ""
+    },
+    "bp_dias": {
+      "description": "Diastolic blood pressure",
+      "unit": ""
+    },
+    "inbody_h": {
+      "description": "Inbody study was performed",
+      "unit": ""
+    },
+    "cpt": {
+      "description": "CPT study was performed",
+      "unit": ""
+    },
+    "acel": {
+      "description": "Is accelerometer placed",
+      "unit": ""
+    },
+    "nih1": {
+      "description": "NIH Toolbox 1 study was performed",
+      "unit": ""
+    },
+    "nih2": {
+      "description": "NIH Toolbox 2 study was performed",
+      "unit": ""
+    },
+    "nih3": {
+      "description": "NIH Toolbox 3 study was performed",
+      "unit": ""
+    },
+    "m_obs1": {
+      "description": "Comments",
+      "unit": ""
+    },
+    "basch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "bascm": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

@@ -1,0 +1,103 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Id",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "participante": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "id": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha": {
+      "description": "None",
+      "unit": "None"
+    },
+    "lugar": {
+      "description": "None",
+      "unit": "None"
+    },
+    "cod_cap": {
+      "description": "Code of the person who captures",
+      "unit": "None"
+    },
+    "cod_med": {
+      "description": "Code of the person who measures",
+      "unit": "None"
+    },
+    "dia_m": {
+      "description": "Measurement day",
+      "unit": "None"
+    },
+    "mes_m": {
+      "description": "Measurement Month",
+      "unit": "None"
+    },
+    "anio_m": {
+      "description": "Measuring year",
+      "unit": "None"
+    },
+    "bps": {
+      "description": "Average systolic BPtru pressure",
+      "unit": "None"
+    },
+    "bpd": {
+      "description": "Mean diastolic BPtru pressure",
+      "unit": "None"
+    },
+    "bpp": {
+      "description": "Average Pulse BPtru Pressure",
+      "unit": "None"
+    },
+    "sist1_m": {
+      "description": "1st Systolic Measurement",
+      "unit": "None"
+    },
+    "diast1_m": {
+      "description": "1st Dystopic Measurement",
+      "unit": "None"
+    },
+    "sist2_m": {
+      "description": "2nd Systolic Measurement",
+      "unit": "None"
+    },
+    "diast2_m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sistwa1_m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "diastwa1_m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sistwa2_m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "diastwa2_m": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

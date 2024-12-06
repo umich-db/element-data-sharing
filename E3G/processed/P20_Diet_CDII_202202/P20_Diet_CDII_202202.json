@@ -1,0 +1,23 @@
+{
+    "foliocc": {
+      "description": "unique identifier",
+      "unit": "None"
+    },
+    "cd_age": {
+      "description": "child's age",
+      "unit": "None"
+    },
+    "age_group": {
+      "description": "None",
+      "unit": "None"
+    },
+    "P20diet_cdii": {
+      "description": "P20 child diet inflammatory index score",
+      "unit": "None"
+    },
+    "Etapa": {
+      "description": "stage",
+      "unit": "None"
+    }
+  }
+  

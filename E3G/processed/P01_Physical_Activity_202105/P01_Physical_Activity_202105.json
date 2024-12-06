@@ -1,0 +1,339 @@
+{
+    "foliocc": {
+      "description": "Folio",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "Stage",
+      "unit": "T1-T2"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "f_dia": {
+      "description": "Interview day",
+      "unit": ""
+    },
+    "f_mes": {
+      "description": "Interview month",
+      "unit": ""
+    },
+    "f_anio": {
+      "description": "Interview year",
+      "unit": ""
+    },
+    "cod_ent": {
+      "description": "Interviewer Code",
+      "unit": ""
+    },
+    "acv1": {
+      "description": "1. Without counting you, how many people under 18 living at home?",
+      "unit": ""
+    },
+    "acv2_1": {
+      "description": "2.1 Soccer",
+      "unit": ""
+    },
+    "acv2_2": {
+      "description": "2.2 Volleyball",
+      "unit": ""
+    },
+    "acv2_3": {
+      "description": "2.3 Cycling",
+      "unit": ""
+    },
+    "acv2_4": {
+      "description": "2.4 Skating or skateboarding",
+      "unit": ""
+    },
+    "acv2_5": {
+      "description": "2.5 Basketball",
+      "unit": ""
+    },
+    "acv2_6": {
+      "description": "2.6 Dancing(including dance classes like ballet, jazz, Hawaiian)",
+      "unit": ""
+    },
+    "acv2_7": {
+      "description": "2.7 Clean or fix home",
+      "unit": ""
+    },
+    "acv2_8": {
+      "description": "2.8 Walking",
+      "unit": ""
+    },
+    "acv2_9": {
+      "description": "2.9 Running",
+      "unit": ""
+    },
+    "acv2_10": {
+      "description": "2.10 Gymnastics, aerobics, etc.",
+      "unit": ""
+    },
+    "acv2_11": {
+      "description": "2.11 Swimming (not just playing in the pool)",
+      "unit": ""
+    },
+    "acv2_12": {
+      "description": "2.12 Baseball",
+      "unit": ""
+    },
+    "acv2_13": {
+      "description": "2.13 Tennis, racquetball or Fronton",
+      "unit": ""
+    },
+    "acv2_14": {
+      "description": "other activity or sport",
+      "unit": "1. Yes 2. No If the answer is NO, go to question 3"
+    },
+    "acv2_cual": {
+      "description": "(specify which",
+      "unit": ""
+    },
+    "acv2_14_1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv3_1": {
+      "description": "3. Do you participate in any sports team in or out of school?",
+      "unit": "1. Yes 2. No If the answer is NO, go to question 3"
+    },
+    "acv3_cual": {
+      "description": "(Specify what",
+      "unit": "Name of team"
+    },
+    "acv4_1": {
+      "description": "Monday",
+      "unit": ""
+    },
+    "acv4_2": {
+      "description": "Tuesday",
+      "unit": ""
+    },
+    "acv4_3": {
+      "description": "Wednesday",
+      "unit": ""
+    },
+    "acv4_4": {
+      "description": "Thursday",
+      "unit": ""
+    },
+    "acv4_5": {
+      "description": "Friday",
+      "unit": ""
+    },
+    "acv4_6": {
+      "description": "Saturday",
+      "unit": ""
+    },
+    "acv4_7": {
+      "description": "Sunday",
+      "unit": ""
+    },
+    "acv5_1": {
+      "description": "How often do you watch movies or videos on a VCR / DVD?",
+      "unit": ""
+    },
+    "acv5_2": {
+      "description": "How many hours do you play video games (like PlayStation, GameBoy, Xbox or other video games or computer) and use the Internet for entertainment (not for homework)?",
+      "unit": ""
+    },
+    "acv5_3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv5_4": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv6_1": {
+      "description": "How many hours do you use to do your homework and / or read?",
+      "unit": ""
+    },
+    "acv7_1": {
+      "description": "How often do you watch movies or videos on a VCR/DVD?",
+      "unit": ""
+    },
+    "acv7_2": {
+      "description": "How many hours do you play video games (like PlayStation, GameBoy, Xbox or other video games or computer) and use the Internet for entertainment (not for homework)?",
+      "unit": ""
+    },
+    "acv7_3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv7_4": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv8": {
+      "description": "How many hours do you use to do your homework and / or read?",
+      "unit": ""
+    },
+    "acv9_1": {
+      "description": "On a weekday",
+      "unit": ""
+    },
+    "acv9_2": {
+      "description": "On a weekend day",
+      "unit": ""
+    },
+    "acv13_1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv13_2": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv10_1": {
+      "description": "Weekday",
+      "unit": ""
+    },
+    "acv10_2": {
+      "description": "Weekend",
+      "unit": ""
+    },
+    "acv11": {
+      "description": "11. What time do you get up to go to school normally?",
+      "unit": ""
+    },
+    "acv12": {
+      "description": "12. What time do you usually wake up on Saturday and Sunday?",
+      "unit": ""
+    },
+    "acv14": {
+      "description": "None",
+      "unit": "None"
+    },
+    "obs": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_hrs_1": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_2": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_3": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_4": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_5": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_6": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_7": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_8": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_9": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_10": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_11": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_12": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_hrs_13": {
+      "description": "2. How long in these activities?",
+      "unit": ""
+    },
+    "acv2_met_1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_2": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_4": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_5": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_6": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_7": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_8": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_9": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_10": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_11": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_12": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_met_13": {
+      "description": "None",
+      "unit": "None"
+    },
+    "acv2_PAhrs": {
+      "description": "Number of hours of physical activity per week",
+      "unit": ""
+    },
+    "acv2_METhrs": {
+      "description": "Total METs per week",
+      "unit": ""
+    },
+    "acv2_vigPAhrs": {
+      "description": "Hours of vigorous physical activity per week (MET > 6)",
+      "unit": ""
+    },
+    "acv2_nonvigPAhrs": {
+      "description": "Hours of non-vigorous physical activity per week (MET < 6)",
+      "unit": ""
+    },
+    "acv2_nonvigPAhrs_wo_walk": {
+      "description": "Hours of non-vigorous physical activity per week (MET < 6), excluding walk",
+      "unit": ""
+    }
+  }
+  

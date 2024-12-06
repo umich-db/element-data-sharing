@@ -1,0 +1,35 @@
+{
+    "PROYECTO": {
+      "description": "project",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "file",
+      "unit": ""
+    },
+    "FOLIOCC": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "bloodhg101": {
+      "description": "blood mercury trimester 1",
+      "unit": ""
+    },
+    "bloodhg102": {
+      "description": "blood mercury trimester 2",
+      "unit": ""
+    },
+    "bloodhg103": {
+      "description": "blood mercury trimester 3",
+      "unit": ""
+    },
+    "cordbloodhg": {
+      "description": "cord blood mercury",
+      "unit": ""
+    },
+    "bloodhg200": {
+      "description": "blood mercury at delivery",
+      "unit": ""
+    }
+  }
+  

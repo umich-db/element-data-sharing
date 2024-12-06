@@ -1,0 +1,59 @@
+{
+    "proyecto": {
+      "description": "Cohort",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "stage": {
+      "description": "None",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "None",
+      "unit": ""
+    },
+    "fechanac_ch": {
+      "description": "Child's Date of Birth",
+      "unit": ""
+    },
+    "fecha_visita": {
+      "description": "Date of Visit",
+      "unit": ""
+    },
+    "sex_ch": {
+      "description": "Child's Sex",
+      "unit": ""
+    },
+    "edad_ch": {
+      "description": "Child's age at time of visit",
+      "unit": ""
+    },
+    "fat_ch": {
+      "description": "Mother: Fat mass",
+      "unit": ""
+    },
+    "fatp_ch": {
+      "description": "Mother: Percent of fat mass",
+      "unit": ""
+    },
+    "ffm_ch": {
+      "description": "Mother: Fat free mass",
+      "unit": ""
+    },
+    "ffmp_ch": {
+      "description": "Mother: Percent fat free mass",
+      "unit": ""
+    },
+    "men_mat": {
+      "description": "None",
+      "unit": ""
+    }
+  }
+  

@@ -1,0 +1,1 @@
+"This dataset contains two columns: 'FOLIOCC' and 'T_S'. The 'T_S' column represents the telomere length as described in the first row. The dataset is structured to provide insights into telomere length variations, potentially across different samples or conditions as indicated by the 'FOLIOCC' column."

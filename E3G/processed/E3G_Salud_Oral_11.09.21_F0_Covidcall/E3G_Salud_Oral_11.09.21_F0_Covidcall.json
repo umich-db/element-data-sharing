@@ -1,0 +1,25 @@
+{
+    "proyecto": {"description": "None", "unit": "None"},
+    "folio": {"description": "None", "unit": "None"},
+    "foliocc": {"description": "None", "unit": "None"},
+    "stage": {"description": "None", "unit": "None"},
+    "id": {"description": "ID: CC- __ __ __ __ -C19-M", "unit": "None"},
+    "f_dia": {"description": "Day of the interview", "unit": "None"},
+    "f_mes": {"description": "Month of the interview", "unit": "None"},
+    "f_anio": {"description": "Year of the interview", "unit": "None"},
+    "fechac19": {"description": "Today's date", "unit": "None"},
+    "edad": {"description": "Age in Years", "unit": "years"},
+    "cod_ent": {"description": "Interviewer's code", "unit": "None"},
+    "c19_1": {"description": "More or less, how long since you last went to the dentist?", "unit": "None"},
+    "c19_2": {"description": "What was the main reason you went to the dentist last time?", "unit": "None"},
+    "c19_3": {"description": "Over the past month, how often have you had a lot of pain somewhere in your mouth?", "unit": "None"},
+    "c19_4": {"description": "Over the past month, how often have you been aware of or felt ashamed of your teeth, mouth, or dentures?", "unit": "None"},
+    "c19_5": {"description": "In general, how would you say the state of health of your teeth and gums is?", "unit": "None"},
+    "c19_6": {"description": "During the last month, he has had some dental treatment", "unit": "None"},
+    "c19_7": {"description": "In the last month, have you had the need to see the dentist, but it has not been possible?", "unit": "None"},
+    "c19_7_1a": {"description": "What was the reason why it was not possible for you to attend?", "unit": "None"},
+    "c19_7_1b": {"description": "None", "unit": "None"},
+    "c19_8": {"description": "Over the past month, have you had any teeth loosened on their own, without an injury?", "unit": "None"},
+    "c19_9": {"description": "Over the past month, have you noticed any teeth that don't look good?", "unit": "None"}
+  }
+  

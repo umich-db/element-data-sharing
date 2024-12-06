@@ -1,0 +1,211 @@
+{
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "Etapa de estudio",
+      "unit": "None"
+    },
+    "id": {
+      "description": "Folio Identificador",
+      "unit": "None"
+    },
+    "folioC1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_hg": {
+      "description": "None",
+      "unit": "None"
+    },
+    "f_dia": {
+      "description": "Dia que asistio al estudio",
+      "unit": "None"
+    },
+    "f_mes": {
+      "description": "Mes que asistio al estudio",
+      "unit": "None"
+    },
+    "f_anio": {
+      "description": "Año que asistio al estudio",
+      "unit": "None"
+    },
+    "hora": {
+      "description": "Hora que se aplico el cuestionario",
+      "unit": "None"
+    },
+    "min": {
+      "description": "Minuto que se aplico el cuestionario",
+      "unit": "None"
+    },
+    "cod_ent": {
+      "description": "Codigo de la Entrevistadora",
+      "unit": "None"
+    },
+    "dia_n": {
+      "description": "Dia que nacio participante",
+      "unit": "None"
+    },
+    "mes_n": {
+      "description": "Mes que nacio participante",
+      "unit": "None"
+    },
+    "anio_n": {
+      "description": "Año que nacio participante",
+      "unit": "None"
+    },
+    "edad": {
+      "description": "¿Qué edad tienes?",
+      "unit": "None"
+    },
+    "sexo": {
+      "description": "None",
+      "unit": "None"
+    },
+    "estcivil": {
+      "description": "¿Actualmente, cuál es tu estado civil?",
+      "unit": "None"
+    },
+    "vives": {
+      "description": "¿Vives con:",
+      "unit": "None"
+    },
+    "tiehijos": {
+      "description": "¿Tienes hijos?",
+      "unit": "None"
+    },
+    "cuahijos": {
+      "description": "¿Cuántos hijos?",
+      "unit": "None"
+    },
+    "edadhjs1": {
+      "description": "Edad Hijo 1",
+      "unit": "None"
+    },
+    "edadhjs2": {
+      "description": "Edad hijo 2",
+      "unit": "None"
+    },
+    "edadhjs3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ocupacion_principal": {
+      "description": "None",
+      "unit": "None"
+    },
+    "cg1_cual": {
+      "description": "Especificar cual ocupacion",
+      "unit": "None"
+    },
+    "cg2": {
+      "description": "Describe brevemente lo que haces en tu trabajo.",
+      "unit": "None"
+    },
+    "cg3": {
+      "description": "¿En general, cuántas horas trabajas por semana?",
+      "unit": "None"
+    },
+    "cg4": {
+      "description": "¿Quién es el jefe del hogar donde vives?",
+      "unit": "None"
+    },
+    "cg7": {
+      "description": "¿Cuál es el total de piezas y/o habitaciones con que cuenta tu hogar?",
+      "unit": "None"
+    },
+    "cg8": {
+      "description": "¿Cuántos baños completos con regadera y W.C. (excusado) hay para uso exclusivo de los integrantes de tu hogar?",
+      "unit": "None"
+    },
+    "cg9": {
+      "description": "¿Tu hogar cuenta con calentador de agua o boiler?",
+      "unit": "None"
+    },
+    "cg10": {
+      "description": "¿Cuántos focos tiene tu vivienda?",
+      "unit": "None"
+    },
+    "cg13": {
+      "description": "¿Tienes aspiradora que funcione?",
+      "unit": "None"
+    },
+    "cg14": {
+      "description": "¿Tienes lavadora de ropa que funcione?",
+      "unit": "None"
+    },
+    "cg15": {
+      "description": "¿Tienes horno de microondas que funcione?",
+      "unit": "None"
+    },
+    "cg19": {
+      "description": "¿Has fumado tabaco alguna vez en tu vida?",
+      "unit": "None"
+    },
+    "cg22": {
+      "description": "¿Fumas actualmente?",
+      "unit": "None"
+    },
+    "cg24_d": {
+      "description": "¿Cuántos cigarrillos fumas?",
+      "unit": "Diariamente"
+    },
+    "cg27": {
+      "description": "¿Has tomado alguna bebida alcohólica en tu vida?",
+      "unit": "None"
+    },
+    "cg34": {
+      "description": "¿Cuántas horas en promedio duermes en un día?",
+      "unit": "Numeros de Horas"
+    },
+    "cg35": {
+      "description": "¿Cuántos días realizaste actividad física vigorosa?",
+      "unit": "Dias por Semanas"
+    },
+    "cg41": {
+      "description": "¿Cuántos días caminaste por lo menos 10 minutos continuos?",
+      "unit": "Dias por Semanas"
+    },
+    "cg51": {
+      "description": "Muestra de sangre- Tubo beige",
+      "unit": "None"
+    },
+    "sistolica_1": {
+      "description": "Presión Sanguínea brazo izquierdo (Primera)",
+      "unit": "Sistólica"
+    },
+    "sistolica_2": {
+      "description": "Presión Sanguínea brazo izquierdo (Segunda)",
+      "unit": "Sistólica"
+    },
+    "peso": {
+      "description": "Peso",
+      "unit": "Kg"
+    },
+    "talla_1": {
+      "description": "Talla 1",
+      "unit": "M"
+    },
+    "talla_2": {
+      "description": "Talla 2",
+      "unit": "M"
+    },
+    "cc_1": {
+      "description": "Circunferencia de cintura 1",
+      "unit": "Cm"
+    },
+    "cc_2": {
+      "description": "Circunferencia de cintura 2",
+      "unit": "Cm"
+    },
+    "imc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edo_nut": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

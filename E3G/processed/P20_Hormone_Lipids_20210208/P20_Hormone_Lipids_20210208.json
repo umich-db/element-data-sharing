@@ -1,0 +1,63 @@
+{
+    "FOLIOCC": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "tot_chol": {
+      "description": "Total Cholesterol",
+      "unit": ""
+    },
+    "hdl": {
+      "description": "high-density lipoprotein",
+      "unit": ""
+    },
+    "trigly": {
+      "description": "Triglycerides",
+      "unit": ""
+    },
+    "glucose": {
+      "description": "Glucose",
+      "unit": ""
+    },
+    "ldl": {
+      "description": "Low-density lipoprotein (LDL)",
+      "unit": ""
+    },
+    "Inhibin_B": {
+      "description": "inhibin B",
+      "unit": ""
+    },
+    "Testo": {
+      "description": "Testosterone",
+      "unit": ""
+    },
+    "SHBG": {
+      "description": "Sex hormone binding globulin (SHBG)",
+      "unit": ""
+    },
+    "E2": {
+      "description": "Estradiol",
+      "unit": ""
+    },
+    "C_peptide": {
+      "description": "C_peptide",
+      "unit": ""
+    },
+    "DHEA_S": {
+      "description": "DHEAS",
+      "unit": ""
+    },
+    "IGF_1": {
+      "description": "Insulin-like Growth Factor (IGF-1)",
+      "unit": ""
+    },
+    "Leptin": {
+      "description": "Leptin",
+      "unit": ""
+    },
+    "Insulin": {
+      "description": "Insulin",
+      "unit": ""
+    }
+  }
+  

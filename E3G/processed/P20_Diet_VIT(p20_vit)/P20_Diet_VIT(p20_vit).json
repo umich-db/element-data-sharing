@@ -1,0 +1,155 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "v_folic_acid": {
+      "description": "Folato",
+      "unit": "mcg/100g"
+    },
+    "v_vit_A": {
+      "description": "Vitamina A",
+      "unit": "IU/100g"
+    },
+    "v_colecalciferol": {
+      "description": "Vitamina D",
+      "unit": "IU/100g"
+    },
+    "v_tiamina": {
+      "description": "Tiamina",
+      "unit": "mg/100g"
+    },
+    "v_riboflavina": {
+      "description": "Riboflavina",
+      "unit": "mg/100g"
+    },
+    "v_a_tocoferol": {
+      "description": "Vitamina E",
+      "unit": "mg_ATE/100g"
+    },
+    "v_piridoxina": {
+      "description": "Vitamina B-6",
+      "unit": "mg/100g"
+    },
+    "v_cianocobalamina": {
+      "description": "Vitamina B-12",
+      "unit": "mg/100g"
+    },
+    "v_vit_C": {
+      "description": "Vitamina C",
+      "unit": "mg/100g"
+    },
+    "v_vit_K": {
+      "description": "Vitamina K",
+      "unit": "None"
+    },
+    "v_nicotinamida": {
+      "description": "Niacina",
+      "unit": "mg/100g"
+    },
+    "v_ac_pantotenico": {
+      "description": "Ácido Pantoténico",
+      "unit": "mg/100g"
+    },
+    "v_biotina": {
+      "description": "Biotina",
+      "unit": "None"
+    },
+    "v_Ca": {
+      "description": "Calcio",
+      "unit": "mg/100g"
+    },
+    "v_P": {
+      "description": "Fósforo",
+      "unit": "mg/100g"
+    },
+    "v_Fe": {
+      "description": "Hierro",
+      "unit": "mg/100g"
+    },
+    "v_Zn": {
+      "description": "Zinc",
+      "unit": "mg/100g"
+    },
+    "v_Cu": {
+      "description": "Cobre",
+      "unit": "mg/100g"
+    },
+    "v_Mg": {
+      "description": "Magnesio",
+      "unit": "mg/100g"
+    },
+    "v_Mn": {
+      "description": "Manganeso",
+      "unit": "mg/100g"
+    },
+    "v_Na": {
+      "description": "Sodio",
+      "unit": "mg/100g"
+    },
+    "v_K": {
+      "description": "Potasio",
+      "unit": "mg/100g"
+    },
+    "v_I": {
+      "description": "Yodo",
+      "unit": "None"
+    },
+    "v_Cl": {
+      "description": "Cloro",
+      "unit": "None"
+    },
+    "v_Se": {
+      "description": "Selenio",
+      "unit": "mcg/100g"
+    },
+    "v_Cr": {
+      "description": "Cromo",
+      "unit": "None"
+    },
+    "v_Mb": {
+      "description": "None",
+      "unit": "None"
+    },
+    "v_Kcal": {
+      "description": "Energía en Kcal",
+      "unit": "Kcal/100g"
+    },
+    "v_Prot": {
+      "description": "Proteína",
+      "unit": "g/100g"
+    },
+    "v_Lipids": {
+      "description": "Grasa",
+      "unit": "g/100g"
+    },
+    "v_Carbohydrates": {
+      "description": "Hidratos de carbono",
+      "unit": "g/100g"
+    },
+    "v_niacinamida": {
+      "description": "Niacinamida",
+      "unit": "None"
+    },
+    "v_colina": {
+      "description": "Colina",
+      "unit": "None"
+    },
+    "v_inositol": {
+      "description": "Inositol",
+      "unit": "None"
+    },
+    "v_taurina": {
+      "description": "None",
+      "unit": "None"
+    },
+    "v_carnitina": {
+      "description": "None",
+      "unit": "None"
+    },
+    "v_lisina": {
+      "description": "Lisina",
+      "unit": "g/100g"
+    }
+  }
+  

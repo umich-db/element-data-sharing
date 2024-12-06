@@ -1,0 +1,191 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Visit": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Batch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Specific_Gravity": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Phthalate_Unit": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCPP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MECPP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MECPP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHHP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MIBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MIBP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEOHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEOHP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBzP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBzP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MNP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCOP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCOP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCNP": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCNP_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "OHMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "OHMINCH_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "CXMINCH": {
+      "description": "None",
+      "unit": "None"
+    },
+    "CXMINCH_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCPP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MECPP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHHP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MIBP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEOHP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MBzP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MEHP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MNP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCOP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "MCNP_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "OHMINCH_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    },
+    "CXMINCH_above_LOD": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

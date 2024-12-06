@@ -1,0 +1,82 @@
+{
+    "proyecto": {"description": "None", "unit": "None"},
+    "folio": {"description": "None", "unit": "None"},
+    "foliocc": {"description": "Participant's Folio", "unit": "None"},
+    "etapa": {"description": "Etapa", "unit": "CovidCall (C19)"},
+    "stage": {"description": "Stage", "unit": "950"},
+    "f_dia": {"description": "Interview day", "unit": "None"},
+    "f_mes": {"description": "Interview month", "unit": "None"},
+    "f_anio": {"description": "Interview year", "unit": "None"},
+    "fechac19": {"description": "Date", "unit": "None"},
+    "hora_ini": {"description": "Start time", "unit": "None"},
+    "min_ini": {"description": "Start minute", "unit": "None"},
+    "cc20": {
+      "description": "20. During the past 7 days, on how many days did you engage in vigorous physical activities such as heavy lifting, digging, aerobics, or fast cycling?",
+      "unit": "days"
+    },
+    "cc21_a": {
+      "description": "21. How long in total did it usually take you to do vigorous physical activities on one of those days you did them? Hours per days",
+      "unit": "hours/day"
+    },
+    "cc21_b": {
+      "description": "21. How long in total did it usually take you to do vigorous physical activities on one of those days you did them? Minutes per day",
+      "unit": "minutes/day"
+    },
+    "cc22": {
+      "description": "22. During the past 7 days, on how many days did you do moderate physical activities such as carrying light objects or riding a bike at a steady pace? Do not include walks.",
+      "unit": "days"
+    },
+    "cc23_a": {
+      "description": "23. Usually, how much time do you spend on one of those days doing moderate physical activities? Hours per day",
+      "unit": "hours/day"
+    },
+    "cc23_b": {
+      "description": "23. Usually, how much time do you spend on one of those days doing moderate physical activities? Minutes per day",
+      "unit": "minutes/day"
+    },
+    "cc24": {
+      "description": "24. During the past 7 days, on how many days did you walk for at least 10 continuous minutes?",
+      "unit": "days"
+    },
+    "cc25_a": {
+      "description": "25. Usually, how much time did you spend on one of those days walking? Hours per day",
+      "unit": "hours/day"
+    },
+    "cc25_b": {
+      "description": "25. Usually, how much time did you spend on one of those days walking? Minutes per day",
+      "unit": "minutes/day"
+    },
+    "cc26_a": {
+      "description": "26. During the last 7 days, how long did you sit on one day of the week?",
+      "unit": "hours/day"
+    },
+    "cc26_b": {
+      "description": "26. During the last 7 days, how long did you sit on one day of the week?",
+      "unit": "minutes/day"
+    },
+    "vigorous_min": {"description": "Minutes of Vigorous Activity per day", "unit": "minutes/day"},
+    "moderate_min": {"description": "Minutes of Moderate Activity per day", "unit": "minutes/day"},
+    "walking_min": {"description": "Minutes of Walking per day", "unit": "minutes/day"},
+    "sitting_min": {"description": "Minutes of sitting Activity per day", "unit": "minutes/day"},
+    "VMW_min": {
+      "description": "Combined vigorous, moderate and walking minutes per day.",
+      "unit": "minutes/day"
+    },
+    "vig_met": {"description": "Vigorous MET-Minute/week", "unit": "MET-minutes/week"},
+    "mod_met": {"description": "Moderate MET-Minute/week", "unit": "MET-minutes/week"},
+    "walk_met": {"description": "Walking MET-Minute/week", "unit": "MET-minutes/week"},
+    "total_met": {"description": "Total Physical Activity MET-Minute/week", "unit": "MET-minutes/week"},
+    "IPAQ_Cat": {"description": "Categorical Score- three levels of physical activity", "unit": "category"},
+    "vig_min_trun": {"description": "Minutes of Vigorous Activity per day (Truncated)", "unit": "minutes/day"},
+    "mod_min_trun": {"description": "Minutes of Moderate Activity per day (Truncated)", "unit": "minutes/day"},
+    "walk_min_trun": {"description": "Minutes of Walking per day (Truncated)", "unit": "minutes/day"},
+    "vig_met_trun": {"description": "Vigorous MET-Minute/week (Truncated)", "unit": "MET-minutes/week"},
+    "mod_met_trun": {"description": "Moderate MET-Minute/week (Truncated)", "unit": "MET-minutes/week"},
+    "walk_met_trun": {"description": "Walking MET-Minute/week (Truncated)", "unit": "MET-minutes/week"},
+    "total_met_trun": {"description": "Total Physical Activity MET-Minute/week (Truncated)", "unit": "MET-minutes/week"},
+    "IPAQ_Cat_trun": {
+      "description": "Categorical Score- three levels of physical activity (Truncated)",
+      "unit": "category"
+    }
+  }
+  

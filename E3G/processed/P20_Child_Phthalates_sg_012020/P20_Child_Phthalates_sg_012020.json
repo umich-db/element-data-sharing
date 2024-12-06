@@ -1,0 +1,47 @@
+{
+    "FOLIOCC": {
+      "description": "unique identifier",
+      "unit": ""
+    },
+    "MBP": {
+      "description": "mono-butylphthalate",
+      "unit": ""
+    },
+    "MBzP": {
+      "description": "mono-benzyl phthalate",
+      "unit": ""
+    },
+    "MCPP": {
+      "description": "mono (3-carboxypropyl) phthalate",
+      "unit": ""
+    },
+    "MECPP": {
+      "description": "mono-(2-ethyl-5-carboxypentyl) phthalate",
+      "unit": ""
+    },
+    "MEHHP": {
+      "description": "mono (2-ethyl-5-hydroxyhexyl) phthalate",
+      "unit": ""
+    },
+    "MEHP": {
+      "description": "mono ethyl hexyl phthalate",
+      "unit": ""
+    },
+    "MEOHP": {
+      "description": "mono (2-ethyl-5-oxohexyl) phthalate",
+      "unit": ""
+    },
+    "MEP": {
+      "description": "monoethyl phthalate",
+      "unit": ""
+    },
+    "MIBP": {
+      "description": "mono-isobutyl phthalate",
+      "unit": ""
+    },
+    "spec_grav": {
+      "description": "specific gravity",
+      "unit": ""
+    }
+  }
+  

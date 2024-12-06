@@ -1,0 +1,199 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fechanac_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_visita": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sex_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "edad": {
+      "description": "None",
+      "unit": "None"
+    },
+    "asistencia": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio_FFQ": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folic_acid": {
+      "description": "Folato",
+      "unit": "mcg/100g"
+    },
+    "vit_A": {
+      "description": "Vitamina A",
+      "unit": "IU/100g"
+    },
+    "colecalciferol": {
+      "description": "Vitamina D",
+      "unit": "IU/100g"
+    },
+    "tiamina": {
+      "description": "Tiamina",
+      "unit": "mg/100g"
+    },
+    "riboflavina": {
+      "description": "Riboflavina",
+      "unit": "mg/100g"
+    },
+    "a_tocoferol": {
+      "description": "Vitamina E",
+      "unit": "mg_ATE/100g"
+    },
+    "piridoxina": {
+      "description": "Vitamina B-6",
+      "unit": "mg/100g"
+    },
+    "cianocobalamina": {
+      "description": "Vitamina B-12",
+      "unit": "mg/100g"
+    },
+    "vit_C": {
+      "description": "Vitamina C",
+      "unit": "mg/100g"
+    },
+    "vit_K": {
+      "description": "Vitamina K",
+      "unit": "None"
+    },
+    "nicotinamida": {
+      "description": "Niacina",
+      "unit": "mg/100g"
+    },
+    "ac_pantotenico": {
+      "description": "Ácido Pantoténico",
+      "unit": "mg/100g"
+    },
+    "biotina": {
+      "description": "Biotina",
+      "unit": "None"
+    },
+    "Ca": {
+      "description": "Calcio",
+      "unit": "mg/100g"
+    },
+    "P": {
+      "description": "Fósforo",
+      "unit": "mg/100g"
+    },
+    "Fe": {
+      "description": "Hierro",
+      "unit": "mg/100g"
+    },
+    "Zn": {
+      "description": "Zinc",
+      "unit": "mg/100g"
+    },
+    "Cu": {
+      "description": "Cobre",
+      "unit": "mg/100g"
+    },
+    "Mg": {
+      "description": "Magnesio",
+      "unit": "mg/100g"
+    },
+    "Mn": {
+      "description": "Manganeso",
+      "unit": "mg/100g"
+    },
+    "Na": {
+      "description": "Sodio",
+      "unit": "mg/100g"
+    },
+    "K": {
+      "description": "Potasio",
+      "unit": "mg/100g"
+    },
+    "I": {
+      "description": "Yodo",
+      "unit": "None"
+    },
+    "Cl": {
+      "description": "Cloro",
+      "unit": "None"
+    },
+    "Se": {
+      "description": "Selenio",
+      "unit": "mcg/100g"
+    },
+    "Cr": {
+      "description": "Cromo",
+      "unit": "None"
+    },
+    "Mb": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Kcal": {
+      "description": "Energía en Kcal",
+      "unit": "Kcal/100g"
+    },
+    "Prot": {
+      "description": "Proteína",
+      "unit": "g/100g"
+    },
+    "Lipids": {
+      "description": "Grasa",
+      "unit": "g/100g"
+    },
+    "Carbohydrates": {
+      "description": "Hidratos de carbono",
+      "unit": "g/100g"
+    },
+    "niacinamida": {
+      "description": "Niacinamida",
+      "unit": "None"
+    },
+    "colina": {
+      "description": "Colina",
+      "unit": "None"
+    },
+    "inositol": {
+      "description": "Inositol",
+      "unit": "None"
+    },
+    "taurina": {
+      "description": "None",
+      "unit": "None"
+    },
+    "carnitina": {
+      "description": "None",
+      "unit": "None"
+    },
+    "lisina": {
+      "description": "Lisina",
+      "unit": "g/100g"
+    }
+  }
+  

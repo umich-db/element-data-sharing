@@ -1,0 +1,27 @@
+{
+    "PROYECTO": {
+      "description": "project",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "file",
+      "unit": ""
+    },
+    "Ptri1": {
+      "description": "trimester 1 plasma fluoride level",
+      "unit": ""
+    },
+    "Ptri2": {
+      "description": "trimester 2 plasma fluoride level",
+      "unit": ""
+    },
+    "Ptri3": {
+      "description": "trimester 3 plasma fluoride level",
+      "unit": ""
+    },
+    "plsavg": {
+      "description": "average of the available samples",
+      "unit": ""
+    }
+  }
+  

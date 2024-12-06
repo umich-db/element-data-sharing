@@ -1,0 +1,119 @@
+{
+    "foliocc": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "batch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Spec_Grav": {
+      "description": "Specific Gravity",
+      "unit": "None"
+    },
+    "phenol_unit": {
+      "description": "Phenol Unit",
+      "unit": "None"
+    },
+    "_24_DCP": {
+      "description": "2,4-Dichlorophenol",
+      "unit": "None"
+    },
+    "_25_DCP": {
+      "description": "2,5-Dichlorophenol",
+      "unit": "None"
+    },
+    "BP_3": {
+      "description": "Benzophenone-3",
+      "unit": "None"
+    },
+    "BPA": {
+      "description": "Bisphenol A",
+      "unit": "None"
+    },
+    "BPS": {
+      "description": "Bisphenol S",
+      "unit": "None"
+    },
+    "BPB": {
+      "description": "Butyl Paraben",
+      "unit": "None"
+    },
+    "EPB": {
+      "description": "Ethyl Paraben",
+      "unit": "None"
+    },
+    "MPB": {
+      "description": "Methyl Paraben",
+      "unit": "None"
+    },
+    "PPB": {
+      "description": "Propyl Paraben",
+      "unit": "None"
+    },
+    "TCC": {
+      "description": "Triclosan",
+      "unit": "None"
+    },
+    "TCS": {
+      "description": "Triclocarban",
+      "unit": "None"
+    },
+    "BPF": {
+      "description": "Bisphenol F",
+      "unit": "None"
+    },
+    "_24_DCP_LOD": {
+      "description": "2,4-Dichlorophenol level of detection",
+      "unit": "None"
+    },
+    "_25_DCP_LOD": {
+      "description": "2,5-Dichlorophenol level of detection",
+      "unit": "None"
+    },
+    "BP_3_LOD": {
+      "description": "Benzophenone-3 level of detection",
+      "unit": "None"
+    },
+    "BPA_LOD": {
+      "description": "Bisphenol A level of detection",
+      "unit": "None"
+    },
+    "BPS_LOD": {
+      "description": "Bisphenol S level of detection",
+      "unit": "None"
+    },
+    "BPB_LOD": {
+      "description": "Butyl Paraben level of detection",
+      "unit": "None"
+    },
+    "EPB_LOD": {
+      "description": "Ethyl Paraben level of detection",
+      "unit": "None"
+    },
+    "MPB_LOD": {
+      "description": "Methyl Paraben level of detection",
+      "unit": "None"
+    },
+    "PPB_LOD": {
+      "description": "Propyl Paraben level of detection",
+      "unit": "None"
+    },
+    "TCC_LOD": {
+      "description": "Triclosan level of detection",
+      "unit": "None"
+    },
+    "TCS_LOD": {
+      "description": "Triclocarban level of detection",
+      "unit": "None"
+    },
+    "BPF_LOD": {
+      "description": "Bisphenol F level of detection",
+      "unit": "None"
+    }
+  }
+  

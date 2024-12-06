@@ -1,0 +1,35 @@
+{
+    "PROYECTO": {
+      "description": "unique subject identifier",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "unique subject identifier",
+      "unit": ""
+    },
+    "FOLIOCC": {
+      "description": "unique subject identifier, alternative to PROYECTO + FOLIO",
+      "unit": ""
+    },
+    "Etapa": {
+      "description": "visit of the Cholesterol study",
+      "unit": ""
+    },
+    "F_qualitycheck": {
+      "description": "quality controlled urinary fluoride samples measured on adolescent urine during cholesterol visit (“V0”)",
+      "unit": ""
+    },
+    "RSD": {
+      "description": "Samples were (for the majority of cases) measured in duplicate, thus an RSD value could be obtained.",
+      "unit": ""
+    },
+    "specific_gravity": {
+      "description": "SG value was measured when mercury was measured",
+      "unit": ""
+    },
+    "SG.adjusted.fluoride": {
+      "description": "The formula for adjustment is: SG.adjusted.fluoride = F_qualitycheck * (1.020-1) / (specific_gravity-1); where 1.020 is the median of specific gravity.",
+      "unit": ""
+    }
+  }
+  

@@ -1,0 +1,123 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "sex_ch": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Etapa": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_madurez": {
+      "description": "None",
+      "unit": "None"
+    },
+    "Age_H": {
+      "description": "None",
+      "unit": "None"
+    },
+    "TN13": {
+      "description": "Tanner Stage Self-Report Pamphlet",
+      "unit": "None"
+    },
+    "Self_report": {
+      "description": "Self-reported sexual maturation",
+      "unit": "None"
+    },
+    "TN14": {
+      "description": "Physician observed Tanner staging permission",
+      "unit": "None"
+    },
+    "Ped_report": {
+      "description": "Reason for refusal of physician observed Tanner staging by child or parent",
+      "unit": "None"
+    },
+    "TN15_1": {
+      "description": "Physician observed pubic hair staging (male and female participants)",
+      "unit": "None"
+    },
+    "TN15_2": {
+      "description": "Physician observed breast development (female only)",
+      "unit": "None"
+    },
+    "TN15_3": {
+      "description": "Physician observed genital development (male only)",
+      "unit": "None"
+    },
+    "TN15_4A": {
+      "description": "Physician observed testicle volume (male only) - Left testicle",
+      "unit": "mL"
+    },
+    "TN15_4B": {
+      "description": "Physician observed testicle volume (male only) - Right testicle",
+      "unit": "mL"
+    },
+    "F10": {
+      "description": "Another change is the growth of pubic hair. Please choose the drawing closest to your stage of hair development by marking your answer with a cross",
+      "unit": "None"
+    },
+    "F5": {
+      "description": "Have you started having periods?",
+      "unit": "None"
+    },
+    "F6": {
+      "description": "If yes, at what age?",
+      "unit": "None"
+    },
+    "F6B_AA": {
+      "description": "First period (Year)",
+      "unit": "None"
+    },
+    "F6B_MM": {
+      "description": "First period (month)",
+      "unit": "None"
+    },
+    "F6C_AA": {
+      "description": "Last period (year)",
+      "unit": "None"
+    },
+    "F6C_DD": {
+      "description": "Last period (day)",
+      "unit": "None"
+    },
+    "F6C_MM": {
+      "description": "Last period (month)",
+      "unit": "None"
+    },
+    "F7": {
+      "description": "Do you shave or wax your pubic hair?",
+      "unit": "None"
+    },
+    "F8": {
+      "description": "If yes, in which area? (mark all areas where you shave or wax)",
+      "unit": "None"
+    },
+    "F9": {
+      "description": "Please choose the drawing closest to your stage of breast development by marking your answer with a cross",
+      "unit": "None"
+    },
+    "M5": {
+      "description": "Do you shave or wax your pubic hair?",
+      "unit": "None"
+    },
+    "M6": {
+      "description": "If yes, in which area? (mark all areas where you shave or wax)",
+      "unit": "None"
+    },
+    "M7": {
+      "description": "Your stage of penis and scrotum development",
+      "unit": "None"
+    },
+    "M8": {
+      "description": "Your stage of pubic hair development",
+      "unit": "None"
+    },
+    "Pubertal_onset": {
+      "description": "Computed using physician observed Tanner response TN15_1, TN15_2 and TN15_3. Pubertal onset = 0 if both TN15_1 and TN15_2 for female (or TN15_1 and TN15_3 for male) is 1. Pubertal onset = 1 if either TN15_1 or TN15_2 for female (or TN15_1 and TN15_3 for male) is greater than 1",
+      "unit": "None"
+    }
+  }
+  

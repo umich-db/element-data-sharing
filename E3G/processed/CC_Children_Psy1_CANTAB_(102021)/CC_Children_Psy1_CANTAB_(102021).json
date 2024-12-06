@@ -1,0 +1,339 @@
+{
+    "proyecto": {
+      "description": "Old (id) Project",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Old id",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Id project choleterol",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "Stage project choleterol",
+      "unit": ""
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fecha_visita": {
+      "description": "Visit date project choleterol",
+      "unit": ""
+    },
+    "sex_ch": {
+      "description": "Sex",
+      "unit": ""
+    },
+    "Age_yrs": {
+      "description": "AgeChildren",
+      "unit": "years"
+    },
+    "edad_cantab": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_nart": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_dmsa": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmsb": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmsmcl": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmsmcld": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmsmcls": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmspc": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmspcld": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmspcls": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmspegc": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmspege": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmstc": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmstcld": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_dmstcls": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_iedcse": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_iedcst": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_iededse": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_iedpede": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_iedsc": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_iedte": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_iedtea": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_iedtt": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_iedtta": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtsmcmt": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtsmcrt": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtsmemt": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtsmert": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtsmmt1c": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtsmmt28c": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_mtsmrt1c": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtsmrt28c": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtspc": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_mtstc": {
+      "description": "Cantab Children",
+      "unit": ""
+    },
+    "c_rvpa": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvpb": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvpml": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvppfa": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvpph": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvptcr": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvptfa": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvpth": {
+      "description": "Cantab",
+      "unit": ""
+    },
+    "c_rvptm": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmitt2m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmm2m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socstt2m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socpsmm": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmitt3m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmm3m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmst3m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmit4m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmm4m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmstt4m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmitt5m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmm5m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_socmstt4m0": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_sstdest": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_sstpss": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_sstmcrtgt": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_sst_ssd50": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_sst_ssdlh": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning1": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning2": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning3": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning4": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning5": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning6": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning7": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning8": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning9": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning10": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning11": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning12": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning13": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_warning14": {
+      "description": "None",
+      "unit": "None"
+    },
+    "NC_CANTAB": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

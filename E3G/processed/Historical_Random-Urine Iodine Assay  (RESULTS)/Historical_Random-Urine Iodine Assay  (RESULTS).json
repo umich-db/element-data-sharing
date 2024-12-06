@@ -1,0 +1,55 @@
+{
+    "Test_ID": {
+      "description": "Test_ID",
+      "unit": ""
+    },
+    "BARCODE": {
+      "description": "BARCODE",
+      "unit": ""
+    },
+    "Sample_ID": {
+      "description": "Sample_ID",
+      "unit": ""
+    },
+    "Proyecto": {
+      "description": "Proyecto",
+      "unit": ""
+    },
+    "Folio": {
+      "description": "Folio",
+      "unit": ""
+    },
+    "STAGE": {
+      "description": "STAGE",
+      "unit": ""
+    },
+    "Trimester": {
+      "description": "Trimester",
+      "unit": ""
+    },
+    "Collection Date": {
+      "description": "Collection Date",
+      "unit": ""
+    },
+    "Analysis_Date": {
+      "description": "Analysis_Date",
+      "unit": ""
+    },
+    "Analysis_Time_a": {
+      "description": "Analysis_Time_a",
+      "unit": ""
+    },
+    "Analysis_Time_b": {
+      "description": "Analysis_Time_b",
+      "unit": ""
+    },
+    "Value": {
+      "description": "Value",
+      "unit": ""
+    },
+    "Unit of Measure": {
+      "description": "Unit of Measure",
+      "unit": ""
+    }
+  }
+  

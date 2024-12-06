@@ -1,0 +1,447 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": ""
+    },
+    "folio": {
+      "description": "None",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Id",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "None",
+      "unit": ""
+    },
+    "participante": {
+      "description": "None",
+      "unit": ""
+    },
+    "stage": {
+      "description": "None",
+      "unit": ""
+    },
+    "id": {
+      "description": "None",
+      "unit": ""
+    },
+    "fecha": {
+      "description": "None",
+      "unit": ""
+    },
+    "lugar": {
+      "description": "None",
+      "unit": ""
+    },
+    "ener_kcal": {
+      "description": "Energía en Kcal/100g",
+      "unit": "Energy Kcal/100g"
+    },
+    "h_de_c": {
+      "description": "Hidratos de carbono (g/100g)",
+      "unit": "Carbohydrate (g/100g)"
+    },
+    "proteina": {
+      "description": "Proteína (g/100g)",
+      "unit": "Protein (g/100g)"
+    },
+    "grasa": {
+      "description": "Grasa (g/100g)",
+      "unit": "Fat (g/100g)"
+    },
+    "ceniza": {
+      "description": "Ceniza (g/100g)",
+      "unit": "Ash"
+    },
+    "alch": {
+      "description": "Alcohol (g/100g)",
+      "unit": "Alcohol (g/100g)"
+    },
+    "agua": {
+      "description": "Agua (g/100g)",
+      "unit": "Water (g/100g)"
+    },
+    "cafeina": {
+      "description": "Cafeína (mg/100g)",
+      "unit": "Caffeine (mg/100g)"
+    },
+    "thebrn": {
+      "description": "Teobromina (mg/100g)",
+      "unit": "Theobromine (mg/100g)"
+    },
+    "ener_kj": {
+      "description": "Energía KJ/100g",
+      "unit": "Energy KJ/100g"
+    },
+    "azucar": {
+      "description": "Azúcar total (g/100g)",
+      "unit": "Sugar (g/100g)"
+    },
+    "fibtot": {
+      "description": "Fibra dietética total (g/100g)",
+      "unit": "Total dietary fiber (g/100g)"
+    },
+    "ca": {
+      "description": "Calcio (mg/100g)",
+      "unit": "Calcium (mg/100g)"
+    },
+    "fe": {
+      "description": "Hierro (mg/100g)",
+      "unit": "Iron (mg/100g)"
+    },
+    "mg": {
+      "description": "Magnesio (mg/100g)",
+      "unit": "Magnesium (mg/100g)"
+    },
+    "p": {
+      "description": "Fósforo (mg/100g)",
+      "unit": "Phosphorus (mg/100g)"
+    },
+    "k": {
+      "description": "Potasio (mg/100g)",
+      "unit": "Potassium (mg/100g)"
+    },
+    "na": {
+      "description": "Sodio (mg/100g)",
+      "unit": "Sodium (mg/100g)"
+    },
+    "zn": {
+      "description": "Zinc (mg/100g)",
+      "unit": "Zinc (mg/100g)"
+    },
+    "afitico": {
+      "description": "Ácido Fítico (mg/100g)",
+      "unit": "Phytc acid (mg/100g)"
+    },
+    "cu": {
+      "description": "Cobre (mg/100g)",
+      "unit": "Copper (mg/100g)"
+    },
+    "mn": {
+      "description": "Manganeso (mg/100g)",
+      "unit": "Manganese (mg/100g)"
+    },
+    "se": {
+      "description": "Selenio (mcg/100g)",
+      "unit": "Selenium (mcg/100g)"
+    },
+    "vita": {
+      "description": "Vitamina A (IU/100g)",
+      "unit": "Vitamin A (IU/100g)"
+    },
+    "eqret": {
+      "description": "Equivalentes de Retinol (mcg/100g)",
+      "unit": "Retinol equivalents (mcg/100g)"
+    },
+    "vitd": {
+      "description": "Vitamina D (IU/100g)",
+      "unit": "Vitamin D (IU/100g)"
+    },
+    "retinol": {
+      "description": "Vitamina A, RE (mcg_RE/100g)",
+      "unit": "Vitamin A, retinol equivalents (mcg RE/100g)"
+    },
+    "vite": {
+      "description": "Vitamina E (mg_ATE/100g)",
+      "unit": "Vitamin E (mg alpha-tecopherol/100g)"
+    },
+    "vitc": {
+      "description": "Vitamina C (mg/100g)",
+      "unit": "Vitamin C (mg/100g)"
+    },
+    "thia": {
+      "description": "Tiamina (mg/100g)",
+      "unit": "Thiamine (mg/100g)"
+    },
+    "ribf": {
+      "description": "Riboflavina (mg/100g)",
+      "unit": "Riboflavin (mg/100g)"
+    },
+    "nia": {
+      "description": "Niacina (mg/100g)",
+      "unit": "Niacin (mg/100g)"
+    },
+    "pantac": {
+      "description": "Ácido Pantoténico (mg/100g)",
+      "unit": "Pantothenic acid (mg/100g)"
+    },
+    "vitb6": {
+      "description": "Vitamina B-6 (mg/100g)",
+      "unit": "Vitamin B6 (mg/100g)"
+    },
+    "folato": {
+      "description": "Folato (mcg/100g)",
+      "unit": "Folate (mcg/100g)"
+    },
+    "vitb12": {
+      "description": "Vitamina B-12 (mg/100g)",
+      "unit": "Vitamin B12 (mg/100g)"
+    },
+    "trp": {
+      "description": "Triptofano (g/100g)",
+      "unit": "Tryptophan (g/100g)"
+    },
+    "thr": {
+      "description": "Trenina (g/100g)",
+      "unit": "Trenina (g/100g)"
+    },
+    "ile": {
+      "description": "Isoleucina (g/100g)",
+      "unit": "Isoleucine (g/100g)"
+    },
+    "leu": {
+      "description": "Leucina (g/100g)",
+      "unit": "Leucine (g/100g)"
+    },
+    "lys": {
+      "description": "Lisina (g/100g)",
+      "unit": "Lysine (g/100g)"
+    },
+    "met": {
+      "description": "Metionina (g/100g)",
+      "unit": "Methionine (g/100g)"
+    },
+    "cys": {
+      "description": "None",
+      "unit": "None"
+    },
+    "phe": {
+      "description": "Fenilalanina (g/100g)",
+      "unit": "Phenylalanine (g/100g)"
+    },
+    "tyr": {
+      "description": "Tirosina (g/100g)",
+      "unit": "Tyrosine (g/100g)"
+    },
+    "val": {
+      "description": "Valina (g/100g)",
+      "unit": "Valine (g/100g)"
+    },
+    "arg": {
+      "description": "Arginina (g/100g)",
+      "unit": "Arginine (g/100g)"
+    },
+    "his": {
+      "description": "Histidina (g/100g)",
+      "unit": "Histidine (g/100g)"
+    },
+    "ala": {
+      "description": "Alanina (g/100g)",
+      "unit": "Alanine (g/100g)"
+    },
+    "asp": {
+      "description": "Acido Aspartico (g/100g)",
+      "unit": "Aspartic acid (g/100g)"
+    },
+    "glu": {
+      "description": "Acido Glutámico (g/100g)",
+      "unit": "Glutamic acid (g/100g)"
+    },
+    "gly": {
+      "description": "Glicina (g/100g)",
+      "unit": "Glycine (g/100g)"
+    },
+    "pro": {
+      "description": "Prolina (g/100g)",
+      "unit": "Proline (g/100g)"
+    },
+    "ser": {
+      "description": "None",
+      "unit": "None"
+    },
+    "cole": {
+      "description": "Colesterol (mg/100g)",
+      "unit": "Cholesterol (mg/100g)"
+    },
+    "grasat": {
+      "description": "Ácidos grasos saturados (mg/100g)",
+      "unit": "Saturated fatty acids (mg/100g)"
+    },
+    "f4d0": {
+      "description": "None",
+      "unit": "None"
+    },
+    "f6d0": {
+      "description": "None",
+      "unit": "None"
+    },
+    "f8d0": {
+      "description": "None",
+      "unit": "None"
+    },
+    "f10d0": {
+      "description": "10:0 (g/100g)",
+      "unit": ""
+    },
+    "f12d0": {
+      "description": "12:0 (g/100g)",
+      "unit": ""
+    },
+    "f14d0": {
+      "description": "14:0 (g/100g)",
+      "unit": ""
+    },
+    "f16d0": {
+      "description": "16:0 (g/100g)",
+      "unit": ""
+    },
+    "f18d0": {
+      "description": "18:0 (g/100g)",
+      "unit": ""
+    },
+    "f20d0": {
+      "description": "20:0 (g/100g)",
+      "unit": ""
+    },
+    "f18d1": {
+      "description": "18:1 (g/100g)",
+      "unit": ""
+    },
+    "f18d2": {
+      "description": "18:2 (g/100g)",
+      "unit": ""
+    },
+    "f18d3": {
+      "description": "18:3 (g/100g)",
+      "unit": ""
+    },
+    "f20d4": {
+      "description": "20:4 (g/100g)",
+      "unit": ""
+    },
+    "f22d6": {
+      "description": "22:6 (g/100g)",
+      "unit": ""
+    },
+    "f22d0": {
+      "description": "22:0 (g/100g)",
+      "unit": ""
+    },
+    "f14d1": {
+      "description": "14:1 (g/100g)",
+      "unit": ""
+    },
+    "f16d1": {
+      "description": "16:1 (g/100g)",
+      "unit": ""
+    },
+    "f18d4": {
+      "description": "18:4 (g/100g)",
+      "unit": ""
+    },
+    "f20d1": {
+      "description": "20:1 (g/100g)",
+      "unit": ""
+    },
+    "f20d5": {
+      "description": "20:5 (g/100g)",
+      "unit": ""
+    },
+    "f22d1": {
+      "description": "22:1 (g/100g)",
+      "unit": ""
+    },
+    "f22d5": {
+      "description": "22:5 (g/100g)",
+      "unit": ""
+    },
+    "fitoster": {
+      "description": "Fitosteroles (mg/100g)",
+      "unit": "Phytosterols (mg/100g)"
+    },
+    "gramon": {
+      "description": "Ácidos grasos monoinsaturados (g/100g)",
+      "unit": "Monounsaturated fatty acids (g/100g)"
+    },
+    "grapoly": {
+      "description": "Ácidos grasos poliinsaturados (g/100g)",
+      "unit": "Polyunsaturated fatty acids (g/100g)"
+    },
+    "f15d0": {
+      "description": "15:0 (g/100g)",
+      "unit": ""
+    },
+    "f17d0": {
+      "description": "17:0 (g/100g)",
+      "unit": ""
+    },
+    "f24d0": {
+      "description": "24:0 (g/100g)",
+      "unit": ""
+    },
+    "taninos": {
+      "description": "Taninos (mg/100g)",
+      "unit": "Tannins (mg/100g)"
+    },
+    "fortica": {
+      "description": "Alimentos Fortificados con Calcio (0= No fortificado, 1= Fortificado)",
+      "unit": ""
+    },
+    "fortife": {
+      "description": "Alimentos Fortificados con Hierro (0= No fortificado, 1= Fortificado)",
+      "unit": ""
+    },
+    "fortizn": {
+      "description": "Alimentos Fortificados con Zinc (0= No fortificado, 1= Fortificado)",
+      "unit": ""
+    },
+    "fortivita": {
+      "description": "Alimentos Fortificados con Vitamina A (0= No fortificado, 1= Fortificado)",
+      "unit": ""
+    },
+    "fortivitc": {
+      "description": "Alimentos Fortificados con Vitamina C (0= No fortificado, 1= Fortificado)",
+      "unit": ""
+    },
+    "enriched": {
+      "description": "Alimentos Enriquecidos (0= No enriquecido, 1= Enriquecido)",
+      "unit": ""
+    },
+    "p_f_ca": {
+      "description": "Porcentaje de alimentos fortificados con Calcio en preparaciones",
+      "unit": ""
+    },
+    "p_f_fe": {
+      "description": "Porcentaje de alimentos fortificados Hierro en preparaciones",
+      "unit": ""
+    },
+    "p_f_zn": {
+      "description": "Porcentaje de alimentos fortificados con Zinc en preparaciones",
+      "unit": ""
+    },
+    "p_f_vita": {
+      "description": "Porcentaje de alimentos fortificados con Vit. A en preparaciones",
+      "unit": ""
+    },
+    "p_f_vitc": {
+      "description": "Porcentaje de alimentos fortificados con Vit. C en preparaciones",
+      "unit": ""
+    },
+    "ironheme": {
+      "description": "Hierro heme (mg/100g)",
+      "unit": ""
+    },
+    "ironnonhem": {
+      "description": "Hierro no heme (mg/100g)",
+      "unit": ""
+    },
+    "f_usda": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fluoruros": {
+      "description": "None",
+      "unit": "None"
+    },
+    "fluoruros_beb": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folic_acid": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

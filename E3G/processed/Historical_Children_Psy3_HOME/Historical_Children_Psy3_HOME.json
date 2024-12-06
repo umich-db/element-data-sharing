@@ -1,0 +1,55 @@
+{
+    "proyecto": {
+      "description": "Cohort",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Cohort specific ID",
+      "unit": ""
+    },
+    "stage": {
+      "description": "Stage",
+      "unit": ""
+    },
+    "home1": {
+      "description": "Learning Materials",
+      "unit": ""
+    },
+    "home2": {
+      "description": "Language Stimulation",
+      "unit": ""
+    },
+    "home3": {
+      "description": "Physical Environment",
+      "unit": ""
+    },
+    "home4": {
+      "description": "Receptivity",
+      "unit": ""
+    },
+    "home5": {
+      "description": "Academic Stimulation",
+      "unit": ""
+    },
+    "home6": {
+      "description": "Modeling",
+      "unit": ""
+    },
+    "home7": {
+      "description": "Variety",
+      "unit": ""
+    },
+    "home8": {
+      "description": "Acceptance",
+      "unit": ""
+    },
+    "hometot": {
+      "description": "Total Scores",
+      "unit": ""
+    },
+    "edad": {
+      "description": "None",
+      "unit": "None"
+    }
+  }
+  

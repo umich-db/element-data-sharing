@@ -1,0 +1,51 @@
+{
+    "proyecto": {
+      "description": "Cohort",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "stage": {
+      "description": "None",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "None",
+      "unit": ""
+    },
+    "fechanac_ch": {
+      "description": "Child's Date of Birth",
+      "unit": ""
+    },
+    "fecha_visita": {
+      "description": "Date of Visit",
+      "unit": ""
+    },
+    "sex_ch": {
+      "description": "Child's Sex",
+      "unit": ""
+    },
+    "edad_ch": {
+      "description": "Child's age at time of visit",
+      "unit": ""
+    },
+    "pse_ch": {
+      "description": "Child: subscapularis fold",
+      "unit": ""
+    },
+    "psi_ch": {
+      "description": "Child: suprailiac fold",
+      "unit": ""
+    },
+    "plb_ch": {
+      "description": "Child: biceps crease",
+      "unit": ""
+    }
+  }
+  

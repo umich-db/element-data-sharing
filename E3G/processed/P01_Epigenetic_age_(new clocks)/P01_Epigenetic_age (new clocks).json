@@ -1,0 +1,31 @@
+{
+    "barcode": {
+      "description": "barcode that labels the data on the EPIC array; can be used to link to full EPIC array",
+      "unit": "None"
+    },
+    "Sample_Group": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Original ELEMENT study ID, unique to an individual child",
+      "unit": "None"
+    },
+    "PedBE": {
+      "description": "PedBE (Pediatric-Buccal-Epigenetic) Clock for children (estimated from DNA methylation data; McEwen et al. 2020)",
+      "unit": "None"
+    },
+    "ageAcc2.PedBE": {
+      "description": "PedBE Clock, residuals after regressing on chronological age",
+      "unit": "None"
+    },
+    "Wu": {
+      "description": "Wu's Clock for children (estimated from DNA methylation data; Wu et al. 2019)",
+      "unit": "None"
+    },
+    "ageAcc2.Wu": {
+      "description": "Wu's Clock, residuals after regressing on chronological age",
+      "unit": "None"
+    }
+  }
+  

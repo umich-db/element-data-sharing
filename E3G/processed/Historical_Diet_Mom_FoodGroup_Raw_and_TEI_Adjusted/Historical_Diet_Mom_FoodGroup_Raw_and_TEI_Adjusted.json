@@ -1,0 +1,339 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ener_kcal": {
+      "description": "None",
+      "unit": "None"
+    },
+    "milk_m": {
+      "description": "milk",
+      "unit": "None"
+    },
+    "hf_dairy_m": {
+      "description": "high-fat dairy products",
+      "unit": "None"
+    },
+    "yogurt_m": {
+      "description": "low-fat dairy products (yogurt)",
+      "unit": "None"
+    },
+    "icecream_m": {
+      "description": "ice cream",
+      "unit": "None"
+    },
+    "fruit_m": {
+      "description": "fruit",
+      "unit": "None"
+    },
+    "egg_m": {
+      "description": "egg",
+      "unit": "None"
+    },
+    "chicken_m": {
+      "description": "chicken",
+      "unit": "None"
+    },
+    "beef_m": {
+      "description": "beef",
+      "unit": "None"
+    },
+    "pork_m": {
+      "description": "pork",
+      "unit": "None"
+    },
+    "procmeat_m": {
+      "description": "processed meat",
+      "unit": "None"
+    },
+    "organmeat_m": {
+      "description": "organ meat",
+      "unit": "None"
+    },
+    "fish_m": {
+      "description": "fresh fish",
+      "unit": "None"
+    },
+    "tomato_m": {
+      "description": "tomato",
+      "unit": "None"
+    },
+    "potato_m": {
+      "description": "potato",
+      "unit": "None"
+    },
+    "avocado_m": {
+      "description": "avocado",
+      "unit": "None"
+    },
+    "cruveg_m": {
+      "description": "cruciferous vegetables",
+      "unit": "None"
+    },
+    "yeveg_m": {
+      "description": "dark yellow vegetables",
+      "unit": "None"
+    },
+    "leafveg_m": {
+      "description": "green leafy vegetables",
+      "unit": "None"
+    },
+    "legumes_m": {
+      "description": "legumes",
+      "unit": "None"
+    },
+    "corncob_m": {
+      "description": "corn on the cob",
+      "unit": "None"
+    },
+    "otherveg_m": {
+      "description": "other vegetables",
+      "unit": "None"
+    },
+    "soup_m": {
+      "description": "broths and cream soup with vegetables",
+      "unit": "None"
+    },
+    "chili_m": {
+      "description": "chili products",
+      "unit": "None"
+    },
+    "atole_m": {
+      "description": "atole (hot corn- & masa-based beverage)",
+      "unit": "None"
+    },
+    "corn_tortilla_m": {
+      "description": "corn tortillas",
+      "unit": "None"
+    },
+    "refgrain_m": {
+      "description": "refined grains",
+      "unit": "None"
+    },
+    "wholegrain_m": {
+      "description": "whole grains",
+      "unit": "None"
+    },
+    "chips_m": {
+      "description": "chips",
+      "unit": "None"
+    },
+    "dessert_m": {
+      "description": "sweets/desserts",
+      "unit": "None"
+    },
+    "jam_m": {
+      "description": "other sweet condiments",
+      "unit": "None"
+    },
+    "sugar_beverages_m": {
+      "description": "sugar-sweetened beverages",
+      "unit": "None"
+    },
+    "lodrink_m": {
+      "description": "diet soda",
+      "unit": "None"
+    },
+    "coffee_m": {
+      "description": "coffee and all drinks without sugar",
+      "unit": "None"
+    },
+    "wine_m": {
+      "description": "alcohol",
+      "unit": "None"
+    },
+    "unsat_oil_m": {
+      "description": "vegetable oil/unsaturated oil",
+      "unit": "None"
+    },
+    "butter_m": {
+      "description": "saturated fats",
+      "unit": "None"
+    },
+    "spread_m": {
+      "description": "spreads, unsaturated",
+      "unit": "None"
+    },
+    "crisco_m": {
+      "description": "None",
+      "unit": "None"
+    },
+    "mexfoods_m": {
+      "description": "Mexican foods",
+      "unit": "None"
+    },
+    "natural_juice_m": {
+      "description": "natural juice",
+      "unit": "None"
+    },
+    "milk_m_adj": {
+      "description": "milk",
+      "unit": "None"
+    },
+    "hf_dairy_m_adj": {
+      "description": "high-fat dairy products",
+      "unit": "None"
+    },
+    "yogurt_m_adj": {
+      "description": "low-fat dairy products (yogurt)",
+      "unit": "None"
+    },
+    "icecream_m_adj": {
+      "description": "ice cream",
+      "unit": "None"
+    },
+    "fruit_m_adj": {
+      "description": "fruit",
+      "unit": "None"
+    },
+    "egg_m_adj": {
+      "description": "egg",
+      "unit": "None"
+    },
+    "chicken_m_adj": {
+      "description": "chicken",
+      "unit": "None"
+    },
+    "beef_m_adj": {
+      "description": "beef",
+      "unit": "None"
+    },
+    "pork_m_adj": {
+      "description": "pork",
+      "unit": "None"
+    },
+    "procmeat_m_adj": {
+      "description": "processed meat",
+      "unit": "None"
+    },
+    "organmeat_m_adj": {
+      "description": "organ meat",
+      "unit": "None"
+    },
+    "fish_m_adj": {
+      "description": "fresh fish",
+      "unit": "None"
+    },
+    "tomato_m_adj": {
+      "description": "tomato",
+      "unit": "None"
+    },
+    "potato_m_adj": {
+      "description": "potato",
+      "unit": "None"
+    },
+    "avocado_m_adj": {
+      "description": "avocado",
+      "unit": "None"
+    },
+    "cruveg_m_adj": {
+      "description": "cruciferous vegetables",
+      "unit": "None"
+    },
+    "yeveg_m_adj": {
+      "description": "dark yellow vegetables",
+      "unit": "None"
+    },
+    "leafveg_m_adj": {
+      "description": "green leafy vegetables",
+      "unit": "None"
+    },
+    "legumes_m_adj": {
+      "description": "legumes",
+      "unit": "None"
+    },
+    "corncob_m_adj": {
+      "description": "corn on the cob",
+      "unit": "None"
+    },
+    "otherveg_m_adj": {
+      "description": "other vegetables",
+      "unit": "None"
+    },
+    "soup_m_adj": {
+      "description": "broths and cream soup with vegetables",
+      "unit": "None"
+    },
+    "chili_m_adj": {
+      "description": "chili products",
+      "unit": "None"
+    },
+    "atole_m_adj": {
+      "description": "atole (hot corn- & masa-based beverage)",
+      "unit": "None"
+    },
+    "corn_tortilla_m_adj": {
+      "description": "corn tortillas",
+      "unit": "None"
+    },
+    "refgrain_m_adj": {
+      "description": "refined grains",
+      "unit": "None"
+    },
+    "wholegrain_m_adj": {
+      "description": "whole grains",
+      "unit": "None"
+    },
+    "chips_m_adj": {
+      "description": "chips",
+      "unit": "None"
+    },
+    "dessert_m_adj": {
+      "description": "sweets/desserts",
+      "unit": "None"
+    },
+    "jam_m_adj": {
+      "description": "other sweet condiments",
+      "unit": "None"
+    },
+    "sugar_beverages_m_adj": {
+      "description": "sugar-sweetened beverages",
+      "unit": "None"
+    },
+    "lodrink_m_adj": {
+      "description": "diet soda",
+      "unit": "None"
+    },
+    "coffee_m_adj": {
+      "description": "coffee and all drinks without sugar",
+      "unit": "None"
+    },
+    "wine_m_adj": {
+      "description": "alcohol",
+      "unit": "None"
+    },
+    "unsat_oil_m_adj": {
+      "description": "vegetable oil/unsaturated oil",
+      "unit": "None"
+    },
+    "butter_m_adj": {
+      "description": "saturated fats",
+      "unit": "None"
+    },
+    "spread_m_adj": {
+      "description": "spreads, unsaturated",
+      "unit": "None"
+    },
+    "crisco_m_adj": {
+      "description": "None",
+      "unit": "None"
+    },
+    "mexfoods_m_adj": {
+      "description": "Mexican foods",
+      "unit": "None"
+    },
+    "natural_juice_m_adj": {
+      "description": "natural juice",
+      "unit": "None"
+    }
+  }
+  

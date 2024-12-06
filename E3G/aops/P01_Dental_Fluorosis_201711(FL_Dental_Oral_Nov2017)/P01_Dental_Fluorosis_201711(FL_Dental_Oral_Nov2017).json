@@ -1,0 +1,382 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "etapa": {
+      "description": "Stage",
+      "unit": "T1 -T2"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "f_dia": {
+      "description": "Day",
+      "unit": ""
+    },
+    "f_mes": {
+      "description": "Month",
+      "unit": ""
+    },
+    "f_anio": {
+      "description": "Year",
+      "unit": ""
+    },
+    "inic_suj": {
+      "description": "Subject initials",
+      "unit": ""
+    },
+    "cod_ent": {
+      "description": "Person who conducted the studies",
+      "unit": "1.- Dr. Luis\n2.- Dra. Gabriela"
+    },
+    "sd1": {
+      "description": "Upper Right Central Buccal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd2": {
+      "description": "Upper Right Central Lingual",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd3": {
+      "description": "Upper Right Lateral Buccal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd4": {
+      "description": "Upper Right Lateral Lingual",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd5": {
+      "description": "Upper Right Canino Primario Buccal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd6": {
+      "description": "Upper Right Canino Primario Lingual",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd7": {
+      "description": "Upper Right 1er Molar Primario Buccal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    }
+  }
+{
+  "sd8": {
+    "description": "Upper Right 1er Molar Primario Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd9": {
+    "description": "Upper Right 1er Molar Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd10": {
+    "description": "Upper Right 2do Molar Primario Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd11": {
+    "description": "Upper Right 2do Molar Primario Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd12": {
+    "description": "Upper Right 2do Molar Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd5b": {
+    "description": "Upper Right Canino Permanente Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd6b": {
+    "description": "Upper Right Canino Permanente Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd7b": {
+    "description": "Upper Right 1er Premolar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+ "sd8": {
+      "description": "Upper Right 1er Molar Primario Occlusal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd9": {
+      "description": "Upper Right 1er Molar Primario Lingual",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd10": {
+      "description": "Upper Right 2do Molar Primario Buccal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd11": {
+      "description": "Upper Right 2do Molar Primario Occlusal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd12": {
+      "description": "Upper Right 2do Molar Primario Lingual",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd5b": {
+      "description": "Upper Right Canino Permanente Buccal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd6b": {
+      "description": "Upper Right Canino Permanente Lingual",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd7b": {
+      "description": "Upper Right 1er Premolar Buccal",
+      "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+    },
+    "sd8b": {
+    "description": "Upper Right 1er Premolar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd9b": {
+    "description": "Upper Right 1er Premolar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd10b": {
+    "description": "Upper Right 2do Premolar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd11b": {
+    "description": "Upper Right 2do Premolar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd12b": {
+    "description": "Upper Right 2do Premolar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd13": {
+    "description": "Upper Right 1er Molar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd14": {
+    "description": "Upper Right 1er Molar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd15": {
+    "description": "Upper Right 1er Molar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd16": {
+    "description": "Upper Right 2do Molar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd17": {
+    "description": "Upper Right 2do Molar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "sd18": {
+    "description": "Upper Right 2do Molar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si1": {
+    "description": "Upper Left Central Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si2": {
+    "description": "Upper Left Central Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si3": {
+    "description": "Upper Left Lateral Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si4": {
+    "description": "Upper Left Lateral Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si5": {
+    "description": "Upper Left Canino Primario Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si6": {
+    "description": "Upper Left Canino Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si7": {
+    "description": "Upper Left 1er Molar Primario Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si8": {
+    "description": "Upper Left 1er Molar Primario Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si9": {
+    "description": "Upper Left 1er Molar Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si10": {
+    "description": "Upper Left 2do Molar Primario Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si11": {
+    "description": "Upper Left 2do Molar Primario Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si12": {
+    "description": "Upper Left 2do Molar Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si5b": {
+    "description": "Upper Left Canino Permanente Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si6b": {
+    "description": "Upper Left Canino Permanente Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si7b": {
+    "description": "Upper Left 1er Premolar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si8b": {
+    "description": "Upper Left 1er Premolar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si9b": {
+    "description": "Upper Left 1er Premolar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si10b": {
+    "description": "Upper Left 2do Premolar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si11b": {
+    "description": "Upper Left 2do Premolar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si12b": {
+    "description": "Upper Left 2do Premolar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si13": {
+    "description": "Upper Left 1er Molar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si14": {
+    "description": "Upper Left 1er Molar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si15": {
+    "description": "Upper Left 1er Molar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si16": {
+    "description": "Upper Left 2do Molar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si17": {
+    "description": "Upper Left 2do Molar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "si18": {
+    "description": "Upper Left 2do Molar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii1": {
+    "description": "Lower Right Central Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii2": {
+    "description": "Lower Right Central Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii3": {
+    "description": "Lower Right Lateral Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii4": {
+    "description": "Lower Right Lateral Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii5": {
+    "description": "Lower Right Canino Primario Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii6": {
+    "description": "Lower Right Canino Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii7": {
+    "description": "Lower Right 1er Molar Primario Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii8": {
+    "description": "Lower Right 1er Molar Primario Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii9": {
+    "description": "Lower Right 1er Molar Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii10": {
+    "description": "Lower Right 2do Molar Primario Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii11": {
+    "description": "Lower Right 2do Molar Primario Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii12": {
+    "description": "Lower Right 2do Molar Primario Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii5b": {
+    "description": "Lower Right Canino Permanente Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii6b": {
+    "description": "Lower Right Canino Permanente Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii7b": {
+    "description": "Lower Right 1er Premolar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii8b": {
+    "description": "Lower Right 1er Premolar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii9b": {
+    "description": "Lower Right 1er Premolar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii10b": {
+    "description": "Lower Right 2do Premolar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii11b": {
+    "description": "Lower Right 2do Premolar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii12b": {
+    "description": "Lower Right 2do Premolar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii13": {
+    "description": "Lower Right 1er Molar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii14": {
+    "description": "Lower Right 1er Molar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii15": {
+    "description": "Lower Right 1er Molar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii16": {
+    "description": "Lower Right 2do Molar Buccal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii17": {
+    "description": "Lower Right 2do Molar Occlusal",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+  "ii18": {
+    "description": "Lower Right 2do Molar Lingual",
+    "unit": "0.- Normal\n1.- Questionable\n2.- Very mild\n3.- Mild\n4.- Moderate\n5.- Severe\n6.- Severe\n7.- Severe\n8.- Severe\n9.- Severe\n99. No tooth"
+  },
+
+
+    

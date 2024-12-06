@@ -1,0 +1,71 @@
+{
+    "FOLIOCC": {
+      "description": "Cholesterol study ID number",
+      "unit": ""
+    },
+    "LINE_date_p20": {
+      "description": "LINE1 Pyrosequencing plate (Date) sample was run on (batch)",
+      "unit": ""
+    },
+    "H19_date_p20": {
+      "description": "H19 Pyrosequencing plate (Date) sample was run on (batch)",
+      "unit": ""
+    },
+    "HSD11B2_date_p20": {
+      "description": "HSD11B2 Pyrosequencing plate (Date) sample was run on (batch)",
+      "unit": ""
+    },
+    "line_1_adj": {
+      "description": "% methylation at CpG site # 1 of LINE, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "line_2_adj": {
+      "description": "% methylation at CpG site # 2 of LINE, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "line_3_adj": {
+      "description": "% methylation at CpG site # 3 of LINE, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "line_4_adj": {
+      "description": "% methylation at CpG site # 4 of LINE, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "hsd11b2_1_adj": {
+      "description": "% methylation at CpG site # 1 of HSD11B2, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "hsd11b2_2_adj": {
+      "description": "% methylation at CpG site # 2 of HSD11B2, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "hsd11b2_3_adj": {
+      "description": "% methylation at CpG site # 3 of HSD11B2, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "hsd11b2_4_adj": {
+      "description": "% methylation at CpG site # 4 of HSD11B2, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "hsd11b2_5_adj": {
+      "description": "% methylation at CpG site # 5 of HSD11B2, P20 Visit DNA, adjusted for batch by subtracting 0% control value from same site/same batch",
+      "unit": ""
+    },
+    "h19_1_adj": {
+      "description": "% methylation at CpG site # 1 of H19, P20 Visit DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": ""
+    },
+    "h19_2_adj": {
+      "description": "% methylation at CpG site # 2 of H19, P20 Visit DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": ""
+    },
+    "h19_3_adj": {
+      "description": "% methylation at CpG site # 3 of H19, P20 Visit DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": ""
+    },
+    "h19_4_adj": {
+      "description": "% methylation at CpG site # 4 of H19, P20 Visit DNA, adjusted for batch by multiplying by (average of all 100% controls for this site)/(100% control value for same site/same batch)",
+      "unit": ""
+    }
+  }
+  

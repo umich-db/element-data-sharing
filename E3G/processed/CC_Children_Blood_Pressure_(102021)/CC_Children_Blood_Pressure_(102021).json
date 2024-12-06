@@ -1,0 +1,39 @@
+{
+    "proyecto": {
+      "description": "None",
+      "unit": "None"
+    },
+    "folio": {
+      "description": "None",
+      "unit": "None"
+    },
+    "foliocc": {
+      "description": "Id project choleterol",
+      "unit": "None"
+    },
+    "syst_left_ch": {
+      "description": "Systolic left arm",
+      "unit": "None"
+    },
+    "dias_left_ch": {
+      "description": "Diastolic left arm",
+      "unit": "None"
+    },
+    "spsyst_right_ch": {
+      "description": "Systolic right arm space lab",
+      "unit": "None"
+    },
+    "spdias_right_ch": {
+      "description": "Diastolic right arm space lab",
+      "unit": "None"
+    },
+    "spsyst_left_ch": {
+      "description": "Systolic left arm space lab",
+      "unit": "None"
+    },
+    "spdias_left_ch": {
+      "description": "Diastolic left arm space lab",
+      "unit": "None"
+    }
+  }
+  

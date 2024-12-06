@@ -1,0 +1,307 @@
+{
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ener_kcal": {
+      "description": "None",
+      "unit": "None"
+    },
+    "whole_milk_p20": {
+      "description": "milk",
+      "unit": "None"
+    },
+    "hf_dairy_p20": {
+      "description": "high-fat dairy products",
+      "unit": "None"
+    },
+    "fruit_p20": {
+      "description": "fruit",
+      "unit": "None"
+    },
+    "eggs_p20": {
+      "description": "egg",
+      "unit": "None"
+    },
+    "chicken_p20": {
+      "description": "chicken",
+      "unit": "None"
+    },
+    "beef_p20": {
+      "description": "beef",
+      "unit": "None"
+    },
+    "pork_p20": {
+      "description": "pork",
+      "unit": "None"
+    },
+    "procmeat_p20": {
+      "description": "processed meat",
+      "unit": "None"
+    },
+    "organmeat_p20": {
+      "description": "organ meat",
+      "unit": "None"
+    },
+    "fish_p20": {
+      "description": "fresh fish",
+      "unit": "None"
+    },
+    "tomato_p20": {
+      "description": "tomato",
+      "unit": "None"
+    },
+    "potato_p20": {
+      "description": "potato",
+      "unit": "None"
+    },
+    "avocado_p20": {
+      "description": "avocado",
+      "unit": "None"
+    },
+    "cruveg_p20": {
+      "description": "cruciferous vegetables",
+      "unit": "None"
+    },
+    "yeveg_p20": {
+      "description": "dark yellow vegetables",
+      "unit": "None"
+    },
+    "leafveg_p20": {
+      "description": "green leafy vegetables",
+      "unit": "None"
+    },
+    "legumes_p20": {
+      "description": "legumes",
+      "unit": "None"
+    },
+    "other_veg_p20": {
+      "description": "other vegetables",
+      "unit": "None"
+    },
+    "soups_broths_p20": {
+      "description": "broths and cream soup with vegetables",
+      "unit": "None"
+    },
+    "atole_p20": {
+      "description": "atole (hot corn- & masa-based beverage)",
+      "unit": "None"
+    },
+    "corncob_p20": {
+      "description": "corn on the cob",
+      "unit": "None"
+    },
+    "refgrain_p20": {
+      "description": "refined grains",
+      "unit": "None"
+    },
+    "wholegrain_p20": {
+      "description": "whole grains",
+      "unit": "None"
+    },
+    "dessert_p20": {
+      "description": "sweets/desserts",
+      "unit": "None"
+    },
+    "sugar_beverages_p20": {
+      "description": "sugar-sweetened beverages",
+      "unit": "None"
+    },
+    "unsweetened_beverages_p20": {
+      "description": "coffee and all drinks without sugar",
+      "unit": "None"
+    },
+    "water_p20": {
+      "description": "water",
+      "unit": "None"
+    },
+    "diet_soda_p20": {
+      "description": "diet soda",
+      "unit": "None"
+    },
+    "unsat_spread_p20": {
+      "description": "spreads, unsaturated",
+      "unit": "None"
+    },
+    "butter_p20": {
+      "description": "saturated fats",
+      "unit": "None"
+    },
+    "sweetened_milk_p20": {
+      "description": "sweetened milk",
+      "unit": "None"
+    },
+    "natural_juice_p20": {
+      "description": "natural juice",
+      "unit": "None"
+    },
+    "yogurt_p20": {
+      "description": "low-fat dairy products (yogurt)",
+      "unit": "None"
+    },
+    "mexfoods_p20": {
+      "description": "Mexican foods",
+      "unit": "None"
+    },
+    "chips_p20": {
+      "description": "chips",
+      "unit": "None"
+    },
+    "fastfood_p20": {
+      "description": "fast foods",
+      "unit": "None"
+    },
+    "corn_tortilla_p20": {
+      "description": "corn tortillas",
+      "unit": "None"
+    },
+    "whole_milk_p20_adj": {
+      "description": "milk (TEI-adjusted)",
+      "unit": "None"
+    },
+    "hf_dairy_p20_adj": {
+      "description": "high-fat dairy products (TEI-adjusted)",
+      "unit": "None"
+    },
+    "fruit_p20_adj": {
+      "description": "fruit (TEI-adjusted)",
+      "unit": "None"
+    },
+    "eggs_p20_adj": {
+      "description": "egg (TEI-adjusted)",
+      "unit": "None"
+    },
+    "chicken_p20_adj": {
+      "description": "chicken (TEI-adjusted)",
+      "unit": "None"
+    },
+    "beef_p20_adj": {
+      "description": "beef (TEI-adjusted)",
+      "unit": "None"
+    },
+    "pork_p20_adj": {
+      "description": "pork (TEI-adjusted)",
+      "unit": "None"
+    },
+    "procmeat_p20_adj": {
+      "description": "processed meat (TEI-adjusted)",
+      "unit": "None"
+    },
+    "organmeat_p20_adj": {
+      "description": "organ meat (TEI-adjusted)",
+      "unit": "None"
+    },
+    "fish_p20_adj": {
+      "description": "fresh fish (TEI-adjusted)",
+      "unit": "None"
+    },
+    "tomato_p20_adj": {
+      "description": "tomato (TEI-adjusted)",
+      "unit": "None"
+    },
+    "potato_p20_adj": {
+      "description": "potato (TEI-adjusted)",
+      "unit": "None"
+    },
+    "avocado_p20_adj": {
+      "description": "avocado (TEI-adjusted)",
+      "unit": "None"
+    },
+    "cruveg_p20_adj": {
+      "description": "cruciferous vegetables (TEI-adjusted)",
+      "unit": "None"
+    },
+    "yeveg_p20_adj": {
+      "description": "dark yellow vegetables (TEI-adjusted)",
+      "unit": "None"
+    },
+    "leafveg_p20_adj": {
+      "description": "green leafy vegetables (TEI-adjusted)",
+      "unit": "None"
+    },
+    "legumes_p20_adj": {
+      "description": "legumes (TEI-adjusted)",
+      "unit": "None"
+    },
+    "other_veg_p20_adj": {
+      "description": "other vegetables (TEI-adjusted)",
+      "unit": "None"
+    },
+    "soups_broths_p20_adj": {
+      "description": "broths and cream soup with vegetables (TEI-adjusted)",
+      "unit": "None"
+    },
+    "atole_p20_adj": {
+      "description": "atole (hot corn- & masa-based beverage) (TEI-adjusted)",
+      "unit": "None"
+    },
+    "corncob_p20_adj": {
+      "description": "corn on the cob (TEI-adjusted)",
+      "unit": "None"
+    },
+    "refgrain_p20_adj": {
+      "description": "refined grains (TEI-adjusted)",
+      "unit": "None"
+    },
+    "wholegrain_p20_adj": {
+      "description": "whole grains (TEI-adjusted)",
+      "unit": "None"
+    },
+    "dessert_p20_adj": {
+      "description": "sweets/desserts (TEI-adjusted)",
+      "unit": "None"
+    },
+    "sugar_beverages_p20_adj": {
+      "description": "sugar-sweetened beverages (TEI-adjusted)",
+      "unit": "None"
+    },
+    "unsweetened_beverages_p20_adj": {
+      "description": "coffee and all drinks without sugar (TEI-adjusted)",
+      "unit": "None"
+    },
+    "water_p20_adj": {
+      "description": "water (TEI-adjusted)",
+      "unit": "None"
+    },
+    "diet_soda_p20_adj": {
+      "description": "diet soda (TEI-adjusted)",
+      "unit": "None"
+    },
+    "unsat_spread_p20_adj": {
+      "description": "spreads, unsaturated (TEI-adjusted)",
+      "unit": "None"
+    },
+    "butter_p20_adj": {
+      "description": "saturated fats (TEI-adjusted)",
+      "unit": "None"
+    },
+    "sweetened_milk_p20_adj": {
+      "description": "sweetened milk (TEI-adjusted)",
+      "unit": "None"
+    },
+    "natural_juice_p20_adj": {
+      "description": "natural juice (TEI-adjusted)",
+      "unit": "None"
+    },
+    "yogurt_p20_adj": {
+      "description": "low-fat dairy products (yogurt) (TEI-adjusted)",
+      "unit": "None"
+    },
+    "mexfoods_p20_adj": {
+      "description": "Mexican foods (TEI-adjusted)",
+      "unit": "None"
+    },
+    "chips_p20_adj": {
+      "description": "chips (TEI-adjusted)",
+      "unit": "None"
+    },
+    "fastfood_p20_adj": {
+      "description": "fast foods (TEI-adjusted)",
+      "unit": "None"
+    },
+    "corn_tortilla_p20_adj": {
+      "description": "corn tortillas (TEI-adjusted)",
+      "unit": "None"
+    }
+  }
+  

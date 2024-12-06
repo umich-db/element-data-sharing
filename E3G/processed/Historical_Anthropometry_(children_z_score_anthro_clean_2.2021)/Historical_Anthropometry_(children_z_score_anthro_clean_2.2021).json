@@ -1,0 +1,47 @@
+{
+    "PROYECTO": {
+      "description": "Proyecto BI",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "folio Id",
+      "unit": ""
+    },
+    "FOLIOCC": {
+      "description": "foliocc Id (cholesterol)",
+      "unit": ""
+    },
+    "stage": {
+      "description": "stage 20-birth, 21 -1 month postpartum, 23 -3 months postpartum, 24 -4 months postpartum, 26 -6 months postpartum, 27 - 7 months postpartum, 212-12 months postpartum, 224- 24 months postpartum, 230- 30 months postpartum, 236- 36 months postpartum, 242- 42 months postpartum, 248- 48 months postpartum, 260- 60 months postpartum",
+      "unit": ""
+    },
+    "weight": {
+      "description": "Weight (kg)",
+      "unit": "kg"
+    },
+    "height": {
+      "description": "Height (cm)",
+      "unit": "cm"
+    },
+    "_zwfl": {
+      "description": "z-score weight-for-length/height",
+      "unit": ""
+    },
+    "weight_n": {
+      "description": "clean weight (kg)",
+      "unit": "kg"
+    },
+    "height_n": {
+      "description": "clean height (cm)",
+      "unit": "cm"
+    },
+    "z_clean": {
+      "description": "clean z-score weight-for-length/height",
+      "unit": ""
+    },
+    "observation": {
+      "description": "Reason for not being considered",
+      "unit": ""
+    }
+  }
+  

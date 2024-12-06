@@ -1,0 +1,87 @@
+{
+    "proyecto": {
+      "description": "Cohort",
+      "unit": ""
+    },
+    "folio": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "foliocc": {
+      "description": "Participant's folio",
+      "unit": ""
+    },
+    "stage": {
+      "description": "None",
+      "unit": ""
+    },
+    "etapa": {
+      "description": "None",
+      "unit": ""
+    },
+    "fechanac_ch": {
+      "description": "Child's Date of Birth",
+      "unit": ""
+    },
+    "fecha_visita": {
+      "description": "Date of Visit",
+      "unit": ""
+    },
+    "sex_ch": {
+      "description": "Child's Sex",
+      "unit": ""
+    },
+    "edad_ch": {
+      "description": "Child's age at time of visit",
+      "unit": ""
+    },
+    "edad": {
+      "description": "None",
+      "unit": ""
+    },
+    "asistencia": {
+      "description": "None",
+      "unit": ""
+    },
+    "nc_antrop_ch": {
+      "description": "None",
+      "unit": ""
+    },
+    "age_ch": {
+      "description": "None",
+      "unit": ""
+    },
+    "weight_ch": {
+      "description": "Child: weight",
+      "unit": "in kg"
+    },
+    "height_ch": {
+      "description": "Child: height",
+      "unit": "in meters"
+    },
+    "bmi_ch": {
+      "description": "Child: BMI",
+      "unit": ""
+    },
+    "waist_ch": {
+      "description": "Mother: Waist Circumference",
+      "unit": "in cm"
+    },
+    "WAZ": {
+      "description": "Weight for age",
+      "unit": ""
+    },
+    "HAZ": {
+      "description": "Height for age",
+      "unit": ""
+    },
+    "BAZ": {
+      "description": "BMI for age",
+      "unit": ""
+    },
+    "Flag": {
+      "description": "None",
+      "unit": ""
+    }
+  }
+  

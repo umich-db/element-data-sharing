@@ -1,0 +1,55 @@
+{
+    "PROYECTO": {
+      "description": "project",
+      "unit": ""
+    },
+    "FOLIO": {
+      "description": "file",
+      "unit": ""
+    },
+    "PB_C_1": {
+      "description": "1 month child blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_3": {
+      "description": "3 month child blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_6": {
+      "description": "6 month child blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_12": {
+      "description": "12 month child venous blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_18": {
+      "description": "18 month child capillary blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_24": {
+      "description": "24 month child venous blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_30": {
+      "description": "30 month child capillary blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_36": {
+      "description": "36 month child venous blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_42": {
+      "description": "42 month child capillary blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_48": {
+      "description": "48 month child venous blood lead measurement",
+      "unit": ""
+    },
+    "PB_C_60": {
+      "description": "60 month child venous blood lead measurement",
+      "unit": ""
+    }
+  }
+  

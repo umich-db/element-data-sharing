@@ -1,0 +1,87 @@
+{
+    "PROYECTO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FOLIO": {
+      "description": "None",
+      "unit": "None"
+    },
+    "FOLIOCC": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ID": {
+      "description": "None",
+      "unit": "None"
+    },
+    "ETAPA": {
+      "description": "None",
+      "unit": "None"
+    },
+    "stage": {
+      "description": "None",
+      "unit": "None"
+    },
+    "age": {
+      "description": "None",
+      "unit": "None"
+    },
+    "gender": {
+      "description": "Gender",
+      "unit": "M = Male, F = Female"
+    },
+    "birthdate": {
+      "description": "None",
+      "unit": "None"
+    },
+    "grade": {
+      "description": "None",
+      "unit": "None"
+    },
+    "administrationdate": {
+      "description": "None",
+      "unit": "None"
+    },
+    "c_t": {
+      "description": "Response Style (C)",
+      "unit": "T-score"
+    },
+    "dpr_t": {
+      "description": "Detectability (d')",
+      "unit": "T-score"
+    },
+    "omi_t": {
+      "description": "Omissions (%)",
+      "unit": "T-score"
+    },
+    "com_t": {
+      "description": "Commissions (%)",
+      "unit": "T-score"
+    },
+    "prs_t": {
+      "description": "Perseverations (%)",
+      "unit": "T-score"
+    },
+    "hrt_t": {
+      "description": "Hit Reaction Time (ms)",
+      "unit": "T-score"
+    },
+    "hrtsd_t": {
+      "description": "Hit Reaction Time Standard Deviation (logged transformed ms*)",
+      "unit": "T-score"
+    },
+    "var_t": {
+      "description": "Variability (logged transformed ms*)",
+      "unit": "T-score"
+    },
+    "blkch_t": {
+      "description": "Hit Reaction Time Block Change (logged transformed ms*)",
+      "unit": "T-score"
+    },
+    "isich_t": {
+      "description": "Hit Reaction Time ISI Change (logged transformed ms*)",
+      "unit": "T-score"
+    }
+  }
+  
