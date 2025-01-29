@@ -40,7 +40,11 @@ const runQuery = async () => {
   console.log(results)
   if (props.categoryInput === "variables") {
     varRes.value = results;
+    console.log("varRes value")
+    console.log(varRes.value)
     reshapedVarRes.value = await reshapeData(varRes.value, false);
+    console.log("reshapedvarres")
+    console.log(reshapedVarRes.value)
   } else if (props.categoryInput === "datasets") {
     datasetRes.value = results;
     reshapedDatasetRes.value = await reshapeData(datasetRes.value, true);
@@ -160,12 +164,25 @@ const reshapeData = async (result, isDataset) => {
 
     return dictionaryArray;
   } else {
-    const dictionaryArray = result.map((item) => {
-      const key = item[2];
-      const value = dictionary[key] || [];
-      return { key, value };
-    });
+    console.log(result)
+    const dictionaryArray = result
+  .map(item => {
+    const key = item[2];
+    const value = dictionary[key] || [];
+    return { key, value };
+  })
+  .reduce((acc, current) => {
+    const existing = acc.find(entry => entry.key === current.key);
+    if (existing) {
+      existing.value = [...existing.value, ...current.value];
+      existing.value = [...new Set(existing.value)];
+    } else {
+      acc.push(current);
+    }
+    return acc;
+  }, []);
 
+    console.log(dictionaryArray)
     return dictionaryArray;
   }
 };

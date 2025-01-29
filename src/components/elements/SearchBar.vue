@@ -28,8 +28,6 @@ watch(currentQuery, (newValue) => {
   if (timeout) {
     clearTimeout(timeout);
   }
-
-  // 添加输入长度判断，限制最小触发条件
   if (newValue.length >= 3) {
     timeout = setTimeout(() => {
       search(newValue);
@@ -42,10 +40,9 @@ const search = () => {
 };
 
 const clickedGeneral = () => {
-  if (currentQuery.value.length >= 3) {
+  console.log("clickgeneral")
     search();
     emit('display-all', currentQuery.value);
-  }
 }
 
 const clickedGeneralToggleDropdown = (event) => {
@@ -58,7 +55,6 @@ const clickedGeneralToggleDropdown = (event) => {
       isToggled.value.toggle(event);
     }
   }
-
   if (currentQuery.value.length >= 3) {
     search();
     emit('display-all', currentQuery.value);

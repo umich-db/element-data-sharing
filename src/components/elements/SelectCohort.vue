@@ -24,7 +24,8 @@ watch(selectedCohorts, (newValue) => {
 
 <template>
   <div class="cohort-outer">
-    <h4>Cohort</h4>
+    <h4>Project
+    </h4>
     <div v-for="cohort of cohorts" :key="cohort.key">
       <div class="cohort-inner">
         <Checkbox v-model="selectedCohorts" :inputId="cohort.key" name="cohort" :value="cohort.value" />

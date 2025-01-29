@@ -344,7 +344,7 @@ const batchSearchProcessing = async (queryInput, category, filters) => {
 };
 
 const matchBold = (words, query) => {
-  console.time('matchBold');
+  // console.time('matchBold');
   if (!words) {
     console.timeEnd('matchBold');
     return '';
@@ -352,12 +352,12 @@ const matchBold = (words, query) => {
   const wordsArray = query.split(' ').filter(Boolean);
   const pattern = new RegExp(`(${wordsArray.join('|')})`, 'gi');
   const result = words.replace(pattern, '<span style="font-weight: bold;">$1</span>');
-  console.timeEnd('matchBold');
+  //console.timeEnd('matchBold');
   return result;
 };
 
 const matchWord = (words, queryResult, category = 'variables') => {
-  console.time('matchWord');
+  //console.time('matchWord');
   if (!words) {
     console.timeEnd('matchWord');
     return {};
@@ -417,7 +417,7 @@ const matchWord = (words, queryResult, category = 'variables') => {
       console.log(`value['${category === 'datasets' ? 'key' : 'value'}'] is not an array.`);
     }
   }
-  console.timeEnd('matchWord');
+  //console.timeEnd('matchWord');
   return wordCountMap;
 };
 

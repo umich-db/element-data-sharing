@@ -62,7 +62,7 @@ const requestDataLink = 'https://docs.google.com/forms/d/e/1FAIpQLSc5SQeDOZv6hBp
       </a>
     </div>
     <div class="metadata-container">
-      <h3><u>Year of Visit</u>: {{ year }}</h3>
+      <h3><u>Project</u>: {{ year }}</h3>
       <h3><u>Demographic</u>: {{ demographic == "MOM" ? "Mothers" : "Children" }}</h3>
       <h3><u>Ages</u>: {{ min_age }} to {{ max_age }}</h3>
     </div>
