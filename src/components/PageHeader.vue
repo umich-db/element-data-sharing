@@ -10,7 +10,9 @@ defineProps({
 
 <template>
   <div class="container">
-    <img class="image-size" src="../assets/sph-header-logo.png">
+    <a class="image-size" href="https://www.umich.edu" target="_blank" rel="noopener noreferrer">
+      <img src="../assets/sph-header-logo.png" alt="University of Michigan Logo">
+    </a>
   </div>
   <router-link :to="{ name: 'SearchComponent' }">
     <h1 class="title">{{ title }}</h1>

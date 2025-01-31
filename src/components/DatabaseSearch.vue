@@ -85,6 +85,10 @@ const findRelatedSearches = async () => {
   await deadEmbedding();
   const queryWords = props.queryInput.trim().split(/[\s,.;:!?]+/);
   console.log("put into");
+  console.log("matchList");
+  console.log(matchList.value);
+  console.log("embeddingList");
+  console.log(embeddingList.value);
   const similarities =
     findTopKRecommendations(
       matchList.value,

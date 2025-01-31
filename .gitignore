@@ -28,5 +28,4 @@ coverage
 *.tsbuildinfo
 
 env/
-public/
 Metadata/

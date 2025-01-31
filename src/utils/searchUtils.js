@@ -60,6 +60,8 @@ const datasetVariableQuery = `
 
 function findTopKRecommendations(targetWords, allEmbeddings, k) {
   console.time('findTopKRecommendations');
+  console.log("targetWords");
+  console.log(targetWords);
   function cosineSimilarity(vecA, vecB) {
     const dotProduct = dot(vecA, vecB);
     const magnitudeA = norm(vecA);
@@ -97,7 +99,8 @@ function findTopKRecommendations(targetWords, allEmbeddings, k) {
     word: embedding.word,
     similarity: cosineSimilarity(averageEmbedding, embedding.vector)
   }));
-
+  console.log("simularify")
+  console.log(similarities)
   const topKResults = similarities
     .sort((a, b) => b.similarity - a.similarity)
     .slice(0, k);
@@ -385,14 +388,15 @@ const matchWord = (words, queryResult, category = 'variables') => {
       targetArray.forEach(innerValue => {
         let wordsArray = [];
 
-        if (typeof innerValue === 'string') {
-          wordsArray = innerValue.split(' ').filter(Boolean);
-        } else if (Array.isArray(innerValue)) {
-          wordsArray = [
-            ...innerValue[0].split(' ').filter(Boolean),
-            ...innerValue[1].split(' ').filter(Boolean)
-          ].filter(word => word.trim() !== '');
-        }
+if (typeof innerValue === 'string') {
+  wordsArray = innerValue.split(/[,?\s]+/).filter(Boolean);
+} else if (Array.isArray(innerValue)) {
+  wordsArray = [
+    ...innerValue[0].split(/[,?\s]+/).filter(Boolean),
+    ...innerValue[1].split(/[,?\s]+/).filter(Boolean)
+  ];
+}
+
 
         const matches = [];
         wordsArray.forEach(arrayWord => {
