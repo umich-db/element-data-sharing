@@ -79,7 +79,7 @@ function findTopKRecommendations(targetWords, allEmbeddings, k) {
   }
 
   const targetEmbeddings = [];
-
+  
   allEmbeddings.forEach(embedding => {
     if (targetWords[embedding.word] !== undefined) {
       targetEmbeddings.push([embedding.vector, targetWords[embedding.word]]);
@@ -146,8 +146,12 @@ const queryEmbedding = async (category) => {
     }
 
     while (stmt.step()) {
-      results.push({ word: stmt.get()[1], vector: JSON.parse(stmt.get()[2]) });
+      const row = stmt.get();
+      const word = row[1];
+      const vector = row.slice(2, 66);
+      results.push({ word, vector });
     }
+    console.log(results)
     stmt.free();
 
     console.timeEnd('queryEmbedding');
