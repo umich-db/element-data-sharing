@@ -67,22 +67,18 @@ child_keywords = ['E3G_FFQ_Vitaminas_072020_v1F1', 'P01_SES_201910', 'P01_Sleep_
 
 def classify_folders(base_path='.'):
     """
-    遍历基路径下的所有文件夹，根据关键词将其分类为 MOM 或 CHILD。
     """
     for folder_name in os.listdir(base_path):
         folder_path = os.path.join(base_path, folder_name)
         
-        # 仅处理文件夹
         if os.path.isdir(folder_path):
             classify_content = None
 
-            # 检查关键词是否匹配 MOM 或 CHILD
             if any(keyword in folder_name for keyword in mom_keywords):
                 classify_content = 'MOM'
             elif any(keyword in folder_name for keyword in child_keywords):
                 classify_content = 'CHILD'
 
-            # 如果分类成功，创建 classify.txt 文件
             if classify_content:
                 classify_file_path = os.path.join(folder_path, 'classify.txt')
                 with open(classify_file_path, 'w') as f:
@@ -91,5 +87,4 @@ def classify_folders(base_path='.'):
             else:
                 print(f"No classification found for {folder_name}. Please verify manually.")
 
-# 调用分类函数
 classify_folders()
