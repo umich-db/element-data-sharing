@@ -1,0 +1,710 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "ID: CC - - R01MB - M Visita R01|2023",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "Fecha de hoy: - -",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa_F": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folioFFQ": {
+        "description": "None",
+        "unit": "None"
+    },
+    "gpoedad": {
+        "description": "Edad en Años:",
+        "unit": "None"
+    },
+    "edad": {
+        "description": "Edad en Años",
+        "unit": "años"
+    },
+    "agregado_a_la_leche_azucar": {
+        "description": "Azúcar agregada a la leche",
+        "unit": "1 cucharada cafetera copeteada (10g)"
+    },
+    "agregado_a_la_leche_chocolate": {
+        "description": "Chocolate u otro saborizante agregado a la leche",
+        "unit": "1 cucharada cafetera copeteada (10g)"
+    },
+    "agua_fruta_con_azucar": {
+        "description": "Aguas de fruta natural con azúcar",
+        "unit": "1 vaso (240ml)"
+    },
+    "agua_fruta_sin_azucar": {
+        "description": "Aguas de fruta natural sin azúcar",
+        "unit": "1 vaso (240ml)"
+    },
+    "agua_sola": {
+        "description": "Agua sola",
+        "unit": "1 vaso (240ml)"
+    },
+    "aguacate": {
+        "description": "Aguacate",
+        "unit": "1 rebanada o 1 pieza de criollo chico (33g)"
+    },
+    "algun_marisco_camaron_ostiones": {
+        "description": "Algún marisco (camarón, ostiones, etc)",
+        "unit": "1 plato (100g)"
+    },
+    "arroz": {
+        "description": "Arroz guisado",
+        "unit": "1 taza o 1 plato (100g)"
+    },
+    "atole_de_maiz_agua": {
+        "description": "Atole de maíz con agua",
+        "unit": "1 taza (240ml)"
+    },
+    "atole_de_maiz_leche_b1": {
+        "description": "Atole de maíz con leche (aparte de la reportada en el apartado de 'Productos lácteos'). Especificar tipo de leche y código: entera, descremada, deslactosada, en polvo, etcétera.",
+        "unit": "1 taza (240ml)"
+    },
+    "atole_de_maiz_leche_b2": {
+        "description": "Atole de maíz con leche (aparte de la reportada en el apartado de 'Productos lácteos'). Especificar tipo de leche y código: entera, descremada, deslactosada, en polvo, etcétera.",
+        "unit": "1 taza (240ml)"
+    },
+    "atole_de_maiz_leche_b3": {
+        "description": "Atole de maíz con leche (aparte de la reportada en el apartado de 'Productos lácteos'). Especificar tipo de leche y código: entera, descremada, deslactosada, en polvo, etcétera.",
+        "unit": "1 taza (240ml)"
+    },
+    "atun_y_sardina": {
+        "description": "Atún y sardina (en tomate, agua o aceite)",
+        "unit": "1/4 lata (40g)"
+    },
+    "azucar_a_parte_de_la_agregada_a": {
+        "description": "Azúcar (aparte de la agregada a las bebidas, leche, té, café, agua de frutas), por ejemplo, en fresas o plátanos con crema",
+        "unit": "1 cucharada sopera (10g)"
+    },
+    "azucar_agregada_cafe": {
+        "description": "Azúcar agregada al café",
+        "unit": "1 cucharada cafetera copeteada (10g)"
+    },
+    "azucar_agregada_te": {
+        "description": "Azúcar agregada al té",
+        "unit": "1 cuchara cafetera copeteada (10g)"
+    },
+    "barras_de_cereal": {
+        "description": "Barras de cereal",
+        "unit": "1 pieza (25g)"
+    },
+    "bebidas_alcoholicas": {
+        "description": "Bebidas alcohólicas (cerveza, vino, pulque, cuba o copa solo con tequila, mezcal u otro)",
+        "unit": "1 vaso (240ml)"
+    },
+    "bebidas_o_aguas_de_sabor_con_azu": {
+        "description": "Bebidas o aguas de sabor industrializadas con azúcar (frutsi, bonafina, Tang)",
+        "unit": "1 vaso (240ml)"
+    },
+    "bebidas_o_aguas_de_sabor_sin_azu": {
+        "description": "Bebidas o aguas de sabor industrializadas sin azúcar (incluyendo dietéticas como Clight, Be-light, etcétera)",
+        "unit": "1 vaso (240ml)"
+    },
+    "brocoli_o_coliflor": {
+        "description": "Brócoli o coliflor",
+        "unit": "1/4 taza (35g)"
+    },
+    "cacahuates_habas_o_pepitas": {
+        "description": "Cacahuates, habas o pepitas",
+        "unit": "1 puño (de la mano) (35g)"
+    },
+    "cafe_sin_azucar": {
+        "description": "Café",
+        "unit": "1 taza (240ml)"
+    },
+    "calabacita": {
+        "description": "Calabacita",
+        "unit": "1/2 pieza mediana (50g)"
+    },
+    "caldo_de_pollo_res_o_verduras_": {
+        "description": "Caldo de pollo, res o verduras (solo caldo)",
+        "unit": "1 taza (240ml)"
+    },
+    "carne_de_puerco": {
+        "description": "Carne de puerco",
+        "unit": "1 bistec mediano (90g)"
+    },
+    "carne_de_res": {
+        "description": "Carne de res",
+        "unit": "1 bistec mediano (90g)"
+    },
+    "carne_de_res_seca_machaca": {
+        "description": "Carne de res seca (machaca)",
+        "unit": "1 plato (80g)"
+    },
+    "catsup": {
+        "description": "Cátsup",
+        "unit": "1 cucharada sopera (10 g)"
+    },
+    "cebolla_en_salsa_tacos_guisados": {
+        "description": "Cebolla, por ejemplo, en salsas, tacos, guisados (molidos o entero)",
+        "unit": "None"
+    },
+    "cebolla_molida_o_entera": {
+        "description": "Cebolla, por ejemplo, en salsas o caldillos (molida o entera)",
+        "unit": "None"
+    },
+    "cereal_de_caja_a_chocolate_otro": {
+        "description": "Cereal de caja: Chocolate (Chocozucaritas, chocokrispis)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_b_light_special": {
+        "description": "Cereal de caja: Light/cuidado de la figura (Special K)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_c_adicionados_co": {
+        "description": "Cereal de caja: Hojuela endulazada (Zucaritas)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_d_basicos_corn_fl": {
+        "description": "Cereal de caja: Básico (Corn Flakes, arroz inflado sin sabor)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_e_variedades": {
+        "description": "Cereal de caja: Variedades (Apple jacks, honey smacks, corn pops)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_f_saborizados": {
+        "description": "Cereal de caja: Sabor a frutas (Froot loops)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_g_altos_en_fibra": {
+        "description": "Cereal de caja: Fibra (All Bran)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_h_especiali": {
+        "description": "Cereal de caja: Especialidades (Crusli)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "cereal_de_caja_i_multi": {
+        "description": "Cereal de caja de multi ingredientes (Extra)",
+        "unit": "1 taza (seco 30g)"
+    },
+    "chayote": {
+        "description": "Chayote",
+        "unit": "1/4 pieza chica (50g) o 1/3 taza"
+    },
+    "chile_poblano": {
+        "description": "Chile poblano",
+        "unit": "1 pieza mediana o 1/3 taza (80g)"
+    },
+    "chile_seco": {
+        "description": "Chile seco, por ejemplo, en salsas, tacos, guisados",
+        "unit": "None"
+    },
+    "chiles_envasados": {
+        "description": "Chiles envasados o enlatados, por ejemplo, en el sándwich, torta, guisados",
+        "unit": "None"
+    },
+    "chiles_frescos": {
+        "description": "Chiles frescos, por ejemplo, en salsas, tacos, guisados",
+        "unit": "None"
+    },
+    "chocolate": {
+        "description": "Chocolate",
+        "unit": "1 trozo o 1 cucharada sopera (10g)"
+    },
+    "col": {
+        "description": "Col",
+        "unit": "1/4 taza (35g)"
+    },
+    "con_carne_fritos_antojitos": {
+        "description": "Antojitos con res, cerdo, pollo, vísceras, etc., como tacos, quesadillas, tlacoyos, enchiladas, gorditas: Fritos",
+        "unit": "100g"
+    },
+    "con_carne_sin_freir_antojitos": {
+        "description": "Antojitos con res, cerdo, pollo, vísceras, etc., como tacos, quesadillas, tlacoyos, enchiladas, gorditas: Sin freír",
+        "unit": "100g"
+    },
+    "crema": {
+        "description": "Crema",
+        "unit": "1 cucharada sopera (10g)"
+    },
+    "crema_de_verduras": {
+        "description": "Crema de verduras",
+        "unit": "1 plato (240ml)"
+    },
+    "danonino_o_similar": {
+        "description": "Danonino o similar",
+        "unit": "1 envase (45g)"
+    },
+    "donas_y_churros_de_panaderia": {
+        "description": "Donas y churros de panadería",
+        "unit": "1 pieza (70g)"
+    },
+    "dulce_caramelos": {
+        "description": "Dulce (caramelos, paletas)",
+        "unit": "1 pieza (30g)"
+    },
+    "dulce_enchilados": {
+        "description": "Dulces enchilados (miguelitos, tamarindos)",
+        "unit": "1 pieza (30g)"
+    },
+    "durazno": {
+        "description": "Durazno/melocotón",
+        "unit": "1 pieza mediana (50g)"
+    },
+    "ejotes": {
+        "description": "Ejotes",
+        "unit": "1/4 o 5 piezas (30g)"
+    },
+    "elote": {
+        "description": "Elote",
+        "unit": "1/2 pieza chica (50g)"
+    },
+    "fresa": {
+        "description": "Fresa",
+        "unit": "1 taza o 9 medianas (140g)"
+    },
+    "frijoles_de_olla_caseros": {
+        "description": "Frijoles preparados en casa: De la olla",
+        "unit": "1/2 plato o 1/2 taza (50g)"
+    },
+    "frijoles_de_olla_envasados": {
+        "description": "Frijoles envasados o de lata (industrializados): De la olla",
+        "unit": "1/2 plato o 1/2 taza (50g)"
+    },
+    "frijoles_refritos_caseros": {
+        "description": "Frijoles preparados en casa: Refritos",
+        "unit": "1/2 plato o 1/2 taza (50g)"
+    },
+    "frijoles_refritos_envasados": {
+        "description": "Frijoles envasados o de lata (industrializados): Refritos",
+        "unit": "1/2 plato o 1/2 taza (50g)"
+    },
+    "frituras": {
+        "description": "Frituras (todos tipos, incluyendo cacahuates japoneses)",
+        "unit": "1 paquete individual o bolsa chica(35g)"
+    },
+    "frutas_almibar": {
+        "description": "Frutas en almíbar",
+        "unit": "1/2 taza (80g)"
+    },
+    "frutas_secas": {
+        "description": "Frutas cristalizadas o secas",
+        "unit": "1/4 taza (25g)"
+    },
+    "galletas_dulces": {
+        "description": "Galletas dulces (todos tipos)",
+        "unit": "2 piezas (32g)"
+    },
+    "galletas_saladas": {
+        "description": "Galletas saladas",
+        "unit": "4 piezas (20g)"
+    },
+    "gelatina_flan": {
+        "description": "Gelatina, flan",
+        "unit": "1 pieza o rebanada (125g)"
+    },
+    "guayaba": {
+        "description": "Guayaba",
+        "unit": "1 pieza mediana (75g)"
+    },
+    "hamburguesa": {
+        "description": "Hamburguesa",
+        "unit": "1 pieza mediana (240g)"
+    },
+    "helado_nieve_agua": {
+        "description": "Helado, nieves y paletas de agua",
+        "unit": "1 pza o bola (80g)"
+    },
+    "helado_nieve_leche": {
+        "description": "Helado y paletas de leche",
+        "unit": "1 pza o bola (80g)"
+    },
+    "hojas_verdes_acelgas_espinacas": {
+        "description": "Hojas verdes (acelgas, espinacas, quelites)",
+        "unit": "1/2 plato (85g) cocidas o 1 plato crudas"
+    },
+    "hot_dog": {
+        "description": "Hot dog",
+        "unit": "1 pieza mediana (110g)"
+    },
+    "huevo_frito_estrellado_o_revuelt": {
+        "description": "Huevo frito, estrellado o revuelto",
+        "unit": "1 pieza entera (55g)"
+    },
+    "huevo_tibio_o_cocido": {
+        "description": "Huevo tibio o cocido",
+        "unit": "1 pieza entera (62g)"
+    },
+    "jicama": {
+        "description": "Jícama",
+        "unit": "1/2 pieza mediana (163g)"
+    },
+    "jitomate_solo_en_ensaladas": {
+        "description": "Jitomate en ensalada",
+        "unit": "1/2 pieza chica (30g)"
+    },
+    "jugos_naturales_con_azucar": {
+        "description": "Jugos naturales con azúcar",
+        "unit": "1 vaso (240ml)"
+    },
+    "jugos_naturales_sin_azucar": {
+        "description": "Jugos naturales sin azúcar",
+        "unit": "1 vaso (240ml)"
+    },
+    "leche_agregada_cafe_c1": {
+        "description": "Leche agregada al café (especificar tipo de leche)",
+        "unit": "1 taza (240ml)"
+    },
+    "leche_agregada_cafe_c2": {
+        "description": "Leche agregada al café (especificar tipo de leche)",
+        "unit": "1 taza (240ml)"
+    },
+    "leche_agregada_cafe_c3": {
+        "description": "Leche agregada al café (especificar tipo de leche)",
+        "unit": "1 taza (240ml)"
+    },
+    "leche_liconsa": {
+        "description": "Leche Liconsa",
+        "unit": "1 vaso (240ml)"
+    },
+    "leche_preparada_de_sabor": {
+        "description": "Leche preparada de sabor (chocolate u otro sabor)",
+        "unit": "1 vaso (240ml)"
+    },
+    "lechuga": {
+        "description": "Lechuga",
+        "unit": "1/2 taza o 1 hoja(30g)"
+    },
+    "lenteja_garbanzo_haba_amarilla": {
+        "description": "Lenteja, garbanzo, haba amarilla o alubia",
+        "unit": "1 plato o 1 taza (100g)"
+    },
+    "limon_en_ensalad_caldo_carne": {
+        "description": "Limón, por ejemplo, en ensaladas, caldos, o carnes",
+        "unit": "None"
+    },
+    "longaniza_o_chorizo": {
+        "description": "Longaniza o chorizo",
+        "unit": "1/2 trozo (30g)"
+    },
+    "mango": {
+        "description": "Mango",
+        "unit": "1 pieza mediana (185g)"
+    },
+    "manteca_animal": {
+        "description": "Manteca animal (cerdo o pollo)",
+        "unit": "1 cucharada sopera (10g)"
+    },
+    "manteca_vegetal": {
+        "description": "Manteca vegetal",
+        "unit": "1 cucharada sopera (10g)"
+    },
+    "mantequilla": {
+        "description": "Mantequilla",
+        "unit": "1 cucharada sopera (10g)"
+    },
+    "manzana_o_pera": {
+        "description": "Manzana o pera",
+        "unit": "1 pieza mediana (140g)"
+    },
+    "margarina": {
+        "description": "Margarina",
+        "unit": "1 cucharada sopera (10g)"
+    },
+    "mayonesa": {
+        "description": "Mayonesa",
+        "unit": "1 cucharada sopera (10g)"
+    },
+    "melon_o_sandia": {
+        "description": "Melón o sandía",
+        "unit": "1 rebana o 3/4 de taza (115g)"
+    },
+    "naranja_o_mandarina": {
+        "description": "Naranja o mandarina",
+        "unit": "1 pieza grande (206g)"
+    },
+    "nectares_fruta_indust_con_azu": {
+        "description": "Néctares de fruta o pulpa de frutas industrializados con azúcar (boing, 6umex)",
+        "unit": "1 vaso (240ml)"
+    },
+    "nopales": {
+        "description": "Nopales",
+        "unit": "1 pieza grande (100g)"
+    },
+    "otra_leche_a": {
+        "description": "Otra leche (especificar tipo: entera, semi/descremada, deslactosada etc.)",
+        "unit": "1 vaso (240ml)"
+    },
+    "otra_leche_b": {
+        "description": "Otra leche (especificar tipo: entera, semi/descremada, deslactosada etc.)",
+        "unit": "1 vaso (240ml)"
+    },
+    "otra_leche_c": {
+        "description": "Otra leche (especificar tipo: entera, semi/descremada, deslactosada etc.)",
+        "unit": "1 vaso (240ml)"
+    },
+    "paletas_dulces_malvavisco": {
+        "description": "Paletas y dulces de malvavisco (paleta payaso, bubu-lu-bu)",
+        "unit": "2 piezas pequeñas o 1 pieza grande (40g)"
+    },
+    "palomitas_maiz": {
+        "description": "Palomitas de maíz de microondas o del cine (todos tipos, excepto acarameladas)",
+        "unit": "1 bolsa mediana (100g)"
+    },
+    "pan_blanco": {
+        "description": "Pan blanco",
+        "unit": "2 rebanadas o 1 bolillo (70g)"
+    },
+    "pan_dulce_excepto_donas_y_churr": {
+        "description": "Pan dulce (excepto donas y churros)",
+        "unit": "1 pieza (70g)"
+    },
+    "pan_integral": {
+        "description": "Pan integral",
+        "unit": "2 rebanadas o 1 bolillo (70g)"
+    },
+    "papa_frita_o_tortita_de_papa": {
+        "description": "Frecuencia de consumo de papa frita o tortita de papa en los últimos siete días",
+        "unit": "1/2 pieza mediana (40g)"
+    },
+    "papas_cocidas": {
+        "description": "Frecuencia de consumo de papas cocidas en los últimos siete días",
+        "unit": "1/2 pieza mediana cocida (40g)"
+    },
+    "papaya": {
+        "description": "Frecuencia de consumo de papaya en los últimos siete días",
+        "unit": "1 rebanada mediana (100g) o 1/2 taza"
+    },
+    "pastel_o_pay": {
+        "description": "Frecuencia de consumo de pastel o pay en los últimos siete días",
+        "unit": "1 rebanada mediana (125g)"
+    },
+    "pastelillos_y_donas_indust_": {
+        "description": "Frecuencia de consumo de pastelitos y donas industrializadas en los últimos siete días",
+        "unit": "1 pieza (70g)"
+    },
+    "pepino": {
+        "description": "Frecuencia de consumo de pepino en los últimos siete días",
+        "unit": "1/2 pieza grande (150g)"
+    },
+    "pescado_fresco": {
+        "description": "Frecuencia de consumo de pescado fresco en los últimos siete días",
+        "unit": "1 filete mediano o mojarra chica (90g)"
+    },
+    "pescado_seco": {
+        "description": "Frecuencia de consumo de pescado seco en los últimos siete días",
+        "unit": "1 plato (80g)"
+    },
+    "pina": {
+        "description": "Frecuencia de consumo de piña en los últimos siete días",
+        "unit": "1 rebanada mediana (150g)"
+    },
+    "pizza": {
+        "description": "Frecuencia de consumo de pizza en los últimos siete días",
+        "unit": "1 rebanada chica (92g)"
+    },
+    "platano": {
+        "description": "Plátano",
+        "unit": "1 pieza mediana (176g)"
+    },
+    "platano_frito": {
+        "description": "Plátano frito",
+        "unit": "1/2 pieza mediana (113g)"
+    },
+    "pollo_ala_o_patas": {
+        "description": "Pollo (Ala, patas)",
+        "unit": "1 pieza de ala, 2 piezas de patas (70g)"
+    },
+    "pollo_higadito_o_molleja": {
+        "description": "Pollo (Higadito o molleja)",
+        "unit": "1 pieza de higadito o molleja (30g)"
+    },
+    "pollo_pierna_o_muslo": {
+        "description": "Pollo (Pierna, muslo o pechuga)",
+        "unit": "1 pieza (pierna, muslo) o 1/2 pieza de pechuga chica (90g)"
+    },
+    "pozole": {
+        "description": "Pozole (todos tipos)",
+        "unit": "1 plato (100g)"
+    },
+    "queso_fresco": {
+        "description": "Queso fresco tipo panela o cottage",
+        "unit": "1 rebanada o 2 cucharadas soperas (30 g)"
+    },
+    "queso_tipo_manchego": {
+        "description": "Quesos tipo chihuahua, manchego, gouda, etc.",
+        "unit": "1 rebanada 30g"
+    },
+    "refresco_dieta": {
+        "description": "Refresco de dieta",
+        "unit": "1 vaso (240ml)"
+    },
+    "refresco_normal": {
+        "description": "Refresco normal",
+        "unit": "1 vaso (240ml)"
+    },
+    "sal_a_agregada_cantidad": {
+        "description": "Cantidad de sal agregada a los alimentos",
+        "unit": "None"
+    },
+    "sal_a_agregada_dias": {
+        "description": "Días de la semana que se agregó sal a los alimentos",
+        "unit": "días"
+    },
+    "sal_a_agregada_veces": {
+        "description": "Veces al día que se agregó sal a los alimentos",
+        "unit": "veces"
+    },
+    "sal_b_agregada_cantidad": {
+        "description": "Cantidad de sal o condimento con sal agregada a los alimentos",
+        "unit": "None"
+    },
+    "sal_b_agregada_dias": {
+        "description": "Días de la semana que se agregó sal o condimento con sal a los alimentos",
+        "unit": "días"
+    },
+    "sal_b_agregada_veces": {
+        "description": "Veces al día que se agregó sal o condimento con sal a los alimentos",
+        "unit": "veces"
+    },
+    "salchicha_de_puerco_pavo_o_comb": {
+        "description": "Consumo de salchicha o jamón de puerco, pavo o combinado",
+        "unit": "1 pieza de salchicha o 1 rebanada de jamón (30g)"
+    },
+    "salsa_de_soya": {
+        "description": "Salsa de soya, salsa inglesa o sazonadores líquidos agregados a los alimentos",
+        "unit": "1 cucharada sopera (15 ml)"
+    },
+    "salsa_picante": {
+        "description": "Salsa picante para botana agregada a los alimentos",
+        "unit": "1 cucharada sopera (15 ml)"
+    },
+    "sin_carne_fritos_antojitos": {
+        "description": "Antojitos sin carne como sopes, quesadillas, tlacoyos, gorditas y enchiladas fritos",
+        "unit": "100g"
+    },
+    "sin_carne_sin_freir_antojitos": {
+        "description": "Antojitos sin carne como sopes, quesadillas, tlacoyos, gorditas y enchiladas (NO TACOS): Sin freír",
+        "unit": "100g"
+    },
+    "sopa_de_pasta_caldosa": {
+        "description": "Sopa de pasta caldosa",
+        "unit": "1/2 plato o 1/2 taza sopa caldosa (50g)"
+    },
+    "sopa_de_pasta_seca": {
+        "description": "Sopa de pasta seca",
+        "unit": "1/2 plato sopa seca (50g)"
+    },
+    "sopa_instantanea": {
+        "description": "Sopas instantáneas",
+        "unit": "1 vaso (64g)"
+    },
+    "sopa_o_caldo_con_verduras": {
+        "description": "Sopa o caldo con verduras",
+        "unit": "1 plato (240ml)"
+    },
+    "sustituto_de_crema_cafe": {
+        "description": "Sustituto de crema agregada al café",
+        "unit": "1 cucharada sopera"
+    },
+    "tamal_todos_tipos": {
+        "description": "Tamal (todos tipos)",
+        "unit": "1 pieza (200g)"
+    },
+    "te_sin_azucar": {
+        "description": "Té sin azúcar",
+        "unit": "1 taza (240ml)"
+    },
+    "tomate_verde_jitomate_en_salsa_t": {
+        "description": "Tomate verde y jitomate, por ejemplo, en salsas, tacos, o guisados (molido o entero)",
+        "unit": "None"
+    },
+    "toronja": {
+        "description": "Toronja",
+        "unit": "1 pieza chica (270g)"
+    },
+    "torta_o_sandwich": {
+        "description": "Torta o sándwich",
+        "unit": "1 pieza mediana (130g)"
+    },
+    "tortilla_de_harina_trigo": {
+        "description": "Tortillas de harina de trigo",
+        "unit": "None"
+    },
+    "tortilla_de_masa_tortilleria": {
+        "description": "Tortilla de masa (comprada) o de tortillería",
+        "unit": "None"
+    },
+    "tortilla_maseca_hecho_casa": {
+        "description": "Tortilla de harina MASECA o MINSA (hecha en casa)",
+        "unit": "None"
+    },
+    "tortilla_nixtamal_hecho_casa": {
+        "description": "Tortilla de nixtamal (hecho en casa)",
+        "unit": "None"
+    },
+    "tortitas_de_verduras_capeadas": {
+        "description": "Tortitas de verduras capeadas",
+        "unit": "1 pieza (72g)"
+    },
+    "uvas": {
+        "description": "Uvas",
+        "unit": "10 piezas (60g)"
+    },
+    "verduras_congeladas": {
+        "description": "Verduras congeladas como chícharo, zanahoria, brócoli, coliflor, ejotes",
+        "unit": "1/3 taza"
+    },
+    "verduras_envasadas": {
+        "description": "Verduras envasadas como chícharo, zanahoria, champiñones y elotes",
+        "unit": "1/3 o 1 lata pequeña"
+    },
+    "yakult_o_similares": {
+        "description": "Yakult o similares",
+        "unit": "1 envase (80 ml)"
+    },
+    "yogurt_beber_entero_light": {
+        "description": "Yogur para beber bajo en grasa o light, natural o con fruta",
+        "unit": "1 envase típico (230 g)"
+    },
+    "yogurt_beber_entero_natural": {
+        "description": "Yogur para beber entero natural",
+        "unit": "1 envase típico (230 g)"
+    },
+    "yogurt_beber_entero_sabor": {
+        "description": "Yogur para beber entero con frutas",
+        "unit": "1 envase típico (230 g)"
+    },
+    "yogurt_entero_natural": {
+        "description": "Yogur de vaso entero natural",
+        "unit": "1 vaso típico de yogur (150 g)"
+    },
+    "yogurt_entero_sabor": {
+        "description": "Yogur de vaso entero con frutas",
+        "unit": "1 vaso típico de yogur (150 g)"
+    },
+    "yogurt_light": {
+        "description": "Yogur de vaso bajo en grasa o light, natural o con fruta",
+        "unit": "1 vaso típico de yogur (150 g)"
+    },
+    "zanahoria": {
+        "description": "Zanahoria",
+        "unit": "1 pieza chica o 1/2 taza (50g)"
+    }
+}

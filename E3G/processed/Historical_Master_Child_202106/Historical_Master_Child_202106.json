@@ -1,0 +1,1338 @@
+{
+    "PROYECTO": {
+        "description": "proyecto",
+        "unit": "None"
+    },
+    "FOLIO": {
+        "description": "Id number",
+        "unit": "None"
+    },
+    "EDAD": {
+        "description": "Child's age (months)",
+        "unit": "months"
+    },
+    "PROJ_FOLIO1": {
+        "description": "proj_folio1",
+        "unit": "None"
+    },
+    "PROJ_FOLIO_ET1": {
+        "description": "proj_folio_et1",
+        "unit": "None"
+    },
+    "PROJ_FOLIO": {
+        "description": "proj_folio",
+        "unit": "None"
+    },
+    "PROJ_FOLIO_ET": {
+        "description": "proj_folio_et",
+        "unit": "None"
+    },
+    "UNICO": {
+        "description": "first children",
+        "unit": "None"
+    },
+    "ENTREVIS": {
+        "description": "Interviewer identification",
+        "unit": "None"
+    },
+    "FECHA": {
+        "description": "Date of questionnaire",
+        "unit": "MMDDYY"
+    },
+    "V901": {
+        "description": "Paint inside house since last met?",
+        "unit": "None"
+    },
+    "V902": {
+        "description": "Which room(s) were painted?",
+        "unit": "None"
+    },
+    "V903": {
+        "description": "How long ago (in months)?",
+        "unit": "months"
+    },
+    "V904": {
+        "description": "What kind of paint did you use?",
+        "unit": "None"
+    },
+    "V905": {
+        "description": "Have you painted the baby's crib?",
+        "unit": "None"
+    },
+    "V906": {
+        "description": "How long ago (in months)?",
+        "unit": "months"
+    },
+    "V907": {
+        "description": "What kind of paint did you use?",
+        "unit": "None"
+    },
+    "V908": {
+        "description": "How many cars at child's house?",
+        "unit": "None"
+    },
+    "V909": {
+        "description": "Does the house have a garage?",
+        "unit": "None"
+    },
+    "V910": {
+        "description": "Is the garage closed (with roof)?",
+        "unit": "None"
+    },
+    "V911": {
+        "description": "Warm the car's engine inside garage?",
+        "unit": "None"
+    },
+    "V912": {
+        "description": "Spots of oil on the garage floor?",
+        "unit": "None"
+    },
+    "V913": {
+        "description": "During the day does your child play:",
+        "unit": "None"
+    },
+    "V914": {
+        "description": "The house where you live is on:",
+        "unit": "None"
+    },
+    "V915": {
+        "description": "The traffic where you live is:",
+        "unit": "None"
+    },
+    "V916": {
+        "description": "Does child play with newsprint?",
+        "unit": "None"
+    },
+    "V917A": {
+        "description": "Child eats/sucks on paint on wall?",
+        "unit": "None"
+    },
+    "V917B": {
+        "description": "Child eats/sucks on plastic clay?",
+        "unit": "None"
+    },
+    "V917C": {
+        "description": "Child eats/sucks on crayons?",
+        "unit": "None"
+    },
+    "V917D": {
+        "description": "Child eats/sucks on pencils?",
+        "unit": "None"
+    },
+    "V917E": {
+        "description": "Child eats/sucks on colored pencils?",
+        "unit": "None"
+    },
+    "V917F": {
+        "description": "Child eats/sucks on painted toys?",
+        "unit": "None"
+    },
+    "V918": {
+        "description": "Does anyone smoke inside house?",
+        "unit": "None"
+    },
+    "V919": {
+        "description": "Is child near the person smoking?",
+        "unit": "None"
+    },
+    "V920A": {
+        "description": "In/near house is a printer?",
+        "unit": "None"
+    },
+    "V920B": {
+        "description": "In/near house is a gas station?",
+        "unit": "None"
+    },
+    "V920C": {
+        "description": "In/near house is a plumber's workshop?",
+        "unit": "None"
+    },
+    "V920D": {
+        "description": "In/near house is a wood-working shop?",
+        "unit": "None"
+    },
+    "V920E": {
+        "description": "In/near house is battery repair/manufacturing?",
+        "unit": "None"
+    },
+    "V920F": {
+        "description": "In/near house is paint/varnish factory?",
+        "unit": "None"
+    },
+    "V920G": {
+        "description": "In/near house is a ceramics factory?",
+        "unit": "None"
+    },
+    "V920H": {
+        "description": "In/near house is a gasoline refinery?",
+        "unit": "None"
+    },
+    "V920I": {
+        "description": "In/near house is a lead smelter?",
+        "unit": "None"
+    },
+    "V921": {
+        "description": "Usually buy street food for child?",
+        "unit": "None"
+    },
+    "V922": {
+        "description": "Usually cook/prep food in Pb ceramic?",
+        "unit": "None"
+    },
+    "V923": {
+        "description": "Usually store food in Pb ceramic?",
+        "unit": "None"
+    },
+    "V924": {
+        "description": "Do you have tap water in your home?",
+        "unit": "None"
+    },
+    "V925": {
+        "description": "Is the tap made of lead?",
+        "unit": "None"
+    },
+    "V926": {
+        "description": "Use for first water from kitchen tap:",
+        "unit": "None"
+    },
+    "V927": {
+        "description": "Water used most often for cooking",
+        "unit": "None"
+    },
+    "V928": {
+        "description": "Boil water before drinking?",
+        "unit": "None"
+    },
+    "V929": {
+        "description": "Child's drinking water comes from:",
+        "unit": "None"
+    },
+    "V930": {
+        "description": "Are you still breast-feeding child?",
+        "unit": "None"
+    },
+    "V931": {
+        "description": "How long breast-feeding (in months)?",
+        "unit": "months"
+    },
+    "V932": {
+        "description": "1st age (mos) other than milk/tea?",
+        "unit": "months"
+    },
+    "V933": {
+        "description": "Are you working now?",
+        "unit": "None"
+    },
+    "V934A": {
+        "description": "In what job does the father work",
+        "unit": "None"
+    },
+    "V934B": {
+        "description": "In what job does the mother work",
+        "unit": "None"
+    },
+    "V935A": {
+        "description": "How long (father) working in that place (months)?",
+        "unit": "months"
+    },
+    "V935B": {
+        "description": "How long (mother) working in that place (months)?",
+        "unit": "months"
+    },
+    "V936PESO": {
+        "description": "Child's weight (kg)",
+        "unit": "kg"
+    },
+    "V936TALL": {
+        "description": "Child's height (cm)",
+        "unit": "cm"
+    },
+    "V936_PC": {
+        "description": "Child's head circumference (cm)",
+        "unit": "cm"
+    },
+    "V936_PB": {
+        "description": "Child's arm circumference (cm)",
+        "unit": "cm"
+    },
+    "V936_PP": {
+        "description": "Child's calf circumference (cm)",
+        "unit": "cm"
+    },
+    "PSICOLOG": {
+        "description": "Other psychologists",
+        "unit": "None"
+    },
+    "WAIS": {
+        "description": "Was WAIS test administered (to mother)?",
+        "unit": "None"
+    },
+    "FECHAW": {
+        "description": "Date of WAIS",
+        "unit": "MMDDYY10."
+    },
+    "WAISVERB": {
+        "description": "Verbal score confidence Inteval (I.Q.)",
+        "unit": "None"
+    },
+    "WAISVER_": {
+        "description": "Verbal score confidence Inteval (I.Q.)",
+        "unit": "None"
+    },
+    "WAISEJEC": {
+        "description": "Attention score",
+        "unit": "None"
+    },
+    "WAISEJE_": {
+        "description": "Attention score confidence",
+        "unit": "None"
+    },
+    "WAISTOTA": {
+        "description": "Total score",
+        "unit": "None"
+    },
+    "WAISTOT_": {
+        "description": "Total score confidence interval (I.Q)",
+        "unit": "None"
+    },
+    "WAIS_CAL": {
+        "description": "Code of person who scored WAIS test",
+        "unit": "None"
+    },
+    "FECHABAY": {
+        "description": "Date of Bayley administration",
+        "unit": "MMDDYY10."
+    },
+    "BAYLEY_C": {
+        "description": "Identifcation of Bayley interviewer",
+        "unit": "None"
+    },
+    "PATERCHI": {
+        "description": "Child's paternal name",
+        "unit": "None"
+    },
+    "MATERCHI": {
+        "description": "Child's maternal name",
+        "unit": "None"
+    },
+    "NAMESCHI": {
+        "description": "Child's first name(s)",
+        "unit": "None"
+    },
+    "SEXO": {
+        "description": "Child's sex (1=male, 2=female)",
+        "unit": "None"
+    },
+    "MDI": {
+        "description": "Bayley Mental Development Index (MDI) Scaled score",
+        "unit": "None"
+    },
+    "PDI": {
+        "description": "Bayley Psychomotor Development Index (PDI) Raw score",
+        "unit": "None"
+    },
+    "ATENC_RW": {
+        "description": "Attention factor, raw score",
+        "unit": "None"
+    },
+    "ATENC_PE": {
+        "description": "Attention factor, percentile score",
+        "unit": "None"
+    },
+    "ATENC_CL": {
+        "description": "Attention factor, classification",
+        "unit": "None"
+    },
+    "ORIEN_RW": {
+        "description": "Orientation raw score",
+        "unit": "None"
+    },
+    "ORIEN_PE": {
+        "description": "Orientation percentile score",
+        "unit": "None"
+    },
+    "ORIEN_CL": {
+        "description": "Orientation classification",
+        "unit": "None"
+    },
+    "EMOCI_RW": {
+        "description": "Emotional raw score score",
+        "unit": "None"
+    },
+    "EMOCI_PE": {
+        "description": "Emotional percentile score",
+        "unit": "None"
+    },
+    "EMOCI_CL": {
+        "description": "Emotional classification",
+        "unit": "None"
+    },
+    "MOTOR_RW": {
+        "description": "Motor raw score",
+        "unit": "None"
+    },
+    "MOTOR_PE": {
+        "description": "Motor percentile score",
+        "unit": "None"
+    },
+    "MOTOR_CL": {
+        "description": "Motor classification",
+        "unit": "None"
+    },
+    "ITEMS_RW": {
+        "description": "Additional subjects",
+        "unit": "None"
+    },
+    "TOTAL_RW": {
+        "description": "Total raw score",
+        "unit": "None"
+    },
+    "TOTAL_PE": {
+        "description": "Total percentile score",
+        "unit": "None"
+    },
+    "TOTAL_CL": {
+        "description": "Total classification",
+        "unit": "None"
+    },
+    "OBSERVA": {
+        "description": "observaciones",
+        "unit": "None"
+    },
+    "OBSERVAC": {
+        "description": "observac",
+        "unit": "None"
+    },
+    "QUEDO_EN": {
+        "description": "quedo_en",
+        "unit": "None"
+    },
+    "BIBLIO": {
+        "description": "Book number",
+        "unit": "None"
+    },
+    "RMDI": {
+        "description": "Bayley Mental Development Index (MDI) Scaled score",
+        "unit": "None"
+    },
+    "RPDI": {
+        "description": "Bayley Psychomotor Development Index (PDI) Raw score",
+        "unit": "None"
+    },
+    "PB": {
+        "description": "Whole blood lead",
+        "unit": "None"
+    },
+    "HGB": {
+        "description": "Child's hemoglobin",
+        "unit": "None"
+    },
+    "FER": {
+        "description": "Child's ferritin",
+        "unit": "None"
+    },
+    "CAP": {
+        "description": "Date of capture (test administration date)",
+        "unit": "MMDDYY10."
+    },
+    "ZINC": {
+        "description": "Zinc",
+        "unit": "None"
+    },
+    "CASO_ESP": {
+        "description": "1=Child with important illness that may affect test",
+        "unit": "None"
+    },
+    "CALOR": {
+        "description": "Total Calories (kcal)",
+        "unit": "None"
+    },
+    "PROTEI": {
+        "description": "Protein (grams)",
+        "unit": "None"
+    },
+    "APROT": {
+        "description": "Animal Protein (grams)",
+        "unit": "None"
+    },
+    "CARBO": {
+        "description": "Carbohydrates (grams)",
+        "unit": "None"
+    },
+    "SUCR": {
+        "description": "Sucrose  (grams)",
+        "unit": "None"
+    },
+    "FRUCT": {
+        "description": "Fructuose  (grams)",
+        "unit": "None"
+    },
+    "LACT": {
+        "description": "Lactose  (grams)",
+        "unit": "None"
+    },
+    "ST": {
+        "description": "Starch  (grams)",
+        "unit": "None"
+    },
+    "MALT": {
+        "description": "Maltose (grams)",
+        "unit": "None"
+    },
+    "GLU": {
+        "description": "Glucose (grams)",
+        "unit": "None"
+    },
+    "CRUDE": {
+        "description": "Crude Fiber (grams)",
+        "unit": "None"
+    },
+    "DTFIB": {
+        "description": "Dietary fiber suthgate  (grams)",
+        "unit": "None"
+    },
+    "AOFID": {
+        "description": "Fiber AOAC  (grams)",
+        "unit": "None"
+    },
+    "ENGL": {
+        "description": "Fiber Englyst  (grams)",
+        "unit": "None"
+    },
+    "SOLFB": {
+        "description": "Soluble Dietary Fiber",
+        "unit": "grams"
+    },
+    "PECT": {
+        "description": "Pectin",
+        "unit": "grams"
+    },
+    "INSFB": {
+        "description": "Insoluble Dietary Fiber",
+        "unit": "grams"
+    },
+    "HEMCL": {
+        "description": "Hemicellulose",
+        "unit": "grams"
+    },
+    "CELLU": {
+        "description": "Cellulose",
+        "unit": "grams"
+    },
+    "LIGN": {
+        "description": "Lignin",
+        "unit": "grams"
+    },
+    "CALC": {
+        "description": "Calcium",
+        "unit": "mg"
+    },
+    "IRON": {
+        "description": "Iron",
+        "unit": "mg"
+    },
+    "HEME": {
+        "description": "Heme iron",
+        "unit": "mg"
+    },
+    "MAGN": {
+        "description": "Magnesium",
+        "unit": "mg"
+    },
+    "PH": {
+        "description": "Phosphorus",
+        "unit": "mg"
+    },
+    "K": {
+        "description": "Potassium",
+        "unit": "mg"
+    },
+    "SODIUM": {
+        "description": "Sodium",
+        "unit": "mg"
+    },
+    "ZN": {
+        "description": "Zinc",
+        "unit": "mg"
+    },
+    "CU": {
+        "description": "Copper",
+        "unit": "mg"
+    },
+    "MN": {
+        "description": "Manganese",
+        "unit": "mg"
+    },
+    "IODINE": {
+        "description": "Iodine",
+        "unit": "micrograms"
+    },
+    "SE": {
+        "description": "Selenium",
+        "unit": "micrograms"
+    },
+    "VITC": {
+        "description": "Vitamin C",
+        "unit": "mg"
+    },
+    "B1": {
+        "description": "Vitamin B1",
+        "unit": "mg"
+    },
+    "B2": {
+        "description": "Vitamin B2",
+        "unit": "mg"
+    },
+    "NIACIN": {
+        "description": "Niacin",
+        "unit": "mg"
+    },
+    "PANTO": {
+        "description": "Pantotenic Acid",
+        "unit": "mg"
+    },
+    "B6": {
+        "description": "Vitamina B6",
+        "unit": "Mg"
+    },
+    "GLYB6": {
+        "description": "Glycosylated B6",
+        "unit": "mg"
+    },
+    "FOLATE": {
+        "description": "Folate",
+        "unit": "micrograms"
+    },
+    "B12": {
+        "description": "Vitamin B12",
+        "unit": "micrograms"
+    },
+    "VITK": {
+        "description": "Vitamin K",
+        "unit": "micrograms"
+    },
+    "RETINOL": {
+        "description": "Retinol",
+        "unit": "IU"
+    },
+    "CAROT": {
+        "description": "Carotene",
+        "unit": "IU"
+    },
+    "ACAR": {
+        "description": "Alpha Carotene",
+        "unit": "micrograms"
+    },
+    "BCAR": {
+        "description": "Beta Carotene",
+        "unit": "micrograms"
+    },
+    "BCRYP": {
+        "description": "Beta Cryptoxanthin",
+        "unit": "micrograms"
+    },
+    "LYCO": {
+        "description": "Lycopene",
+        "unit": "micrograms"
+    },
+    "LUT": {
+        "description": "Lutein and Zeaxanthin",
+        "unit": "micrograms"
+    },
+    "VITD": {
+        "description": "Vitamin D",
+        "unit": "IU"
+    },
+    "VITE": {
+        "description": "Vitamin E",
+        "unit": "mg"
+    },
+    "VITEIU": {
+        "description": "Vitamin E",
+        "unit": "IU"
+    },
+    "ATOCO": {
+        "description": "Alpha Tocopherol",
+        "unit": "mg"
+    },
+    "BTOCO": {
+        "description": "Beta Tocopherol",
+        "unit": "mg"
+    },
+    "GTOCO": {
+        "description": "Gamma Tocopherol",
+        "unit": "mg"
+    },
+    "DTOCO": {
+        "description": "Delta Tocopherol",
+        "unit": "mg"
+    },
+    "TTOCO": {
+        "description": "Total Tocopherols",
+        "unit": "mg"
+    },
+    "ATEQ": {
+        "description": "Alpha Tocopherol Equiv",
+        "unit": "MgTE"
+    },
+    "CHOL": {
+        "description": "Cholesterol",
+        "unit": "mg"
+    },
+    "ALCO": {
+        "description": "Alcohol",
+        "unit": "grams"
+    },
+    "CAFF": {
+        "description": "Caffeine",
+        "unit": "mg"
+    },
+    "NITRATE": {
+        "description": "Nitrate",
+        "unit": "mg"
+    },
+    "AFAT": {
+        "description": "Animal fat",
+        "unit": "grams"
+    },
+    "VFAT": {
+        "description": "Vegetable fat",
+        "unit": "grams"
+    },
+    "TFATAV": {
+        "description": "Total Fat = Afat + Vfat",
+        "unit": "grams"
+    },
+    "SATFAT": {
+        "description": "Saturated fat",
+        "unit": "grams"
+    },
+    "MONFAT": {
+        "description": "Monounsaturated fat",
+        "unit": "grams"
+    },
+    "POLY": {
+        "description": "Polyunsaturated fat",
+        "unit": "grams"
+    },
+    "F40": {
+        "description": "Fatty acid 4.0",
+        "unit": "grams"
+    },
+    "F60": {
+        "description": "Fatty acid 6.0",
+        "unit": "grams"
+    },
+    "F80": {
+        "description": "Fatty acid 8.0",
+        "unit": "grams"
+    },
+    "F100": {
+        "description": "Fatty acid 10.0",
+        "unit": "grams"
+    },
+    "F120": {
+        "description": "Fatty acid 12.0",
+        "unit": "grams"
+    },
+    "F12091": {
+        "description": "Fatty acid Lauric",
+        "unit": "grams"
+    },
+    "F140": {
+        "description": "Fatty acid 14.0",
+        "unit": "grams"
+    },
+    "F14091": {
+        "description": "Fatty acid Myristic",
+        "unit": "grams"
+    },
+    "F160": {
+        "description": "Fatty acid 16.0",
+        "unit": "grams"
+    },
+    "F16091": {
+        "description": "Fatty acid Palmitic",
+        "unit": "grams"
+    },
+    "F180": {
+        "description": "Fatty acid 18.0",
+        "unit": "grams"
+    },
+    "F18091": {
+        "description": "Fatty acid Stearic",
+        "unit": "grams"
+    },
+    "F161": {
+        "description": "Fatty acid 16.1",
+        "unit": "grams"
+    },
+    "F16T191": {
+        "description": "Fatty acid Trans 16.1",
+        "unit": "grams"
+    },
+    "F181": {
+        "description": "Oleic acid",
+        "unit": "grams"
+    },
+    "CIS18191": {
+        "description": "Fatty acid Cis 18.1",
+        "unit": "grams"
+    },
+    "TR18191": {
+        "description": "Fatty acid Trans 18.1",
+        "unit": "grams"
+    },
+    "F201": {
+        "description": "Fatty acid 20.1",
+        "unit": "grams"
+    },
+    "F221": {
+        "description": "Fatty acid 22.1",
+        "unit": "grams"
+    },
+    "F182": {
+        "description": "Linolenic acid",
+        "unit": "grams"
+    },
+    "CIS18291": {
+        "description": "Fatty acid Cis 18.2",
+        "unit": "grams"
+    },
+    "TR18291": {
+        "description": "Fatty acid Trans 18.2",
+        "unit": "grams"
+    },
+    "CT18291": {
+        "description": "Fatty acid Cis 18.2",
+        "unit": "grams"
+    },
+    "F183": {
+        "description": "Fatty acid 18.3",
+        "unit": "grams"
+    },
+    "F18391": {
+        "description": "Fatty acid Linolenic",
+        "unit": "grams"
+    },
+    "F184": {
+        "description": "Fatty acid 18.4",
+        "unit": "grams"
+    },
+    "F204": {
+        "description": "Fatty acid 20.4",
+        "unit": "grams"
+    },
+    "F20491": {
+        "description": "Fatty acid Arachadonic",
+        "unit": "grams"
+    },
+    "F205": {
+        "description": "Fatty acid 20.5",
+        "unit": "grams"
+    },
+    "F20591": {
+        "description": "Fatty acid EPA",
+        "unit": "grams"
+    },
+    "F225": {
+        "description": "Fatty acid 22.5",
+        "unit": "grams"
+    },
+    "F226": {
+        "description": "Fatty acid 22.6",
+        "unit": "grams"
+    },
+    "F22691": {
+        "description": "Fatty acid DHA",
+        "unit": "grams"
+    },
+    "NOCLA": {
+        "description": "nocla",
+        "unit": "None"
+    },
+    "TFATSMP": {
+        "description": "Total Fatsatfat+monosat+poly",
+        "unit": "grams"
+    },
+    "INSP": {
+        "description": "Break INSP-HARVARD",
+        "unit": "None"
+    },
+    "McCarthy_V": {
+        "description": "Indice Verbal (48 month), original name ‘V’",
+        "unit": "None"
+    },
+    "McCarthy_P": {
+        "description": "Indice ejecución perceptual(48 month), original name ‘P’",
+        "unit": "None"
+    },
+    "McCarthy_C": {
+        "description": "Indice Cuantitativo(48 month), original name ‘C’",
+        "unit": "None"
+    },
+    "McCarthy_VPC": {
+        "description": "Indice escalar, cognitivo general, original name ‘VPC’",
+        "unit": "None"
+    },
+    "McCarthy_MEM": {
+        "description": "Indice Momoria (48 month), original name ‘MEM’",
+        "unit": "None"
+    },
+    "McCarthy_MOT": {
+        "description": "Indice Motora (48 month), original name ‘MOT’",
+        "unit": "None"
+    },
+    "B_5": {
+        "description": "Positive Affect",
+        "unit": "None"
+    },
+    "B_9": {
+        "description": "Energy",
+        "unit": "None"
+    },
+    "B_11": {
+        "description": "Interes in Test Material and Stimuli",
+        "unit": "None"
+    },
+    "B_12": {
+        "description": "Initiative with Tasks",
+        "unit": "None"
+    },
+    "B_13": {
+        "description": "Exploration of Objects and/or Surroundings",
+        "unit": "None"
+    },
+    "B_16": {
+        "description": "Enthusiasm Toward Tasks",
+        "unit": "None"
+    },
+    "B_17": {
+        "description": "Fearfulness",
+        "unit": "None"
+    },
+    "B_19": {
+        "description": "Orientation to Examiner",
+        "unit": "None"
+    },
+    "B_20": {
+        "description": "Social Engagement",
+        "unit": "None"
+    },
+    "TOTAL_B": {
+        "description": "Total Orientation/Engagement Factor",
+        "unit": "None"
+    },
+    "B1_6": {
+        "description": "Negative Affect",
+        "unit": "None"
+    },
+    "B1_8": {
+        "description": "Hypersensitivity to Test Materials",
+        "unit": "None"
+    },
+    "B1_10": {
+        "description": "Adaptation to Chace in Test Materials",
+        "unit": "None"
+    },
+    "B1_14": {
+        "description": "Attention to Tasks",
+        "unit": "None"
+    },
+    "B1_15": {
+        "description": "Persistence in Attempting to Complete Tasks",
+        "unit": "None"
+    },
+    "B1_18": {
+        "description": "Frustration with Inability to Complete Tasks",
+        "unit": "None"
+    },
+    "B1_19": {
+        "description": "Orrientation to Examiner",
+        "unit": "None"
+    },
+    "B1_21": {
+        "description": "Cooperation",
+        "unit": "None"
+    },
+    "B1_29": {
+        "description": "Freneic Movement",
+        "unit": "None"
+    },
+    "B1_30": {
+        "description": "Hyperactivity",
+        "unit": "None"
+    },
+    "TOTAL_B1": {
+        "description": "Total Emotional/Regulation Factor",
+        "unit": "None"
+    },
+    "B2_22": {
+        "description": "Gross-Motor Movement Requiered by Tasks",
+        "unit": "None"
+    },
+    "B2_23": {
+        "description": "Fine-Motor Movement Requiered by Tasks",
+        "unit": "None"
+    },
+    "B2_24": {
+        "description": "Control of Movement",
+        "unit": "None"
+    },
+    "B2_25": {
+        "description": "Hypotonicuty",
+        "unit": "None"
+    },
+    "B2_26": {
+        "description": "Hypotonicuty",
+        "unit": "None"
+    },
+    "B2_27": {
+        "description": "Tremulousness",
+        "unit": "None"
+    },
+    "B2_28": {
+        "description": "Slow and Delayed Movement",
+        "unit": "None"
+    },
+    "B2_29": {
+        "description": "Freneic Movement",
+        "unit": "None"
+    },
+    "TOTAL_B2": {
+        "description": "Total Motor Quality Factor",
+        "unit": "None"
+    },
+    "B3_7": {
+        "description": "Soothability When Upset",
+        "unit": "None"
+    },
+    "TOTAL_A": {
+        "description": "Total Aditional Items",
+        "unit": "None"
+    },
+    "TOTAL_S": {
+        "description": "Total Raw Score",
+        "unit": "None"
+    },
+    "COHORTE": {
+        "description": "cohorte",
+        "unit": "None"
+    },
+    "LEU_N": {
+        "description": "leucositos 12 y 24 meses",
+        "unit": "None"
+    },
+    "LINF_N": {
+        "description": "lifositos a los 12 y 24 meses",
+        "unit": "None"
+    },
+    "MCV_N": {
+        "description": "Volumen corpuscular medio 12 y  24 meses",
+        "unit": "None"
+    },
+    "HCM_N": {
+        "description": "Hemoglobina copuscular 12 y 24 meses",
+        "unit": "None"
+    },
+    "CIMAM": {
+        "description": "Coef. Inte. de la mama",
+        "unit": "None"
+    },
+    "HEMOLISI": {
+        "description": "Hemolisis de muestra en zinc",
+        "unit": "None"
+    },
+    "LOST": {
+        "description": "Lost children",
+        "unit": "None"
+    },
+    "OBS_LOST": {
+        "description": "Lost children (why)",
+        "unit": "None"
+    },
+    "PSICOLOGA": {
+        "description": "psicologa",
+        "unit": "None"
+    },
+    "STAGE": {
+        "description": "stage",
+        "unit": "None"
+    },
+    "ENTREV": {
+        "description": "Code of interviewer",
+        "unit": "None"
+    },
+    "DATE_AGE": {
+        "description": "date_age",
+        "unit": "None"
+    },
+    "CFECHA": {
+        "description": "Date of admin. of questionnaire",
+        "unit": "None"
+    },
+    "EDADCH": {
+        "description": "Child's age (months)",
+        "unit": "months"
+    },
+    "V726A": {
+        "description": "Control variable, mental scale",
+        "unit": "None"
+    },
+    "V726B": {
+        "description": "Control variable, motor scale",
+        "unit": "None"
+    },
+    "V726C": {
+        "description": "Control variable, total raw score",
+        "unit": "None"
+    },
+    "V935": {
+        "description": "How long working in that place (mos)?",
+        "unit": "months"
+    },
+    "PSIC_BAYLEY": {
+        "description": "Code of person who scored Bailey",
+        "unit": "None"
+    },
+    "FECHAA": {
+        "description": "fechaa",
+        "unit": "None"
+    },
+    "OBSERV": {
+        "description": "Observations",
+        "unit": "None"
+    },
+    "VALID": {
+        "description": "valid",
+        "unit": "None"
+    },
+    "MESC": {
+        "description": "mesc",
+        "unit": "None"
+    },
+    "MCARTH": {
+        "description": "Code of person who scored MCARTHUR",
+        "unit": "None"
+    },
+    "ITEMSR": {
+        "description": "Additional subjects",
+        "unit": "None"
+    },
+    "TOTALR": {
+        "description": "Total raw score",
+        "unit": "None"
+    },
+    "TOTALP": {
+        "description": "Total percentile score",
+        "unit": "None"
+    },
+    "TOTALC": {
+        "description": "Total classification",
+        "unit": "None"
+    },
+    "ORIENT5": {
+        "description": "Orient/Engage 5 Positive Affect 24mts",
+        "unit": "None"
+    },
+    "ORIENT9": {
+        "description": "Orient/Engage 9 Energy 24mts",
+        "unit": "None"
+    },
+    "ORIENT11": {
+        "description": "Orient/Engage 11 Interest in Materials/Stimuli",
+        "unit": "None"
+    },
+    "ORIENT12": {
+        "description": "Orient/Engage 12 Initiative w/ Tasks 24mts",
+        "unit": "None"
+    },
+    "ORIENT13": {
+        "description": "Orient/Engage 13 Exploration Objects/Surr",
+        "unit": "None"
+    },
+    "ORIENT16": {
+        "description": "Orient/Engage 16 Enthusiasm Toward Tasks 24mts",
+        "unit": "None"
+    },
+    "ORIENT17": {
+        "description": "Orient/Engage 17 Fearfulness 24mts",
+        "unit": "None"
+    },
+    "ORIENT19": {
+        "description": "Orient/Engage 19 Orientation to Examiner 24mts",
+        "unit": "None"
+    },
+    "ORIENT20": {
+        "description": "orient20",
+        "unit": "None"
+    },
+    "EMOT6": {
+        "description": "Emot/Reg 6 Negative Affect 24mts",
+        "unit": "None"
+    },
+    "EMOT8": {
+        "description": "Emot/Reg 8 Hypersensitivity Test Mat. 24mts",
+        "unit": "None"
+    },
+    "EMOT10": {
+        "description": "Emot/Reg 10 Adaptation to Change 24mts",
+        "unit": "None"
+    },
+    "EMOT14": {
+        "description": "Emot/Reg 14 Attention to Tasks 24mts",
+        "unit": "None"
+    },
+    "EMOT15": {
+        "description": "Emot/Reg 15 Persistence Completing Tasks 24mts",
+        "unit": "None"
+    },
+    "EMOT18": {
+        "description": "Emot/Reg 18 Frustration Not Able Complete Tasks 24mts",
+        "unit": "None"
+    },
+    "EMOT19": {
+        "description": "Emot/Reg 19 Orientation to Examiner 24mts",
+        "unit": "None"
+    },
+    "EMOT21": {
+        "description": "Emot/Reg 21 Cooperation 24mts",
+        "unit": "None"
+    },
+    "EMOT29": {
+        "description": "Emot/Reg 29 Frenetic Movement 24mts",
+        "unit": "None"
+    },
+    "EMOT30": {
+        "description": "Emot/Reg 30 Hyperactivity 24mts",
+        "unit": "None"
+    },
+    "MOTOR22": {
+        "description": "Motor 22 Gross-Mtr Movement Req. for Tasks 24mts",
+        "unit": "None"
+    },
+    "MOTOR23": {
+        "description": "Motor 23 Fine-Mtr Movement Req. for Tasks 24mts",
+        "unit": "None"
+    },
+    "MOTOR24": {
+        "description": "Motor 24 Control of Movement 24mts",
+        "unit": "None"
+    },
+    "MOTOR25": {
+        "description": "Motor 25 Hypotonicity 24mts",
+        "unit": "None"
+    },
+    "MOTOR26": {
+        "description": "Motor 26 Hypertonicity 24mts",
+        "unit": "None"
+    },
+    "MOTOR27": {
+        "description": "Motor 27 Tremulousness 24mts",
+        "unit": "None"
+    },
+    "MOTOR28": {
+        "description": "Motor 28 Slow/Delayed Movement 24mts",
+        "unit": "None"
+    },
+    "MOTOR29": {
+        "description": "Motor 29 Frenetic Movement 24mts",
+        "unit": "None"
+    },
+    "ADDIT7": {
+        "description": "Additional 7 Soothability When Upset 24mts",
+        "unit": "None"
+    },
+    "TOTALADDIT": {
+        "description": "Total Additive Items (only one) 24mts",
+        "unit": "None"
+    },
+    "TOTALORIENT": {
+        "description": "Total Orientation/Engagement Score 24mts",
+        "unit": "None"
+    },
+    "TOTALEMOT": {
+        "description": "Total Emotional Score 24mts",
+        "unit": "None"
+    },
+    "TOTALMOTOR": {
+        "description": "Total Motor Score 24mts",
+        "unit": "None"
+    },
+    "TOTALS": {
+        "description": "Total Score of Emot/Motor/Addit Scores 24mts",
+        "unit": "None"
+    },
+    "TOTALADDIT24_NOMISS": {
+        "description": "totaladdit24_nomiss",
+        "unit": "None"
+    },
+    "TOTALORIENT24_NOMISS": {
+        "description": "totalorient24_nomiss",
+        "unit": "None"
+    },
+    "TOTALEMOT24_NOMISS": {
+        "description": "totalemot24_nomiss",
+        "unit": "None"
+    },
+    "TOTALMOTOR24_NOMISS": {
+        "description": "totalmotor24_nomiss",
+        "unit": "None"
+    },
+    "TOTALS24_NOMISS": {
+        "description": "totals24_nomiss",
+        "unit": "None"
+    },
+    "WAIS1": {
+        "description": "wais1",
+        "unit": "None"
+    },
+    "WAIS1_2": {
+        "description": "wais1_2",
+        "unit": "None"
+    },
+    "WAIS2": {
+        "description": "Was WAIS test admin. (to mother) (2)?",
+        "unit": "None"
+    },
+    "WAISVER2": {
+        "description": "Verbal score (2)",
+        "unit": "None"
+    },
+    "WAISVE_2": {
+        "description": "Verbal score confidence interval (2)",
+        "unit": "None"
+    },
+    "WAISEJE2": {
+        "description": "Attention score (2)",
+        "unit": "None"
+    },
+    "WAISEJ_2": {
+        "description": "Attention score CI (2)",
+        "unit": "None"
+    },
+    "WAISTOT2": {
+        "description": "Total score (2)",
+        "unit": "None"
+    },
+    "WAISTO_2": {
+        "description": "Total score confidence interval (2)",
+        "unit": "None"
+    },
+    "WAIS_CA2": {
+        "description": "Code of person who scored WAIS test",
+        "unit": "None"
+    },
+    "DATE_AGE1": {
+        "description": "date_age1",
+        "unit": "None"
+    },
+    "X_MERGE": {
+        "description": "None",
+        "unit": "None"
+    },
+    "FECHANAC": {
+        "description": "Child's date of birth",
+        "unit": "MMDDYY10."
+    }
+}

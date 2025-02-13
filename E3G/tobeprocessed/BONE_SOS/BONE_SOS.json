@@ -1,0 +1,90 @@
+{
+    "proyecto": {
+        "description": "Historical Project",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "Historical Folio",
+        "unit": "None"
+    },
+    "id": {
+        "description": "Patient Identifier",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Participant's folio",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "Visit date",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "Participant (f0 =mother)",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "Project MLM-BONE",
+        "unit": "None"
+    },
+    "fechadenacimiento": {
+        "description": "Study Date",
+        "unit": "Date day/month/year"
+    },
+    "visita": {
+        "description": "Measurement day",
+        "unit": "Date day/month/year"
+    },
+    "sosradio": {
+        "description": "1st radio sonometry capture",
+        "unit": "m/s"
+    },
+    "sosradio_revision": {
+        "description": "2nd radio sonometry capture",
+        "unit": "m/s"
+    },
+    "tscoreradio": {
+        "description": "1st radio sonometry t-score capture",
+        "unit": "t-score"
+    },
+    "tscoreradio_revision": {
+        "description": "2nd radio sonometry t-score capture",
+        "unit": "t-score"
+    },
+    "zscoreradio": {
+        "description": "1st capture z-score radio sonometry",
+        "unit": "z-score"
+    },
+    "zscoreradio_revision": {
+        "description": "2nd capture z-score radio sonometry",
+        "unit": "z-score"
+    },
+    "sostibia": {
+        "description": "1st radio sonometry capture",
+        "unit": "m/s"
+    },
+    "sostibia_revision": {
+        "description": "2nd radio sonometry capture",
+        "unit": "m/s"
+    },
+    "tscoretibia": {
+        "description": "1st radio sonometry t-score capture",
+        "unit": "t-score"
+    },
+    "tscoretibia_revision": {
+        "description": "2nd radio sonometry t-score capture",
+        "unit": "t-score"
+    },
+    "zscoretibia": {
+        "description": "1st capture z-score radio sonometry",
+        "unit": "z-score"
+    },
+    "zscoretibia_revision": {
+        "description": "2nd capture z-score radio sonometry",
+        "unit": "z-score"
+    },
+    "observaciones": {
+        "description": "Describe the reasons, in special cases, where some measurement was not carried out",
+        "unit": "Text"
+    }
+}

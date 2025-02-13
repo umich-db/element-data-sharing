@@ -1,0 +1,298 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Participant Foliocc",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "MLM",
+        "unit": "None"
+    },
+    "participante": {
+        "description": "Mother=M",
+        "unit": "None"
+    },
+    "subject": {
+        "description": "CC-0000-R01MB-M",
+        "unit": "None"
+    },
+    "filename": {
+        "description": "None",
+        "unit": "None"
+    },
+    "epoch": {
+        "description": "Time interval in which data is collected. Data is recorded at specific intervals (for example, every 10 minute)",
+        "unit": "None"
+    },
+    "weight__kg_": {
+        "description": "Weight of the individual in kilograms.",
+        "unit": "kg"
+    },
+    "age": {
+        "description": "Age of the individual in years",
+        "unit": "years"
+    },
+    "gender": {
+        "description": "Gender of Individual(Male orfemale).",
+        "unit": "None"
+    },
+    "kcals": {
+        "description": "Calories burned during the recorded period.",
+        "unit": "kcal"
+    },
+    "average_kcals_per_day": {
+        "description": "Average daily calories burned.",
+        "unit": "kcal/day"
+    },
+    "average_kcals_per_hour": {
+        "description": "Average calories burned per hour.",
+        "unit": "kcal/hour"
+    },
+    "mets": {
+        "description": "Metabolic Equivalent of Task (MET), which measures the intensity of physical activity. (1 MET is the energy expenditure at rest)",
+        "unit": "MET"
+    },
+    "freedson__1998__bouts": {
+        "description": "Reference to Freedson 1998 method for categorizing physical activity into bouts or episodes.",
+        "unit": "None"
+    },
+    "total_time_in_freedson__1998__bo": {
+        "description": "Total time in episodes of physical activity according to method Freedson 1998.",
+        "unit": "minutes"
+    },
+    "avg_time_per_freedson__1998__bou": {
+        "description": "Average time per episode of physical activity according to the Freedson 1998 method",
+        "unit": "minutes"
+    },
+    "max_time_per_freedson__1998__bou": {
+        "description": "Maximum time per episode of physical activity according to the Freedson 1998 method.",
+        "unit": "None"
+    },
+    "min_time_per_freedson__1998__bou": {
+        "description": "Minimum time per episode of physical activity according to the Freedson 1998 method.",
+        "unit": "None"
+    },
+    "total_counts_in_freedson__1998__": {
+        "description": "Total movement counts during bouts of physical activity according to the Freedson 1998 method",
+        "unit": "None"
+    },
+    "total_sedentary_bouts": {
+        "description": "Total episodes of sedentary time.",
+        "unit": "None"
+    },
+    "total_time_in_sedentary_bouts": {
+        "description": "Total time in episodes of sedentary time.",
+        "unit": "None"
+    },
+    "average_length_of_sedentary_bout": {
+        "description": "Average length of sedentary time episodes.",
+        "unit": "None"
+    },
+    "maximum_length_of_sedentary_bout": {
+        "description": "Maximum length of sedentary time episodes.",
+        "unit": "None"
+    },
+    "minimum_length_of_sedentary_bout": {
+        "description": "Minimum length of sedentary time episodes.",
+        "unit": "None"
+    },
+    "daily_average_of_sedentary_bouts": {
+        "description": "Daily average of episodes of sedentary time.",
+        "unit": "None"
+    },
+    "total_sedentary_breaks": {
+        "description": "Total interruptions in episodes of sedentary time",
+        "unit": "None"
+    },
+    "total_time_in_sedentary_breaks": {
+        "description": "Total time in interruptions during sedentary time.",
+        "unit": "None"
+    },
+    "average_length_of_sedentary_brea": {
+        "description": "Average length of interruptions in sedentary time.",
+        "unit": "None"
+    },
+    "max_length_of_sedentary_breaks": {
+        "description": "Maximum length of breaks in sedentary time",
+        "unit": "None"
+    },
+    "minimum_length_of_sedentary_brea": {
+        "description": "Minimum length of breaks in sedentary time.",
+        "unit": "None"
+    },
+    "daily_average_of_sedentary_break": {
+        "description": "Average daily interruptions in sedentary time.",
+        "unit": "None"
+    },
+    "sedentary": {
+        "description": "Total time in sedentary state.",
+        "unit": "None"
+    },
+    "light": {
+        "description": "Total time in light activity.",
+        "unit": "None"
+    },
+    "moderate": {
+        "description": "Total time in moderate activity.",
+        "unit": "None"
+    },
+    "vigorous": {
+        "description": "Total time in vigorous activity.",
+        "unit": "None"
+    },
+    "very_vigorous": {
+        "description": "Total time in very vigorous activity.",
+        "unit": "None"
+    },
+    "___in_sedentary": {
+        "description": "Time in a sedentary state during the specified period",
+        "unit": "None"
+    },
+    "___in_light": {
+        "description": "Time in light activity during the specified period.",
+        "unit": "None"
+    },
+    "___in_moderate": {
+        "description": "Time in moderate activity during the specified period.",
+        "unit": "None"
+    },
+    "___in_vigorous": {
+        "description": "Time in vigorous activity during the specified period.",
+        "unit": "None"
+    },
+    "___in_very_vigorous": {
+        "description": "Time spent in very vigorous activity during the specified period",
+        "unit": "None"
+    },
+    "total_mvpa": {
+        "description": "Total time in moderate to vigorous physical activity (MVPA).",
+        "unit": "None"
+    },
+    "___in_mvpa": {
+        "description": "Time spent in moderate to vigorous physical activity during the specified period",
+        "unit": "None"
+    },
+    "average_mvpa_per_day": {
+        "description": "Average daily time spent in moderate to vigorous physical activity.",
+        "unit": "None"
+    },
+    "axis_1_counts": {
+        "description": "Counting of movements in axis 1 of the accelerometer.",
+        "unit": "None"
+    },
+    "axis_2_counts": {
+        "description": "Counting movements in axis 2 of the accelerometer.",
+        "unit": "None"
+    },
+    "axis_3_counts": {
+        "description": "Counting movements in axis 3 of the accelerometer.",
+        "unit": "None"
+    },
+    "axis_1_average_counts": {
+        "description": "Average count on axis 1",
+        "unit": "None"
+    },
+    "axis_2_average_counts": {
+        "description": "Average count on axis 2.",
+        "unit": "None"
+    },
+    "axis_3_average_counts": {
+        "description": "Average count on axis 3.",
+        "unit": "None"
+    },
+    "axis_1_max_counts": {
+        "description": "Maximum count on axis 1.",
+        "unit": "None"
+    },
+    "axis_2_max_counts": {
+        "description": "Maximum count on axis 2.",
+        "unit": "None"
+    },
+    "axis_3_max_counts": {
+        "description": "Maximum count on axis 3.",
+        "unit": "None"
+    },
+    "axis_1_cpm": {
+        "description": "Counts per minute on axis 1.",
+        "unit": "counts/minute"
+    },
+    "axis_2_cpm": {
+        "description": "Counts per minute on axis 2",
+        "unit": "counts/minute"
+    },
+    "axis_3_cpm": {
+        "description": "Counts per minute on axis 3.",
+        "unit": "counts/minute"
+    },
+    "vector_magnitude_counts": {
+        "description": "Counts based on acceleration vector magnitude",
+        "unit": "None"
+    },
+    "vector_magnitude_average_counts": {
+        "description": "Average count based on the magnitude of the acceleration vector",
+        "unit": "None"
+    },
+    "vector_magnitude_max_counts": {
+        "description": "Maximum count based on the magnitude of the acceleration vector",
+        "unit": "None"
+    },
+    "vector_magnitude_cpm": {
+        "description": "Counts per minute based on the magnitude of the acceleration vector",
+        "unit": "None"
+    },
+    "steps_counts": {
+        "description": "Total count of detected steps",
+        "unit": "None"
+    },
+    "steps_average_counts": {
+        "description": "Average step count per minute or hour",
+        "unit": "None"
+    },
+    "steps_max_counts": {
+        "description": "Maximum step count in a period",
+        "unit": "None"
+    },
+    "steps_per_minute": {
+        "description": "Number of steps per minute",
+        "unit": "None"
+    },
+    "lux_average_counts": {
+        "description": "Average lux (illumination) levels during the period",
+        "unit": "None"
+    },
+    "lux_max_counts": {
+        "description": "Maximum registered lux level",
+        "unit": "None"
+    },
+    "number_of_epochs": {
+        "description": "Total number of time intervals in the data set.",
+        "unit": "None"
+    },
+    "time": {
+        "description": "Time",
+        "unit": "None"
+    },
+    "calendar_days": {
+        "description": "Total number of calendar days in the study or measurement period",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    }
+}

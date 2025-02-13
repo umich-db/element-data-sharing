@@ -1,0 +1,178 @@
+{
+    "FOLIOCC": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "stage": {
+        "description": "None",
+        "unit": "None"
+    },
+    "gpoedad": {
+        "description": "None",
+        "unit": "None"
+    },
+    "edad": {
+        "description": "None",
+        "unit": "None"
+    },
+    "clams": {
+        "description": "None",
+        "unit": "None"
+    },
+    "canned_tuna": {
+        "description": "Tuna (canned)",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "tuna": {
+        "description": "Tuna - Fresh (en lonja)",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "codfish": {
+        "description": "None",
+        "unit": "None"
+    },
+    "squid": {
+        "description": "Squid",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "shrimp": {
+        "description": "Shrimp",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "carp": {
+        "description": "Carp",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "schoolshark": {
+        "description": "School shark",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "silverside": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fried_fish": {
+        "description": "None",
+        "unit": "None"
+    },
+    "red_snapper": {
+        "description": "Red snapper",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "crab": {
+        "description": "Crab",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "ray": {
+        "description": "None",
+        "unit": "None"
+    },
+    "mantarraya": {
+        "description": "None",
+        "unit": "None"
+    },
+    "grouper": {
+        "description": "Grouper",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "sunfish": {
+        "description": "Sunfish",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "octopus": {
+        "description": "Octopus",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "seabass": {
+        "description": "Sea bass",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "salmon": {
+        "description": "Salmon",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "sardine": {
+        "description": "Sardines",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "spanish_mackerel": {
+        "description": "Spanish mackerel",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "crab_imitation": {
+        "description": "None",
+        "unit": "None"
+    },
+    "shark": {
+        "description": "Shark",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "nile_tilapia": {
+        "description": "Tilapia o blanco del nilo",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "catfish": {
+        "description": "Basa oriental (Catfish)",
+        "unit": "Frequency of consumption in the last 3 months"
+    },
+    "oysters": {
+        "description": "None",
+        "unit": "None"
+    },
+    "preg_17": {
+        "description": "In the past 3 months, have you eaten some type of fish or seafood?",
+        "unit": "Yes/No"
+    },
+    "preg_19": {
+        "description": "Do you consider the fish consumption reported as typical for the year?",
+        "unit": "Yes/No"
+    },
+    "anchovies": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sea_crab": {
+        "description": "None",
+        "unit": "None"
+    },
+    "lake_crab": {
+        "description": "None",
+        "unit": "None"
+    },
+    "swordfish": {
+        "description": "None",
+        "unit": "None"
+    },
+    "trout": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folioFFQ": {
+        "description": "None",
+        "unit": "None"
+    },
+    "boqueron": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cangrejo": {
+        "description": "None",
+        "unit": "None"
+    },
+    "lisa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "marlin": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sushi": {
+        "description": "None",
+        "unit": "None"
+    }
+}

@@ -43,7 +43,7 @@ def embedding(input_text):
     response = client.embeddings.create(
         input=input_text,
         model=embedding_model,
-        dimensions=128
+        dimensions=64
     )
     return response.data[0].embedding
 
@@ -87,14 +87,18 @@ def main():
             embeddings[word] = embedding(word)
             save_embeddings_to_json(embeddings, json_file) 
     for key, value in embeddings.items():
-        embedding_string = json.dumps(value)
-        cursor.execute('''
-            INSERT OR IGNORE INTO Words_dataset (word, embedding)
-            VALUES (?, ?)
-            ''', (key, embedding_string))
+        if len(value) == 64:  # 确保 embedding 长度正确
+            print(f"Storing embedding for: {key}")
+            cursor.execute(f'''
+                INSERT OR IGNORE INTO Words_dataset (word, {', '.join(f'e{i}' for i in range(64))})
+                VALUES ({', '.join(['?'] * 65)})
+            ''', (key, *value))  # 关键修改点：将 64 维 embedding 展开存入
+        else:
+            print(f"Skipping {key}, invalid embedding length: {len(value)}")
 
     conn.commit()
     conn.close()
+
 
     print(f"Total unique words processed: {len(embeddings)}")
 

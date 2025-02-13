@@ -1,0 +1,126 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "PIN": {
+        "description": "None",
+        "unit": "None"
+    },
+    "stage": {
+        "description": "None",
+        "unit": "None"
+    },
+    "DeviceID": {
+        "description": "None",
+        "unit": "None"
+    },
+    "AssessmentName": {
+        "description": "Instrument Title",
+        "unit": "None"
+    },
+    "InstOrdr": {
+        "description": "None",
+        "unit": "None"
+    },
+    "InstSctn": {
+        "description": "None",
+        "unit": "None"
+    },
+    "ItmOrdr": {
+        "description": "None",
+        "unit": "None"
+    },
+    "Inst": {
+        "description": "Item ID",
+        "unit": "None"
+    },
+    "Locale": {
+        "description": "Stem",
+        "unit": "None"
+    },
+    "ItemID": {
+        "description": "None",
+        "unit": "None"
+    },
+    "Response": {
+        "description": "DataType",
+        "unit": "None"
+    },
+    "Score": {
+        "description": "Responses",
+        "unit": "None"
+    },
+    "Theta": {
+        "description": "None",
+        "unit": "None"
+    },
+    "TScore": {
+        "description": "None",
+        "unit": "None"
+    },
+    "SE": {
+        "description": "None",
+        "unit": "None"
+    },
+    "DataType": {
+        "description": "information",
+        "unit": "None"
+    },
+    "Position": {
+        "description": "None",
+        "unit": "None"
+    },
+    "ResponseTime": {
+        "description": "None",
+        "unit": "None"
+    },
+    "DateCreated": {
+        "description": "None",
+        "unit": "None"
+    },
+    "InstStarted": {
+        "description": "None",
+        "unit": "None"
+    },
+    "InstEnded": {
+        "description": "None",
+        "unit": "None"
+    },
+    "AppVersion": {
+        "description": "None",
+        "unit": "None"
+    },
+    "iPadVersion": {
+        "description": "None",
+        "unit": "None"
+    },
+    "FirmwareVersion": {
+        "description": null,
+        "unit": null
+    }
+}

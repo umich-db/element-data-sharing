@@ -1,0 +1,1158 @@
+{
+    "proyecto": {
+        "description": "Project",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fechadenacimiento": {
+        "description": "Birthdate",
+        "unit": "Date"
+    },
+    "fechadevisita": {
+        "description": "Visit Date",
+        "unit": "Date"
+    },
+    "género": {
+        "description": "Gender",
+        "unit": "Text"
+    },
+    "estatura": {
+        "description": "Stature",
+        "unit": "cm"
+    },
+    "peso": {
+        "description": "Weight",
+        "unit": "kg"
+    },
+    "masa_vat": {
+        "description": "VAT Mass – Estimated Visceral Adipose Tissue",
+        "unit": "g"
+    },
+    "area_vat": {
+        "description": "VAT Area – Estimated Visceral Adipose Tissue",
+        "unit": "cm2"
+    },
+    "volumen_vat": {
+        "description": "Estimated VAT-Visceral Adipose Tissue Volume",
+        "unit": "cm3"
+    },
+    "masa_sat": {
+        "description": "SAT Mass - Estimated Subcutaneous Adipose Tissue",
+        "unit": "g"
+    },
+    "area_sat": {
+        "description": "SAT Area - Estimated Subcutaneous Adipose Tissue",
+        "unit": "cm2"
+    },
+    "volumen_sat": {
+        "description": "SAT Volume – Estimated Subcutaneous Adipose Tissue",
+        "unit": "cm3"
+    },
+    "fat_reg_perc_": {
+        "description": "%Fat Region - Left Arm",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_1": {
+        "description": "Region %Fat - Left Leg",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_2": {
+        "description": "%Fat Region - Left Trunk",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_3": {
+        "description": "Region %Fat - Left Total",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_4": {
+        "description": "Region %Fat - TBLH, left",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_5": {
+        "description": "Region %Fat - Left upper arm",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_6": {
+        "description": "%Fat Region - Lower left arm",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_7": {
+        "description": "%Fat Region - Upper left leg",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_8": {
+        "description": "Region %Fat - Left lower leg",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_9": {
+        "description": "%Fat Region - Right Arm",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_10": {
+        "description": "Region %Fat - Right Leg",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_11": {
+        "description": "%Fat Region - Right Trunk",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_12": {
+        "description": "Region %Fat - Total Right",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_13": {
+        "description": "Region %Fat - TBLH, right",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_14": {
+        "description": "Region %Fat - Right upper arm",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_15": {
+        "description": "%Fat Region - Lower right arm",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_16": {
+        "description": "%Fat Region - Upper right leg",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_17": {
+        "description": "%Fat Region - Lower right leg",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_18": {
+        "description": "Region %Fat - Arms",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_19": {
+        "description": "Region %Fat - Legs",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_20": {
+        "description": "Region %Fat - Trunk",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_21": {
+        "description": "Region%Fat-Android(area between ribs and pelvis)",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_22": {
+        "description": "Region %Fat-Gynoid region (hips and upper thighs)",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_23": {
+        "description": "Region %Fat - Total",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_24": {
+        "description": "Region %Fat- TBLH (total body minus head)",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_25": {
+        "description": "Region %Fat - Arms Diff",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_26": {
+        "description": "Region %Fat - Legs Diff",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_27": {
+        "description": "Region%Fat- Trunk Di(cid:299)",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_28": {
+        "description": "Region %Fat - Diff upper part of arms",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_29": {
+        "description": "Region %Fat - Diff lower part of arms",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_30": {
+        "description": "Region %Fat - Diff upper part of legs",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_31": {
+        "description": "Region %Fat - Diff lower part of legs",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_32": {
+        "description": "Region% Fat - Total Di(cid:299)",
+        "unit": "Percentage"
+    },
+    "fat_reg_perc_33": {
+        "description": "Region %Fat - TBLH, dif",
+        "unit": "Percentage"
+    },
+    "fat_tissue": {
+        "description": "%Fat Tissue - Left Arm",
+        "unit": "Percentage"
+    },
+    "fat_tissue1": {
+        "description": "%Fat Tissue - Left Leg",
+        "unit": "Percentage"
+    },
+    "fat_tissue2": {
+        "description": "Tissue %Fat - Left Trunk",
+        "unit": "Percentage"
+    },
+    "fat_tissue3": {
+        "description": "Tissue %Fat - Left Total",
+        "unit": "Percentage"
+    },
+    "fat_tissue4": {
+        "description": "Tissue %Fat - TBLH, left",
+        "unit": "Percentage"
+    },
+    "fat_tissue5": {
+        "description": "%Fat Tissue - Left upper arm",
+        "unit": "Percentage"
+    },
+    "fat_tissue6": {
+        "description": "%Fat Tissue - Lower part of the left arm",
+        "unit": "Percentage"
+    },
+    "fat_tissue7": {
+        "description": "%Fat Tissue - Upper left leg",
+        "unit": "Percentage"
+    },
+    "fat_tissue8": {
+        "description": "%Fat Tissue - Lower left leg",
+        "unit": "Percentage"
+    },
+    "fat_tissue9": {
+        "description": "%Fat Tissue - Right Arm",
+        "unit": "Percentage"
+    },
+    "fat_tissue10": {
+        "description": "%Fat Tissue - Right Leg",
+        "unit": "Percentage"
+    },
+    "fat_tissue11": {
+        "description": "Tissue %Fat - Right Trunk",
+        "unit": "Percentage"
+    },
+    "fat_tissue12": {
+        "description": "Tissue %Fat - Total Right",
+        "unit": "Percentage"
+    },
+    "fat_tissue13": {
+        "description": "Tissue %Fat - TBLH, right",
+        "unit": "Percentage"
+    },
+    "fat_tissue14": {
+        "description": "%Fat Tissue - Right upper arm",
+        "unit": "Percentage"
+    },
+    "fat_tissue15": {
+        "description": "%Fat Tissue - Lower right arm",
+        "unit": "Percentage"
+    },
+    "fat_tissue16": {
+        "description": "%Fat Tissue- Upper right leg",
+        "unit": "Percentage"
+    },
+    "fat_tissue17": {
+        "description": "%Fat Tissue - Lower right leg",
+        "unit": "Percentage"
+    },
+    "fat_tissue18": {
+        "description": "%Fat Tissue - Arms",
+        "unit": "Percentage"
+    },
+    "fat_tissue19": {
+        "description": "%Fat Tissue - Legs",
+        "unit": "Percentage"
+    },
+    "fat_tissue20": {
+        "description": "Tissue %Fat - Trunk",
+        "unit": "Percentage"
+    },
+    "fat_tissue21": {
+        "description": "Tissue %Fat - Android (area between ribs and pelvis)",
+        "unit": "Percentage"
+    },
+    "fat_tissue22": {
+        "description": "Tissue %Fat - Gynoid (hips and upper thighs)",
+        "unit": "Percentage"
+    },
+    "fat_tissue23": {
+        "description": "Tissue %Fat - Total",
+        "unit": "Percentage"
+    },
+    "fat_tissue24": {
+        "description": "Tissue %Fat - TBLH (total body minus head)",
+        "unit": "Percentage"
+    },
+    "fat_tissue25": {
+        "description": "Tissue %Fat - Arms Diff",
+        "unit": "Percentage"
+    },
+    "fat_tissue26": {
+        "description": "Tissue %Fat - Legs Diff",
+        "unit": "Percentage"
+    },
+    "fat_tissue27": {
+        "description": "Tissue %Fat - Trunk Diff",
+        "unit": "Percentage"
+    },
+    "fat_tissue28": {
+        "description": "Tissue %Fat - Diff upper part of arms",
+        "unit": "Percentage"
+    },
+    "fat_tissue29": {
+        "description": "Tissue%Fat- Diff lower part of arms",
+        "unit": "Percentage"
+    },
+    "fat_tissue30": {
+        "description": "Tissue %Fat- Dif part upper legs",
+        "unit": "Percentage"
+    },
+    "fat_tissue31": {
+        "description": "Tissue %Fat - Diff lower part legs",
+        "unit": "Percentage"
+    },
+    "fat_tissue32": {
+        "description": "Tissue %Fat - Total Di(cid:299)",
+        "unit": "Percentage"
+    },
+    "fat_tissue33": {
+        "description": "Tissue%Fat - TBLH, dif",
+        "unit": "Percentage"
+    },
+    "fat_mass": {
+        "description": "Fat Mass - Left Arm",
+        "unit": "g"
+    },
+    "fat_mass1": {
+        "description": "Fat Mass - Left Leg",
+        "unit": "g"
+    },
+    "fat_mass2": {
+        "description": "Fat mass - Left Trunk",
+        "unit": "g"
+    },
+    "fat_mass3": {
+        "description": "Fat Mass - Left Total",
+        "unit": "g"
+    },
+    "fat_mass4": {
+        "description": "Fat mass - TBLH, left",
+        "unit": "g"
+    },
+    "fat_mass5": {
+        "description": "Fat mass - Left upper arm",
+        "unit": "g"
+    },
+    "fat_mass6": {
+        "description": "Fat mass - Lower left arm",
+        "unit": "g"
+    },
+    "fat_mass7": {
+        "description": "Fat mass - Upper left leg",
+        "unit": "g"
+    },
+    "fat_mass8": {
+        "description": "Fat mass - Left lower leg",
+        "unit": "g"
+    },
+    "fat_mass9": {
+        "description": "Fat Mass - Right Arm",
+        "unit": "g"
+    },
+    "fat_mass10": {
+        "description": "Fat Mass - Right Leg",
+        "unit": "g"
+    },
+    "fat_mass11": {
+        "description": "Fat Mass - Right Trunk",
+        "unit": "g"
+    },
+    "fat_mass12": {
+        "description": "Fat Mass - Total Right",
+        "unit": "g"
+    },
+    "fat_mass13": {
+        "description": "Fat mass - TBLH, right",
+        "unit": "g"
+    },
+    "fat_mass14": {
+        "description": "Fat mass - Right upper arm",
+        "unit": "g"
+    },
+    "fat_mass15": {
+        "description": "Fat Mass - Lower Right Arm",
+        "unit": "g"
+    },
+    "fat_mass16": {
+        "description": "Fat Mass - Right Upper Leg",
+        "unit": "g"
+    },
+    "fat_mass17": {
+        "description": "Fat Mass - Right Lower Leg",
+        "unit": "g"
+    },
+    "fat_mass18": {
+        "description": "Fat Mass - Arms",
+        "unit": "g"
+    },
+    "fat_mass19": {
+        "description": "Fat Mass - Legs",
+        "unit": "g"
+    },
+    "fat_mass20": {
+        "description": "Fat Mass - Trunk",
+        "unit": "g"
+    },
+    "fat_mass21": {
+        "description": "Fat Mass - Android",
+        "unit": "g"
+    },
+    "fat_mass22": {
+        "description": "Fat Mass - Gynoid",
+        "unit": "g"
+    },
+    "fat_mass23": {
+        "description": "Fat Mass - Total",
+        "unit": "g"
+    },
+    "fat_mass24": {
+        "description": "Fat Mass - TBLH (total body minus head)",
+        "unit": "g"
+    },
+    "fat_mass25": {
+        "description": "Fat Mass - Arms Diff",
+        "unit": "g"
+    },
+    "fat_mass26": {
+        "description": "Fat Mass - Legs Diff",
+        "unit": "g"
+    },
+    "fat_mass27": {
+        "description": "Fat Mass - Trunk Diff",
+        "unit": "g"
+    },
+    "fat_mass28": {
+        "description": "Fat Mass - Diff part of upper arms",
+        "unit": "g"
+    },
+    "fat_mass29": {
+        "description": "Fat Mass - Diff lower part of arms",
+        "unit": "g"
+    },
+    "fat_mass30": {
+        "description": "Fat Mass - Diff part upper legs",
+        "unit": "g"
+    },
+    "fat_mass31": {
+        "description": "Fat Mass - Diff lower part legs",
+        "unit": "g"
+    },
+    "fat_mass32": {
+        "description": "Fat Mass - Total Diff",
+        "unit": "g"
+    },
+    "fat_mass33": {
+        "description": "Fat Mass - TBLH, diff",
+        "unit": "g"
+    },
+    "lean_mass": {
+        "description": "Lean Mass - Left Arm",
+        "unit": "g"
+    },
+    "lean_mass1": {
+        "description": "Lean Mass - Left Leg",
+        "unit": "g"
+    },
+    "lean_mass2": {
+        "description": "Lean Mass - Left Trunk",
+        "unit": "g"
+    },
+    "lean_mass3": {
+        "description": "Lean Mass - Left Total",
+        "unit": "g"
+    },
+    "lean_mass4": {
+        "description": "Lean mass - TBLH, left",
+        "unit": "g"
+    },
+    "lean_mass5": {
+        "description": "Lean Mass - Left Upper Arm",
+        "unit": "g"
+    },
+    "lean_mass6": {
+        "description": "Lean Mass - Left Lower Arm",
+        "unit": "g"
+    },
+    "lean_mass7": {
+        "description": "Lean Mass - Left Upper Leg",
+        "unit": "g"
+    },
+    "lean_mass8": {
+        "description": "Lean Mass - Left Lower Leg",
+        "unit": "g"
+    },
+    "lean_mass9": {
+        "description": "Lean Mass - Right Arm",
+        "unit": "g"
+    },
+    "lean_mass10": {
+        "description": "Lean Mass - Right Leg",
+        "unit": "g"
+    },
+    "lean_mass11": {
+        "description": "Lean Mass - Right Trunk",
+        "unit": "g"
+    },
+    "lean_mass12": {
+        "description": "Lean Mass - Total Right",
+        "unit": "g"
+    },
+    "lean_mass13": {
+        "description": "Lean mass - TBLH, right",
+        "unit": "g"
+    },
+    "lean_mass14": {
+        "description": "Lean Mass - Right Upper Arm",
+        "unit": "g"
+    },
+    "lean_mass15": {
+        "description": "Lean Mass - Right Lower Arm",
+        "unit": "g"
+    },
+    "lean_mass16": {
+        "description": "Lean Mass - Right Upper Leg",
+        "unit": "g"
+    },
+    "lean_mass17": {
+        "description": "Lean Mass - Right Lower Leg",
+        "unit": "g"
+    },
+    "lean_mass18": {
+        "description": "Lean mass - Arms",
+        "unit": "g"
+    },
+    "lean_mass19": {
+        "description": "Lean mass - Legs",
+        "unit": "g"
+    },
+    "lean_mass20": {
+        "description": "Lean mass - Trunk",
+        "unit": "g"
+    },
+    "lean_mass21": {
+        "description": "Lean Mass - Android",
+        "unit": "g"
+    },
+    "lean_mass22": {
+        "description": "Lean mass - Gynoid",
+        "unit": "g"
+    },
+    "lean_mass23": {
+        "description": "Lean mass - Total",
+        "unit": "g"
+    },
+    "lean_mass24": {
+        "description": "Lean mass - TBLH (total body minus head)",
+        "unit": "g"
+    },
+    "lean_mass25": {
+        "description": "Lean mass - Arms Di(cid:299)",
+        "unit": "g"
+    },
+    "lean_mass26": {
+        "description": "Lean mass - Legs Di(cid:299)",
+        "unit": "g"
+    },
+    "lean_mass27": {
+        "description": "Lean mass- Trunk Di(cid:299)",
+        "unit": "g"
+    },
+    "lean_mass28": {
+        "description": "Lean mass - Diff upper part of arms",
+        "unit": "g"
+    },
+    "lean_mass29": {
+        "description": "Lean mass - Diff lower part of arms",
+        "unit": "g"
+    },
+    "lean_mass30": {
+        "description": "Lean mass - Dif upper part of legs",
+        "unit": "g"
+    },
+    "lean_mass31": {
+        "description": "Lean mass - Diff lower part of legs",
+        "unit": "g"
+    },
+    "lean_mass32": {
+        "description": "Lean mass - Total Di(cid:299)",
+        "unit": "g"
+    },
+    "lean_mass33": {
+        "description": "Lean mass- TBLH, dif",
+        "unit": "g"
+    },
+    "tisular_mass": {
+        "description": "Tissue mass - Left Arm",
+        "unit": "g"
+    },
+    "tisular_mass1": {
+        "description": "Tissue mass - Left Leg",
+        "unit": "g"
+    },
+    "tisular_mass2": {
+        "description": "Tissue mass - Left Trunk",
+        "unit": "g"
+    },
+    "tisular_mass3": {
+        "description": "Tissue mass - Left Total",
+        "unit": "g"
+    },
+    "tisular_mass4": {
+        "description": "Tissue mass - TBLH, izq",
+        "unit": "g"
+    },
+    "tisular_mass5": {
+        "description": "Tissue mass - Left upper arm",
+        "unit": "g"
+    },
+    "tisular_mass6": {
+        "description": "Tissue mass - Lower left arm",
+        "unit": "g"
+    },
+    "tisular_mass7": {
+        "description": "Tissue mass - Upper left leg",
+        "unit": "g"
+    },
+    "tisular_mass8": {
+        "description": "Tissue mass - Left lower leg",
+        "unit": "g"
+    },
+    "tisular_mass9": {
+        "description": "Tissue mass - Right Arm",
+        "unit": "g"
+    },
+    "tisular_mass10": {
+        "description": "Tissue mass - Right Leg",
+        "unit": "g"
+    },
+    "tisular_mass11": {
+        "description": "Tissue mass - Right Trunk",
+        "unit": "g"
+    },
+    "tisular_mass12": {
+        "description": "Tissue mass - Total Right",
+        "unit": "g"
+    },
+    "tisular_mass13": {
+        "description": "Tissue mass - TBLH, right",
+        "unit": "g"
+    },
+    "tisular_mass14": {
+        "description": "Tissue mass - Right upper arm",
+        "unit": "g"
+    },
+    "tisular_mass15": {
+        "description": "Tissue mass - Lower right arm",
+        "unit": "g"
+    },
+    "tisular_mass16": {
+        "description": "Tissue mass - Right upper leg",
+        "unit": "g"
+    },
+    "tisular_mass17": {
+        "description": "Tissue mass - Right lower leg",
+        "unit": "g"
+    },
+    "tisular_mass18": {
+        "description": "Tissue mass - Arms",
+        "unit": "g"
+    },
+    "tisular_mass19": {
+        "description": "Tissue mass - Legs",
+        "unit": "g"
+    },
+    "tisular_mass20": {
+        "description": "Tissue mass - Trunk",
+        "unit": "g"
+    },
+    "tisular_mass21": {
+        "description": "Tissue mass - Android",
+        "unit": "g"
+    },
+    "tisular_mass22": {
+        "description": "Tissue mass - Gynoid",
+        "unit": "g"
+    },
+    "tisular_mass23": {
+        "description": "Tissue mass - Total",
+        "unit": "g"
+    },
+    "tisular_mass24": {
+        "description": "Tissue mass - TBLH (total body minus head)",
+        "unit": "g"
+    },
+    "tisular_mass25": {
+        "description": "Tissue mass - Arms Diff",
+        "unit": "g"
+    },
+    "tisular_mass26": {
+        "description": "Tissue mass - Legs Diff",
+        "unit": "g"
+    },
+    "tisular_mass27": {
+        "description": "Tissue mass - Trunk Di(cid:299)",
+        "unit": "g"
+    },
+    "tisular_mass28": {
+        "description": "Tissue mass - Dif part of upper arms",
+        "unit": "g"
+    },
+    "tisular_mass29": {
+        "description": "Tissue mass - Diff lower part of arms",
+        "unit": "g"
+    },
+    "tisular_mass30": {
+        "description": "Tissue mass - Diff upper part of legs",
+        "unit": "g"
+    },
+    "tisular_mass31": {
+        "description": "Tissue mass - Dif lower part of legs",
+        "unit": "g"
+    },
+    "tisular_mass32": {
+        "description": "Tissue mass - Total Di(cid:299)",
+        "unit": "g"
+    },
+    "tisular_mass33": {
+        "description": "Tissue mass - TBLH, dif",
+        "unit": "g"
+    },
+    "bone_mass": {
+        "description": "Bone Mass - Left Arm",
+        "unit": "g"
+    },
+    "bone_mass1": {
+        "description": "Bone mass - Left Leg",
+        "unit": "g"
+    },
+    "bone_mass2": {
+        "description": "Bone mass - Left Trunk",
+        "unit": "g"
+    },
+    "bone_mass3": {
+        "description": "Bone mass - Left Total",
+        "unit": "g"
+    },
+    "bone_mass4": {
+        "description": "Bone mass - TBLH, left",
+        "unit": "g"
+    },
+    "bone_mass5": {
+        "description": "Bone mass - Left upper arm",
+        "unit": "g"
+    },
+    "bone_mass6": {
+        "description": "Bone mass - Lower left arm",
+        "unit": "g"
+    },
+    "bone_mass7": {
+        "description": "Bone mass - Upper left leg",
+        "unit": "g"
+    },
+    "bone_mass8": {
+        "description": "Bone mass - Left lower leg",
+        "unit": "g"
+    },
+    "bone_mass9": {
+        "description": "Bone Mass - Right Arm",
+        "unit": "g"
+    },
+    "bone_mass10": {
+        "description": "Bone mass - Right Leg",
+        "unit": "g"
+    },
+    "bone_mass11": {
+        "description": "Bone mass - Right Trunk",
+        "unit": "g"
+    },
+    "bone_mass12": {
+        "description": "Bone mass - Total Right",
+        "unit": "g"
+    },
+    "bone_mass13": {
+        "description": "Bone mass - TBLH, right",
+        "unit": "g"
+    },
+    "bone_mass14": {
+        "description": "Bone mass - Right upper arm",
+        "unit": "g"
+    },
+    "bone_mass15": {
+        "description": "Bone mass - Lower right arm",
+        "unit": "g"
+    },
+    "bone_mass16": {
+        "description": "Bone mass - Right upper leg",
+        "unit": "g"
+    },
+    "bone_mass17": {
+        "description": "Bone mass - Right lower leg",
+        "unit": "g"
+    },
+    "bone_mass18": {
+        "description": "Bone mass - Arms",
+        "unit": "g"
+    },
+    "bone_mass19": {
+        "description": "Bone mass - Legs",
+        "unit": "g"
+    },
+    "bone_mass20": {
+        "description": "Bone mass - Trunk",
+        "unit": "g"
+    },
+    "bone_mass21": {
+        "description": "Bone mass - Android",
+        "unit": "g"
+    },
+    "bone_mass22": {
+        "description": "Bone mass - Gynoid",
+        "unit": "g"
+    },
+    "bone_mass23": {
+        "description": "Bone Mass- Total",
+        "unit": "g"
+    },
+    "bone_mass24": {
+        "description": "Bone mass - TBLH (total body minus head)",
+        "unit": "g"
+    },
+    "bone_mass25": {
+        "description": "Bone mass - Arms Di(cid:299)",
+        "unit": "g"
+    },
+    "bone_mass26": {
+        "description": "Bone mass- Legs Di(cid:299)",
+        "unit": "g"
+    },
+    "bone_mass27": {
+        "description": "Bone mass - Trunk Di(cid:299)",
+        "unit": "g"
+    },
+    "bone_mass28": {
+        "description": "Bone mass - Dif upper arms",
+        "unit": "g"
+    },
+    "bone_mass29": {
+        "description": "Bone mass - Diff lower part of arms",
+        "unit": "g"
+    },
+    "bone_mass30": {
+        "description": "Bone mass - Diff upper part of legs",
+        "unit": "g"
+    },
+    "bone_mass31": {
+        "description": "Bone mass - Diff lower part of legs",
+        "unit": "g"
+    },
+    "bone_mass32": {
+        "description": "Bone mass - Total Di(cid:299)",
+        "unit": "g"
+    },
+    "bone_mass33": {
+        "description": "Bone mass - TBLH, dif",
+        "unit": "g"
+    },
+    "fat_free_mass": {
+        "description": "Fat-Free Mass - Left Arm",
+        "unit": "g"
+    },
+    "fat_free_mass1": {
+        "description": "Fat-Free Mass - Left Leg",
+        "unit": "g"
+    },
+    "fat_free_mass2": {
+        "description": "Fat-Free Mass - Left Trunk",
+        "unit": "g"
+    },
+    "fat_free_mass3": {
+        "description": "Fat-Free Mass - Left Total",
+        "unit": "g"
+    },
+    "fat_free_mass4": {
+        "description": "Fat-Free Mass - TBLH, left",
+        "unit": "g"
+    },
+    "fat_free_mass5": {
+        "description": "Fat-Free Mass - Left upper arm",
+        "unit": "g"
+    },
+    "fat_free_mass6": {
+        "description": "Fat-Free Mass - Lower left arm",
+        "unit": "g"
+    },
+    "fat_free_mass7": {
+        "description": "Fat-Free Mass - Upper left leg",
+        "unit": "g"
+    },
+    "fat_free_mass8": {
+        "description": "Fat-Free Mass - Left lower leg",
+        "unit": "g"
+    },
+    "fat_free_mass9": {
+        "description": "Fat-Free Mass - Right arm",
+        "unit": "g"
+    },
+    "fat_free_mass10": {
+        "description": "Fat-Free Mass - (cid:90)(cid:349)(cid:336)(cid:346)(cid:410)(cid:3)(cid:62)(cid:286)(cid:336)",
+        "unit": "g"
+    },
+    "fat_free_mass11": {
+        "description": "Fat-Free Mass - (cid:90)(cid:349)(cid:336)(cid:346)(cid:410)(cid:3)(cid:100)(cid:396)(cid:437)(cid:374)(cid:364)",
+        "unit": "g"
+    },
+    "fat_free_mass12": {
+        "description": "Fat-Free Mass - (cid:100)(cid:381)(cid:410)(cid:258)(cid:367)(cid:3)(cid:90)(cid:349)(cid:336)(cid:346)(cid:410)",
+        "unit": "g"
+    },
+    "fat_free_mass13": {
+        "description": "Fat-Free Mass - (cid:100)(cid:17)(cid:62)(cid:44)(cid:853)(cid:3)(cid:396)(cid:349)(cid:336)(cid:346)(cid:410)",
+        "unit": "g"
+    },
+    "fat_free_mass14": {
+        "description": "Fat-Free Mass - (cid:90)(cid:349)(cid:336)(cid:346)(cid:410)(cid:3)(cid:437)(cid:393)(cid:393)(cid:286)(cid:396)(cid:3)(cid:258)(cid:396)(cid:373)",
+        "unit": "g"
+    },
+    "fat_free_mass15": {
+        "description": "Fat-Free Mass - (cid:62)(cid:381)(cid:449)(cid:286)(cid:396)(cid:3)(cid:396)(cid:349)(cid:336)(cid:346)(cid:410)(cid:3)(cid:258)(cid:396)(cid:373)",
+        "unit": "g"
+    },
+    "fat_free_mass16": {
+        "description": "Fat-Free Mass - (cid:104)(cid:393)(cid:393)(cid:286)(cid:396)(cid:3)(cid:396)(cid:349)(cid:336)(cid:346)(cid:410)(cid:3)(cid:367)(cid:286)(cid:336)",
+        "unit": "g"
+    },
+    "fat_free_mass17": {
+        "description": "Fat-Free Mass - (cid:90)(cid:349)(cid:336)(cid:346)(cid:410)(cid:3)(cid:367)(cid:381)(cid:449)(cid:286)(cid:396)(cid:3)(cid:367)(cid:286)(cid:336)",
+        "unit": "g"
+    },
+    "fat_free_mass18": {
+        "description": "Fat-Free Mass - (cid:4)(cid:396)(cid:373)(cid:400)",
+        "unit": "g"
+    },
+    "fat_free_mass19": {
+        "description": "Fat-Free Mass - Legs",
+        "unit": "g"
+    },
+    "fat_free_mass20": {
+        "description": "Fat-Free Mass - Trunk",
+        "unit": "g"
+    },
+    "fat_free_mass21": {
+        "description": "Fat-Free Mass - Android",
+        "unit": "g"
+    },
+    "fat_free_mass22": {
+        "description": "Fat-Free Mass - Gynoid",
+        "unit": "g"
+    },
+    "fat_free_mass23": {
+        "description": "Fat-Free Mass - Total",
+        "unit": "g"
+    },
+    "fat_free_mass24": {
+        "description": "Fat-Free Mass - TBLH (total body minus head)",
+        "unit": "g"
+    },
+    "fat_free_mass25": {
+        "description": "Fat-Free Mass - Arms Diff",
+        "unit": "g"
+    },
+    "fat_free_mass26": {
+        "description": "Fat-Free Mass - Legs Diff",
+        "unit": "g"
+    },
+    "fat_free_mass27": {
+        "description": "Fat-Free Mass - Trunk Diff",
+        "unit": "g"
+    },
+    "fat_free_mass28": {
+        "description": "Fat-Free Mass - Diff upper part of arms",
+        "unit": "g"
+    },
+    "fat_free_mass29": {
+        "description": "Fat-Free Mass - Diff lower part of arms",
+        "unit": "g"
+    },
+    "fat_free_mass30": {
+        "description": "Fat-Free Mass - Dif part upper legs",
+        "unit": "g"
+    },
+    "fat_free_mass31": {
+        "description": "Fat-Free Mass - Diff lower part legs",
+        "unit": "g"
+    },
+    "fat_free_mass32": {
+        "description": "Fat-Free Mass - Total Di(cid:299)",
+        "unit": "g"
+    },
+    "fat_free_mass33": {
+        "description": "Fat-Free Mass - TBLH, dif",
+        "unit": "g"
+    },
+    "total_mass": {
+        "description": "Masa Total - Left Arm",
+        "unit": "kg"
+    },
+    "total_mass1": {
+        "description": "Masa Total - Left Leg",
+        "unit": "kg"
+    },
+    "total_mass2": {
+        "description": "Masa Total - Left Trunk",
+        "unit": "kg"
+    },
+    "total_mass3": {
+        "description": "Masa Total - Left Total",
+        "unit": "kg"
+    },
+    "total_mass4": {
+        "description": "Masa Total - TBLH, left",
+        "unit": "kg"
+    },
+    "total_mass5": {
+        "description": "Masa Total - Left upper arm",
+        "unit": "kg"
+    },
+    "total_mass6": {
+        "description": "Masa Total - Lower left arm",
+        "unit": "kg"
+    },
+    "total_mass7": {
+        "description": "Masa Total - Upper left leg",
+        "unit": "kg"
+    },
+    "total_mass8": {
+        "description": "Masa Total - Left lower leg",
+        "unit": "kg"
+    },
+    "total_mass9": {
+        "description": "Masa Total - Right arm",
+        "unit": "kg"
+    },
+    "total_mass10": {
+        "description": "Masa Total - Right Leg",
+        "unit": "kg"
+    },
+    "total_mass11": {
+        "description": "Masa Total - Right Trunk",
+        "unit": "kg"
+    },
+    "total_mass12": {
+        "description": "Masa Total - Total Right",
+        "unit": "kg"
+    },
+    "total_mass13": {
+        "description": "Masa Total - TBLH, right",
+        "unit": "kg"
+    },
+    "total_mass14": {
+        "description": "Masa Total - Right upper arm",
+        "unit": "kg"
+    },
+    "total_mass15": {
+        "description": "Masa Total - Lower right arm",
+        "unit": "kg"
+    },
+    "total_mass16": {
+        "description": "Masa Total - Upper right leg",
+        "unit": "kg"
+    },
+    "total_mass17": {
+        "description": "Masa Total - Right lower leg",
+        "unit": "kg"
+    },
+    "total_mass18": {
+        "description": "Masa Total - Arms",
+        "unit": "kg"
+    },
+    "total_mass19": {
+        "description": "Masa Total - Legs",
+        "unit": "kg"
+    },
+    "total_mass20": {
+        "description": "Masa Total - Trunk",
+        "unit": "kg"
+    },
+    "total_mass21": {
+        "description": "Masa Total - Android",
+        "unit": "kg"
+    },
+    "total_mass22": {
+        "description": "Masa Total - Gynoid",
+        "unit": "kg"
+    },
+    "total_mass23": {
+        "description": "Masa Total - Total",
+        "unit": "kg"
+    },
+    "total_mass24": {
+        "description": "Masa Total - TBLH (total body minus head)",
+        "unit": "kg"
+    },
+    "total_mass25": {
+        "description": "Masa Total - Arms Di(cid:299)",
+        "unit": "kg"
+    },
+    "total_mass26": {
+        "description": "Masa Total - Legs Di(cid:299)",
+        "unit": "kg"
+    },
+    "total_mass27": {
+        "description": "Masa Total - Trunk Di(cid:299)",
+        "unit": "kg"
+    },
+    "total_mass28": {
+        "description": "Masa Total - Diff part of upper arms",
+        "unit": "kg"
+    },
+    "total_mass29": {
+        "description": "Masa Total - Diff lower part of arms",
+        "unit": "kg"
+    },
+    "total_mass30": {
+        "description": "Masa Total -Dif part upper legs",
+        "unit": "kg"
+    },
+    "total_mass31": {
+        "description": "Masa Total - Diff lower part legs",
+        "unit": "kg"
+    },
+    "total_mass32": {
+        "description": "Masa Total - Total Di(cid:299)",
+        "unit": "kg"
+    },
+    "total_mass33": {
+        "description": "Masa Total - TBLH, dif",
+        "unit": "kg"
+    }
+}

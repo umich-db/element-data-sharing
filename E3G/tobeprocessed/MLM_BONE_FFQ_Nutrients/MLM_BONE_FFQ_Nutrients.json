@@ -1,0 +1,410 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Folio del participante",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "Etapa R01",
+        "unit": "None"
+    },
+    "folioFFQ": {
+        "description": "Identificador FFQ",
+        "unit": "None"
+    },
+    "ener_kcal": {
+        "description": "Energía en Kcal",
+        "unit": "Kilocalorías"
+    },
+    "ener_kj": {
+        "description": "Energía",
+        "unit": "Kilo Joules"
+    },
+    "agua": {
+        "description": "Agua (sumatoria de alimentos y bebidas)",
+        "unit": "Gramos (g)"
+    },
+    "alch": {
+        "description": "Alcohol",
+        "unit": "Gramos (g)"
+    },
+    "h_de_c": {
+        "description": "Hidratos de carbono",
+        "unit": "Gramos (g)"
+    },
+    "grasa": {
+        "description": "Grasa",
+        "unit": "Gramos (g)"
+    },
+    "proteina": {
+        "description": "Proteína",
+        "unit": "Gramos (g)"
+    },
+    "ceniza": {
+        "description": "Ceniza",
+        "unit": "Gramos (g)"
+    },
+    "fibtot": {
+        "description": "Fibra dietética total",
+        "unit": "Gramos (g)"
+    },
+    "azucar": {
+        "description": "Azúcar total",
+        "unit": "Gramos (g)"
+    },
+    "ca": {
+        "description": "Calcio",
+        "unit": "Miligramos (mg)"
+    },
+    "fe": {
+        "description": "Hierro",
+        "unit": "Miligramos (mg)"
+    },
+    "mg": {
+        "description": "Magnesio",
+        "unit": "Miligramos (mg)"
+    },
+    "p": {
+        "description": "Fósforo",
+        "unit": "Miligramos (mg)"
+    },
+    "k": {
+        "description": "Potasio",
+        "unit": "Miligramos (mg)"
+    },
+    "na": {
+        "description": "Sodio",
+        "unit": "Miligramos (mg)"
+    },
+    "zn": {
+        "description": "Zinc",
+        "unit": "Miligramos (mg)"
+    },
+    "cu": {
+        "description": "Cobre",
+        "unit": "Miligramos (mg)"
+    },
+    "mn": {
+        "description": "Manganeso",
+        "unit": "Miligramos (mg)"
+    },
+    "se": {
+        "description": "Selenio",
+        "unit": "Microgramos (mcg)"
+    },
+    "vitc": {
+        "description": "Vitamina C",
+        "unit": "Miligramos (mg)"
+    },
+    "thia": {
+        "description": "Tiamina",
+        "unit": "Miligramos (mg)"
+    },
+    "ribf": {
+        "description": "Riboflavina",
+        "unit": "Miligramos (mg)"
+    },
+    "nia": {
+        "description": "Niacina",
+        "unit": "Miligramos (mg)"
+    },
+    "pantac": {
+        "description": "Ácido Pantoténico",
+        "unit": "Miligramos (mg)"
+    },
+    "vitb6": {
+        "description": "Vitamina B-6",
+        "unit": "Miligramos (mg)"
+    },
+    "folato": {
+        "description": "Folato",
+        "unit": "Microgramos (mcg)"
+    },
+    "folato_fe": {
+        "description": "Folato ferroso",
+        "unit": "Miligramos (mg)"
+    },
+    "choline": {
+        "description": "Colina",
+        "unit": "Miligramos (mg)"
+    },
+    "vitb12": {
+        "description": "Vitamina B-12",
+        "unit": "Miligramos (mg)"
+    },
+    "vita": {
+        "description": "Vitamina A",
+        "unit": "Unidades internacionales (UI)"
+    },
+    "eqret": {
+        "description": "Equivalentes de Retinol",
+        "unit": "Equivalentes de retinol"
+    },
+    "retinol": {
+        "description": "Vitamina A, Retinol",
+        "unit": "Microgramos (mcg)"
+    },
+    "vite": {
+        "description": "Vitamina E",
+        "unit": "Miligramos (mg)"
+    },
+    "vitd": {
+        "description": "Vitamina D",
+        "unit": "Unidades internacionales (UI)"
+    },
+    "vit_d_iu_tot": {
+        "description": "None",
+        "unit": "None"
+    },
+    "vitk": {
+        "description": "Vitamina K",
+        "unit": "Miligramos (mg)"
+    },
+    "cafeina": {
+        "description": "Cafeína",
+        "unit": "Miligramos (mg)"
+    },
+    "vitb12_add": {
+        "description": "Vitamina B12 adicionada",
+        "unit": "Miligramos (mg)"
+    },
+    "betaine": {
+        "description": "Betaina",
+        "unit": "Miligramos (mg)"
+    },
+    "trp": {
+        "description": "Triptófano",
+        "unit": "Gramos (g)"
+    },
+    "thr": {
+        "description": "Treonina",
+        "unit": "Gramos (g)"
+    },
+    "ile": {
+        "description": "Isoleucina",
+        "unit": "Gramos (g)"
+    },
+    "leu": {
+        "description": "Leucina",
+        "unit": "Gramos (g)"
+    },
+    "lys": {
+        "description": "Lisina",
+        "unit": "Gramos (g)"
+    },
+    "met": {
+        "description": "Metionina",
+        "unit": "Gramos (g)"
+    },
+    "cys": {
+        "description": "Cisteina",
+        "unit": "Gramos (g)"
+    },
+    "phe": {
+        "description": "Fenilalanina",
+        "unit": "Gramos (g)"
+    },
+    "tyr": {
+        "description": "Tirosina",
+        "unit": "Gramos (g)"
+    },
+    "val": {
+        "description": "Valina",
+        "unit": "Gramos (g)"
+    },
+    "arg": {
+        "description": "Arginina",
+        "unit": "Gramos (g)"
+    },
+    "his": {
+        "description": "Histidina",
+        "unit": "Gramos (g)"
+    },
+    "ala": {
+        "description": "Alanina",
+        "unit": "Gramos (g)"
+    },
+    "asp": {
+        "description": "Ácido aspártico",
+        "unit": "Gramos (g)"
+    },
+    "glu": {
+        "description": "Acido Glutámico",
+        "unit": "Gramos (g)"
+    },
+    "gly": {
+        "description": "Glicina",
+        "unit": "Gramos (g)"
+    },
+    "pro": {
+        "description": "Prolina",
+        "unit": "Gramos (g)"
+    },
+    "ser": {
+        "description": "Serina",
+        "unit": "Gramos (g)"
+    },
+    "hydroxiproline_tot": {
+        "description": null,
+        "unit": null
+    },
+    "grasat": {
+        "description": "Ácidos grasos saturados",
+        "unit": "Miligramos (mg)"
+    },
+    "gramon": {
+        "description": "Ácidos grasos monoinsaturados (g)",
+        "unit": "Gramos (g)"
+    },
+    "grapoly": {
+        "description": "Ácidos grasos poli_insaturados (g)",
+        "unit": "Gramos (g)"
+    },
+    "cole": {
+        "description": "Colesterol",
+        "unit": "Miligramos (mg)"
+    },
+    "grasatrans": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f4d0": {
+        "description": "Acido Butírico (C4:0)",
+        "unit": "Gramos (g)"
+    },
+    "f6d0": {
+        "description": "Ácido Hexanóico (C6:0)",
+        "unit": "Gramos (g)"
+    },
+    "f8d0": {
+        "description": "Ácido Octanoico (C8:0)",
+        "unit": "Gramos (g)"
+    },
+    "f10d0": {
+        "description": "Ácido Decanoico (C10:0)",
+        "unit": "Gramos (g)"
+    },
+    "f12d0": {
+        "description": "Ácido Láurico (C12:0)",
+        "unit": "Gramos (g)"
+    },
+    "f14d0": {
+        "description": "Ácido Tetradecanoico (C14:0)",
+        "unit": "Gramos (g)"
+    },
+    "f16d0": {
+        "description": "Ácido Hexadecanoico (C16:0)",
+        "unit": "Gramos (g)"
+    },
+    "f18d0": {
+        "description": "Ácido Octadecanoico (C18:0)",
+        "unit": "Gramos (g)"
+    },
+    "f18d1": {
+        "description": "Ácido oleíco (C18:1)",
+        "unit": "Gramos (g)"
+    },
+    "f18d2": {
+        "description": "Ácido linoleico (C18:2)",
+        "unit": "Gramos (g)"
+    },
+    "f18d3": {
+        "description": "Ácido linolénico (C18:3)",
+        "unit": "Gramos (g)"
+    },
+    "f20d04": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f22d0": {
+        "description": "Ácido docosanoico (C22:0)",
+        "unit": "Gramos (g)"
+    },
+    "f22d6": {
+        "description": "Ácido docosahexaenoico (C22:6)",
+        "unit": "Gramos (g)"
+    },
+    "f14d1": {
+        "description": "Ácido Tetradecanoico cis (C14:1)",
+        "unit": "Gramos (g)"
+    },
+    "f16d1": {
+        "description": "Ácido Palmitoléico cis (C16:1)",
+        "unit": "Gramos (g)"
+    },
+    "f18d4": {
+        "description": "Ácido estearidónico (C18:4)",
+        "unit": "Gramos (g)"
+    },
+    "f20d1": {
+        "description": "Ácido gondoico (C20:1)",
+        "unit": "Gramos (g)"
+    },
+    "f20d5": {
+        "description": "Ácido eicosapentaenoico (C20:5)",
+        "unit": "Gramos (g)"
+    },
+    "f22d1": {
+        "description": "Ácido erúcico (C22:1)",
+        "unit": "Gramos (g)"
+    },
+    "f22d5": {
+        "description": "Ácido eicosapentaenoico (C22:5)",
+        "unit": "Gramos (g)"
+    },
+    "fitoster": {
+        "description": "Fitosteroles (mg)",
+        "unit": "Miligramos (mg)"
+    },
+    "f15d0": {
+        "description": "Ácido pentadecanoico15:0 (g)",
+        "unit": "Gramos (g)"
+    },
+    "f17d0": {
+        "description": "Ácido heptadecanoico 17:0 (g)",
+        "unit": "Gramos (g)"
+    },
+    "f24d0": {
+        "description": "Ácido tetracosanoico 24:0 (g)",
+        "unit": "Gramos (g)"
+    },
+    "f16d1t": {
+        "description": "ácido palmitoleico C16:1t (g)",
+        "unit": "Gramos (g)"
+    },
+    "f22d1t": {
+        "description": "ácido docosahexaenoico C22:1t(g)",
+        "unit": "Gramos (g)"
+    },
+    "f18d2t": {
+        "description": "ácido linoleico t C18:2t (g)",
+        "unit": "Gramos (g)"
+    },
+    "f18d2i": {
+        "description": "ácido linoleico C18:2i",
+        "unit": "Gramos (g)"
+    },
+    "f18d2tt": {
+        "description": "ácido linoleico tt C18:2tt",
+        "unit": "Gramos (g)"
+    }
+}

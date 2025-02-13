@@ -10,7 +10,7 @@ for dir in */; do
         for file in "$dir"*; do
             if [[ $file == *.csv ]]; then
                 csv_file=$file
-            elif [[ $file == *.docx || $file == *.pdf || $file == *.xlsx ]]; then
+            elif [[ $file == *.docx || $file == *.pdf || $file == *.xlsx || $file == *.doc ]]; then
                 des_file=$file
             fi
         done

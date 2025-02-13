@@ -1,0 +1,410 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Folio",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fecha_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "hora_ini": {
+        "description": "Hora de inicio",
+        "unit": "None"
+    },
+    "min_ini": {
+        "description": "Minuto de inicio",
+        "unit": "None"
+    },
+    "f_dia": {
+        "description": "Día de la entrevista",
+        "unit": "None"
+    },
+    "f_mes": {
+        "description": "Mes de la entrevista",
+        "unit": "None"
+    },
+    "f_anio": {
+        "description": "Año de la entrevista",
+        "unit": "None"
+    },
+    "cod_ent": {
+        "description": "Codigo del entrevistador",
+        "unit": "None"
+    },
+    "edad": {
+        "description": "1.1 ¿Cuántos años cumplidos tiene actualmente?",
+        "unit": "años"
+    },
+    "gf01_1a": {
+        "description": "1.2 ¿Cuál es su fecha de nacimiento?, dia",
+        "unit": "día"
+    },
+    "gf01_1b": {
+        "description": "1.2 ¿Cuál es su fecha de nacimiento?, mes",
+        "unit": "mes"
+    },
+    "gf01_1c": {
+        "description": "1.2 ¿Cuál es su fecha de nacimiento?, año",
+        "unit": "año"
+    },
+    "vn8": {
+        "description": "2. ¿Quién es el jefe del hogar?",
+        "unit": "None"
+    },
+    "pcv3_1": {
+        "description": "3.1 ¿Cuántas personas normalmente viven en esta vivienda, contando a las/los bebés y a los adultos mayores?",
+        "unit": "personas"
+    },
+    "pcv3_2": {
+        "description": "3.2 Todas las personas que viven en esta vivienda ¿comparten el mismo gasto para la comida?",
+        "unit": "None"
+    },
+    "pcv3_3": {
+        "description": "¿Cuántos hogares o grupos de personas tienen gasto separado para la comida, contando el de usted?",
+        "unit": "None"
+    },
+    "pcv4_5a": {
+        "description": "Entonces ¿son___las personas que integran este hogar?",
+        "unit": "1=Si"
+    },
+    "pcv4_5b": {
+        "description": "Si/No",
+        "unit": "2=No"
+    },
+    "pcv4_6": {
+        "description": "NUMERO DE RESIDENTE DEL INFORMANTE",
+        "unit": "None"
+    },
+    "s5_n": {
+        "description": "¿Cuál fue el último año de estudios que usted completó? (Nivel)",
+        "unit": "None"
+    },
+    "s5_g": {
+        "description": "¿Cuál fue el último año de estudios que usted completó? (Grado)",
+        "unit": "None"
+    },
+    "vn9_n": {
+        "description": "¿Cuál fue el último año de estudios que completó el (la) jefe (a) de su hogar/su esposo/pareja? (Nivel)",
+        "unit": "None"
+    },
+    "vn9_g": {
+        "description": "¿Cuál fue el último año de estudios que completó el (la) jefe (a) de su hogar/su esposo/pareja? (Grado)",
+        "unit": "None"
+    },
+    "gf04": {
+        "description": "La semana pasada, ¿trabajó por los menos una hora?",
+        "unit": "None"
+    },
+    "pcv6_1esp": {
+        "description": "No, estaba en otra situación diferente a las anteriores",
+        "unit": "None"
+    },
+    "gf04_2": {
+        "description": "6.2 ¿Cómo describiría su trabajo?",
+        "unit": "None"
+    },
+    "gf04_3": {
+        "description": "6.3 ¿Cuál es el nombre del oficio, puesto o cargo?",
+        "unit": "None"
+    },
+    "gf04_4": {
+        "description": "6.4 ¿Cuáles son las tareas o funciones principales que desempeña en su trabajo?",
+        "unit": "None"
+    },
+    "gf04_5": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo?",
+        "unit": "None"
+    },
+    "gf04_5a1": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Lunes",
+        "unit": "Hrs."
+    },
+    "gf04_5a2": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Lunes",
+        "unit": "Min."
+    },
+    "gf04_5b1": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Martes",
+        "unit": "Hrs."
+    },
+    "gf04_5b2": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Martes",
+        "unit": "Min."
+    },
+    "gf04_5c1": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Miercoles",
+        "unit": "None"
+    },
+    "gf04_5c2": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Miercoles",
+        "unit": "None"
+    },
+    "gf04_5d1": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Jueves Hrs.",
+        "unit": "Horas"
+    },
+    "gf04_5d2": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Jueves Min.",
+        "unit": "Minutos"
+    },
+    "gf04_5e1": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Viernes Hrs.",
+        "unit": "Horas"
+    },
+    "gf04_5e2": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Viernes Min.",
+        "unit": "Minutos"
+    },
+    "gf04_5f1": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Sabado Hrs.",
+        "unit": "Horas"
+    },
+    "gf04_5f2": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Sabado Min.",
+        "unit": "Minutos"
+    },
+    "gf04_5g1": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Domingo",
+        "unit": "None"
+    },
+    "gf04_5g2": {
+        "description": "6.5 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Domingo",
+        "unit": "None"
+    },
+    "r01_66": {
+        "description": "6.6 ¿La jornada de trabajo de usted es:",
+        "unit": "None"
+    },
+    "gf04_6": {
+        "description": "6.7 Además del trabajo principal del que ya hablamos, ¿tiene un segundo",
+        "unit": "None"
+    },
+    "gf04_7": {
+        "description": "6.8 ¿Cómo describiría su trabajo?",
+        "unit": "1= De tipo independiente, personal o familiar; 2= Es una compañía o empresa del sector público o privado; 3= Ninguno de los anteriores; 4= Es una institución pública/sector gubernamental"
+    },
+    "gf04_8": {
+        "description": "6.9 ¿Cuál es el nombre del oficio, puesto o cargo?",
+        "unit": "None"
+    },
+    "gf04_9": {
+        "description": "6.10 ¿Cuáles son las tareas o funciones principales que desempeña en este trabajo?",
+        "unit": "None"
+    },
+    "r01_611": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo?",
+        "unit": "1=Si; 2=No tiene un horario regular de trabajo"
+    },
+    "r01_611a1": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Lunes Hrs.",
+        "unit": "None"
+    },
+    "r01_611a2": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Lunes Min.",
+        "unit": "None"
+    },
+    "r01_611b1": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Martes Hrs.",
+        "unit": "None"
+    },
+    "r01_611b2": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Martes",
+        "unit": "None"
+    },
+    "r01_611c1": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Miercoles",
+        "unit": "None"
+    },
+    "r01_611c2": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Miercoles",
+        "unit": "None"
+    },
+    "r01_611d1": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Jueves Hrs.",
+        "unit": "Horas"
+    },
+    "r01_611d2": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Jueves",
+        "unit": "Minutos"
+    },
+    "r01_611e1": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Viernes Hrs.",
+        "unit": "Horas"
+    },
+    "r01_611e2": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Viernes",
+        "unit": "Minutos"
+    },
+    "r01_611f1": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Sabado",
+        "unit": "Horas"
+    },
+    "r01_611f2": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Sabado",
+        "unit": "Minutos"
+    },
+    "r01_611g1": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Domingo",
+        "unit": "Horas"
+    },
+    "r01_611g2": {
+        "description": "6.11 ¿Qué días y cuántas horas le dedica habitualmente a su trabajo? Domingo",
+        "unit": "Minutos"
+    },
+    "r01_612": {
+        "description": "6.12 ¿La jornada de trabajo de usted es:",
+        "unit": "None"
+    },
+    "gf04_10a": {
+        "description": "6.13 Además de lo que ya me comentó (RESPUESTA DE 6), la semana pasada: ¿Ayudó en un negocio (familiar o no familiar)?",
+        "unit": "None"
+    },
+    "gf04_10b": {
+        "description": "6.13 Además de lo que ya me comentó (RESPUESTA DE 6), la semana pasada: ¿Hizo algún producto para vender?",
+        "unit": "None"
+    },
+    "gf04_10c": {
+        "description": "6.13 Además de lo que ya me comentó (RESPUESTA DE 6), la semana pasada: ¿Ayudó en las labores del campo o en la crianza de animales?",
+        "unit": "None"
+    },
+    "gf04_10d": {
+        "description": "6.13 Además de lo que ya me comentó (RESPUESTA DE 6), la semana pasada: ¿Realizó otro tipo de actividades a cambio de pago?",
+        "unit": "None"
+    },
+    "gf04_10e": {
+        "description": "6.13 Además de lo que ya me comentó (RESPUESTA DE 6), la semana pasada: ¿Realizó otro tipo de actividades a cambio de pago?",
+        "unit": "None"
+    },
+    "gf04_10esp": {
+        "description": "6.13 Además de lo que ya me comentó (RESPUESTA DE 6), la semana pasada: (Especifique)",
+        "unit": "None"
+    },
+    "gf04_11a": {
+        "description": "6.14 ¿En dónde realizó estas actividades?",
+        "unit": "None"
+    },
+    "gf04_11b": {
+        "description": "6.14 ¿En dónde realizó estas actividades?",
+        "unit": "None"
+    },
+    "gf04_11c": {
+        "description": "6.14 ¿En dónde realizó estas actividades?",
+        "unit": "None"
+    },
+    "gf04_11d": {
+        "description": "6.14 ¿En dónde realizó estas actividades?",
+        "unit": "None"
+    },
+    "gf04_11e": {
+        "description": "6.14 ¿En dónde realizó estas actividades?",
+        "unit": "None"
+    },
+    "gf04_12a": {
+        "description": "Durante los últimos dos meses, ¿Cuánto tiempo al día les dedicó a los quehaceres domésticos en un día común? Lunes a viernes",
+        "unit": "categorical (0 min, 1-10 min, 11-20 min, 21-45 min, 46-60 min, 1-2 hrs, 2-3 hrs, 3-6 hrs, 6 hrs o más)"
+    },
+    "gf04_12b": {
+        "description": "Durante los últimos dos meses, ¿Cuánto tiempo al día les dedicó a los quehaceres domésticos en un día común? Sábado y domingo",
+        "unit": "categorical (0 min, 1-10 min, 11-20 min, 21-45 min, 46-60 min, 1-2 hrs, 2-3 hrs, 3-6 hrs, 6 hrs o más)"
+    },
+    "vn11": {
+        "description": "¿Cuántos baños completos con regadera y W.C. (excusado) hay para uso exclusivo de los integrantes de su hogar?",
+        "unit": "categorical (Ninguno, Uno, Dos o más)"
+    },
+    "vn15": {
+        "description": "¿Cuántos automóviles o camionetas tienen en su hogar, incluyendo camionetas cerradas, o con cabina o caja?",
+        "unit": "categorical (Ninguno, Uno, Dos o más)"
+    },
+    "gf07": {
+        "description": "Sin tomar en cuenta la conexión móvil que pudiera tener desde algún celular, ¿Este hogar cuenta con internet?",
+        "unit": "categorical (Si, No)"
+    },
+    "gf08": {
+        "description": "De todas las personas de 14 años o más que viven en el hogar, ¿Cuántas trabajaron en el último mes?",
+        "unit": "categorical (Ninguno, Uno, Dos, Tres, Cuatro o más)"
+    },
+    "gf08_es": {
+        "description": "De todas las personas de 14 años o más que viven en el hogar, ¿Cuántas trabajaron en el último mes? Otro (especifique)",
+        "unit": "text"
+    },
+    "gf09": {
+        "description": "En esta vivienda, ¿cuántos cuartos se usan para dormir, sin contar pasillos ni baños?",
+        "unit": "categorical (Ninguno, Uno, Dos, Tres, Cuatro o más)"
+    },
+    "gf010_a": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos del Seguro Social (IMSS)?",
+        "unit": "categorical (Si)"
+    },
+    "gf010_b": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos del ISSSTE?",
+        "unit": "categorical (Si)"
+    },
+    "gf010_d": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de Pemex?",
+        "unit": "3= Si"
+    },
+    "gf010_e": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de la Defensa o Marina?",
+        "unit": "4= Si"
+    },
+    "r01_12k": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos...de otra institución pública?",
+        "unit": "5= Si"
+    },
+    "gf010_g": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de un seguro privado?",
+        "unit": "6= Si"
+    },
+    "gf010_h": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos de otra institución?",
+        "unit": "7= Si"
+    },
+    "gf010_i": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos...entonces, ¿no está afiliada o inscrita a los servicios médicos?",
+        "unit": "8= Si"
+    },
+    "gf010_j": {
+        "description": "¿Usted está afiliada(o) o inscrita(o) a los servicios médicos...No sabe o no responde",
+        "unit": "9= Si"
+    },
+    "s26n": {
+        "description": "En la vivienda donde usted vive, ¿la familia paga renta?",
+        "unit": "1= Si, 2= No"
+    },
+    "s26_1n": {
+        "description": "¿Por qué no paga renta?",
+        "unit": "1= Es propiedad del (a) jefe (a) de familia, 2= Es de algún familiar, 3= Es prestada temporalmente, 4= Otro. Especifique"
+    },
+    "s26_1ne": {
+        "description": "¿Por qué no paga renta?, Especifique",
+        "unit": "None"
+    },
+    "s27n": {
+        "description": "15. ¿En cuál escalón de la escalera piensa usted que estaría parada de acuerdo con su situación actual?",
+        "unit": "1-10"
+    },
+    "obs1": {
+        "description": "Observaciones generales",
+        "unit": "None"
+    }
+}

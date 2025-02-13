@@ -1,0 +1,110 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Folio",
+        "unit": "None"
+    },
+    "id": {
+        "description": "Identifier number",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "Fech_etaR01MBM": {
+        "description": "R01MB-M Study date",
+        "unit": "None"
+    },
+    "edad": {
+        "description": "Age of Participant",
+        "unit": "None"
+    },
+    "fn_aa": {
+        "description": "Year of Birth",
+        "unit": "None"
+    },
+    "fn_mes": {
+        "description": "Month of Birth",
+        "unit": "None"
+    },
+    "fn_dia": {
+        "description": "Day of Birth",
+        "unit": "None"
+    },
+    "sexo": {
+        "description": "Sex of participant",
+        "unit": "None"
+    },
+    "peso": {
+        "description": "Participant Weight",
+        "unit": "Kg"
+    },
+    "talla": {
+        "description": "Participant Height",
+        "unit": "cm"
+    },
+    "frax5": {
+        "description": "Previous Fracture",
+        "unit": "None"
+    },
+    "frax6": {
+        "description": "Parents with hip fracture",
+        "unit": "None"
+    },
+    "frax7": {
+        "description": "Active Smoker",
+        "unit": "None"
+    },
+    "frax8": {
+        "description": "Glucocorticoids",
+        "unit": "None"
+    },
+    "frax9": {
+        "description": "Rheumatoid Arthritis",
+        "unit": "None"
+    },
+    "frax10": {
+        "description": "Secondary Osteoporosis",
+        "unit": "1= Yes 2= No"
+    },
+    "frax11": {
+        "description": "Alcohol, 3 or more per day",
+        "unit": "1= Yes 2= No"
+    },
+    "imc": {
+        "description": "Body Mass Index",
+        "unit": "None"
+    },
+    "mayor_osteoporotica": {
+        "description": "osteoporotic measurement",
+        "unit": "None"
+    },
+    "fractura_cadera": {
+        "description": "hip fracture",
+        "unit": "None"
+    },
+    "pais": {
+        "description": "Country identifier (calculation with MEX reference population)",
+        "unit": "UK"
+    },
+    "Observaciones": {
+        "description": "None",
+        "unit": "None"
+    }
+}

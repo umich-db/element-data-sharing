@@ -1,0 +1,338 @@
+{
+    "proyecto": {
+        "description": "R01 - MLM-BONE",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Folio del participante",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "Etapa del proyecto R01MB-M",
+        "unit": "None"
+    },
+    "part": {
+        "description": "Participante M",
+        "unit": "None"
+    },
+    "user_id": {
+        "description": "CC-0000-R01MB-M",
+        "unit": "None"
+    },
+    "stage": {
+        "description": "MLM",
+        "unit": "None"
+    },
+    "height": {
+        "description": "La altura del individuo en centímetros.",
+        "unit": "cm"
+    },
+    "dateofbirth": {
+        "description": "La fecha de nacimiento del individuo",
+        "unit": "formato: dd/mm/aaaa"
+    },
+    "gender": {
+        "description": "El género del individuo (por ejemplo, M, F Masculino=M/Femenino=F)",
+        "unit": null
+    },
+    "age": {
+        "description": "La edad del individuo en años",
+        "unit": "años"
+    },
+    "dateofregistration": {
+        "description": "La fecha en que se realizó el registro en la base de datos",
+        "unit": "formato: dd/mm/aaaa"
+    },
+    "testdatetime": {
+        "description": "La fecha y hora en que se realizó la medición",
+        "unit": null
+    },
+    "weight": {
+        "description": "El peso del individuo",
+        "unit": "kg"
+    },
+    "lowerlimitweightnormalrange": {
+        "description": "El límite inferior del rango normal de peso para el individuo",
+        "unit": "kg"
+    },
+    "upperlimitweightnormalrange": {
+        "description": "El límite superior del rango normal de peso para el individuo",
+        "unit": "kg"
+    },
+    "tbwtotalbodywater": {
+        "description": "La cantidad total de agua en el cuerpo en litros",
+        "unit": "L"
+    },
+    "lowerlimittbwnormalrange": {
+        "description": "El límite inferior del rango normal de agua corporal total",
+        "unit": "L"
+    },
+    "upperlimittbwnormalrange": {
+        "description": "Upper Limit (TBW Normal Range)",
+        "unit": "L"
+    },
+    "protein": {
+        "description": "Protein",
+        "unit": "g"
+    },
+    "lowerlimitproteinnormalrange": {
+        "description": "Lower Limit (Protein Normal Range)",
+        "unit": "g"
+    },
+    "upperlimitproteinnormalrange": {
+        "description": "Upper Limit (Protein Normal Range)",
+        "unit": "g"
+    },
+    "minerals": {
+        "description": "Minerals",
+        "unit": "g"
+    },
+    "lowerlimitmineralsnormalrange": {
+        "description": "Lower Limit (Minerals Normal Range)",
+        "unit": "g"
+    },
+    "upperlimitmineralsnormalrange": {
+        "description": "Upper Limit (Minerals Normal Range)",
+        "unit": "g"
+    },
+    "bfmbodyfatmass": {
+        "description": "BFM (Body Fat Mass)",
+        "unit": "kg"
+    },
+    "lowerlimitbfmnormalrange": {
+        "description": "Lower Limit (BFM Normal Range)",
+        "unit": "kg"
+    },
+    "upperlimitbfmnormalrange": {
+        "description": "Upper Limit (BFM Normal Range)",
+        "unit": "kg"
+    },
+    "ffmfatfreemass": {
+        "description": "FFM (Fat Free Mass) La cantidad de masa libre de grasa en el cuerpo en kilogramos.",
+        "unit": "kg"
+    },
+    "lowerlimitffmnormalrange": {
+        "description": "Lower Limit (FFM Normal Range) El límite inferior del rango normal de masa libre de grasa.",
+        "unit": "kg"
+    },
+    "upperlimitffmnormalrange": {
+        "description": "Upper Limit (FFM Normal Range) El límite superior del rango normal de masa libre de grasa.",
+        "unit": "kg"
+    },
+    "smmskeletalmusclemass": {
+        "description": "SMM (Skeletal Muscle Mass) La cantidad de masa muscular esquelética en el cuerpo en kilogramos.",
+        "unit": "kg"
+    },
+    "lowerlimitsmmnormalrange": {
+        "description": "Lower Limit (SMM Normal Range) El límite inferior del rango normal de masa muscular esquelética.",
+        "unit": "kg"
+    },
+    "upperlimitsmmnormalrange": {
+        "description": "Upper Limit (SMM Normal Range) El límite superior del rango normal de masa muscular esquelética.",
+        "unit": "kg"
+    },
+    "bmibodymassindex": {
+        "description": "BMI (Body Mass Index) Un índice calculado a partir del peso y la altura del individuo.",
+        "unit": "kg/m²"
+    },
+    "lowerlimitbminormalrange": {
+        "description": "Lower Limit (BMI Normal Range) El límite inferior del rango normal del índice de masa corporal.",
+        "unit": "kg/m²"
+    },
+    "upperlimitbminormalrange": {
+        "description": "Upper Limit (BMI Normal Range) El límite superior del rango normal del índice de masa corporal.",
+        "unit": "kg/m²"
+    },
+    "pbfpercentbodyfat": {
+        "description": "PBF (Percent Body Fat) El porcentaje del peso total que es grasa.",
+        "unit": "%"
+    },
+    "lowerlimitpbfnormalrange": {
+        "description": "Lower Limit (PBF Normal Range)",
+        "unit": "%"
+    },
+    "upperlimitpbfnormalrange": {
+        "description": "Upper Limit (PBF Normal Range)",
+        "unit": "%"
+    },
+    "ffmofrightarm": {
+        "description": "FFM of Right Arm",
+        "unit": "kg"
+    },
+    "ffmofrightarm_": {
+        "description": "FFM% of Right Arm",
+        "unit": "%"
+    },
+    "ffmofleftarm": {
+        "description": "FFM of Left Arm",
+        "unit": "kg"
+    },
+    "ffmofleftarm_": {
+        "description": "FFM% of Left Arm",
+        "unit": "%"
+    },
+    "ffmoftrunk": {
+        "description": "FFM of Trunk",
+        "unit": "kg"
+    },
+    "ffmoftrunk_": {
+        "description": "FFM% of Trunk",
+        "unit": "%"
+    },
+    "ffmofrightleg": {
+        "description": "FFM of Right Leg",
+        "unit": "kg"
+    },
+    "ffmofrightleg_": {
+        "description": "FFM% of Right Leg",
+        "unit": "%"
+    },
+    "ffmofleftleg": {
+        "description": "FFM of Left Leg",
+        "unit": "kg"
+    },
+    "ffmofleftleg_": {
+        "description": "FFM% of Left Leg",
+        "unit": "%"
+    },
+    "bfmofrightarm": {
+        "description": "BFM of Right Arm",
+        "unit": "kg"
+    },
+    "pbfofrightarm": {
+        "description": "PBF of Right Arm",
+        "unit": "%"
+    },
+    "bfmofleftarm": {
+        "description": "BFM of Left Arm",
+        "unit": "kg"
+    },
+    "pbfofleftarm": {
+        "description": "PBF of Left Arm",
+        "unit": "%"
+    },
+    "bfmoftrunk": {
+        "description": "BFM of Trunk",
+        "unit": "kg"
+    },
+    "pbfoftrunk": {
+        "description": "PBF of Trunk",
+        "unit": "%"
+    },
+    "bfmofrightleg": {
+        "description": "BFM of Right Leg",
+        "unit": "kg"
+    },
+    "pbfofrightleg": {
+        "description": "PBF of Right Leg",
+        "unit": "%"
+    },
+    "bfmofleftleg": {
+        "description": "BFM of Left Leg La masa de grasa en la pierna izquierda",
+        "unit": "kg"
+    },
+    "pbfofleftleg": {
+        "description": "PBF of Left Leg El porcentaje de grasa en la pierna izquierda respecto al total de la pierna",
+        "unit": "%"
+    },
+    "targetweight": {
+        "description": "Target Weight El peso objetivo para el individuo",
+        "unit": "kg"
+    },
+    "weightcontrol": {
+        "description": "Weight Control Control del peso del individuo",
+        "unit": "kg"
+    },
+    "bfmcontrol": {
+        "description": "BFM Control Control de la masa de grasa corporal del individuo",
+        "unit": "kg"
+    },
+    "ffmcontrol": {
+        "description": "FFM Control Control de la masa libre de grasa del individuo",
+        "unit": "kg"
+    },
+    "bmrbasalmetabolicrate": {
+        "description": "BMR (Basal Metabolic Rate) La tasa metabólica basal en calorías por día",
+        "unit": "cal/día"
+    },
+    "whrwaisthipratio": {
+        "description": "WHR (Waist-Hip Ratio) La relación entre la circunferencia de la cintura y las caderas",
+        "unit": null
+    },
+    "lowerlimitwhrnormalrange": {
+        "description": "Lower Limit (WHR Normal Range) El límite inferior del rango normal de la relación cintura-cadera",
+        "unit": null
+    },
+    "upperlimitwhrnormalrange": {
+        "description": "Upper Limit (WHR Normal Range) El límite superior del rango normal de la relación cintura-cadera",
+        "unit": null
+    },
+    "vflvisceralfatlevel": {
+        "description": "VFL (Visceral Fat Level)",
+        "unit": null
+    },
+    "khzraimpedance": {
+        "description": "20kHz-RA Impedance",
+        "unit": "Ω"
+    },
+    "khzlaimpedance": {
+        "description": "20kHz-LA Impedance",
+        "unit": "Ω"
+    },
+    "khztrimpedance": {
+        "description": "20kHz-TR Impedance",
+        "unit": "Ω"
+    },
+    "khzrlimpedance": {
+        "description": "20kHz-RL Impedance",
+        "unit": "Ω"
+    },
+    "khzllimpedance": {
+        "description": "20kHz-LL Impedance",
+        "unit": "Ω"
+    },
+    "khzraimpedance_100RA": {
+        "description": "100kHz-RA Impedance",
+        "unit": "Ω"
+    },
+    "khzlaimpedance_100LA": {
+        "description": "100kHz-LA Impedance",
+        "unit": "Ω"
+    },
+    "khztrimpedance_100TR": {
+        "description": "100kHz-TR Impedance",
+        "unit": "Ω"
+    },
+    "khzrlimpedance_100RL": {
+        "description": "100kHz-RL Impedance",
+        "unit": "Ω"
+    },
+    "khzllimpedance_100LL": {
+        "description": "Impedancia a 100 kHz de la pierna izquierda.",
+        "unit": "Ω"
+    },
+    "inbodytype": {
+        "description": "Tipo de aparato InBody utilizado.",
+        "unit": "None"
+    },
+    "observaciones": {
+        "description": "Notas adicionales o comentarios",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    }
+}

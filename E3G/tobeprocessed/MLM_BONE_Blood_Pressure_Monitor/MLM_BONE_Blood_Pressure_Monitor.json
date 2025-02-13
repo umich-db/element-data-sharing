@@ -1,0 +1,98 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Participant's foliocc",
+        "unit": "None"
+    },
+    "id": {
+        "description": "Project identifier",
+        "unit": "CC-0000-R01MB-M"
+    },
+    "etapa": {
+        "description": "Project MLM",
+        "unit": "MLM-BONE"
+    },
+    "participante": {
+        "description": "Participant",
+        "unit": "M=Mother"
+    },
+    "type": {
+        "description": "Measurement type",
+        "unit": "Screen mode, ABI, central"
+    },
+    "fecha": {
+        "description": "Study date",
+        "unit": "None"
+    },
+    "Item": {
+        "description": "Consecutive blood pressure measurement",
+        "unit": "None"
+    },
+    "LSys": {
+        "description": "Systolic Blood Pressure in the Left Arm",
+        "unit": "mm Hg"
+    },
+    "LDia": {
+        "description": "Diastolic Blood Pressure in the Left Arm",
+        "unit": "mm Hg"
+    },
+    "LMAP": {
+        "description": "Mean Arterial Pressure in the Left Arm",
+        "unit": "mm Hg"
+    },
+    "LPP": {
+        "description": "Pulse Pressure in the Left Arm",
+        "unit": "mm Hg"
+    },
+    "RSys": {
+        "description": "Systolic Blood Pressure in the Right Arm",
+        "unit": "mm Hg"
+    },
+    "RDia": {
+        "description": "Diastolic Blood Pressure in the Right Arm",
+        "unit": "mm Hg"
+    },
+    "RMAP": {
+        "description": "Average Blood Pressure in the Right Arm",
+        "unit": "mm Hg"
+    },
+    "RPP": {
+        "description": "Pulse Pressure in the Right Arm",
+        "unit": "mm Hg"
+    },
+    "Pulse": {
+        "description": "Heart Rate",
+        "unit": "Beats per minute"
+    },
+    "sIAD": {
+        "description": "Difference in systolic blood pressure between arms (IAD - interarm difference)",
+        "unit": "mm Hg"
+    },
+    "dIAD": {
+        "description": "Difference in diastolic blood pressure between arms (IAD - interarm difference)",
+        "unit": "mm Hg"
+    },
+    "Remark": {
+        "description": "Handset",
+        "unit": "None"
+    },
+    "equipo": {
+        "description": "None",
+        "unit": "None"
+    }
+}

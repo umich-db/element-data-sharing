@@ -1,8 +1,6 @@
 import os
 
-# 定义 MOM 和 CHILD 文件的关键字列表
 mom_keywords = [
-    # 原有 MOM 关键词
     'Historical_Anthropometry_(Mom_C123)', 'Historical_Chlorpyrifos_Mom', 'Historical_COMBO_C1_PL_BI_SF_Mothers',
     'Historical_Combo_Delivery_Info_Mom', 'Historical_Diet_Mom_FFQ_NUT', 'Historical_Diet_Mom_FoodGroup_Raw_and_TEI_Adjusted',
     'Historical_Diet_Mom_NUT_TEI_Adjusted', 'Historical_Fl_Fluoride_Plasma_Mom', 'Historical_Fluoride_Urine_SG_Creat_Mom',
@@ -23,7 +21,6 @@ mom_keywords = [
     'E3G_Periodontal_Screening', 'E3G_Phenols', 'E3G_Phthalates', 'E3G_Serum_Insulin', 'E3G_SES', 'E3G_Sleep_Diary',
     'E3G_Sleep_PSQI', 'E3G_Specific_Gravity', 'Fatty_Liver_MRI_results', 'FattyLiver_Diet_FFQ', 'FattyLiver_Diet_NUT',
     'FattyLiver_Diet_VIT', 'FattyLiver_General_Questionnaire', 'FattyLiver_Laboratory_Analysis',
-    # 新增 MOM 关键词
     'Historical_Anthropometry_(Mom_C123)_102021', 'Historical_Chlorpyrifos_Mom_202010',
     'Historical_COMBO_C1_PL_BI_SF_Mothers_(updt. 2022)', 'Historical_Combo_Delivery_Info_Mom_(032022)',
     'Historical_Diet_Mom_FFQ_NUT(combomothers_nut_sept2011)', 'Historical_Fl_Fluoride_Plasma_Mom(c2c3plasma_051514)',
@@ -62,7 +59,27 @@ child_keywords = ['E3G_FFQ_Vitaminas_072020_v1F1', 'P01_SES_201910', 'P01_Sleep_
     'P01_Oxidative_Stress', 'P01_PAH_CHEAR_2016_Final', 'P01_Phenols_T1', 'P01_Phthalate_T1', 'P01_Physical_Activity', 
     'P01_Sleep Calculations', 'P01_Sleep Difficulties', 'P01_Telomere_Lenght', 'E3G_AMAI', 'E3G_Anthropometry', 
     'E3G_FFQ_Frecuencies', 'E3G_General_Questionnaire', 'E3G_Inbody', 'E3G_Laboratorio', 'FattyLiver_Diet_FFQ', 
-    'FattyLiver_Diet_NUT', 'FattyLiver_General_Questionnaire', 'FattyLiver_Laboratory_Analysis'
+    'FattyLiver_Diet_NUT', 'FattyLiver_General_Questionnaire', 'FattyLiver_Laboratory_Analysis', "MLM_BONE_Accelerometer",
+    "MLM_BONE_Anthropometry",
+    "MLM_BONE_Blood_Pressure_Monitor",
+    "MLM_BONE_Exposure_Questionnaire",
+    "MLM_BONE_FFQ",
+    "MLM_BONE_FFQ_Nutrients",
+    "MLM_BONE_FFQ_Supplements",
+    "MLM_BONE_FFQ_Vitamins",
+    "MLM_BONE_FRAX",
+    "MLM_BONE_General_Sociodemographic_Questionnaire",
+    "MLM_BONE_Habits_Questionnaire",
+    "MLM_BONE_Health_Questionnaire",
+    "MLM_BONE_Household_members_Questionnaire",
+    "MLM_BONE_Inbody",
+    "MLM_BONE_Labs",
+    "MLM_BONE_NIH_Toolbox_Assessment_Data",
+    "MLM_BONE_NIH_Toolbox_Assessment_Scores",
+    "MLM_BONE_NIH_Toolbox_Registration_Data",
+    "MLM_BONE_Oral_Dental_Health_Questionnaire",
+    "MLM_BONE_Sleep_Diary_Questionnaire",
+    "MLM_BONE_Water_Management_Questionnaire"
 ]
 
 def classify_folders(base_path='.'):

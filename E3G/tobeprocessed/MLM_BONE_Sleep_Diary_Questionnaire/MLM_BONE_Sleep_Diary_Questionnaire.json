@@ -1,0 +1,1118 @@
+{
+    "proyecto": {
+        "description": null,
+        "unit": null
+    },
+    "folio": {
+        "description": null,
+        "unit": null
+    },
+    "foliocc": {
+        "description": "Folio",
+        "unit": null
+    },
+    "etapa": {
+        "description": null,
+        "unit": null
+    },
+    "id": {
+        "description": null,
+        "unit": null
+    },
+    "f0": {
+        "description": null,
+        "unit": null
+    },
+    "fecha_etapa": {
+        "description": null,
+        "unit": null
+    },
+    "edad": {
+        "description": "Edad en años",
+        "unit": "años"
+    },
+    "f_dia": {
+        "description": "Día de la entrevista",
+        "unit": "día"
+    },
+    "f_mes": {
+        "description": "Mes de la entrevista",
+        "unit": "mes"
+    },
+    "f_anio": {
+        "description": "Año de la entrevista",
+        "unit": "Año"
+    },
+    "cod_rev": {
+        "description": "Codigo del revisor",
+        "unit": "None"
+    },
+    "dd1": {
+        "description": "Día (Día 1)",
+        "unit": "Día"
+    },
+    "mm1": {
+        "description": "Mes (Día 1)",
+        "unit": "Mes"
+    },
+    "aa1": {
+        "description": "Año (Día 1)",
+        "unit": "Año"
+    },
+    "p10d1": {
+        "description": "1. A qué hora se acostó ayer (Día 1)",
+        "unit": "Hora"
+    },
+    "p10d1a": {
+        "description": "1. AM/PM (Día 1)",
+        "unit": "AM/PM"
+    },
+    "p15d1": {
+        "description": "2. A qué hora se despertó ayer (Día 1)",
+        "unit": "Hora"
+    },
+    "p15d1a": {
+        "description": "2. AM/PM (Día 1)",
+        "unit": "AM/PM"
+    },
+    "dd2": {
+        "description": "Día (Día 2)",
+        "unit": "Día"
+    },
+    "mm2": {
+        "description": "Mes (Día 2)",
+        "unit": "None"
+    },
+    "aa2": {
+        "description": "Año (Día 2)",
+        "unit": "None"
+    },
+    "p10d2": {
+        "description": "1. A qué hora se acostó ayer (Día 2)",
+        "unit": "None"
+    },
+    "p10d2a": {
+        "description": "1. AM/PM (Día 2)",
+        "unit": "None"
+    },
+    "p15d2": {
+        "description": "2. A qué hora se despertó ayer (Día 2)",
+        "unit": "None"
+    },
+    "p15d2a": {
+        "description": "2. AM/PM (Día 2)",
+        "unit": "None"
+    },
+    "dd3": {
+        "description": "Día (Día 3)",
+        "unit": "None"
+    },
+    "mm3": {
+        "description": "Mes (Día 3)",
+        "unit": "None"
+    },
+    "aa3": {
+        "description": "Año (Día 3)",
+        "unit": "None"
+    },
+    "p10d3": {
+        "description": "1. A qué hora se acostó ayer (Día 3)",
+        "unit": "None"
+    },
+    "p10d3a": {
+        "description": "1. AM/PM (Día 3)",
+        "unit": "None"
+    },
+    "p15d3": {
+        "description": "2. A qué hora se despertó ayer (Día 3)",
+        "unit": "None"
+    },
+    "p15d3a": {
+        "description": "2. AM/PM (Día 3)",
+        "unit": "None"
+    },
+    "dd4": {
+        "description": "Día (Día 4)",
+        "unit": "None"
+    },
+    "mm4": {
+        "description": "Mes (Día 4)",
+        "unit": "None"
+    },
+    "aa4": {
+        "description": "Año (Día 4)",
+        "unit": "None"
+    },
+    "p10d4": {
+        "description": "1. A qué hora se acostó ayer (Día 4)",
+        "unit": "None"
+    },
+    "p10d4a": {
+        "description": "1. AM/PM (Día 4)",
+        "unit": "None"
+    },
+    "p15d4": {
+        "description": "2 A qué hora se despertó ayer (Día 4)",
+        "unit": "None"
+    },
+    "p15d4a": {
+        "description": "2. AM/PM (Día 4)",
+        "unit": "None"
+    },
+    "dd5": {
+        "description": "Día (Día 5)",
+        "unit": "None"
+    },
+    "mm5": {
+        "description": "Mes (Día 5)",
+        "unit": "None"
+    },
+    "aa5": {
+        "description": "Año (Día 5)",
+        "unit": "None"
+    },
+    "p10d5": {
+        "description": "1. A qué hora se acostó ayer (Día 5)",
+        "unit": "None"
+    },
+    "p10d5a": {
+        "description": "1. AM/PM (Día 5)",
+        "unit": "None"
+    },
+    "p15d5": {
+        "description": "2. A qué hora se despertó ayer (Día 5)",
+        "unit": "None"
+    },
+    "p15d5a": {
+        "description": "2. AM/PM (Día 5)",
+        "unit": "None"
+    },
+    "dd6": {
+        "description": "Día (Día 6)",
+        "unit": "None"
+    },
+    "mm6": {
+        "description": "Mes (Día 6)",
+        "unit": "None"
+    },
+    "aa6": {
+        "description": "Año (Día 6)",
+        "unit": "None"
+    },
+    "p10d6": {
+        "description": "1. A qué hora se acostó ayer (Día 6)",
+        "unit": "None"
+    },
+    "p10d6a": {
+        "description": "1. AM/PM (Día 6)",
+        "unit": "None"
+    },
+    "p15d6": {
+        "description": "2. A qué hora se despertó ayer (Día 6)",
+        "unit": "None"
+    },
+    "p15d6a": {
+        "description": "2. AM/PM (Día 6)",
+        "unit": "None"
+    },
+    "dd7": {
+        "description": "Día (Día 7)",
+        "unit": "None"
+    },
+    "mm7": {
+        "description": "Mes (Día 7)",
+        "unit": "None"
+    },
+    "aa7": {
+        "description": "Año (Día 7)",
+        "unit": "None"
+    },
+    "p10d7": {
+        "description": "1. A qué hora se acostó ayer (Día 7)",
+        "unit": "None"
+    },
+    "p10d7a": {
+        "description": "1. AM/PM (Día 7)",
+        "unit": "None"
+    },
+    "p15d7": {
+        "description": "2. A qué hora se despertó ayer (Día 7)",
+        "unit": "None"
+    },
+    "p15d7a": {
+        "description": "1. AM/PM (Día 7)",
+        "unit": "None"
+    },
+    "p3_d1": {
+        "description": "1. ¿Cómo calificaría la cantidad de sueño anoche, comparado con la cantidad que duerme normalmente? Día 1",
+        "unit": "None"
+    },
+    "p3_d2": {
+        "description": "1. ¿Cómo calificaría la cantidad de sueño anoche, comparado con la cantidad que duerme normalmente? Día 2",
+        "unit": "None"
+    },
+    "p3_d3": {
+        "description": "1. ¿Cómo calificaría la cantidad de sueño anoche, comparado con la cantidad que duerme normalmente? Día 3",
+        "unit": "None"
+    },
+    "p3_d4": {
+        "description": "1. ¿Cómo calificaría la cantidad de sueño anoche, comparado con la cantidad que duerme normalmente? Día 4",
+        "unit": "None"
+    },
+    "p3_d5": {
+        "description": "1. ¿Cómo calificaría la cantidad de sueño anoche, comparado con la cantidad que duerme normalmente? Día 5",
+        "unit": "None"
+    },
+    "p3_d6": {
+        "description": "1. ¿Cómo calificaría la cantidad de sueño anoche, comparado con la cantidad que duerme normalmente? Día 6",
+        "unit": "None"
+    },
+    "p3_d7": {
+        "description": "1. ¿Cómo calificaría la cantidad de sueño anoche, comparado con la cantidad que duerme normalmente? Día 7",
+        "unit": "None"
+    },
+    "p3a_d1": {
+        "description": "2a. ¿Cómo calificaría la calidad de sueño anoche, sin considerar cuanto dormió? Día 1",
+        "unit": "None"
+    },
+    "p3a_d2": {
+        "description": "2a. ¿Cómo calificaría la calidad de sueño anoche, sin considerar cuanto dormió? Día 2",
+        "unit": "None"
+    },
+    "p3a_d3": {
+        "description": "2a. ¿Cómo calificaría la calidad de sueño anoche, sin considerar cuanto dormió?",
+        "unit": "None"
+    },
+    "p3a_d4": {
+        "description": "2a. ¿Cómo calificaría la calidad de sueño anoche, sin considerar cuanto dormió?",
+        "unit": "None"
+    },
+    "p3a_d5": {
+        "description": "2a. ¿Cómo calificaría la calidad de sueño anoche, sin considerar cuanto dormió?",
+        "unit": "None"
+    },
+    "p3a_d6": {
+        "description": "2a. ¿Cómo calificaría la calidad de sueño anoche, sin considerar cuanto dormió?",
+        "unit": "None"
+    },
+    "p3a_d7": {
+        "description": "2a. ¿Cómo calificaría la calidad de sueño anoche, sin considerar cuanto dormió?",
+        "unit": "None"
+    },
+    "p3b_d1": {
+        "description": "2b. Si durmió mal, ¿Cuál fue el problema (por ejemplo, estuvo inquieta, había ruido, tuvo calor, estrés)?",
+        "unit": "None"
+    },
+    "p3b_d2": {
+        "description": "2b. Si durmió mal, ¿Cuál fue el problema (por ejemplo, estuvo inquieta, había ruido, tuvo calor, estrés)?",
+        "unit": "None"
+    },
+    "p3b_d3": {
+        "description": "2b. Si durmió mal, ¿Cuál fue el problema (por ejemplo, estuvo inquieta, había ruido, tuvo calor, estrés)?",
+        "unit": "None"
+    },
+    "p3b_d4": {
+        "description": "2b. Si durmió mal, ¿Cuál fue el problema (por ejemplo, estuvo inquieta, había ruido, tuvo calor, estrés)?",
+        "unit": "None"
+    },
+    "p3b_d5": {
+        "description": "2b. Si durmió mal, ¿Cuál fue el problema (por ejemplo, estuvo inquieta, había ruido, tuvo calor, estrés)?",
+        "unit": "None"
+    },
+    "p3b_d6": {
+        "description": "Si durmió mal, ¿Cuál fue el problema (por ejemplo, estuvo inquieta, había ruido, tuvo calor, estrés)?",
+        "unit": "None"
+    },
+    "p3b_d7": {
+        "description": "Si durmió mal, ¿Cuál fue el problema (por ejemplo, estuvo inquieta, había ruido, tuvo calor, estrés)?",
+        "unit": "None"
+    },
+    "p4_d1": {
+        "description": "¿Se despertó en medio de la noche? Día 1",
+        "unit": "1= Sí, 2= No"
+    },
+    "p4_d2": {
+        "description": "¿Se despertó en medio de la noche? Día 2",
+        "unit": "1= Sí, 2= No"
+    },
+    "p4_d3": {
+        "description": "¿Se despertó en medio de la noche? Día 3",
+        "unit": "1= Sí, 2= No"
+    },
+    "p4_d4": {
+        "description": "¿Se despertó en medio de la noche? Día 4",
+        "unit": "1= Sí, 2= No"
+    },
+    "p4_d5": {
+        "description": "¿Se despertó en medio de la noche? Día 5",
+        "unit": "1= Sí, 2= No"
+    },
+    "p4_d6": {
+        "description": "¿Se despertó en medio de la noche? Día 6",
+        "unit": "1= Sí, 2= No"
+    },
+    "p4_d7": {
+        "description": "¿Se despertó en medio de la noche? Día 7",
+        "unit": "1= Sí, 2= No"
+    },
+    "p5_d1": {
+        "description": "¿Le costó trabajo dormirse anoche? Día 1",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "p5_d2": {
+        "description": "¿Le costó trabajo dormirse anoche? Día 2",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "p5_d3": {
+        "description": "¿Le costó trabajo dormirse anoche? Día 3",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "p5_d4": {
+        "description": "¿Le costó trabajo dormirse anoche? Día 4",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "p5_d5": {
+        "description": "¿Le costó trabajo dormirse anoche? Día 5",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "p5_d6": {
+        "description": "¿Le costó trabajo dormirse anoche? Día 6",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "p5_d7": {
+        "description": "¿Le costó trabajo dormirse anoche? Día 7",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "r01_5d1": {
+        "description": "Anoche, ¿Cuánto le molestó o perturbó el ruido del interior de su casa? Día 1",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "r01_5d2": {
+        "description": "Anoche, ¿Cuánto le molestó o perturbó el ruido del interior de su casa? Día 2",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "r01_5d3": {
+        "description": "Anoche, ¿Cuánto le molestó o perturbó el ruido del interior de su casa? Día 3",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "r01_5d4": {
+        "description": "Anoche, ¿Cuánto le molestó o perturbó el ruido del interior de su casa? Día 4",
+        "unit": "1. No, o muy poco; 2. Un poco; 3. Mucho; 4. Muchísimo"
+    },
+    "r01_5d5": {
+        "description": "5. Anoche, ¿Cuánto le molestó o perturbó el ruido del interior de su casa? Día 5",
+        "unit": "None"
+    },
+    "r01_5d6": {
+        "description": "5. Anoche, ¿Cuánto le molestó o perturbó el ruido del interior de su casa? Día 6",
+        "unit": "None"
+    },
+    "r01_5d7": {
+        "description": "5. Anoche, ¿Cuánto le molestó o perturbó el ruido del interior de su casa? Día 7",
+        "unit": "None"
+    },
+    "r01_6d1": {
+        "description": "6. Anoche, ¿Cuánto le molestó o perturbó el ruido del exterior de su casa? Día 1",
+        "unit": "None"
+    },
+    "r01_6d2": {
+        "description": "6. Anoche, ¿Cuánto le molestó o perturbó el ruido del exterior de su casa? Día 2",
+        "unit": "None"
+    },
+    "r01_6d3": {
+        "description": "6. Anoche, ¿Cuánto le molestó o perturbó el ruido del exterior de su casa? Día 3",
+        "unit": "None"
+    },
+    "r01_6d4": {
+        "description": "6. Anoche, ¿Cuánto le molestó o perturbó el ruido del exterior de su casa? Día 4",
+        "unit": "None"
+    },
+    "r01_6d5": {
+        "description": "6. Anoche, ¿Cuánto le molestó o perturbó el ruido del exterior de su casa? Día 5",
+        "unit": "None"
+    },
+    "r01_6d6": {
+        "description": "6. Anoche, ¿Cuánto le molestó o perturbó el ruido del exterior de su casa? Día 6",
+        "unit": "None"
+    },
+    "r01_6d7": {
+        "description": "6. Anoche, ¿Cuánto le molestó o perturbó el ruido del exterior de su casa? Día 7",
+        "unit": "None"
+    },
+    "p7_id1a": {
+        "description": "Hora de inicio de dormir durante el día (Día 1/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_id1ah": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 1/ siesta 1)",
+        "unit": "AM/PM"
+    },
+    "p7_fd1a": {
+        "description": "Hora de fin de dormir durante el día (Día 1/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd1ah": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Día 1 siesta 1)",
+        "unit": "AM/PM"
+    },
+    "p7_id1b": {
+        "description": "Hora de inicio de dormir durante el día (Día 1/ sista 2)",
+        "unit": "None"
+    },
+    "p7_id1bh": {
+        "description": "Hora de inico de dormir durante el día, AM/PM ( Dia 1/siesta 2)",
+        "unit": "AM/PM"
+    },
+    "p7_fd1b": {
+        "description": "Hora de fin de dormir durante el día (Día 1/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd1bh": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 1/siesta 2)",
+        "unit": "AM/PM"
+    },
+    "p7_id1c": {
+        "description": "Hora de inicio de dormir durante el día (Dia 1/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id1ch": {
+        "description": "Hora de inico de dormir durante el día, AM/PM (Dia 1/siesta 3)",
+        "unit": "AM/PM"
+    },
+    "p7_fd1c": {
+        "description": "Hora de fin de dormir durante el día (Dia 1/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd1ch": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 1/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id2a": {
+        "description": "Hora de inicio de dormir durante el día (Día 2/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_id2ah": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 2/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd2a": {
+        "description": "Hora de fin de dormir durante el día (Día 2/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd2ah": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Día 2 / siesta 1)",
+        "unit": "None"
+    },
+    "p7_id2b": {
+        "description": "Hora de inicio de dormir durante el día (Día 2/ sista 2)",
+        "unit": "None"
+    },
+    "p7_id2bh": {
+        "description": "Hora de inico de dormir durante el día, AM/PM ( Dia 2/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd2b": {
+        "description": "Hora de fin de dormir durante el día (Día 2/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd2bh": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 2/siesta 2)",
+        "unit": "None"
+    },
+    "p7_id2c": {
+        "description": "Hora de inicio de dormir durante el día (Dia 2/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id2ch": {
+        "description": "Hora de inico de dormir durante el día, AM/PM (Dia 2/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd2c": {
+        "description": "Hora de fin de dormir durante el día (Dia 2/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd2ch": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 2/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id3a": {
+        "description": "Hora de inicio de dormir durante el día (Día 2/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_id3ah": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 3/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd3a": {
+        "description": "Hora de fin de dormir durante el día (Día 3/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd3ah": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Día 3 / siesta 1)",
+        "unit": "None"
+    },
+    "p7_id3b": {
+        "description": "Hora de inicio de dormir durante el día (Día 3/ sista 2)",
+        "unit": "None"
+    },
+    "p7_id3bh": {
+        "description": "Hora de inico de dormir durante el día, AM/PM ( Dia 3/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd3b": {
+        "description": "Hora de fin de dormir durante el día (Día 3/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd3bh": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 3/siesta 2)",
+        "unit": "None"
+    },
+    "p7_id3c": {
+        "description": "Hora de inicio de dormir durante el día (Dia 3/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id3ch": {
+        "description": "Hora de inico de dormir durante el día, AM/PM (Dia 3/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd3c": {
+        "description": "Hora de fin de dormir durante el día (Dia 3/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd3ch": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 3/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id4a": {
+        "description": "Hora de inicio de dormir durante el día (Día 4/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_id4ah": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 4/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd4a": {
+        "description": "Hora de fin de dormir durante el día (Día 4/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd4ah": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Día 4 / siesta 1)",
+        "unit": "None"
+    },
+    "p7_id4b": {
+        "description": "Hora de inicio de dormir durante el día (Día 4/ siesta 2)",
+        "unit": "None"
+    },
+    "p7_id4bh": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 4/ siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd4b": {
+        "description": "Hora de fin de dormir durante el día (Día 4/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd4bh": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 4/siesta 2)",
+        "unit": "None"
+    },
+    "p7_id4c": {
+        "description": "Hora de inicio de dormir durante el día (Dia 4/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id4ch": {
+        "description": "Hora de inico de dormir durante el día, AM/PM (Dia 4/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd4c": {
+        "description": "Hora de fin de dormir durante el día (Dia 4/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd4ch": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 4/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id5a": {
+        "description": "Hora de inicio de dormir durante el día (Día 5/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_id5ah": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 5/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd5a": {
+        "description": "Hora de fin de dormir durante el día (Día 5/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd5ah": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Día 5 / siesta 1)",
+        "unit": "None"
+    },
+    "p7_id5b": {
+        "description": "Hora de inicio de dormir durante el día (Día 5/ sista 2)",
+        "unit": "None"
+    },
+    "p7_id5bh": {
+        "description": "Hora de inico de dormir durante el día, AM/PM ( Dia 5/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd5b": {
+        "description": "Hora de fin de dormir durante el día (Día 5/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd5bh": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 5/siesta 2)",
+        "unit": "None"
+    },
+    "p7_id5c": {
+        "description": "Hora de inicio de dormir durante el día (Dia 5/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id5ch": {
+        "description": "Hora de inico de dormir durante el día, AM/PM (Dia 5/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd5c": {
+        "description": "Hora de fin de dormir durante el día (Dia 5/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd5ch": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 5/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id6a": {
+        "description": "Hora de inicio de dormir durante el día (Día 6/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_id6ah": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 6/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd6a": {
+        "description": "Hora de fin de dormir durante el día (Día 6/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd6ah": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Día 6 / siesta 1)",
+        "unit": "None"
+    },
+    "p7_id6b": {
+        "description": "Hora de inicio de dormir durante el día (Día 6/ sista 2)",
+        "unit": "None"
+    },
+    "p7_id6bh": {
+        "description": "Hora de inico de dormir durante el día, AM/PM ( Dia 6/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd6b": {
+        "description": "Hora de fin de dormir durante el día (Día 6/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd6bh": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 6/siesta 2)",
+        "unit": "None"
+    },
+    "p7_id6c": {
+        "description": "Hora de inicio de dormir durante el día (Dia 6/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id6ch": {
+        "description": "Hora de inico de dormir durante el día, AM/PM (Dia 6/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd6c": {
+        "description": "Hora de fin de dormir durante el día (Dia 6/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd6ch": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 6/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id7a": {
+        "description": "Hora de inicio de dormir durante el día (Día 7/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_id7ah": {
+        "description": "Hora de inicio de dormir durante el día, AM/PM (Día 7/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd7a": {
+        "description": "Hora de fin de dormir durante el día (Día 7/ siesta 1)",
+        "unit": "None"
+    },
+    "p7_fd7ah": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Día 7 / siesta 1)",
+        "unit": "None"
+    },
+    "p7_id7b": {
+        "description": "Hora de inicio de dormir durante el día (Día 7/ sista 2)",
+        "unit": "None"
+    },
+    "p7_id7bh": {
+        "description": "Hora de inico de dormir durante el día, AM/PM ( Dia 7/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd7b": {
+        "description": "Hora de fin de dormir durante el día (Día 7/siesta 2)",
+        "unit": "None"
+    },
+    "p7_fd7bh": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 7/siesta 2)",
+        "unit": "None"
+    },
+    "p7_id7c": {
+        "description": "Hora de inicio de dormir durante el día (Dia 7/siesta 3)",
+        "unit": "None"
+    },
+    "p7_id7ch": {
+        "description": "Hora de inico de dormir durante el día, AM/PM (Dia 7/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd7c": {
+        "description": "Hora de fin de dormir durante el día (Dia 7/siesta 3)",
+        "unit": "None"
+    },
+    "p7_fd7ch": {
+        "description": "Hora de fin de dormir durante el día, AM/PM (Dia 7/siesta 3)",
+        "unit": "None"
+    },
+    "r01_8ad1": {
+        "description": "¿Qué fue lo último que comió ayer por la noche? Día 1",
+        "unit": "None"
+    },
+    "r01_8bd1": {
+        "description": "¿A qué hora? Día 1",
+        "unit": "None"
+    },
+    "r01_8cd1": {
+        "description": "AM/PM Dia 1",
+        "unit": "None"
+    },
+    "r01_8ad2": {
+        "description": "¿Qué fue lo último que comió ayer por la noche? Día 2",
+        "unit": "None"
+    },
+    "r01_8bd2": {
+        "description": "¿A qué hora? Día2",
+        "unit": "None"
+    },
+    "r01_8cd2": {
+        "description": "AM/PM Dia 2",
+        "unit": "None"
+    },
+    "r01_8ad3": {
+        "description": "¿Qué fue lo último que comió ayer por la noche? Día 3",
+        "unit": "None"
+    },
+    "r01_8bd3": {
+        "description": "¿A qué hora? Día 3",
+        "unit": "None"
+    },
+    "r01_8cd3": {
+        "description": "AM/PM Dia 3",
+        "unit": "None"
+    },
+    "r01_8ad4": {
+        "description": "¿Qué fue lo último que comió ayer por la noche? Día 4",
+        "unit": "None"
+    },
+    "r01_8bd4": {
+        "description": "¿A qué hora? Día 4",
+        "unit": "None"
+    },
+    "r01_8cd4": {
+        "description": "AM/PM Dia 4",
+        "unit": "None"
+    },
+    "r01_8ad5": {
+        "description": "¿Qué fue lo último que comió ayer por la noche? Día 5",
+        "unit": "None"
+    },
+    "r01_8bd5": {
+        "description": "¿A qué hora? Día 5",
+        "unit": "None"
+    },
+    "r01_8cd5": {
+        "description": "AM/PM Dia 5",
+        "unit": "None"
+    },
+    "r01_8ad6": {
+        "description": "¿Qué fue lo último que comió ayer por la noche? Día 6",
+        "unit": "None"
+    },
+    "r01_8bd6": {
+        "description": "8. ¿A qué hora? Día 6",
+        "unit": "None"
+    },
+    "r01_8cd6": {
+        "description": "8. AM/PM Dia 6",
+        "unit": "None"
+    },
+    "r01_8ad7": {
+        "description": "8. ¿Qué fue lo último que comió ayer por la noche? Día 7",
+        "unit": "None"
+    },
+    "r01_8bd7": {
+        "description": "8. ¿A qué hora? Día 7",
+        "unit": "None"
+    },
+    "r01_8cd7": {
+        "description": "8. AM/PM Dia 7",
+        "unit": "None"
+    },
+    "r01_9ad1": {
+        "description": "9. ¿Qué fue lo último que bebió ayer en la noche además de agua simple? Día 1",
+        "unit": "None"
+    },
+    "r01_9ad2": {
+        "description": "9. ¿Qué fue lo último que bebió ayer en la noche además de agua simple? Día 2",
+        "unit": "None"
+    },
+    "r01_9ad3": {
+        "description": "9. ¿Qué fue lo último que bebió ayer en la noche además de agua simple? Día 3",
+        "unit": "None"
+    },
+    "r01_9ad4": {
+        "description": "9. ¿Qué fue lo último que bebió ayer en la noche además de agua simple? Día 4",
+        "unit": "None"
+    },
+    "r01_9ad5": {
+        "description": "9. ¿Qué fue lo último que bebió ayer en la noche además de agua simple? Día 5",
+        "unit": "None"
+    },
+    "r01_9ad6": {
+        "description": "9. ¿Qué fue lo último que bebió ayer en la noche además de agua simple? Día 6",
+        "unit": "None"
+    },
+    "r01_9ad7": {
+        "description": "9. ¿Qué fue lo último que bebió ayer en la noche además de agua simple? Día 7",
+        "unit": "None"
+    },
+    "r01_9bd1": {
+        "description": "9. ¿A qué hora? Día 1",
+        "unit": "None"
+    },
+    "r01_9cd1": {
+        "description": "9. AM/PM Dia 1",
+        "unit": "None"
+    },
+    "r01_9bd2": {
+        "description": "9. ¿A qué hora? Día 2",
+        "unit": "None"
+    },
+    "r01_9cd2": {
+        "description": "9. AM/PM Dia 2",
+        "unit": "None"
+    },
+    "r01_9bd3": {
+        "description": "9. ¿A qué hora? Día 3",
+        "unit": "None"
+    },
+    "r01_9cd3": {
+        "description": "9. AM/PM Dia 3",
+        "unit": "None"
+    },
+    "r01_9bd4": {
+        "description": "9. ¿A qué hora? Día 4",
+        "unit": "None"
+    },
+    "r01_9cd4": {
+        "description": "9. AM/PM Dia 4",
+        "unit": "None"
+    },
+    "r01_9bd5": {
+        "description": "9. ¿A qué hora? Día 5",
+        "unit": "None"
+    },
+    "r01_9cd5": {
+        "description": "9. AM/PM Dia 5",
+        "unit": "None"
+    },
+    "r01_9bd6": {
+        "description": "9. ¿A qué hora? Día 6",
+        "unit": "None"
+    },
+    "r01_9cd6": {
+        "description": "9. AM/PM Dia 6",
+        "unit": "None"
+    },
+    "r01_9bd7": {
+        "description": "9. ¿A qué hora? Día 7",
+        "unit": "None"
+    },
+    "r01_9cd7": {
+        "description": "9. AM/PM Dia 7",
+        "unit": "None"
+    },
+    "r01_10ad1": {
+        "description": "10. ¿Qué fue lo primero que comió hoy por la mañana? Día 1",
+        "unit": "None"
+    },
+    "r01_10bd1": {
+        "description": "10. ¿A qué hora? Día 1",
+        "unit": "None"
+    },
+    "r01_10cd1": {
+        "description": "10. AM/PM Dia 1",
+        "unit": "None"
+    },
+    "r01_10ad2": {
+        "description": "10. ¿Qué fue lo primero que comió hoy por la mañana? Día 2",
+        "unit": "None"
+    },
+    "r01_10bd2": {
+        "description": "10. ¿A qué hora? Día 2",
+        "unit": "None"
+    },
+    "r01_10cd2": {
+        "description": "10. AM/PM Dia 2",
+        "unit": "None"
+    },
+    "r01_10ad3": {
+        "description": "10. ¿Qué fue lo primero que comió hoy por la mañana? Día 3",
+        "unit": "None"
+    },
+    "r01_10bd3": {
+        "description": "10. ¿A qué hora? Día 3",
+        "unit": "None"
+    },
+    "r01_10cd3": {
+        "description": "10. AM/PM Dia 3",
+        "unit": "None"
+    },
+    "r01_10ad4": {
+        "description": "10. ¿Qué fue lo primero que comió hoy por la mañana? Día 4",
+        "unit": "None"
+    },
+    "r01_10bd4": {
+        "description": "10. ¿A qué hora? Día 4",
+        "unit": "None"
+    },
+    "r01_10cd4": {
+        "description": "10. AM/PM Dia 4",
+        "unit": "None"
+    },
+    "r01_10ad5": {
+        "description": "10. ¿Qué fue lo primero que comió hoy por la mañana? Día 5",
+        "unit": "None"
+    },
+    "r01_10bd5": {
+        "description": "10. ¿A qué hora? Día 5",
+        "unit": "None"
+    },
+    "r01_10cd5": {
+        "description": "10. AM/PM Dia 5",
+        "unit": "None"
+    },
+    "r01_10ad6": {
+        "description": "10. ¿Qué fue lo primero que comió hoy por la mañana? Día 6",
+        "unit": "None"
+    },
+    "r01_10bd6": {
+        "description": "10. ¿A qué hora? Día 6",
+        "unit": "None"
+    },
+    "r01_10cd6": {
+        "description": "10. AM/PM Dia 6",
+        "unit": "None"
+    },
+    "r01_10ad7": {
+        "description": "10. ¿Qué fue lo primero que comió hoy por la mañana? Día 7",
+        "unit": "None"
+    },
+    "r01_10bd7": {
+        "description": "10. ¿A qué hora? Día 7",
+        "unit": "None"
+    },
+    "r01_10cd7": {
+        "description": "10. AM/PM Dia 7",
+        "unit": "None"
+    },
+    "r01_11ad1": {
+        "description": "11. ¿Qué fue lo primero que bebió hoy por la mañana? Día 1",
+        "unit": "None"
+    },
+    "r01_11bd1": {
+        "description": "11. ¿A qué hora? Día 1",
+        "unit": "None"
+    },
+    "r01_11cd1": {
+        "description": "11. AM/PM Dia 1",
+        "unit": "None"
+    },
+    "r01_11ad2": {
+        "description": "11. ¿Qué fue lo primero que bebió hoy por la mañana? Día 2",
+        "unit": "None"
+    },
+    "r01_11bd2": {
+        "description": "11. ¿A qué hora? Día 2",
+        "unit": "None"
+    },
+    "r01_11cd2": {
+        "description": "11. AM/PM Dia 2",
+        "unit": "None"
+    },
+    "r01_11ad3": {
+        "description": "11. ¿Qué fue lo primero que bebió hoy por la mañana? Día 3",
+        "unit": "None"
+    },
+    "r01_11bd3": {
+        "description": "11. ¿A qué hora? Día 3",
+        "unit": "None"
+    },
+    "r01_11cd3": {
+        "description": "11. AM/PM Dia 3",
+        "unit": "None"
+    },
+    "r01_11ad4": {
+        "description": "11. ¿Qué fue lo primero que bebió hoy por la mañana? Día 4",
+        "unit": "None"
+    },
+    "r01_11bd4": {
+        "description": "11. ¿A qué hora? Día 4",
+        "unit": "None"
+    },
+    "r01_11cd4": {
+        "description": "11. AM/PM Dia 4",
+        "unit": "None"
+    },
+    "r01_11ad5": {
+        "description": "11. ¿Qué fue lo primero que bebió hoy por la mañana? Día 5",
+        "unit": "None"
+    },
+    "r01_11bd5": {
+        "description": "11. ¿A qué hora? Día 5",
+        "unit": "None"
+    },
+    "r01_11cd5": {
+        "description": "11. AM/PM Dia 5",
+        "unit": "None"
+    },
+    "r01_11ad6": {
+        "description": "11. ¿Qué fue lo primero que bebió hoy por la mañana? Día 6",
+        "unit": "None"
+    },
+    "r01_11bd6": {
+        "description": "11. ¿A qué hora? Día 6",
+        "unit": "None"
+    },
+    "r01_11cd6": {
+        "description": "11. AM/PM Dia 6",
+        "unit": "None"
+    },
+    "r01_11ad7": {
+        "description": "11. ¿Qué fue lo primero que bebió hoy por la mañana? Día 7",
+        "unit": "None"
+    },
+    "r01_11bd7": {
+        "description": "11. ¿A qué hora? Día 7",
+        "unit": "None"
+    },
+    "r01_11cd7": {
+        "description": "11. AM/PM Dia 7",
+        "unit": "None"
+    },
+    "obs": {
+        "description": "None",
+        "unit": "None"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "DeviceID": {
+        "description": "None",
+        "unit": "None"
+    },
+    "AssessmentName": {
+        "description": "None",
+        "unit": "None"
+    },
+    "Inst": {
+        "description": "None",
+        "unit": "None"
+    },
+    "RawScore": {
+        "description": null,
+        "unit": null
+    },
+    "Theta": {
+        "description": null,
+        "unit": null
+    },
+    "TScore": {
+        "description": null,
+        "unit": null
+    },
+    "SE": {
+        "description": null,
+        "unit": null
+    },
+    "ItmCnt": {
+        "description": null,
+        "unit": null
+    },
+    "DateFinished": {
+        "description": null,
+        "unit": null
+    },
+    "Column1": {
+        "description": null,
+        "unit": null
+    },
+    "Column2": {
+        "description": null,
+        "unit": null
+    },
+    "Column3": {
+        "description": null,
+        "unit": null
+    },
+    "Column4": {
+        "description": null,
+        "unit": null
+    },
+    "Column5": {
+        "description": "None",
+        "unit": "None"
+    },
+    "Language": {
+        "description": "Cognition, Language",
+        "unit": "None"
+    },
+    "ComputedScore": {
+        "description": "None",
+        "unit": "None"
+    },
+    "UncorrectedStandardScore": {
+        "description": "None",
+        "unit": "None"
+    },
+    "AgeCorrectedStandardScore": {
+        "description": "None",
+        "unit": "None"
+    },
+    "NationalPercentileageadjuste": {
+        "description": "None",
+        "unit": "None"
+    },
+    "FullyCorrectedTscore": {
+        "description": "None",
+        "unit": "None"
+    },
+    "InstrumentBreakoff": {
+        "description": "None",
+        "unit": "None"
+    },
+    "InstrumentStatus2": {
+        "description": "None",
+        "unit": "None"
+    },
+    "InstrumentRCReason": {
+        "description": "None",
+        "unit": "None"
+    },
+    "InstrumentRCReasonOther": {
+        "description": null,
+        "unit": null
+    },
+    "AppVersion": {
+        "description": null,
+        "unit": null
+    },
+    "iPadVersion": {
+        "description": null,
+        "unit": null
+    },
+    "FirmwareVersion": {
+        "description": null,
+        "unit": null
+    }
+}

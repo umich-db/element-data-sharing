@@ -7,9 +7,10 @@ import pdfplumber
 import csv
 import json
 import openpyxl
+import subprocess
+import os
 
 def gpt4(system, user):
-    # Load environment file for secrets.
     try:
         if load_dotenv('.env') is False:
             raise TypeError
@@ -47,6 +48,7 @@ def gpt4(system, user):
             stop=None)
     print("API call success!")
     response = response.choices[0].message.content
+    print(f"response is {response}")
     return response
 
 def embedding(input, dimension):
@@ -105,6 +107,16 @@ def read_docx(file_path):
         tables.append(table_data)
     return '\n'.join(full_text), tables
 
+def convert_doc_to_docx(doc_path):
+    try:
+        output_path = os.path.splitext(doc_path)[0] + ".docx"
+        subprocess.run(["soffice", "--headless", "--convert-to", "docx", doc_path, "--outdir", os.path.dirname(doc_path)], check=True)
+        os.remove(doc_path)  # Delete the original .doc file
+        return output_path
+    except Exception as e:
+        print(f"Error converting .doc to .docx: {e}")
+        return None
+
 def read_csv(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as csvfile:
@@ -138,29 +150,63 @@ def write_json(data, output_file):
 
 def main(des_path, csv_path, json_output_path):
     # Read content from files
+    print(f"csv_path: {csv_path}")
     col = read_csv(csv_path)
-
+    print(f"CSV read, content: {col}")
     # Determine the description file type and read its content
     if des_path.endswith('.pdf'):
         des = read_pdf(des_path)
+        print("pdf")
     elif des_path.endswith('.docx'):
         print("reading doc")
         des = read_docx(des_path)
+    elif des_path.endswith('.doc'):
+        print("Converting .doc to .docx")
+        docx_path = convert_doc_to_docx(des_path)
+        if docx_path:
+            des = read_docx(docx_path)
+        else:
+            des = None
     elif des_path.endswith('.xlsx'):
         des = read_excel(des_path)
     else:
         des = None
-
+        print("None")
+    print("after")
     if des is not None:
-        # Get the response from GPT-4
-        result = gpt4("You are an excellent data processing assistant. You will pick column values from 'col', and find their corresponding descriptions and units in 'des', and return them in JSON format. If any column is missing information or if you think they do not match at all, just put 'None' there, but you need to try your best to match them. For return, you can't return anything else besides a json file format output!!!! return json format: {column name: {description: 'something', unit: ''something}} ", f"col: {col}; des: {des}")
+        # Split columns into chunks of 10
+        chunk_size = 10
+        chunks = [col[i:i + chunk_size] for i in range(0, len(col), chunk_size)]
 
-        # Write the result to a JSON file
-        write_json(result, json_output_path)
+        # Initialize combined results
+        combined_result = {}
 
-        print(result)
+        # Process each chunk
+        for chunk in chunks:
+
+            result = gpt4(
+                "You are an excellent data processing assistant. You will pick column values from 'col', and find their corresponding descriptions and units in 'des', and return them in JSON format. If any column is missing information or if you think they do not match at all, just put 'None' there, but you need to try your best to match them. For return, you can't return anything else besides a json file format output!!!! return json format: {column name: {description: 'something', unit: 'something'}} ",
+                f"col: {chunk}; des: {des}"
+            )
+            print(f"before json decode: {result}")
+            try:
+                # Cleanup and parse the JSON result
+                result = result.strip("```json").strip("```").strip()
+                parsed_result = json.loads(result)
+                combined_result.update(parsed_result)
+                print("decode success:", parsed_result)
+            except json.JSONDecodeError as e:
+                # Print failed content and the error
+                print(f"JSON decode failed: {e}")
+                print(f"content: {result}")
+
+        # Write the combined results to JSON
+        write_json(combined_result, json_output_path)
+
+        print("result:", combined_result)
     else:
         print("Unsupported file type for description file.")
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:

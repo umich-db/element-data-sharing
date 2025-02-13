@@ -1,0 +1,66 @@
+{
+    "proyecto": {
+        "description": null,
+        "unit": null
+    },
+    "folio": {
+        "description": null,
+        "unit": null
+    },
+    "foliocc": {
+        "description": null,
+        "unit": null
+    },
+    "etapa": {
+        "description": null,
+        "unit": null
+    },
+    "id": {
+        "description": null,
+        "unit": null
+    },
+    "f0": {
+        "description": null,
+        "unit": null
+    },
+    "fecha_etapa": {
+        "description": null,
+        "unit": null
+    },
+    "num": {
+        "description": "Numero de residente",
+        "unit": null
+    },
+    "pcv4_1": {
+        "description": "Nombre de todas las personas que integran este hogar, incluya a las/los bebés y a los adultos mayores, también a los empleados domésticos que duerman aquí. Empiece con el jefe o jefa del hogar",
+        "unit": "1= Hombre, 2= Mujer, 00=Menores de un año"
+    },
+    "pcv4_2": {
+        "description": "(NOMBRE) es:",
+        "unit": "1= Hombre, 2= Mujer, 00=Menores de un año"
+    },
+    "pcv4_3": {
+        "description": "¿Cuántos años cumplidos tiene actualmente (NOMBRE)?",
+        "unit": "years"
+    },
+    "pcv4_4a": {
+        "description": "¿En qué día nació (NOMBRE)?",
+        "unit": "day"
+    },
+    "pcv4_4b": {
+        "description": "¿En qué mes nació (NOMBRE)?",
+        "unit": "month"
+    },
+    "pcv4_4c": {
+        "description": "¿En qué año nació (NOMBRE)?",
+        "unit": "year"
+    },
+    "pcv4_7": {
+        "description": "¿Qué es (NOMBRE) del(la) jefe(a) del hogar?",
+        "unit": "relationship"
+    },
+    "pcv4_7a": {
+        "description": "Especifique otro parentesco",
+        "unit": "text"
+    }
+}

@@ -1,0 +1,454 @@
+{
+    "FOLIOCC": {
+        "description": null,
+        "unit": null
+    },
+    "ener_kcal": {
+        "description": "Energía en Kcal/100g",
+        "unit": "Energy Kcal/100g"
+    },
+    "ener_kj": {
+        "description": "Energía KJ/100g",
+        "unit": "Energy KJ/100g"
+    },
+    "agregado_a_la_leche_az�car": {
+        "description": null,
+        "unit": null
+    },
+    "agregado_a_la_leche_chocolate": {
+        "description": null,
+        "unit": null
+    },
+    "agua_sola": {
+        "description": null,
+        "unit": null
+    },
+    "aguacate": {
+        "description": null,
+        "unit": null
+    },
+    "alg�n_marisco__camar�n__ostiones": {
+        "description": null,
+        "unit": null
+    },
+    "arroz": {
+        "description": null,
+        "unit": null
+    },
+    "atole_de_ma�z": {
+        "description": null,
+        "unit": null
+    },
+    "at�n_y_sardina": {
+        "description": "None",
+        "unit": "None"
+    },
+    "az�car__a_parte_de_la_agregada_a": {
+        "description": "Azúcar total",
+        "unit": "g/100g"
+    },
+    "barras_de_cereal": {
+        "description": "None",
+        "unit": "None"
+    },
+    "bebidas_o_aguas_de_sabor_con_az�": {
+        "description": "None",
+        "unit": "None"
+    },
+    "bebidas_o_aguas_de_sabor_sin_az�": {
+        "description": "None",
+        "unit": "None"
+    },
+    "br�coli_o_coliflor": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cacahuates__habas_o_pepitas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "caf�_con_az�car": {
+        "description": "Cafeína",
+        "unit": "mg/100g"
+    },
+    "caf�_sin_az�car": {
+        "description": "Cafeína",
+        "unit": "mg/100g"
+    },
+    "calabacita": {
+        "description": "None",
+        "unit": "None"
+    },
+    "caldo_de_pollo__res_o_verduras__": {
+        "description": "None",
+        "unit": "None"
+    },
+    "carne_de_puerco": {
+        "description": "None",
+        "unit": "None"
+    },
+    "carne_de_res": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cereal_de_caja_a__b�sicos__corn_": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cereal_de_caja_b__adicionados_co": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cereal_de_caja_c__chocolate_otro": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cereal_de_caja_d__altos_en_fibra": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cereal_de_caja_e__light__special": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cereal_de_caja_f__multi": {
+        "description": "None",
+        "unit": "None"
+    },
+    "cereal_de_caja_g__saborizados__f": {
+        "description": "None",
+        "unit": "None"
+    },
+    "col": {
+        "description": "None",
+        "unit": "None"
+    },
+    "crema": {
+        "description": "None",
+        "unit": "None"
+    },
+    "crema_de_verduras": {
+        "description": "None",
+        "unit": "None"
+    },
+    "chayote": {
+        "description": "None",
+        "unit": "None"
+    },
+    "chocolate": {
+        "description": "None",
+        "unit": "None"
+    },
+    "danonino_o_similar": {
+        "description": "None",
+        "unit": "None"
+    },
+    "donas_y_churros_de_panaderia": {
+        "description": "None",
+        "unit": "None"
+    },
+    "dulce": {
+        "description": "None",
+        "unit": "None"
+    },
+    "ejotes": {
+        "description": "None",
+        "unit": "None"
+    },
+    "elote": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fresa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "frijoles_de_olla": {
+        "description": "None",
+        "unit": "None"
+    },
+    "frijoles_refritos": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fritos_sopes__quesadillas__tlaco": {
+        "description": "None",
+        "unit": "None"
+    },
+    "frituras": {
+        "description": "None",
+        "unit": "None"
+    },
+    "galletas__saladas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "galletas_dulces": {
+        "description": "None",
+        "unit": "None"
+    },
+    "gelatina__flan": {
+        "description": "None",
+        "unit": "None"
+    },
+    "guayaba": {
+        "description": "None",
+        "unit": "None"
+    },
+    "hamburguesa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "hojas_verdes__acelgas__espinacas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "hot_dog": {
+        "description": "None",
+        "unit": "None"
+    },
+    "huevo_frito_estrellado_o_revuelt": {
+        "description": "None",
+        "unit": "None"
+    },
+    "huevo_tibio_o_cocido": {
+        "description": "None",
+        "unit": "None"
+    },
+    "j�cama": {
+        "description": "None",
+        "unit": "None"
+    },
+    "jitomate__solo_en_ensaladas_": {
+        "description": "None",
+        "unit": "None"
+    },
+    "jugos_naturales_sin_az�car": {
+        "description": "None",
+        "unit": "None"
+    },
+    "jugos_o_aguas_de_frutas_con_az�c": {
+        "description": "None",
+        "unit": "None"
+    },
+    "leche_liconsa": {
+        "description": "This section is specially for subside foods given to specific population like Liconsa milk",
+        "unit": "None"
+    },
+    "leche_preparada_de_sabor__chocol": {
+        "description": "None",
+        "unit": "None"
+    },
+    "lechuga": {
+        "description": "None",
+        "unit": "None"
+    },
+    "lenteja__garbanzo__haba_amarilla": {
+        "description": "None",
+        "unit": "None"
+    },
+    "longaniza_o_chorizo": {
+        "description": "None",
+        "unit": "None"
+    },
+    "mango": {
+        "description": "None",
+        "unit": "None"
+    },
+    "mantequilla": {
+        "description": "None",
+        "unit": "None"
+    },
+    "manzana_o_pera": {
+        "description": "None",
+        "unit": "None"
+    },
+    "margarina": {
+        "description": "None",
+        "unit": "None"
+    },
+    "mayonesa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "mel�n_o_sand�a": {
+        "description": "None",
+        "unit": "None"
+    },
+    "naranja_o_mandarina": {
+        "description": "None",
+        "unit": "None"
+    },
+    "nopales": {
+        "description": "None",
+        "unit": "None"
+    },
+    "otra_fruta": {
+        "description": "None",
+        "unit": "None"
+    },
+    "otra_leche_a": {
+        "description": "None",
+        "unit": "None"
+    },
+    "otra_leche_b": {
+        "description": "None",
+        "unit": "None"
+    },
+    "otra_leche_c": {
+        "description": "None",
+        "unit": "None"
+    },
+    "otra_verdura": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pan_blanco": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pan_dulce__excepto_donas_y_churr": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pan_integral": {
+        "description": "None",
+        "unit": "None"
+    },
+    "papa_frita_o_tortita_de_papa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "papas_cocidas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "papaya": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pastel_o_pay": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pastelillos_y_donas_indust_": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pepino": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pescado_fresco": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pi�a": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pizza": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pl�tano": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pl�tano_frito": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pollo__ala_o_patas_": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pollo__higadito_o_molleja_": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pollo__pierna_o_muslo_": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pozole": {
+        "description": "None",
+        "unit": "None"
+    },
+    "queso": {
+        "description": "None",
+        "unit": "None"
+    },
+    "refresco_dieta": {
+        "description": "None",
+        "unit": "None"
+    },
+    "refresco_normal": {
+        "description": "None",
+        "unit": "None"
+    },
+    "salchicha_de_puerco__pavo_o_comb": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sin_fre�r_sopes__quesadillas__tl": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sopa_de_pasta_caldosa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sopa_de_pasta_seca": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sopa_o_caldo_con_verduras": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tamal___todos_tipos_": {
+        "description": "None",
+        "unit": "None"
+    },
+    "t�_con_az�car": {
+        "description": "None",
+        "unit": "None"
+    },
+    "t�_sin_az�car": {
+        "description": "None",
+        "unit": "None"
+    },
+    "toronja": {
+        "description": "None",
+        "unit": "None"
+    },
+    "torta_o_s�ndwich": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tortilla_de_harina_de_trigo": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tortilla_de_masa__comprada__o_de": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tortitas_de_verduras_capeadas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "yakult_o_similares": {
+        "description": null,
+        "unit": null
+    },
+    "yogurt": {
+        "description": null,
+        "unit": null
+    },
+    "zanahoria": {
+        "description": null,
+        "unit": null
+    }
+}

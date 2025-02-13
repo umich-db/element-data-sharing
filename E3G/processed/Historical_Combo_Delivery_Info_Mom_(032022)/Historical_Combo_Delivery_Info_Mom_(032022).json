@@ -1,0 +1,47 @@
+{
+    "PROYECTO": {
+      "description": "Proyecto. BI(biomarcadores) PL(plasma)",
+      "unit": "None"
+    },
+    "FOLIO": {
+      "description": "File ID number",
+      "unit": "None"
+    },
+    "STAGE": {
+      "description": "Stage",
+      "unit": "None"
+    },
+    "AGE_M": {
+      "description": "Age of participant",
+      "unit": "Years"
+    },
+    "HRP_LASTMENS": {
+      "description": "Date of last menstruation(screening)",
+      "unit": "Date (MMDDYY10)"
+    },
+    "DELIVERY_WEIGHT": {
+      "description": "Birth weight (child)",
+      "unit": "Kilograms"
+    },
+    "DELIVERY_HEIGHT": {
+      "description": "Birth length (child)",
+      "unit": "Centimeters"
+    },
+    "DELIVERY_GESTAGE": {
+      "description": "Estimated gestational age by R.N.",
+      "unit": "Weeks"
+    },
+    "DELIVERY_GESTAGEMTD": {
+      "description": "Method of estimation gestational age",
+      "unit": "None"
+    },
+    "DELIVERY_MULTIPLE": {
+      "description": "How many babies were born?",
+      "unit": "Count"
+    },
+    "DELIVERY_TYPE": {
+      "description": "Form of termination of pregnancy",
+      "unit": "None"
+    }
+  }
+  

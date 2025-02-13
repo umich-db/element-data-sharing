@@ -1,0 +1,1186 @@
+{
+    "PROYECTO": {
+        "description": "Proyecto. BI(biomarcadores) PL(plasma)",
+        "unit": "None"
+    },
+    "FOLIO": {
+        "description": "File ID number",
+        "unit": "None"
+    },
+    "STAGE": {
+        "description": "stage",
+        "unit": "None"
+    },
+    "DATE_STAGE": {
+        "description": "Date of questionnaire",
+        "unit": "MMDDYY10."
+    },
+    "AGE_M": {
+        "description": "Age of participant",
+        "unit": "None"
+    },
+    "BIRTHDATE_M": {
+        "description": "Date of birth",
+        "unit": "MMDDYY10."
+    },
+    "MARITAL_STATUS": {
+        "description": "Marital status",
+        "unit": "MARITAL."
+    },
+    "WRITE_READ": {
+        "description": "Mother: Do you know how to read and write?",
+        "unit": "WRITE_R."
+    },
+    "SCHOOLM_LEVEL": {
+        "description": "Mother: Last level studied",
+        "unit": "None"
+    },
+    "SCHOOLM_GRADE": {
+        "description": "Mother: Years studied in the level",
+        "unit": "None"
+    },
+    "SCHOOL_LEVEL": {
+        "description": "Mother: Last year studied in school (original)",
+        "unit": "None"
+    },
+    "SCHOOL_T1": {
+        "description": "Mother: Total years studied",
+        "unit": "SCHOOL_."
+    },
+    "R_SCHOOL_T1": {
+        "description": "Last year of school completed(screening)",
+        "unit": "R_SCHOO."
+    },
+    "SCHOOLP_LEVEL": {
+        "description": "Father: Last level studied",
+        "unit": "None"
+    },
+    "SCHOOLP_GRADE": {
+        "description": "Father: Years studied in the level",
+        "unit": "None"
+    },
+    "SCHOOL_LEVELP": {
+        "description": "Father: Last year studied in school (original)",
+        "unit": "None"
+    },
+    "SCHOOLP_T": {
+        "description": "Father: Total years studied",
+        "unit": "SCHOOLP."
+    },
+    "DELIVERY_H_BIRTHBORN": {
+        "description": "Date delivery",
+        "unit": "MMDDYY10."
+    },
+    "DELIVERY_WEIGHT": {
+        "description": "Birth weight (child)",
+        "unit": "DELIVER."
+    },
+    "DELIVERY_HEIGHT": {
+        "description": "Birth length (child)",
+        "unit": "DELIVE1A."
+    },
+    "DELIVERY_HEADCIRC": {
+        "description": "Head circumference (child)",
+        "unit": "DELIVE2A."
+    },
+    "DELIVERY_GESTAGE": {
+        "description": "Estimated gestational age by R.N.",
+        "unit": "DELIVE3A."
+    },
+    "DELIVERY_GESTAGESMTD": {
+        "description": "Method of estimation gestational age",
+        "unit": "DELIVE4A."
+    },
+    "DELIVERY_MULTIPLE": {
+        "description": "How many babies were born?",
+        "unit": "DELIVE5A."
+    },
+    "DELIVERY_TYPE": {
+        "description": "Form of termination of pregnancy",
+        "unit": "DELIVE6A."
+    },
+    "DELIVERY_SEX": {
+        "description": "Sex of recent birth",
+        "unit": "None"
+    },
+    "DELIVERY_LIVEBIRTH": {
+        "description": "Condition of birth",
+        "unit": "None"
+    },
+    "DELIVERY_HOSPSTAYM": {
+        "description": "Days hospitalized after birth (mother)",
+        "unit": "days"
+    },
+    "DELIVERY_PROBLEMM": {
+        "description": "Problems of mother in hospital",
+        "unit": "None"
+    },
+    "DELIVERY_APGAR1MIN": {
+        "description": "Apgar score (first minute)",
+        "unit": "score"
+    },
+    "DELIVERY_APGAR5MIN": {
+        "description": "Apgar score (at five minutes)",
+        "unit": "score"
+    },
+    "DELIVERY_DXCHILD": {
+        "description": "Diagnosis of the recent birth",
+        "unit": "None"
+    },
+    "DELIVERY_HOSPSTAYC": {
+        "description": "Age (days) when released from hospital",
+        "unit": "days"
+    },
+    "DELIVERY_CHILDCARE": {
+        "description": "Type of care baby received in hospital",
+        "unit": "None"
+    },
+    "DELIVERY_PBCORD": {
+        "description": "Umbilical cord blood lead(delivery)",
+        "unit": "None"
+    },
+    "WORKED_PLACE": {
+        "description": "Actually, you work in:",
+        "unit": "None"
+    },
+    "WORKPL_P": {
+        "description": "Place where father/partner work",
+        "unit": "None"
+    },
+    "WATER_GET": {
+        "description": "From where do you obtain water?",
+        "unit": "None"
+    },
+    "WATER_BOIL": {
+        "description": "Do you boil the water before drinking?",
+        "unit": "None"
+    },
+    "WATER_DRINK": {
+        "description": "From where do you get water for drinking ?",
+        "unit": "None"
+    },
+    "TRAFFIC": {
+        "description": "How is the traffic where you live?",
+        "unit": "None"
+    },
+    "TIME_OUTHOME": {
+        "description": "Number of hours spent outside daily",
+        "unit": "hours"
+    },
+    "CER_USEWASCHILD_M": {
+        "description": "When you were a child, did you use lead-glazed ceramics for food",
+        "unit": "None"
+    },
+    "CER_USE": {
+        "description": "Do you use cookware of lead-glazedceramics?(screening)",
+        "unit": "None"
+    },
+    "CER_WHENUSE": {
+        "description": "How often do you use cookware of lead-glazed ceramics?(screening)",
+        "unit": "None"
+    },
+    "CER_STOREDAYS": {
+        "description": "In the past week, days stored food in lead-glazed ceramics",
+        "unit": "days"
+    },
+    "CER_STOREYEARS": {
+        "description": "How many years stored food in lead-glazed ceramics?",
+        "unit": "years"
+    },
+    "CER_PREPAREDAYS": {
+        "description": "In the past week, days prepared food in lead-glazed ceramic",
+        "unit": "days"
+    },
+    "CER_PREPAREYEARS": {
+        "description": "How many years prepared food in lead-glazed ceramics ? fixed)",
+        "unit": "years"
+    },
+    "CER_EATYESTERDAY": {
+        "description": "Yesterday, did you eat food from lead-glazed ceramics?",
+        "unit": "None"
+    },
+    "SMOKE_100CIGS": {
+        "description": "Have you smoked > 100 cigarettes in your life",
+        "unit": "None"
+    },
+    "SMOKE_NOW": {
+        "description": "Do you smoke now?",
+        "unit": "None"
+    },
+    "SMOKE_5CIGDAY": {
+        "description": "At what age did you first begin to smoke>5 cig/day",
+        "unit": "years"
+    },
+    "SMOKE_MANYDAY": {
+        "description": "How many cigarettes smoked per day?",
+        "unit": "cigarettes/day"
+    },
+    "SMOKE_MANYYEAR": {
+        "description": "Packs of cigarettes smoked per day in the last year",
+        "unit": "packs/year"
+    },
+    "SMOKE_MANYYESTERDAY": {
+        "description": "Number of cigarettes smoked",
+        "unit": "cigarettes"
+    },
+    "SMOKE_SOME": {
+        "description": "Does anyone else in your house smoke?",
+        "unit": "None"
+    },
+    "SMOKE_WHO": {
+        "description": "Who smokes in you house?",
+        "unit": "None"
+    },
+    "SMOKED_MANYCIGXDAY": {
+        "description": "Packs of cigarettes smoked per day in past",
+        "unit": "packs/day"
+    },
+    "SMOKE_ANY": {
+        "description": "Create used varible: smoke_100cigs",
+        "unit": "None"
+    },
+    "SMOKED_TIME": {
+        "description": "If you don't smoke anymore, how many months ago did you quit?",
+        "unit": "months"
+    },
+    "HRP_PARITY": {
+        "description": "How many times have you been pregnant?",
+        "unit": "None"
+    },
+    "HRP_LOWBIRTHWT": {
+        "description": "How many children < 2.5 kg at birth?",
+        "unit": "children"
+    },
+    "HRP_PREMATURE": {
+        "description": "How many children < 37 weeks at birth?",
+        "unit": "children"
+    },
+    "HRP_STILLBORN": {
+        "description": "How many children have been born dead?",
+        "unit": "children"
+    },
+    "HRP_INFANTDEATH": {
+        "description": "Have you had any live-born children who died?",
+        "unit": "children"
+    },
+    "HRP_DEATHCAUSE": {
+        "description": "Reason for death",
+        "unit": "None"
+    },
+    "HRP_MULTIPLES": {
+        "description": "Have you had multiple pregnancies?",
+        "unit": "None"
+    },
+    "HRP_N_MULTIP": {
+        "description": "Multiple pregnancies that you have had",
+        "unit": "None"
+    },
+    "HRP_ABORTIONS": {
+        "description": "How many abortions have you had?",
+        "unit": "None"
+    },
+    "HRP_AGEFIRTPREG": {
+        "description": "Age when you were last pregnant?",
+        "unit": "years"
+    },
+    "HRP_LASTMENS": {
+        "description": "Date of last menstruation(screening)",
+        "unit": "date"
+    },
+    "HRP_PARITY_TOTALA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "HRP_PARITY_TOTALB": {
+        "description": "None",
+        "unit": "None"
+    },
+    "BPRESSURE_SIST": {
+        "description": "Systolic blood pressure - manual (mother)",
+        "unit": "mmHg"
+    },
+    "BPRESSURE_DIAS": {
+        "description": "Diastolic blood pressure - manual (mother)",
+        "unit": "None"
+    },
+    "ANTHROM_WEIGHT": {
+        "description": "Weight (mother)",
+        "unit": "None"
+    },
+    "ANTHROM_HEIGHT": {
+        "description": "Height (mother) (fixed or average)",
+        "unit": "None"
+    },
+    "ANTHROM_ARM": {
+        "description": "Arm circumference (mother)",
+        "unit": "None"
+    },
+    "ANTHROM_CALF": {
+        "description": "Calf circumference (mother)",
+        "unit": "None"
+    },
+    "LACT_TIMECHILD": {
+        "description": "None",
+        "unit": "None"
+    },
+    "LACT_TIMECHILD_DD": {
+        "description": "How many days do you think you will breastfeed?",
+        "unit": "days"
+    },
+    "LACT_TIMECHILD_MM": {
+        "description": "How many months do you think you will breastfeed?",
+        "unit": "months"
+    },
+    "LACT_ONLYTIME": {
+        "description": "None",
+        "unit": "None"
+    },
+    "LACT_ONLYTIME_DD": {
+        "description": "How many days do you think you will breastfeed exclusively?",
+        "unit": "days"
+    },
+    "LACT_ONLYTIME_MM": {
+        "description": "How many months do you think you will breastfeed exclusively?",
+        "unit": "months"
+    },
+    "LACT_INFO": {
+        "description": "Did you receive information about lactation?",
+        "unit": "None"
+    },
+    "LACT_WHOINF": {
+        "description": "If they didn't give you instructions, who gave them to you?",
+        "unit": "None"
+    },
+    "LACT_N_CHILD": {
+        "description": "How many children have you breastfed?",
+        "unit": "None"
+    },
+    "LACT_TOTALMONTHS": {
+        "description": "Total months breastfed previously",
+        "unit": "months"
+    },
+    "LACT_INSTINFO": {
+        "description": "If you received information, did they give you instructions",
+        "unit": "None"
+    },
+    "BF_M": {
+        "description": "Were you breastfed as a child?",
+        "unit": "None"
+    },
+    "BF_TIME_M": {
+        "description": "Months you were breastfed as a child",
+        "unit": "months"
+    },
+    "BF_NOW_H": {
+        "description": "Did you give breastmilk to your baby?",
+        "unit": "None"
+    },
+    "BFNO_REASON_H": {
+        "description": "What are the reasons for not giving breast milk?",
+        "unit": "None"
+    },
+    "BF_FISTTIME_H": {
+        "description": "Baby's age (days) when first given breast milk",
+        "unit": "days"
+    },
+    "BF_MEDICINE": {
+        "description": "During lactation taking medications?",
+        "unit": "None"
+    },
+    "BF_WHATMEDICINE": {
+        "description": "Which medications used?",
+        "unit": "None"
+    },
+    "BF_OTHERMEDICINE": {
+        "description": "Other medications, specify",
+        "unit": "None"
+    },
+    "FOODH_BOILSUGAR": {
+        "description": "Do you give the baby boiled water with/without sugar?",
+        "unit": "None"
+    },
+    "FOODH_TEA": {
+        "description": "Do you give the baby tea with/without sugar?",
+        "unit": "None"
+    },
+    "FOODH_JUICE": {
+        "description": "Do you give the baby fruit juice?",
+        "unit": "None"
+    },
+    "FOODH_ATOLEMILK": {
+        "description": "Do you give the baby atole prep with milk?",
+        "unit": "None"
+    },
+    "FOODH_BOTH": {
+        "description": "Do you give the baby broth?",
+        "unit": "None"
+    },
+    "FOODH_OTHERS": {
+        "description": "Do you give the baby other foods?",
+        "unit": "None"
+    },
+    "FOODH_MILKTYPE": {
+        "description": "Type of milk given to baby",
+        "unit": "None"
+    },
+    "FOODH_MILKOTHERS": {
+        "description": "Brand of milk given to baby",
+        "unit": "None"
+    },
+    "FOODH_BOILFORMULA": {
+        "description": "Do you boil water to prepare milk or tea for the baby",
+        "unit": "None"
+    },
+    "FOODH_PREPAREWATER": {
+        "description": "Type of water used to prepare drinks for baby",
+        "unit": "None"
+    },
+    "FOODH_PREPAREWATERESPCIF": {
+        "description": "If other water, specify",
+        "unit": "None"
+    },
+    "FOODH_WHYOTHERS": {
+        "description": "Why give other foods to baby?",
+        "unit": "None"
+    },
+    "FOODH_SPECIFIC": {
+        "description": "Other causes, specify",
+        "unit": "None"
+    },
+    "FOODH_CER_STORE": {
+        "description": "Store food for children in lead-glazed ceramics",
+        "unit": "None"
+    },
+    "FOODH_CER_PREPARE": {
+        "description": "Prepare food for children in lead-glazed ceramics",
+        "unit": "None"
+    },
+    "HEALTHH_NOW": {
+        "description": "What is the condition of the baby?",
+        "unit": "None"
+    },
+    "HEALTHH_WHENDEAD": {
+        "description": "In case of death, when did the baby die?",
+        "unit": "None"
+    },
+    "HEALTHH_BIRTHPROB": {
+        "description": "Has baby had health problems?",
+        "unit": "None"
+    },
+    "HEALTHH_OTHERPROBLEM": {
+        "description": "What health problems has the baby had?",
+        "unit": "None"
+    },
+    "HEALTHH_OTHERPROBLEM1": {
+        "description": "Other health problems, specify",
+        "unit": "None"
+    },
+    "HEALTHH_HOSPITALIZED": {
+        "description": "Has the baby been admitted to the hospital?",
+        "unit": "None"
+    },
+    "HEALTHH_WHYREASONHOSP": {
+        "description": "For what reason was the baby admitted?",
+        "unit": "None"
+    },
+    "HEALTHH_OTHERREASONHOP": {
+        "description": "Other reasons for hospital admission, specify",
+        "unit": "None"
+    },
+    "HEALTHH_WHEN": {
+        "description": "When was the baby admitted to the hospital?",
+        "unit": "None"
+    },
+    "HEALTHH_WHERE": {
+        "description": "Where was the baby admitted to the hospital?",
+        "unit": "None"
+    },
+    "HEALTHM_ANYPROBLEMS": {
+        "description": "After birth, did the baby have health problems?",
+        "unit": "None"
+    },
+    "HEALTHM_PROBLEM": {
+        "description": "Health problems that the mother has had",
+        "unit": "None"
+    },
+    "HEALTHM_FAMILYPLANMET": {
+        "description": "Method of family planning used",
+        "unit": "None"
+    },
+    "HEALTHM_VISITDOCTOR": {
+        "description": "Reasons why mother has been to the doctor",
+        "unit": "None"
+    },
+    "HEALTHM_OTHERPROBLEM": {
+        "description": "Other reasons mother has been to doctor",
+        "unit": "None"
+    },
+    "MEDICINE_TAKE": {
+        "description": "Which medications are you taking?",
+        "unit": "None"
+    },
+    "MEDICINE_DOSE": {
+        "description": "What dose are you taking daily?",
+        "unit": "None"
+    },
+    "MEDICINE_TIME": {
+        "description": "How many times a day are you taking them?",
+        "unit": "None"
+    },
+    "MEDICINE_ESPEC": {
+        "description": "Other types of medications, specify",
+        "unit": "None"
+    },
+    "O_ASMAM": {
+        "description": "Have you been diagnosed with asthma?",
+        "unit": "None"
+    },
+    "O_ALERGIESM": {
+        "description": "Have you been diagnosed with hay fever or allergies?",
+        "unit": "None"
+    },
+    "O_ASMAP": {
+        "description": "Has your spouse been diagnosed with asthma?",
+        "unit": "None"
+    },
+    "O_ALERGIESP": {
+        "description": "Has your spouse been diagnosed with hay fever or allergies?",
+        "unit": "None"
+    },
+    "O_MANYCHILDREN": {
+        "description": "How many children do you have?",
+        "unit": "None"
+    },
+    "O_MANYCHILDRENASMA": {
+        "description": "How many children children have a diagnosis of asthma?",
+        "unit": "None"
+    },
+    "O_CHILDRENALERG": {
+        "description": "Do any of your children have a diagnosis of hay fever and allergies?",
+        "unit": "None"
+    },
+    "O_MANYCHILDASMALEG": {
+        "description": "How many children children have a diagnosis of hay fever and allergies?",
+        "unit": "None"
+    },
+    "PBBONE_DATE": {
+        "description": "Fecha medición pb en hueso",
+        "unit": "MMDDYY10."
+    },
+    "PBBONE_APARATO": {
+        "description": "1=1er aparato, 2=2o. aparato",
+        "unit": "None"
+    },
+    "TIBIA1": {
+        "description": "Tibia_1 lead (left if instrument=1, right if instrument=2)",
+        "unit": "None"
+    },
+    "IMPTIB1": {
+        "description": "Tibia_1 imprecision",
+        "unit": "None"
+    },
+    "TIBIA2": {
+        "description": "Tibia_2 lead (right if instrument=1, left if instrument=2)",
+        "unit": "None"
+    },
+    "IMPTIB2": {
+        "description": "Tibia_2 imprecision",
+        "unit": "None"
+    },
+    "ROTULA1": {
+        "description": "Patella_1 lead (first 1/2hr if instrument=1, right if instrument=2)",
+        "unit": "None"
+    },
+    "IMPROT1": {
+        "description": "Patella_1 imprecision",
+        "unit": "None"
+    },
+    "ROTULA2": {
+        "description": "Patella_2 lead (second 1/2hr if instrument=1, left if instrument=2)",
+        "unit": "None"
+    },
+    "IMPROT2": {
+        "description": "Patella_2 imprecision",
+        "unit": "None"
+    },
+    "ROTULA": {
+        "description": "Weighted Average by the inverse of imprecision",
+        "unit": "None"
+    },
+    "TIBIA": {
+        "description": "Weighted Average by the inverse of imprecision",
+        "unit": "None"
+    },
+    "UNION_ROT": {
+        "description": "unión rótulas (generada en La Casita)",
+        "unit": "None"
+    },
+    "UNION_ROTIM": {
+        "description": "unión imp de rótulas (generada en La Casita)",
+        "unit": "None"
+    },
+    "UNION_TIB": {
+        "description": "unión tibias (generada en La Casita)",
+        "unit": "None"
+    },
+    "UNION_TIBIM": {
+        "description": "unión imp de tibias (generada en La Casita)",
+        "unit": "None"
+    },
+    "TIBIA1_R": {
+        "description": "Reanalysis: Tibia_1 lead (left if instrument=1, right if instrument=2)",
+        "unit": "None"
+    },
+    "IMPTIB1_R": {
+        "description": "Reanalysis: Tibia_1 imprecision",
+        "unit": "None"
+    },
+    "TIBIA2_R": {
+        "description": "Reanalysis: Tibia_2 lead (right if instrument=1,left if instrument=2)",
+        "unit": "None"
+    },
+    "IMPTIB2_R": {
+        "description": "Reanalysis: Reanalysis: Tibia_2 imprecision",
+        "unit": "None"
+    },
+    "ROTULA1_R": {
+        "description": "Reanalysis: Patella_1 lead (first 1/2hr if instrument=1,right if instrument=2)",
+        "unit": "None"
+    },
+    "IMPROT1_R": {
+        "description": "Reanalysis: Patella_1 imprecision",
+        "unit": "None"
+    },
+    "ROTULA2_R": {
+        "description": "Reanalysis: Patella_2 lead (second 1/2hr if instrument=1,left if instrument=2)",
+        "unit": "None"
+    },
+    "IMPROT2_R": {
+        "description": "Reanalysis: Patella_2 imprecision",
+        "unit": "None"
+    },
+    "ROTULA_R": {
+        "description": "Reanalysis: Weighted Average by the inverse of imprecision",
+        "unit": "None"
+    },
+    "TIBIA_R": {
+        "description": "Reanalysis: Weighted Average by the inverse of imprecision",
+        "unit": "None"
+    },
+    "BLOOD_DATE": {
+        "description": "Date of blood lead (ABC hospital)",
+        "unit": "MMDDYY10."
+    },
+    "BLOOD_PB": {
+        "description": "Whole blood lead ug/dl (ABC hosp)  1 month after delivery",
+        "unit": "None"
+    },
+    "WASHCLOTHES": {
+        "description": "Wash clothes in home - father/partner",
+        "unit": "None"
+    },
+    "LEADCARE": {
+        "description": "Lead care",
+        "unit": "None"
+    },
+    "R_DELIVERY_H_BIRTHBORN": {
+        "description": "Child's date of birth from database children",
+        "unit": "MMDDYY10."
+    },
+    "R_DELIVERY_SEX": {
+        "description": "Sex of recent birth  from database children",
+        "unit": "None"
+    },
+    "PROJ_FOLIO": {
+        "description": "proj_folio",
+        "unit": "$7."
+    },
+    "PROJ_FOLIO_ET": {
+        "description": "proj_folio_et",
+        "unit": "$10."
+    },
+    "ETAPA": {
+        "description": "Stage of study",
+        "unit": "None"
+    },
+    "TIME_LIVEMEX": {
+        "description": "Time spent living in Mexico City in years",
+        "unit": "years"
+    },
+    "PAINT_HOUSE": {
+        "description": "When last painted trim or house",
+        "unit": "None"
+    },
+    "PAINT_TIME": {
+        "description": "How long ago painted trim or house?",
+        "unit": "None"
+    },
+    "PAINT_TYPE": {
+        "description": "Type of painted used",
+        "unit": "None"
+    },
+    "WATER_PREPAREFOOD": {
+        "description": "From where do you get water for preparing food?",
+        "unit": "None"
+    },
+    "WORK_PREGNANCY": {
+        "description": "In the last three months, have you worked outside of the home?",
+        "unit": "None"
+    },
+    "WORK_OUTHOUSE": {
+        "description": "In general, do you work outside of the home?",
+        "unit": "None"
+    },
+    "WORK_TRAFFIC": {
+        "description": "How is the traffic near your job?",
+        "unit": "None"
+    },
+    "WORK_PLACENOW": {
+        "description": "Actually, you work in:",
+        "unit": "None"
+    },
+    "LACT_THINKCHILD": {
+        "description": "Do you think you will give breastmilk to your baby?",
+        "unit": "None"
+    },
+    "HRP_LIVEBIRTHS": {
+        "description": "How many live-born children have you had?",
+        "unit": "None"
+    },
+    "BPRESSURE_SISTCOMP": {
+        "description": "Systolic blood pressure - computer screen (mother)",
+        "unit": "None"
+    },
+    "BPRESSURE_DIASCOMP": {
+        "description": "Diastolic blood pressure - computer screen (mother)",
+        "unit": "None"
+    },
+    "BPRESSURE_SISTINT": {
+        "description": "Systolic blood pressure - instrument (mother)",
+        "unit": "None"
+    },
+    "BPRESSURE_DIASINT": {
+        "description": "Diastolic blood pressure - instrument (mother)",
+        "unit": "None"
+    },
+    "DEL_CORDSAMPLE": {
+        "description": "Sample of umbilical cord blood?",
+        "unit": "None"
+    },
+    "DEL_WHYNOCORD": {
+        "description": "If umbilical cord sample not taken at delivery, why not?",
+        "unit": "None"
+    },
+    "HEALTHH_PROBLEM": {
+        "description": "Has baby had health problems?",
+        "unit": "None"
+    },
+    "ACEPTA": {
+        "description": "Do you accept to participate in the study?",
+        "unit": "None"
+    },
+    "FIRMO": {
+        "description": "Consent form signed",
+        "unit": "None"
+    },
+    "SCHOOL_T2": {
+        "description": "Last year of school completed",
+        "unit": "None"
+    },
+    "NTX_DATE": {
+        "description": "Date of ntx",
+        "unit": "MMDDYY"
+    },
+    "LABNTX": {
+        "description": "Laboratory for ntx",
+        "unit": "None"
+    },
+    "NTX_VOL": {
+        "description": "Volume of urine for ntx",
+        "unit": "None"
+    },
+    "URINE_CREAT": {
+        "description": "Urinary creatinine (average)",
+        "unit": "None"
+    },
+    "NTX": {
+        "description": "Average of ntx from different laboratories",
+        "unit": "None"
+    },
+    "BONE_APARATO": {
+        "description": "KXRF",
+        "unit": "None"
+    },
+    "BONE_DATE": {
+        "description": "Date of bone lead measurement",
+        "unit": "MMDDYY10."
+    },
+    "BLOOD_HGB": {
+        "description": "Blood hemoglobin",
+        "unit": "None"
+    },
+    "BLOOD_HTO": {
+        "description": "Blood Hematocrit",
+        "unit": "None"
+    },
+    "NOTES_DON": {
+        "description": "Notes made by Donald Smith",
+        "unit": "$80."
+    },
+    "CCPBPLAS": {
+        "description": "Quality control plasma:O=suspect, R=exclude, W=confident",
+        "unit": "$11."
+    },
+    "PBS_PPB": {
+        "description": "Whole blood lead ug/dl (Smith lab)",
+        "unit": "None"
+    },
+    "PBP_PPB": {
+        "description": "Plasma lead (Smith lab)",
+        "unit": "None"
+    },
+    "RAZON": {
+        "description": "Blood/Plasma Lead Ratio (pbs/pbp)",
+        "unit": "None"
+    },
+    "FE_PPB": {
+        "description": "Iron in Plasma (Smith lab)",
+        "unit": "None"
+    },
+    "HB_MG_DL": {
+        "description": "Hemoglobin in plasma (mg/dl) (Smith lab)",
+        "unit": "None"
+    },
+    "ICP_DATE": {
+        "description": "Samples: lety  analyzed",
+        "unit": "MMDDYY10."
+    },
+    "BREASTMILK_PB": {
+        "description": "Breast milk lead (ng/g)",
+        "unit": "None"
+    },
+    "BREASTMILK_SD": {
+        "description": "Std. Dev. breast milk lead (ng/g)",
+        "unit": "None"
+    },
+    "POL_VDR1_1": {
+        "description": "None",
+        "unit": "None"
+    },
+    "POL_VDR1_2": {
+        "description": "None",
+        "unit": "None"
+    },
+    "POL_VDR1_3": {
+        "description": "None",
+        "unit": "None"
+    },
+    "POL_ER1_1": {
+        "description": "XbaI, rs9340799 IVS-351 A/G",
+        "unit": "None"
+    },
+    "POL_ER1_2": {
+        "description": "PvuII, rs2234693 IVS-397 C/T",
+        "unit": "None"
+    },
+    "POL_ER1_3": {
+        "description": "3'UTR 3179 T/C, rs3798577",
+        "unit": "None"
+    },
+    "WORK_TIMEMONTHS": {
+        "description": "work_timemonths",
+        "unit": "None"
+    },
+    "WORKED_TIME": {
+        "description": "worked_time",
+        "unit": "None"
+    },
+    "SMOKE_PREGNANCY": {
+        "description": "RECODE of v1042 (Do you smoke now?)",
+        "unit": "None"
+    },
+    "SUPLEMENT_PROJ_ASIG": {
+        "description": "Tx --- OL71.- Placebo   OK67.- Suplemento",
+        "unit": "None"
+    },
+    "DATE_BLOODM": {
+        "description": "Fecha de toma de sangre",
+        "unit": "None"
+    },
+    "WORK_POSTPARTUM": {
+        "description": "None",
+        "unit": "None"
+    },
+    "BF_OTHERMEDICINEA": {
+        "description": "¿Cuál es el medicamento que tomo durante la lactancia?",
+        "unit": "None"
+    },
+    "HEALTHH_WHENA": {
+        "description": "¿En que fecha?",
+        "unit": "None"
+    },
+    "MEDICINE_DOSE1": {
+        "description": "¿Que dosis está tomando al día?",
+        "unit": "None"
+    },
+    "MEDICINE_ESPECA": {
+        "description": "¿Cada cuando lo(s)  está tomando?",
+        "unit": "None"
+    },
+    "HRP_DEATHCAUSE1": {
+        "description": "¿Cuál ha sido el motivo de fallecimiento(s)?",
+        "unit": "None"
+    },
+    "O_CHIDRENALERG": {
+        "description": "¿Algún Médico le ha diagnosticado fiebre de heno o alergias a uno de sus hijos?",
+        "unit": "None"
+    },
+    "FECHA_UL": {
+        "description": "Fecha del ultrasonido",
+        "unit": "None"
+    },
+    "FECH_MEN": {
+        "description": "Fecha de mestruacion",
+        "unit": "None"
+    },
+    "SEM_ULTR": {
+        "description": "Semanas de ultrasonido",
+        "unit": "None"
+    },
+    "SEMXMENS": {
+        "description": "Semanas por fecha de mestruacion",
+        "unit": "None"
+    },
+    "BONE_TECNICO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "DENSITO_DATE": {
+        "description": "fecha de vista al cnr",
+        "unit": "None"
+    },
+    "L1": {
+        "description": "Lumbar 1",
+        "unit": "None"
+    },
+    "L2": {
+        "description": "Lumbar 2",
+        "unit": "None"
+    },
+    "L3": {
+        "description": "Lumbar 3",
+        "unit": "None"
+    },
+    "L4": {
+        "description": "Lumbar 4",
+        "unit": "None"
+    },
+    "L1L4": {
+        "description": "Madia de lumbar(1..4)",
+        "unit": "None"
+    },
+    "DX1": {
+        "description": "Diagnostico lumbar (1..4)",
+        "unit": "None"
+    },
+    "NECK": {
+        "description": "Cadera",
+        "unit": "None"
+    },
+    "TROCH": {
+        "description": "Trocante",
+        "unit": "None"
+    },
+    "INTER": {
+        "description": "?",
+        "unit": "None"
+    },
+    "TOTAL13": {
+        "description": "Media de cadera, trocante y ?",
+        "unit": "None"
+    },
+    "WARDS": {
+        "description": "None",
+        "unit": "None"
+    },
+    "DX2": {
+        "description": "Diagnostico de cadera, trocante y ?",
+        "unit": "None"
+    },
+    "TERCIO": {
+        "description": "Tercio del brazo",
+        "unit": "None"
+    },
+    "MID": {
+        "description": "Centro del Brazo",
+        "unit": "None"
+    },
+    "UD": {
+        "description": "Cerca de la muñeca",
+        "unit": "None"
+    },
+    "TOTAL34": {
+        "description": "Media de cadera, trocante y ?",
+        "unit": "None"
+    },
+    "DX3": {
+        "description": "Diagnostico del brazo",
+        "unit": "None"
+    },
+    "OBS_CNR": {
+        "description": "Observaciones del CNR",
+        "unit": "None"
+    },
+    "TECNICO": {
+        "description": "Tecnico que realizo la medicion",
+        "unit": "None"
+    },
+    "TALLA": {
+        "description": "Talla de la paciente.",
+        "unit": "None"
+    },
+    "PESO": {
+        "description": "Peso de la paciente.",
+        "unit": "None"
+    },
+    "SOS_R": {
+        "description": "(Speed of sound) velocidad del sonido en la medicion del Radio.",
+        "unit": "None"
+    },
+    "SOS_P": {
+        "description": "(Speed of sound) velocidad del sonido en la medicion de la falange proximal del",
+        "unit": "None"
+    },
+    "TSCORE_R": {
+        "description": "Valor T en la medicion del Radio.",
+        "unit": "None"
+    },
+    "TSCORE_P": {
+        "description": "Valor T en la medicion de la falange proximal del dedo medio.",
+        "unit": "None"
+    },
+    "ZSCORE_R": {
+        "description": "Valor Z en la medicion del Radio.",
+        "unit": "None"
+    },
+    "ZSCORE_P": {
+        "description": "Valor Z en la medicion de la falange proximal del dedo medio.",
+        "unit": "None"
+    },
+    "URINE_FECHA": {
+        "description": "Fecha de orina",
+        "unit": "MMDDYY10."
+    },
+    "URINE_VT": {
+        "description": "Volumen de orina",
+        "unit": "None"
+    },
+    "URINE_CAL": {
+        "description": "Calcio de orina",
+        "unit": "None"
+    },
+    "CREA_ORI": {
+        "description": "Creatinina",
+        "unit": "None"
+    },
+    "PHOSPHATASE": {
+        "description": "phosphatase",
+        "unit": "None"
+    },
+    "OBS_PHOSPHATASE": {
+        "description": "obs_phosphatase",
+        "unit": "None"
+    },
+    "VDR1_1": {
+        "description": "VDR1_1 (ApaI, rs797523)",
+        "unit": "None"
+    },
+    "VDR1_2": {
+        "description": "VDR1_2(BsmI, rs1544410)",
+        "unit": "None"
+    },
+    "VDR1_3": {
+        "description": "VDR1_3 (TaqI, rs731236)",
+        "unit": "None"
+    },
+    "ER1_1": {
+        "description": "XbaI, rs9340799 IVS-351 A/G",
+        "unit": "None"
+    },
+    "ER1_2": {
+        "description": "PvuII, rs2234693 IVS-397 C/T",
+        "unit": "None"
+    },
+    "ER1_3": {
+        "description": "3'UTR 3179 T/C, rs3798577",
+        "unit": "None"
+    },
+    "REP": {
+        "description": "rep",
+        "unit": "None"
+    },
+    "WATER_PREPAREFOODA": {
+        "description": "spec oth water used to prep foods(v4019)",
+        "unit": "None"
+    },
+    "HEALTHH_OTHERSPROBLEM": {
+        "description": "specify other infant health problem(4.0)",
+        "unit": "None"
+    },
+    "HEALTHH_OTHERSPROBLEM1": {
+        "description": "specify other infant health problem(5.0)",
+        "unit": "None"
+    },
+    "DELIVERY_DXCHILD1": {
+        "description": "newborn diagnosis, 2nd per md",
+        "unit": "None"
+    },
+    "HSP_NAME": {
+        "description": "hospital name",
+        "unit": "None"
+    },
+    "NUM_HOSPITAL": {
+        "description": "hospital id number",
+        "unit": "None"
+    },
+    "HOSPITAL": {
+        "description": "mother's hospital number 2.0",
+        "unit": "None"
+    },
+    "TIBIA_C1": {
+        "description": "tibia_c1",
+        "unit": "None"
+    },
+    "IMPTIBIA_C1": {
+        "description": "imptibia_c1",
+        "unit": "None"
+    },
+    "ROTULA_C1": {
+        "description": "rotula_c1",
+        "unit": "None"
+    },
+    "IMPROTUL_C1": {
+        "description": "improtul_c1",
+        "unit": "None"
+    },
+    "ROTULA2_C1": {
+        "description": "rotula2_c1",
+        "unit": "None"
+    },
+    "IMPROTUL2_C1": {
+        "description": "improtul2_c1",
+        "unit": "None"
+    },
+    "BLOOD_FER": {
+        "description": "blood_fer",
+        "unit": "None"
+    },
+    "NTX_COMMENTS": {
+        "description": "ntx_comments",
+        "unit": "None"
+    },
+    "folio2": {
+        "description": "None",
+        "unit": "None"
+    }
+}

@@ -1,0 +1,246 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Folio",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fecha_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "hora_ini": {
+        "description": "Hora de inicio",
+        "unit": "None"
+    },
+    "min_ini": {
+        "description": "Minuto de inicio",
+        "unit": "None"
+    },
+    "f_dia": {
+        "description": "Día de la entrevista",
+        "unit": "None"
+    },
+    "f_mes": {
+        "description": "Mes de la entrevista",
+        "unit": "None"
+    },
+    "f_anio": {
+        "description": "Año de la entrevista",
+        "unit": "None"
+    },
+    "cod_ent": {
+        "description": "Codigo del entrevistador",
+        "unit": "None"
+    },
+    "r01_1a": {
+        "description": "¿Esta vivienda tiene agua entubada?",
+        "unit": "None"
+    },
+    "r01_1b": {
+        "description": "¿El agua entubada que llega a su vivienda viene de?",
+        "unit": "None"
+    },
+    "r01_1besp": {
+        "description": "¿El agua entubada que llega a su vivienda viene de otro lugar? (especifique)",
+        "unit": "None"
+    },
+    "r01_1c": {
+        "description": "¿El agua que usan en esta vivienda se obtiene de?",
+        "unit": "None"
+    },
+    "r01_11": {
+        "description": "¿Quién es la persona encargada de organizar el agua potable dentro del hogar?",
+        "unit": "None"
+    },
+    "r01_11esp": {
+        "description": "¿Quién es la persona encargada de organizar el agua potable dentro del hogar? Otro, especificar",
+        "unit": "None"
+    },
+    "r01_111": {
+        "description": "Relación con la persona encargada",
+        "unit": "None"
+    },
+    "r01_112": {
+        "description": "Sexo",
+        "unit": "1= Hombre, 2= Mujer"
+    },
+    "r01_21": {
+        "description": "En las últimas 4 semanas, ¿Con qué frecuencia llegó agua entubada a su vivienda?",
+        "unit": "1= Diario, 2= Cuatro a seis días a la semana, 3= Uno a tres días a la semana, 4= De una a tres veces en las últimas 4 semanas, 5= No me ha llegado agua en las últimas 4 semanas, 77= No responde, 99= No sabe, desconozco la frecuencia"
+    },
+    "r01_22a": {
+        "description": "¿Llega agua entubada a su vivienda el día Lunes?",
+        "unit": "1= Si, 2= No, 77= NR"
+    },
+    "r01_22b1": {
+        "description": "¿Cuántas horas al día llega agua el día Lunes?",
+        "unit": "99= No sabe"
+    },
+    "r01_22b": {
+        "description": "¿Llega agua entubada a su vivienda el día Martes?",
+        "unit": "1= Si, 2= No, 77= NR"
+    },
+    "r01_22b2": {
+        "description": "¿Cuántas horas al día llega agua el día Martes?",
+        "unit": "99= No sabe"
+    },
+    "r01_22c": {
+        "description": "¿Llega agua entubada a su vivienda el día Miércoles?",
+        "unit": "1= Si, 2= No, 77= NR"
+    },
+    "r01_22b3": {
+        "description": "¿Cuántas horas al día llega agua el día Miércoles?",
+        "unit": "99= No sabe"
+    },
+    "r01_22d": {
+        "description": "¿Llega agua entubada a su vivienda el día Jueves?",
+        "unit": "1= Si, 2= No, 77= NR"
+    },
+    "r01_22b4": {
+        "description": "¿Cuántas horas al día llega agua el día Jueves?",
+        "unit": "99= No sabe"
+    },
+    "r01_22e": {
+        "description": "¿Llega agua entubada a su vivienda el día ...Viernes?",
+        "unit": "1= Si, 2= No, 77= NR"
+    },
+    "r01_22b5": {
+        "description": "¿Cuántas horas al día llega…Viernes?",
+        "unit": "99= No sabe"
+    },
+    "r01_22f": {
+        "description": "¿Llega agua entubada a su vivienda el día ...Sábado?",
+        "unit": "1= Si, 2= No, 77= NR"
+    },
+    "r01_22b6": {
+        "description": "¿Cuántas horas al día llega…Sabado?",
+        "unit": "99= No sabe"
+    },
+    "r01_22g": {
+        "description": "¿Llega agua entubada a su vivienda el día ...Domingo?",
+        "unit": "1= Si, 2= No, 77= NR"
+    },
+    "r01_22b7": {
+        "description": "¿Cuántas horas al día llega…Domingo?",
+        "unit": "99= No sabe"
+    },
+    "r01_22h": {
+        "description": "¿Llega agua entubada a su vivienda el día ...No sabe, varía todas las semanas?",
+        "unit": "1= Si, 2= No, 99= NR"
+    },
+    "r01_22i": {
+        "description": "¿Llega agua entubada a su vivienda el día ...No sabe, desconozco la frecuencia",
+        "unit": "1= Si, 2= No, 99= NR"
+    },
+    "r01_23a": {
+        "description": "Durante los últimos 12 meses. ¿En qué mes empezó la temporada en la que escaseó más el agua en su vivienda?",
+        "unit": "1= enero, 2= febrero, ..., 12= diciembre, 13= Nunca falta agua/no escaseó en los últimos 12 meses, 77= No responde, 99= No sabe"
+    },
+    "r01_24": {
+        "description": "¿Cuánto tiempo duró la temporada de mayor escasez?",
+        "unit": "1= Menos de una semana, 2= Entre una semana y cuatro semanas, 3= De dos a tres meses, 4= Más de tres meses, 77= No responde, 99= No sabe"
+    },
+    "r01_25": {
+        "description": "Durante la temporada de escasez, ¿Con qué frecuencia llegó agua entubada a su vivienda?",
+        "unit": "None"
+    },
+    "r01_31": {
+        "description": "¿En esta vivienda se almacena el agua?",
+        "unit": "None"
+    },
+    "r01_32a": {
+        "description": "¿En esta vivienda el agua…Se almacena en una cisterna?",
+        "unit": "None"
+    },
+    "r01_32b": {
+        "description": "¿En esta vivienda el agua…Se almacena en un tinaco?",
+        "unit": "None"
+    },
+    "r01_32c": {
+        "description": "¿En esta vivienda el agua…Se almacena en una cubeta u otro contenedor sin tapa?",
+        "unit": "None"
+    },
+    "r01_32d": {
+        "description": "¿En esta vivienda el agua…Se almacena en una cubeta u otro contenedor con tapa?",
+        "unit": "None"
+    },
+    "r01_32e": {
+        "description": "¿En esta vivienda el agua…Se usa otro tipo de almacenamiento para el agua?",
+        "unit": "None"
+    },
+    "r01_32esp": {
+        "description": "¿En esta vivienda el agua…Se usa otro tipo de almacenamiento para el agua? Especifique",
+        "unit": "None"
+    },
+    "r01_33": {
+        "description": "¿El agua que se usa para beber en este hogar se le da algún tratamiento?",
+        "unit": "None"
+    },
+    "r01_34a": {
+        "description": "¿El agua que se usa para beber en este hogar…se filtra?",
+        "unit": "None"
+    },
+    "r01_34b": {
+        "description": "3.4 ¿El agua que se usa para beber en este hogar…se hierve?",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_34c": {
+        "description": "3.4 ¿El agua que se usa para beber en este hogar…Se trata con desinfectantes químicos (por ejemplo, cloro)?",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_34d": {
+        "description": "3.4 ¿El agua que se usa para beber en este hogar…Se trata con desinfección solar?",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_34e": {
+        "description": "3.4 ¿El agua que se usa para beber en este hogar…Le aplica otro tratamiento?",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_34esp": {
+        "description": "3.4 ¿El agua que se usa para beber en este hogar…Le aplica otro tratamiento?, especifique",
+        "unit": "None"
+    },
+    "r01_41": {
+        "description": "4.1 ¿Cuál es la principal Fuente de agua que los miembros de su hogar usan para beber?",
+        "unit": "1= Agua entubada dentro de la vivienda, 2= Agua entubada en el terreno, ..., 18= En este hogar no se bebe agua de ninguna fuente"
+    },
+    "r01_41esp": {
+        "description": "4.1 ¿Cuál es la principal Fuente de agua que los miembros de su hogar usan para beber? Otra fuente especifique",
+        "unit": "None"
+    },
+    "r01_42": {
+        "description": "4.2 ¿Cuál es la principal Fuente de agua que los miembros de su hogar usan para cocinar?",
+        "unit": "1= Agua entubada dentro de la vivienda, 2= Agua entubada en el terreno, ..., 18= En este hogar no se bebe agua de ninguna fuente"
+    },
+    "r01_42esp": {
+        "description": "4.2 ¿Cuál es la principal Fuente de agua que los miembros de su hogar usan para cocinar? Especifique",
+        "unit": "None"
+    },
+    "r01_43": {
+        "description": "4.3 ¿Cuál es la principal fuente de agua que los miembros de su hogar usan para lavarse las manos o bañarse, etc?",
+        "unit": "1= Agua entubada dentro de la vivienda, 2= Agua entubada en el terreno, ..., 18= En este hogar no se bebe agua de ninguna fuente"
+    },
+    "r01_43esp": {
+        "description": "¿Cuál es la principal fuente de agua que los miembros de su hogar usan para lavarse las manos o bañarse, etc? Otra fuente, especifique",
+        "unit": "None"
+    }
+}

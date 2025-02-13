@@ -1,0 +1,370 @@
+{
+    "proyecto": {
+        "description": null,
+        "unit": null
+    },
+    "folio": {
+        "description": null,
+        "unit": null
+    },
+    "stage": {
+        "description": null,
+        "unit": null
+    },
+    "foliocc": {
+        "description": null,
+        "unit": null
+    },
+    "GENDER": {
+        "description": "F/M",
+        "unit": null
+    },
+    "AGE": {
+        "description": "As the inbody software ask for the date of birth, the software calculates the exact age (example 4.5 years)",
+        "unit": null
+    },
+    "HEIGHT": {
+        "description": "THIS INFO IS INTRODUCE BY THE PERSONAL, THE INBODY DOESN´T MEASURE IT",
+        "unit": "cm (example 156.3)"
+    },
+    "REGISTRATION_DATE": {
+        "description": null,
+        "unit": null
+    },
+    "TOTAL_BODY_WATER": {
+        "description": null,
+        "unit": "Kg"
+    },
+    "MIN_TOTAL_BODY_WATER": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "MAX_TOTAL_BODY_WATER": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "PROTEIN": {
+        "description": null,
+        "unit": "Kg"
+    },
+    "MIN_PROTEIN": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "MAX_PROTEIN": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "MINERAL": {
+        "description": null,
+        "unit": "kg"
+    },
+    "MIN_MINERAL": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "MAX_MINERAL": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "BODY_FAT_MASS": {
+        "description": null,
+        "unit": "Kg"
+    },
+    "MIN_BODY_FAT_MASS": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "MAX_BODY_FAT_MASS": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "FFMFatFreeMass": {
+        "description": null,
+        "unit": null
+    },
+    "LowerLimitFFMNormalRange": {
+        "description": null,
+        "unit": null
+    },
+    "UpperLimitFFMNormalRange": {
+        "description": null,
+        "unit": null
+    },
+    "NORMAL_TOTAL_BODY_WATER": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": null
+    },
+    "NORMAL_PROTEIN": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": null
+    },
+    "NORMAL_MINERAL": {
+        "description": null,
+        "unit": null
+    },
+    "NORMAL_BODY_FAT_MASS": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": null
+    },
+    "WEIGHT": {
+        "description": null,
+        "unit": "kg"
+    },
+    "MIN_WEIGHT": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "MAX_WEIGHT": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": null
+    },
+    "SKELETAL_MUSCLE_MASS": {
+        "description": "None",
+        "unit": "kg"
+    },
+    "MIN_SKELETAL_MUSCLE_MASS": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "MAX_SKELETAL_MUSCLE_MASS": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "SKELETAL_LEAN_MASS": {
+        "description": "None",
+        "unit": "kg"
+    },
+    "PERCENT_BODY_FAT": {
+        "description": "None",
+        "unit": "%"
+    },
+    "MIN_PERCENT_BODY_FAT": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "MAX_PERCENT_BODY_FAT": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "BODY_MASS_INDEX": {
+        "description": "None",
+        "unit": "kg/m2"
+    },
+    "MIN_BODY_MASS_INDEX": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "MAX_BODY_MASS_INDEX": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "NORMAL_WEIGHT": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": "None"
+    },
+    "NORMAL_SKELETAL_MUSCLE_MASS": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": "None"
+    },
+    "NORMAL_PERCENT_BODY_FAT": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": "None"
+    },
+    "NORMAL_BODY_MASS_INDEX": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": "None"
+    },
+    "TARGET_WEIGHT": {
+        "description": "This is a value suggested by the inbody, according to age and sex, that the person should reach",
+        "unit": "None"
+    },
+    "WEIGHT_CONTROL": {
+        "description": "This is a recommendation based on the analysis to increase or decrease certain amount of Kg of the total weight",
+        "unit": "None"
+    },
+    "FAT_CONTROL": {
+        "description": "This is a recommendation based on the analysis to increase or decrease certain amount of Kg of the total fat weight",
+        "unit": "None"
+    },
+    "MUSCLE_CONTROL": {
+        "description": "This is a recommendation based on the analysis to increase or decrease certain amount of Kg of the total muscle weight",
+        "unit": "None"
+    },
+    "FITNESS_SCORE": {
+        "description": "I don’t have the response yet of which formula the inbody use to calculate this",
+        "unit": "None"
+    },
+    "BASAL_METABOLIC_RATE": {
+        "description": "Calculated by Harris-benedict formula",
+        "unit": "None"
+    },
+    "MIN_BASAL_METABOLIC_RATE": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "MAX_BASAL_METABOLIC_RATE": {
+        "description": "This is a reference given by the inbody, is not a result",
+        "unit": "None"
+    },
+    "LRA": {
+        "description": "Lean in Right Arm",
+        "unit": "Kg"
+    },
+    "PLRA": {
+        "description": "Percentage of Lean in Right Arm",
+        "unit": "%"
+    },
+    "LLA": {
+        "description": "Lean in Left Arm",
+        "unit": "Kg"
+    },
+    "PLLA": {
+        "description": "Percentage of Lean in Left Arm",
+        "unit": "%"
+    },
+    "LT": {
+        "description": "Lean in Trunk",
+        "unit": "Kg"
+    },
+    "PLT": {
+        "description": "Percentage of Lean in Trunk",
+        "unit": "%"
+    },
+    "LRL": {
+        "description": "Lean in Right Leg",
+        "unit": "Kg"
+    },
+    "PLRL": {
+        "description": "Percentage of Lean in Right Leg",
+        "unit": "%"
+    },
+    "LLL": {
+        "description": "Lean in Left Leg",
+        "unit": "Kg"
+    },
+    "PLLL": {
+        "description": "Percentage of Lean in Left Leg",
+        "unit": "%"
+    },
+    "FRA": {
+        "description": "Fat in Right Arm",
+        "unit": "Kg"
+    },
+    "PBFRA": {
+        "description": "Percentage of fat in Right Arm",
+        "unit": "%"
+    },
+    "FLA": {
+        "description": "Fat in Left Arm",
+        "unit": "Kg"
+    },
+    "PBFLA": {
+        "description": "Percentage of Fat in Left Arm",
+        "unit": "%"
+    },
+    "FT": {
+        "description": "Fat in Trunk",
+        "unit": "Kg"
+    },
+    "PBFT": {
+        "description": "Percentage of Fat in Trunk",
+        "unit": "%"
+    },
+    "FRL": {
+        "description": "Fat in Right Leg",
+        "unit": "Kg"
+    },
+    "PBFRL": {
+        "description": "Percentage of Fat in Right Leg",
+        "unit": "%"
+    },
+    "FLL": {
+        "description": "Fat in Left Leg",
+        "unit": "Kg"
+    },
+    "PBFLL": {
+        "description": "Percentage of Fat in Left Leg",
+        "unit": "%"
+    },
+    "WHRWaistHipRatio": {
+        "description": null,
+        "unit": null
+    },
+    "LowerLimitWHRNormalRange": {
+        "description": null,
+        "unit": null
+    },
+    "UpperLimitWHRNormalRange": {
+        "description": null,
+        "unit": null
+    },
+    "VFLVisceralFatLevel": {
+        "description": null,
+        "unit": null
+    },
+    "kHzRAImpedance": {
+        "description": null,
+        "unit": null
+    },
+    "kHzLAImpedance": {
+        "description": null,
+        "unit": null
+    },
+    "kHzTRImpedance": {
+        "description": null,
+        "unit": null
+    },
+    "kHzRLImpedance": {
+        "description": null,
+        "unit": null
+    },
+    "kHzLLImpedance": {
+        "description": null,
+        "unit": null
+    },
+    "CS": {
+        "description": null,
+        "unit": null
+    },
+    "CT": {
+        "description": null,
+        "unit": null
+    },
+    "CU": {
+        "description": null,
+        "unit": null
+    },
+    "CV": {
+        "description": null,
+        "unit": null
+    },
+    "CW": {
+        "description": null,
+        "unit": null
+    },
+    "GrowthScore": {
+        "description": null,
+        "unit": null
+    },
+    "ObesityDegreeofaChild": {
+        "description": null,
+        "unit": null
+    },
+    "LowerLimitObesityDegreeofa": {
+        "description": null,
+        "unit": null
+    },
+    "UpperLimitObesityDegreeofa": {
+        "description": null,
+        "unit": null
+    },
+    "EQUIP": {
+        "description": "Always report 230",
+        "unit": "None"
+    },
+    "OBSERVACIONES": {
+        "description": "None",
+        "unit": "None"
+    }
+}

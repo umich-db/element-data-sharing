@@ -4,9 +4,9 @@ conn = sqlite3.connect('example.db')
 cursor = conn.cursor()
 
 try:
-    cursor.execute("DELETE FROM Words WHERE word LIKE '%\\%%' ESCAPE '\\';")
-    deleted_percent_count_words = cursor.rowcount
-    print(f"Deleted {deleted_percent_count_words} words containing '%' from Words table.")
+    cursor.execute("DELETE FROM Words WHERE word LIKE '%\\%%' ESCAPE '\\' OR word LIKE '%(%' OR word LIKE '%)%';")
+    deleted_special_count_words = cursor.rowcount
+    print(f"Deleted {deleted_special_count_words} words containing '%', '(', or ')' from Words table.")
 
     cursor.execute("SELECT word_id, word FROM Words")
     words = cursor.fetchall()
@@ -24,9 +24,10 @@ try:
             print(f"Error processing word '{sanitized_word}' (ID: {word_id}): {e}")
         except Exception as e:
             print(f"Unexpected error for word '{sanitized_word}' (ID: {word_id}): {e}")
-    cursor.execute("DELETE FROM Words_dataset WHERE word LIKE '%\\%%' ESCAPE '\\';")
-    deleted_percent_count_dataset = cursor.rowcount
-    print(f"Deleted {deleted_percent_count_dataset} words containing '%' from Words_dataset table.")
+
+    cursor.execute("DELETE FROM Words_dataset WHERE word LIKE '%\\%%' ESCAPE '\\' OR word LIKE '%(%' OR word LIKE '%)%';")
+    deleted_special_count_dataset = cursor.rowcount
+    print(f"Deleted {deleted_special_count_dataset} words containing '%', '(', or ')' from Words_dataset table.")
 
     cursor.execute("SELECT word_id, word FROM Words_dataset")
     words_dataset = cursor.fetchall()
@@ -44,6 +45,7 @@ try:
             print(f"Error processing word '{sanitized_word}' (ID: {word_id}): {e}")
         except Exception as e:
             print(f"Unexpected error for word '{sanitized_word}' (ID: {word_id}): {e}")
+
     conn.commit()
     print("Cleanup completed.")
 

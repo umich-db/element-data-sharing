@@ -1,0 +1,514 @@
+{
+    "proyecto": {
+        "description": "R01 - MLM-BONE",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "folio",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "etapa",
+        "unit": "None"
+    },
+    "etapa_F": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folioFFQ": {
+        "description": "folio del cuestionario FFQ",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "gpoedad": {
+        "description": "Grupo de edad al que pertenece",
+        "unit": "None"
+    },
+    "edad": {
+        "description": "Edad del paciente, medida en años.",
+        "unit": "años"
+    },
+    "acido_folico_ss": {
+        "description": "Cantidad de ácido fólico en el suplemento",
+        "unit": "None"
+    },
+    "acido_folico_gi": {
+        "description": "Cantidad de ácido fólico en el suplemento gastrointestinal.",
+        "unit": "None"
+    },
+    "adekoncsolucion": {
+        "description": "Formulación que combina vitaminas A, D y K en solución líquida.",
+        "unit": "None"
+    },
+    "aderogilc": {
+        "description": "Suplemento que contiene adenosina.",
+        "unit": "None"
+    },
+    "agerogylc": {
+        "description": "Suplemento que combina aminoácidos y otros nutrientes.",
+        "unit": "None"
+    },
+    "aminoyodarsencal": {
+        "description": "Suplemento que proporciona yodo y aminoácidos.",
+        "unit": "None"
+    },
+    "anerexjarabe": {
+        "description": "Jarabe utilizado para estimular el apetito.",
+        "unit": "None"
+    },
+    "autrin600": {
+        "description": "Suplemento que contiene hierro y otros nutrientes",
+        "unit": "None"
+    },
+    "bedocecal": {
+        "description": "Suplemento vitamínico",
+        "unit": "None"
+    },
+    "bedoyecta": {
+        "description": "Suplemento vitamínico completo, que incluye vitaminas y minerales esenciales.",
+        "unit": "None"
+    },
+    "bedoyectapediatrica": {
+        "description": "Formulación pediátrica de Bedoyecta",
+        "unit": "None"
+    },
+    "bedoyectatriinyectada": {
+        "description": "Suplemento inyectable de Bedoyecta",
+        "unit": "None"
+    },
+    "biometrix": {
+        "description": "Suplemento que combina diversas vitaminas y minerales",
+        "unit": "None"
+    },
+    "biotefronl": {
+        "description": "Suplemento que promueve la salud intestinal mediante probióticos.",
+        "unit": "None"
+    },
+    "calcigenoldoble": {
+        "description": "Suplemento que proporciona calcio",
+        "unit": "None"
+    },
+    "calcigenoldobleinfantil": {
+        "description": "Suplemento de calcio, infantil",
+        "unit": "None"
+    },
+    "calcioefervescente": {
+        "description": "Suplemento de calcio efervescente",
+        "unit": "None"
+    },
+    "calctose": {
+        "description": "Suplemento",
+        "unit": "None"
+    },
+    "calctoseinfantil": {
+        "description": "Formulación infantil de calctose.",
+        "unit": "None"
+    },
+    "caltrate600": {
+        "description": "Suplemento de calcio con vitamina D",
+        "unit": "None"
+    },
+    "caltrate600d": {
+        "description": "Suplemento de calcio y vitamina D",
+        "unit": "None"
+    },
+    "casec": {
+        "description": "Suplemento que contiene caseína, utilizado para mantener niveles estables de energía.",
+        "unit": "None"
+    },
+    "caseinatodecalcioss": {
+        "description": "Suplemento que combina caseína y calcio, para soporte nutricional.",
+        "unit": "None"
+    },
+    "centrum": {
+        "description": "Multivitamínico que proporciona una amplia gama de vitaminas y minerales esenciales.",
+        "unit": "None"
+    },
+    "centrumjunior": {
+        "description": "Multivitamínico formulado para niños, que cubre sus necesidades nutricionales.",
+        "unit": "None"
+    },
+    "centrumjuniorinfantil": {
+        "description": "Versión infantil del multivitamínico Centrum, adaptada para las necesidades de los más pequeños.",
+        "unit": "None"
+    },
+    "cevalinvitaminac": {
+        "description": "Suplemento que contiene vitamina C, importante para el sistema inmunológico.",
+        "unit": "None"
+    },
+    "cevalinvitaminacinfantil": {
+        "description": "Suplemento de vitamina C para niños, en formulación adecuada para su consumo.",
+        "unit": "None"
+    },
+    "cevisolgotas": {
+        "description": "Suplemento en forma de gotas que proporciona vitamina C, para facilitar su administración.",
+        "unit": "None"
+    },
+    "ciprolisinajarabe": {
+        "description": "Jarabe que contiene ciprofloxacino, utilizado como antibiótico.",
+        "unit": "None"
+    },
+    "clusivol": {
+        "description": "Suplemento que combina múltiples nutrientes.",
+        "unit": "None"
+    },
+    "clusivolinfantiljarabe": {
+        "description": "Formulación en jarabe de Clusivol, diseñada para niños.",
+        "unit": "None"
+    },
+    "complan": {
+        "description": "Suplemento nutricional completo, utilizado para complementar dietas deficientes.",
+        "unit": "None"
+    },
+    "complaninfantil": {
+        "description": "Versión infantil de Complan, adaptada a las necesidades nutricionales de los niños.",
+        "unit": "None"
+    },
+    "complejobss": {
+        "description": "Suplemento que combina múltiples vitaminas y minerales.",
+        "unit": "None"
+    },
+    "decavisolgotas": {
+        "description": "Suplemento en gotas que contiene vitamina D y calcio, para la salud ósea.",
+        "unit": "None"
+    },
+    "doloneurobion": {
+        "description": "Suplemento que alivia el dolor neuropático, combinando varias vitaminas.",
+        "unit": "None"
+    },
+    "doremilferroso": {
+        "description": "Suplemento de hierro, utilizado para prevenir o tratar la anemia ferropénica.",
+        "unit": "None"
+    },
+    "dvisol": {
+        "description": "Suplemento que proporciona vitamina D en forma líquida.",
+        "unit": "None"
+    },
+    "elevitprenat": {
+        "description": "Suplemento vitamínico para mujeres embarazadas, que apoya el desarrollo fetal.",
+        "unit": "None"
+    },
+    "emulsiondescott": {
+        "description": "Emulsión nutricional que contiene vitaminas y minerales esenciales.",
+        "unit": "None"
+    },
+    "emulsiondescottinfantil": {
+        "description": "Versión infantil de la emulsión de Scott, diseñada para satisfacer las necesidades nutricionales de los niños.",
+        "unit": "None"
+    },
+    "ensurepolvo": {
+        "description": "Suplemento nutricional en polvo, que proporciona una mezcla equilibrada de nutrientes.",
+        "unit": "None"
+    },
+    "esclerovitanao": {
+        "description": "Suplemento que apoya la salud vascular, conteniendo antioxidantes.",
+        "unit": "None"
+    },
+    "fernisol": {
+        "description": "Suplemento que aporta hierro, indicado para prevenir o tratar deficiencias de hierro.",
+        "unit": "None"
+    },
+    "ferraninacomplex": {
+        "description": "Suplemento de hierro combinado con otros nutrientes para mejorar la absorción.",
+        "unit": "None"
+    },
+    "ferraninafol": {
+        "description": "Suplemento de hierro y ácido fólico, para la salud en general.",
+        "unit": "None"
+    },
+    "ferraninagotas": {
+        "description": "Suplemento de hierro en forma de gotas, para facilitar la administración.",
+        "unit": "None"
+    },
+    "ferrofolico500": {
+        "description": "Suplemento de hierro y ácido fólico, diseñado para adultos.",
+        "unit": "None"
+    },
+    "ferrotemp": {
+        "description": "Suplemento de hierro que promueve la producción de glóbulos rojos.",
+        "unit": "None"
+    },
+    "filibon": {
+        "description": "Suplemento que proporciona fibra y nutrientes para la salud digestiva.",
+        "unit": "None"
+    },
+    "folivital": {
+        "description": "Suplemento que aporta ácido fólico, importante para la salud durante el embarazo.",
+        "unit": "None"
+    },
+    "formance": {
+        "description": "Suplemento nutricional diseñado para mejorar el rendimiento físico.",
+        "unit": "None"
+    },
+    "forzevitforte": {
+        "description": "Suplemento que combina vitaminas y minerales para el soporte energético.",
+        "unit": "None"
+    },
+    "fumaratoferrososs": {
+        "description": "Suplemento de hierro en forma de fumarato, para tratar la anemia.",
+        "unit": "None"
+    },
+    "fumaratoferrosodelssinfantil": {
+        "description": "Versión infantil de fumarato ferroso, adaptada para niños.",
+        "unit": "None"
+    },
+    "futuramama": {
+        "description": "Suplemento diseñado para mujeres embarazadas, que apoya la salud materno-infantil.",
+        "unit": "None"
+    },
+    "gelcavit": {
+        "description": "Gel nutricional que aporta vitaminas y minerales esenciales.",
+        "unit": "None"
+    },
+    "hemobion400": {
+        "description": "Suplemento que ayuda a mejorar los niveles de hemoglobina en sangre.",
+        "unit": "None"
+    },
+    "hemostilvjarabe": {
+        "description": "Jarabe que promueve la salud de la sangre y el sistema circulatorio",
+        "unit": "None"
+    },
+    "hidroxocobalaminass": {
+        "description": "None",
+        "unit": "None"
+    },
+    "iberet500": {
+        "description": "None",
+        "unit": "None"
+    },
+    "iberol500jarabe": {
+        "description": "None",
+        "unit": "None"
+    },
+    "increminconhierrojarabe": {
+        "description": "None",
+        "unit": "None"
+    },
+    "kiddipharmatonjarabe": {
+        "description": "None",
+        "unit": "None"
+    },
+    "kiddipharmatontabletamasticab": {
+        "description": "None",
+        "unit": "None"
+    },
+    "kilovit": {
+        "description": "None",
+        "unit": "None"
+    },
+    "kindercal": {
+        "description": "None",
+        "unit": "None"
+    },
+    "materna": {
+        "description": "None",
+        "unit": "None"
+    },
+    "mom": {
+        "description": "None",
+        "unit": "None"
+    },
+    "multisanostol": {
+        "description": "None",
+        "unit": "None"
+    },
+    "natele": {
+        "description": "None",
+        "unit": "None"
+    },
+    "nutret": {
+        "description": "None",
+        "unit": "None"
+    },
+    "obronf": {
+        "description": "None",
+        "unit": "None"
+    },
+    "omnilife": {
+        "description": "None",
+        "unit": "None"
+    },
+    "oneaday": {
+        "description": "None",
+        "unit": "None"
+    },
+    "orafer_comp": {
+        "description": "None",
+        "unit": "None"
+    },
+    "ossopan": {
+        "description": "None",
+        "unit": "None"
+    },
+    "paladacsjarabe": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pangavit": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pangavitpediatricosolucion": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pediasure": {
+        "description": "None",
+        "unit": "None"
+    },
+    "pharmaton": {
+        "description": "None",
+        "unit": "None"
+    },
+    "polivisol": {
+        "description": "None",
+        "unit": "None"
+    },
+    "polivitaminasymineralesss": {
+        "description": "None",
+        "unit": "None"
+    },
+    "polivitaminasymineralesdelss": {
+        "description": "None",
+        "unit": "None"
+    },
+    "prenatal": {
+        "description": "None",
+        "unit": "None"
+    },
+    "prenatex": {
+        "description": "None",
+        "unit": "None"
+    },
+    "prenicap": {
+        "description": "None",
+        "unit": "None"
+    },
+    "protevit": {
+        "description": "None",
+        "unit": "None"
+    },
+    "protevitinfantil": {
+        "description": "None",
+        "unit": "None"
+    },
+    "redoxonforte": {
+        "description": "None",
+        "unit": "None"
+    },
+    "redoxongotas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "rodovit": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sukrol": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sulfatoferrososs": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sulfatoferrosossinfantil": {
+        "description": "None",
+        "unit": "None"
+    },
+    "supradyn": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sustagen": {
+        "description": "None",
+        "unit": "None"
+    },
+    "sustageninfantil": {
+        "description": "None",
+        "unit": "None"
+    },
+    "teragranadc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "teragranadcgotas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tiaminalb12": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tiaminalb1250000": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tiaminalb12trivalente": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tribedoce": {
+        "description": "None",
+        "unit": "None"
+    },
+    "trivisolgotas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "unicapjr": {
+        "description": "None",
+        "unit": "None"
+    },
+    "unicapt": {
+        "description": "None",
+        "unit": "None"
+    },
+    "venocal": {
+        "description": "None",
+        "unit": "None"
+    },
+    "vitaforte": {
+        "description": "None",
+        "unit": "None"
+    },
+    "vitaminacengotas": {
+        "description": "None",
+        "unit": "None"
+    },
+    "vitaminaetrigo": {
+        "description": "None",
+        "unit": "None"
+    },
+    "vitaminasacddelss": {
+        "description": "None",
+        "unit": "None"
+    },
+    "viterrainfantil": {
+        "description": "None",
+        "unit": "None"
+    },
+    "viterraplus": {
+        "description": "None",
+        "unit": "None"
+    },
+    "viterraplusinfantil": {
+        "description": "None",
+        "unit": "None"
+    }
+}

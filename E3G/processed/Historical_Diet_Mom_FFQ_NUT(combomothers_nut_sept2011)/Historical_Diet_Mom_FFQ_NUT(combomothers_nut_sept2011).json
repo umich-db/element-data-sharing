@@ -1,0 +1,1182 @@
+{
+    "PROYECTO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "FOLIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "STAGE": {
+        "description": "None",
+        "unit": "None"
+    },
+    "ETAPA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "EDAD": {
+        "description": "None",
+        "unit": "None"
+    },
+    "SEXO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "REVIS": {
+        "description": "None",
+        "unit": "None"
+    },
+    "CODIF": {
+        "description": "None",
+        "unit": "None"
+    },
+    "FECHA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "M_FREC1": {
+        "description": "1 glass of whole milk",
+        "unit": "milk products"
+    },
+    "M_FREC2": {
+        "description": "1 slice of fresh cheese or 1/2 cup of fresh cottage cheese",
+        "unit": "None"
+    },
+    "M_FREC3": {
+        "description": "1 slice of oaxaca cheese",
+        "unit": "None"
+    },
+    "M_FREC4": {
+        "description": "1 slice of manchego or chihuahua cheese",
+        "unit": "None"
+    },
+    "M_FREC5": {
+        "description": "1 spoon of cream cheese",
+        "unit": "None"
+    },
+    "M_FREC6": {
+        "description": "1 cup of yogurt or bulgaros",
+        "unit": "None"
+    },
+    "M_FREC7": {
+        "description": "ice cream cone",
+        "unit": "None"
+    },
+    "M_FREC8": {
+        "description": "banana",
+        "unit": "fruits"
+    },
+    "M_FREC9": {
+        "description": "orange",
+        "unit": "None"
+    },
+    "M_FREC10": {
+        "description": "1 glass fruit juice of orange or grapefruit",
+        "unit": "None"
+    },
+    "M_FREC11": {
+        "description": "1 slice of melon",
+        "unit": "None"
+    },
+    "M_FREC12": {
+        "description": "1 apple",
+        "unit": "None"
+    },
+    "M_FREC13": {
+        "description": "1 slice of watermelon",
+        "unit": "None"
+    },
+    "M_FREC14": {
+        "description": "1 slice of pineapple",
+        "unit": "None"
+    },
+    "M_FREC15": {
+        "description": "1 slice of papaya",
+        "unit": "None"
+    },
+    "M_FREC16": {
+        "description": "1 pear",
+        "unit": "None"
+    },
+    "M_FREC17": {
+        "description": "un mango",
+        "unit": "1 mango"
+    },
+    "M_FREC18": {
+        "description": "una mandarina",
+        "unit": "1 mandarine"
+    },
+    "M_FREC19": {
+        "description": "una porcion de fresas(10)",
+        "unit": "1 portion of strawberry (10)"
+    },
+    "M_FREC20": {
+        "description": "un durazno, chabacano o nectarina",
+        "unit": "1 peach, apricot or nectarine"
+    },
+    "M_FREC21": {
+        "description": "una porcion de uvas(10-15)",
+        "unit": "1 portion of grapes(10-15)"
+    },
+    "M_FREC22": {
+        "description": "una tuna",
+        "unit": "1 prickly pear"
+    },
+    "M_FREC23": {
+        "description": "una porcion de ciruelas(6)",
+        "unit": "1 portion of plum(6)"
+    },
+    "M_FREC24": {
+        "description": "una rebanada de mamey",
+        "unit": "1 slice of mamey"
+    },
+    "M_FREC25": {
+        "description": "un zapote",
+        "unit": "a sapota"
+    },
+    "M_FREC26": {
+        "description": "un huevo de gallina",
+        "unit": "hen egg"
+    },
+    "M_FREC27": {
+        "description": "una pieza de pollo",
+        "unit": "1 piece of chicken"
+    },
+    "M_FREC28": {
+        "description": "una rebanada de jamon",
+        "unit": "1 slice of ham"
+    },
+    "M_FREC29": {
+        "description": "un plato de carne de res",
+        "unit": "1 plate of beef"
+    },
+    "M_FREC30": {
+        "description": "un plato de carne de puerco",
+        "unit": "1 plate of pork"
+    },
+    "M_FREC31": {
+        "description": "una porcion de atun",
+        "unit": "1 portion of tuna"
+    },
+    "M_FREC32": {
+        "description": "un pedazo de chicharron",
+        "unit": "1 piece of cold processed pork meat"
+    },
+    "M_FREC33": {
+        "description": "una salchicha",
+        "unit": "1 sausage"
+    },
+    "M_FREC34": {
+        "description": "una rebanada de tocino",
+        "unit": "1 slice of bacon"
+    },
+    "M_FREC35": {
+        "description": "un bistek de higado o higaditos de pollo",
+        "unit": "1 liver or chicken liver"
+    },
+    "M_FREC36": {
+        "description": "un trozo de chorizo o longaniza",
+        "unit": "1 piece of sausage or spicy cold pork sausage"
+    },
+    "M_FREC37": {
+        "description": "un plato de pescado fresco",
+        "unit": "1 plate of fresh fish"
+    },
+    "M_FREC38": {
+        "description": "un plato de sardinas",
+        "unit": "1 plate of sardine"
+    },
+    "M_FREC39": {
+        "description": "media taza de mariscos",
+        "unit": "half cup of seafood (shellfish)"
+    },
+    "M_FREC40": {
+        "description": "un plato de carnitas",
+        "unit": "1 plate of barbecue PORK"
+    },
+    "M_FREC41": {
+        "description": "un plato de barbacoa",
+        "unit": "1 plate of barbecue BEEF"
+    },
+    "M_FREC42": {
+        "description": "tomato (sauce or stew)",
+        "unit": "vegetables"
+    },
+    "M_FREC43": {
+        "description": "tomato raw or in salad",
+        "unit": "None"
+    },
+    "M_FREC44": {
+        "description": "a potato or sweet potato",
+        "unit": "None"
+    },
+    "M_FREC45": {
+        "description": "half cup of carrot",
+        "unit": "None"
+    },
+    "M_FREC46": {
+        "description": "lettuce leaves",
+        "unit": "None"
+    },
+    "M_FREC47": {
+        "description": "half cup of spinach or green leaves",
+        "unit": "None"
+    },
+    "M_FREC48": {
+        "description": "half cup of courgette or chayote",
+        "unit": "None"
+    },
+    "M_FREC49": {
+        "description": "half cup of nopal",
+        "unit": "None"
+    },
+    "M_FREC50": {
+        "description": "a plate of cream soup with vegetables",
+        "unit": "None"
+    },
+    "M_FREC51": {
+        "description": "half avocado",
+        "unit": "None"
+    },
+    "M_FREC52": {
+        "description": "half cup of pumpkin flowers",
+        "unit": "None"
+    },
+    "M_FREC53": {
+        "description": "half coup of cauliflower",
+        "unit": "None"
+    },
+    "M_FREC54": {
+        "description": "half cup of string beans",
+        "unit": "None"
+    },
+    "M_FREC55": {
+        "description": "a spoon of spicy or chili sauce",
+        "unit": "None"
+    },
+    "M_FREC56": {
+        "description": "can of chili",
+        "unit": "None"
+    },
+    "M_FREC57": {
+        "description": "a small plate with dry chili",
+        "unit": "None"
+    },
+    "M_FREC58": {
+        "description": "corncob",
+        "unit": "None"
+    },
+    "M_FREC59": {
+        "description": "a plate of beans",
+        "unit": "legume (beans)"
+    },
+    "M_FREC60": {
+        "description": "half cup of peas",
+        "unit": "None"
+    },
+    "M_FREC61": {
+        "description": "1 plate of green(broad) beans",
+        "unit": "None"
+    },
+    "M_FREC62": {
+        "description": "a plate of dry beans",
+        "unit": "None"
+    },
+    "M_FREC63": {
+        "description": "1 plate of lentil or chickpea",
+        "unit": "None"
+    },
+    "M_FREC64": {
+        "description": "tortilla made of maize",
+        "unit": "breads and cereals"
+    },
+    "M_FREC65": {
+        "description": "flour made tortilla",
+        "unit": "None"
+    },
+    "M_FREC66": {
+        "description": "1 slice of white bread",
+        "unit": "None"
+    },
+    "M_FREC67": {
+        "description": "una rebanada de pan de caja integral",
+        "unit": "1 slice of whole wheat bread"
+    },
+    "M_FREC68": {
+        "description": "un bolillo o telera",
+        "unit": "1 bread roll telera"
+    },
+    "M_FREC69": {
+        "description": "una pieza de pan dulce",
+        "unit": "1 piece of sweet bread"
+    },
+    "M_FREC70": {
+        "description": "un plato de arroz",
+        "unit": "1 bowl of rice"
+    },
+    "M_FREC71": {
+        "description": "un plato de sopa de pasta",
+        "unit": "1 plate of soup with pasta"
+    },
+    "M_FREC72": {
+        "description": "un plato de avena",
+        "unit": "1 plate of oats"
+    },
+    "M_FREC73": {
+        "description": "un tazon de ceral de caja",
+        "unit": "1 bowl of box cereal"
+    },
+    "M_FREC73A": {
+        "description": "¿Cuál?",
+        "unit": "which?"
+    },
+    "M_FREC74": {
+        "description": "una tazon de cereal alto en fibra",
+        "unit": "1 bowl of cereal high in fiber"
+    },
+    "M_FREC74A": {
+        "description": "¿Cuál?",
+        "unit": "which?"
+    },
+    "M_FREC75": {
+        "description": "una rebanada de pastel",
+        "unit": "1 slice of cake"
+    },
+    "M_FREC76": {
+        "description": "una cucharadita de ate, miel, mermelada,cajeta o lechera",
+        "unit": "1 teaspoon of jelly,honey,jam,box of jelly or milk churn"
+    },
+    "M_FREC77": {
+        "description": "una cucharadita de chocolate en polvo",
+        "unit": "1 teaspoon of chocolate powder"
+    },
+    "M_FREC78": {
+        "description": "una tablilla de chocolate",
+        "unit": "1 bar of chocolate"
+    },
+    "M_FREC79": {
+        "description": "una bolsa de frituras",
+        "unit": "1 bag of frituras (chips)"
+    },
+    "M_FREC80": {
+        "description": "un refresco de cola",
+        "unit": "1 refreshed coca-cola"
+    },
+    "M_FREC81": {
+        "description": "un refresco gaseoso de sabro",
+        "unit": "1 fresh gaseous water"
+    },
+    "M_FREC82": {
+        "description": "un refresco dietético",
+        "unit": "1 diet soda"
+    },
+    "M_FREC83": {
+        "description": "un vaso con agua de sabor azucarada",
+        "unit": "1 glass of water with sugar added"
+    },
+    "M_FREC84": {
+        "description": "una taza de cafe sin azucar",
+        "unit": "1 cup of coffee without sugar"
+    },
+    "M_FREC85": {
+        "description": "una taza de atole sin leche",
+        "unit": "1 cup of drink made of corn flour without milk"
+    },
+    "M_FREC86": {
+        "description": "una taza de atole con leche",
+        "unit": "1 cup of drink made of corn flour with milk"
+    },
+    "M_FREC87": {
+        "description": "una cerveza",
+        "unit": "1 beer"
+    },
+    "M_FREC88": {
+        "description": "una copa de vino de mesa",
+        "unit": "1 glass of table wine"
+    },
+    "M_FREC89": {
+        "description": "una bebida con ron, brandy o tequila",
+        "unit": "1 drink of cane-juice or plant liquor"
+    },
+    "M_FREC90": {
+        "description": "aceite de maiz",
+        "unit": "None"
+    },
+    "M_FREC91": {
+        "description": "aceite de soya",
+        "unit": "None"
+    },
+    "M_FREC92": {
+        "description": "aceite de girasol",
+        "unit": "None"
+    },
+    "M_FREC93": {
+        "description": "aceite de cartamo",
+        "unit": "None"
+    },
+    "M_FREC94": {
+        "description": "aceite de oliva",
+        "unit": "None"
+    },
+    "M_FREC95": {
+        "description": "una cucharadita de margarina",
+        "unit": "None"
+    },
+    "M_FREC96": {
+        "description": "una cucharadita de mantequilla",
+        "unit": "None"
+    },
+    "M_FREC97": {
+        "description": "una cucharadita de crema",
+        "unit": "None"
+    },
+    "M_FREC98": {
+        "description": "una cucharadita de mayonesa",
+        "unit": "None"
+    },
+    "M_FREC99": {
+        "description": "una cucharadita de manteca vegetal",
+        "unit": "None"
+    },
+    "M_FREC100": {
+        "description": "una cucharadita de manteca animal",
+        "unit": "None"
+    },
+    "M_FREC101": {
+        "description": "un taco al pastor",
+        "unit": "None"
+    },
+    "M_FREC102": {
+        "description": "un sope o quesadilla",
+        "unit": "None"
+    },
+    "M_FREC103": {
+        "description": "un plato de pozole",
+        "unit": "None"
+    },
+    "M_FREC104": {
+        "description": "un tamal",
+        "unit": "None"
+    },
+    "M_FREC115": {
+        "description": "None",
+        "unit": "None"
+    },
+    "GENERO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "TALLA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "PESO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "CV_REVI": {
+        "description": "None",
+        "unit": "None"
+    },
+    "CV_ENTR": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MFREC": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_ENER_KCAL": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_H_DE_C": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_PROTEINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_GRASA": {
+        "description": "Total fat content",
+        "unit": "g"
+    },
+    "MA_CENIZA": {
+        "description": "Total ash content",
+        "unit": "g"
+    },
+    "MA_ALCH": {
+        "description": "Alcohol content",
+        "unit": "g"
+    },
+    "MA_AGUA": {
+        "description": "Water content",
+        "unit": "g"
+    },
+    "MA_CAFEINA": {
+        "description": "Caffeine content",
+        "unit": "mg"
+    },
+    "MA_THEBRN": {
+        "description": "Theobromine content",
+        "unit": "mg"
+    },
+    "MA_ENER_KJ": {
+        "description": "Energy",
+        "unit": "kJ"
+    },
+    "MA_AZUCAR": {
+        "description": "Total sugar content",
+        "unit": "g"
+    },
+    "MA_FIBTOT": {
+        "description": "Total dietary fiber",
+        "unit": "g"
+    },
+    "MA_CA": {
+        "description": "Calcium",
+        "unit": "mg"
+    },
+    "MA_FE": {
+        "description": "Iron",
+        "unit": "mg"
+    },
+    "MA_MG": {
+        "description": "Magnesium",
+        "unit": "mg"
+    },
+    "MA_P": {
+        "description": "Phosphorus",
+        "unit": "mg"
+    },
+    "MA_K": {
+        "description": "Potassium",
+        "unit": "mg"
+    },
+    "MA_NA": {
+        "description": "Sodium",
+        "unit": "mg"
+    },
+    "MA_ZN": {
+        "description": "Zinc",
+        "unit": "mg"
+    },
+    "MA_AFITICO": {
+        "description": "Phytic acid content",
+        "unit": "mg"
+    },
+    "MA_CU": {
+        "description": "Copper",
+        "unit": "mg"
+    },
+    "MA_MN": {
+        "description": "Manganese",
+        "unit": "mg"
+    },
+    "MA_SE": {
+        "description": "Selenium",
+        "unit": "µg"
+    },
+    "MA_VITA": {
+        "description": "Vitamin A",
+        "unit": "µg"
+    },
+    "MA_EQRET": {
+        "description": "Retinol equivalents",
+        "unit": "µg"
+    },
+    "MA_VITD": {
+        "description": "Vitamin D",
+        "unit": "µg"
+    },
+    "MA_RETINOL": {
+        "description": "Retinol",
+        "unit": "µg"
+    },
+    "MA_VITE": {
+        "description": "Vitamin E",
+        "unit": "mg"
+    },
+    "MA_VITC": {
+        "description": "Vitamin C",
+        "unit": "mg"
+    },
+    "MA_THIA": {
+        "description": "Thiamin (Vitamin B1)",
+        "unit": "mg"
+    },
+    "MA_RIBF": {
+        "description": "Riboflavin (Vitamin B2)",
+        "unit": "mg"
+    },
+    "MA_NIA": {
+        "description": "Niacin (Vitamin B3)",
+        "unit": "mg"
+    },
+    "MA_PANTAC": {
+        "description": "Pantothenic acid (Vitamin B5)",
+        "unit": "mg"
+    },
+    "MA_VITB6": {
+        "description": "Vitamin B6",
+        "unit": "mg"
+    },
+    "MA_FOLATO": {
+        "description": "Folate (Vitamin B9)",
+        "unit": "µg"
+    },
+    "MA_VITB12": {
+        "description": "Vitamin B12",
+        "unit": "µg"
+    },
+    "MA_TRP": {
+        "description": "Tryptophan",
+        "unit": "g"
+    },
+    "MA_THR": {
+        "description": "Threonine",
+        "unit": "g"
+    },
+    "MA_ILE": {
+        "description": "Isoleucine",
+        "unit": "g"
+    },
+    "MA_LEU": {
+        "description": "Leucine",
+        "unit": "g"
+    },
+    "MA_LYS": {
+        "description": "Lysine",
+        "unit": "g"
+    },
+    "MA_MET": {
+        "description": "Methionine",
+        "unit": "g"
+    },
+    "MA_CYS": {
+        "description": "Cystine",
+        "unit": "g"
+    },
+    "MA_PHE": {
+        "description": "Phenylalanine",
+        "unit": "g"
+    },
+    "MA_TYR": {
+        "description": "Tyrosine",
+        "unit": "g"
+    },
+    "MA_VAL": {
+        "description": "Valine",
+        "unit": "g"
+    },
+    "MA_ARG": {
+        "description": "Arginine",
+        "unit": "g"
+    },
+    "MA_HIS": {
+        "description": "Histidine",
+        "unit": "g"
+    },
+    "MA_ALA": {
+        "description": "Alanine",
+        "unit": "g"
+    },
+    "MA_ASP": {
+        "description": "Aspartic acid",
+        "unit": "g"
+    },
+    "MA_GLU": {
+        "description": "Glutamic acid",
+        "unit": "g"
+    },
+    "MA_GLY": {
+        "description": "Glycine",
+        "unit": "g"
+    },
+    "MA_PRO": {
+        "description": "Proline",
+        "unit": "g"
+    },
+    "MA_SER": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_COLE": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_GRASAT": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F4D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F6D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F8D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F10D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F12D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F14D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F16D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F18D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F20D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F18D1": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F18D2": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F18D3": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F20D4": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F22D6": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F22D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F14D1": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F16D1": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F18D4": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F20D1": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F20D5": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F22D1": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F22D5": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_FITOSTER": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_GRAMON": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_GRAPOLY": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F15D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F17D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_F24D0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_TANINOS": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_FORTICA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_FORTIFE": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_FORTIZN": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_FORTIVITA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_FORTIVITC": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_ENRICHED": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_P_F_CA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_P_F_FE": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_P_F_ZN": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_P_F_VITA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_P_F_VITC": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_IRONHEME": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA_IRONNONHEM": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_ACFOLICO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITAA_UI": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITAA_MCG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_TIAMINA_MG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_RIBOFLAVINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITB5": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_PIRIDOXINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_CIANOCOBALAMINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITC": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITD2_UI": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITD2_MCG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITD3_UI": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITD_UI": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITD_MCG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITE_UI": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITE_MG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITK1_MCG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VITK": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_NICOTINAMIDA_B3": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_NIACINAMIDA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_NIACINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_CALCIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_HIERRO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SULF_FERROSO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_MAGNESIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SAL_MAGNESIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_BIOTINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_COBRE_MCG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SODIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SELENIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_MANGANESO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_ZINC": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SAL_ZINC": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_FOSFORO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SAL_FOSFORO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_FLUOR": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_MOLIBDENO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_COBRE_MG": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_POTASIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SAL_POTASIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_YODO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_CROMO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_CLORO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_BORO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_SILICIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_NIQUEL": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_ESTAO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_VANADIO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_MINERALES": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_AC_LINOLEICO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_LECITINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_AC_PANTOTENICO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_BETACAROTENO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_CAFEINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_COLINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_INOSITOL": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_RUTINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_COENZIMA_K10": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_GINSENG_G115": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_GINKGO_BILOBA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_COREANO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_LUTEINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_HIDROXOCOBALAMINA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_NICOTINAMIDA": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_AC_GLUTAMICO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_PROTEINAS": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_CARBOHIDRATOS": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_GRASAS": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_FIBRA_DIETE": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_GERMEN_TRIGO": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_ENERGIA_KCAL": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV_DEFS": {
+        "description": "None",
+        "unit": "None"
+    },
+    "MV": {
+        "description": "None",
+        "unit": "None"
+    },
+    "_MERGE": {
+        "description": "None",
+        "unit": "None"
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "proyecto": {
+        "description": "Project",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "Folio number",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "Stage of information collection",
+        "unit": "None"
+    },
+    "suplemento": {
+        "description": "Supplementation",
+        "unit": "None"
+    },
+    "supl4": {
+        "description": "Calcium supplement",
+        "unit": "None"
+    },
+    "supl5": {
+        "description": "Calcium supplement taken regularly",
+        "unit": "None"
+    },
+    "supl6": {
+        "description": "Calcium supplement taken in the last 48 hours",
+        "unit": "None"
+    },
+    "supl7": {
+        "description": "Time of day calcium supplement is taken",
+        "unit": "None"
+    },
+    "supl8": {
+        "description": "Any discomfort with the supplement",
+        "unit": "None"
+    },
+    "supl9": {
+        "description": "Type of discomfort with the supplement",
+        "unit": "None"
+    },
+    "supl10": {
+        "description": "Number of supplement pills taken since last visit",
+        "unit": "None"
+    },
+    "supl11": {
+        "description": "Frequency of whole milk consumption",
+        "unit": "None"
+    },
+    "supl12": {
+        "description": "Frequency of fresh cheese consumption",
+        "unit": "None"
+    },
+    "supl13": {
+        "description": "Frequency of Oaxaca cheese consumption",
+        "unit": "None"
+    },
+    "supl14": {
+        "description": "Frequency of Manchego cheese consumption",
+        "unit": "None"
+    },
+    "supl15": {
+        "description": "Frequency of cream consumption",
+        "unit": "None"
+    },
+    "supl16": {
+        "description": "Frequency of yogurt consumption",
+        "unit": "None"
+    },
+    "supl17": {
+        "description": "Frequency of ice cream consumption",
+        "unit": "None"
+    },
+    "supl18": {
+        "description": "Frequency of corn consumption",
+        "unit": "None"
+    },
+    "supl19": {
+        "description": "Frequency of beans consumption",
+        "unit": "None"
+    },
+    "supl20": {
+        "description": "Frequency of corn tortilla consumption",
+        "unit": "None"
+    },
+    "supl21": {
+        "description": "Frequency of cereal consumption",
+        "unit": "None"
+    },
+    "supl22": {
+        "description": "Intake of vitamins or dietary supplements",
+        "unit": "None"
+    },
+    "supl23_1": {
+        "description": "First type of vitamin or supplement taken",
+        "unit": "None"
+    },
+    "supl23_2": {
+        "description": "Second type of vitamin or supplement taken",
+        "unit": "None"
+    },
+    "supl24": {
+        "description": "Medication taken in the last 24 hours",
+        "unit": "None"
+    },
+    "supl25_1": {
+        "description": "First type of medication taken",
+        "unit": "None"
+    },
+    "supl25_2": {
+        "description": "Second type of medication taken",
+        "unit": "None"
+    },
+    "supl26": {
+        "description": "Urine sample collected",
+        "unit": "None"
+    },
+    "supl27": {
+        "description": "None",
+        "unit": "None"
+    }
+}

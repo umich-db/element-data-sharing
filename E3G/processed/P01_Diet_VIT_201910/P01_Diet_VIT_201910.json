@@ -1,0 +1,314 @@
+{
+    "foliocc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "stage": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folioFFQ": {
+        "description": "None",
+        "unit": "None"
+    },
+    "acfolico": {
+        "description": "folic_acid",
+        "unit": "None"
+    },
+    "defs": {
+        "description": "None",
+        "unit": "None"
+    },
+    "vitaa_ui": {
+        "description": "vitamin A (IU)",
+        "unit": "None"
+    },
+    "vitaa_mcg": {
+        "description": "None",
+        "unit": "None"
+    },
+    "tiamina_mg": {
+        "description": "thiamine_mg",
+        "unit": "None"
+    },
+    "riboflavina": {
+        "description": "riboflavin",
+        "unit": "None"
+    },
+    "piridoxina": {
+        "description": "pyridoxine",
+        "unit": "None"
+    },
+    "cianocobalamina": {
+        "description": "cyanocobalamin",
+        "unit": "None"
+    },
+    "vitc": {
+        "description": "vitc",
+        "unit": "None"
+    },
+    "vitd2_ui": {
+        "description": "Vitamin D2 (IU)",
+        "unit": "None"
+    },
+    "vitd3_ui": {
+        "description": "Vitamin D3 (IU)",
+        "unit": "None"
+    },
+    "vitd_ui": {
+        "description": "Vitamin D (IU)",
+        "unit": "None"
+    },
+    "vitd_mcg": {
+        "description": "vitd_mcg",
+        "unit": "None"
+    },
+    "vite_ui": {
+        "description": "vite_iu",
+        "unit": "None"
+    },
+    "vite_mg": {
+        "description": "vite_mg",
+        "unit": "None"
+    },
+    "vitk": {
+        "description": "vitk",
+        "unit": "None"
+    },
+    "nicotinamida_b3": {
+        "description": "nicotinamide_b3",
+        "unit": "None"
+    },
+    "niacinamida": {
+        "description": "niacinamide",
+        "unit": "None"
+    },
+    "niacina": {
+        "description": "niacin",
+        "unit": "None"
+    },
+    "calcio": {
+        "description": "calcium",
+        "unit": "None"
+    },
+    "hierro": {
+        "description": "iron",
+        "unit": "None"
+    },
+    "sulf_ferroso": {
+        "description": "ferrous_sulfate",
+        "unit": "None"
+    },
+    "magnesio": {
+        "description": "magnesium",
+        "unit": "None"
+    },
+    "sal_magnesio": {
+        "description": "magnesium_salt",
+        "unit": "None"
+    },
+    "biotina": {
+        "description": "biotin",
+        "unit": "None"
+    },
+    "cobre_mcg": {
+        "description": "copper_mcg",
+        "unit": "None"
+    },
+    "sodio": {
+        "description": "sodium",
+        "unit": "None"
+    },
+    "selenio": {
+        "description": "selenium",
+        "unit": "None"
+    },
+    "manganeso": {
+        "description": "manganese",
+        "unit": "None"
+    },
+    "zinc": {
+        "description": "zinc",
+        "unit": "None"
+    },
+    "sal_zinc": {
+        "description": "zinc_salt",
+        "unit": "None"
+    },
+    "fosforo": {
+        "description": "phosphorus",
+        "unit": "None"
+    },
+    "sal_fosforo": {
+        "description": "phosphorus_salt",
+        "unit": "None"
+    },
+    "molibdeno": {
+        "description": "molybdenum",
+        "unit": "None"
+    },
+    "potasio": {
+        "description": "potassium",
+        "unit": "None"
+    },
+    "sal_potasio": {
+        "description": "potassium_salt",
+        "unit": "None"
+    },
+    "yodo": {
+        "description": "Iodine",
+        "unit": "None"
+    },
+    "cromo": {
+        "description": "chromium",
+        "unit": "None"
+    },
+    "cloro": {
+        "description": "chlorine",
+        "unit": "None"
+    },
+    "boro": {
+        "description": "boron",
+        "unit": "None"
+    },
+    "silicio": {
+        "description": "silicon",
+        "unit": "None"
+    },
+    "niquel": {
+        "description": "nickel",
+        "unit": "None"
+    },
+    "VAR47": {
+        "description": "None",
+        "unit": "None"
+    },
+    "vanadio": {
+        "description": "vanadium",
+        "unit": "None"
+    },
+    "lecitina": {
+        "description": "lecithin",
+        "unit": "None"
+    },
+    "ac_pantotenico": {
+        "description": "pantothenic_acid",
+        "unit": "None"
+    },
+    "betacaroteno": {
+        "description": "beta carotene",
+        "unit": "None"
+    },
+    "cafeina": {
+        "description": "Cafeína",
+        "unit": "mg/100g"
+    },
+    "inositol": {
+        "description": "inositol",
+        "unit": "None"
+    },
+    "ginseng_g115": {
+        "description": "ginseng_g115",
+        "unit": "None"
+    },
+    "luteina": {
+        "description": "lutein",
+        "unit": "None"
+    },
+    "ac_glutamico": {
+        "description": "Acido Glutámico",
+        "unit": "g/100g"
+    },
+    "proteinas": {
+        "description": "protein",
+        "unit": "None"
+    },
+    "carbohidratos": {
+        "description": "carbohydrates",
+        "unit": "None"
+    },
+    "grasas": {
+        "description": "fat",
+        "unit": "None"
+    },
+    "fibra_diete": {
+        "description": "dietary fiber",
+        "unit": "None"
+    },
+    "energia_kcal": {
+        "description": "Energía en Kcal/100g",
+        "unit": "Energy Kcal/100g"
+    },
+    "vitd2_mcg": {
+        "description": "Vitamin D2 (mcg)",
+        "unit": "None"
+    },
+    "vitk1_mcg": {
+        "description": "vitk1_mcg",
+        "unit": "None"
+    },
+    "cobre_mg": {
+        "description": "Copper",
+        "unit": "mg/100g"
+    },
+    "esta_o": {
+        "description": "tin",
+        "unit": "None"
+    },
+    "ac_linoleico": {
+        "description": "linoleic_acid",
+        "unit": "None"
+    },
+    "colina": {
+        "description": "choline",
+        "unit": "None"
+    },
+    "nicotinamida": {
+        "description": "nicotinamide",
+        "unit": "None"
+    },
+    "colecalciferol": {
+        "description": "None",
+        "unit": "None"
+    },
+    "alfatocoferol": {
+        "description": "None",
+        "unit": "None"
+    },
+    "acpantotenico": {
+        "description": "pantothenic_acid",
+        "unit": "None"
+    },
+    "kcal": {
+        "description": "None",
+        "unit": "None"
+    },
+    "prot": {
+        "description": "None",
+        "unit": "None"
+    },
+    "lipids": {
+        "description": "None",
+        "unit": "None"
+    },
+    "carbohydrates": {
+        "description": "None",
+        "unit": "None"
+    },
+    "taurina": {
+        "description": "None",
+        "unit": "None"
+    },
+    "carnitina": {
+        "description": "None",
+        "unit": "None"
+    },
+    "lisina": {
+        "description": "Lisina",
+        "unit": "g/100g"
+    }
+}

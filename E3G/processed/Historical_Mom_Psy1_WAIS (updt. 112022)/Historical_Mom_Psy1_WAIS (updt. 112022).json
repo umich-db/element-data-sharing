@@ -1,0 +1,94 @@
+{
+    "proyecto": {
+        "description": "proyecto",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "Id number",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "stage": {
+        "description": "stage",
+        "unit": "None"
+    },
+    "date_stage": {
+        "description": "None",
+        "unit": "None"
+    },
+    "wais": {
+        "description": "Was WAIS test administered (to mother)?",
+        "unit": "None"
+    },
+    "waisverb": {
+        "description": "None",
+        "unit": "None"
+    },
+    "waisver_": {
+        "description": "Verbal score confidence Inteval (I.Q.)",
+        "unit": "None"
+    },
+    "waisejec": {
+        "description": "Attention score",
+        "unit": "None"
+    },
+    "waiseje_": {
+        "description": "Attention score confidence",
+        "unit": "None"
+    },
+    "waistota": {
+        "description": "Total score",
+        "unit": "None"
+    },
+    "waistot_": {
+        "description": "Total score confidence interval (I.Q)",
+        "unit": "None"
+    },
+    "wais_cal": {
+        "description": "Code of person who scored WAIS test",
+        "unit": "None"
+    },
+    "wais1": {
+        "description": "wais1",
+        "unit": "None"
+    },
+    "wais1_2": {
+        "description": "wais1_2",
+        "unit": "None"
+    },
+    "wais2": {
+        "description": "Was WAIS test admin. (to mother) (2)?",
+        "unit": "None"
+    },
+    "waisver2": {
+        "description": "Verbal score (2)",
+        "unit": "None"
+    },
+    "waisve_2": {
+        "description": "Verbal score confidence interval (2)",
+        "unit": "None"
+    },
+    "waiseje2": {
+        "description": "Attention score (2)",
+        "unit": "None"
+    },
+    "waisej_2": {
+        "description": "Attention score CI (2)",
+        "unit": "None"
+    },
+    "waistot2": {
+        "description": "Total score (2)",
+        "unit": "None"
+    },
+    "waisto_2": {
+        "description": "Total score confidence interval (2)",
+        "unit": "None"
+    },
+    "wais_ca2": {
+        "description": "Code of person who scored WAIS test",
+        "unit": "None"
+    }
+}

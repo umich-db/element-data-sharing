@@ -1,0 +1,82 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "PIN": {
+        "description": "None",
+        "unit": "None"
+    },
+    "DeviceID": {
+        "description": "None",
+        "unit": "None"
+    },
+    "Age": {
+        "description": "None",
+        "unit": "None"
+    },
+    "Education": {
+        "description": null,
+        "unit": null
+    },
+    "MothersEducation": {
+        "description": null,
+        "unit": null
+    },
+    "FathersEducation": {
+        "description": null,
+        "unit": null
+    },
+    "GuardiansEducation": {
+        "description": null,
+        "unit": null
+    },
+    "StartingLevelOverride": {
+        "description": null,
+        "unit": null
+    },
+    "Gender": {
+        "description": null,
+        "unit": null
+    },
+    "Handedness": {
+        "description": null,
+        "unit": null
+    },
+    "Race": {
+        "description": null,
+        "unit": null
+    },
+    "Ethnicity": {
+        "description": null,
+        "unit": null
+    },
+    "AssessmentName": {
+        "description": null,
+        "unit": null
+    }
+}

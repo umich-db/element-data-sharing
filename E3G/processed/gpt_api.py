@@ -69,7 +69,6 @@ def embedding(input, dimension):
         azure_endpoint=api_base,
         organization=organization
     )
-
     # Send a completion call to generate an answer
     print('Sending a test completion job')
 

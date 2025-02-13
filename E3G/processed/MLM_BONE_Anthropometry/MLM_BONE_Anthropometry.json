@@ -1,0 +1,186 @@
+{
+    "proyecto": {
+        "description": "Project MLM",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fech_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Foliocc of Participant",
+        "unit": "None"
+    },
+    "id": {
+        "description": "Project identifier CC-0000-R01MB-M",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "Project MLM",
+        "unit": "None"
+    },
+    "cod_cap": {
+        "description": "Code of the person who captures",
+        "unit": "None"
+    },
+    "cod_med": {
+        "description": "Code of the person who measures",
+        "unit": "None"
+    },
+    "dia_m": {
+        "description": "Measurement day",
+        "unit": "None"
+    },
+    "mes_m": {
+        "description": "Measurement month",
+        "unit": "None"
+    },
+    "anio_m": {
+        "description": "Year of measurement",
+        "unit": "None"
+    },
+    "peso1_m": {
+        "description": "1st Weight Measurement",
+        "unit": "Kg"
+    },
+    "talla172_m": {
+        "description": "1st height Measurement",
+        "unit": "Cm"
+    },
+    "talla272_m": {
+        "description": "2nd height Measurement",
+        "unit": "Cm"
+    },
+    "talla372_m": {
+        "description": "3rd height Measurement Only if it exceeds the precision requirements +/-0.5cm",
+        "unit": "Cm"
+    },
+    "circint1_m": {
+        "description": "1st Abdominal Circumference Measurement",
+        "unit": "Cm"
+    },
+    "circint2_m": {
+        "description": "2nd Abdominal Circumference Measurement",
+        "unit": "Cm"
+    },
+    "circint3_m": {
+        "description": "3rd Abdominal Circumference Measurement Only if it exceeds the precision requirements +/- 0.5cm",
+        "unit": "Cm"
+    },
+    "longbra_m": {
+        "description": "Upper Arm Length Measurement",
+        "unit": "None"
+    },
+    "cirbra_m": {
+        "description": "Arm Circumference Measurement",
+        "unit": "None"
+    },
+    "etri1_m": {
+        "description": "1st Triceps Skin Fold Thickness Measurement",
+        "unit": "None"
+    },
+    "etri2_m": {
+        "description": "2nd Triceps Skin Fold Thickness Measurement",
+        "unit": "None"
+    },
+    "etri3_m": {
+        "description": "3rd Triceps Skin Fold Thickness Measurement",
+        "unit": "None"
+    },
+    "esup1_m": {
+        "description": "1st Measurement of Suprailiac Skin Fold Thickness",
+        "unit": "None"
+    },
+    "esup2_m": {
+        "description": "2nd Measurement of Suprailiac Skin Fold Thickness",
+        "unit": "None"
+    },
+    "esup3_m": {
+        "description": "3rd Measurement of Suprailiac Skin Fold Thickness",
+        "unit": "None"
+    },
+    "esub1_m": {
+        "description": "1st Measurement of Subscapular Skin Fold Thickness",
+        "unit": "None"
+    },
+    "esub2_m": {
+        "description": "2nd Measurement of Subscapular Skin Fold Thickness",
+        "unit": "None"
+    },
+    "esub3_m": {
+        "description": "3rd Measurement of Subscapular Skin Fold Thickness",
+        "unit": "None"
+    },
+    "sistwa1_m": {
+        "description": "1st Systolic Measurement Team Welch Allyn",
+        "unit": "None"
+    },
+    "diastwa1_m": {
+        "description": "1st Distolic Measurement Team Welch Allyn",
+        "unit": "None"
+    },
+    "sistwa2_m": {
+        "description": "2nd Systolic Measurement Team Welch Allyn",
+        "unit": "None"
+    },
+    "diastwa2_m": {
+        "description": "None",
+        "unit": "None"
+    },
+    "inbody_m": {
+        "description": "Inbody study was carried out",
+        "unit": "1 = if it was done, 2 = if it was not done"
+    },
+    "acel": {
+        "description": "Accelerometer was placed",
+        "unit": "1 = yes, 2 = no"
+    },
+    "frax": {
+        "description": "Questionnaire was applied",
+        "unit": "1 = yes, 2 = no"
+    },
+    "abi": {
+        "description": "BP measurement with WatchBP Office ABI equipment",
+        "unit": "1 = yes, 2 = no"
+    },
+    "nih1": {
+        "description": "NIH Toolbox Picture Vocabulary Test",
+        "unit": "1 = yes, 2 = no"
+    },
+    "nih2": {
+        "description": "NIH Toolbox Oral Reading Recognition Test",
+        "unit": "1 = yes, 2 = no"
+    },
+    "nih3": {
+        "description": "NIH Toolbox List Sorting Working Memory Test",
+        "unit": "1 = yes, 2 = no"
+    },
+    "nih4": {
+        "description": "NIH Toolbox Pattern Comparison Processing",
+        "unit": "1 = yes, 2 = no"
+    },
+    "nih5": {
+        "description": "NIH Toolbox Picture Sequence Memory Test",
+        "unit": "1 = yes, 2 = no"
+    },
+    "nih6": {
+        "description": "NIH Toolbox Flanker Inhibitory Control and Attention",
+        "unit": "1 = yes, 2 = no"
+    },
+    "nih7": {
+        "description": "NIH Toolbox Dimensional Change Card Sort Test",
+        "unit": "1 = yes, 2 = no"
+    },
+    "m_obs1": {
+        "description": "Observations",
+        "unit": "None"
+    }
+}

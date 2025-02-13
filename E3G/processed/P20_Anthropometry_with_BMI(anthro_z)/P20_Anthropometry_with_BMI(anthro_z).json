@@ -1,0 +1,78 @@
+{
+    "FOLIOCC": {
+        "description": "Unique subject ID across cohorts",
+        "unit": "None"
+    },
+    "SEXO_H": {
+        "description": "Gender",
+        "unit": "None"
+    },
+    "cd_age": {
+        "description": "Age",
+        "unit": "None"
+    },
+    "weight": {
+        "description": "Weight",
+        "unit": "None"
+    },
+    "height": {
+        "description": "Height",
+        "unit": "None"
+    },
+    "waist": {
+        "description": "Waist (abdominal) circumference",
+        "unit": "None"
+    },
+    "tri_skin": {
+        "description": "Triceps skinfold thickness",
+        "unit": "None"
+    },
+    "sup_skin": {
+        "description": "Suprailiac skin fold thickness",
+        "unit": "None"
+    },
+    "sub_skin": {
+        "description": "Subscapularis skin fold thickness",
+        "unit": "None"
+    },
+    "pr_dias": {
+        "description": "Blood pressure, diastolic",
+        "unit": "None"
+    },
+    "pr_sis": {
+        "description": "Blood pressure, systolic",
+        "unit": "None"
+    },
+    "_agemons": {
+        "description": "Age in month",
+        "unit": "None"
+    },
+    "_CBMI": {
+        "description": "BMI",
+        "unit": "None"
+    },
+    "_ZWFA": {
+        "description": "Weight-for-age z-score",
+        "unit": "None"
+    },
+    "_ZHFA": {
+        "description": "Height-for-age z-score",
+        "unit": "None"
+    },
+    "_ZBFA": {
+        "description": "BMI-for-age z-score",
+        "unit": "None"
+    },
+    "_FWFA": {
+        "description": "Flag for zwfa<-6 or zwfa>5",
+        "unit": "None"
+    },
+    "_FHFA": {
+        "description": "Flag for zhfa<-6 or zhfa>6",
+        "unit": "None"
+    },
+    "_FBFA": {
+        "description": "Flag for zbfa<-5 or zbfa>5",
+        "unit": "None"
+    }
+}

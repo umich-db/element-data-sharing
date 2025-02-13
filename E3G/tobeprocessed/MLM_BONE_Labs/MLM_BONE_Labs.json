@@ -1,0 +1,226 @@
+{
+    "proyecto": {
+        "description": null,
+        "unit": null
+    },
+    "folio": {
+        "description": null,
+        "unit": null
+    },
+    "foliocc": {
+        "description": null,
+        "unit": null
+    },
+    "etapa": {
+        "description": null,
+        "unit": null
+    },
+    "id": {
+        "description": null,
+        "unit": null
+    },
+    "f0": {
+        "description": null,
+        "unit": null
+    },
+    "fecha_etapa": {
+        "description": null,
+        "unit": null
+    },
+    "wbc": {
+        "description": "Leucocitos totales",
+        "unit": "x10³/μl"
+    },
+    "rbc": {
+        "description": "Eritrocitos",
+        "unit": "x10³/μl"
+    },
+    "hgb": {
+        "description": "Hemoglobina",
+        "unit": "g/dL"
+    },
+    "hct": {
+        "description": "Hematocrito",
+        "unit": "%"
+    },
+    "mcv": {
+        "description": "Volumen Corpuscular medio",
+        "unit": "fL"
+    },
+    "mch": {
+        "description": "Hemoglobina Corpuscular media",
+        "unit": "pg"
+    },
+    "mchc": {
+        "description": "Concentración media de Hemoglobina Corpuscular",
+        "unit": "g/dL"
+    },
+    "rdw": {
+        "description": "Ancho de Distribución de Eritrocitos",
+        "unit": "%"
+    },
+    "ptl": {
+        "description": "Plaquetas",
+        "unit": "x10³/μl"
+    },
+    "vpm": {
+        "description": "Volumen Plaquetario Medio",
+        "unit": "fL"
+    },
+    "neu": {
+        "description": "Neutrófilos segmentados",
+        "unit": "%"
+    },
+    "ly": {
+        "description": "Linfocitos",
+        "unit": "%"
+    },
+    "mo": {
+        "description": "Monocitos",
+        "unit": "%"
+    },
+    "eo": {
+        "description": "Eosinófilos",
+        "unit": "%"
+    },
+    "ba": {
+        "description": "Basófilos",
+        "unit": "%"
+    },
+    "ne_n": {
+        "description": "Neutrófilos absolutos",
+        "unit": "x10³/μl"
+    },
+    "ly_n": {
+        "description": "Linfocitos absolutos",
+        "unit": "x10³/μl"
+    },
+    "mo_n": {
+        "description": "Monocitos absolutos",
+        "unit": "x10³/μl"
+    },
+    "eo_n": {
+        "description": "Eosinófilos absolutos",
+        "unit": "x10³/μl"
+    },
+    "ba_n": {
+        "description": "Basófilos absolutos",
+        "unit": "x10³/μl"
+    },
+    "chol": {
+        "description": "Colesterol",
+        "unit": "mg/dL"
+    },
+    "gluc_god": {
+        "description": "Glucosa",
+        "unit": "mg/dL"
+    },
+    "hdl_c": {
+        "description": "Colesteril HDL",
+        "unit": "mg/dL"
+    },
+    "i_aterog": {
+        "description": "Índice Aterogénico",
+        "unit": "índice (COL/HDL)"
+    },
+    "trig": {
+        "description": "Triglicéridos",
+        "unit": "mg/dL"
+    },
+    "hba1ckin": {
+        "description": "HB1AC - Hemoglobina Glucosilada",
+        "unit": "mmol/m"
+    },
+    "hba1ckin_p": {
+        "description": "HB1AC %",
+        "unit": "%"
+    },
+    "obs": {
+        "description": null,
+        "unit": null
+    },
+    "alb": {
+        "description": "Albumina",
+        "unit": "g/dL"
+    },
+    "buncalc": {
+        "description": "Nitrogeno Ureico calculado",
+        "unit": "mg/dl"
+    },
+    "ca": {
+        "description": "Calcio",
+        "unit": "mg/dl"
+    },
+    "crea": {
+        "description": "Creatinina",
+        "unit": "mg/dl"
+    },
+    "dbil": {
+        "description": "Bilirrubina directa",
+        "unit": "mg/dl"
+    },
+    "globulina": {
+        "description": "Globulina",
+        "unit": "g/dL"
+    },
+    "ib": {
+        "description": "Bilirrubina indirecta",
+        "unit": "mg/dl"
+    },
+    "rel_ag": {
+        "description": "Relacion albumina/ globulina",
+        "unit": "-"
+    },
+    "rel_urea_crea": {
+        "description": "Relacion urea/creatinina",
+        "unit": "-"
+    },
+    "tbil": {
+        "description": "Bilirrubina total",
+        "unit": "mg/dl"
+    },
+    "tp": {
+        "description": "Proteinas totales",
+        "unit": "g/dL"
+    },
+    "ua": {
+        "description": "Acido urico",
+        "unit": "mg/dl"
+    },
+    "urea": {
+        "description": "Urea",
+        "unit": "mg/dl"
+    },
+    "alt": {
+        "description": "Alaninaaminotransferasa",
+        "unit": "U/L"
+    },
+    "amy": {
+        "description": "Amilasa",
+        "unit": "U/L"
+    },
+    "ap": {
+        "description": "Fosfatasa alcalina",
+        "unit": "U/L"
+    },
+    "ast": {
+        "description": "Aspartato amino transferasa",
+        "unit": "U/L"
+    },
+    "fe": {
+        "description": "Hierro",
+        "unit": "µg/dL"
+    },
+    "ggt": {
+        "description": "Gamma glutamil transpeptidasa",
+        "unit": "U/L"
+    },
+    "ldh": {
+        "description": "Desidrogenasa lactica",
+        "unit": "U/L"
+    },
+    "lps": {
+        "description": "Lipasa",
+        "unit": "U/L"
+    }
+}

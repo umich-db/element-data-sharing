@@ -1,0 +1,1042 @@
+{
+    "foliocc": {
+        "description": null,
+        "unit": null
+    },
+    "etapa": {
+        "description": "Etapa",
+        "unit": null
+    },
+    "stage": {
+        "description": null,
+        "unit": null
+    },
+    "hora_ini": {
+        "description": "Hora de inicio",
+        "unit": null
+    },
+    "min_ini": {
+        "description": "Minuto de inicio",
+        "unit": null
+    },
+    "f_dia": {
+        "description": "Día de la entrevista",
+        "unit": null
+    },
+    "f_mes": {
+        "description": "Mes de la entrevista",
+        "unit": null
+    },
+    "f_anio": {
+        "description": "Año de la entrevista",
+        "unit": null
+    },
+    "cod_ent": {
+        "description": "Código del entrevistador",
+        "unit": null
+    },
+    "edad": {
+        "description": "1. ¿Cuántos años cumplidos tiene?",
+        "unit": null
+    },
+    "s2": {
+        "description": "2. Eres, hombre o mujer",
+        "unit": null
+    },
+    "vna": {
+        "description": "2.1 ¿Eres Latino/Hispano?",
+        "unit": null
+    },
+    "vnc": {
+        "description": "2.2 ¿Habla alguna lengua indígena?",
+        "unit": null
+    },
+    "vnc_esp": {
+        "description": "2.2 ¿Cuál?",
+        "unit": null
+    },
+    "s3": {
+        "description": "3. ¿Actualmente estás estudiando?",
+        "unit": null
+    },
+    "s4_n": {
+        "description": "4. ¿En qué grado estudias? (Nivel)",
+        "unit": null
+    },
+    "s4_g": {
+        "description": "4. ¿En qué grado estudias? (Grado)",
+        "unit": null
+    },
+    "s5_n": {
+        "description": "5. ¿Cuál es tu último grado de estudios? (Nivel)",
+        "unit": null
+    },
+    "s5_g": {
+        "description": "5. ¿Cuál es tu último grado de estudios? (Grado)",
+        "unit": null
+    },
+    "s6": {
+        "description": "6. ¿Trabajas Actualmente?",
+        "unit": null
+    },
+    "s7": {
+        "description": "7. Respondente",
+        "unit": null
+    },
+    "s7_esp": {
+        "description": "7. Especifique",
+        "unit": null
+    },
+    "vn8": {
+        "description": "8. ¿Quién es el jefe del hogar?",
+        "unit": null
+    },
+    "vn9_n": {
+        "description": "9. Pensando en el (la) jefe (a) del hogar. ¿Cuál fue el último año de estudios que completó?",
+        "unit": null
+    },
+    "vn9_g": {
+        "description": "9. Pensando en el (la) jefe (a) del hogar. ¿Cuál fue el último año de estudios que completó?",
+        "unit": null
+    },
+    "vn10": {
+        "description": "10. ¿Cuál es el total de piezas y/o habitaciones con que cuenta su hogar?",
+        "unit": null
+    },
+    "vn11": {
+        "description": "11. ¿Cuántos baños completos con regadera y W.C. (excusado) hay para uso exclusivo de los integrantes de su hogar?",
+        "unit": null
+    },
+    "vn10_1": {
+        "description": "12. ¿En su hogar cuenta con regadera funcionando en algunos baños?",
+        "unit": null
+    },
+    "vn12": {
+        "description": "13. ¿Su hogar cuenta con calentador de agua o boiler?",
+        "unit": null
+    },
+    "vn13": {
+        "description": "14. ¿Contando todos los focos que utiliza para iluminar su hogar, incluyendo los de techos, paredes y lámparas de buró piso, dígame ¿cuántos focos tiene su vivienda?",
+        "unit": null
+    },
+    "vn14": {
+        "description": "15. ¿El piso de su hogar es predominantemente de tierra, de cemento, o de",
+        "unit": null
+    },
+    "vn14_e": {
+        "description": "15. Especificar",
+        "unit": null
+    },
+    "vn15": {
+        "description": "16. ¿Cuántos automóviles propios (excluyendo taxis) tienen en su hogar?",
+        "unit": null
+    },
+    "vn16": {
+        "description": "17. ¿Tiene aspiradora que funcione?",
+        "unit": null
+    },
+    "vn17": {
+        "description": "18. ¿Tiene lavadora de ropa que lave y enjuague automáticamente que funcione?",
+        "unit": null
+    },
+    "vn18": {
+        "description": "19. ¿Tiene horno de microondas que funcione?",
+        "unit": null
+    },
+    "vn19": {
+        "description": "20. ¿Tiene tostador eléctrico de pan que funcione?",
+        "unit": null
+    },
+    "vn20": {
+        "description": "21. ¿Tiene DVD que funcione?",
+        "unit": null
+    },
+    "vn21n": {
+        "description": "22. ¿Cuántas computadoras personales, ya sea de escritorio o lap top, tiene funcionando en este hogar?",
+        "unit": null
+    },
+    "vn_tv": {
+        "description": "23. ¿Cuántas televisiones a color funcionado tienen en este hogar?",
+        "unit": null
+    },
+    "vn_estufa": {
+        "description": "24. ¿En este hogar cuentan con estufa de gas o eléctrica?",
+        "unit": null
+    },
+    "s25n": {
+        "description": "25. ¿Usted está afiliada(o) o inscrita(o) a los servicios médicos:",
+        "unit": null
+    },
+    "s26n": {
+        "description": "26. En la vivienda donde vive el (la) niño(a)o adolescente participante, ¿la familia paga renta?",
+        "unit": null
+    },
+    "s26_1n": {
+        "description": "26.1 ¿Por qué no paga renta?",
+        "unit": null
+    },
+    "s26_2n": {
+        "description": "26.2 ¿En cuántas casas diferentes  ha vivido el (la) niño(a) o adolescente participante?",
+        "unit": null
+    },
+    "s27n": {
+        "description": "27. ¿En cuál escalón de la escalera piensa usted que estaría parada(o) de acuerdo a su situación actual?",
+        "unit": null
+    },
+    "s25_a": {
+        "description": "28. Esmalte de uñas, uso",
+        "unit": null
+    },
+    "s25_a1": {
+        "description": "28. Esmalte de uñas, frecuencia",
+        "unit": null
+    },
+    "s25_b": {
+        "description": "28. Productos para aclarar la piel (como cremas, desodorantes o ",
+        "unit": null
+    },
+    "s25_b1": {
+        "description": "28. Productos para aclarar la piel (como cremas, desodorantes o ",
+        "unit": null
+    },
+    "s25_c": {
+        "description": "28. Desodorante, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_c1": {
+        "description": "28. Desodorante, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_d": {
+        "description": "28. Spray/gel para el cabello, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_d1": {
+        "description": "28. Spray/gel para el cabello, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_e": {
+        "description": "28. Colonia/perfume, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_e1": {
+        "description": "28. Colonia/perfume, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_f": {
+        "description": "28. Jabón en barra (solido), uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_f1": {
+        "description": "28. Jabón en barra (solido), frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_g": {
+        "description": "28. Jabón liquido (incluye detergente para los trastes), uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_g1": {
+        "description": "28. Jabón liquido (incluye detergente para los trastes), frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_h": {
+        "description": "28. Enjuague bucal, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_h1": {
+        "description": "28. Enjuague bucal, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_i": {
+        "description": "28. Loción, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_i1": {
+        "description": "28. Loción, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_j": {
+        "description": "28. Crema de afeitar, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_j1": {
+        "description": "28. Crema de afeitar, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_k": {
+        "description": "28. Productos para después de afeitar, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_k1": {
+        "description": "28. Productos para después de afeitar, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_l": {
+        "description": "28. Cosméticos, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_l1": {
+        "description": "28. Cosméticos, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_m": {
+        "description": "28. Shampoo, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_m1": {
+        "description": "28. Shampoo, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_n": {
+        "description": "28. Acondicionador, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_n1": {
+        "description": "28. Acondicionador, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_o": {
+        "description": "28. Crema para el cabello, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_o1": {
+        "description": "28. Crema para el cabello, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_p": {
+        "description": "28. Otros productos para el cabello, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_p1": {
+        "description": "28. Otros productos para el cabello, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_r": {
+        "description": "28. Otros artículos de tocador, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_r1": {
+        "description": "28. Otros artículos de tocador, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s25_re": {
+        "description": "28. Especifique",
+        "unit": null
+    },
+    "s25_s": {
+        "description": "28. Productos de lavandería, uso",
+        "unit": "1=Si\n2=No"
+    },
+    "s25_s1": {
+        "description": "28. Productos de lavandería, frecuencia",
+        "unit": "1= Todos los días\n2= Un par de veces por semana\n3= Una vez por semana\n4= 1-3 veces por mes\n5= Menos de una vez al mes\n6= Nunca\n99=No sabe"
+    },
+    "s26": {
+        "description": "29 ¿Hay en tu escuela pisos de vinil o linóleo?",
+        "unit": "1=Si\n2=No\n3=Participante no va a la escuela\n9=No sabe"
+    },
+    "s27": {
+        "description": "30. Uso del agua",
+        "unit": "1= Agua de la llave\n2= Agua filtrada\n3= Agua purificada (embotellada/garrafón)\n4= Otra"
+    },
+    "s28": {
+        "description": "31. ¿Cuál es la principal fuente de agua para beber en tu casa?",
+        "unit": "1= Agua del municipio (red pública)\n2= Agua privada (pipa)\n3= Agua de garrafón/de entrega\n9= No sabe"
+    },
+    "s29": {
+        "description": "32. ¿Alguna vez has preparado/calentado tus alimentos en el horno de  microondas en recipientes o envoltorios plásticos, o preparan/calientan en tu casa tus alimentos de esta manera?",
+        "unit": "1=Si\n2=No\n9=No sabe"
+    },
+    "s30": {
+        "description": "33. ¿Con que frecuencia consumes alimentos cocinados/calentados en el microondas en envases o envoltorios plásticos?",
+        "unit": "1= Menos de una día al mes\n2= De uno a tres días al mes\n3= De uno a dos días a la semana\n4= 3-5 días a la semana\n5= Más de 5 días a la semana\n6= Muchas veces al día\n9= No sabe"
+    },
+    "s31": {
+        "description": "34. ¿Con que frecuencia consumes alimentos enlatados?",
+        "unit": "1= Menos de una día al mes\n2= De uno a tres días al mes\n3= De uno a dos días a la semana\n4= 3-5 días a la semana\n5= Más de 5 días a la semana\n6= Muchas veces al día\n9= No sabe"
+    },
+    "s32": {
+        "description": "35. ¿Con que frecuencia consumes bebidas enlatadas?",
+        "unit": "1= Menos de una día al mes\n2= De uno a tres días al mes\n3= De uno a dos días a la semana\n4= 3-5 días a la semana\n5= Más de 5 días a la semana\n6= Muchas veces al día\n9= No sabe"
+    },
+    "s33": {
+        "description": "36. ¿Le han aplicado alguna vez a su hija la vacuna del Virus del Papiloma Humano (VPH)?",
+        "unit": "1=Si\n2=No\n3=No aplica"
+    },
+    "s33_1": {
+        "description": "36.1 ¿Cuántas dosis le han aplicado a su hija?",
+        "unit": "1=Si\n2=No\n9=No sabe"
+    },
+    "s33_2d": {
+        "description": "36.2 Fecha aproximada de inicio de vacunación, día",
+        "unit": null
+    },
+    "s33_2m": {
+        "description": "36.2 Fecha aproximada de inicio de vacunación, mes",
+        "unit": null
+    },
+    "s33_2a": {
+        "description": "36.2 Fecha aproximada de inicio de vacunacion, año",
+        "unit": null
+    },
+    "s33_3": {
+        "description": "36.3 ¿A qué edad se le aplicó a su hija la primera dosis?",
+        "unit": null
+    },
+    "s33_4": {
+        "description": "36.4 ¿En dónde la vacunaron?",
+        "unit": "1= Médico Privado\n2= Clínica del IMSS\n3= Campaña/en Escuelas\n4= Centro de Salud\n5= Otro. Especifique"
+    },
+    "s33_4esp": {
+        "description": "36.4 Especifique",
+        "unit": null
+    },
+    "s34_a": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, enfermedad del corazón",
+        "unit": "1= Enfermedad del corazón\n2= Enfermedad pulmonar\n3= Enfermedad de los riñones\n4= Leucemia\n5= Presión arterial alta\n6= Tuberculosis\n7= Herpes\n8= Diabetes\n9= Presión arterial baja\n10= Convulsiones o epilepsia\n11= Artritis\n12= Fiebre reumática\n13= Cirugía del corazón\n14= Soplo cardiaco\n15= Enfermedad del hígado\n16= Hemofilia\n17= Hepatitis\n18= Cáncer\n19= Anemia\n20= Enfermedad Psiquiátrica"
+    },
+    "s34_b": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, enfermedad pulmonar",
+        "unit": null
+    },
+    "s34_c": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, enfermedad de los riñones",
+        "unit": null
+    },
+    "s34_d": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, leucemia",
+        "unit": null
+    },
+    "s34_e": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, presión arterial alta",
+        "unit": null
+    },
+    "s34_f": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, tuberculosis",
+        "unit": null
+    },
+    "s34_g": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, herpes",
+        "unit": null
+    },
+    "s34_h": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, diabetes",
+        "unit": null
+    },
+    "s34_i": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, presión arterial",
+        "unit": null
+    },
+    "s34_j": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, convulsiones o epilepsia",
+        "unit": null
+    },
+    "s34_k": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, artritis",
+        "unit": null
+    },
+    "s34_l": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, fiebre reumática",
+        "unit": null
+    },
+    "s34_m": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, cirugía del corazón",
+        "unit": null
+    },
+    "s34_n": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, soplo cardiaco",
+        "unit": null
+    },
+    "s34_o": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, enfermedad del hígado",
+        "unit": null
+    },
+    "s34_p": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, hemofilia",
+        "unit": null
+    },
+    "s34_q": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, hepatitis",
+        "unit": null
+    },
+    "s34_r": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, cáncer",
+        "unit": null
+    },
+    "s34_s": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, anemia",
+        "unit": null
+    },
+    "s34_t": {
+        "description": "37. Ha tenido su hijo/a diagnóstico médico de, enfermedad psiquiátrica",
+        "unit": null
+    },
+    "s35_a": {
+        "description": "35. ¿Alguna vez ha tenido su hijo/a alguna de las siguientes condiciones?",
+        "unit": null
+    },
+    "s35_b": {
+        "description": "35. ¿Alguna vez ha tenido su hijo/a alguna de las siguientes condiciones?",
+        "unit": null
+    },
+    "s35_c": {
+        "description": "35. ¿Alguna vez ha tenido su hijo/a alguna de las siguientes condiciones?",
+        "unit": null
+    },
+    "s35_d": {
+        "description": "35. ¿Alguna vez ha tenido su hijo/a alguna de las siguientes condiciones?",
+        "unit": null
+    },
+    "s36": {
+        "description": null,
+        "unit": null
+    },
+    "toma_med2": {
+        "description": "7. ¿Está recibiendo algún medicamento actualmente?",
+        "unit": null
+    },
+    "med1h": {
+        "description": "Nombre del medicamento 1",
+        "unit": null
+    },
+    "med1h_c1": {
+        "description": "Medicamento 1, cantidad (mg)",
+        "unit": "mg"
+    },
+    "med1h_c2": {
+        "description": "Medicamento 1, cantidad (g)",
+        "unit": "g"
+    },
+    "med1h_c3": {
+        "description": "Medicamento 1, cantidad (ml)",
+        "unit": "ml"
+    },
+    "med1h_c4": {
+        "description": "Medicamento 1, cantidad (UI)",
+        "unit": "UI"
+    },
+    "med1h_f1": {
+        "description": "Medicamento 1, frecuencia (veces por día)",
+        "unit": "veces por día"
+    },
+    "med1h_f2": {
+        "description": "Medicamento 1, frecuencia (semana)",
+        "unit": "semana"
+    },
+    "med1h_f3": {
+        "description": "Medicamento 1, frecuencia (mes)",
+        "unit": "mes"
+    },
+    "med1h_d1": {
+        "description": "Medicamento 1, duración (dd)",
+        "unit": "dd"
+    },
+    "med1h_d2": {
+        "description": "Medicamento 1, duración (sem)",
+        "unit": "sem"
+    },
+    "med1h_d3": {
+        "description": "Medicamento 1, duración (mm)",
+        "unit": "mm"
+    },
+    "med1h_d4": {
+        "description": "Medicamento 1, duración (aa)",
+        "unit": "aa"
+    },
+    "med1h_d5": {
+        "description": "Medicamento 1, siempre",
+        "unit": null
+    },
+    "med2h": {
+        "description": "Nombre del medicamento 2",
+        "unit": null
+    },
+    "med2h_c1": {
+        "description": "Medicamento 2, cantidad (mg)",
+        "unit": "mg"
+    },
+    "med2h_c2": {
+        "description": "Medicamento 2, cantidad (g)",
+        "unit": "g"
+    },
+    "med2h_c3": {
+        "description": "Medicamento 2, cantidad (ml)",
+        "unit": "ml"
+    },
+    "med2h_c4": {
+        "description": "Medicamento 2, cantidad (UI)",
+        "unit": "UI"
+    },
+    "med2h_f1": {
+        "description": "Medicamento 2, frecuencia (veces por día)",
+        "unit": "veces por día"
+    },
+    "med2h_f2": {
+        "description": "Medicamento 2, frecuencia (semana)",
+        "unit": "semana"
+    },
+    "med2h_f3": {
+        "description": "Medicamento 2, frecuencia (mes)",
+        "unit": "mes"
+    },
+    "med2h_d1": {
+        "description": "Medicamento 2, duración (dd)",
+        "unit": "dd"
+    },
+    "med2h_d2": {
+        "description": "Medicamento 2, duración (sem)",
+        "unit": "sem"
+    },
+    "med2h_d3": {
+        "description": "Medicamento 2, duración (mm)",
+        "unit": "mm"
+    },
+    "med2h_d4": {
+        "description": "Medicamento 2, duración (aa)",
+        "unit": "aa"
+    },
+    "med2h_d5": {
+        "description": "Medicamento 2, siempre",
+        "unit": null
+    },
+    "med3h": {
+        "description": "Nombre del medicamento 3",
+        "unit": null
+    },
+    "med3h_c1": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "mg"
+    },
+    "med3h_c2": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "g"
+    },
+    "med3h_c3": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "ml"
+    },
+    "med3h_c4": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "UI"
+    },
+    "med3h_f1": {
+        "description": "Medicamento 3, frecuencia",
+        "unit": "veces por día"
+    },
+    "med3h_f2": {
+        "description": "Medicamento 3, frecuencia",
+        "unit": "semana"
+    },
+    "med3h_f3": {
+        "description": "Medicamento 3, frecuencia",
+        "unit": "mes"
+    },
+    "med3h_d1": {
+        "description": "Medicamento 3, duración",
+        "unit": "dd"
+    },
+    "med3h_d2": {
+        "description": "Medicamento 3, duración",
+        "unit": "sem"
+    },
+    "med3h_d3": {
+        "description": "Medicamento 3, duración",
+        "unit": "mm"
+    },
+    "med3h_d4": {
+        "description": "Medicamento 3, duración",
+        "unit": "aa"
+    },
+    "med3h_d5": {
+        "description": "Medicamento 3, siempre",
+        "unit": null
+    },
+    "med4h": {
+        "description": "Nombre del medicamento 4",
+        "unit": null
+    },
+    "med4h_c1": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "mg"
+    },
+    "med4h_c2": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "g"
+    },
+    "med4h_c3": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "ml"
+    },
+    "med4h_c4": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "UI"
+    },
+    "med4h_f1": {
+        "description": "Medicamento 4, frecuencia",
+        "unit": "veces por día"
+    },
+    "med4h_f2": {
+        "description": "Medicamento 4, frecuencia",
+        "unit": "semana"
+    },
+    "med4h_f3": {
+        "description": "Medicamento 4, frecuencia",
+        "unit": "mes"
+    },
+    "med4h_d1": {
+        "description": "Medicamento 4, duración",
+        "unit": "dd"
+    },
+    "med4h_d2": {
+        "description": "Medicamento 4, duración",
+        "unit": "sem"
+    },
+    "med4h_d3": {
+        "description": "Medicamento 4, duración",
+        "unit": "mm"
+    },
+    "med4h_d4": {
+        "description": "Medicamento 4, duración",
+        "unit": "aa"
+    },
+    "med4h_d5": {
+        "description": "Medicamento 4, siempre",
+        "unit": null
+    },
+    "med5h": {
+        "description": "Nombre del medicamento 5",
+        "unit": null
+    },
+    "med5h_c1": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "mg"
+    },
+    "med5h_c2": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "g"
+    },
+    "med5h_c3": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "ml"
+    },
+    "med5h_c4": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "UI"
+    },
+    "med5h_f1": {
+        "description": "Medicamento 5, frecuencia",
+        "unit": "veces por día"
+    },
+    "med5h_f2": {
+        "description": "Medicamento 5, frecuencia",
+        "unit": "semana"
+    },
+    "med5h_f3": {
+        "description": "Medicamento 5, frecuencia",
+        "unit": "mes"
+    },
+    "med5h_d1": {
+        "description": "Medicamento 5, duración",
+        "unit": "dd"
+    },
+    "med5h_d2": {
+        "description": "Medicamento 5, duración",
+        "unit": "sem"
+    },
+    "med5h_d3": {
+        "description": "Medicamento 5, duración",
+        "unit": "mm"
+    },
+    "med5h_d4": {
+        "description": "Medicamento 5, duración",
+        "unit": "aa"
+    },
+    "med5h_d5": {
+        "description": "Medicamento 5, siempre",
+        "unit": null
+    },
+    "s38": {
+        "description": "¿Su hijo/a ha vivido siempre en el DF/Zona Metropolitana del Valle de México?",
+        "unit": null
+    },
+    "s38_1a": {
+        "description": "¿Dónde ha vivido?, Ciudad",
+        "unit": null
+    },
+    "s38_1a1": {
+        "description": "De que año",
+        "unit": null
+    },
+    "s38_1a2": {
+        "description": "A qué año",
+        "unit": null
+    },
+    "s38_1b": {
+        "description": "¿Dónde ha vivido?, Ciudad",
+        "unit": null
+    },
+    "s38_1b1": {
+        "description": "De que año",
+        "unit": null
+    },
+    "s38_1b2": {
+        "description": "A qué año",
+        "unit": null
+    },
+    "s38_1c": {
+        "description": "¿Dónde ha vivido?, Ciudad",
+        "unit": null
+    },
+    "s38_1c1": {
+        "description": "De que año",
+        "unit": null
+    },
+    "s38_1c2": {
+        "description": "A qué año",
+        "unit": null
+    },
+    "s39_1": {
+        "description": "¿Usted, tiene hijos menores al hijo/a en estudio?",
+        "unit": null
+    },
+    "s39_2": {
+        "description": "41.2 ¿Cuántos?",
+        "unit": null
+    },
+    "s40_1": {
+        "description": "42.1 Hasta donde recuerda, ¿ha tomado tu hijo (a) pastillas o gotas de flúor recetadas/aplicadas por un dentista o un médico?",
+        "unit": null
+    },
+    "s40_3": {
+        "description": "42.2 ¿Qué tipo tomo?",
+        "unit": null
+    },
+    "s40_4": {
+        "description": "42.3 ¿Recuerda la dosis?",
+        "unit": null
+    },
+    "s41_1a": {
+        "description": "43.1 Tipo dosis",
+        "unit": null
+    },
+    "s41_1a1": {
+        "description": "43.1 edad",
+        "unit": null
+    },
+    "s41_1a2": {
+        "description": "43.1 edad",
+        "unit": null
+    },
+    "s41_1b": {
+        "description": "43.1 Tipo dosis",
+        "unit": null
+    },
+    "s41_1b1": {
+        "description": "43.1 edad",
+        "unit": null
+    },
+    "s41_1b2": {
+        "description": "43.1 edad",
+        "unit": null
+    },
+    "s41_1c": {
+        "description": "43.1 Tipo dosis",
+        "unit": null
+    },
+    "s41_1c1": {
+        "description": "43.1 edad",
+        "unit": null
+    },
+    "s41_1c2": {
+        "description": "43.1 edad",
+        "unit": null
+    },
+    "s41_2": {
+        "description": "43.2 ¿A qué edad comenzó su hijo(a) a tomar estas gotas o pastillas?",
+        "unit": null
+    },
+    "s41_8": {
+        "description": "44 ¿A qué edad comenzó su hijo(a) a usar una pasta dental con flúor?",
+        "unit": null
+    },
+    "s43_4": {
+        "description": "45. Actualmente, la cantidad de pasta que usaba regularmente su hijo(a)",
+        "unit": null
+    },
+    "s45_1": {
+        "description": "46.1 ¿Ha participado tu hijo(a) en un programa escolar de enjuagues de flúor en la escuela?",
+        "unit": null
+    },
+    "s45_2": {
+        "description": "46.2 ¿En qué grado estaba su hijo/a al comenzar el programa de enjuagues?",
+        "unit": null
+    },
+    "s46": {
+        "description": "47. ¿Es usted la persona a cargo de la provisión de los gastos en alimentos en el hogar?",
+        "unit": null
+    },
+    "s46_1": {
+        "description": "47.1 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted se preocupó de que los alimentos se acabaran en su hogar?",
+        "unit": null
+    },
+    "s46_2": {
+        "description": "47.2 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿En su hogar se quedaron sin alimentos?",
+        "unit": null
+    },
+    "s46_3": {
+        "description": "47.3 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿En su hogar dejaron de tener una alimentación (saludable, nutritiva, balanceada, equilibrada)?",
+        "unit": null
+    },
+    "s46_4": {
+        "description": "47.4 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar tuvo una alimentación basada en poca variedad de alimentos?",
+        "unit": null
+    },
+    "s46_5": {
+        "description": "47.5 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar dejó de desayunar, (comer, almorzar) o cenar?",
+        "unit": null
+    },
+    "s46_6": {
+        "description": "47.6 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto  en su hogar comió menos de lo que debía comer?",
+        "unit": null
+    },
+    "s46_6a": {
+        "description": "47.6a ¿El informante mencionó al menos un Sí en las preguntas 46.1 a 46.6?",
+        "unit": null
+    },
+    "s46_7": {
+        "description": "47.7 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar sintió hambre pero no comió?",
+        "unit": null
+    },
+    "s46_8": {
+        "description": "47.8 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar solo comió una vez al día o dejó de comer todo un día?",
+        "unit": null
+    },
+    "s46_8a": {
+        "description": "47.8a ¿En este hogar viven personas menores de 18 años?",
+        "unit": null
+    },
+    "s46_9": {
+        "description": "47.9 En los últimos 3 meses, por falta de dinero u otros recursos, alguna  vez ¿Algún menor de 18 años en su hogar dejó de tener una alimentación (saludable, nutritiva, balanceada, equilibrada)?",
+        "unit": null
+    },
+    "s46_10": {
+        "description": "47.10 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar tuvo una alimentación basada en poca variedad de alimentos?",
+        "unit": null
+    },
+    "s46_11": {
+        "description": "47.11 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar dejó de desayudar, (comer, almorzar) o cenar?",
+        "unit": null
+    },
+    "s46_12": {
+        "description": "47.12 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar comió menos de lo que debía?",
+        "unit": null
+    },
+    "s46_13": {
+        "description": "47.13 En los últimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Tuvieron que disminuir la cantidad servida en las comidas a algún menor de 18 años en su hogar?",
+        "unit": null
+    },
+    "s46_14": {
+        "description": "47.14 En los últimos 3 meses, por fala de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar sintió hambre pero no comió?",
+        "unit": null
+    },
+    "s46_15": {
+        "description": "47.15 En los últimos 3 meses, por fala de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar solo comió una vez al día o dejó de comer todo un día?",
+        "unit": null
+    },
+    "s48_1": {
+        "description": "En el último mes, en promedio, ¿cuántas horas duerme su hijo en un periodo habitual de 24 horas en un día entre semana (lunes a viernes)?",
+        "unit": null
+    },
+    "s48_2": {
+        "description": "En el último mes, en promedio, ¿cuántas horas duerme su hijo en un periodo habitual de 24 horas en un día entre semana (lunes a domingo)?",
+        "unit": null
+    },
+    "s49_a": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s49_a1": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s49_a2": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s49_b": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s49_c": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s49_d": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s49_e": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s49_f": {
+        "description": "49. Generalmente, ¿alguien más duerme en la misma habitación o área que su hijo (a)?",
+        "unit": null
+    },
+    "s50": {
+        "description": "50. ¿En qué tipo de cama o superficie duerme su hijo?",
+        "unit": null
+    },
+    "s50_esp": {
+        "description": "50. ¿En qué tipo de cama o superficie duerme su hijo?, especifique",
+        "unit": null
+    },
+    "s51_a": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s51_a1": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s51_a2": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s51_b": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s51_c": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s51_d": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s51_e": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s51_f": {
+        "description": "51. ¿Quién más acostumbra dormir en la misma cama (o superficie) que su hijo?",
+        "unit": null
+    },
+    "s52": {
+        "description": "52. ¿Su hijo tiene dificultad para despertarse por la mañana?",
+        "unit": null
+    },
+    "s53": {
+        "description": "53. ¿Su hijo tiene respirar cuando duerme por la noche?",
+        "unit": null
+    },
+    "s54": {
+        "description": "54. ¿Su hijo (a) ronca?",
+        "unit": null
+    },
+    "s55": {
+        "description": "55. ¿Su hijo está somnoliento a menudo durante el día?",
+        "unit": null
+    }
+}

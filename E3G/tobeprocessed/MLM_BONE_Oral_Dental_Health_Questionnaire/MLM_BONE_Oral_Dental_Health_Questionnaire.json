@@ -1,0 +1,86 @@
+{
+    "proyecto": {
+        "description": null,
+        "unit": null
+    },
+    "folio": {
+        "description": null,
+        "unit": null
+    },
+    "foliocc": {
+        "description": "Folio",
+        "unit": null
+    },
+    "etapa": {
+        "description": null,
+        "unit": null
+    },
+    "id": {
+        "description": null,
+        "unit": null
+    },
+    "f0": {
+        "description": null,
+        "unit": null
+    },
+    "fecha_etapa": {
+        "description": null,
+        "unit": null
+    },
+    "edad": {
+        "description": "Edad",
+        "unit": null
+    },
+    "f_dia": {
+        "description": "Día de la entrevista",
+        "unit": null
+    },
+    "f_mes": {
+        "description": "Mes de la entrevista",
+        "unit": null
+    },
+    "f_anio": {
+        "description": "Año de la entrevista",
+        "unit": "None"
+    },
+    "cod_rev": {
+        "description": "Codigo del revisor",
+        "unit": "None"
+    },
+    "PREG1": {
+        "description": "Aproximadamente, ¿Hace cuánto tiempo fue la última vez que usted acudió al dentista?",
+        "unit": "None"
+    },
+    "PREG2": {
+        "description": "¿Cuál fue la razón principal por la cual usted fue al dentista la última vez?",
+        "unit": "None"
+    },
+    "PREG3": {
+        "description": "En el último año, ¿Con qué frecuencia ha tenido usted mucho dolor en alguna parte de la boca?",
+        "unit": "None"
+    },
+    "PREG6": {
+        "description": "En general, ¿Cómo diría usted que es el estado de salud de sus dientes y encías?",
+        "unit": "None"
+    },
+    "PREG7": {
+        "description": "¿Alguna vez le han hecho un tratamiento de las encías tipo raspado o alisado de las raíces, que a veces se conoce como “limpieza profunda”?",
+        "unit": "None"
+    },
+    "PREG8": {
+        "description": "¿Alguna vez le ha dicho un profesional de la salud dental que ha perdido hueso alrededor de los dientes?",
+        "unit": "None"
+    },
+    "PREG9": {
+        "description": "¿Cuántas veces al día se cepilla los dientes?",
+        "unit": "None"
+    },
+    "r01_8": {
+        "description": "¿Cree que podría tener enfermedad de las encías?",
+        "unit": "None"
+    },
+    "PREG11": {
+        "description": "¿Alguna vez se le ha aflojado un diente por sí solos, sin una lesión?",
+        "unit": "None"
+    }
+}

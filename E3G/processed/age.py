@@ -8,7 +8,8 @@ age_ranges = {
     'P01': (9, 18),
     'Fatty_Liver': (21, 22),
     'FattyLiver': (21, 22),
-    'E3G': (16, 25)
+    'E3G': (16, 25),
+    'MLM': (16,25)
 }
 
 for folder_name in os.listdir('.'):

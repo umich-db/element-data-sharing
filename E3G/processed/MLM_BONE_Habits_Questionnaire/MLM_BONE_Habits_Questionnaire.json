@@ -1,0 +1,358 @@
+{
+    "proyecto": {
+        "description": "None",
+        "unit": "None"
+    },
+    "folio": {
+        "description": "None",
+        "unit": "None"
+    },
+    "foliocc": {
+        "description": "Folio",
+        "unit": "None"
+    },
+    "etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "id": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f0": {
+        "description": "None",
+        "unit": "None"
+    },
+    "fecha_etapa": {
+        "description": "None",
+        "unit": "None"
+    },
+    "hora_ini": {
+        "description": "None",
+        "unit": "None"
+    },
+    "min_ini": {
+        "description": "None",
+        "unit": "None"
+    },
+    "f_dia": {
+        "description": "Día de la entrevista",
+        "unit": "None"
+    },
+    "f_mes": {
+        "description": "Mes de la entrevista",
+        "unit": "None"
+    },
+    "f_anio": {
+        "description": "Año de la entrevista",
+        "unit": "None"
+    },
+    "cod_ent": {
+        "description": "Codigo del entrevistador",
+        "unit": "None"
+    },
+    "gf030": {
+        "description": "¿Ha fumado usted por lo menos cien cigarros (5 cajetillas) de tabaco durante toda su vida?",
+        "unit": "None"
+    },
+    "gf030_1": {
+        "description": "¿Cuántos años tenía cuando fumó tabaco por primera vez, aunque fuera un cigarro, de un puro o de una pipa?",
+        "unit": "None"
+    },
+    "r01_12": {
+        "description": "¿A qué edad comenzó a fumar por PRIMERA VEZ con regularidad?",
+        "unit": "None"
+    },
+    "gf030_2": {
+        "description": "¿Actualmente fuma?",
+        "unit": "None"
+    },
+    "gf030_3a": {
+        "description": "¿Hace cuánto tiempo dejó de fumar?, Dias",
+        "unit": "Días"
+    },
+    "gf030_3b": {
+        "description": "¿Hace cuánto tiempo dejó de fumar?, Semanas",
+        "unit": "Semanas"
+    },
+    "gf030_3c": {
+        "description": "¿Hace cuánto tiempo dejó de fumar?, Meses",
+        "unit": "Meses"
+    },
+    "gf030_3d": {
+        "description": "¿Hace cuánto tiempo dejó de fumar?",
+        "unit": "Años"
+    },
+    "gf030_4a": {
+        "description": "Antes de dejar de fumar, ¿Cuántos cigarros fumaba y con qué frecuencia?",
+        "unit": "Número de cigarrillos"
+    },
+    "gf030_4b": {
+        "description": "Antes de dejar de fumar, ¿cuántos cigarros fumaba y con qué frecuencia?",
+        "unit": "Frecuencia"
+    },
+    "gf031_a": {
+        "description": "¿Cuántos cigarros fuma actualmente?",
+        "unit": "Número de cigarros"
+    },
+    "gf031_b": {
+        "description": "¿Cuántos cigarros fuma actualmente?",
+        "unit": "Frecuencia"
+    },
+    "r01_31": {
+        "description": "En TODA SU VIDA, ¿Ha tomado al menos 12 tragos de cualquier tipo de bebida alcohólica?",
+        "unit": "None"
+    },
+    "gf032_2aa": {
+        "description": "Tipo de bebida",
+        "unit": "None"
+    },
+    "gf032_2ab": {
+        "description": "Tipo de bebida",
+        "unit": "None"
+    },
+    "gf032_2ac": {
+        "description": "Tipo de bebida",
+        "unit": "None"
+    },
+    "gf032_2ad": {
+        "description": "Tipo de bebida",
+        "unit": "None"
+    },
+    "gf032_2ae": {
+        "description": "3.2a Tipo de bebida",
+        "unit": "None"
+    },
+    "gf032_2aesp": {
+        "description": "3.2a Tipo de bebida, especifique",
+        "unit": "None"
+    },
+    "gf032_2b": {
+        "description": "3.2b ¿Con qué frecuencia toma una bebida que contiene alcohol?",
+        "unit": "None"
+    },
+    "r01_32c": {
+        "description": "3.2c ¿Cuántas bebidas que contienen alcohol toma en un día típico cuando está bebiendo?",
+        "unit": "None"
+    },
+    "gf032_2c": {
+        "description": "32.2d ¿Con qué frecuencia toma o ha tomado 4 o más copas de cualquier bebida alcohólica en una sesión?",
+        "unit": "None"
+    },
+    "gf032_5a": {
+        "description": "33.3 ¿Cuánto tiempo ha transcurrido desde su último consumo de alguna bebida alcohólica?",
+        "unit": "Días"
+    },
+    "gf032_5b": {
+        "description": "33.3 ¿Cuánto tiempo ha transcurrido desde su último consumo de alguna bebida alcohólica?",
+        "unit": "Semanas"
+    },
+    "gf032_5c": {
+        "description": "33.3 ¿Cuánto tiempo ha transcurrido desde su último consumo de alguna bebida alcohólica?",
+        "unit": "Meses"
+    },
+    "gf032_5d": {
+        "description": "33.3 ¿Cuánto tiempo ha transcurrido desde su último consumo de alguna bebida alcohólica?",
+        "unit": "Años"
+    },
+    "gf038": {
+        "description": "4. Durante los últimos 7 días, ¿Cuántos días realizó usted actividades físicas vigorosas como levantar objetos pesados, excavar, aeróbicos, o pedalear rápido en bicicleta?",
+        "unit": "None"
+    },
+    "gf045_a": {
+        "description": "Durante el último mes: ¿cuál ha sido, normalmente su hora de acostarse?, en día de la semana",
+        "unit": "None"
+    },
+    "gf045_a1": {
+        "description": "Durante el último mes: ¿cuál ha sido, normalmente su hora de acostarse?, en día de la semana",
+        "unit": "AM/PM"
+    },
+    "gf045_b": {
+        "description": "Durante el último mes: ¿cuál ha sido, normalmente su hora de acostarse?, en día de fin de semana",
+        "unit": "None"
+    },
+    "gf045_b1": {
+        "description": "Durante el último mes: ¿cuál ha sido, normalmente su hora de acostarse?, en día de fin de semana",
+        "unit": "AM/PM"
+    },
+    "gf046_a": {
+        "description": "Durante el último mes: ¿Habitualmente cuánto ha tardado en dormirse, en las noches? (en día de semana)",
+        "unit": "None"
+    },
+    "gf046_b": {
+        "description": "Durante el último mes: ¿Habitualmente cuánto ha tardado en dormirse, en las noches? (en día de fin de semana)",
+        "unit": "None"
+    },
+    "gf047_a": {
+        "description": "Durante el último mes: ¿A qué hora se ha levantado habitualmente por la mañana? (en día de semana)",
+        "unit": "None"
+    },
+    "gf047_a1": {
+        "description": "Durante el último mes: ¿A qué hora se ha levantado habitualmente por la mañana? (en día de semana)",
+        "unit": "AM/PM"
+    },
+    "gf047_b": {
+        "description": "Durante el último mes: ¿A qué hora se ha levantado habitualmente por la mañana? (en día de fin de semana)",
+        "unit": "None"
+    },
+    "gf047_b1": {
+        "description": "Durante el último mes: ¿A qué hora se ha levantado habitualmente por la mañana? (en día de fin de semana)",
+        "unit": "AM/PM"
+    },
+    "gf048_a": {
+        "description": "¿Cuantas horas calcula que habrá dormido verdaderamente cada noche durante el último mes? (el tiempo puede ser diferente al que usted permanezca en la cama) en día de semana",
+        "unit": "hours"
+    },
+    "gf048_b": {
+        "description": "¿Cuantas horas calcula que habrá dormido verdaderamente cada noche durante el último mes? (el tiempo puede ser diferente al que usted permanezca en la cama) en día de fin de semana",
+        "unit": "hours"
+    },
+    "gf049": {
+        "description": "¿Durante el último mes, como valoraría, en conjunto, la calidad de su sueño?",
+        "unit": "None"
+    },
+    "r01_151": {
+        "description": "Durante el último mes, ¿Con qué frecuencia ha tenido problemas para para dormir por no poder conciliar el sueño en la primera media hora?",
+        "unit": "None"
+    },
+    "r01_151a1": {
+        "description": "¿Desde hace cuánto tiempo le ha estado ocurriendo?",
+        "unit": "months"
+    },
+    "r01_151a2": {
+        "description": "¿Desde hace cuánto tiempo le ha estado ocurriendo?",
+        "unit": "years"
+    },
+    "r01_151b": {
+        "description": "En una escala de 0 (nada) a 4 (le molesta mucho), ¿En qué medida le molesta?",
+        "unit": "None"
+    },
+    "r01_151c": {
+        "description": "En una escala de 0 (nada) a 4 (le molesta mucho), ¿En qué medida interfiere con su funcionamiento diario?",
+        "unit": "None"
+    },
+    "r01_152": {
+        "description": "Durante el último mes, ¿con qué frecuencia ha tenido problemas para dormir a causa de despertarse durante la noche o de madrugada?",
+        "unit": "None"
+    },
+    "r01_152a1": {
+        "description": "¿Desde hace cuánto tiempo le ha estado ocurriendo?",
+        "unit": "months"
+    },
+    "r01_152a2": {
+        "description": "¿Desde hace cuánto tiempo le ha estado ocurriendo?, Años",
+        "unit": "Años"
+    },
+    "r01_152b": {
+        "description": "En una escala de 0 (nada) a 4 (mucho), ¿En qué medida le molesta?",
+        "unit": "None"
+    },
+    "r01_152c": {
+        "description": "En una escala de 0 (nada) a 4 (le molesta mucho), ¿En qué medida interfiere con su funcionamiento diario?",
+        "unit": "None"
+    },
+    "r01_16": {
+        "description": "Cuando no duerme lo suficiente, ¿Cómo afecta su día?",
+        "unit": "None"
+    },
+    "gf050": {
+        "description": "¿Cuántas comidas tiene habitualmente en un día?",
+        "unit": "None"
+    },
+    "gf051_a": {
+        "description": "¿A qué hora consume su primer alimento o bebida? (sin contar agua simple)",
+        "unit": "None"
+    },
+    "gf051_b": {
+        "description": "¿A qué hora come?",
+        "unit": "None"
+    },
+    "gf051_c": {
+        "description": "¿A qué hora consume el ultimo alimento o bebida antes de ir a dormir? (sin contar agua simple)",
+        "unit": "None"
+    },
+    "gf051_ra": {
+        "description": "¿A qué hora del día es su comida más fuerte del día? 1",
+        "unit": "None"
+    },
+    "gf051_rb": {
+        "description": "¿A qué hora del día es su comida más fuerte del día? 2",
+        "unit": "None"
+    },
+    "gf051_rc": {
+        "description": "¿A qué hora del día es su comida más fuerte del día? 3",
+        "unit": "None"
+    },
+    "s46": {
+        "description": "¿Es usted la persona a cargo de la provision de los gastos en alimentos en el hogar?",
+        "unit": "None"
+    },
+    "s46_1": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted se preocupó de que los alimentos se acabaran en su hogar?",
+        "unit": "None"
+    },
+    "s46_2": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿En su hogar se quedaron sin alimentos?",
+        "unit": "None"
+    },
+    "s46_3": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿En su hogar dejaron de tener una alimentación (saludable, nutritiva, balanceada, equilibrada)?",
+        "unit": "None"
+    },
+    "s46_4": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar tuvo una alimentación basada en poca variedad de alimentos?",
+        "unit": "None"
+    },
+    "s46_5": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar dejó de desayunar, comer, almorzar o cenar?",
+        "unit": "None"
+    },
+    "s46_6": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar comió menos de lo que debería comer?",
+        "unit": "None"
+    },
+    "s46_6a": {
+        "description": "¿El informante menciono al menos un Sí en las preguntas 20-26?",
+        "unit": "None"
+    },
+    "s46_7": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar sintió hambre, pero no comió?",
+        "unit": "None"
+    },
+    "s46_8": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Usted o algún adulto en su hogar solo comió una vez al día o dejó de comer todo un día?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_8a": {
+        "description": "¿En este hogar vivien personas menores de 18 años?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_9": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar dejó de tener una alimentación (saludable, nutritiva, balanceada, equilibrada)?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_10": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar tuvo una alimentación basada en poca variedad de alimentos?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_11": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar dejó de desayunar, comer, almorzar o cenar?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_12": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar comió menos de los que debía?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_13": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Tuvieron que disminuir la cantidad servida en las comidas a algún menor de 18 años en su hogar?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_14": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar sintió hambre, pero no comió?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    },
+    "s46_15": {
+        "description": "En los ultimos 3 meses, por falta de dinero u otros recursos, alguna vez ¿Algún menor de 18 años en su hogar solo comió una vez al día o dejó de comer todo un día?",
+        "unit": "1= Sí, 2= No, 8= No sabe, 9= No responde"
+    }
+}

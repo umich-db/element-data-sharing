@@ -242,7 +242,31 @@ cholesterol_dict = {
         "P20_Oxidative_Stress_201602(8-Isoprostane)",
         "P20_Physical_Activity_with_METS_201912",
         "P20_Telomere_201501(ELEMENT_TELEMERE_01292015)"
-    ]
+    ],
+    "MLM": [
+    "MLM_BONE_Accelerometer",
+    "MLM_BONE_Anthropometry",
+    "MLM_BONE_Blood_Pressure_Monitor",
+    "MLM_BONE_Exposure_Questionnaire",
+    "MLM_BONE_FFQ",
+    "MLM_BONE_FFQ_Nutrients",
+    "MLM_BONE_FFQ_Supplements",
+    "MLM_BONE_FFQ_Vitamins",
+    "MLM_BONE_FRAX",
+    "MLM_BONE_General_Sociodemographic_Questionnaire",
+    "MLM_BONE_Habits_Questionnaire",
+    "MLM_BONE_Health_Questionnaire",
+    "MLM_BONE_Household_members_Questionnaire",
+    "MLM_BONE_Inbody",
+    "MLM_BONE_Labs",
+    "MLM_BONE_NIH_Toolbox_Assessment_Data",
+    "MLM_BONE_NIH_Toolbox_Assessment_Scores",
+    "MLM_BONE_NIH_Toolbox_Registration_Data",
+    "MLM_BONE_Oral_Dental_Health_Questionnaire",
+    "MLM_BONE_Sleep_Diary_Questionnaire",
+    "MLM_BONE_Water_Management_Questionnaire"
+]
+
 }
 
 for key, folders in cholesterol_dict.items():

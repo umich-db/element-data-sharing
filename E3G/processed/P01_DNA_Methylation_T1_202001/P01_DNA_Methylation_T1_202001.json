@@ -1,0 +1,122 @@
+{
+    "FOLIOCC": {
+        "description": "Cholesterol study ID number",
+        "unit": null
+    },
+    "etapaacc": {
+        "description": "type of study visit",
+        "unit": null
+    },
+    "participant": {
+        "description": "specimen from mother or child",
+        "unit": null
+    },
+    "LINE_Plate_p01_t1": {
+        "description": "LINE1 Pyrosequencing plate sample was run on; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "LINE_1_p01_t1": {
+        "description": "% methylation at CpG site # 1 of LINE, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "LINE_2_p01_t1": {
+        "description": "% methylation at CpG site # 2 of LINE, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "LINE_3_p01_t1": {
+        "description": "% methylation at CpG site # 3 of LINE, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "LINE_4_p01_t1": {
+        "description": "% methylation at CpG site # 4 of LINE, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "LINE_dup_p01_t1": {
+        "description": "Indicates whether sample was duplicated or not. If yes, then DNA methylation data reported is the average of replicates that passed quality control checks. If not, data represents single measure that passed quality control",
+        "unit": null
+    },
+    "LINE_Date_p01_t1": {
+        "description": "Date of LINE1 Pyrosequencing; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "PPARA_1_p01_t1": {
+        "description": "% methylation at CpG site # 1 of PPARA, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "PPARA_2_p01_t1": {
+        "description": "% methylation at CpG site # 2 of PPARA, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "PPARA_Date_p01_t1": {
+        "description": "Date of PPARA Pyrosequencing; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "PPARA_Plate_p01_t1": {
+        "description": "PPARA Pyrosequencing plate sample was run on; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "PPARA_dup_p01_t1": {
+        "description": "Indicates whether sample was duplicated or not. If yes, then DNA methylation data reported is the average of replicates that passed quality control checks. If not, data represents single measure that passed quality control",
+        "unit": null
+    },
+    "H19_Plate_p01_t1": {
+        "description": "H19 Pyrosequencing plate sample was run on; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "H19_1_p01_t1": {
+        "description": "% methylation at CpG site # 1 of H19, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "H19_2_p01_t1": {
+        "description": "% methylation at CpG site # 2 of H19, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "H19_3_p01_t1": {
+        "description": "% methylation at CpG site # 3 of H19, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "H19_4_p01_t1": {
+        "description": "% methylation at CpG site # 4 of H19, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "H19_dup_p01_t1": {
+        "description": "Indicates whether sample was duplicated or not. If yes, then DNA methylation data reported is the average of replicates that passed quality control checks. If not, data represents single measure that passed quality control",
+        "unit": null
+    },
+    "H19_Date_p01_t1": {
+        "description": "Date of H19 Pyrosequencing; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "HSD11B2_1_p01_t1": {
+        "description": "% methylation at CpG site # 1 of HSD11B2, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "HSD11B2_2_p01_t1": {
+        "description": "% methylation at CpG site # 2 of HSD11B2, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "HSD11B2_3_p01_t1": {
+        "description": "% methylation at CpG site # 3 of HSD11B2, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "HSD11B2_4_p01_t1": {
+        "description": "% methylation at CpG site # 4 of HSD11B2, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "HSD11B2_5_p01_t1": {
+        "description": "% methylation at CpG site # 5 of HSD11B2, P01 T1 Visit blood leukocyte DNA",
+        "unit": null
+    },
+    "HSD11B2_Date_p01_t1": {
+        "description": "Date of HSD11B2 Pyrosequencing; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "HSD11B2_Plate_p01_t1": {
+        "description": "HSD11B2 Pyrosequencing plate sample was run on; if sample failed twice the last plate is listed",
+        "unit": null
+    },
+    "HSD11B2_dup_p01_t1": {
+        "description": "Indicates whether sample was duplicated or not. If yes, then DNA methylation data reported is the average of replicates that passed quality control checks. If not, data represents single measure that passed quality control",
+        "unit": null
+    }
+}

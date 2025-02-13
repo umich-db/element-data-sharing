@@ -1,0 +1,58 @@
+{
+    "days": {
+        "description": null,
+        "unit": null
+    },
+    "bed_time_PDP": {
+        "description": "PDP Estimate (published sleep detection algorithm)",
+        "unit": null
+    },
+    "wake_time_PDP": {
+        "description": "PDP Estimate (published sleep detection algorithm)",
+        "unit": null
+    },
+    "SI_bed": {
+        "description": "Sleep Diary",
+        "unit": null
+    },
+    "SI_wake": {
+        "description": "Sleep Diary",
+        "unit": null
+    },
+    "SleepDur_PDP": {
+        "description": "PDP Estimate (published sleep detection algorithm)",
+        "unit": null
+    },
+    "Manual Analysis": {
+        "description": "Indicator of manual analysis (conducted if PDP sleep duration was outside thresholds of >16 hours or <3 hours). Value 0 indicates no manual analysis; Value 1 indicates manual analysis",
+        "unit": null
+    },
+    "bed_time_FINAL": {
+        "description": "If Manual Analysis = 0, bed_time_FINAL = bed_time_PDP. If Manual Analysis =1, Bed_time_FINAL is the bed time determined by the manual analysis",
+        "unit": null
+    },
+    "wake_time_FINAL": {
+        "description": "If Manual Analysis = 0, wake_time_FINAL = wake_time_PDP. If Manual Analysis =1, wake_time_FINAL is the wake time determined by the manual analysis",
+        "unit": null
+    },
+    "SleepDur_FINAL": {
+        "description": "wake_time_FINAL - Bed_time_FINAL. (ie - sleep duration based on the variables bed_time_final and wake_time_final",
+        "unit": null
+    },
+    "Est_MI": {
+        "description": "Movement Index (Sleep Quality Measurement). Based on bed_time_FINAL and wake_time_FINAL sleep window",
+        "unit": "None"
+    },
+    "Est_FI": {
+        "description": "Fragmentation Index (Sleep Quality Measurement). Based on bed_time_FINAL and wake_time_FINAL sleep window",
+        "unit": "None"
+    },
+    "bed_time_FINAL_dec": {
+        "description": "Bed Time Final reported as a decimal",
+        "unit": "None"
+    },
+    "wake_time_FINAL_dec": {
+        "description": "Wake Time final reported as a decimal",
+        "unit": "None"
+    }
+}

@@ -1,0 +1,1946 @@
+{
+    "proyecto": {
+        "description": null,
+        "unit": null
+    },
+    "folio": {
+        "description": null,
+        "unit": null
+    },
+    "foliocc": {
+        "description": "Folio",
+        "unit": null
+    },
+    "etapa": {
+        "description": null,
+        "unit": null
+    },
+    "id": {
+        "description": null,
+        "unit": null
+    },
+    "f0": {
+        "description": null,
+        "unit": null
+    },
+    "fecha_etapa": {
+        "description": null,
+        "unit": null
+    },
+    "hora_ini": {
+        "description": "Hora de inicio",
+        "unit": null
+    },
+    "min_ini": {
+        "description": "Minuto de inicio",
+        "unit": null
+    },
+    "f_dia": {
+        "description": "Día de la entrevista",
+        "unit": null
+    },
+    "f_mes": {
+        "description": "Mes de la entrevista",
+        "unit": "None"
+    },
+    "f_anio": {
+        "description": "Año de la entrevista",
+        "unit": "None"
+    },
+    "cod_ent": {
+        "description": "Codigo del entrevistador",
+        "unit": "None"
+    },
+    "s34_h": {
+        "description": "¿Algún médico le ha dicho que tiene diabetes o el azúcar alto en la sangre?",
+        "unit": "1= Sí, 2= No"
+    },
+    "gf014_1a": {
+        "description": "¿Hace cuánto tiempo le dijo su médico por primera vez que tenía diabetes o el azúcar alto en la sangre?",
+        "unit": "Meses"
+    },
+    "gf014_1b": {
+        "description": "¿Hace cuánto tiempo le dijo su médico por primera vez que tenía diabetes o el azúcar alto en la sangre?",
+        "unit": "Años"
+    },
+    "gf014_1c": {
+        "description": "¿Hace cuánto tiempo le dijo su médico por primera vez que tenía diabetes o el azúcar alto en la sangre?",
+        "unit": "Días"
+    },
+    "gf015": {
+        "description": "¿Algún médico le ha dicho que tiene prediabetes o niveles de azúcar en la sangre más altos de lo normal?",
+        "unit": "1= Sí, 2= No"
+    },
+    "gf015_1a": {
+        "description": "¿Hace cuánto tiempo le dijo su médico por primera vez que tenía pre-diabetes o niveles de azúcar en la sangre más alto de lo normal?",
+        "unit": "Mes"
+    },
+    "gf015_1b": {
+        "description": "¿Hace cuánto tiempo le dijo su médico por primera vez que tenía pre-diabetes o niveles de azúcar en la sangre más alto de lo normal?",
+        "unit": "Años"
+    },
+    "gf015_1c": {
+        "description": "¿Hace cuánto tiempo le dijo su médico por primera vez que tenía pre-diabetes o niveles de azúcar en la sangre más alto de lo normal?",
+        "unit": "Días"
+    },
+    "gf016": {
+        "description": "¿Actualmente toma pastillas, le aplican insulina o lleva algún otro tratamiento para controlar su azúcar?",
+        "unit": "None"
+    },
+    "gf016_e": {
+        "description": "¿Actualmente toma pastillas, le aplican insulina o lleva algún otro tratamiento para controlar su azúcar? Especifique",
+        "unit": "None"
+    },
+    "s34_e": {
+        "description": "¿Algún médico le ha dicho que tiene la presión alta o hipertensión?",
+        "unit": "None"
+    },
+    "gf017_1a": {
+        "description": "¿Hace cuánto tiempo le dijo su médico que tiene la presión alta o hipertensión?",
+        "unit": "Meses"
+    },
+    "gf017_1b": {
+        "description": "¿Hace cuánto tiempo le dijo su médico que tiene la presión alta o hipertensión?",
+        "unit": "Años"
+    },
+    "gf017_1c": {
+        "description": "¿Hace cuánto tiempo le dijo su médico que tiene la presión alta o hipertensión?",
+        "unit": "Días"
+    },
+    "gf017_2a": {
+        "description": "¿Actualmente toma alguna medicina (pastillas) o lleva otro tratamiento para su presión alta?",
+        "unit": "None"
+    },
+    "gf017_2b": {
+        "description": "¿Actualmente toma alguna medicina (pastillas) o lleva otro tratamiento para su presión alta?",
+        "unit": "None"
+    },
+    "gf017_2c": {
+        "description": "¿Actualmente toma alguna medicina (pastillas) o lleva otro tratamiento para su presión alta?",
+        "unit": "None"
+    },
+    "gf017_2d": {
+        "description": "¿Actualmente toma alguna medicina (pastillas) o lleva otro tratamiento para su presión alta?",
+        "unit": "Ninguno= 1, Pastillas= 2, Plan de alimentación (dieta)= 3, Realiza algún plan de ejercicio físico= 4, Homeopatía (chochos)= 5, Herbolaria= 6, Disminución de la ingesta de sal= 7, Medicina alternativa= 8, Otra= 9"
+    },
+    "gf017_2e": {
+        "description": "¿Actualmente toma alguna medicina (pastillas) o lleva otro tratamiento para su presión alta?",
+        "unit": "Ninguno= 1, Pastillas= 2, Plan de alimentación (dieta)= 3, Realiza algún plan de ejercicio físico= 4, Homeopatía (chochos)= 5, Herbolaria= 6, Disminución de la ingesta de sal= 7, Medicina alternativa= 8, Otra= 9"
+    },
+    "gf017_2esp": {
+        "description": "¿Actualmente toma alguna medicina (pastillas) o lleva otro tratamiento para su presión alta? Especifique",
+        "unit": null
+    },
+    "s34_a": {
+        "description": "¿Algún médico le ha dicho que tiene o tuvo una enfermedad del corazón?",
+        "unit": "No= 1, Un infarto= 2, Angina de pecho= 3, Insuficiencia cardiaca= 4, Otra enfermedad del corazón (especifique)= 5, No sabe o no recuerda= 9"
+    },
+    "gf018_e": {
+        "description": "¿Algún médico le ha dicho que tiene o tuvo una enfermedad del corazón? Especifique",
+        "unit": null
+    },
+    "gf019": {
+        "description": "¿Le han medido alguna vez la concentración de colesterol y/o triglicéridos?",
+        "unit": "Sí= 1, No= 2, No respondió= 77, No sabe= 99"
+    },
+    "gf019_1": {
+        "description": "¿Algún médico le ha dicho que tiene el colesterol alto?",
+        "unit": "Sí= 1, No= 2, No respondió= 77, No sabe= 99"
+    },
+    "gf019_2a": {
+        "description": "¿Hace cuánto tiempo le dijo su médico que tiene el colesterol alto?, meses",
+        "unit": "99= No sabe o no recuerda"
+    },
+    "gf019_2b": {
+        "description": "¿Hace cuánto tiempo le dijo su médico que tiene el colesterol alto?, años",
+        "unit": "99= No sabe o no recuerda"
+    },
+    "gf019_2c": {
+        "description": "¿Hace cuánto tiempo le dijo su médico que tiene el colesterol alto?, días",
+        "unit": "99= No sabe o no recuerda"
+    },
+    "gf019_3a": {
+        "description": "6.4 ¿Ha tenido tratamiento para el colesterol alto?",
+        "unit": "Ninguno= 1, Pastillas= 2, Plan de alimentación (dieta)= 3, Realiza algún plan de ejercicio físico= 4, Homeopatía (chochos)= 5, Herbolaria= 6, Medicina alternativa= 7, Otra= 8"
+    },
+    "gf019_3b": {
+        "description": "6.4 ¿Ha tenido tratamiento para el colesterol alto?",
+        "unit": "Ninguno= 1, Pastillas= 2, Plan de alimentación (dieta)= 3, Realiza algún plan de ejercicio físico= 4, Homeopatía (chochos)= 5, Herbolaria= 6, Medicina alternativa= 7, Otra= 8"
+    },
+    "gf019_3c": {
+        "description": "6.4 ¿Ha tenido tratamiento para el colesterol alto?",
+        "unit": "Ninguno= 1, Pastillas= 2, Plan de alimentación (dieta)= 3, Realiza algún plan de ejercicio físico= 4, Homeopatía (chochos)= 5, Herbolaria= 6, Medicina alternativa= 7, Otra= 8"
+    },
+    "gf019_3d": {
+        "description": "6.4 ¿Ha tenido tratamiento para el colesterol alto?",
+        "unit": "Ninguno= 1, Pastillas= 2, Plan de alimentación (dieta)= 3, Realiza algún plan de ejercicio físico= 4, Homeopatía (chochos)= 5, Herbolaria= 6, Medicina alternativa= 7, Otra= 8"
+    },
+    "gf019_3e": {
+        "description": "6.4 ¿Ha tenido tratamiento para el colesterol alto?",
+        "unit": "Ninguno= 1, Pastillas= 2, Plan de alimentación (dieta)= 3, Realiza algún plan de ejercicio físico= 4, Homeopatía (chochos)= 5, Herbolaria= 6, Medicina alternativa= 7, Otra= 8"
+    },
+    "gf019_3esp": {
+        "description": "6.4 ¿Ha tenido tratamiento para el colesterol alto?, especificar",
+        "unit": null
+    },
+    "gf019_4": {
+        "description": "6.5 ¿Algún médico le ha dicho que tiene los triglicéridos altos?",
+        "unit": "Sí= 1, No= 2, No respondió= 77, No sabe= 99"
+    },
+    "gf019_5a": {
+        "description": "6.6 ¿Hace cuánto tiempo le dijo su médico que tiene los triglicéridos altos?, Meses",
+        "unit": "99= No sabe o no recuerda"
+    },
+    "gf019_5b": {
+        "description": "6.6 ¿Hace cuánto tiempo le dijo su médico que tiene los triglicéridos altos?, Años",
+        "unit": "99= No sabe o no recuerda"
+    },
+    "gf019_5c": {
+        "description": "6.6 ¿Hace cuánto tiempo le dijo su médico que tiene los triglicéridos altos?, Dias",
+        "unit": "99= No sabe o no recuerda"
+    },
+    "gf019_6": {
+        "description": "¿Ha tenido tratamiento para los triglicéridos altos?",
+        "unit": "None"
+    },
+    "gf019_6e": {
+        "description": "¿Ha tenido tratamiento para los triglicéridos altos?, especificar",
+        "unit": "None"
+    },
+    "gf020_a": {
+        "description": "¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñon como infección en las vías urinarias en más de una ocasión?",
+        "unit": "None"
+    },
+    "gf020_b": {
+        "description": "¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñón como cálculos renales?",
+        "unit": "None"
+    },
+    "gf020_c": {
+        "description": "¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñón como insuficiencia renal?",
+        "unit": "None"
+    },
+    "gf020_d": {
+        "description": "¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñón como enfermedad crónica?",
+        "unit": "None"
+    },
+    "gf020_e": {
+        "description": "¿Alguna vez un médico le ha dicho que padece de alguna enfermedad del riñón como enfermedad renal en etapa terminal?",
+        "unit": "None"
+    },
+    "s34_r": {
+        "description": "¿Alguna vez le ha dicho un médico que tiene cáncer?",
+        "unit": "None"
+    },
+    "gf021_1a": {
+        "description": "Tipo de cancer",
+        "unit": "None"
+    },
+    "gf021_1a1": {
+        "description": "Año de diagnostico",
+        "unit": "None"
+    },
+    "gf021_1b": {
+        "description": "Tipo de cancer",
+        "unit": "None"
+    },
+    "gf021_1b1": {
+        "description": "Año de diagnostico",
+        "unit": "None"
+    },
+    "gf021_1c": {
+        "description": "Tipo de cancer",
+        "unit": "None"
+    },
+    "gf021_1c1": {
+        "description": "Año de diagnostico",
+        "unit": "None"
+    },
+    "s34_t": {
+        "description": "¿Alguna vez le ha diagnosticado su médico o le han tratado por una condición mental/psiquiátrica?",
+        "unit": "None"
+    },
+    "gf022_1a": {
+        "description": "Tipo de condición mental/psiquiatrica",
+        "unit": "None"
+    },
+    "gf022_1a1": {
+        "description": "Año de diagnostico",
+        "unit": "None"
+    },
+    "gf022_1b": {
+        "description": "Tipo de condición mental/psiquiatrica",
+        "unit": "None"
+    },
+    "gf022_1b1": {
+        "description": "Año de diagnostico",
+        "unit": "None"
+    },
+    "gf022_1c": {
+        "description": "Tipo de condición mental/psiquiatrica",
+        "unit": "None"
+    },
+    "gf022_1c1": {
+        "description": "9.2 Año de diagnostico",
+        "unit": "None"
+    },
+    "gf023a": {
+        "description": "10. ¿Alguna vez un médico le ha diagnosticado que padece...Bronquitis crónica",
+        "unit": "1= Si, 2= No"
+    },
+    "gf023a1": {
+        "description": "10. Año de diagnóstico...Bronquitis crónica",
+        "unit": "None"
+    },
+    "s35_a": {
+        "description": "10. ¿Alguna vez un médico le ha diagnosticado que padece...Asma",
+        "unit": "1= Si, 2= No"
+    },
+    "gf023b1": {
+        "description": "10. Año de dignóstico...Asma",
+        "unit": "None"
+    },
+    "s34_i": {
+        "description": "10. ¿Alguna vez un médico le ha diagnosticado que padece...Presión arterial baja",
+        "unit": "1= Si, 2= No"
+    },
+    "gf023c1": {
+        "description": "10. Año de diagnóstico...Presión arterial",
+        "unit": "None"
+    },
+    "s34_k": {
+        "description": "10. ¿Alguna vez un médico le ha diagnosticado que padece...Artritis",
+        "unit": "1= Si, 2= No"
+    },
+    "gf023d1": {
+        "description": "10. Año de diagnóstico...Artritis, año de",
+        "unit": "None"
+    },
+    "gf023e": {
+        "description": "10. ¿Alguna vez un médico le ha diagnosticado que padece...Osteoporosis",
+        "unit": "1= Si, 2= No"
+    },
+    "gf023e1": {
+        "description": "Año de diagnóstico...Osteoporosis",
+        "unit": "año"
+    },
+    "s34_q": {
+        "description": "¿Alguna vez le ha dicho un médico que tiene cáncer?",
+        "unit": "1=Si, 2=No, 77=No respondió"
+    },
+    "gf023f1": {
+        "description": "Año de diagnóstico...Enfermedad del corazón",
+        "unit": "año"
+    },
+    "s34_m": {
+        "description": "¿Alguna vez un médico le ha diagnosticado que padece...Cirugia del corazón",
+        "unit": "1=Si, 2=No"
+    },
+    "gf023g1": {
+        "description": "Año de diagnóstico...Cirugia del corazón",
+        "unit": "año"
+    },
+    "s34_o": {
+        "description": "¿Alguna vez un médico le ha diagnosticado que padece...Enfermedad del hígado",
+        "unit": "1=Si, 2=No"
+    },
+    "gf023h1": {
+        "description": "Año de diagnóstico...Enfermedad del hígado",
+        "unit": "año"
+    },
+    "toma_med2": {
+        "description": "Además de los mencionados anteriormente, ¿Está tomando actualmente otros medicamentos/vitaminas/suplementos?",
+        "unit": "1=Si, 2=No"
+    },
+    "med1h": {
+        "description": "Nombre del medicamento 1",
+        "unit": "None"
+    },
+    "med1h_rz": {
+        "description": "Razón para tomar medicamento 1",
+        "unit": "None"
+    },
+    "med1h_pr": {
+        "description": "Presentación del medicamento 1",
+        "unit": "None"
+    },
+    "med1h_c1": {
+        "description": "Medicamento 1, cantidad",
+        "unit": "mg"
+    },
+    "med1h_c2": {
+        "description": "Medicamento 1, cantidad",
+        "unit": "g"
+    },
+    "med1h_c3": {
+        "description": "Medicamento 1, cantidad",
+        "unit": "ml"
+    },
+    "med1h_c4": {
+        "description": "Medicamento 1, cantidad",
+        "unit": "UI"
+    },
+    "med1h_f1": {
+        "description": "Medicamento 1, frecuencia",
+        "unit": "veces por día"
+    },
+    "med1h_f2": {
+        "description": "Medicamento 1, frecuencia",
+        "unit": "semana"
+    },
+    "med1h_f3": {
+        "description": "Medicamento 1, frecuencia",
+        "unit": "mes"
+    },
+    "med1h_d1": {
+        "description": "Medicamento 1, duración",
+        "unit": "dd"
+    },
+    "med1h_d2": {
+        "description": "Medicamento 1, duración",
+        "unit": "sem"
+    },
+    "med1h_d3": {
+        "description": "Medicamento 1, duración (mm)",
+        "unit": "months"
+    },
+    "med1h_d4": {
+        "description": "Medicamento 1, duración (aa)",
+        "unit": "years"
+    },
+    "med1h_d5": {
+        "description": "Medicamento 1, siempre",
+        "unit": "1= Siempre"
+    },
+    "med1h_m": {
+        "description": "Medicamento 1, tipo medicamento",
+        "unit": "None"
+    },
+    "med1h_v": {
+        "description": "Medicamento 1, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med1h_h": {
+        "description": "Medicamento 1, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med2h": {
+        "description": "Nombre del medicamento 2",
+        "unit": "None"
+    },
+    "med2h_rz": {
+        "description": "Razón para tomar medicamento 2",
+        "unit": "None"
+    },
+    "med2h_pr": {
+        "description": "Presentación del medicamento 2",
+        "unit": "None"
+    },
+    "med2h_c1": {
+        "description": "Medicamento 2, cantidad (mg)",
+        "unit": "mg"
+    },
+    "med2h_c2": {
+        "description": "Medicamento 2, cantidad",
+        "unit": "g"
+    },
+    "med2h_c3": {
+        "description": "Medicamento 2, cantidad",
+        "unit": "ml"
+    },
+    "med2h_c4": {
+        "description": "Medicamento 2, cantidad",
+        "unit": "UI"
+    },
+    "med2h_f1": {
+        "description": "Medicamento 2, frecuencia",
+        "unit": "veces por día"
+    },
+    "med2h_f2": {
+        "description": "Medicamento 2, frecuencia",
+        "unit": "semana"
+    },
+    "med2h_f3": {
+        "description": "Medicamento 2, frecuencia",
+        "unit": "mes"
+    },
+    "med2h_d1": {
+        "description": "Medicamento 2, duración",
+        "unit": "dd"
+    },
+    "med2h_d2": {
+        "description": "Medicamento 2, duración",
+        "unit": "sem"
+    },
+    "med2h_d3": {
+        "description": "Medicamento 2, duración",
+        "unit": "mm"
+    },
+    "med2h_d4": {
+        "description": "Medicamento 2, duración",
+        "unit": "aa"
+    },
+    "med2h_d5": {
+        "description": "Medicamento 2, siempre",
+        "unit": "1= Siempre"
+    },
+    "med2h_m": {
+        "description": "Medicamento 2, tipo medicamento",
+        "unit": "None"
+    },
+    "med2h_v": {
+        "description": "Medicamento 2, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med2h_h": {
+        "description": "Medicamento 2, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med3h": {
+        "description": "Nombre del medicamento 3",
+        "unit": "None"
+    },
+    "med3h_rz": {
+        "description": "Razón para tomar medicamento 3",
+        "unit": "None"
+    },
+    "med3h_pr": {
+        "description": "Presentación del medicamento 3",
+        "unit": "None"
+    },
+    "med3h_c1": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "mg"
+    },
+    "med3h_c2": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "g"
+    },
+    "med3h_c3": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "ml"
+    },
+    "med3h_c4": {
+        "description": "Medicamento 3, cantidad",
+        "unit": "UI"
+    },
+    "med3h_f1": {
+        "description": "Medicamento 3, frecuencia",
+        "unit": "veces por día"
+    },
+    "med3h_f2": {
+        "description": "Medicamento 3, frecuencia",
+        "unit": "semana"
+    },
+    "med3h_f3": {
+        "description": "Medicamento 3, frecuencia",
+        "unit": "mes"
+    },
+    "med3h_d1": {
+        "description": "Medicamento 3, duración",
+        "unit": "dd"
+    },
+    "med3h_d2": {
+        "description": "Medicamento 3, duración",
+        "unit": "sem"
+    },
+    "med3h_d3": {
+        "description": "Medicamento 3, duración",
+        "unit": "mm"
+    },
+    "med3h_d4": {
+        "description": "Medicamento 3, duración",
+        "unit": "aa"
+    },
+    "med3h_d5": {
+        "description": "Medicamento 3, siempre",
+        "unit": "1= Siempre"
+    },
+    "med3h_m": {
+        "description": "Medicamento 3, tipo medicamento",
+        "unit": "None"
+    },
+    "med3h_v": {
+        "description": "Medicamento 3, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med3h_h": {
+        "description": "Medicamento 3, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med4h": {
+        "description": "Nombre del medicamento 4",
+        "unit": "None"
+    },
+    "med4h_rz": {
+        "description": "Razón para tomar medicamento 4",
+        "unit": "None"
+    },
+    "med4h_pr": {
+        "description": "Presentación del medicamento 4",
+        "unit": "None"
+    },
+    "med4h_c1": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "mg"
+    },
+    "med4h_c2": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "g"
+    },
+    "med4h_c3": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "ml"
+    },
+    "med4h_c4": {
+        "description": "Medicamento 4, cantidad",
+        "unit": "UI"
+    },
+    "med4h_f1": {
+        "description": "Medicamento 4, frecuencia",
+        "unit": "veces por día"
+    },
+    "med4h_f2": {
+        "description": "Medicamento 4, frecuencia (semana)",
+        "unit": "semana"
+    },
+    "med4h_f3": {
+        "description": "Medicamento 4, frecuencia (mes)",
+        "unit": "mes"
+    },
+    "med4h_d1": {
+        "description": "Medicamento 4, duración (dd)",
+        "unit": "días"
+    },
+    "med4h_d2": {
+        "description": "Medicamento 4, duración (sem)",
+        "unit": "semanas"
+    },
+    "med4h_d3": {
+        "description": "Medicamento 4, duración (mm)",
+        "unit": "meses"
+    },
+    "med4h_d4": {
+        "description": "Medicamento 4, duración (aa)",
+        "unit": "años"
+    },
+    "med4h_d5": {
+        "description": "Medicamento 4, siempre",
+        "unit": "1= Siempre"
+    },
+    "med4h_m": {
+        "description": "Medicamento 4, tipo medicamento",
+        "unit": "None"
+    },
+    "med4h_v": {
+        "description": "Medicamento 4, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med4h_h": {
+        "description": "Medicamento 4, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med5h": {
+        "description": "Nombre del medicamento 5",
+        "unit": "None"
+    },
+    "med5h_rz": {
+        "description": "Razón para tomar medicamento 5",
+        "unit": "None"
+    },
+    "med5h_pr": {
+        "description": "Presentación del medicamento 5",
+        "unit": "None"
+    },
+    "med5h_c1": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "mg"
+    },
+    "med5h_c2": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "g"
+    },
+    "med5h_c3": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "ml"
+    },
+    "med5h_c4": {
+        "description": "Medicamento 5, cantidad",
+        "unit": "UI"
+    },
+    "med5h_f1": {
+        "description": "Medicamento 5, frecuencia",
+        "unit": "veces por día"
+    },
+    "med5h_f2": {
+        "description": "Medicamento 5, frecuencia",
+        "unit": "semana"
+    },
+    "med5h_f3": {
+        "description": "Medicamento 5, frecuencia",
+        "unit": "mes"
+    },
+    "med5h_d1": {
+        "description": "Medicamento 5, duración",
+        "unit": "dd"
+    },
+    "med5h_d2": {
+        "description": "Medicamento 5, duración",
+        "unit": "sem"
+    },
+    "med5h_d3": {
+        "description": "Medicamento 5, duración",
+        "unit": "mm"
+    },
+    "med5h_d4": {
+        "description": "Medicamento 5, duración",
+        "unit": "aa"
+    },
+    "med5h_d5": {
+        "description": "Medicamento 5, siempre",
+        "unit": "1= Siempre"
+    },
+    "med5h_m": {
+        "description": "Medicamento 5, tipo medicamento",
+        "unit": "None"
+    },
+    "med5h_v": {
+        "description": "Medicamento 5, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med5h_h": {
+        "description": "Medicamento 5, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med6h": {
+        "description": "Nombre del medicamento 6",
+        "unit": "None"
+    },
+    "med6h_rz": {
+        "description": "Razón para tomar medicamento 6",
+        "unit": "None"
+    },
+    "med6h_pr": {
+        "description": "Presentación del medicamento 6",
+        "unit": "None"
+    },
+    "med6h_c1": {
+        "description": "Medicamento 6, cantidad",
+        "unit": "mg"
+    },
+    "med6h_c2": {
+        "description": "Medicamento 6, cantidad",
+        "unit": "g"
+    },
+    "med6h_c3": {
+        "description": "Medicamento 6, cantidad",
+        "unit": "ml"
+    },
+    "med6h_c4": {
+        "description": "Medicamento 6, cantidad",
+        "unit": "UI"
+    },
+    "med6h_f1": {
+        "description": "Medicamento 6, frecuencia",
+        "unit": "veces por día"
+    },
+    "med6h_f2": {
+        "description": "Medicamento 6, frecuencia",
+        "unit": "semana"
+    },
+    "med6h_f3": {
+        "description": "Medicamento 6, frecuencia",
+        "unit": "mes"
+    },
+    "med6h_d1": {
+        "description": "Medicamento 6, duración",
+        "unit": "dd"
+    },
+    "med6h_d2": {
+        "description": "Medicamento 6, duración",
+        "unit": "sem"
+    },
+    "med6h_d3": {
+        "description": "Medicamento 6, duración (mm)",
+        "unit": "Meses"
+    },
+    "med6h_d4": {
+        "description": "Medicamento 6, duración (aa)",
+        "unit": "Años"
+    },
+    "med6h_d5": {
+        "description": "Medicamento 6, siempre",
+        "unit": "1= Siempre"
+    },
+    "med6h_m": {
+        "description": "Medicamento 6, tipo medicamento",
+        "unit": "None"
+    },
+    "med6h_v": {
+        "description": "Medicamento 6, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med6h_h": {
+        "description": "Medicamento 6, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med7h": {
+        "description": "Nombre del medicamento 7",
+        "unit": "None"
+    },
+    "med7h_rz": {
+        "description": "Razón para tomar medicamento 7",
+        "unit": "None"
+    },
+    "med7h_pr": {
+        "description": "Presentación del medicamento 7",
+        "unit": "None"
+    },
+    "med7h_c1": {
+        "description": "Medicamento 7, cantidad (mg)",
+        "unit": "mg"
+    },
+    "med7h_c2": {
+        "description": "Medicamento 7, cantidad",
+        "unit": "g"
+    },
+    "med7h_c3": {
+        "description": "Medicamento 7, cantidad",
+        "unit": "ml"
+    },
+    "med7h_c4": {
+        "description": "Medicamento 7, cantidad",
+        "unit": "UI"
+    },
+    "med7h_f1": {
+        "description": "Medicamento 7, frecuencia",
+        "unit": "veces por día"
+    },
+    "med7h_f2": {
+        "description": "Medicamento 7, frecuencia",
+        "unit": "semana"
+    },
+    "med7h_f3": {
+        "description": "Medicamento 7, frecuencia",
+        "unit": "mes"
+    },
+    "med7h_d1": {
+        "description": "Medicamento 7, duración",
+        "unit": "dd"
+    },
+    "med7h_d2": {
+        "description": "Medicamento 7, duración",
+        "unit": "sem"
+    },
+    "med7h_d3": {
+        "description": "Medicamento 7, duración",
+        "unit": "mm"
+    },
+    "med7h_d4": {
+        "description": "Medicamento 7, duración",
+        "unit": "aa"
+    },
+    "med7h_d5": {
+        "description": "Medicamento 7, siempre",
+        "unit": "1= Siempre"
+    },
+    "med7h_m": {
+        "description": "Medicamento 7, tipo medicamento",
+        "unit": "None"
+    },
+    "med7h_v": {
+        "description": "Medicamento 7, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med7h_h": {
+        "description": "Medicamento 7, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med8h": {
+        "description": "Nombre del medicamento 8",
+        "unit": "None"
+    },
+    "med8h_rz": {
+        "description": "Razón para tomar medicamento 8",
+        "unit": "None"
+    },
+    "med8h_pr": {
+        "description": "Presentación del medicamento 8",
+        "unit": "None"
+    },
+    "med8h_c1": {
+        "description": "Medicamento 8, cantidad",
+        "unit": "mg"
+    },
+    "med8h_c2": {
+        "description": "Medicamento 8, cantidad",
+        "unit": "g"
+    },
+    "med8h_c3": {
+        "description": "Medicamento 8, cantidad",
+        "unit": "ml"
+    },
+    "med8h_c4": {
+        "description": "Medicamento 8, cantidad",
+        "unit": "UI"
+    },
+    "med8h_f1": {
+        "description": "Medicamento 8, frecuencia",
+        "unit": "veces por día"
+    },
+    "med8h_f2": {
+        "description": "Medicamento 8, frecuencia",
+        "unit": "semana"
+    },
+    "med8h_f3": {
+        "description": "Medicamento 8, frecuencia",
+        "unit": "mes"
+    },
+    "med8h_d1": {
+        "description": "Medicamento 8, duración",
+        "unit": "dd"
+    },
+    "med8h_d2": {
+        "description": "Medicamento 8, duración",
+        "unit": "sem"
+    },
+    "med8h_d3": {
+        "description": "Medicamento 8, duración",
+        "unit": "mm"
+    },
+    "med8h_d4": {
+        "description": "Medicamento 8, duración",
+        "unit": "aa"
+    },
+    "med8h_d5": {
+        "description": "Medicamento 8, siempre",
+        "unit": "1= Siempre"
+    },
+    "med8h_m": {
+        "description": "Medicamento 8, tipo medicamento",
+        "unit": "None"
+    },
+    "med8h_v": {
+        "description": "Medicamento 8, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med8h_h": {
+        "description": "Medicamento 8, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med9h": {
+        "description": "Nombre del medicamento 9",
+        "unit": "None"
+    },
+    "med9h_rz": {
+        "description": "Razón para tomar medicamento 9",
+        "unit": "None"
+    },
+    "med9h_pr": {
+        "description": "Presentación del medicamento 9",
+        "unit": "None"
+    },
+    "med9h_c1": {
+        "description": "Medicamento 9, cantidad",
+        "unit": "mg"
+    },
+    "med9h_c2": {
+        "description": "Medicamento 9, cantidad",
+        "unit": "g"
+    },
+    "med9h_c3": {
+        "description": "Medicamento 9, cantidad",
+        "unit": "ml"
+    },
+    "med9h_c4": {
+        "description": "Medicamento 9, cantidad",
+        "unit": "UI"
+    },
+    "med9h_f1": {
+        "description": "Medicamento 9, frecuencia",
+        "unit": "veces por día"
+    },
+    "med9h_f2": {
+        "description": "Medicamento 9, frecuencia (semana)",
+        "unit": "semana"
+    },
+    "med9h_f3": {
+        "description": "Medicamento 9, frecuencia (mes)",
+        "unit": "mes"
+    },
+    "med9h_d1": {
+        "description": "Medicamento 9, duración (dd)",
+        "unit": "días"
+    },
+    "med9h_d2": {
+        "description": "Medicamento 9, duración (sem)",
+        "unit": "semanas"
+    },
+    "med9h_d3": {
+        "description": "Medicamento 9, duración (mm)",
+        "unit": "meses"
+    },
+    "med9h_d4": {
+        "description": "Medicamento 9, duración (aa)",
+        "unit": "años"
+    },
+    "med9h_d5": {
+        "description": "Medicamento 9, siempre",
+        "unit": "1= Siempre"
+    },
+    "med9h_m": {
+        "description": "Medicamento 9, tipo medicamento",
+        "unit": "None"
+    },
+    "med9h_v": {
+        "description": "Medicamento 9, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med9h_h": {
+        "description": "Medicamento 9, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "med10h": {
+        "description": "Nombre del medicamento 10",
+        "unit": "None"
+    },
+    "med10h_rz": {
+        "description": "Razón para tomar medicamento 10",
+        "unit": "None"
+    },
+    "med10h_pr": {
+        "description": "Presentación del medicamento 10",
+        "unit": "None"
+    },
+    "med10h_c1": {
+        "description": "Medicamento 10, cantidad",
+        "unit": "mg"
+    },
+    "med10h_c2": {
+        "description": "Medicamento 10, cantidad",
+        "unit": "g"
+    },
+    "med10h_c3": {
+        "description": "Medicamento 10, cantidad",
+        "unit": "ml"
+    },
+    "med10h_c4": {
+        "description": "Medicamento 10, cantidad",
+        "unit": "UI"
+    },
+    "med10h_f1": {
+        "description": "Medicamento 10, frecuencia",
+        "unit": "veces por día"
+    },
+    "med10h_f2": {
+        "description": "Medicamento 10, frecuencia",
+        "unit": "semana"
+    },
+    "med10h_f3": {
+        "description": "Medicamento 10, frecuencia",
+        "unit": "mes"
+    },
+    "med10h_d1": {
+        "description": "Medicamento 10, duración (dd)",
+        "unit": "days"
+    },
+    "med10h_d2": {
+        "description": "Medicamento 10, duración (sem)",
+        "unit": "weeks"
+    },
+    "med10h_d3": {
+        "description": "Medicamento 10, duración (mm)",
+        "unit": "months"
+    },
+    "med10h_d4": {
+        "description": "Medicamento 10, duración (aa)",
+        "unit": "years"
+    },
+    "med10h_d5": {
+        "description": "Medicamento 10, siempre",
+        "unit": "1= Siempre"
+    },
+    "med10h_m": {
+        "description": "Medicamento 10, tipo medicamento",
+        "unit": "None"
+    },
+    "med10h_v": {
+        "description": "Medicamento 10, tipo vitamina / suplemento",
+        "unit": "None"
+    },
+    "med10h_h": {
+        "description": "Medicamento 10, tipo herbolarea / homeo",
+        "unit": "None"
+    },
+    "gf025": {
+        "description": "¿Cuándo fue su primera regla o menstruación?",
+        "unit": "99= No sabe o no recuerda"
+    },
+    "gf026_a": {
+        "description": "¿Hace cuánto tiempo fue su última regla o menstruación?, Meses",
+        "unit": "66= Actualmente está reglando, 99= No sabe o no recuerda"
+    },
+    "gf026_b": {
+        "description": "¿Hace cuánto tiempo fue su última regla o menstruación?, Años",
+        "unit": "Años"
+    },
+    "gf026_c": {
+        "description": "¿Hace cuánto tiempo fue su última regla o menstruación?, Dias",
+        "unit": "Días"
+    },
+    "gf026_1": {
+        "description": "Si la última menstruación fue hace tres meses o más, ¿Cuál fue la razón por la que usted dejó de reglar?",
+        "unit": "None"
+    },
+    "gf026_1e": {
+        "description": "Si la última menstruación fue hace tres meses o más, ¿Cuál fue la razón por la que usted dejó de reglar? Otras razones (especifique)",
+        "unit": "None"
+    },
+    "gf026_2": {
+        "description": "Durante los últimos 12 meses, su regla o menstruación",
+        "unit": "None"
+    },
+    "gf027_1": {
+        "description": "Sofocos, sudoración, bochornos",
+        "unit": "None"
+    },
+    "gf027_2": {
+        "description": "Molestias del corazón (cambios inusuales en el latido del corazón, saltos en el latido, que se dilate su latido, opresión)",
+        "unit": "None"
+    },
+    "gf027_3": {
+        "description": "Problemas de sueño (dificultad en conciliar el sueño en dormir toda la noche y despertarse temprano)",
+        "unit": "None"
+    },
+    "gf027_4": {
+        "description": "Estado de ánimo depresivo (sentirse decaída, triste, a punto de las lágrimas, falta de ganas, cambio de humor)",
+        "unit": "None"
+    },
+    "gf027_5": {
+        "description": "Irritabilidad (sentirse nerviosa, tensa agresiva)",
+        "unit": "None"
+    },
+    "gf027_6": {
+        "description": "Ansiedad (impaciencia, pánico)",
+        "unit": "0= Ninguno, 1= Poco severo, 2= Moderado, 3= Severo, 4= Muy severo"
+    },
+    "gf027_7": {
+        "description": "Agotamiento físico y mental (descenso general en su desempeño, deterioro de la memoria, falta de concentración, falta de memoria)",
+        "unit": "0= Ninguno, 1= Poco severo, 2= Moderado, 3= Severo, 4= Muy severo"
+    },
+    "gf027_8": {
+        "description": "Problemas sexuales (cambios en el deseo sexual en la actividad y satisfacción)",
+        "unit": "0= Ninguno, 1= Poco severo, 2= Moderado, 3= Severo, 4= Muy severo"
+    },
+    "gf027_9": {
+        "description": "Problemas de vejiga (dificultad a orinar, incontinencia, deseo excesivo de orinar)",
+        "unit": "0= Ninguno, 1= Poco severo, 2= Moderado, 3= Severo, 4= Muy severo"
+    },
+    "gf027_10": {
+        "description": "Resequedad vaginal (sensación de resequedad, ardor y problemas durante la relación sexual)",
+        "unit": "0= Ninguno, 1= Poco severo, 2= Moderado, 3= Severo, 4= Muy severo"
+    },
+    "gf027_11": {
+        "description": "Problemas musculares y en las articulaciones",
+        "unit": "0= Ninguno, 1= Poco severo, 2= Moderado, 3= Severo, 4= Muy severo"
+    },
+    "r01_15": {
+        "description": "Pensando en la experiencia de sus familiares o amistades, ¿Cuáles son los síntomas de la menopausia?",
+        "unit": "Sí= 1"
+    },
+    "r01_161": {
+        "description": "En los últimos 12 meses, ¿Ha usado algún método anticonceptivo por algún motivo?",
+        "unit": "Sí= 1, No= 2, No respondió= 77, No sabe= 99"
+    },
+    "r01_162a": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162b": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162c": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162d": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162e": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162f": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162g": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162h": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_162i": {
+        "description": "¿Ha utilizado alguno de los siguientes métodos en los últimos 12 meses?",
+        "unit": "Pastillas anticonceptivas= 1, Parche= 2, Anillo= 3, Inyección= 4, Implante= 5, Condones= 6, DIU – No hormonal= 7, DIU - hormonal= 8, Diafragma, tapa o esponja= 9, Espuma, gelatina, crema o supositorio espermicida= 10, Planificación Familiar Natural= 11, Esterilización (ligadura de trompas)= 12, Coito interrumpido= 13, Anticoncepción de emergencia (píldora del día después)= 14, Abstinencia= 15, No usar control de natalidad= 16, No respondió= 77, No sabe= 99"
+    },
+    "r01_163": {
+        "description": "En los últimos 12 meses, ¿Ha usado alguna terapia de reemplazo hormonal por algún motivo?",
+        "unit": "Sí= 1, No= 2, No respondió= 77, No sabe= 99"
+    },
+    "r01_164a": {
+        "description": "Opciones de terapia de reemplazo hormonal que utilice, incluyendo descripción médica con estrógeno o progesterona",
+        "unit": "Pastillas= 1, Inyecciones= 2"
+    },
+    "r01_164b": {
+        "description": "Opciones de terapia de reemplazo hormonal que utilice, incluyendo descripción médica con estrógeno o progesterona",
+        "unit": "Óvulos= 3, Crema vaginal= 4, No respondió= 77, No sabe= 99"
+    },
+    "r01_164c": {
+        "description": "Opciones de terapia de reemplazo hormonal que utilice, incluyendo descripción médica con estrógeno o progesterona",
+        "unit": "None"
+    },
+    "r01_164d": {
+        "description": "Opciones de terapia de reemplazo hormonal que utilice, incluyendo descripción médica con estrógeno o progesterona",
+        "unit": "None"
+    },
+    "r01_165a": {
+        "description": "Razones por las que comenzó a tomar hormonas: Reducir el riesgo de enfermedades del corazón",
+        "unit": "None"
+    },
+    "r01_165b": {
+        "description": "Razones por las que comenzó a tomar hormonas: Para reducir el riesgo de osteoporosis (huesos frágiles o debilitados)",
+        "unit": "None"
+    },
+    "r01_165c": {
+        "description": "Razones por las que comenzó a tomar hormonas: Para aliviar los síntomas de la menopausia",
+        "unit": "None"
+    },
+    "r01_165d": {
+        "description": "Razones por las que comenzó a tomar hormonas: Para mantenerse joven",
+        "unit": "None"
+    },
+    "r01_165e": {
+        "description": "Razones por las que comenzó a tomar hormonas: Un profesional de la salud me aconsejó que lo tomara",
+        "unit": "None"
+    },
+    "r01_165f": {
+        "description": "Razones por las que comenzó a tomar hormonas: Un amigo/a o familiar me aconsejó que lo tomara",
+        "unit": "None"
+    },
+    "r01_165g": {
+        "description": "Razones por las que comenzó a tomar hormonas: Mejorar mi memoria",
+        "unit": "None"
+    },
+    "gf028": {
+        "description": "¿Cuántos embarazos en total ha tenido?",
+        "unit": "None"
+    },
+    "r01_172": {
+        "description": "Desde la ultima vez que nos visito, ¿ha estado embarazada?",
+        "unit": "None"
+    },
+    "gf029": {
+        "description": "¿De estos embarazo cuántos han sido….¿Nacidos vivos?",
+        "unit": "None"
+    },
+    "r01_173a": {
+        "description": "¿De estos embarazos... numero de hijo",
+        "unit": "None"
+    },
+    "r01_173b": {
+        "description": "¿De estos embarazos... numero de hijo",
+        "unit": "None"
+    },
+    "gf029_a": {
+        "description": "¿De estos embarazos cuántos han sido….Fecha de nacimiento del primer niño",
+        "unit": "None"
+    },
+    "gf029_b": {
+        "description": "¿De estos embarazos cuántos han sido….Fecha de nacimiento del segundo niño",
+        "unit": "None"
+    },
+    "gf029_2": {
+        "description": "¿Nacido muerto?",
+        "unit": "None"
+    },
+    "gf029_3": {
+        "description": "Murio dentro de un año de nacimiento",
+        "unit": "None"
+    },
+    "gf029_3a": {
+        "description": "Murio despues de un año de nacimiento",
+        "unit": "None"
+    },
+    "gf029_4": {
+        "description": "¿Abortos o pérdida?",
+        "unit": "None"
+    },
+    "r01_1734a": {
+        "description": "¿De estos embarazos... numero de hijo",
+        "unit": "None"
+    },
+    "r01_1734b": {
+        "description": "¿De estos embarazos... numero de hijo",
+        "unit": "None"
+    },
+    "gf029_1a": {
+        "description": "¿En alguno de estos embarazos sufrió usted de diabetes gestacional?, 1°",
+        "unit": "None"
+    },
+    "gf029_1b": {
+        "description": "¿En alguno de estos embarazos sufrió usted de diabetes gestacional?, 2°",
+        "unit": "None"
+    },
+    "r01_18": {
+        "description": "¿Usted amamanto a alguno de sus hijos?",
+        "unit": "None"
+    },
+    "r01_181a1": {
+        "description": "¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 1°",
+        "unit": "None"
+    },
+    "r01_181a2": {
+        "description": "¿Participante en ELEMENT 1°",
+        "unit": "None"
+    },
+    "r01_181a3": {
+        "description": "Folio en ELEMENT 2°",
+        "unit": "None"
+    },
+    "r01_181b1": {
+        "description": "¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 2°",
+        "unit": "None"
+    },
+    "r01_181b2": {
+        "description": "¿Participante en ELEMENT 2°",
+        "unit": "None"
+    },
+    "r01_181b3": {
+        "description": "18.1 Folio en ELEMENT 3°",
+        "unit": "None"
+    },
+    "r01_181c1": {
+        "description": "18.1 ¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 3°",
+        "unit": "None"
+    },
+    "r01_181c2": {
+        "description": "18.1 ¿Participante en ELEMENT 3°",
+        "unit": "None"
+    },
+    "r01_181c3": {
+        "description": "18.1 Folio en ELEMENT 3°",
+        "unit": "None"
+    },
+    "r01_181d1": {
+        "description": "18.1 ¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 4°",
+        "unit": "None"
+    },
+    "r01_181d2": {
+        "description": "18.1 ¿Participante en ELEMENT 4°",
+        "unit": "None"
+    },
+    "r01_181d3": {
+        "description": "18.1 Folio en ELEMENT 4°",
+        "unit": "None"
+    },
+    "r01_181e1": {
+        "description": "18.1 ¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 5°",
+        "unit": "None"
+    },
+    "r01_181e2": {
+        "description": "18.1 ¿Participante en ELEMENT 5°",
+        "unit": "None"
+    },
+    "r01_181e3": {
+        "description": "18.1 Folio en ELEMENT 5°",
+        "unit": "None"
+    },
+    "r01_181f1": {
+        "description": "¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 6°",
+        "unit": "None"
+    },
+    "r01_181f2": {
+        "description": "¿Participante en ELEMENT 6°",
+        "unit": "None"
+    },
+    "r01_181f3": {
+        "description": "Folio en ELEMENT 6°",
+        "unit": "None"
+    },
+    "r01_181g1": {
+        "description": "¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 7°",
+        "unit": "None"
+    },
+    "r01_181g2": {
+        "description": "¿Participante en ELEMENT 7°",
+        "unit": "None"
+    },
+    "r01_181g3": {
+        "description": "Folio en ELEMENT 7°",
+        "unit": "None"
+    },
+    "r01_181h1": {
+        "description": "¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 8°",
+        "unit": "None"
+    },
+    "r01_181h2": {
+        "description": "¿Participante en ELEMENT 8°",
+        "unit": "None"
+    },
+    "r01_181h3": {
+        "description": "Folio en ELEMENT 8°",
+        "unit": "None"
+    },
+    "r01_181i1": {
+        "description": "¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 9°",
+        "unit": "None"
+    },
+    "r01_181i2": {
+        "description": "18.1 ¿Participante en ELEMENT 9°",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_181i3": {
+        "description": "18.1 Folio en ELEMENT 9°",
+        "unit": "None"
+    },
+    "r01_181j1": {
+        "description": "18.1 ¿Durante cuanto tiempo usted amamanto a cada uno de sus hijos? 10°",
+        "unit": "1= No fue amamantado, 2= Menos de 3 meses, 3= 3 a 6 meses, 4= 6 a 12 meses, 5= 13 o más meses, 99= No sabe o no recuerda"
+    },
+    "r01_181j2": {
+        "description": "18.1 ¿Participante en ELEMENT 10°",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_181j3": {
+        "description": "18.1 Folio en ELEMENT 10°",
+        "unit": "None"
+    },
+    "r01_19": {
+        "description": "Desde la última vez que nos visitó, ¿Su hijo / hija que participa en el estudio ELEMENT ha tenido nuevos hijos/as?",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_20": {
+        "description": "20. Desde la ultima vez que nos visitó, ¿Cuántos hijos/as ha tenido su hijo/a?",
+        "unit": "None"
+    },
+    "r01_21a": {
+        "description": "21a. ¿Cual es el sexo del nuevo bebé? 1°",
+        "unit": "1= Hombre, 2= Mujer"
+    },
+    "r01_21b": {
+        "description": "21b. ¿Cual es el sexo del nuevo bebé? 2°",
+        "unit": "1= Hombre, 2= Mujer"
+    },
+    "r01_21c": {
+        "description": "21c. ¿Cual es el sexo del nuevo bebé? 3°",
+        "unit": "1= Hombre, 2= Mujer"
+    },
+    "r01_22a": {
+        "description": "¿Cual es la fecha de nacimiento? 1°",
+        "unit": "None"
+    },
+    "r01_22b": {
+        "description": "¿Cual es la fecha de nacimiento? 2°",
+        "unit": "None"
+    },
+    "r01_22c": {
+        "description": "¿Cual es la fecha de nacimiento? 3°",
+        "unit": "None"
+    },
+    "r01_23a1": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 1°",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_23a2": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 1° Foliocc",
+        "unit": "None"
+    },
+    "r01_23a3": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 1° N",
+        "unit": "None"
+    },
+    "r01_23b1": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 2°",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_23b2": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 2° Foliocc",
+        "unit": "None"
+    },
+    "r01_23b3": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 2° N",
+        "unit": "None"
+    },
+    "r01_23c1": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 3°",
+        "unit": "1= Si, 2= No"
+    },
+    "r01_23c2": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 3° Foliocc",
+        "unit": "None"
+    },
+    "r01_23c3": {
+        "description": "¿Este nuevo bebe (s) ya ha sido reclutado en nuestro estudio ELEMENT? 3° N",
+        "unit": "None"
+    },
+    "r01_231": {
+        "description": "Pensando en su HIJA participando en el proyecto, ¿Esta embarazada actualmente?",
+        "unit": "None"
+    },
+    "r01_232a": {
+        "description": "¿Cual es el mes esperado de nacimiento?",
+        "unit": "None"
+    },
+    "r01_232b": {
+        "description": "¿Cual es el año esperado de nacimiento?",
+        "unit": "None"
+    },
+    "r01_241": {
+        "description": "Pensando en la pareja de su HIJO participando en el proyecto, ¿Está embarazada actualmente?",
+        "unit": "None"
+    },
+    "r01_242a": {
+        "description": "¿Cual es el mes esperado de nacimiento?",
+        "unit": "None"
+    },
+    "r01_242b": {
+        "description": "¿Cual es el año esperado de nacimiento?",
+        "unit": "None"
+    },
+    "r01_25": {
+        "description": "¿Alguna vez ha sido diagnosticada con COVID-19?",
+        "unit": "None"
+    },
+    "r01_26": {
+        "description": "Numero de veces que ha tenido o sospechado tener COVID-19",
+        "unit": "None"
+    },
+    "r01_27": {
+        "description": "¿Como fue realizado el diagnostico?",
+        "unit": "None"
+    },
+    "r01_28a": {
+        "description": "Fecha del diagnostico o sospecha de la enfermedad. Mes",
+        "unit": "None"
+    },
+    "r01_28b": {
+        "description": "Fecha del diagnostico o sospecha de la enfermedad. Año",
+        "unit": "None"
+    },
+    "r01_29a": {
+        "description": "¿Presento alguno de los siguientes sintomas? Tos",
+        "unit": "None"
+    },
+    "r01_29b": {
+        "description": "¿Presento alguno de los siguientes sintomas? Dolor de garganta",
+        "unit": "None"
+    },
+    "r01_29c": {
+        "description": "¿Presento alguno de los siguientes sintomas? Fatiga",
+        "unit": "None"
+    },
+    "r01_29d": {
+        "description": "¿Presento alguno de los siguientes sintomas? Congestion nasal o secrecion nasales",
+        "unit": "None"
+    },
+    "r01_29e": {
+        "description": "¿Presento alguno de los siguientes sintomas? Fiebre o escalofrios",
+        "unit": "None"
+    },
+    "r01_29f": {
+        "description": "¿Presento alguno de los siguientes sintomas? Dolores de cabeza",
+        "unit": "None"
+    },
+    "r01_29g": {
+        "description": "¿Presento alguno de los siguientes sintomas? Dolores musculares o corporales",
+        "unit": "None"
+    },
+    "r01_29h": {
+        "description": "¿Presento alguno de los siguientes sintomas? Falta de aire o dificultad para respirar",
+        "unit": "1=Si mencionó"
+    },
+    "r01_29i": {
+        "description": "¿Presento alguno de los siguientes sintomas? Nauseas o vomitos",
+        "unit": "1=Si mencionó"
+    },
+    "r01_29j": {
+        "description": "¿Presento alguno de los siguientes sintomas? Diarrea",
+        "unit": "1=Si mencionó"
+    },
+    "r01_29k": {
+        "description": "¿Presento alguno de los siguientes sintomas? Perdida del gusto u olfato",
+        "unit": "1=Si mencionó"
+    },
+    "r01_29l": {
+        "description": "¿Presento alguno de los siguientes sintomas? Asintomatica",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30a": {
+        "description": "¿En que consistio su tratamiento? Oxigeno",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30b": {
+        "description": "¿En que consistio su tratamiento? Hospitalización",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30c": {
+        "description": "¿En que consistio su tratamiento? Intubación",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30d": {
+        "description": "¿En que consistio su tratamiento? Aislamiento en casa",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30e": {
+        "description": "¿En que consistio su tratamiento? Medicamento",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30f": {
+        "description": "¿En que consistio su tratamiento? Otro",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30f1": {
+        "description": "¿En que consistio su tratamiento? Otro, especifique",
+        "unit": "None"
+    },
+    "r01_30g": {
+        "description": "¿En que consistio su tratamiento? No recibí tratamiento",
+        "unit": "1=Si mencionó"
+    },
+    "r01_30h": {
+        "description": "¿En que consistio su tratamiento? No seguí el tratamiento",
+        "unit": "None"
+    },
+    "r01_31a": {
+        "description": "Después de que le diagnosticaron, ¿Cuánto tardo en regresar a sus actividades habituales?",
+        "unit": "Días"
+    },
+    "r01_31b": {
+        "description": "Después de que le diagnosticaron, ¿Cuánto tardo en regresar a sus actividades habituales?",
+        "unit": "Meses"
+    },
+    "r01_31c": {
+        "description": "Después de que le diagnosticaron, ¿Cuánto tardo en regresar a sus actividades habituales?",
+        "unit": "No he podido regresar a mis actividades habituales"
+    },
+    "r01_32": {
+        "description": "Despues de haber tenido o sospechar tener COVID-19, ¿Ha experimentado alguna molestia o síntoma durante al menos dos meses?",
+        "unit": "Sí= 1, No= 2"
+    },
+    "r01_321a": {
+        "description": "Cansancio o fatiga que interfiere con las actividades diarias",
+        "unit": "Si=1, No=2"
+    },
+    "r01_321b": {
+        "description": "Cansancio o fatiga que interfiere con las actividades diarias, meses",
+        "unit": "None"
+    },
+    "r01_322a": {
+        "description": "Síntomas que empeoran tras esfuerzos físicos o mentales",
+        "unit": "Sí/No"
+    },
+    "r01_322b": {
+        "description": "Síntomas que empeoran tras esfuerzos físicos o mentales, meses",
+        "unit": "meses"
+    },
+    "r01_323a": {
+        "description": "Fiebre",
+        "unit": "Sí/No"
+    },
+    "r01_323b": {
+        "description": "Fiebre, meses",
+        "unit": "meses"
+    },
+    "r01_324a": {
+        "description": "Dificultad para respirar o falta de aire",
+        "unit": "Sí/No"
+    },
+    "r01_324b": {
+        "description": "Dificultad para respirar o falta de aire, meses",
+        "unit": "meses"
+    },
+    "r01_325a": {
+        "description": "Tos",
+        "unit": "Sí/No"
+    },
+    "r01_325b": {
+        "description": "Tos, meses",
+        "unit": "meses"
+    },
+    "r01_326a": {
+        "description": "Dolor en el pecho",
+        "unit": "Sí/No"
+    },
+    "r01_326b": {
+        "description": "Dolor en el pecho, meses",
+        "unit": "meses"
+    },
+    "r01_327a": {
+        "description": "Latidos rapidos o fuertes del corazón (palpitaciones)",
+        "unit": "Si=1, No=2"
+    },
+    "r01_327b": {
+        "description": "Latidos rapidos o fuertes del corazón (palpitaciones), meses",
+        "unit": "None"
+    },
+    "r01_328a": {
+        "description": "Dificultad para pensar o concentrarse (\"niebla mental\")",
+        "unit": "Si=1, No=2"
+    },
+    "r01_328b": {
+        "description": "Dificultad para pensar o concentrarse (\"niebla mental\"), meses",
+        "unit": "None"
+    },
+    "r01_329a": {
+        "description": "Dolor de cabeza",
+        "unit": "Si=1, No=2"
+    },
+    "r01_329b": {
+        "description": "Dolor de cabeza, meses",
+        "unit": "None"
+    },
+    "r01_3210a": {
+        "description": "Problemas para dormir",
+        "unit": "Si=1, No=2"
+    },
+    "r01_3210b": {
+        "description": "Problemas para dormir, meses",
+        "unit": "None"
+    },
+    "r01_3211a": {
+        "description": "Mareos al ponerse de pie",
+        "unit": "Si=1, No=2"
+    },
+    "r01_3211b": {
+        "description": "Mareos al ponerse de pie, meses",
+        "unit": "None"
+    },
+    "r01_3212a": {
+        "description": "32.12 Hormigueos",
+        "unit": "None"
+    },
+    "r01_3212b": {
+        "description": "32.12 Hormigueos, meses",
+        "unit": "meses"
+    },
+    "r01_3213a": {
+        "description": "32.13 Cambios en el olfato o gusto",
+        "unit": "None"
+    },
+    "r01_3213b": {
+        "description": "32.13 Cambios en el olfato o gusto, meses",
+        "unit": "meses"
+    },
+    "r01_3214a": {
+        "description": "32.14 Depresion o ansiedad",
+        "unit": "None"
+    },
+    "r01_3214b": {
+        "description": "32.14 Depresion o ansiedad, meses",
+        "unit": "meses"
+    },
+    "r01_3215a": {
+        "description": "32.15 Diarrea",
+        "unit": "None"
+    },
+    "r01_3215b": {
+        "description": "32.15 Diarrea, meses",
+        "unit": "meses"
+    },
+    "r01_3216a": {
+        "description": "32.16 Dolor estomacal",
+        "unit": "None"
+    },
+    "r01_3216b": {
+        "description": "32.16 Dolor estomacal, meses",
+        "unit": "meses"
+    },
+    "r01_3217a": {
+        "description": "Dolor articular o muscular",
+        "unit": "Si=1, No=2"
+    },
+    "r01_3217b": {
+        "description": "Dolor articular o muscular, meses",
+        "unit": "None"
+    },
+    "r01_3218a": {
+        "description": "Salpullido",
+        "unit": "Si=1, No=2"
+    },
+    "r01_3218b": {
+        "description": "Salpullido, meses",
+        "unit": "None"
+    },
+    "r01_3219a": {
+        "description": "Cambios en el ciclo menstrual",
+        "unit": "Si=1, No=2"
+    },
+    "r01_3219b": {
+        "description": "Cambios en el ciclo menstrual, meses",
+        "unit": "None"
+    },
+    "r01_33": {
+        "description": "¿Se ha vacunado contra COVID-19?",
+        "unit": "1= Sí, 2= No"
+    },
+    "r01_331a": {
+        "description": "Vacuna primera dosis",
+        "unit": "None"
+    },
+    "r01_333a": {
+        "description": "Fecha primera dosis",
+        "unit": "None"
+    },
+    "r01_331b": {
+        "description": "Vacuna segunda dosis",
+        "unit": "None"
+    },
+    "r01_333b": {
+        "description": "Fecha segunda dosis",
+        "unit": "None"
+    },
+    "r01_331c": {
+        "description": "Vacuna refuerzo #1",
+        "unit": "None"
+    },
+    "r01_333c": {
+        "description": "Fecha refuerzo #1",
+        "unit": "None"
+    },
+    "r01_331d": {
+        "description": "Vacuna refuerzo #2",
+        "unit": "None"
+    },
+    "r01_333d": {
+        "description": "Fecha refuerzo #2",
+        "unit": "None"
+    },
+    "r01_331e": {
+        "description": "Vacuna refuerzo #3",
+        "unit": "None"
+    },
+    "r01_333e": {
+        "description": "Fecha refuerzo #3",
+        "unit": "None"
+    },
+    "r01_331f": {
+        "description": "Vacuna refuerzo #4",
+        "unit": "None"
+    },
+    "r01_333f": {
+        "description": "Fecha refuerzo #4",
+        "unit": "None"
+    },
+    "cc35_1": {
+        "description": "Indique por favor la que mejor representa su figura para cada edad. A los 10 años",
+        "unit": "figura"
+    },
+    "cc35_2": {
+        "description": "Indique por favor la que mejor representa su figura para cada edad. A los 15 años",
+        "unit": "1-9 figura"
+    },
+    "cc35_3": {
+        "description": "Indique por favor la que mejor representa su figura para cada edad. A los 20 años",
+        "unit": "1-9 figura"
+    },
+    "cc35_4": {
+        "description": "Indique por favor la que mejor representa su figura para cada edad. Antes de embarazarse",
+        "unit": "1-9 figura"
+    },
+    "cc35_5": {
+        "description": "Indique por favor la que mejor representa su figura para cada edad. Actualmente",
+        "unit": "1-9 figura"
+    },
+    "cc35_6": {
+        "description": "Indique por favor la que mejor representa su figura para cada edad. Actualmente, según la entrevistadora",
+        "unit": "1-9 figura"
+    },
+    "r01_35": {
+        "description": "En el último mes, ¿Con que frecuencia ha estado afectada por algo que ha ocurrido inesperadamente?",
+        "unit": "0= Nunca, 1= Casi nunca, 2= A veces, 3= Frecuentemente, 4= Muy frecuentemente"
+    },
+    "r01_36": {
+        "description": "En el último mes, ¿Con que frecuencia se ha sentido incapaz de controlar cosas importantes en su vida?",
+        "unit": "0= Nunca, 1= Casi nunca, 2= A veces, 3= Frecuentemente, 4= Muy frecuentemente"
+    },
+    "r01_36a": {
+        "description": "En el último mes, ¿Con que frecuencia se ha sentido nerviosa y estresada?",
+        "unit": "0= Nunca, 1= Casi nunca, 2= A veces, 3= Frecuentemente, 4= Muy frecuentemente"
+    },
+    "r01_37": {
+        "description": "En el último mes, ¿Con que frecuencia ha estado segura sobre su capacidad para manejar sus problemas personales?",
+        "unit": "0= Nunca, 1= Casi nunca, 2= A veces, 3= Frecuentemente, 4= Muy frecuentemente"
+    },
+    "r01_38": {
+        "description": "En el último mes, ¿Con que frecuencia ha sentido que las cosas le van bien?",
+        "unit": "0= Nunca, 1= Casi nunca, 2= A veces, 3= Frecuentemente, 4= Muy frecuentemente"
+    },
+    "r01_39": {
+        "description": "En el último mes, ¿Con que frecuencia ha sentido que no podía afrontar todas las cosas que tenía que hacer?",
+        "unit": "None"
+    },
+    "r01_40": {
+        "description": "En el último mes, ¿Con que frecuencia ha podido controlar las dificultades",
+        "unit": "None"
+    },
+    "r01_41": {
+        "description": "En el ultimo mes, ¿Con que frecuencia ha sentido que tenia todo bajo control?",
+        "unit": "None"
+    },
+    "r01_42": {
+        "description": "En el ultimo mes, ¿Con que frecuencia ha estado enfadada porque las cosas que le han ocurrido estaban fuera de su control?",
+        "unit": "None"
+    },
+    "r01_43": {
+        "description": "En el ultimo mes, ¿Con que frecuencia ha sentido que las dificultades se acumulaban tanto que no puede superarlas?",
+        "unit": "None"
+    },
+    "r01_44": {
+        "description": "Poco interes o placer en hacer cosas",
+        "unit": "None"
+    },
+    "r01_45": {
+        "description": "Se ha sentido decaída, deprimida o sin esperanzas",
+        "unit": "None"
+    },
+    "r01_46": {
+        "description": "Ha tenido dificultad para quedarse o permanecer dormida o ha dormido demasiado",
+        "unit": "None"
+    },
+    "r01_47": {
+        "description": "Se ha sentido cansada o con poca energía",
+        "unit": "None"
+    },
+    "r01_48": {
+        "description": "Sin apetito o ha comido en exceso",
+        "unit": "None"
+    },
+    "r01_49": {
+        "description": "Se ha sentido mal con usted misma – o que es un fracaso o que ha quedado mal conmigo misma o con mi familia",
+        "unit": "Días"
+    },
+    "r01_50": {
+        "description": "Ha tenido dificultad para concentrarse en ciertas actividades, tales con leer el periódico o ver la televisión",
+        "unit": "Días"
+    },
+    "r01_51": {
+        "description": "¿Me he movido o hablado tan lento que otras personas podrían haberlo notado? O lo contrario- muy inquieta o agitada que he estado moviéndome mucho más de lo normal",
+        "unit": "Días"
+    },
+    "r01_52": {
+        "description": "Pensamientos de que estaría mejor muerta o de lastimarse de alguna manera",
+        "unit": "Días"
+    },
+    "r01_53": {
+        "description": "¿Qué tanta dificultad le han dado estos problemas para hacer su trabajo, encargarse de las tareas del hogar, o llevarse bien con otras personas?",
+        "unit": "Nivel de dificultad"
+    },
+    "obs": {
+        "description": "Observaciones",
+        "unit": "None"
+    }
+}

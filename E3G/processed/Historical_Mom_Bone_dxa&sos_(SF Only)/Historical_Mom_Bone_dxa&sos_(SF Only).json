@@ -1,0 +1,122 @@
+{
+    "PROYECTO": {
+        "description": "Proyecto. BI(biomarcadores) PL(plasma)",
+        "unit": "None"
+    },
+    "FOLIO": {
+        "description": "File ID number",
+        "unit": "None"
+    },
+    "STAGE": {
+        "description": "stage",
+        "unit": "None"
+    },
+    "DENSITO_DATE": {
+        "description": "fecha de vista al cnr",
+        "unit": "MMDDYY10."
+    },
+    "L1": {
+        "description": "Lumbar 1",
+        "unit": "None"
+    },
+    "L2": {
+        "description": "Lumbar 2",
+        "unit": "None"
+    },
+    "L3": {
+        "description": "Lumbar 3",
+        "unit": "None"
+    },
+    "L4": {
+        "description": "Lumbar 4",
+        "unit": "None"
+    },
+    "L1L4": {
+        "description": "Madia de lumbar(1..4)",
+        "unit": "None"
+    },
+    "DX1": {
+        "description": "Diagnostico lumbar (1..4)",
+        "unit": "None"
+    },
+    "NECK": {
+        "description": "Cadera",
+        "unit": "None"
+    },
+    "TROCH": {
+        "description": "Trocante",
+        "unit": "None"
+    },
+    "INTER": {
+        "description": "?",
+        "unit": "None"
+    },
+    "TOTAL13": {
+        "description": "Media de cadera, trocante y ?",
+        "unit": "None"
+    },
+    "WARDS": {
+        "description": "?",
+        "unit": "None"
+    },
+    "DX2": {
+        "description": "Diagnostico de cadera, trocante y ?",
+        "unit": "None"
+    },
+    "TERCIO": {
+        "description": "Tercio del brazo",
+        "unit": "None"
+    },
+    "MID": {
+        "description": "Centro del Brazo",
+        "unit": "None"
+    },
+    "UD": {
+        "description": "Cerca de la muñeca",
+        "unit": "None"
+    },
+    "TOTAL34": {
+        "description": "Media de cadera, trocante y ?",
+        "unit": "None"
+    },
+    "DX3": {
+        "description": "Diagnostico del brazo",
+        "unit": "None"
+    },
+    "OBS_CNR": {
+        "description": "Observaciones del CNR",
+        "unit": "None"
+    },
+    "TALLA": {
+        "description": "Talla de la paciente.",
+        "unit": "None"
+    },
+    "PESO": {
+        "description": "Peso de la paciente.",
+        "unit": "None"
+    },
+    "SOS_R": {
+        "description": "(Speed of sound) velocidad del sonido en la medicion del Radio.",
+        "unit": "None"
+    },
+    "SOS_P": {
+        "description": "(Speed of sound) velocidad del sonido en la medicion de la falange proximal del",
+        "unit": "None"
+    },
+    "TSCORE_R": {
+        "description": "Valor T en la medicion del Radio.",
+        "unit": "None"
+    },
+    "TSCORE_P": {
+        "description": "Valor T en la medicion de la falange proximal del dedo medio.",
+        "unit": "None"
+    },
+    "ZSCORE_R": {
+        "description": "Valor Z en la medicion del Radio.",
+        "unit": "None"
+    },
+    "ZSCORE_P": {
+        "description": "Valor Z en la medicion de la falange proximal del dedo medio.",
+        "unit": "None"
+    }
+}

@@ -91,12 +91,14 @@ def main():
     print(f"Total unique words processed: {len(embeddings)}")
     
     for key, value in embeddings.items():
-        embedding_string = json.dumps(value)
-        cursor.execute('''
-            INSERT OR IGNORE INTO Words (word, embedding)
-            VALUES (?, ?)
-            ''', (key, embedding_string))
-
+        if len(value) == 64: 
+            print(f"Storing embedding for: {key}")
+            cursor.execute(f'''
+                INSERT OR IGNORE INTO Words (word, {', '.join(f'e{i}' for i in range(64))})
+                VALUES ({', '.join(['?'] * 65)})
+            ''', (key, *value))
+        else:
+            print(f"Skipping {key}, invalid embedding length: {len(value)}")
     conn.commit()
     conn.close()
 

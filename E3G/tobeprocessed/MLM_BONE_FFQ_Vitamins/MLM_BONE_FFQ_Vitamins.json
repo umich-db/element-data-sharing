@@ -1,0 +1,326 @@
+{
+    "proyecto": {
+        "description": "Proyecto",
+        "unit": null
+    },
+    "folio": {
+        "description": "Folio",
+        "unit": null
+    },
+    "foliocc": {
+        "description": "Folio del participante",
+        "unit": null
+    },
+    "id": {
+        "description": "ID del participante",
+        "unit": null
+    },
+    "etapa": {
+        "description": "Etapa MLM",
+        "unit": null
+    },
+    "etapa_F": {
+        "description": null,
+        "unit": null
+    },
+    "folioFFQ": {
+        "description": "Identificador FFQ",
+        "unit": null
+    },
+    "fech_etapa": {
+        "description": "Fecha de estudio",
+        "unit": null
+    },
+    "f0": {
+        "description": null,
+        "unit": null
+    },
+    "acfolico": {
+        "description": "Ácido fólico",
+        "unit": "mcg/d"
+    },
+    "defs": {
+        "description": "Defs (Dietary fotale equivalents)",
+        "unit": "mcg/d"
+    },
+    "vitaa_ui": {
+        "description": "Vitamina A",
+        "unit": "UI/d"
+    },
+    "vitaa_mcg": {
+        "description": "Vitamina A",
+        "unit": "mcg/d"
+    },
+    "tiamina_mg": {
+        "description": "Tiamina (B1)",
+        "unit": "mg/d"
+    },
+    "riboflavina": {
+        "description": "Riboflavina (B2)",
+        "unit": "mg/d"
+    },
+    "vitb5": {
+        "description": "Vitamina (B5)",
+        "unit": "mg/d"
+    },
+    "piridoxina": {
+        "description": "Piridoxina (B6)",
+        "unit": "mg/d"
+    },
+    "cianocobalamina": {
+        "description": "Cianocobalamina (B12)",
+        "unit": "mcg/d"
+    },
+    "vitc": {
+        "description": "Vitamina C",
+        "unit": "mg/d"
+    },
+    "vitd2_ui": {
+        "description": "Vitamina D2",
+        "unit": "UI/d"
+    },
+    "vitd2_mcg": {
+        "description": "Vitamina D2",
+        "unit": "mcg/d"
+    },
+    "vitd3_ui": {
+        "description": "Vitamina D3",
+        "unit": "UI/d"
+    },
+    "vitd_ui": {
+        "description": "Vitamina D",
+        "unit": "UI/d"
+    },
+    "vitd_mcg": {
+        "description": "Vitamina D",
+        "unit": "mcg"
+    },
+    "vite_ui": {
+        "description": "Vitamina E",
+        "unit": "UI/d"
+    },
+    "vite_mg": {
+        "description": "Vitamina E",
+        "unit": "mg/d"
+    },
+    "vitk1_mcg": {
+        "description": "Vitamina k1",
+        "unit": "mcg/d"
+    },
+    "vitk": {
+        "description": "Vitamina k",
+        "unit": "mcg/d"
+    },
+    "nicotinamida_b3": {
+        "description": "Nicotinamida",
+        "unit": "mg/d"
+    },
+    "niacinamida": {
+        "description": "Niacinamida",
+        "unit": "mg/d"
+    },
+    "niacina": {
+        "description": "Niacina (B3)",
+        "unit": "mg/d"
+    },
+    "calcio": {
+        "description": "Calcio",
+        "unit": "mg/d"
+    },
+    "hierro": {
+        "description": "Hierro",
+        "unit": "mg/d"
+    },
+    "sulf_ferroso": {
+        "description": "Sulfato ferroso",
+        "unit": "mg/d"
+    },
+    "magnesio": {
+        "description": "Magnesio",
+        "unit": "mg/d"
+    },
+    "sal_magnesio": {
+        "description": "Sal de magnesio",
+        "unit": "mg/d"
+    },
+    "biotina": {
+        "description": "Biotina (B7)",
+        "unit": "mcg/d"
+    },
+    "cobre_mcg": {
+        "description": "Cobre",
+        "unit": "mcg/d"
+    },
+    "sodio": {
+        "description": "Sodio",
+        "unit": "mg/d"
+    },
+    "selenio": {
+        "description": "Selenio",
+        "unit": "mcg/d"
+    },
+    "manganeso": {
+        "description": "Manganeso",
+        "unit": "mg/d"
+    },
+    "zinc": {
+        "description": "Zinc",
+        "unit": "mg/d"
+    },
+    "sal_zinc": {
+        "description": "Sal de zinc",
+        "unit": "mg/d"
+    },
+    "fosforo": {
+        "description": "Fosforo",
+        "unit": "mg/d"
+    },
+    "sal_fosforo": {
+        "description": "Sal de fosforo",
+        "unit": "mg/d"
+    },
+    "fluor": {
+        "description": "Flúor",
+        "unit": "mg/d"
+    },
+    "molibdeno": {
+        "description": "Molibdeno",
+        "unit": "mcg/d"
+    },
+    "cobre_mg": {
+        "description": "Cobre",
+        "unit": "mg/d"
+    },
+    "potasio": {
+        "description": "Potasio",
+        "unit": "mg/d"
+    },
+    "sal_potasio": {
+        "description": "Sal de potasio",
+        "unit": "mg/d"
+    },
+    "yodo": {
+        "description": "Yodo",
+        "unit": "mcg/d"
+    },
+    "cromo": {
+        "description": "Cromo",
+        "unit": "mcg/d"
+    },
+    "cloro": {
+        "description": "Cloro",
+        "unit": "mg/d"
+    },
+    "boro": {
+        "description": "Boro",
+        "unit": "mg/d"
+    },
+    "silicio": {
+        "description": "Silicio",
+        "unit": "mg/d"
+    },
+    "niquel": {
+        "description": "Níquel",
+        "unit": "mg/d"
+    },
+    "estano": {
+        "description": "Estaño",
+        "unit": "mcg/d"
+    },
+    "vanadio": {
+        "description": "Vanadio",
+        "unit": "mg/d"
+    },
+    "minerales": {
+        "description": "Minerales",
+        "unit": "mg/d"
+    },
+    "ac_linoleico": {
+        "description": "Ácido linoleico",
+        "unit": "mg/d"
+    },
+    "lecitina": {
+        "description": "Lecitina",
+        "unit": "mg/d"
+    },
+    "ac_pantotenico": {
+        "description": "Ácido pantoténico",
+        "unit": "mg/d"
+    },
+    "betacaroteno": {
+        "description": "Betacaroteno",
+        "unit": "UI/d"
+    },
+    "cafeina": {
+        "description": "Cafeína",
+        "unit": "mg/d"
+    },
+    "colina": {
+        "description": "Colina",
+        "unit": "mg/d"
+    },
+    "inositol": {
+        "description": "Inositol",
+        "unit": "mg/d"
+    },
+    "rutina": {
+        "description": "Rutina",
+        "unit": "mg/d"
+    },
+    "coenzima_k10": {
+        "description": "Coenzima K10",
+        "unit": "mg/d"
+    },
+    "ginseng_g115": {
+        "description": "Ginseng g115",
+        "unit": "mg/d"
+    },
+    "ginkgo_biloba": {
+        "description": "Ginkgo biloba",
+        "unit": "mg/d"
+    },
+    "coreano": {
+        "description": "Ginseng Coreano",
+        "unit": "mg/d"
+    },
+    "luteina": {
+        "description": "Luteína",
+        "unit": "mcg/d"
+    },
+    "hidroxocobalamina": {
+        "description": "Hidroxocobalamina",
+        "unit": "mg/d"
+    },
+    "nicotinamida": {
+        "description": "Nicotinamida",
+        "unit": "mg/d"
+    },
+    "ac_glutamico": {
+        "description": "Ácido glutámico",
+        "unit": "g/d"
+    },
+    "proteinas": {
+        "description": "Proteínas",
+        "unit": "g/d"
+    },
+    "carbohidratos": {
+        "description": "Carbohidratos",
+        "unit": "g/d"
+    },
+    "grasas": {
+        "description": "Grasas",
+        "unit": "g/d"
+    },
+    "fibra_diete": {
+        "description": "Fibra dietética",
+        "unit": "g/d"
+    },
+    "germen_trigo": {
+        "description": "Germen de trigo",
+        "unit": "mg/d"
+    },
+    "energia_kcal": {
+        "description": "Energía en kilocalorías",
+        "unit": "Kcal/d"
+    }
+}
