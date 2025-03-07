@@ -14,7 +14,7 @@ OPENAI_API_KEY=
 OPENAI_ORGANIZATION=
 API_VERSION=
 EMBEDDING_MODEL=
-
+```
 To set up the database, follow these steps:
 
 **Navigate to the `E3G/` directory**:
