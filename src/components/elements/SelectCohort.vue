@@ -13,6 +13,7 @@ const cohorts = ref([
   {name: "Historical", key: "6", value: 6},
   {name: "P01", key: "7", value: 7},
   {name: "P20", key: "8", value: 8},
+  {name: "MLM", key: "9", value: 9},
 ]);
 
 

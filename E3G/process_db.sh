@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PROCESSED_DIR="/Users/ericguo/Desktop/store_1018/sph_project/E3G/processed"
-DB_NAME="/Users/ericguo/Desktop/store_1018/sph_project/E3G/example.db"
+PROCESSED_DIR="./processed"
+DB_NAME="./example.db"
 
 find "$PROCESSED_DIR" -type f -name "*.json" | while read -r json_file; do
     dir_name=$(dirname "$json_file")

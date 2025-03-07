@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PYTHON_SCRIPT="/Users/ericguo/Desktop/sph_project/E3G/gpt_api.py"
+PYTHON_SCRIPT="./gpt_api.py"
 
 for dir in */; do
     if [ $(ls "$dir" | wc -l) -eq 2 ]; then

@@ -87,12 +87,12 @@ def main():
             embeddings[word] = embedding(word)
             save_embeddings_to_json(embeddings, json_file) 
     for key, value in embeddings.items():
-        if len(value) == 64:  # 确保 embedding 长度正确
+        if len(value) == 64:
             print(f"Storing embedding for: {key}")
             cursor.execute(f'''
                 INSERT OR IGNORE INTO Words_dataset (word, {', '.join(f'e{i}' for i in range(64))})
                 VALUES ({', '.join(['?'] * 65)})
-            ''', (key, *value))  # 关键修改点：将 64 维 embedding 展开存入
+            ''', (key, *value)) 
         else:
             print(f"Skipping {key}, invalid embedding length: {len(value)}")
 

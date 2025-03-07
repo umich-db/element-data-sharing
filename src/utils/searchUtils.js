@@ -177,7 +177,8 @@ const executeQuery = async (db, category, param, filters) => {
     5: 'FattyLiverData',
     6: 'Historical',
     7: 'P01',
-    8: 'P20'
+    8: 'P20',
+    9: 'MLM'
   };
 
   const visitList = filters.value.cohorts.map(value => cohortMap[value]);
@@ -371,6 +372,7 @@ const matchWord = (words, queryResult, category = 'variables') => {
   }
   const wordCountMap = {};
 
+  // eslint-disable-next-line no-unused-vars
   for (let [key, value] of Object.entries(queryResult)) {
     let targetArray;
 

@@ -29,3 +29,7 @@ coverage
 
 env/
 Metadata/
+E3G/.venv
+E3G/*.env
+public/example.db
+
