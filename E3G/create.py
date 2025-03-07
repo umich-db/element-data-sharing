@@ -1,5 +1,5 @@
 import sqlite3
-
+import os
 def execute_sql_file(conn, sql_file):
     with open(sql_file, 'r') as file:
         sql_script = file.read()
@@ -9,7 +9,12 @@ def execute_sql_file(conn, sql_file):
 
 def main():
     print("running")
-    conn = sqlite3.connect('example.db')
+    dbfile = 'example.db'
+    if os.path.exists(dbfile):
+        print(f"Removing existing {dbfile}...")
+        os.remove(dbfile)
+
+    conn = sqlite3.connect(dbfile)
     execute_sql_file(conn, 'schema.sql')
     conn.commit()
     conn.close()
